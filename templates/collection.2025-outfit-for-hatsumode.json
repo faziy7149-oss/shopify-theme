@@ -1,0 +1,517 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [
+          "shirts",
+          "スウェット",
+          "ジャケット-アウター",
+          "アクセサリー",
+          "short-sleeve-t-shirts",
+          "short-sleeve-shirts",
+          "カーゴパンツ",
+          "coat",
+          "デニムパンツ"
+        ],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "slideshow_LH9MfX": {
+      "type": "slideshow",
+      "blocks": {
+        "image_Hjrgwb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/645__1920_0fbd1f67-c675-420d-a78f-d907efa0b1e4.png",
+            "mobile_image": "shopify://shop_images/20251226-180310.png",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": false,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_Hjrgwb"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_3TdmK7": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_06fc68b0-5387-4361-847c-ea230eb4f244.png",
+        "mobile_image": "shopify://shop_images/720_872dff67-c59a-4d98-8062-2112a9038d7f.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_qTdkCE": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -7,
+        "margin_top2": -5
+      }
+    },
+    "image_and_text_links_M9n4kK": {
+      "type": "image-and-text-links",
+      "blocks": {
+        "text_link_wPaCTx": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "INNER",
+            "discounted_price": "¥5,600 ",
+            "original_price": "¥15,980",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-27-wy562?_pos=1&_sid=7b3120228&_ss=r&variant=46341377163483"
+          }
+        },
+        "text_link_j4cPkt": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "HANTEN",
+            "discounted_price": "¥12,790",
+            "original_price": "¥15,980",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-ae5313m?_pos=1&_sid=cf5511808&_ss=r&variant=44459591008475"
+          }
+        },
+        "text_link_9fUJef": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "PANTS",
+            "discounted_price": "¥12,960 ",
+            "original_price": "¥14,390",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-md-1801026?_pos=1&_sid=4ef0c9eb1&_ss=r"
+          }
+        },
+        "text_link_CazN48": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "SHOES",
+            "discounted_price": "¥25,980",
+            "original_price": "",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-ww-306-2?_pos=1&_sid=e626e204c&_ss=r&variant=47865999392987"
+          }
+        },
+        "text_link_JVm6mU": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "BAG",
+            "discounted_price": "¥3,850 ",
+            "original_price": "¥6,990",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-alm-mmmnb103?_pos=1&_sid=3ad82fc82&_ss=r&variant=44692341260507"
+          }
+        }
+      },
+      "block_order": [
+        "text_link_wPaCTx",
+        "text_link_j4cPkt",
+        "text_link_9fUJef",
+        "text_link_CazN48",
+        "text_link_JVm6mU"
+      ],
+      "name": "Image and Text Links",
+      "settings": {
+        "image": "shopify://shop_images/look01_0047a59f-ccd1-455c-b400-68f9e861bdb5.png",
+        "coll_grid_image_shape": "shortest",
+        "image_position": "column-reverse",
+        "styling_all_text": "",
+        "styling_all_link": "#data-1",
+        "max_width_screen": 820,
+        "title_color": "#000000",
+        "discounted_price": "#c20000",
+        "original_price": "#333"
+      }
+    },
+    "image_and_text_links_zaCPK7": {
+      "type": "image-and-text-links",
+      "blocks": {
+        "text_link_dti3bq": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "INNER",
+            "discounted_price": "¥5,600",
+            "original_price": "¥15,980",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-27-wy562?_pos=1&_sid=d6ea1bc65&_ss=r&variant=46341377163483"
+          }
+        },
+        "text_link_JB4mkH": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "SHIRT",
+            "discounted_price": "¥8,400",
+            "original_price": "¥12,980",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-gsh-sbrrad?_pos=1&_sid=113d15faa&_ss=r&variant=47589097832667"
+          }
+        },
+        "text_link_WPqkrQ": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "JACKET",
+            "discounted_price": "¥18,290",
+            "original_price": "¥33,390",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-md-tw2007198?_pos=3&_sid=493edbe08&_ss=r&variant=42148952539355"
+          }
+        },
+        "text_link_WkGKjy": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "PANTS",
+            "discounted_price": "¥11,880",
+            "original_price": "¥13,190",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-md-ts2107034?_pos=1&_sid=38536e2aa&_ss=r&variant=43643870019803"
+          }
+        },
+        "text_link_Yn3ijG": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "SCARF",
+            "discounted_price": "¥9,980",
+            "original_price": "",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-ok0005?_pos=1&_sid=941793888&_ss=r&variant=43564672680155"
+          }
+        },
+        "text_link_tBXzzj": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "BAG",
+            "discounted_price": "¥3,850",
+            "original_price": "¥6,990",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-alm-mmmnb103?_pos=1&_sid=4a78a32f0&_ss=r&variant=44692341260507"
+          }
+        }
+      },
+      "block_order": [
+        "text_link_dti3bq",
+        "text_link_JB4mkH",
+        "text_link_WPqkrQ",
+        "text_link_WkGKjy",
+        "text_link_Yn3ijG",
+        "text_link_tBXzzj"
+      ],
+      "name": "Image and Text Links",
+      "settings": {
+        "image": "shopify://shop_images/look02_d1daa926-b5c1-45e6-8a46-6a42a56382e8.png",
+        "coll_grid_image_shape": "shortest",
+        "image_position": "column-reverse",
+        "styling_all_text": "",
+        "styling_all_link": "",
+        "max_width_screen": 820,
+        "title_color": "#333",
+        "discounted_price": "#c20000",
+        "original_price": "#333"
+      }
+    },
+    "image_and_text_links_KpE8MX": {
+      "type": "image-and-text-links",
+      "blocks": {
+        "text_link_bGN66q": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "SWEATSHIRT",
+            "discounted_price": "¥6,590",
+            "original_price": "¥10,980",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-zyd-ckwft0715?_pos=1&_sid=3f25fdf89&_ss=r&variant=47401522823387"
+          }
+        },
+        "text_link_DmigF4": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "JACKET",
+            "discounted_price": "¥15,190",
+            "original_price": "¥18,980",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-ljp-fshxzwt820?_pos=1&_sid=3cff36f22&_ss=r&variant=45974123348187"
+          }
+        },
+        "text_link_Fg6H3k": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "PANTS",
+            "discounted_price": "¥12,590",
+            "original_price": "¥13,980",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-md-ts2401363?_pos=1&_sid=005d35fb5&_ss=r"
+          }
+        },
+        "text_link_m8bCeg": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "SHOES",
+            "discounted_price": "¥14,400",
+            "original_price": "¥15,990",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-md-md2401201?_pos=1&_sid=55481fecc&_ss=r&variant=44908844712155"
+          }
+        }
+      },
+      "block_order": [
+        "text_link_bGN66q",
+        "text_link_DmigF4",
+        "text_link_Fg6H3k",
+        "text_link_m8bCeg"
+      ],
+      "name": "Image and Text Links",
+      "settings": {
+        "image": "shopify://shop_images/look03_b9198246-670e-47fc-812f-c722cce989eb.png",
+        "coll_grid_image_shape": "shortest",
+        "image_position": "column-reverse",
+        "styling_all_text": "",
+        "styling_all_link": "",
+        "max_width_screen": 820,
+        "title_color": "#333",
+        "discounted_price": "#c20000",
+        "original_price": "#333"
+      }
+    },
+    "image_and_text_links_NxCrBD": {
+      "type": "image-and-text-links",
+      "blocks": {
+        "text_link_Ktr38Y": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "KNIT",
+            "discounted_price": "¥9,700",
+            "original_price": "¥12,980",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-zyd-skirs0626?_pos=1&_sid=28659a7d8&_ss=r&variant=47647695569115"
+          }
+        },
+        "text_link_QeQGRD": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "VEST",
+            "discounted_price": "¥11,190",
+            "original_price": "¥13,980",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-nxb407-mj92425?_pos=2&_sid=cdf02796d&_ss=r"
+          }
+        },
+        "text_link_BKBnwM": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "PANTS",
+            "discounted_price": "¥14,400",
+            "original_price": "¥15,990",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-dc-502?_pos=1&_sid=568e9a1f8&_ss=r"
+          }
+        },
+        "text_link_Ab87iX": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "SHOES",
+            "discounted_price": "¥11,650",
+            "original_price": "¥16,631",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/md-2001005?_pos=3&_sid=77eba61bf&_ss=r"
+          }
+        },
+        "text_link_edEbP4": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "BAG",
+            "discounted_price": "¥8,800",
+            "original_price": "¥11,000",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-md-ts2207664?_pos=1&_sid=1d67b3f24&_ss=r"
+          }
+        }
+      },
+      "block_order": [
+        "text_link_Ktr38Y",
+        "text_link_QeQGRD",
+        "text_link_BKBnwM",
+        "text_link_Ab87iX",
+        "text_link_edEbP4"
+      ],
+      "name": "Image and Text Links",
+      "settings": {
+        "image": "shopify://shop_images/look04_81e52350-1e8e-4f92-96cb-171139e730d5.png",
+        "coll_grid_image_shape": "shortest",
+        "image_position": "column-reverse",
+        "styling_all_text": "",
+        "styling_all_link": "",
+        "max_width_screen": 820,
+        "title_color": "#333",
+        "discounted_price": "#c20000",
+        "original_price": "#333"
+      }
+    },
+    "image_and_text_links_9mf744": {
+      "type": "image-and-text-links",
+      "blocks": {
+        "text_link_Egr7z6": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "SWEATSHIRT",
+            "discounted_price": "¥7,790",
+            "original_price": "¥12,980",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-zyd-hd251060?_pos=1&_sid=4a58ee34d&_ss=r&variant=47890319147227"
+          }
+        },
+        "text_link_ntwQLF": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "JACKET",
+            "discounted_price": "¥16,990",
+            "original_price": "¥18,980",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-gsh-jk1007?_pos=1&_sid=adb2dd2c4&_ss=r&variant=47877999001819"
+          }
+        },
+        "text_link_eRqp6i": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "PANTS",
+            "discounted_price": "¥10,980",
+            "original_price": "¥12,190",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-md-1802024?_pos=1&_sid=5c18e4cb3&_ss=r"
+          }
+        },
+        "text_link_6UbbUp": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "SHOES",
+            "discounted_price": "¥11,200",
+            "original_price": "¥15,990",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-md-d2301002?_pos=2&_sid=ec2af0949&_ss=r"
+          }
+        },
+        "text_link_KWKbaF": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "BAG",
+            "discounted_price": "¥3,850 ",
+            "original_price": "¥6,990",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-alm-mmmnb103?_pos=1&_sid=19ccf34aa&_ss=r&variant=44692341260507"
+          }
+        }
+      },
+      "block_order": [
+        "text_link_Egr7z6",
+        "text_link_ntwQLF",
+        "text_link_eRqp6i",
+        "text_link_6UbbUp",
+        "text_link_KWKbaF"
+      ],
+      "name": "Image and Text Links",
+      "settings": {
+        "image": "shopify://shop_images/look05_7ca4b9a7-f298-4120-a61d-e82617d4fef7.png",
+        "coll_grid_image_shape": "shortest",
+        "image_position": "column-reverse",
+        "styling_all_text": "",
+        "styling_all_link": "",
+        "max_width_screen": 820,
+        "title_color": "#333",
+        "discounted_price": "#c20000",
+        "original_price": "#333"
+      }
+    },
+    "background_image_7Tikcw": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#e1dac8",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_LH9MfX",
+    "image_3TdmK7",
+    "adjusting_spacing_qTdkCE",
+    "image_and_text_links_M9n4kK",
+    "image_and_text_links_zaCPK7",
+    "image_and_text_links_KpE8MX",
+    "image_and_text_links_NxCrBD",
+    "image_and_text_links_9mf744",
+    "background_image_7Tikcw"
+  ]
+}

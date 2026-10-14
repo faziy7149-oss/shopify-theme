@@ -1,0 +1,1029 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "slideshow_KjpXMy": {
+      "type": "slideshow",
+      "blocks": {
+        "image_Bkt8C7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/210__1920.jpg",
+            "mobile_image": "shopify://shop_images/210__1080.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_Bkt8C7"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "scrolling_banner_image_QiRTrN": {
+      "type": "scrolling-banner-image",
+      "blocks": {
+        "image_qiynyc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/hot_1.png",
+            "image_width": 110,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_qiynyc"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 36.5,
+        "direction": "left",
+        "font": "heading",
+        "space": 30
+      }
+    },
+    "image_jump_custom_efw3UV": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_FMTMnB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20250711-165759.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_FMTMnB"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_jump_custom_xEntXF": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_qTmzba": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_c603697d-310a-4a06-90ca-94cf7c981c08.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_qTmzba"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_slider_NRBr3r": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_hiWcYT": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-1_8a8f6a9b-46d7-41cb-a4cd-75ca475ac186.jpg"
+          }
+        },
+        "image_slider_7tM9pP": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-2_a60db250-93a1-4b36-9060-98c010b70865.jpg"
+          }
+        },
+        "image_slider_6bXBNP": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-3_d1ca563b-b463-4a78-a041-b4c4f22db2e0.jpg"
+          }
+        },
+        "image_slider_CLnCMh": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-4_7da4ba7d-442f-47b7-b2a3-80597b90ee9e.jpg"
+          }
+        },
+        "main_diagram_NwcD99": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-1_f1218e2f-f9f6-4f21-a587-30ef4ebffb94.jpg",
+            "main_img2": "shopify://shop_images/600x720-2_a72ca026-e647-4411-8149-21030907a3f1.jpg"
+          }
+        },
+        "image_info_pwEndd": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "左袖のジッパーポケット付き、小物収納が可能で、ミリタリージャケットのディテールを踏襲。裏地はメッシュになって、内部の汗の水蒸気を効果的に放出し、ヌレやムレから身体を守る。これからの季節でも通気性よく着用可能。",
+            "price_discount": 9090,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/collections/jacket/products/krk-061-urwt25"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_hiWcYT",
+        "image_slider_7tM9pP",
+        "image_slider_6bXBNP",
+        "image_slider_CLnCMh",
+        "main_diagram_NwcD99",
+        "image_info_pwEndd"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#000000",
+        "price_col": "#c8212d",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#f56829",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#f7c754"
+      }
+    },
+    "image_jump_custom_f7LCQK": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_TXGqBh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_2f61bdd8-dc88-473d-aed8-9c8ac0a2313e.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_TXGqBh"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_slider_mY3acR": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_EapcMM": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-5_007fa230-ad9a-46a9-bc81-50b6cc9ed7b3.jpg"
+          }
+        },
+        "image_slider_FRKHHj": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-6_a2c57555-b6f1-4f19-a694-3a9714465f52.jpg"
+          }
+        },
+        "image_slider_BRxA6q": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-7_28c23e6b-59fd-4e0b-afd9-333866e5ead8.jpg"
+          }
+        },
+        "image_slider_KTbgDA": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-8_c7cb9053-0dd8-46d9-a893-da9b89e540fa.jpg"
+          }
+        },
+        "main_diagram_BX94mn": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-3_84d5ac7d-57db-4b0b-80b4-2cd1bea3a4e5.jpg",
+            "main_img2": "shopify://shop_images/600x720-4_8bd25e7a-17ad-4c4b-b5bc-0b80fa4303a6.jpg"
+          }
+        },
+        "image_info_bwktLf": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "左胸元にミニ刺繍はオーセンティックさを感じさせる別注のデザイン、程よい主張とトレンドを感じさせる、1着でも十分な存在感を放つ。背中のセンターボックスプリーツの部分にロッカーループも配置しています。トラッド溢れるディテールが踏襲しながらも、裾の赤い紐をデザインされて遊び心が溢れています。",
+            "price_discount": 7140,
+            "original_price": 10980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-gpd-gs1344"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_EapcMM",
+        "image_slider_FRKHHj",
+        "image_slider_BRxA6q",
+        "image_slider_KTbgDA",
+        "main_diagram_BX94mn",
+        "image_info_bwktLf"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#000000",
+        "price_col": "#c8212d",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#f56829",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#f7c754"
+      }
+    },
+    "image_jump_custom_wpKqQX": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_9Bjxy9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_490e6e21-d8b3-4408-b753-887c9551d85f.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_9Bjxy9"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_slider_tfXwyf": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_NTmDBq": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-9_ddfe7c62-ca0d-46d6-8782-4bc994730e7e.jpg"
+          }
+        },
+        "image_slider_GH7Fca": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-10_8266dc78-3e9d-4e5d-8abf-34bbf57e38f4.jpg"
+          }
+        },
+        "image_slider_C3H7YX": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-11_ecbe35d9-653d-454d-98de-412aea01b0e8.jpg"
+          }
+        },
+        "image_slider_X3ntH6": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-12_6e8d7277-bd9e-4ff3-a773-d7b11e1ae4bb.jpg"
+          }
+        },
+        "main_diagram_RmC87D": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-5_9eb4bb65-70d6-4676-928b-260b4b6b287e.jpg",
+            "main_img2": "shopify://shop_images/600x720-6_0b9d62c0-3034-4adc-b645-96621bcd7820.jpg"
+          }
+        },
+        "image_info_pYKMXb": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ターコイズ風のストーンが中央にはめ込まれたメタルボタン、ボタンの周囲はアンティークゴールドやシルバー調のフレームで囲まれている。全体的にこだわることでルーズ感を演出、裾周りに綺麗なカットとしっかりしてる縫い方、リッチ感を増やす。",
+            "price_discount": 7500,
+            "original_price": 14980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-lsx-kcbt0407"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_NTmDBq",
+        "image_slider_GH7Fca",
+        "image_slider_C3H7YX",
+        "image_slider_X3ntH6",
+        "main_diagram_RmC87D",
+        "image_info_pYKMXb"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#000000",
+        "price_col": "#c8212d",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#f56829",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#f7c754"
+      }
+    },
+    "background_image_U8NMPV": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-06-28_17-22-03_6e878530-dfe9-4939-a924-f76688c6d424.jpg",
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#f4ede8",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_jump_custom_Fkjdpf": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_VhqpeA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_fab83acd-4b2e-415a-9c06-34d7f9807b5b.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_VhqpeA"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_slider_3LKcGM": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_itJMjM": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-13_a59af9da-bb1e-4b1f-bfe1-45775a0da6f6.jpg"
+          }
+        },
+        "image_slider_qmXVQR": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-14_eda483f4-bf03-4fe9-a304-c8acf3a9fd0e.jpg"
+          }
+        },
+        "image_slider_rCDYbb": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-15_2e238446-3cd6-4806-a2c4-efde2de4971f.jpg"
+          }
+        },
+        "image_slider_x9fN43": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-16_842a5ef0-ab00-4eb7-b2ce-ba1f273ed204.jpg"
+          }
+        },
+        "main_diagram_H9DNzE": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-7_00e8865b-fb46-412e-b68e-22a603c79ba8.jpg",
+            "main_img2": "shopify://shop_images/600x720-8_a3e85a1d-9194-457d-8e0d-90131edce45d.jpg"
+          }
+        },
+        "image_info_V977cx": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "虎の毛並みは、細かいステッチでリアルに描かれて、各虎の目が異なる色や表情をして、立体感とキャラクター性が強調されている。Tシャツ全体は無地の白でシンプルですが、袖の刺繍が大胆なアクセントとなって、シンプルさと華やかさのバランスが、洗練された印象を与える。",
+            "price_discount": 7990,
+            "original_price": 7990,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-gsh-lmdt0309?_pos=1&_sid=653fde9fa&_ss=r&variant=46741842297051"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_itJMjM",
+        "image_slider_qmXVQR",
+        "image_slider_rCDYbb",
+        "image_slider_x9fN43",
+        "main_diagram_H9DNzE",
+        "image_info_V977cx"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#000000",
+        "price_col": "#c8212d",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#f56829",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#f7c754"
+      }
+    },
+    "image_jump_custom_neLyBM": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_feVKJe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_40be95c7-d548-404c-a12b-030c1ef5581a.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_feVKJe"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_slider_3Y6FMk": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_QcHiAn": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-17_0a713e60-b23e-46b3-8669-a248c8f895fc.jpg"
+          }
+        },
+        "image_slider_yeXBwb": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-18_44372e98-5dd7-4767-9e0c-34363dd76351.jpg"
+          }
+        },
+        "image_slider_8H9GVL": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-19_8a5ec50b-4f06-489e-8dd0-1e806f978a83.jpg"
+          }
+        },
+        "image_slider_9M34CR": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-20_0aff4caf-e3dc-430a-8fde-62173d0a633e.jpg"
+          }
+        },
+        "main_diagram_np39Yj": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-9_e8f9550d-068d-448c-82dc-53a263abc936.jpg",
+            "main_img2": "shopify://shop_images/600x720-10_ea8cb221-2164-4451-83d2-436a18691f10.jpg"
+          }
+        },
+        "image_info_tCQqmt": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "Karaku大人気のオックスフォード長袖シャツをベースに、夏用の半袖タイプをアップデートした一枚です。",
+            "price_discount": 6590,
+            "original_price": 10980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-gsh-hslgdcs425?_pos=1&_sid=5f7b5b92c&_ss=r&variant=46733006864603"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_QcHiAn",
+        "image_slider_yeXBwb",
+        "image_slider_8H9GVL",
+        "image_slider_9M34CR",
+        "main_diagram_np39Yj",
+        "image_info_tCQqmt"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#000000",
+        "price_col": "#c8212d",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#f56829",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#f7c754"
+      }
+    },
+    "image_jump_custom_f7qqNa": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_7AbMz4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_09ef9a5a-10e7-4656-93e4-d13c34b724eb.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_7AbMz4"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_slider_AC8dk4": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_fyhxLM": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-21_13b78f36-40d5-43b6-96dd-307ca8b15081.jpg"
+          }
+        },
+        "image_slider_H63ife": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-22_d7d3eb4b-6fbc-4733-9d59-ed06d56a3cc4.jpg"
+          }
+        },
+        "image_slider_Uxbqhm": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-23_2ab7022d-638f-4ede-9c82-f26f644abed2.jpg"
+          }
+        },
+        "image_slider_zTkXYQ": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-24_dc5117e6-2bae-4c77-82f6-78721dab969f.jpg"
+          }
+        },
+        "main_diagram_xikz6N": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-11_588b4851-febe-4310-9969-bca9e7240b53.jpg",
+            "main_img2": "shopify://shop_images/600x720-12_3b1c1097-ff8d-4039-b1b5-b30fadeb5038.jpg"
+          }
+        },
+        "image_info_whL9rC": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "本アイテムはシンプルに見えて他と差がつく、デイリーユースに耐えられる耐久性と快適なサラッとした着心地が特徴的、トレンドのビッグシルエット、肩をドロップさせた抜け感ある、ユニセックスでの着用も可能で、ボトムは系統を選ばず色んなものを合わせて頂けます。",
+            "price_discount": 7010,
+            "original_price": 7780,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/md-fxtw2101111?_pos=1&_sid=3262ac91a&_ss=r&variant=40319963889842"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_fyhxLM",
+        "image_slider_H63ife",
+        "image_slider_Uxbqhm",
+        "image_slider_zTkXYQ",
+        "main_diagram_xikz6N",
+        "image_info_whL9rC"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#000000",
+        "price_col": "#c8212d",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#f56829",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#f7c754"
+      }
+    },
+    "image_jump_custom_7QbdEM": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_QYW7DC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7_c0879575-9a82-49d9-942a-a2c7b7740e74.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_QYW7DC"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_slider_HFti6m": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_peLX3z": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-25_7c63de53-1a4c-44d6-9da5-407d92761b7f.jpg"
+          }
+        },
+        "image_slider_Wfk3dX": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-26_f0a96c0f-5f01-4155-94b5-655b3fcf6aee.jpg"
+          }
+        },
+        "image_slider_6gtn6U": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-27_1fb50e08-adb8-4ddf-ac2f-a0e1c2c426ab.jpg"
+          }
+        },
+        "image_slider_KLhWaH": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-28_d2e6fcb7-fb2b-477f-b39f-5b23e95198ce.jpg"
+          }
+        },
+        "main_diagram_p4GMhJ": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-13_6ca24720-4556-4d34-b2e2-8feb2a64058f.jpg",
+            "main_img2": "shopify://shop_images/600x720-14_e5d78cbd-ce8d-4ae9-96d1-22882880a5e1.jpg"
+          }
+        },
+        "image_info_CDq4Vn": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "フロントに施されたステッチ入りの三角形が印象的な一枚。これは、1930年代のアメリカ海軍のトレーナーに由来するディテールで、ヴィンテージ感をさりげなく演出します。首元はクルーネック仕様で、シンプルかつ清潔感のある仕上がりに。",
+            "price_discount": 7200,
+            "original_price": 7990,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lrj-tk0325?_pos=1&_sid=34e7a2cb1&_ss=r&variant=46659167617243"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_peLX3z",
+        "image_slider_Wfk3dX",
+        "image_slider_6gtn6U",
+        "image_slider_KLhWaH",
+        "main_diagram_p4GMhJ",
+        "image_info_CDq4Vn"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#000000",
+        "price_col": "#c8212d",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#f56829",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#f7c754"
+      }
+    },
+    "image_jump_custom_fMEbHb": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_Dk3ary": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/8_7febe2a8-e25e-4d2c-a8e2-627ce814712c.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Dk3ary"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_slider_KMWhg9": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_NcaADk": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-30_0af1ad04-c46c-41b0-ad61-5cd290c40460.jpg"
+          }
+        },
+        "image_slider_LJaTCd": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-32_3aecf5e1-5e17-4613-b724-48c055629495.jpg"
+          }
+        },
+        "image_slider_qjcmH6": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-29_4a8a7c25-ab91-497e-b574-932d039adcf8.jpg"
+          }
+        },
+        "image_slider_64qfVV": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-31_98787a1f-98ed-4fa2-a9b9-20156f01008b.jpg"
+          }
+        },
+        "main_diagram_ik3yxj": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-15_75bc66b0-bc84-4147-a06a-a93e2f60ce70.jpg",
+            "main_img2": "shopify://shop_images/600x720-16_5077b328-30e0-4a42-9fad-d2f0f867abbc.jpg"
+          }
+        },
+        "image_info_Q3Lcz4": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "起毛感のある生地にエスニック柄のツイードパッチを組み合わせ、視覚的なアクセントを加えた個性的なデザインが魅力です。シャツの要となるボタンにはオーダーメイドのコンチョボタンを採用し、ディテールに高級感と独自性をプラス。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-zyd-nzrcs1202"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_NcaADk",
+        "image_slider_LJaTCd",
+        "image_slider_qjcmH6",
+        "image_slider_64qfVV",
+        "main_diagram_ik3yxj",
+        "image_info_Q3Lcz4"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#000000",
+        "price_col": "#c8212d",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#f56829",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#f7c754"
+      }
+    },
+    "image_jump_custom_3qm6hH": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_FAXTtR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9_3d341772-b397-47b5-8614-01814f100b93.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_FAXTtR"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_slider_F3RpQN": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_kp8ybh": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-33.jpg"
+          }
+        },
+        "image_slider_Xxr4AK": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-34.jpg"
+          }
+        },
+        "image_slider_epMydF": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-35.jpg"
+          }
+        },
+        "image_slider_XAwq6H": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-36.jpg"
+          }
+        },
+        "main_diagram_VUmbKe": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-17_96a2c7e4-2703-4861-9687-aea3be38a173.jpg",
+            "main_img2": "shopify://shop_images/600x720-18_b7b55f23-dfc6-47ae-98b5-b7580a4668c9.jpg"
+          }
+        },
+        "image_info_p7WnRE": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "左胸に配置されたポケットのボタンにもターコイズ付きのメタルボタンが採用されて、細部に至るまで装飾の統一感が保たれている。ターコイズ風のストーンが中央にはめ込まれたメタルボタン、ボタンの周囲はアンティークゴールドやシルバー調のフレームで囲まれている。",
+            "price_discount": 12590,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lsx-tsk0320?_pos=2&_sid=2d61c65c7&_ss=r&variant=46643990528219"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_kp8ybh",
+        "image_slider_Xxr4AK",
+        "image_slider_epMydF",
+        "image_slider_XAwq6H",
+        "main_diagram_VUmbKe",
+        "image_info_p7WnRE"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#000000",
+        "price_col": "#c8212d",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#f56829",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#f7c754"
+      }
+    },
+    "image_jump_custom_aNGpqU": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_qVWbi8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/10_8a4f3038-359d-438e-9f0e-eae963a024d4.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_qVWbi8"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_slider_DjK7dq": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_UPArcC": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-37_50ca82f9-3763-4a09-8c56-c675b55fae93.jpg"
+          }
+        },
+        "image_slider_EcPfVm": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-38_6433ec66-effa-49fa-b5a4-02e73fdd1c3e.jpg"
+          }
+        },
+        "image_slider_DpdkD4": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-39_a3164b3d-b6b2-4f17-a19b-7ccde2d04546.jpg"
+          }
+        },
+        "image_slider_rxqddR": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-40_de88628a-9409-4520-bda0-3709a5d44d99.jpg"
+          }
+        },
+        "main_diagram_Bb9YYH": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-19_07909d07-ebc5-41c3-ac09-a37fcd8ac658.jpg",
+            "main_img2": "shopify://shop_images/600x720-20_14368e94-cc29-49d2-8ad3-f081903b05aa.jpg"
+          }
+        },
+        "image_info_Uem7h8": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "クラシックなレトロストライプ柄がどこか懐かしさを漂わせつつ、洗練された印象を演出します。しっかりとした厚みのある生地で、シャツとしてはもちろん、ライトアウター感覚で羽織れるのも魅力。程よくルーズなシルエットがこなれた雰囲気を生み出し、カジュアルからヴィンテージスタイルまで幅広くマッチします。",
+            "price_discount": 9340,
+            "original_price": 10980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-tywf-jltwsg326?_pos=1&_sid=03c24e3d3&_ss=r&variant=46639765651675"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_UPArcC",
+        "image_slider_EcPfVm",
+        "image_slider_DpdkD4",
+        "image_slider_rxqddR",
+        "main_diagram_Bb9YYH",
+        "image_info_Uem7h8"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#000000",
+        "price_col": "#c8212d",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#f56829",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#f7c754"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [
+          "shirts",
+          "スウェット",
+          "ジャケット-アウター",
+          "アクセサリー",
+          "short-sleeve-t-shirts",
+          "short-sleeve-shirts",
+          "カーゴパンツ",
+          "coat",
+          "デニムパンツ"
+        ],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "slideshow_KjpXMy",
+    "scrolling_banner_image_QiRTrN",
+    "image_jump_custom_efw3UV",
+    "image_jump_custom_xEntXF",
+    "image_slider_NRBr3r",
+    "image_jump_custom_f7LCQK",
+    "image_slider_mY3acR",
+    "image_jump_custom_wpKqQX",
+    "image_slider_tfXwyf",
+    "background_image_U8NMPV",
+    "image_jump_custom_Fkjdpf",
+    "image_slider_3LKcGM",
+    "image_jump_custom_neLyBM",
+    "image_slider_3Y6FMk",
+    "image_jump_custom_f7qqNa",
+    "image_slider_AC8dk4",
+    "image_jump_custom_7QbdEM",
+    "image_slider_HFti6m",
+    "image_jump_custom_fMEbHb",
+    "image_slider_KMWhg9",
+    "image_jump_custom_3qm6hH",
+    "image_slider_F3RpQN",
+    "image_jump_custom_aNGpqU",
+    "image_slider_DjK7dq",
+    "main"
+  ]
+}

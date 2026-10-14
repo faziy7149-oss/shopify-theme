@@ -1,0 +1,336 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "slideshow_MVaGQD": {
+      "type": "slideshow",
+      "blocks": {
+        "image_jtaMnX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/364__1920x780_a3b5fb7b-bb8f-4fb2-b46b-f28efa9f0ede.jpg",
+            "mobile_image": "shopify://shop_images/364__1080x1440_2fff5547-8cec-4682-bb7e-f67f2acec1cd.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_jtaMnX"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_KdcRhj": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_9080b189-37a5-4723-82e6-4fb0dc109693.png",
+        "mobile_image": "shopify://shop_images/720_6c9c43ac-5bde-4516-b417-a3d31dc6c39a.png",
+        "img_rul": ""
+      }
+    },
+    "background_image_Mk3BE9": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "image": "shopify://shop_images/20250905-165405.png",
+        "bg_size": "auto",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "fixed",
+        "background_color_overlay": "#f5f5f5",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_block_gUzhBK": {
+      "type": "image-block",
+      "blocks": {
+        "image_7TcHgK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/450x480-1.png",
+            "image_link": "https://karakubuy.com/products/krk-lsx-zpgngl?_pos=1&_sid=0f0f6fe46&_ss=r&variant=47515811938523",
+            "title_big": "マルチストライプジャガードデニムワークシャツ",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_jkGz9G": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/450x480-2.png",
+            "image_link": "https://karakubuy.com/products/krk-061-urwt34?_pos=1&_sid=1352db76c&_ss=r&variant=47515766620379",
+            "title_big": "ストライプシャツ＆カーディガン仕様　フェイクレイヤードジャケット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_CkUrei": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/450x480-3.png",
+            "image_link": "shopify://products/krk-zyd-hszsc0503",
+            "title_big": "赤ヒモ付き　「Karaku」刺繍入りホワイトステッチデニムシャツ",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_QhdJxJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/450x480-4.png",
+            "image_link": "https://karakubuy.com/products/krk-28-cs915?_pos=1&_sid=009be8698&_ss=r&variant=47494645743835",
+            "title_big": "微起毛　オーダーメイドボタン付きチェック柄シャツ",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_Jwg3Fk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/450x480-5.png",
+            "image_link": "https://karakubuy.com/products/krk-zyd-stjk0724?_pos=1&_sid=ab0f473b6&_ss=r&variant=47475151601883",
+            "title_big": "【予約】襟・肘コーデュロイ　ウール混紡チェック柄テーラードジャケット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_qR94PX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/450x480-6.png",
+            "image_link": "https://karakubuy.com/products/krk-lsx-hbsk0516?_pos=1&_sid=aacca25ba&_ss=r&variant=47477702263003",
+            "title_big": "レッドアゲート調ボタン付き　ピーチスキンオープンカラーシャツ",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_zcM7xD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/450x480-7.png",
+            "image_link": "https://karakubuy.com/products/krk-yl-lrptsc815?_pos=1&_sid=d7db0887e&_ss=r&variant=47453175742683",
+            "title_big": "「職人手作り」植物藍染め天然木玉ブレスレット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_zTtajx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/450x480-8.png",
+            "image_link": "https://karakubuy.com/products/krk-28-cs917?_pos=1&_sid=457362dac&_ss=r&variant=47451365769435",
+            "title_big": "ウォッシュド加工　ワンポイント刺繍入りコーデュロイ長袖シャツ",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_4bHe6T": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/450x480-9.png",
+            "image_link": "https://karakubuy.com/products/krk-md-th2407079?_pos=1&_sid=09669e45d&_ss=r",
+            "title_big": "「Victory」ホットスタンピング　ハンドメイドなめし革ベルト",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_m3gcpC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/450x480-10.png",
+            "image_link": "https://karakubuy.com/products/krk-lrj-gbct0617?_pos=1&_sid=b0a353a4c&_ss=r&variant=47301089525979",
+            "title_big": "ブランドタグ＆Vガゼット入り　エアーレイヤーピケロンT",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_aPDxJ4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/450x480-11.png",
+            "image_link": "https://karakubuy.com/products/krk-lrj-hfgt0604?_pos=1&_sid=8d5ea957c&_ss=r&variant=47344615162075",
+            "title_big": "【予約】Vガゼット入り　ワッフルラグランスリーブロングTシャツ",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_cQL6zG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/450x480-12.png",
+            "image_link": "https://karakubuy.com/products/krk-lrj-zsnkdnm0613?_pos=2&_sid=4c841d0fa&_ss=r",
+            "title_big": "【予約】ターコイズコンチョボタン付き　ウォッシュドデニムテーラードジャケット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_WdEzPW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/450x480-13.png",
+            "image_link": "https://karakubuy.com/products/krk-zyd-ckwft0715?_pos=1&_sid=e6a1919ba&_ss=r&variant=47401522823387",
+            "title_big": "ターコイズ風ボタン付き　オーダーメイドワッフルヘンリーネックスウェット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_PWQPJ3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/450x480-14.png",
+            "image_link": "https://karakubuy.com/products/krk-md-th2501883?_pos=1&_sid=24a8c2036&_ss=r",
+            "title_big": "ウォッシュド加工　微テーパードグレーデニムパンツ",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_EH7adT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/450x480-15.png",
+            "image_link": "https://karakubuy.com/products/krk-lsx-tlsxnzs808?_pos=1&_sid=9e1a6933f&_ss=r&variant=47402507927771",
+            "title_big": "【予約】「KARAKU」ロゴ刺繍入り　ウォッシュデニム長袖シャツ",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_EEff8A": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/450x480-16.png",
+            "image_link": "https://karakubuy.com/products/krk-lsx-ccnkyz0806?_pos=1&_sid=df344f894&_ss=r&variant=47414543515867",
+            "title_big": "【予約】ウォッシュド加工　レザータグ付きコーデュロイデニムワークシャツ",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_4FgL3x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/450x480-17.png",
+            "image_link": "https://karakubuy.com/products/krk-zyd-mcmxz0517?_pos=1&_sid=9074b8a6b&_ss=r",
+            "title_big": "【予約】襟・袖・フラップ裏ネコカモ柄　コットンツイルデニムテーラードジャケット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_ipLeNm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/450x480-18.png",
+            "image_link": "https://karakubuy.com/products/krk-018-kz3099?_pos=1&_sid=f4f16c674&_ss=r&variant=47501347389659",
+            "title_big": "3色展開　木目調ストライプ柄ストレートスラックス",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        }
+      },
+      "block_order": [
+        "image_7TcHgK",
+        "image_jkGz9G",
+        "image_CkUrei",
+        "image_QhdJxJ",
+        "image_Jwg3Fk",
+        "image_qR94PX",
+        "image_zcM7xD",
+        "image_zTtajx",
+        "image_4bHe6T",
+        "image_m3gcpC",
+        "image_aPDxJ4",
+        "image_cQL6zG",
+        "image_WdEzPW",
+        "image_PWQPJ3",
+        "image_EH7adT",
+        "image_EEff8A",
+        "image_4FgL3x",
+        "image_ipLeNm"
+      ],
+      "name": "Image block",
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#22325e"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_MVaGQD",
+    "image_KdcRhj",
+    "background_image_Mk3BE9",
+    "image_block_gUzhBK"
+  ]
+}

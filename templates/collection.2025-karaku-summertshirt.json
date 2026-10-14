@@ -1,0 +1,432 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [
+          "shirts",
+          "スウェット",
+          "ジャケット-アウター",
+          "アクセサリー",
+          "short-sleeve-t-shirts",
+          "short-sleeve-shirts",
+          "カーゴパンツ",
+          "coat",
+          "デニムパンツ"
+        ],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "slideshow_8JQh96": {
+      "type": "slideshow",
+      "blocks": {
+        "image_Vt4Vz3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Br_PC_a942ae8f-33ae-4f86-9788-9b0f94028b4a.jpg",
+            "mobile_image": "shopify://shop_images/20250630-141735.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_Vt4Vz3"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_XrkxqB": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/M_1920.png",
+        "mobile_image": "shopify://shop_images/M_720.png",
+        "img_rul": ""
+      }
+    },
+    "image_list_zpYDmV": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_pCqTPa": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/P1_d29d1be6-4ddb-4192-abf3-3fc99d0fd03f.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_pCqTPa"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "shake"
+      }
+    },
+    "image_jump_custom_4zGEet": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_PpALUy": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_1.gif",
+            "image-id": "",
+            "image_link": "shopify://products/krk-gsh-mqwdyst620"
+          }
+        },
+        "image_NMFwtR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_2.gif",
+            "image-id": "",
+            "image_link": "shopify://products/krk-gsh-rtclmt0612"
+          }
+        },
+        "image_PaCw4R": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_3_ac79fb9e-2cd5-4120-b2f2-9bcf5dd1b8dd.png",
+            "image-id": "",
+            "image_link": "shopify://products/krk-lsx-ywbxt0615"
+          }
+        },
+        "image_JpFdXm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_4.gif",
+            "image-id": "",
+            "image_link": "shopify://products/krk-zyd-mnlsmt527"
+          }
+        }
+      },
+      "block_order": [
+        "image_PpALUy",
+        "image_NMFwtR",
+        "image_PaCw4R",
+        "image_JpFdXm"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "divider_9zNz4z": {
+      "type": "divider",
+      "name": "Divider",
+      "settings": {}
+    },
+    "image_list_TkEQwc": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_GzwTAL": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/P2.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_GzwTAL"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "shake"
+      }
+    },
+    "image_jump_custom_9ntyNW": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_HKEfT4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_1_4f20f66d-3b31-4435-95cf-6af6f0f399d3.png",
+            "image-id": "",
+            "image_link": "shopify://products/krk-lrj-lmwwjt409"
+          }
+        },
+        "image_cnXrDm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_2_cda2a6da-3138-452f-ad70-b98a153e3731.png",
+            "image-id": "",
+            "image_link": "shopify://products/krk-lrj-sdhrt0411"
+          }
+        },
+        "image_cXKfGm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_3.png",
+            "image-id": "",
+            "image_link": "shopify://products/krk-zyd-flsg0516"
+          }
+        },
+        "image_xwpjeW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_4.png",
+            "image-id": "",
+            "image_link": "shopify://products/krk-zyd-lm0325"
+          }
+        }
+      },
+      "block_order": [
+        "image_HKEfT4",
+        "image_cnXrDm",
+        "image_cXKfGm",
+        "image_xwpjeW"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "divider_kpdnDz": {
+      "type": "divider",
+      "name": "Divider",
+      "settings": {}
+    },
+    "image_list_zGVrae": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_YEBgGc": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/P3.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_YEBgGc"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "shake"
+      }
+    },
+    "image_jump_custom_3x49TX": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_XxLfMW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_1_0cab69dd-4b2a-4ac0-8501-8d810b7f76ed.png",
+            "image-id": "",
+            "image_link": "shopify://products/krk-gsh-kqcjydt526"
+          }
+        },
+        "image_hYJPPG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_2.gif",
+            "image-id": "",
+            "image_link": "shopify://products/krk-gsh-skwt0410"
+          }
+        },
+        "image_RkAw78": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_3_744f209e-b6c5-46ce-9253-a9699405b828.png",
+            "image-id": "",
+            "image_link": "shopify://products/krk-zyd-nhyt0513"
+          }
+        },
+        "image_j9qXwb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_4_584f92af-d26d-4550-8e2c-1fb6da5adfc2.png",
+            "image-id": "",
+            "image_link": "shopify://products/krk-zyd-ryht0613"
+          }
+        }
+      },
+      "block_order": [
+        "image_XxLfMW",
+        "image_hYJPPG",
+        "image_RkAw78",
+        "image_j9qXwb"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "divider_nGCB7b": {
+      "type": "divider",
+      "name": "Divider",
+      "settings": {}
+    },
+    "image_list_zC7TDf": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_UFVQtC": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/P4.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_UFVQtC"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "shake"
+      }
+    },
+    "image_jump_custom_hRDA4m": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_M4zeXm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_1.gif",
+            "image-id": "",
+            "image_link": "shopify://products/krk-gsh-bfsgt0611"
+          }
+        },
+        "image_QpAKDB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_2.gif",
+            "image-id": "",
+            "image_link": "shopify://products/krk-gsh-ydat0516"
+          }
+        },
+        "image_CHey8a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_3.gif",
+            "image-id": "",
+            "image_link": "shopify://products/krk-gsh-ydaymyxt530"
+          }
+        },
+        "image_P3gei8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_4.png",
+            "image-id": "",
+            "image_link": "shopify://products/krk-lrj-daymt0615"
+          }
+        }
+      },
+      "block_order": [
+        "image_M4zeXm",
+        "image_QpAKDB",
+        "image_CHey8a",
+        "image_P3gei8"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "background_image_FTWtqf": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "fixed",
+        "background_color_overlay": "#efe9e1",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "featured_collection_g4U8fg": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "KARAKU SUMMER TEE",
+        "collection": "2025-karaku-summertshirt",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_8JQh96",
+    "image_XrkxqB",
+    "image_list_zpYDmV",
+    "image_jump_custom_4zGEet",
+    "divider_9zNz4z",
+    "image_list_TkEQwc",
+    "image_jump_custom_9ntyNW",
+    "divider_kpdnDz",
+    "image_list_zGVrae",
+    "image_jump_custom_3x49TX",
+    "divider_nGCB7b",
+    "image_list_zC7TDf",
+    "image_jump_custom_hRDA4m",
+    "background_image_FTWtqf",
+    "featured_collection_g4U8fg"
+  ]
+}

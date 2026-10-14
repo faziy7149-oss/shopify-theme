@@ -1,0 +1,332 @@
+{%- liquid
+  assign frame_is_search = is_search_mode | default: false
+  assign frame_search_query = search_query | default: ''
+  assign frame_active_year = active_year | default: ''
+  assign years_source = available_years_str | default: ''
+  if years_source != blank
+    assign years = years_source | remove_first: '|' | split: '|' | sort | reverse
+  else
+    assign years = '' | split: ','
+  endif
+
+  comment
+    Category tags for the Tag row.
+    Optional section.settings.tag_display_order (comma-separated) controls order;
+    remaining tags append after. 4-digit year tags are excluded.
+  endcomment
+  assign category_tags_str = ''
+  assign used_tag_tokens = ''
+  assign order_raw = section.settings.tag_display_order | strip
+
+  if order_raw != blank
+    assign order_raw = order_raw | replace: '、', ',' | replace: '，', ','
+    assign order_parts = order_raw | split: ','
+    for part in order_parts
+      assign want_tag = part | strip
+      if want_tag != blank and source_blog.all_tags contains want_tag
+        assign year_num = want_tag | plus: 0
+        assign is_year_tag = false
+        if want_tag.size == 4 and year_num > 1999 and year_num < 2101
+          assign is_year_tag = true
+        endif
+        unless is_year_tag
+          assign tag_token = '|' | append: want_tag | append: '|'
+          unless used_tag_tokens contains tag_token
+            assign used_tag_tokens = used_tag_tokens | append: tag_token
+            assign category_tags_str = category_tags_str | append: '|' | append: want_tag
+          endunless
+        endunless
+      endif
+    endfor
+  endif
+
+  for tag in source_blog.all_tags
+    assign year_num = tag | plus: 0
+    assign is_year_tag = false
+    if tag.size == 4 and year_num > 1999 and year_num < 2101
+      assign is_year_tag = true
+    endif
+    unless is_year_tag
+      assign tag_token = '|' | append: tag | append: '|'
+      unless used_tag_tokens contains tag_token
+        assign used_tag_tokens = used_tag_tokens | append: tag_token
+        assign category_tags_str = category_tags_str | append: '|' | append: tag
+      endunless
+    endunless
+  endfor
+
+  if category_tags_str != blank
+    assign category_tags = category_tags_str | remove_first: '|' | split: '|'
+  else
+    assign category_tags = '' | split: ','
+  endif
+-%}
+
+<section
+  class="blog-listing"
+  id="blog-listing-{{ section.id }}"
+  data-section-id="{{ section.id }}"
+  data-source-blog-url="{{ source_blog.url }}"
+  data-url-blog-url="{{ url_blog.url }}"
+  data-search-url="{{ routes.search_url }}"
+  data-use-native-tags="{% if use_native_tags %}true{% else %}false{% endif %}"
+  data-blog-handle="{{ source_blog.handle }}"
+  data-blog-url="{{ url_blog.url }}"
+  data-active-tag="{{ active_tag | escape }}"
+  data-active-year="{{ frame_active_year | escape }}"
+  data-search-query="{{ frame_search_query | escape }}"
+  data-posts-per-page="{{ posts_per_page }}"
+  data-current-page="{{ paginate.current_page }}"
+  data-total-pages="{{ paginate.pages }}"
+  data-read-more-text="{{ section.settings.read_more_text | escape }}"
+  data-load-more-text="{{ section.settings.load_more_text | escape }}"
+>
+  <div class="blog-listing__inner">
+    {%- if section.settings.heading != blank -%}
+      <header class="blog-listing__header">
+        <h2 class="blog-listing__title">{{ section.settings.heading | escape }}</h2>
+      </header>
+    {%- endif -%}
+
+    {%- if section.settings.show_search
+      or section.settings.show_tag_filter
+      or section.settings.show_year_filter
+    -%}
+      <div class="blog-listing__toolbar">
+        {%- if section.settings.show_search -%}
+          <div class="blog-listing__toolbar-item blog-listing__toolbar-item--search">
+            <label class="blog-listing__label" for="BlogListingSearch-{{ section.id }}">
+              Search
+            </label>
+            <input
+              id="BlogListingSearch-{{ section.id }}"
+              class="blog-listing__search"
+              type="search"
+              name="q"
+              autocomplete="off"
+              placeholder="{{ section.settings.search_placeholder | default: 'Search articles...' | escape }}"
+              value="{{ frame_search_query | escape }}"
+            >
+          </div>
+        {%- endif -%}
+
+        {%- if section.settings.show_tag_filter -%}
+          <div class="blog-listing__toolbar-item blog-listing__toolbar-item--tag">
+            <span class="blog-listing__label">Tag</span>
+            <div class="blog-listing__chip-group blog-listing__chip-group--collapsed" data-tag-group>
+              <button
+                type="button"
+                class="blog-listing__chip{% if active_tag == blank %} blog-listing__chip--active{% endif %}"
+                data-filter-button
+                data-filter-type="tag"
+                data-filter-value=""
+                data-tag-path=""
+              >
+                All
+              </button>
+              <div class="blog-listing__chip-list" data-tag-list>
+                {%- for tag in category_tags -%}
+                  {%- if tag != blank -%}
+                    {%- liquid
+                      assign tag_path = tag | handleize
+                      assign fetch_tag_url = source_blog.url | append: '/tagged/' | append: tag_path
+                      if use_native_tags
+                        assign history_tag_url = url_blog.url | append: '/tagged/' | append: tag_path
+                      else
+                        assign encoded_tag = tag | url_encode
+                        assign history_tag_url = url_blog.url | append: '?tag=' | append: encoded_tag
+                      endif
+                    -%}
+                    <button
+                      type="button"
+                      class="blog-listing__chip{% if active_tag == tag %} blog-listing__chip--active{% endif %}"
+                      data-filter-button
+                      data-filter-type="tag"
+                      data-filter-value="{{ tag | escape }}"
+                      data-tag-path="{{ tag_path | escape }}"
+                      data-tag-fetch-url="{{ fetch_tag_url | escape }}"
+                      data-tag-history-url="{{ history_tag_url | escape }}"
+                    >
+                      {{ tag }}
+                    </button>
+                  {%- endif -%}
+                {%- endfor -%}
+              </div>
+              <button type="button" class="blog-listing__chip blog-listing__chip--toggle" data-tag-toggle>
+                View more
+              </button>
+            </div>
+          </div>
+        {%- endif -%}
+
+        {%- if section.settings.show_year_filter -%}
+          <div class="blog-listing__toolbar-item blog-listing__toolbar-item--year">
+            <span class="blog-listing__label">Year</span>
+            <div class="blog-listing__chip-group">
+              <button
+                type="button"
+                class="blog-listing__chip{% if frame_active_year == blank %} blog-listing__chip--active{% endif %}"
+                data-filter-button
+                data-filter-type="year"
+                data-filter-value=""
+              >
+                All
+              </button>
+              <div class="blog-listing__chip-list" data-year-list>
+                {%- for year in years -%}
+                  {%- if year != blank -%}
+                    {%- liquid
+                      assign year_path = year | handleize
+                      assign fetch_year_url = source_blog.url | append: '/tagged/' | append: year_path
+                      if use_native_tags
+                        assign history_year_url = url_blog.url | append: '/tagged/' | append: year_path
+                      else
+                        assign history_year_url = url_blog.url | append: '?year=' | append: year_path
+                      endif
+                    -%}
+                    <button
+                      type="button"
+                      class="blog-listing__chip{% if frame_active_year == year %} blog-listing__chip--active{% endif %}"
+                      data-filter-button
+                      data-filter-type="year"
+                      data-filter-value="{{ year | escape }}"
+                      data-tag-path="{{ year_path | escape }}"
+                      data-tag-fetch-url="{{ fetch_year_url | escape }}"
+                      data-tag-history-url="{{ history_year_url | escape }}"
+                    >
+                      {{ year }}
+                    </button>
+                  {%- endif -%}
+                {%- endfor -%}
+              </div>
+            </div>
+          </div>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+
+    <div
+      class="
+        blog-listing__grid
+        blog-listing__grid--cols-desktop-{{ section.settings.desktop_columns }}
+        blog-listing__grid--cols-mobile-{{ section.settings.mobile_columns }}
+        blog-listing__grid--gap-{{ section.settings.gap }}
+      "
+      data-blog-listing-grid
+    >
+      {%- if frame_is_search -%}
+        {%- liquid
+          assign filter_handle = filter_blog_handle | default: source_blog.handle
+          assign blog_url_part = ''
+          if filter_handle != blank
+            assign blog_url_part = '/blogs/' | append: filter_handle | append: '/'
+          endif
+        -%}
+        {%- assign has_search_results = false -%}
+        {%- for item in search.results -%}
+          {%- liquid
+            assign item_ok = false
+            if item.object_type == 'article'
+              if filter_handle == blank
+                assign item_ok = true
+              elsif item.blog != blank and item.blog.handle == filter_handle
+                assign item_ok = true
+              elsif blog_url_part != blank and item.url contains blog_url_part
+                assign item_ok = true
+              endif
+            endif
+            if item_ok and frame_active_year != blank
+              unless item.tags contains frame_active_year
+                assign item_ok = false
+              endunless
+            endif
+          -%}
+          {%- if item_ok -%}
+            {%- assign has_search_results = true -%}
+            <article
+              class="blog-listing__card"
+              data-article-card
+              data-title="{{ item.title | escape }}"
+              data-tags="{{ item.tags | join: ',' | escape }}"
+              data-year="{{ item.published_at | date: '%Y' }}"
+              data-published-at="{{ item.published_at | date: '%s' }}"
+            >
+              {%- render 'article-card',
+                article: item,
+                read_more_text: section.settings.read_more_text
+              -%}
+            </article>
+          {%- endif -%}
+        {%- endfor -%}
+        {%- unless has_search_results -%}
+          <div class="blog-listing__empty">
+            No articles found for "{{ frame_search_query | escape }}".
+          </div>
+        {%- endunless -%}
+      {%- else -%}
+        {%- assign has_filter_results = false -%}
+        {%- assign scanned_any = false -%}
+        {%- for article in source_blog.articles -%}
+          {%- assign scanned_any = true -%}
+          {%- liquid
+            assign article_ok = true
+            if active_tag != blank
+              unless article.tags contains active_tag
+                assign article_ok = false
+              endunless
+            endif
+            if article_ok and frame_active_year != blank
+              unless article.tags contains frame_active_year
+                assign article_ok = false
+              endunless
+            endif
+          -%}
+          {%- if article_ok -%}
+            {%- assign has_filter_results = true -%}
+            <article
+              class="blog-listing__card"
+              data-article-card
+              data-title="{{ article.title | escape }}"
+              data-tags="{{ article.tags | join: ',' | escape }}"
+              data-year="{{ article.published_at | date: '%Y' }}"
+              data-published-at="{{ article.published_at | date: '%s' }}"
+            >
+              {%- render 'article-card',
+                article: article,
+                read_more_text: section.settings.read_more_text
+              -%}
+            </article>
+          {%- endif -%}
+        {%- endfor -%}
+        {%- unless has_filter_results -%}
+          <div class="blog-listing__empty" data-empty-filtered>
+            {%- if active_tag != blank and frame_active_year != blank -%}
+              No articles match “{{ active_tag | escape }}” + “{{ frame_active_year | escape }}”.
+            {%- elsif active_tag != blank -%}
+              No articles match “{{ active_tag | escape }}”.
+            {%- elsif frame_active_year != blank -%}
+              No articles match “{{ frame_active_year | escape }}”.
+            {%- else -%}
+              No articles found in the selected blog.
+            {%- endif -%}
+          </div>
+        {%- endunless -%}
+      {%- endif -%}
+    </div>
+
+    <footer class="blog-listing__footer">
+      {%- if paginate.next -%}
+        <button
+          type="button"
+          class="blog-listing__load-more"
+          data-load-more
+          data-next-page="{{ paginate.current_page | plus: 1 }}"
+        >
+          <span class="blog-listing__load-more-label">
+            {{ section.settings.load_more_text | escape }}
+          </span>
+        </button>
+      {%- endif -%}
+    </footer>
+  </div>
+</section>

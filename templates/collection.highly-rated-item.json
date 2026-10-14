@@ -1,0 +1,634 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1652869072251fa0bf": {
+      "type": "slideshow",
+      "blocks": {
+        "16528690727e0bd824-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_PC_c0480a06-900a-41d9-9f00-d9215648865f.jpg",
+            "mobile_image": "shopify://shop_images/6_M_f108a300-96eb-4d98-a0d6-cc2ac62684b0.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16528690727e0bd824-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "1655799494578a4930": {
+      "type": "slideshow",
+      "blocks": {
+        "16557994943d44a8e8-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20220708-113755.jpg",
+            "mobile_image": "shopify://shop_images/20220708-113803.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16557994943d44a8e8-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "16551139064dd52b4a": {
+      "type": "rich-text",
+      "blocks": {
+        "1655113906511ba273-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "1655113906511ba273-1": {
+          "type": "heading",
+          "settings": {
+            "title": "買ってよかった！高評価アイテム6選2022　spring/summer",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "1655113906511ba273-0",
+        "1655113906511ba273-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_FQww3e": {
+      "type": "custom-content",
+      "blocks": {
+        "image_g4pmdA": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/20220623-164028.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/products/%E3%83%94%E3%83%BC%E3%83%81%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B7%E3%83%A3%E3%83%84?_pos=1&_sid=2cfd68d32&_ss=r&variant=40332082610354",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_r3YgP6": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "center_on_mobile": true,
+            "icon": "",
+            "icon_color": "rgba(0,0,0,0)",
+            "subheading": "",
+            "title": "ワイドシルエットにドロップショルダーを加え、ゆったりとしたトレンドの着こなしが出来るキューバカラーシャツです。シンプルでありがながら襟の形状、ポケットの配置などデザイン性の高い、着古したような味わい深い風合いもポイントとなっております。",
+            "title_size": 26,
+            "title_size_mobile": 20,
+            "text": "<p><a href=\"https://www.karakubuy.com/products/%E3%83%94%E3%83%BC%E3%83%81%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B7%E3%83%A3%E3%83%84?_pos=1&_sid=2cfd68d32&_ss=r&variant=40332082610354\" title=\"https://www.karakubuy.com/products/%E3%83%94%E3%83%BC%E3%83%81%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B7%E3%83%A3%E3%83%84?_pos=1&_sid=2cfd68d32&_ss=r&variant=40332082610354\">シャツ  </a></p><p>ピーチスキンシャツ　│  ¥14,600 <br/></p>",
+            "button_label": "Buy",
+            "button_link": "https://www.karakubuy.com/products/%E3%83%94%E3%83%BC%E3%83%81%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B7%E3%83%A3%E3%83%84?_pos=1&_sid=2cfd68d32&_ss=r&variant=40332082610354",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_g4pmdA",
+        "text_r3YgP6"
+      ],
+      "settings": {
+        "spacing": "medium",
+        "alignment": "middle",
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_cGDH6b": {
+      "type": "custom-content",
+      "blocks": {
+        "image_NnA9q4": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/7_3b1ed55e-b054-47c4-80b4-fb77bf086948.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/products/krk-sj-6061613?_pos=1&_sid=64b21cf0a&_ss=r&variant=42933106737371",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_3hxP8w": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "center_on_mobile": true,
+            "icon": "",
+            "icon_color": "rgba(0,0,0,0)",
+            "subheading": "",
+            "title": "18回染めのダークブルーと12回染めのライトブルーの2色展開です。藍染を用いて染色の濃度を変え色の深さを表現したシンプルな一枚。夏に清涼感を呼び込む、上品かつカジュアルに仕上げた藍染半袖Tシャツです。",
+            "title_size": 26,
+            "title_size_mobile": 20,
+            "text": "<p><a href=\"https://www.karakubuy.com/products/krk-sj-6061613?_pos=1&_sid=64b21cf0a&_ss=r&variant=42933106737371\" title=\"https://www.karakubuy.com/products/krk-sj-6061613?_pos=1&_sid=64b21cf0a&_ss=r&variant=42933106737371\">Tシャツ</a></p><p><a href=\"https://www.karakubuy.com/products/krk-sj-6061613?_pos=1&_sid=64b21cf0a&_ss=r&variant=42933106737371\" title=\"https://www.karakubuy.com/products/krk-sj-6061613?_pos=1&_sid=64b21cf0a&_ss=r&variant=42933106737371\">【数量限定販売】職人手染　藍染グラデーション半袖Tシャツ │¥19,980 </a></p>",
+            "button_label": "Buy",
+            "button_link": "https://www.karakubuy.com/products/krk-sj-6061613?_pos=1&_sid=64b21cf0a&_ss=r&variant=42933106737371",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_NnA9q4",
+        "text_3hxP8w"
+      ],
+      "settings": {
+        "spacing": "medium",
+        "alignment": "middle",
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_UzDRnm": {
+      "type": "custom-content",
+      "blocks": {
+        "image_8xPfYe": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/3_540x_ad45c61d-5061-44b5-a9ab-591cc90c99bd.webp",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/products/krk-gz8009?_pos=2&_sid=ce9c2ac85&_ss=r&variant=42939981856987",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "text_UtgJKC": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "center_on_mobile": true,
+            "icon": "",
+            "icon_color": "rgba(0,0,0,0)",
+            "subheading": "",
+            "title": "アメカジ好きのオシャレ心に火をつく一点です。素材から製法まで全てにおいてこだわりのある、ハンドメイドで製作された、究極の一点の仕上がり。履く瞬間に、ビンテージ感且つカジュアル感がアップされる一足です。まずは麻縄タイプのソールに注目したい。通常ソールには、ラバーを使用していますが、今回は麻縄とゴムを融和したソールを採用しています。ラバータイプより耐摩擦性に優れた上に、見た目もビンテージ感がアップ。他のマーティンシューズとかぶりにくいため、まさに、スペシャルマーティンシューズです。",
+            "title_size": 26,
+            "title_size_mobile": 20,
+            "text": "<p><a href=\"https://www.karakubuy.com/products/krk-gz8009?_pos=2&_sid=ce9c2ac85&_ss=r&variant=42939981856987\" title=\"https://www.karakubuy.com/products/krk-gz8009?_pos=2&_sid=ce9c2ac85&_ss=r&variant=42939981856987\">ブーツ </a></p><p><a href=\"https://www.karakubuy.com/products/krk-gz8009?_pos=2&_sid=ce9c2ac85&_ss=r&variant=42939981856987\" title=\"https://www.karakubuy.com/products/krk-gz8009?_pos=2&_sid=ce9c2ac85&_ss=r&variant=42939981856987\">「職人手作り」麻縄ソール　マーティンシューズ　│¥28,599 </a></p><p></p>",
+            "button_label": "Buy",
+            "button_link": "https://www.karakubuy.com/products/krk-gz8009?_pos=2&_sid=ce9c2ac85&_ss=r&variant=42939981856987",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_8xPfYe",
+        "text_UtgJKC"
+      ],
+      "settings": {
+        "spacing": "medium",
+        "alignment": "middle",
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_bDm94b": {
+      "type": "custom-content",
+      "blocks": {
+        "image_aeX34T": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/2_540x_e457e4f1-7a77-464d-9a58-fbf3c9b67d2f.webp",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/products/md-s2007034?_pos=1&_sid=fe5f3bf00&_ss=r&variant=40709767528626",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "text_G6VJL6": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "center_on_mobile": true,
+            "icon": "",
+            "icon_color": "rgba(0,0,0,0)",
+            "subheading": "",
+            "title": "オールド感漂うウォバッシュストライプのワークパンツはKarakubuyの人気で定番の1本。ややライトな8.3ozの穿きやすい生地には手間のかかるドット抜染による、当時と同じ仕様のウォバッシュストライプが施されています。1930年代のモデルをイメージした独特なステッチワークが特徴的です。股上はやや深めにとり、シルエットもゆったりとしたストレートとなります。ヴィンテージが香る本格仕様の魅力が詰まったパンツは、落ち着いた雰囲気で上質な大人アメカジ・ワークスタイルを演出するアイテムです。",
+            "title_size": 26,
+            "title_size_mobile": 20,
+            "text": "<p><a href=\"https://www.karakubuy.com/products/md-s2007034?_pos=1&_sid=fe5f3bf00&_ss=r&variant=40709767528626\" title=\"https://www.karakubuy.com/products/md-s2007034?_pos=1&_sid=fe5f3bf00&_ss=r&variant=40709767528626\">ワークパンツ </a></p><p><a href=\"https://www.karakubuy.com/products/md-s2007034?_pos=1&_sid=fe5f3bf00&_ss=r&variant=40709767528626\" title=\"https://www.karakubuy.com/products/md-s2007034?_pos=1&_sid=fe5f3bf00&_ss=r&variant=40709767528626\">ウォバッシュストライプワークパンツ │¥11,000 Buy</a></p>",
+            "button_label": "Buy",
+            "button_link": "https://www.karakubuy.com/products/md-s2007034?_pos=1&_sid=fe5f3bf00&_ss=r&variant=40709767528626",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_aeX34T",
+        "text_G6VJL6"
+      ],
+      "settings": {
+        "spacing": "medium",
+        "alignment": "middle",
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_RbDK76": {
+      "type": "custom-content",
+      "blocks": {
+        "image_WK7h7E": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/20220623-164020.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/products/%E3%83%8B%E3%83%83%E3%83%88%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E8%BB%8D%E4%BA%8B%E3%83%8F%E3%83%BC%E3%83%95%E3%83%91%E3%83%B3%E3%83%84?_pos=1&_sid=665c5cf7e&_ss=r&variant=40176662085810",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_DF6xfx": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "center_on_mobile": true,
+            "icon": "",
+            "icon_color": "rgba(0,0,0,0)",
+            "subheading": "",
+            "title": "USMC P44 ミリタリーパンツをベースとして改良する初夏に入ったところで、この改良されたP44ミリタリースタイルのショーツを発売【デザイン】・サイドに大きなポケットがデザインされた、ミリタリーディテールのスウェットショーツです。・ウエストはゴム入りで履き心地が快適。・デザイン性、実用性ともに兼ね備えた、シンプルながらも存在感のある1着となっています。",
+            "title_size": 26,
+            "title_size_mobile": 20,
+            "text": "<p><a href=\"https://www.karakubuy.com/products/%E3%83%8B%E3%83%83%E3%83%88%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E8%BB%8D%E4%BA%8B%E3%83%8F%E3%83%BC%E3%83%95%E3%83%91%E3%83%B3%E3%83%84?_pos=1&_sid=665c5cf7e&_ss=r&variant=40176662085810\" title=\"https://www.karakubuy.com/products/%E3%83%8B%E3%83%83%E3%83%88%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E8%BB%8D%E4%BA%8B%E3%83%8F%E3%83%BC%E3%83%95%E3%83%91%E3%83%B3%E3%83%84?_pos=1&_sid=665c5cf7e&_ss=r&variant=40176662085810\">ショートパンツ</a></p><p><a href=\"https://www.karakubuy.com/products/%E3%83%8B%E3%83%83%E3%83%88%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E8%BB%8D%E4%BA%8B%E3%83%8F%E3%83%BC%E3%83%95%E3%83%91%E3%83%B3%E3%83%84?_pos=1&_sid=665c5cf7e&_ss=r&variant=40176662085810\" title=\"https://www.karakubuy.com/products/%E3%83%8B%E3%83%83%E3%83%88%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E8%BB%8D%E4%BA%8B%E3%83%8F%E3%83%BC%E3%83%95%E3%83%91%E3%83%B3%E3%83%84?_pos=1&_sid=665c5cf7e&_ss=r&variant=40176662085810\">「P-44」 改良型ミリタリーショートパンツ │¥7,884</a></p>",
+            "button_label": "Buy",
+            "button_link": "https://www.karakubuy.com/products/%E3%83%8B%E3%83%83%E3%83%88%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E8%BB%8D%E4%BA%8B%E3%83%8F%E3%83%BC%E3%83%95%E3%83%91%E3%83%B3%E3%83%84?_pos=1&_sid=665c5cf7e&_ss=r&variant=40176662085810",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_WK7h7E",
+        "text_DF6xfx"
+      ],
+      "settings": {
+        "spacing": "medium",
+        "alignment": "middle",
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_rcAFFp": {
+      "type": "custom-content",
+      "blocks": {
+        "image_zpQPVN": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/3_540x_c54f154b-056f-481d-9ef1-30102c628a0b.webp",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/products/krk-zf-mbbw3074?variant=41069731086514",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_iUjE6Y": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "center_on_mobile": true,
+            "icon": "",
+            "icon_color": "rgba(0,0,0,0)",
+            "subheading": "",
+            "title": "本アイテムはバージョンアップされた更に馴染むシルエットの赤耳デニムベスト。ベストはノースリーブのは特徴、今回はまず肩にカットと形を改良して、制限なしで動きやすくい。シルエットも体にもっと馴染んで、紳士の体型を綺麗に見せるように。後ろの調節ベルトもご自分自身のニーズと好みで着る感じを調節可能。熟練された職人の技術により、繊細と綺麗な縫い方で縫われて、全体的に高品質感を演出します。オーだメイドした紳士服の風合いと似合うビンテージ感ボタン付き。カジュアルビジネススタイルとは相性抜群、コートやジャケットと重ね着やこのままシャツと合わせても違和感がない。日常には統一感がありデニムパンツやブーツとかとの合わせも一味違った表情を楽しめます。",
+            "title_size": 26,
+            "title_size_mobile": 20,
+            "text": "<p><a href=\"https://www.karakubuy.com/products/krk-zf-mbbw3074?_pos=1&_sid=6acf9be80&_ss=r&variant=41069731053746\" title=\"https://www.karakubuy.com/products/krk-zf-mbbw3074?_pos=1&_sid=6acf9be80&_ss=r&variant=41069731053746\">ベスト</a></p><p><a href=\"https://www.karakubuy.com/products/krk-zf-mbbw3074?_pos=1&_sid=6acf9be80&_ss=r&variant=41069731053746\" title=\"https://www.karakubuy.com/products/krk-zf-mbbw3074?_pos=1&_sid=6acf9be80&_ss=r&variant=41069731053746\">赤耳　ハートドット柄紳士デニムベスト │¥13,414</a></p><p></p>",
+            "button_label": "buy",
+            "button_link": "https://www.karakubuy.com/products/krk-zf-mbbw3074?variant=41069731086514",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_zpQPVN",
+        "text_iUjE6Y"
+      ],
+      "settings": {
+        "spacing": "medium",
+        "alignment": "middle",
+        "color_scheme": "default"
+      }
+    },
+    "1655432278f0adbbd8": {
+      "type": "testimonials",
+      "blocks": {
+        "165543227816191db3-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "理想の丈でした。\nいいお買い物しました！",
+            "author": "森下",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "165543227816191db3-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "サイズ感もぴったり。そして到着まで早いです。",
+            "author": "中村",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "17ab6ca3-436c-45aa-860f-d10d4d414a85": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "友達にカッコいい服だね！と言ってもらえた。",
+            "author": "大輔",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "467cc604-24fd-4b84-b14a-087903937d70": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "商品はこのお値段とは思えないほどの高いクオリティの刺繍で、大満足です。\nまた機会がありましたら、購入したいです。",
+            "author": "石岡",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "d2dc3f89-81b4-42c5-aed0-041f81f6ae01": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "何よりびっくりしたのは、刺繍の丁寧さです。とても綺麗に仕上がっていてこの値段でこのクオリティーなら、大満足です。このショップの質の高さを実感しました。間違いなくオススメです。",
+            "author": "清野",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "2639b3db-5b15-4d1d-9621-91b6fe746fc1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "いつもこちらで購入してます。\nまた宜しくお願いします。",
+            "author": "八木",
+            "image_caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165543227816191db3-0",
+        "165543227816191db3-1",
+        "17ab6ca3-436c-45aa-860f-d10d4d414a85",
+        "467cc604-24fd-4b84-b14a-087903937d70",
+        "d2dc3f89-81b4-42c5-aed0-041f81f6ae01",
+        "2639b3db-5b15-4d1d-9621-91b6fe746fc1"
+      ],
+      "settings": {
+        "title": "Customer reviews",
+        "layout": "no-image",
+        "text_caps": false,
+        "quote_text_size": 30,
+        "quote_text_size_mobile": 20,
+        "image_shape": "natural",
+        "color_scheme": "default",
+        "use_custom_star_rating_color": false,
+        "star_rating_color": "#e9a80a",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "1635220294067ab8a1": {
+      "type": "collection-list",
+      "blocks": {
+        "22a68d2d-1230-4f98-96b2-5b4029b9dc36": {
+          "type": "collection",
+          "settings": {
+            "collection": "アクセサリー-小物",
+            "image": "shopify://shop_images/QQ_20211029184022.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "ba2cf3cc-2a86-4841-9a15-fa4bbb764def": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "セールから探す",
+            "image": "shopify://shop_images/QQ_20211029184109.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "22a68d2d-1230-4f98-96b2-5b4029b9dc36",
+        "ba2cf3cc-2a86-4841-9a15-fa4bbb764def"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 2,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "1652869072251fa0bf",
+    "1655799494578a4930",
+    "16551139064dd52b4a",
+    "custom_content_FQww3e",
+    "custom_content_cGDH6b",
+    "custom_content_UzDRnm",
+    "custom_content_bDm94b",
+    "custom_content_RbDK76",
+    "custom_content_rcAFFp",
+    "1655432278f0adbbd8",
+    "1635220294067ab8a1",
+    "main",
+    "1635765484031572a6"
+  ]
+}

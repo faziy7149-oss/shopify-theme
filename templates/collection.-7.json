@@ -1,0 +1,166 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "b5227ad1-0312-4998-a418-b8596315b6bb": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15842308030683__b5227ad1-0312-4998-a418-b8596315b6bb-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7e03372c-5298-4abb-8953-cc4882634566.jpg",
+            "mobile_image": "shopify://shop_images/3fe6aa02-75a9-4ad9-ab6d-b962be7222ef.jpg",
+            "slide_link": "",
+            "subheading": "【旬の素材】",
+            "title": "ウール・ウール混",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "<p><strong>冬じたくをはじめましょう。</strong></p>",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15842308030683__b5227ad1-0312-4998-a418-b8596315b6bb-image-1"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 500,
+        "height_mobile": 200,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "cbfc94c0-8d9e-4ed1-b7e3-744ffd1af5b9": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15842308030683__cbfc94c0-8d9e-4ed1-b7e3-744ffd1af5b9-subheading-1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Subheading"
+          }
+        },
+        "template--15842308030683__cbfc94c0-8d9e-4ed1-b7e3-744ffd1af5b9-heading-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Rich text",
+            "use_h1": false
+          }
+        },
+        "template--15842308030683__cbfc94c0-8d9e-4ed1-b7e3-744ffd1af5b9-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ウールの魅力は、なんと言ってもやわらかくふわふわモコモコ、肉厚感のあるところ。<br/>あたたかくふんわりと包み込んでくれます。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15842308030683__cbfc94c0-8d9e-4ed1-b7e3-744ffd1af5b9-subheading-1",
+        "template--15842308030683__cbfc94c0-8d9e-4ed1-b7e3-744ffd1af5b9-heading-1",
+        "template--15842308030683__cbfc94c0-8d9e-4ed1-b7e3-744ffd1af5b9-text-1"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 50,
+        "grid": 5,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "bec37567-9fb8-4d00-b7ee-54cb036a26b0": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "ウール・ウール混素材特集",
+        "collection": "wool",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 5,
+        "rows": 5,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "b5227ad1-0312-4998-a418-b8596315b6bb",
+    "cbfc94c0-8d9e-4ed1-b7e3-744ffd1af5b9",
+    "main",
+    "bec37567-9fb8-4d00-b7ee-54cb036a26b0",
+    "1635765484031572a6"
+  ]
+}

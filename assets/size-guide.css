@@ -1,0 +1,136 @@
+/* used for: transparent header, dropdown nav, docked utility bar */
+.size-guide .tablist {
+  position: relative;
+  border-bottom: 1px solid rgb(var(--text-color)/var(--divider-opacity));
+}
+.size-guide .tablist__scroller {
+  overflow-x: auto;
+  white-space: nowrap;
+  margin-bottom: -2px;
+  padding-bottom: 2px;
+}
+.size-guide .tablist__tab {
+  --tab-pad-x: 2.4em;
+  position: relative;
+  margin-bottom: 1px;
+  padding: 1em 0;
+  padding-inline-end: var(--tab-pad-x);
+  color: rgb(var(--heading-color)/0.6);
+  transition: color 0.3s;
+}
+.size-guide .tablist__tab::after {
+  content: "";
+  position: absolute;
+  top: 100%;
+  inset-inline-start: 0;
+  width: calc(100% - var(--tab-pad-x));
+  height: 2px;
+  transform: scaleX(0);
+  transition: transform 0.3s, background-color 0.3s;
+  background-color: currentColor;
+}
+.size-guide .tablist__tab[aria-selected=true] {
+  color: rgb(var(--heading-color));
+}
+.size-guide .tablist__tab[aria-selected=true]::after {
+  transform: scaleX(1);
+}
+.size-guide .scrollable-table {
+  width: 100%;
+}
+
+.size-guide-unit-converter {
+  display: flex;
+  flex: 0 0 auto;
+  margin-bottom: 8px;
+  padding: 4px;
+  border-radius: var(--btn-border-radius);
+  background: rgb(var(--body-text-color)/0.06);
+}
+
+.size-guide-unit-converter__label-text {
+  padding: 0.25em 0.5em;
+  border: 1px solid transparent;
+  border-radius: var(--btn-border-radius);
+  cursor: pointer;
+}
+
+.size-guide-unit-converter__input:checked + .size-guide-unit-converter__label-text {
+  border-color: currentColor;
+  background: rgb(var(--body-bg-color));
+}
+
+.size-guide-table-container {
+  margin-top: 30px;
+}
+
+.size-guide-table {
+  --border-line: 1px solid rgb(var(--text-color) / var(--divider-opacity));
+  border-collapse: separate;
+  border: none;
+  border-top: var(--border-line);
+  border-inline-end: var(--border-line);
+  width: 100%;
+  margin: 0;
+}
+.size-guide-table tr {
+  --table-row-bg: rgb(var(--bg-color));
+}
+.size-guide-table :is(td, th) {
+  width: 15%;
+  padding: 0.9em 1.4em;
+  border: none;
+  border-inline-start: var(--border-line);
+  border-bottom: var(--border-line);
+  text-align: start;
+  background-color: var(--table-row-bg);
+}
+.size-guide-table th {
+  font-weight: 700;
+}
+.size-guide--row-highlight .size-guide-table tr:nth-child(2n) {
+  --table-row-bg: color-mix(in oklab, rgb(var(--text-color)) 5%, rgb(var(--bg-color)));
+}
+.size-guide-table:not(:has(:is(td, th):first-child:not(:empty))) :is(td, th):first-child {
+  display: none;
+}
+.size-guide-table:not(:has(:is(td, th):first-child:not(:empty))) :is(td, th):first-child + :is(td, th) {
+  border-inline-start: var(--border-line);
+}
+
+.size-guide-table--sticky-row-name :is(td, th):first-child {
+  position: sticky;
+  inset-inline-start: 0;
+  width: 8%;
+  border-right: var(--border-line);
+  font-weight: 700;
+}
+.size-guide-table--sticky-row-name :is(td, th):nth-child(2) {
+  border-inline-start: none;
+}
+
+.size-guide-table--align-first-center :is(td, th):first-child {
+  text-align: center;
+}
+
+.size-guide-table--align-center :is(td, th):not(:first-child) {
+  text-align: center;
+}
+
+.size-guide-table--even-columns :is(td, th):first-child {
+  width: 0%;
+}
+.size-guide-table--even-columns :is(td, th):nth-child(n+2) {
+  width: calc(100% / var(--table-column-count));
+}
+
+.size-guide > .container {
+  margin-top: var(--larger-section-padding);
+  margin-bottom: var(--larger-section-padding);
+}
+@media (max-width: 767.98px) {
+  .size-guide > .container {
+    margin-top: var(--larger-section-padding-mobile);
+    margin-bottom: var(--larger-section-padding-mobile);
+  }
+}

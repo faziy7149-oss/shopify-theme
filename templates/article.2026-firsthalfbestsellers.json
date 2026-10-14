@@ -1,0 +1,78 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "settings": {
+        "show_date": true,
+        "show_author": true,
+        "show_article_tags": true,
+        "show_sharing_icons": true,
+        "show_twitter": true,
+        "show_facebook": true,
+        "show_pinterest": true,
+        "show_featured_image": false,
+        "full_width_image": true,
+        "featured_image_height": "huge",
+        "enable_title_overlay": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "slideshow_eR7XVt": {
+      "type": "slideshow",
+      "blocks": {
+        "image_YfVLrm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/VS-0124__1920.jpg",
+            "mobile_image": "shopify://shop_images/VS-0124__1080.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_YfVLrm"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_eR7XVt"
+  ]
+}

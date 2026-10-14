@@ -1,0 +1,276 @@
+<style>
+  .section-id-{{ section.id }} #canvas-snow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    pointer-events: none;
+  }
+</style>
+
+<div class="section-id-{{ section.id }}">
+  <canvas id="canvas-snow"></canvas>
+</div>
+
+{% schema %}
+{
+  "name": "Snow",
+  "settings": [
+    {
+      "type": "range",
+      "id": "snow_density",
+      "label": "雪花密度",
+      "min": 50,
+      "max": 300,
+      "step": 10,
+      "default": 150
+    },
+    {
+      "type": "range",
+      "id": "snow_speed",
+      "label": "雪花速度",
+      "min": 0.5,
+      "max": 3.0,
+      "step": 0.1,
+      "default": 1.5
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_mobile",
+      "label": "移动端启用",
+      "default": false
+    }
+  ],
+  "presets": [
+    {
+      "name": "Snow",
+      "settings": {
+        "snow_density": 150,
+        "snow_speed": 1.5,
+        "enable_mobile": false
+      }
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+(function() {
+  'use strict';
+  
+  const isMobile = window.innerWidth <= 768;
+  const enableMobile = {{ section.settings.enable_mobile | json }};
+  const canvas = document.getElementById('canvas-snow');
+  if (!canvas) return;
+
+  // 用JS动态控制canvas显示/隐藏
+  if (isMobile && !enableMobile) {
+    canvas.style.display = 'none';
+    return;
+  } else {
+    canvas.style.display = 'block';
+  }
+  
+  const ctx = canvas.getContext('2d');
+  let animationId = null;
+  let isPaused = false;
+  
+  // 根据性能调整参数
+  const getPerformanceConfig = () => {
+    const baseDensity = {{ section.settings.snow_density | default: 150 }};
+    const baseSpeed = {{ section.settings.snow_speed | default: 1.5 }};
+    
+    if (isMobile) {
+      return {
+        particleCount: Math.floor(baseDensity * 0.5),
+        speed: baseSpeed * 0.8,
+        size: 2.5
+      };
+    } else {
+      return {
+        particleCount: baseDensity,
+        speed: baseSpeed,
+        size: 3
+      };
+    }
+  };
+  
+  // 雪花粒子类
+  class Snowflake {
+    constructor(x, y, speed, size) {
+      this.x = x;
+      this.y = y;
+      this.speed = speed;
+      this.size = size;
+      this.opacity = Math.random() * 0.5 + 0.5;
+      this.wind = Math.random() * 0.5 - 0.25;
+    }
+    
+    update(width, height) {
+      this.y += this.speed;
+      this.x += this.wind;
+      
+      // 边界检测和重置
+      if (this.y > height) {
+        this.y = -this.size;
+        this.x = Math.random() * width;
+      }
+      
+      if (this.x > width) {
+        this.x = -this.size;
+      } else if (this.x < -this.size) {
+        this.x = width;
+      }
+    }
+    
+    draw(ctx) {
+      ctx.save();
+      ctx.globalAlpha = this.opacity;
+      ctx.beginPath();
+      ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2);
+      ctx.fill();
+      ctx.restore();
+    }
+  }
+  
+  // 雪花系统
+  class SnowSystem {
+    constructor(canvas, config) {
+      this.canvas = canvas;
+      this.ctx = canvas.getContext('2d');
+      this.config = config;
+      this.particles = [];
+      this.lastTime = 0;
+      this.frameCount = 0;
+      this.fps = 60;
+      
+      this.init();
+    }
+    
+    init() {
+      this.resize();
+      this.createParticles();
+      this.bindEvents();
+    }
+    
+    resize() {
+      const rect = this.canvas.getBoundingClientRect();
+      this.canvas.width = rect.width * window.devicePixelRatio;
+      this.canvas.height = rect.height * window.devicePixelRatio;
+      this.ctx.scale(window.devicePixelRatio, window.devicePixelRatio);
+      
+      this.width = rect.width;
+      this.height = rect.height;
+    }
+    
+    createParticles() {
+      this.particles = [];
+      for (let i = 0; i < this.config.particleCount; i++) {
+        this.particles.push(new Snowflake(
+          Math.random() * this.width,
+          Math.random() * this.height,
+          Math.random() * this.config.speed + 0.5,
+          Math.random() * this.config.size + 1
+        ));
+      }
+    }
+    
+    bindEvents() {
+      // 窗口大小改变时重新调整
+      let resizeTimeout;
+      window.addEventListener('resize', () => {
+        clearTimeout(resizeTimeout);
+        resizeTimeout = setTimeout(() => {
+          this.resize();
+          this.createParticles();
+        }, 100);
+      });
+      
+      // 页面可见性改变时暂停/恢复
+      document.addEventListener('visibilitychange', () => {
+        if (document.hidden) {
+          this.pause();
+        } else {
+          this.resume();
+        }
+      });
+      
+      // 性能监控：如果FPS过低，减少粒子数量
+      setInterval(() => {
+        if (this.fps < 30 && this.particles.length > 50) {
+          this.particles.splice(0, Math.floor(this.particles.length * 0.1));
+        }
+      }, 5000);
+    }
+    
+    update(deltaTime) {
+      this.frameCount++;
+      this.fps = 1000 / deltaTime;
+      
+      this.particles.forEach(particle => {
+        particle.update(this.width, this.height);
+      });
+    }
+    
+    render() {
+      this.ctx.clearRect(0, 0, this.width, this.height);
+      this.ctx.fillStyle = '#ffffff';
+      
+      this.particles.forEach(particle => {
+        particle.draw(this.ctx);
+      });
+    }
+    
+    animate(currentTime) {
+      if (isPaused) return;
+      
+      const deltaTime = currentTime - this.lastTime;
+      this.lastTime = currentTime;
+      
+      this.update(deltaTime);
+      this.render();
+      
+      animationId = requestAnimationFrame((time) => this.animate(time));
+    }
+    
+    pause() {
+      isPaused = true;
+      if (animationId) {
+        cancelAnimationFrame(animationId);
+        animationId = null;
+      }
+    }
+    
+    resume() {
+      isPaused = false;
+      this.lastTime = performance.now();
+      this.animate(this.lastTime);
+    }
+  }
+  
+  // 初始化雪花系统
+  const initSnow = () => {
+    const config = getPerformanceConfig();
+    const snowSystem = new SnowSystem(canvas, config);
+    
+    // 延迟启动以避免页面加载时的性能问题
+    setTimeout(() => {
+      snowSystem.resume();
+    }, 1000);
+    
+    // 清理函数
+    window.addEventListener('beforeunload', () => {
+      snowSystem.pause();
+    });
+  };
+  
+  // 等待DOM加载完成后初始化
+  if (document.readyState === 'loading') {
+    document.addEventListener('DOMContentLoaded', initSnow);
+  } else {
+    initSnow();
+  }
+})();
+</script>

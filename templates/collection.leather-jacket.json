@@ -1,0 +1,464 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4161cba1-6010-4032-a451-eccdaba16db2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16707444375771__4161cba1-6010-4032-a451-eccdaba16db2-167834171912041ca5-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "革ジャン"
+          }
+        },
+        "template--16707444375771__4161cba1-6010-4032-a451-eccdaba16db2-167834171912041ca5-1": {
+          "type": "heading",
+          "settings": {
+            "title": "LEATHER   JACKET    BUYER'S    CATALOGLEATHER",
+            "use_h1": false
+          }
+        },
+        "template--16707444375771__4161cba1-6010-4032-a451-eccdaba16db2-167834171912041ca5-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>一生モノの相棒を手に入れろ。</strong></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16707444375771__4161cba1-6010-4032-a451-eccdaba16db2-167834171912041ca5-0",
+        "template--16707444375771__4161cba1-6010-4032-a451-eccdaba16db2-167834171912041ca5-1",
+        "template--16707444375771__4161cba1-6010-4032-a451-eccdaba16db2-167834171912041ca5-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "3185e203-9147-492c-a6a3-c412bf07eab9": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16707444375771__3185e203-9147-492c-a6a3-c412bf07eab9-1678158298e0b4b62a-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/500.jpg",
+            "mobile_image": "shopify://shop_images/banner_2_03ba8642-1f12-4add-ae02-6e16a94abb3f.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16707444375771__3185e203-9147-492c-a6a3-c412bf07eab9-1678158298e0b4b62a-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "fb1f620e-5b3a-433f-877a-8b7cef5dab2a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16707444375771__fb1f620e-5b3a-433f-877a-8b7cef5dab2a-1678443865c8fea2a8-1": {
+          "type": "heading",
+          "settings": {
+            "title": "レザージャケットの歴史",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16707444375771__fb1f620e-5b3a-433f-877a-8b7cef5dab2a-1678443865c8fea2a8-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "6c295aac-f99a-4a60-bf23-ae094b953f2f": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16707444375771__6c295aac-f99a-4a60-bf23-ae094b953f2f-1678357518d69c39e3-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20230310-160436_d79f0bcd-34c9-453d-a51a-1314ef582e7d.jpg",
+            "mobile_image": "shopify://shop_images/20230310-161853.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16707444375771__6c295aac-f99a-4a60-bf23-ae094b953f2f-1678357518d69c39e3-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "a81c6fe5-0666-4242-abb9-16d15fe228ba": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16707444375771__a81c6fe5-0666-4242-abb9-16d15fe228ba-167834171912041ca5-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "革ジャン沼から抜け出せない。"
+          }
+        },
+        "template--16707444375771__a81c6fe5-0666-4242-abb9-16d15fe228ba-167834171912041ca5-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>これから活躍する一生モノとして手に入れたいレザージャケット（革ジャン）を大特集。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16707444375771__a81c6fe5-0666-4242-abb9-16d15fe228ba-167834171912041ca5-0",
+        "template--16707444375771__a81c6fe5-0666-4242-abb9-16d15fe228ba-167834171912041ca5-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "c2ce46dc-9839-409f-8aa5-a336f30da1bb": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16707444375771__c2ce46dc-9839-409f-8aa5-a336f30da1bb-167834164108c40bd6-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20230310-164919.jpg",
+            "mobile_image": "shopify://shop_images/20230310-164913.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16707444375771__c2ce46dc-9839-409f-8aa5-a336f30da1bb-167834164108c40bd6-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "fa9dfc57-29d9-429a-ad78-f1c3b0e73d03": {
+      "type": "collection-list",
+      "blocks": {
+        "a1cfda4d-2e5f-4eef-844f-e0f5bb378673": {
+          "type": "collection",
+          "settings": {
+            "collection": "casual",
+            "image": "shopify://shop_images/c748b6fbc74a48b24d75e66f4ba7160b.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "9da0261c-e6c2-4a9a-bbfc-119356e53e8e": {
+          "type": "collection",
+          "settings": {
+            "collection": "business",
+            "image": "shopify://shop_images/09b45cc61e451a48cc831f5c6eb891a0.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "687282e0-14a4-4d42-8dcb-0babe002b96a": {
+          "type": "collection",
+          "settings": {
+            "collection": "outdoor-sports",
+            "image": "shopify://shop_images/e0b1bc00e2371c92c676cd7a426a4d4d.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "6185350f-3346-4610-8759-0a714c2e8490": {
+          "type": "collection",
+          "settings": {
+            "collection": "navy",
+            "image": "shopify://shop_images/85e3b13ed818a2cb62f8b53434edd859.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "a1cfda4d-2e5f-4eef-844f-e0f5bb378673",
+        "9da0261c-e6c2-4a9a-bbfc-119356e53e8e",
+        "687282e0-14a4-4d42-8dcb-0babe002b96a",
+        "6185350f-3346-4610-8759-0a714c2e8490"
+      ],
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "2d87e7af-868f-4b42-982d-51c1c7bbb3a5": {
+      "type": "collection-list",
+      "blocks": {
+        "185bfd26-2840-4f22-af60-41fde88c2a9a": {
+          "type": "collection",
+          "settings": {
+            "collection": "japan-blue",
+            "image": "shopify://shop_images/457-M_5cf727c8-6821-4a97-a4a9-28108967afff.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "865cfc1c-2180-4428-91f4-cb64ebe9e087": {
+          "type": "collection",
+          "settings": {
+            "collection": "ukiyo-e",
+            "image": "shopify://shop_images/1080x1440_3.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "0ce83d5f-72a1-4844-982f-bd97a369de0e": {
+          "type": "collection",
+          "settings": {
+            "collection": "perfectoils",
+            "image": "shopify://shop_images/1080x1440_4.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "ac53e006-c0f8-4cd6-8110-9a8e2e0307fa": {
+          "type": "collection",
+          "settings": {
+            "collection": "spring-2023-denim",
+            "image": "shopify://shop_images/banner_f1d69582-4914-4ff6-b4da-47e804a0f6b3.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "185bfd26-2840-4f22-af60-41fde88c2a9a",
+        "865cfc1c-2180-4428-91f4-cb64ebe9e087",
+        "0ce83d5f-72a1-4844-982f-bd97a369de0e",
+        "ac53e006-c0f8-4cd6-8110-9a8e2e0307fa"
+      ],
+      "settings": {
+        "title": "特集をもっと見る",
+        "enable_carousel": true,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "gallery_hmfk64": {
+      "type": "gallery",
+      "blocks": {
+        "media_CiGew8": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20230303-152430.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "shopify://collections/週替わりでお買い得アイテム",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_nfk97L": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20230303-152435.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "shopify://collections/人気商品",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_CiGew8",
+        "media_nfk97L"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "no_background",
+        "button_style": "primary"
+      }
+    }
+  },
+  "order": [
+    "4161cba1-6010-4032-a451-eccdaba16db2",
+    "3185e203-9147-492c-a6a3-c412bf07eab9",
+    "fb1f620e-5b3a-433f-877a-8b7cef5dab2a",
+    "6c295aac-f99a-4a60-bf23-ae094b953f2f",
+    "a81c6fe5-0666-4242-abb9-16d15fe228ba",
+    "c2ce46dc-9839-409f-8aa5-a336f30da1bb",
+    "main",
+    "1635765484031572a6",
+    "fa9dfc57-29d9-429a-ad78-f1c3b0e73d03",
+    "2d87e7af-868f-4b42-982d-51c1c7bbb3a5",
+    "gallery_hmfk64"
+  ]
+}

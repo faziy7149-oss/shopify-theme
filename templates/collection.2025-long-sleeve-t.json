@@ -1,0 +1,610 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "slideshow_MKhdRM": {
+      "type": "slideshow",
+      "blocks": {
+        "image_JQfrxm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/282__1920x780_40c6201f-3cf3-4837-8615-fb5ab5a6f21f.jpg",
+            "mobile_image": "shopify://shop_images/282__1080x1440_b8214b1a-b5ec-4579-aa40-9a8ffba19bc3.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_JQfrxm"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_Qq3bkM": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_1fe16780-8cc7-4365-9981-1bd7a3caa083.png",
+        "mobile_image": "shopify://shop_images/720_7432e410-5bda-47b3-9610-7fc6766c6e5a.png",
+        "img_rul": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "background_image_BzD38P": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-08-30_16-44-27_44e8f224-49ab-4e4f-be87-d322bff9e519.jpg",
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#f5f5f5",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_slider_7bCAi4": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_RWciCK": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-1_87fbc988-eb0e-4def-ba21-c264e580dd1e.jpg"
+          }
+        },
+        "image_slider_88bFyg": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-2_b571ade1-011a-4d93-ba51-6a263eb840d4.jpg"
+          }
+        },
+        "image_slider_8CmpHz": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-3_7fd460f7-816b-473b-a4a6-1247487ec673.jpg"
+          }
+        },
+        "image_slider_hpq8Ut": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-4_f23a3786-36b8-4248-bd32-c2b21b7771f3.jpg"
+          }
+        },
+        "main_diagram_RJCTH3": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-1_f869c952-8b62-415c-b45d-ed5c6dd7ed39.jpg",
+            "main_img2": "shopify://shop_images/600x720-2_f3e9414f-b992-4c10-a9d3-5b380aa1044b.jpg"
+          }
+        },
+        "image_info_7it6Et": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "襟元にVガゼットが施されて、伝統的なスウェットのデザインで見られるディテールで、伸縮性を補強する役割とともに、アクセントを加える装飾的な役割を担っています。",
+            "price_discount": 7990,
+            "original_price": 9980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lrj-gbct0617?_pos=1&_sid=6035f3e33&_ss=r&variant=47301089525979"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_RWciCK",
+        "image_slider_88bFyg",
+        "image_slider_8CmpHz",
+        "image_slider_hpq8Ut",
+        "main_diagram_RJCTH3",
+        "image_info_7it6Et"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "【予約】ブランドタグ＆Vガゼット入り　エアーレイヤーピケロンT",
+        "data_tit_col": "#826c55",
+        "info_text_col": "#362e25",
+        "price_col": "#d75700",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#dc6c21",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#783100"
+      }
+    },
+    "image_slider_fAxc3p": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_EECEYV": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-5_9cbfacea-bd9b-41df-a771-d43a12eec900.jpg"
+          }
+        },
+        "image_slider_zFrUt4": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-6_42f2ab65-f724-40ad-bce7-f7212fb2421b.jpg"
+          }
+        },
+        "image_slider_QnynWe": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-7_478b86f9-027c-489f-b492-bcbdfb873eff.jpg"
+          }
+        },
+        "image_slider_LUwqJU": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-8_fa402831-bb1d-4070-b82c-4eb83b1d1f6a.jpg"
+          }
+        },
+        "main_diagram_nMJiby": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-4_ec84b1d8-e671-45d1-a1d7-1369869cda73.jpg",
+            "main_img2": "shopify://shop_images/600x720-3_25845217-b537-4553-a7b0-915a48850266.jpg"
+          }
+        },
+        "image_info_GKfLM9": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "襟元に白いフェイクレイヤードのデザインが施されて、重ね着したような奥行き感を演出します。首元に明るい色を配置することで、顔周りを明るく引き立たせる効果があります。",
+            "price_discount": 9980,
+            "original_price": 9980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lsx-cxt0620?_pos=2&_sid=005ff2cb8&_ss=r&variant=47262962581723"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_EECEYV",
+        "image_slider_zFrUt4",
+        "image_slider_QnynWe",
+        "image_slider_LUwqJU",
+        "main_diagram_nMJiby",
+        "image_info_GKfLM9"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "【予約】「KaraKu」ロゴ刺繍　ワッフルフェイクレイヤードロンT",
+        "data_tit_col": "#826c55",
+        "info_text_col": "#362e25",
+        "price_col": "#d75700",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#dc6c21",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#783100"
+      }
+    },
+    "image_slider_xnb7Ti": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_JTkqaj": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-9_f4d4657c-2ec7-4bb6-b7be-a1b4ae902cf9.jpg"
+          }
+        },
+        "image_slider_ztX7Q4": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-10_239857a7-fee8-4c0e-bd0a-3ad4568610f3.jpg"
+          }
+        },
+        "image_slider_7KCax8": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-11_e4be48ea-bb44-443e-a0b0-27a686c17d2b.jpg"
+          }
+        },
+        "image_slider_K6Ewpj": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-12_89d72850-1440-49ce-b317-c99318bd8dc0.jpg"
+          }
+        },
+        "main_diagram_trBFdU": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-5_3a3b9b53-e5a4-4fc6-8a6d-84e19b49a5d8.jpg",
+            "main_img2": "shopify://shop_images/600x720-6_aa24c469-f2a0-4273-89f7-144bec7a470c.jpg"
+          }
+        },
+        "image_info_RpjnnT": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "凹凸のあるワッフル生地を採用、独特の立体感と柔らかい手触りを実現し、伸縮性もあり、動きやすさをサポート。通気性が良く、汗を素早く吸収し乾燥させる性能があるため、快適性が高い。",
+            "price_discount": 10980,
+            "original_price": 10980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lrj-hfgt0604?_pos=1&_sid=b8428f814&_ss=r&variant=47344615162075"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_JTkqaj",
+        "image_slider_ztX7Q4",
+        "image_slider_7KCax8",
+        "image_slider_K6Ewpj",
+        "main_diagram_trBFdU",
+        "image_info_RpjnnT"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "【予約】Vガゼット入り　ワッフルラグランスリーブロングTシャツ",
+        "data_tit_col": "#826c55",
+        "info_text_col": "#362e25",
+        "price_col": "#d75700",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#dc6c21",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#783100"
+      }
+    },
+    "image_slider_NXKWPN": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_agK7bd": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-13_4dc02643-c3d6-4e36-b1a6-de258d3cd606.jpg"
+          }
+        },
+        "image_slider_WCGMXE": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-14_44442dfc-c02b-4c22-8443-3f9efb3c626e.jpg"
+          }
+        },
+        "image_slider_enUanF": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-15_10dc876c-8e20-40c6-bd83-c89c6fba0a8d.jpg"
+          }
+        },
+        "image_slider_6zraXT": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-16_11e8702d-176a-4402-8e58-b1ce22b61acb.jpg"
+          }
+        },
+        "main_diagram_dcUPN8": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-7_cf1fd03b-18c9-453f-b1bc-544b8c91daf2.jpg",
+            "main_img2": "shopify://shop_images/600x720-8_c3f85b44-aa06-4ddf-b967-bc308d609c59.jpg"
+          }
+        },
+        "image_info_mhbGGC": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ベーシックなヘンリーネックに、ターコイズ調のボタンをプラスしたことで、さりげない個性が光る改良型Tシャツ。ネイティブ感漂うアクセントが、シンプルながらも他と差をつける仕上がりに。",
+            "price_discount": 9980,
+            "original_price": 9980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-zyd-sert0720?_pos=1&_sid=d390a4d32&_ss=r&variant=47389208346843"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_agK7bd",
+        "image_slider_WCGMXE",
+        "image_slider_enUanF",
+        "image_slider_6zraXT",
+        "main_diagram_dcUPN8",
+        "image_info_mhbGGC"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "【予約】ターコイズ調ボタン付き改良型ヘンリーネックTシャツ",
+        "data_tit_col": "#826c55",
+        "info_text_col": "#362e25",
+        "price_col": "#d75700",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#dc6c21",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#783100"
+      }
+    },
+    "image_slider_CkdWEt": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_B6Hff6": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-17_a0891d00-fe48-4302-9f01-3be2ee2668ac.jpg"
+          }
+        },
+        "image_slider_w7qRU9": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-18_268c30f6-fc94-4684-b8b2-3aeabffa2162.jpg"
+          }
+        },
+        "image_slider_idAjBJ": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-19_0fd70bd6-de56-489b-aabe-90d3c6b227d7.jpg"
+          }
+        },
+        "image_slider_dpNWDV": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-20_616e87c9-8d48-4339-a495-d47a19c0dfd0.jpg"
+          }
+        },
+        "main_diagram_w4pmCK": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-9_fe546a39-2253-41b2-80bf-5b77edd62250.jpg",
+            "main_img2": "shopify://shop_images/600x720-10_ea40d75c-8c3a-4f6a-857d-71290c9420b0.jpg"
+          }
+        },
+        "image_info_QTEjX3": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "袖にあしらわれたのは、風神雷神図をオマージュしながら、黒柴と白猫で表現された遊び心あふれる刺繍アート。黒柴風神が風を巻き起こし、白猫雷神が雷を操る──そんなユニークな世界観を袖に込めた、注目度抜群のクルーネックロングTeeです。",
+            "price_discount": 11980,
+            "original_price": 11980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-zyd-xkflswy0422?_pos=1&_sid=613e483e4&_ss=r&variant=47354070073563"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_B6Hff6",
+        "image_slider_w7qRU9",
+        "image_slider_idAjBJ",
+        "image_slider_dpNWDV",
+        "main_diagram_w4pmCK",
+        "image_info_QTEjX3"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "【予約】「黒柴風神＆白猫雷神」刺繍入りコットンクルーネックロングTee",
+        "data_tit_col": "#826c55",
+        "info_text_col": "#362e25",
+        "price_col": "#d75700",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#dc6c21",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#783100"
+      }
+    },
+    "image_slider_NTrQMU": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_B7HhcL": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-21_ba64b8ff-fd02-4a52-b708-156f25fb6bf4.jpg"
+          }
+        },
+        "image_slider_jFQFRg": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-22_5bbf9bf9-3983-4132-a6b3-a7935b640caf.jpg"
+          }
+        },
+        "image_slider_8cXLQ7": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-23_a9bfeb5c-6f58-4a7a-bbba-dc683d53d496.jpg"
+          }
+        },
+        "image_slider_GwEh3z": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-24_3c5d9259-23db-4493-bca1-b26ab2bd14e5.jpg"
+          }
+        },
+        "main_diagram_XynzG9": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-11_61307a7a-31db-483e-9245-b734ef98dc31.jpg",
+            "main_img2": "shopify://shop_images/600x720-12_af17147b-3b0b-42f7-9b86-f27e78591b1c.jpg"
+          }
+        },
+        "image_info_P8YfA8": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ヘンリーネックと呼ばれる特徴的な首元のスタイルで、襟が3ボタンで閉じられるデザインで、スタイリッシュで洗練された外観を与える。胸ポケットに「STAY TRUE」と刺繍ワッペンが付いて、シンプルながらもユニークなポイントになって、ワッペンの黄色が全体のダークなカラーに対してアクセントとなり、目を引く。",
+            "price_discount": 9980,
+            "original_price": 9980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lsx-wfrt0725?_pos=1&_sid=842a1e8f7&_ss=r&variant=47377408491739"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_B7HhcL",
+        "image_slider_jFQFRg",
+        "image_slider_8cXLQ7",
+        "image_slider_GwEh3z",
+        "main_diagram_XynzG9",
+        "image_info_P8YfA8"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "【予約】「STAY TRUE」刺繍ワッペン　裾ドローコードワッフルロンT",
+        "data_tit_col": "#826c55",
+        "info_text_col": "#362e25",
+        "price_col": "#d75700",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#dc6c21",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#783100"
+      }
+    },
+    "image_slider_LqwWtU": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_p3Fpaq": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-25_3a662185-7fad-4f74-8eb4-000392fcf932.jpg"
+          }
+        },
+        "image_slider_G43nqD": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-26_d6d64a44-ace9-4f35-a6cb-ca5057791aa8.jpg"
+          }
+        },
+        "image_slider_CLiUR9": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-27_27966dc7-b9bb-440b-9807-2dc9c15808de.jpg"
+          }
+        },
+        "image_slider_Xk9XM8": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-28_05ae7283-5da8-4f8a-9e97-bf3d87b4e710.jpg"
+          }
+        },
+        "main_diagram_rB7iMy": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-13_2cd036b3-40e5-43e5-a4f1-cfbb7c3293c2.jpg",
+            "main_img2": "shopify://shop_images/600x720-14_8a4cc5d8-3ff0-4dc3-a1c8-d68a28f6dec9.jpg"
+          }
+        },
+        "image_info_bWGT6c": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ヘンリーネックと呼ばれる特徴的な首元のスタイルで、襟が5ボタンで閉じられるデザインで、スタイリッシュで洗練された外観を与えます。ボタンにターコイズ風の鮮やかな青緑色が採用されて、全体の落ち着いた色味に対してアクセントとなって、シンプルなデザインに遊び心を加えています。",
+            "price_discount": 9980,
+            "original_price": 9980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-zyd-tqist0704?_pos=1&_sid=4cf6ec8da&_ss=r&variant=47304375828699"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_p3Fpaq",
+        "image_slider_G43nqD",
+        "image_slider_CLiUR9",
+        "image_slider_Xk9XM8",
+        "main_diagram_rB7iMy",
+        "image_info_bWGT6c"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "【予約】ターコイズ風5ボタン付き　ヘンリーネック長袖Tシャツ",
+        "data_tit_col": "#826c55",
+        "info_text_col": "#362e25",
+        "price_col": "#d75700",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#dc6c21",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#783100"
+      }
+    },
+    "featured_collection_pPCTDk": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "ロングスリーブTee",
+        "collection": "2025-long-sleeve-t",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "slideshow_MKhdRM",
+    "image_Qq3bkM",
+    "main",
+    "background_image_BzD38P",
+    "image_slider_7bCAi4",
+    "image_slider_fAxc3p",
+    "image_slider_xnb7Ti",
+    "image_slider_NXKWPN",
+    "image_slider_CkdWEt",
+    "image_slider_NTrQMU",
+    "image_slider_LqwWtU",
+    "featured_collection_pPCTDk"
+  ]
+}

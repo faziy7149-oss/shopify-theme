@@ -1,0 +1,380 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "48b83a8e-af96-4a14-a5d0-612c31334713": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/4_ec30a2ad-a303-474c-9089-5ed04d293d32.jpg",
+        "mobile_image": "shopify://shop_images/KARAKU__4.jpg",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background"
+      }
+    },
+    "75086b5b-adba-4b20-9a16-0f3c6cd111a2": {
+      "type": "rich-text",
+      "blocks": {
+        "f66184b8-bd7d-4201-a1c7-13e028cc7022": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "KaraKu 4th anniversary"
+          }
+        },
+        "template--15421975888091__75086b5b-adba-4b20-9a16-0f3c6cd111a2-1682580732dd59d3ae-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Karaku4周年記念キャンペーンのお知らせ",
+            "use_h1": false
+          }
+        },
+        "template--15421975888091__75086b5b-adba-4b20-9a16-0f3c6cd111a2-1682580732dd59d3ae-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>日頃よりKarakubuyにご愛顧を賜り誠に有難うございます。</p><p>お陰様で、karakuオンラインショップは2024年5月1日で4周年を迎えることとなりました。</p><p>これまでの4年間、多くのお客様にご支持いただき、私たちは成長し続けることができました。</p><p>その感謝の気持ちを込めまして、最大60%OFFキャンペーン、期間限定ポイントアップ、福袋限定発売、均一セール、SNSキャンペーンなど</p><p>様々なイベントをご用意しておりますので、たくさんのご参加お待ちしています。</p><p>※4周年を記念して実施するキャンペーンの情報を順次公開する予定です。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "f66184b8-bd7d-4201-a1c7-13e028cc7022",
+        "template--15421975888091__75086b5b-adba-4b20-9a16-0f3c6cd111a2-1682580732dd59d3ae-1",
+        "template--15421975888091__75086b5b-adba-4b20-9a16-0f3c6cd111a2-1682580732dd59d3ae-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "3a090d46-bb16-4261-9f35-4af0aaaabb5e": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_w3NhYe": {
+          "type": "heading",
+          "settings": {
+            "title": "対象品が最大60％OFFキャンペーン",
+            "use_h1": false
+          }
+        },
+        "text_iMck3m": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><p>karaku 4周年記念企画第1弾</p><p>対象品が最大<strong>60％OFF</strong>キャンペーン<br/></p><p>Tシャツから、トレンドのアロハシャツまで、幅広い人気アイテムがお得に手に入ります。</p><p>お得なチャンスをお見逃しなく！</p><p>キャンペーン期間：4/29(月)～5/19(日)</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_w3NhYe",
+        "text_iMck3m"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/4.29-5.13_1200_1.jpg",
+        "image_width": 700,
+        "image_link": "https://karakubuy.com/collections/karaku-4th-anniversary-thanksgiving-sale",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "featured_collection_fQYdBC": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "KARAKU オープン4周年感謝祭「SALE」対象商品一覧",
+        "collection": "karaku-4th-anniversary-thanksgiving-sale",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "106c5c2a-c679-4663-bcb0-c664efc90e57": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_yijiqp": {
+          "type": "heading",
+          "settings": {
+            "title": "ポイント10倍アップ ！",
+            "use_h1": false
+          }
+        },
+        "text_7QRbLe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>karaku 4周年記念企画第2弾</p><p>会員限定・全商品ポイント<strong>10倍</strong>アップ ！</p><p>期間中、通常のポイント付与が通常の10倍にアップ！お買い物がさらにお得になります。</p><p>キャンペーン期間：4/29(月)～5/19(日)</p><p></p>",
+            "enlarge_text": false
+          }
+        },
+        "button_7dzYGN": {
+          "type": "button",
+          "settings": {
+            "button_label": "会員登録はこちら",
+            "button_link": "https://www.karakubuy.com/account/login",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yijiqp",
+        "text_7QRbLe",
+        "button_7dzYGN"
+      ],
+      "custom_css": [
+        ".lightly-spaced-row-above {margin-top: 40px;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/4.29-5.13___1200-2_bfa9b088-75ed-4a70-846c-2330be820194.jpg",
+        "image_width": 700,
+        "image_link": "https://www.karakubuy.com/account/login",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_FTF37P": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_4E6VUg": {
+          "type": "heading",
+          "settings": {
+            "title": "4周年誕生感謝セット発売",
+            "use_h1": false
+          }
+        },
+        "text_gCtB8T": {
+          "type": "text",
+          "settings": {
+            "text": "<p>karaku 4周年記念企画第3弾</p><p>数量限定・<strong>200</strong>点</p><p>4周年を迎えるこの特別な時期に、藍染職人とkarakuスタッフの熱いコラボレーションで生み出した商品を組み合わせ、お客様への感謝の気持ちを込めた特別な感謝セットを発売決定いたしました！</p><p>数に限りがありますので<br/>お早めにゲットしてください。</p><p>販売期間：4/29(月)からスタート<br/><br/></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_4E6VUg",
+        "text_gCtB8T"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/678_b5dcc935-2eff-4bc8-986a-a989614fe851.jpg",
+        "image_width": 700,
+        "image_link": "https://karakubuy.com/collections/2024-4th-blue",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "featured_collection_nE47Kd": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "4周年誕生感謝セット商品一覧",
+        "collection": "2024-4th-blue",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "f4b2ec00-ef9e-4625-aaf1-e3f5ff6a88a2": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_fC8gRT": {
+          "type": "heading",
+          "settings": {
+            "title": "最大25％OFFクーポン配布",
+            "use_h1": false
+          }
+        },
+        "text_MdpfaJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>karaku 4周年記念企画第4弾</p><p>①2点購入で10%OFF！<br/>クーポン番号：<strong>4th10</strong></p><p>②3点以上のご購入で15%OFF！<br/>クーポン番号：<strong>4th15</strong></p><p>③5点以上のご購入で25%OFF！<br/>クーポン番号：<strong>4th25</strong></p><p>利用期間：4/29(月)～5/19(日)</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_ttqdQt": {
+          "type": "button",
+          "settings": {
+            "button_label": "すぐ使える",
+            "button_link": "https://karakubuy.com/collections/karaku-4th-anniversary-thanksgiving-sale",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fC8gRT",
+        "text_MdpfaJ",
+        "button_ttqdQt"
+      ],
+      "custom_css": [
+        ".lightly-spaced-row-above {margin-top: 40px;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/EDM_e479049f-78eb-4901-bc16-109291b69b0c.jpg",
+        "image_width": 700,
+        "image_link": "https://karakubuy.com/collections/karaku-4th-anniversary-thanksgiving-sale",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_TfzMHg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_tzA3Fc": {
+          "type": "heading",
+          "settings": {
+            "title": "24時間 均一TIME SALE",
+            "use_h1": false
+          }
+        },
+        "text_V7eFM8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>karaku 4周年記念企画第5弾</p><p>24時間 TIME SALE<br/>6999円均一開催いたします！<br/>厳選20点・是非お見逃しなく</p><p>是非この機会にkarakuでのお買い物をお楽しみください。</p><p>キャンペーン期間：5月1日00:00～5月1日23:59まで<br/></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_tzA3Fc",
+        "text_V7eFM8"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/5.1_1200-2.jpg",
+        "image_width": 700,
+        "image_link": "https://karakubuy.com/collections/4-6999-time-sale",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "featured_collection_bak9FY": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "KARAKU オープン4周年感謝祭「6999均一TIME SALE」商品一覧",
+        "collection": "4-6999-time-sale",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "661df963-28ff-47b6-9c2b-6a00b94d1903": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_xjzfVP": {
+          "type": "heading",
+          "settings": {
+            "title": "4周年記念福袋発売",
+            "use_h1": false
+          }
+        },
+        "text_bEEXKb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>karaku 4周年記念企画第6弾</p><p>4周年記念<strong>福袋</strong>発売決定いたしました！</p><p>先着<strong>500名様</strong>限定</p><p>数に限りがありますので<br/>お早めにゲットしてください。</p><p>キャンペーン期間：5/1(水)～5/5(日)<br/></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_xjzfVP",
+        "text_bEEXKb"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/banner_1200_53e0d5c4-716d-43aa-aa23-3d9dc2656ed0.jpg",
+        "image_width": 700,
+        "image_link": "https://karakubuy.com/collections/karaku-4-fuku",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "featured_collection_CEAV7F": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "KARAKU オープン4周年感謝祭「福袋」商品一覧",
+        "collection": "karaku-4-fuku",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "1b40414d-cd05-4cd4-8889-7ab3484b7fd9": {
+      "type": "image-with-text",
+      "disabled": true,
+      "custom_css": [
+        ".lightly-spaced-row-above {margin-top: 40px; margin-bottom: 40px;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/LINE_4.jpg",
+        "image_2": "shopify://shop_images/0634bdf41558ee4394e9e25d465ef86a.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "settings": {
+        "show_date": true,
+        "show_author": true,
+        "show_article_tags": true,
+        "show_sharing_icons": true,
+        "show_twitter": true,
+        "show_facebook": true,
+        "show_pinterest": true,
+        "show_featured_image": true,
+        "full_width_image": true,
+        "featured_image_height": "large",
+        "enable_title_overlay": false,
+        "overlay_style": "shadow"
+      }
+    }
+  },
+  "order": [
+    "48b83a8e-af96-4a14-a5d0-612c31334713",
+    "75086b5b-adba-4b20-9a16-0f3c6cd111a2",
+    "3a090d46-bb16-4261-9f35-4af0aaaabb5e",
+    "featured_collection_fQYdBC",
+    "106c5c2a-c679-4663-bcb0-c664efc90e57",
+    "image_with_text_FTF37P",
+    "featured_collection_nE47Kd",
+    "f4b2ec00-ef9e-4625-aaf1-e3f5ff6a88a2",
+    "image_with_text_TfzMHg",
+    "featured_collection_bak9FY",
+    "661df963-28ff-47b6-9c2b-6a00b94d1903",
+    "featured_collection_CEAV7F",
+    "1b40414d-cd05-4cd4-8889-7ab3484b7fd9",
+    "main"
+  ]
+}

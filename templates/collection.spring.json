@@ -1,0 +1,246 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "16478489107b58091e": {
+      "type": "rich-text",
+      "blocks": {
+        "164784891088016442-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "注目製品"
+          }
+        },
+        "164784891088016442-1": {
+          "type": "heading",
+          "settings": {
+            "title": "アロハシャツ（ALOHA SHIRT)夏の代表アイテム、テンションを上げてくれる",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "164784891088016442-0",
+        "164784891088016442-1"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "1647848914b14e15ba": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_eRfLYF": {
+          "type": "heading",
+          "settings": {
+            "title": "アロハシャツとは？",
+            "use_h1": false
+          }
+        },
+        "text_LQW6YN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>アロハシャツ (Aloha shirt) は、パイナップルやフラを踊る女性などのトロピカルなモチーフや、金魚、虎などのオリエンタルなモチーフ（和柄と呼ぶ）を華やかでカラフルな色彩で染め上げた、シルクやレーヨン、ポリエステル、綿などの生地を用いて作られる開襟シャツ。 \"Aloha\"（アロハ）はハワイ語で「好意」「愛情」「慈悲」「優しい気持ち」「思いやり」「挨拶」などの意味がある。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_eRfLYF",
+        "text_LQW6YN"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/20220321155618.png",
+        "image_width": 430,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "16478490018e63799a": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_86CfMA": {
+          "type": "heading",
+          "settings": {
+            "title": "アロハシャツの起源",
+            "use_h1": false
+          }
+        },
+        "text_rFycjy": {
+          "type": "text",
+          "settings": {
+            "text": "<p>起源については、日本の和服から発生した。 19世紀終盤から20世紀初頭、シュガープラント・農業に従事していた日本移民は、パラカ（ヨーロッパの船員たちが着ていた開襟シャツ）が日本の木綿絣に似ていることから好んで愛用しており、持参品であった着物を再利用する際にパラカ風に仕立て直したのが起源と言われている。他には、日本の着物の美しさに惹かれた現地の人が「着物をシャツにしてくれ」と頼んだのが起源という説もある。</p><p>移民が日本から持参した着物や浴衣が古くなると、その端切れを使って子ども用にパラカ風シャツを仕立てて着せていたという。和装独特の色や柄が現地の人々や観光客に新鮮に映ったことは容易に想像でき、着物や浴衣用の新しい生地を使って仕立てた開襟シャツが人気を博し、徐々に広まったと推察できる。事実、農園での労働者であった日系移民はやがて街中の様々な分野の職業に就くようになり、1900年を過ぎた頃にはホノルルに多くの仕立屋や呉服店を営んでいた。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_86CfMA",
+        "text_rFycjy"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/20210809191200_480x480_d2872691-aa55-4fbd-a12b-e11d87b0b396.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "1647849067a7547a85": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Ltz6hC": {
+          "type": "heading",
+          "settings": {
+            "title": "日本はアロハシャツをどのように見ていますか",
+            "use_h1": false
+          }
+        },
+        "text_WdYB3V": {
+          "type": "text",
+          "settings": {
+            "text": "<p>当時のアロハシャツの生地を製作、輸出していたのは主に日本だ。とりわけ友禅をはじめ染織の中心地である京都や大阪は、戦時中を除きアロハシャツの黎明期から最盛期を支えた重要なテキスタイル産地であった。文様の意味を損なうことなく自由闊達に布地に描かれた和柄もあれば、ハワイらしいトロピカルな柄も日本でデザインされていた。アロハシャツ発展の歴史には日系人のみならず日本という国も深くかかわっていたのだ。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Ltz6hC",
+        "text_WdYB3V"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/20210809191319_480x480_71e51adc-bd27-4b2f-a34c-ff974459aac8.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "2022春の新作を先取り！",
+        "collection": "2022春の新作",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 5,
+        "rows": 5,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "16478504284ab7e31b": {
+      "type": "testimonials",
+      "blocks": {
+        "164785042843cb9455-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "karakubuy購入のキッカケになったシャツ!\nスタイル・ガラ共にお気に入りです、特に衿!\nMサイズを購入、アメカジブランドは大きめサイズが普通、身長164cm体重59kgでユッタリ着れます。\n普通のサイズ感、大きめ考慮必要無しかと思います。",
+            "author": "Katsurada",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "164785042843cb9455-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "到着後、直ぐに着ています。\n色や柄も、画像と同じで色の誤差もないです。\nとても気に入りました。",
+            "author": "佐藤裕一",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "3174ff70-f467-4f9a-947e-455ef54c883f": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "着心地も良く色合いも画像にほぼ近く気に入ってます。",
+            "author": "植聡二郎",
+            "image_caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "164785042843cb9455-0",
+        "164785042843cb9455-1",
+        "3174ff70-f467-4f9a-947e-455ef54c883f"
+      ],
+      "settings": {
+        "title": "Customer reviews",
+        "layout": "no-image",
+        "text_caps": false,
+        "quote_text_size": 30,
+        "quote_text_size_mobile": 20,
+        "image_shape": "natural",
+        "color_scheme": "default",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    }
+  },
+  "order": [
+    "16478489107b58091e",
+    "1647848914b14e15ba",
+    "16478490018e63799a",
+    "1647849067a7547a85",
+    "main",
+    "1635765484031572a6",
+    "16478504284ab7e31b"
+  ]
+}

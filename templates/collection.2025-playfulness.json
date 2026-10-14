@@ -1,0 +1,876 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "slideshow_Hd3nzn": {
+      "type": "slideshow",
+      "blocks": {
+        "image_tF4pKJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20250328-162705.jpg",
+            "mobile_image": "shopify://shop_images/20250328-162658.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 4,
+            "title_size": 20,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": false,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_tF4pKJ"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 1,
+        "accessibility_info": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [
+          "shirts",
+          "スウェット",
+          "ジャケット-アウター",
+          "アクセサリー",
+          "short-sleeve-t-shirts",
+          "short-sleeve-shirts",
+          "カーゴパンツ",
+          "coat",
+          "デニムパンツ"
+        ],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "image_9biyrM": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_c81e9a1d-9c70-49d5-af68-5767f317ced8.png",
+        "mobile_image": "shopify://shop_images/720_48a276a7-e4c5-4e5d-a424-9ebf4a1d2b8b.png",
+        "img_rul": ""
+      }
+    },
+    "image_list_MigRJG": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_E74bce": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/370x370-1_29ca894e-ee32-46df-a92b-44e00339c294.jpg",
+            "image_list_link": "https://karakubuy.com/collections/shirts/products/krk-gpd-gs1344"
+          }
+        },
+        "imagelist_9Xqe8A": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/370x370-6_a880c1e0-eb39-4502-b3ca-bf390a068294.jpg",
+            "image_list_link": "https://karakubuy.com/products/tlw2107009?_pos=3&_sid=ed5468ff0&_ss=r&variant=40878447132850"
+          }
+        },
+        "imagelist_FxLVaA": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/370x370-10_bd4cf68f-3f45-4da7-8206-1d2d151c046e.jpg",
+            "image_list_link": "https://karakubuy.com/products/krk-sy-243te09208?_pos=1&_sid=8e62ce8db&_ss=r&variant=45926697337051"
+          }
+        },
+        "imagelist_yzRzM3": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/370x370-14_f37eaad5-3233-4caf-b379-6bc7bb14133a.jpg",
+            "image_list_link": "https://karakubuy.com/products/md-w2001199?_pos=3&_sid=bda421477&_ss=r&variant=40332082610354"
+          }
+        },
+        "imagelist_rPGLjw": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/370x370-18_4d8c30b0-97cb-4692-a66c-d1b768506e53.jpg",
+            "image_list_link": "https://karakubuy.com/products/krk-ly-klklt428?_pos=1&_sid=8b713834c&_ss=r&variant=45474712977627"
+          }
+        },
+        "imagelist_YW8tYB": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/370x370-22_5b1f3569-1c14-470d-824f-72f41459fb34.jpg",
+            "image_list_link": "https://karakubuy.com/products/krk-gsh-kldtpl410?_pos=1&_sid=7c6b1180f&_ss=r&variant=45260516786395"
+          }
+        },
+        "imagelist_c77neq": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/370x370-2_92c7c417-ab1e-4546-963c-af780affec1f.jpg",
+            "image_list_link": "https://karakubuy.com/products/krk-zyd-gbsdxsg726?_pos=1&_sid=f460d5ebf&_ss=r&variant=45943628529883"
+          }
+        },
+        "imagelist_9hPeBM": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/370x370-30.jpg",
+            "image_list_link": "https://karakubuy.com/products/krk-dc-810?_pos=1&_sid=3b8efd51b&_ss=r&variant=44064612712667"
+          }
+        },
+        "imagelist_VWLKyD": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/370x370-40.jpg",
+            "image_list_link": "https://karakubuy.com/products/krk-gsh-mydcxxlsg806?_pos=1&_sid=abf4c24ca&_ss=r&variant=45926661390555"
+          }
+        },
+        "imagelist_weHfxe": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/370x370-42.jpg",
+            "image_list_link": "https://karakubuy.com/products/krk-zyd-xmcxks904?_pos=1&_sid=c7e78c163&_ss=r&variant=46015235850459"
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_E74bce",
+        "imagelist_9Xqe8A",
+        "imagelist_FxLVaA",
+        "imagelist_yzRzM3",
+        "imagelist_rPGLjw",
+        "imagelist_YW8tYB",
+        "imagelist_c77neq",
+        "imagelist_9hPeBM",
+        "imagelist_VWLKyD",
+        "imagelist_weHfxe"
+      ],
+      "settings": {
+        "img_animation": "whirling"
+      }
+    },
+    "image_slider_iPQwwU": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_VEMft8": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-1_2d2e4b41-848b-42f9-a5fc-415059efcd9e.jpg"
+          }
+        },
+        "image_slider_GXBUhc": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-4_2224995b-264c-4355-9f80-d09f6ad4858d.jpg"
+          }
+        },
+        "image_slider_dztY3e": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-3_ffd5c8a6-cd21-4df9-a18a-5594df9c4a78.jpg"
+          }
+        },
+        "image_slider_3mMFRD": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-2_79fd7e1c-97ba-45a8-9d08-044325f76117.jpg"
+          }
+        },
+        "main_diagram_nQafz9": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-2_e79be56e-99d9-4ede-b2e1-92912a636c10.jpg",
+            "main_img2": "shopify://shop_images/600x720-1_19b9f102-81de-49db-8168-edbafcb37055.jpg"
+          }
+        },
+        "image_info_rkbnxM": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "左胸元にミニ刺繍はオーセンティックさを感じさせる別注のデザイン、程よい主張とトレンドを感じさせる、1着でも十分な存在感を放つ。",
+            "price_discount": 7140,
+            "original_price": 10980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/collections/shirts/products/krk-gpd-gs1344"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_VEMft8",
+        "image_slider_GXBUhc",
+        "image_slider_dztY3e",
+        "image_slider_3mMFRD",
+        "main_diagram_nQafz9",
+        "image_info_rkbnxM"
+      ],
+      "settings": {
+        "data_title": "Cleanfit　赤ヒモ付き　刺繍入りオックスフォード長袖シャツ",
+        "data_tit_col": "#404b91",
+        "info_text_col": "#404b91",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#5e8bb3",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_YiHwzG": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_dR9NmE": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-5_e3e80fae-bdd9-4535-a70f-fec337110bda.jpg"
+          }
+        },
+        "image_slider_JTxBFg": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-6_2b9b6ddb-f37b-49e0-9182-3668b8aeadfc.jpg"
+          }
+        },
+        "image_slider_UHnypf": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-7_71395cab-7727-4aa7-98b3-bb49150b3670.jpg"
+          }
+        },
+        "image_slider_XwQ3yk": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-8_adc89c8d-286c-4482-acd1-44354400ad0d.jpg"
+          }
+        },
+        "main_diagram_tKHMiR": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-3_04eb007b-01cb-4086-96a5-a0e945c0892c.jpg",
+            "main_img2": "shopify://shop_images/600x720-4_a2875c8e-a175-4842-846b-ffe6788abf1d.jpg"
+          }
+        },
+        "image_info_XNTqRt": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "アメリカインディアンの代表的なNavajo Homeトーテムのエレメントは目立つと楽しみポイントとなります。",
+            "price_discount": 10490,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/tlw2107009?_pos=3&_sid=ed5468ff0&_ss=r&variant=40878447132850"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_dR9NmE",
+        "image_slider_JTxBFg",
+        "image_slider_UHnypf",
+        "image_slider_XwQ3yk",
+        "main_diagram_tKHMiR",
+        "image_info_XNTqRt"
+      ],
+      "settings": {
+        "data_title": "レトロアメリカインディアントーテムステッチポケット長袖シャツ",
+        "data_tit_col": "#404b91",
+        "info_text_col": "#404b91",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#5e8bb3",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_Qrtbta": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_cUJnAj": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-10_33b6ea95-1d88-4592-94f2-6546aaca1b13.jpg"
+          }
+        },
+        "image_slider_AYK3rY": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-11_a91f917c-a9bd-4504-b30b-d38186f10ed6.jpg"
+          }
+        },
+        "image_slider_fp4QN6": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-9_2b0f29bd-71b9-43db-a373-36ee9babeff4.jpg"
+          }
+        },
+        "image_slider_eYj7nY": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-12_4ead857d-903c-49c7-8945-fdf2eddc33db.jpg"
+          }
+        },
+        "main_diagram_XPJb8L": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-5_5d431aec-56c8-4473-94f7-9b9ebde12887.jpg",
+            "main_img2": "shopify://shop_images/600x720-6_8f5cb5c4-1523-40de-9f4b-b2d62f748287.jpg"
+          }
+        },
+        "image_info_9YUmwK": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "左胸ポケットには葉の部分はサガラ刺繍で表現されており、繊細で立体的な質感が加わることで、葉のディテールがリアルに再現されています。",
+            "price_discount": 8240,
+            "original_price": 10980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-sy-243te09208?_pos=1&_sid=8e62ce8db&_ss=r&variant=45926697337051"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_cUJnAj",
+        "image_slider_AYK3rY",
+        "image_slider_fp4QN6",
+        "image_slider_eYj7nY",
+        "main_diagram_XPJb8L",
+        "image_info_9YUmwK"
+      ],
+      "settings": {
+        "data_title": "「木はポケットの中で育つ」サガラ刺繍コットン長袖Tシャツ",
+        "data_tit_col": "#404b91",
+        "info_text_col": "#404b91",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#5e8bb3",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_DiHiYB": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_VkqXcW": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-13_2605a800-79a2-42b5-aacf-da3f2cfb0552.jpg"
+          }
+        },
+        "image_slider_rt4PEc": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-14_c595e906-1c4d-4465-bfae-f003f7a90ff7.jpg"
+          }
+        },
+        "image_slider_mwjx9B": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-16_5b941ca4-62aa-4950-9efb-971c00ba4019.jpg"
+          }
+        },
+        "image_slider_T3cGYK": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-15_fd8cb6ad-0897-4eb8-86fa-673c11c40712.jpg"
+          }
+        },
+        "main_diagram_F6zW8b": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-7_94f234b7-0063-46c2-b053-23812c1cbab4.jpg",
+            "main_img2": "shopify://shop_images/600x720-8_7f2d2b68-8ce6-4f6f-9e5a-c6e6a52b2c6b.jpg"
+          }
+        },
+        "image_info_kA33tR": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "胸ポケットの内側には遊び心あふれるデザインが。ポケットをめくると、そこには大胆でセクシーな女の子の姿が隠れています。シンプルな見た目の中に、さりげなく仕込まれたユニークなディテールが魅力的。",
+            "price_discount": 7600,
+            "original_price": 15190,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/md-w2001199?_pos=3&_sid=bda421477&_ss=r&variant=40332082610354"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_VkqXcW",
+        "image_slider_rt4PEc",
+        "image_slider_mwjx9B",
+        "image_slider_T3cGYK",
+        "main_diagram_F6zW8b",
+        "image_info_kA33tR"
+      ],
+      "settings": {
+        "data_title": "ピーチスキンシャツ",
+        "data_tit_col": "#404b91",
+        "info_text_col": "#404b91",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#5e8bb3",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_BFDHNe": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_yMQKxR": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-17_63e9b7de-4574-481c-a9f5-b80bab89e647.jpg"
+          }
+        },
+        "image_slider_mD3mG6": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-18_c6db1d3e-ea91-4da8-97ff-d7906f7bea88.jpg"
+          }
+        },
+        "image_slider_6gWFfj": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-19_c0934022-9047-4d62-a4d9-57caa748ff19.jpg"
+          }
+        },
+        "image_slider_rNxbj8": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-20_d95bf9e0-796c-41f6-88b4-c2950ecd71f3.jpg"
+          }
+        },
+        "main_diagram_GPEYDV": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-9_75e8df4c-511c-45e6-99f7-589cc658d01c.jpg",
+            "main_img2": "shopify://shop_images/600x720-10_b5964963-cfe6-4bc2-a8ba-e5621a109040.jpg"
+          }
+        },
+        "image_info_yW7FNw": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ユニークなキャラクターや奇想天外なシチュエーションにより、ユーモラスな雰囲気を醸し出す。ガイコツのパフォーマンスとバスケットボールの組み合わせは、想像力をかきたてるものであり、視覚的な楽しみを提供。",
+            "price_discount": 8990,
+            "original_price": 8990,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-ly-klklt428?_pos=1&_sid=8b713834c&_ss=r&variant=45474712977627"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_yMQKxR",
+        "image_slider_mD3mG6",
+        "image_slider_6gWFfj",
+        "image_slider_rNxbj8",
+        "main_diagram_GPEYDV",
+        "image_info_yW7FNw"
+      ],
+      "settings": {
+        "data_title": "「ダンクシュートを決める骸骨」プリント　コットン半袖Tee",
+        "data_tit_col": "#404b91",
+        "info_text_col": "#404b91",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#5e8bb3",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_mFmnwn": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_MPrjtD": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-22_079ead3d-7d90-476a-be93-0808811e7a63.jpg"
+          }
+        },
+        "image_slider_PGQfFt": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-21_e85fcf84-14ba-4000-a1fe-e81b3ca66928.jpg"
+          }
+        },
+        "image_slider_kEcW7t": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-24_37628b74-5f67-451f-bf72-18115db27068.jpg"
+          }
+        },
+        "image_slider_FAy4At": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-23_a7340eb0-0721-40b0-b81e-de8598165cdb.jpg"
+          }
+        },
+        "main_diagram_YaKMGC": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-11_fb951473-24bc-4db9-8c5c-360015038257.jpg",
+            "main_img2": "shopify://shop_images/600x720-12_01bf228d-b456-4a2c-9ad0-529dc4359658.jpg"
+          }
+        },
+        "image_info_7DYNRB": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "左胸元には「ゴルフスイングの首が落ちた骸骨」の刺繡デザインが施されている。骸骨はゴルフクラブを握り、スイングをしている様子が描かれ、スイングのフォームや動きは、ゴルフの特徴を捉えた。骸骨の首が体から離れた状態で描かれ、ダークでユーモラスな要素が加わる。",
+            "price_discount": 7980,
+            "original_price": 9980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-gsh-kldtpl410?_pos=1&_sid=7c6b1180f&_ss=r&variant=45260516786395"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_MPrjtD",
+        "image_slider_PGQfFt",
+        "image_slider_kEcW7t",
+        "image_slider_FAy4At",
+        "main_diagram_YaKMGC",
+        "image_info_7DYNRB"
+      ],
+      "settings": {
+        "data_title": "「ゴルフスイングの首が落ちた骸骨」刺繍入りポロシャツ",
+        "data_tit_col": "#404b91",
+        "info_text_col": "#404b91",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#5e8bb3",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_ydVWaC": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_6GQzJc": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-1_3e413f3b-1fa6-479a-9dc2-b596600c53d2.jpg"
+          }
+        },
+        "image_slider_PT8BCB": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-3_fa2dc75c-da80-43ba-bb55-4655db74a3ac.jpg"
+          }
+        },
+        "image_slider_EGLy4X": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-2_92c7c417-ab1e-4546-963c-af780affec1f.jpg"
+          }
+        },
+        "image_slider_8Uhryc": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-20_d95bf9e0-796c-41f6-88b4-c2950ecd71f3.jpg"
+          }
+        },
+        "main_diagram_BFNhCg": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-1_f102f2eb-fbeb-4d21-ade8-725d64d07bd5.jpg",
+            "main_img2": "shopify://shop_images/600x720-2_e161f8a5-4c81-46e7-8ba7-1bc41318693e.jpg"
+          }
+        },
+        "image_info_j3tb3A": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "和柄古布エルボーパッチ でインパクトがあり、存在感抜群。花模様、葉とドットなど古布素材を使用し、和柄の質感もテキスチャーも綺麗に現れ、スペシャル感とビンテージ感を兼ね備える。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-zyd-gbsdxsg726?_pos=1&_sid=f460d5ebf&_ss=r&variant=45943628529883"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_6GQzJc",
+        "image_slider_PT8BCB",
+        "image_slider_EGLy4X",
+        "image_slider_8Uhryc",
+        "main_diagram_BFNhCg",
+        "image_info_j3tb3A"
+      ],
+      "settings": {
+        "data_title": "バックワンポイント　和柄古布エルボーパッチワークシャツ",
+        "data_tit_col": "#404b91",
+        "info_text_col": "#404b91",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#5e8bb3",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_eMqDVd": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_8LP68C": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-29.jpg"
+          }
+        },
+        "image_slider_B6rmKP": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-30.jpg"
+          }
+        },
+        "image_slider_z6qHd8": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-31.jpg"
+          }
+        },
+        "image_slider_FqdciX": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-32.jpg"
+          }
+        },
+        "main_diagram_8mym64": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-15.jpg",
+            "main_img2": "shopify://shop_images/600x720-16.jpg"
+          }
+        },
+        "image_info_qnpwKa": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "左胸元にギターを弾く男ミニ刺繍はオーセンティックさを感じさせる別注のデザイン、大人の遊び心が隠れたのが魅力。",
+            "price_discount": 6140,
+            "original_price": 8190,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-dc-810?_pos=1&_sid=3b8efd51b&_ss=r&variant=44064612712667"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_8LP68C",
+        "image_slider_B6rmKP",
+        "image_slider_z6qHd8",
+        "image_slider_FqdciX",
+        "main_diagram_8mym64",
+        "image_info_qnpwKa"
+      ],
+      "settings": {
+        "data_title": "「Man playing guitar」ミニ刺繡　ピケポロシャツ",
+        "data_tit_col": "#404b91",
+        "info_text_col": "#404b91",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#5e8bb3",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_UQ4yQr": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_i6Cmap": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-40_e7b0ff2a-24d0-4872-b58a-a49af85855f7.jpg"
+          }
+        },
+        "image_slider_x3NwBm": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-2_79fd7e1c-97ba-45a8-9d08-044325f76117.jpg"
+          }
+        },
+        "image_slider_E7DXdd": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-3_ffd5c8a6-cd21-4df9-a18a-5594df9c4a78.jpg"
+          }
+        },
+        "image_slider_hGzMUV": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-4_2224995b-264c-4355-9f80-d09f6ad4858d.jpg"
+          }
+        },
+        "main_diagram_j3tCWR": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-19.jpg",
+            "main_img2": "shopify://shop_images/600x720-20.jpg"
+          }
+        },
+        "image_info_4NMfJh": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "刺繡モチーフには猫が描かれて、各シャツにユニークな物語性やテーマ性を持たせている。",
+            "price_discount": 8190,
+            "original_price": 10980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-gsh-mydcxxlsg806?_pos=1&_sid=abf4c24ca&_ss=r&variant=45926661390555"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_i6Cmap",
+        "image_slider_x3NwBm",
+        "image_slider_E7DXdd",
+        "image_slider_hGzMUV",
+        "main_diagram_j3tCWR",
+        "image_info_4NMfJh"
+      ],
+      "settings": {
+        "data_title": "「擬人化された猫」刺繡入りコットンボタンダウンシャツ",
+        "data_tit_col": "#404b91",
+        "info_text_col": "#404b91",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#5e8bb3",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_VrybXK": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_EfpHUP": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-41.jpg"
+          }
+        },
+        "image_slider_rqmRcn": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-44.jpg"
+          }
+        },
+        "image_slider_eJbqzr": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-42_23ae33b2-57a9-405e-8f07-eb87aaf19ec8.jpg"
+          }
+        },
+        "image_slider_6nHPDr": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-43.jpg"
+          }
+        },
+        "main_diagram_RPYLJn": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-21.jpg",
+            "main_img2": "shopify://shop_images/600x720-22.jpg"
+          }
+        },
+        "image_info_EQyBJt": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "刺繡モチーフには猫が描かれて、各シャツにユニークな物語性やテーマ性を持たせている。",
+            "price_discount": 10490,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-zyd-xmcxks904?_pos=1&_sid=c7e78c163&_ss=r&variant=46015235850459"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_EfpHUP",
+        "image_slider_rqmRcn",
+        "image_slider_eJbqzr",
+        "image_slider_6nHPDr",
+        "main_diagram_RPYLJn",
+        "image_info_EQyBJt"
+      ],
+      "settings": {
+        "data_title": "「雪猫の遊び心」刺繍入りVネックカーディガン",
+        "data_tit_col": "#404b91",
+        "info_text_col": "#404b91",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#5e8bb3",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "background_image_Y7cUqJ": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-06-28_17-22-03_540743d6-ac72-4da8-a0c0-5463b7c57016.jpg",
+        "background_color_overlay": "",
+        "background_color": ""
+      }
+    }
+  },
+  "order": [
+    "slideshow_Hd3nzn",
+    "main",
+    "image_9biyrM",
+    "image_list_MigRJG",
+    "image_slider_iPQwwU",
+    "image_slider_YiHwzG",
+    "image_slider_Qrtbta",
+    "image_slider_DiHiYB",
+    "image_slider_BFDHNe",
+    "image_slider_mFmnwn",
+    "image_slider_ydVWaC",
+    "image_slider_eMqDVd",
+    "image_slider_UQ4yQr",
+    "image_slider_VrybXK",
+    "background_image_Y7cUqJ"
+  ]
+}

@@ -1,0 +1,616 @@
+{%- liquid
+  comment
+    开始时间距现在超过该天数的 Slide：前台不输出（含 pool），
+    进入窗口后需刷新才会出现并支持到点切换。主题编辑器不受此限。
+    排期判定唯一逻辑见 snippets/slider-carousel-schedule.liquid
+  endcomment
+  assign schedule_max_ahead_days = 7
+  assign schedule_max_ahead_seconds = schedule_max_ahead_days | times: 86400
+  assign now_stamp = 'now' | date: '%Y-%m-%dT%H:%M%z'
+  assign now_unix = 'now' | date: '%s'
+  assign visible_now_count = 0
+  assign first_visible_pc_image = nil
+  assign has_schedule = false
+-%}
+
+{%- for block in section.blocks -%}
+  {%- capture schedule_meta -%}
+    {%- render 'slider-carousel-schedule',
+      block: block,
+      now_stamp: now_stamp,
+      now_unix: now_unix,
+      schedule_max_ahead_seconds: schedule_max_ahead_seconds,
+      design_mode: request.design_mode
+    -%}
+  {%- endcapture -%}
+  {%- liquid
+    assign schedule_parts = schedule_meta | strip | split: '|'
+    assign schedule_state = schedule_parts[0]
+    if schedule_parts[1] == '1'
+      assign has_schedule = true
+    endif
+    if schedule_state == 'visible'
+      assign visible_now_count = visible_now_count | plus: 1
+      if first_visible_pc_image == blank
+        assign first_visible_pc_image = block.settings.advertising_pc_image
+      endif
+    endif
+  -%}
+{%- endfor -%}
+
+{%- if first_visible_pc_image -%}
+  {{ first_visible_pc_image | image_url: width: 1920 | preload_tag: as: 'image', fetchpriority: 'high' }}
+{%- endif -%}
+
+<style>
+  .section-id-{{ section.id }} .full-page-width {
+    max-width: none;
+    margin: 0;
+    padding: 0;
+  }
+  .section-id-{{ section.id }}.is-schedule-empty {
+    display: none;
+  }
+  .section-id-{{ section.id }} .slider-carousel__pool {
+    display: none !important;
+  }
+  .section-id-{{ section.id }} .swiper {
+    width: 100%;
+  }
+  .section-id-{{ section.id }} .swiper-slide {
+    height: auto;
+  }
+  .section-id-{{ section.id }} .slider-carousel__link {
+    display: block;
+    text-decoration: none;
+  }
+  .section-id-{{ section.id }} .slider-carousel__media {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    aspect-ratio: 1 / 1;
+  }
+  .section-id-{{ section.id }} .slider-carousel__media .placeholder-wrapper {
+    width: 100%;
+    height: 100%;
+  }
+  .section-id-{{ section.id }} .slider-carousel__media picture,
+  .section-id-{{ section.id }} .slider-carousel__media img {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+  .section-id-{{ section.id }} .slider-carousel__media img {
+    object-fit: cover;
+  }
+  @media (max-width: 767px) {
+    .section-id-{{ section.id }} .swiper-button-next,
+    .section-id-{{ section.id }} .swiper-button-prev {
+      display: none;
+    }
+  }
+  @media (min-width: 768px) {
+    .section-id-{{ section.id }} .slider-carousel__media {
+      aspect-ratio: 2 / 1;
+    }
+    .section-id-{{ section.id }} .swiper-slide {
+      width: 55%;
+    }
+  }
+  .section-id-{{ section.id }} .swiper-pagination-bullet-active {
+    background: #413f3f;
+  }
+  .section-id-{{ section.id }} .swiper-button-next,
+  .section-id-{{ section.id }} .swiper-button-prev {
+    color: rgb(61, 58, 51);
+    background: rgb(248, 248, 255);
+    border-radius: 50%;
+    border: 0.5px solid rgb(153, 153, 153);
+    width: 50px;
+    height: 50px;
+    opacity: 0;
+    transition: all 0.3s linear 0s;
+  }
+  .section-id-{{ section.id }} .swiper-button-next:after,
+  .section-id-{{ section.id }} .swiper-button-prev:after {
+    font-size: 15px;
+    font-weight: bolder;
+  }
+  .section-id-{{ section.id }} .swiper:hover .swiper-button-next {
+    transform: translate(-30px, 0);
+    opacity: 0.9;
+    transition: 0.3s linear;
+  }
+  .section-id-{{ section.id }} .swiper:hover .swiper-button-prev {
+    transform: translate(30px, 0);
+    opacity: 0.9;
+    transition: 0.3s linear;
+  }
+  .section-id-{{ section.id }} .swiper-button-next:hover,
+  .section-id-{{ section.id }} .swiper-button-prev:hover {
+    opacity: 1;
+  }
+</style>
+
+<div
+  class="section-id-{{ section.id }}{% if visible_now_count == 0 %} is-schedule-empty{% endif %}"
+  data-slider-carousel
+  data-has-schedule="{{ has_schedule }}"
+  data-design-mode="{{ request.design_mode }}"
+  data-schedule-max-ahead-days="{{ schedule_max_ahead_days }}"
+>
+  {%- if has_schedule or request.design_mode -%}
+    <div class="slider-carousel__pool" aria-hidden="true">
+      {% for block in section.blocks %}
+        {%- capture schedule_meta -%}
+          {%- render 'slider-carousel-schedule',
+            block: block,
+            now_stamp: now_stamp,
+            now_unix: now_unix,
+            schedule_max_ahead_seconds: schedule_max_ahead_seconds,
+            design_mode: request.design_mode
+          -%}
+        {%- endcapture -%}
+        {%- liquid
+          assign schedule_parts = schedule_meta | strip | split: '|'
+          assign schedule_state = schedule_parts[0]
+          assign start_stamp = schedule_parts[2]
+          assign end_stamp = schedule_parts[3]
+          if schedule_state == 'visible'
+            assign pool_visible_now = true
+          else
+            assign pool_visible_now = false
+          endif
+        -%}
+        {%- if schedule_state == 'expired' or schedule_state == 'too_far' or schedule_state == 'skip' -%}
+          {% continue %}
+        {%- endif -%}
+        {%- render 'slider-carousel-slide',
+          block: block,
+          start_stamp: start_stamp,
+          end_stamp: end_stamp,
+          loading: 'lazy',
+          show_visible_now_attr: true,
+          is_visible_now: pool_visible_now
+        -%}
+      {% endfor %}
+    </div>
+  {%- endif -%}
+
+  <div class="container cf full-page-width">
+    <div class="swiper slider-carousel-swiper">
+      <div class="swiper-wrapper">
+        {%- assign eager_slot = 0 -%}
+        {% for block in section.blocks %}
+          {%- capture schedule_meta -%}
+            {%- render 'slider-carousel-schedule',
+              block: block,
+              now_stamp: now_stamp,
+              now_unix: now_unix,
+              schedule_max_ahead_seconds: schedule_max_ahead_seconds,
+              design_mode: request.design_mode
+            -%}
+          {%- endcapture -%}
+          {%- liquid
+            assign schedule_parts = schedule_meta | strip | split: '|'
+            assign schedule_state = schedule_parts[0]
+            assign start_stamp = schedule_parts[2]
+            assign end_stamp = schedule_parts[3]
+          -%}
+          {%- unless schedule_state == 'visible' -%}
+            {% continue %}
+          {%- endunless -%}
+
+          {%- liquid
+            assign eager_slot = eager_slot | plus: 1
+            if eager_slot <= 3
+              assign img_loading = 'eager'
+            else
+              assign img_loading = 'lazy'
+            endif
+            if eager_slot == 1
+              assign img_fetchpriority = 'high'
+            else
+              assign img_fetchpriority = nil
+            endif
+          -%}
+
+          {%- render 'slider-carousel-slide',
+            block: block,
+            start_stamp: start_stamp,
+            end_stamp: end_stamp,
+            loading: img_loading,
+            fetchpriority: img_fetchpriority
+          -%}
+        {% endfor %}
+      </div>
+
+      <div class="swiper-pagination"></div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Slider Carousel",
+  "settings": [
+    {
+      "type": "paragraph",
+      "content": "【图片数量】PC 端同时可见约 3 张，且开启循环轮播。请至少添加 6 张图；少于 6 张（尤其是 5 张）时，可能出现空白缺口，不是图片损坏。"
+    },
+    {
+      "type": "paragraph",
+      "content": "单张 Slide 可设置开始/结束时间。时间与倒计时一致：请按中国时间填写（日本时间 − 1 小时）。例：日本 0:00 开始 → 填前一天 23:00。"
+    },
+    {
+      "type": "paragraph",
+      "content": "【排期限制】开始时间最多提前 7 天。超过 7 天的预告图不会进入前台；进入 7 天窗口后需刷新/重新打开页面才会加载，并支持停留页面到点自动切换。请勿提前很久上传占位。结束时间不限。主题编辑器内可预览全部。排期后仍请保证「当前可见」不少于 6 张。"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "Slide",
+      "name": "Slide",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "advertising_pc_image",
+          "label": "pc广告图",
+          "info": "推荐图片尺寸：1920 × 960px"
+        },
+        {
+          "type": "image_picker",
+          "id": "advertising_mobile_image",
+          "label": "移动端广告图",
+          "info": "推荐图片尺寸：1200 × 1200px"
+        },
+        {
+          "type": "url",
+          "id": "advertising_url",
+          "label": "广告图链接"
+        },
+        {
+          "type": "header",
+          "content": "定时排期（可选）"
+        },
+        {
+          "type": "paragraph",
+          "content": "开始时间须在当前起 7 天内，否则前台不展示该图。结束时间不限。"
+        },
+        {
+          "type": "text",
+          "id": "schedule_start_date",
+          "label": "开始日期",
+          "info": "格式：YYYY-MM-DD。须在当前起 7 天内。留空表示立即/一直可显示（仍受结束时间限制）。"
+        },
+        {
+          "type": "text",
+          "id": "schedule_start_time",
+          "label": "开始时间（可选）",
+          "info": "格式：17:00（24小时制）。留空默认 00:00。请按中国时间填写（日本时间 − 1 小时）。"
+        },
+        {
+          "type": "text",
+          "id": "schedule_end_date",
+          "label": "结束日期",
+          "info": "格式：YYYY-MM-DD。不限多久以后。留空表示不自动下线。"
+        },
+        {
+          "type": "text",
+          "id": "schedule_end_time",
+          "label": "结束时间（可选）",
+          "info": "格式：17:00（24小时制）。留空默认 23:59。请按中国时间填写（日本时间 − 1 小时）。"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Slider Carousel",
+      "category": "Slider Carousel",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "Slide"
+        },
+        {
+          "type": "Slide"
+        },
+        {
+          "type": "Slide"
+        },
+        {
+          "type": "Slide"
+        },
+        {
+          "type": "Slide"
+        },
+        {
+          "type": "Slide"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+  (function () {
+    var sectionRoot = document.querySelector('.section-id-{{ section.id }}');
+    if (!sectionRoot || typeof Swiper === 'undefined') return;
+
+    var swiperInstance = null;
+    var scheduleTimer = null;
+    var pool = sectionRoot.querySelector('.slider-carousel__pool');
+    var wrapper = sectionRoot.querySelector('.swiper-wrapper');
+    var swiperEl = sectionRoot.querySelector('.slider-carousel-swiper');
+    var isDesignMode = sectionRoot.getAttribute('data-design-mode') === 'true';
+    var MAX_TIMEOUT = 2147483647;
+
+    function parseStamp(value) {
+      if (!value) return null;
+      var time = new Date(value).getTime();
+      return Number.isFinite(time) ? time : null;
+    }
+
+    function slideIsActive(slideEl, now) {
+      if (isDesignMode) return true;
+      var start = parseStamp(slideEl.getAttribute('data-schedule-start'));
+      var end = parseStamp(slideEl.getAttribute('data-schedule-end'));
+      if (start !== null && now < start) return false;
+      if (end !== null && now >= end) return false;
+      return true;
+    }
+
+    function getPoolSlides() {
+      return pool ? Array.prototype.slice.call(pool.querySelectorAll('.swiper-slide')) : [];
+    }
+
+    function getNextBoundary(now) {
+      var next = null;
+      getPoolSlides().forEach(function (slideEl) {
+        var start = parseStamp(slideEl.getAttribute('data-schedule-start'));
+        var end = parseStamp(slideEl.getAttribute('data-schedule-end'));
+        if (start !== null && start > now) {
+          next = next === null ? start : Math.min(next, start);
+        }
+        if (end !== null && end > now) {
+          next = next === null ? end : Math.min(next, end);
+        }
+      });
+      return next;
+    }
+
+    function clearScheduleTimer() {
+      if (scheduleTimer) {
+        clearTimeout(scheduleTimer);
+        scheduleTimer = null;
+      }
+    }
+
+    function scheduleNextTick() {
+      clearScheduleTimer();
+      if (isDesignMode) return;
+
+      var now = Date.now();
+      var next = getNextBoundary(now);
+      if (next === null) return;
+
+      var delay = Math.max(next - now + 30, 30);
+      if (delay > MAX_TIMEOUT) delay = MAX_TIMEOUT;
+
+      scheduleTimer = setTimeout(function () {
+        rebuildFromSchedule();
+      }, delay);
+    }
+
+    function refreshSwiperLayout() {
+      if (swiperInstance) {
+        swiperInstance.update();
+      }
+    }
+
+    function bindMediaLoading() {
+      sectionRoot.querySelectorAll('.swiper-wrapper .placeholder-wrapper img.global-image').forEach(function (img) {
+        var mediaWrapper = img.closest('.placeholder-wrapper');
+
+        function markLoaded() {
+          requestAnimationFrame(function () {
+            img.classList.add('is-loaded');
+            if (mediaWrapper) mediaWrapper.classList.add('is-loaded');
+            refreshSwiperLayout();
+          });
+        }
+
+        if (img.complete && img.naturalWidth > 0) {
+          markLoaded();
+        } else {
+          img.addEventListener('load', markLoaded, { once: true });
+          img.addEventListener('error', markLoaded, { once: true });
+        }
+      });
+    }
+
+    function destroySliderCarousel() {
+      if (swiperInstance) {
+        swiperInstance.destroy(true, true);
+        swiperInstance = null;
+      }
+    }
+
+    function getVisibleSlideIdsFromWrapper() {
+      if (!wrapper) return [];
+      return Array.prototype.slice
+        .call(wrapper.querySelectorAll('.swiper-slide:not(.swiper-slide-duplicate)'))
+        .map(function (el) {
+          return el.getAttribute('data-slide-id') || '';
+        })
+        .filter(Boolean);
+    }
+
+    function getActiveSlideIds(now) {
+      return getPoolSlides()
+        .filter(function (slideEl) {
+          return slideIsActive(slideEl, now);
+        })
+        .map(function (slideEl) {
+          return slideEl.getAttribute('data-slide-id') || '';
+        })
+        .filter(Boolean);
+    }
+
+    function sameSlideSet(a, b) {
+      if (a.length !== b.length) return false;
+      for (var i = 0; i < a.length; i += 1) {
+        if (a[i] !== b[i]) return false;
+      }
+      return true;
+    }
+
+    function getCurrentRealSlideId() {
+      if (!swiperInstance) return null;
+      var slideEl = swiperInstance.slides[swiperInstance.activeIndex];
+      if (!slideEl) return null;
+      return slideEl.getAttribute('data-slide-id');
+    }
+
+    function buildVisibleSlides(now) {
+      var html = [];
+      getPoolSlides().forEach(function (slideEl) {
+        if (!slideIsActive(slideEl, now)) return;
+        html.push(slideEl.outerHTML);
+      });
+      return html.join('');
+    }
+
+    function getVisibleCount() {
+      return wrapper ? wrapper.querySelectorAll('.swiper-slide:not(.swiper-slide-duplicate)').length : 0;
+    }
+
+    function initSliderCarousel(options) {
+      if (!swiperEl || !wrapper) return;
+
+      var slideCount = getVisibleCount();
+      sectionRoot.classList.toggle('is-schedule-empty', slideCount < 1);
+      if (slideCount < 1) {
+        destroySliderCarousel();
+        return;
+      }
+
+      destroySliderCarousel();
+
+      var loopedSlides = Math.max(slideCount, 5);
+      var enableLoop = slideCount > 1;
+      var initialSlide = 0;
+      var preferSlideId = options && options.preferSlideId;
+
+      if (preferSlideId) {
+        var slides = wrapper.querySelectorAll('.swiper-slide');
+        for (var i = 0; i < slides.length; i += 1) {
+          if (slides[i].getAttribute('data-slide-id') === preferSlideId) {
+            initialSlide = i;
+            break;
+          }
+        }
+      }
+
+      swiperInstance = new Swiper(swiperEl, {
+        initialSlide: initialSlide,
+        navigation: {
+          nextEl: '.section-id-{{ section.id }} .swiper-button-next',
+          prevEl: '.section-id-{{ section.id }} .swiper-button-prev'
+        },
+        pagination: {
+          el: '.section-id-{{ section.id }} .swiper-pagination',
+          clickable: true
+        },
+        loop: enableLoop,
+        loopedSlides: loopedSlides,
+        loopAdditionalSlides: 2,
+        centeredSlides: true,
+        grabCursor: true,
+        observer: true,
+        observeParents: true,
+        watchSlidesProgress: true,
+        autoplay: enableLoop ? {
+          delay: 4000,
+          pauseOnMouseEnter: true,
+          disableOnInteraction: false
+        } : false,
+        breakpoints: {
+          320: {
+            slidesPerView: 1
+          },
+          768: {
+            slidesPerView: 'auto',
+            spaceBetween: 2
+          },
+          1280: {
+            slidesPerView: 'auto',
+            spaceBetween: 2
+          }
+        },
+        on: {
+          init: function () {
+            this.update();
+            bindMediaLoading();
+          }
+        }
+      });
+    }
+
+    function rebuildFromSchedule(force) {
+      if (!wrapper) {
+        initSliderCarousel();
+        scheduleNextTick();
+        return;
+      }
+
+      // 无 pool（未配置排期）时，切回标签页不必重建
+      if (!pool) {
+        scheduleNextTick();
+        return;
+      }
+
+      var now = Date.now();
+      var nextIds = getActiveSlideIds(now);
+      var currentIds = getVisibleSlideIdsFromWrapper();
+
+      if (!force && sameSlideSet(currentIds, nextIds)) {
+        // 可见集合没变：只校正下一次到点定时，避免闪烁和回到第一张
+        scheduleNextTick();
+        return;
+      }
+
+      var preferSlideId = getCurrentRealSlideId();
+      wrapper.innerHTML = buildVisibleSlides(now);
+      initSliderCarousel({ preferSlideId: preferSlideId });
+      scheduleNextTick();
+    }
+
+    // 首屏：wrapper 已由 Liquid 输出当前可见项；pool 保留未开始项供到点切换
+    initSliderCarousel();
+    scheduleNextTick();
+
+    document.addEventListener('visibilitychange', function () {
+      if (document.visibilityState !== 'visible') return;
+      // 回来时只检查排期是否变化；未变化则不重建
+      rebuildFromSchedule(false);
+    });
+
+    document.addEventListener('shopify:section:load', function (event) {
+      if (event.target && event.target.contains(sectionRoot)) {
+        rebuildFromSchedule(true);
+      }
+    });
+
+    document.addEventListener('shopify:section:unload', function (event) {
+      if (event.target && event.target.contains(sectionRoot)) {
+        clearScheduleTimer();
+        destroySliderCarousel();
+      }
+    });
+  })();
+</script>

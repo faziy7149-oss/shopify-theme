@@ -1,0 +1,819 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "603de01b-c224-4381-9dbe-71df6cf0b139": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16740071866587__603de01b-c224-4381-9dbe-71df6cf0b139-1683541829ff3d47a3-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/624_PC.jpg",
+            "mobile_image": "shopify://shop_images/624_M.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        },
+        "template--16740071866587__603de01b-c224-4381-9dbe-71df6cf0b139-1683541829ff3d47a3-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "slide_link": "",
+            "subheading": "Subheading",
+            "title": "Tell your story",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "<p>Pair text with an image to tell a story</p>",
+            "enlarge_text": true,
+            "button_label_1": "Shop this",
+            "button_url_1": "",
+            "button_label_2": "Shop all",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16740071866587__603de01b-c224-4381-9dbe-71df6cf0b139-1683541829ff3d47a3-0",
+        "template--16740071866587__603de01b-c224-4381-9dbe-71df6cf0b139-1683541829ff3d47a3-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "custom_content_epyBGE": {
+      "type": "custom-content",
+      "blocks": {
+        "text_ach8wB": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "center_on_mobile": true,
+            "icon": "",
+            "icon_color": "rgba(0,0,0,0)",
+            "subheading": "",
+            "title": "アロハシャツを楽しむ夏！",
+            "title_size": 36,
+            "title_size_mobile": 20,
+            "text": "<p>アロハシャツとは、パイナップルやヤシの木などのトロピカルなモチーフや、金魚、虎など和柄と呼ばれるモチーフを華やかでカラフルな色彩で染め上げた開襟シャツのことです。<br/>今回の特集は柄が派手であまり手を出してこなかった方も、夏は暑くてTシャツしか着ないという方も必見です！</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "text_ach8wB"
+      ],
+      "settings": {
+        "spacing": "medium",
+        "alignment": "middle",
+        "color_scheme": "default"
+      }
+    },
+    "dd393c38-d5bd-47fb-bf04-cc5d52896d56": {
+      "type": "rich-text",
+      "blocks": {
+        "91c40faa-0cd4-40ae-88bd-6ba71dad25ac": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "-01-"
+          }
+        },
+        "9c1d000d-b930-45d1-89b5-f15841562b4e": {
+          "type": "heading",
+          "settings": {
+            "title": "和柄は最高！",
+            "use_h1": false
+          }
+        },
+        "e4d39d4a-5a0e-440a-9624-4aa855f5fe6d": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "91c40faa-0cd4-40ae-88bd-6ba71dad25ac",
+        "9c1d000d-b930-45d1-89b5-f15841562b4e",
+        "e4d39d4a-5a0e-440a-9624-4aa855f5fe6d"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "82c5673c-1c42-45e0-98f9-b906af1b872a": {
+      "type": "rich-text",
+      "blocks": {
+        "05be7249-2f56-4b82-a959-b31c009d688a": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "-01-"
+          }
+        },
+        "9a267ac6-dd47-4ebd-af4e-f11797b51810": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "夏祭りにぴったりアイテアイテム",
+            "use_h1": false
+          }
+        },
+        "78455217-e143-4adc-9dc1-b10c73b219c5": {
+          "type": "text",
+          "settings": {
+            "text": "<p>着物地のシャツを真似して市販の着物や浴衣の生地でシャツを作って着るようになったことがアロハシャツの由来といわれています。テイストの柄で、着物のような雰囲気を漂わせるアイテムをお勧めします。<br/><br/> </p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "05be7249-2f56-4b82-a959-b31c009d688a",
+        "9a267ac6-dd47-4ebd-af4e-f11797b51810",
+        "78455217-e143-4adc-9dc1-b10c73b219c5"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "5fddd80a-1b49-4503-9333-b0d15216f125": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "4e228005-3162-443c-8807-8b15244b653b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/66f2786932a1176f8455b2f80e5f4390.jpg",
+            "image-id": "",
+            "image_link": ""
+          }
+        },
+        "5a651dfb-8be6-4b79-85f0-b6958a01dfad": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image-id": "",
+            "image_link": ""
+          }
+        },
+        "01eeb5aa-dd15-45a0-9b56-de30d647e389": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "4e228005-3162-443c-8807-8b15244b653b",
+        "5a651dfb-8be6-4b79-85f0-b6958a01dfad",
+        "01eeb5aa-dd15-45a0-9b56-de30d647e389"
+      ],
+      "settings": {}
+    },
+    "gallery_RBdGbA": {
+      "type": "gallery",
+      "blocks": {
+        "media_w43kcB": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/Snipaste_2023-05-23_17-45-19.jpg",
+            "enlarge_media": true,
+            "subheading": "江戸時代「竹に虎」 浮世絵風アロハシャツ",
+            "title": "",
+            "button_label": "more",
+            "link": "https://www.karakubuy.com/products/krk-zllh23202?_pos=18&_sid=e9dcd7658&_ss=r",
+            "text_alignment": "center center"
+          }
+        },
+        "media_RFmxwF": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/Snipaste_2023-05-23_17-48-00.jpg",
+            "enlarge_media": false,
+            "subheading": "「其のまま地口・猫飼好五十三疋 」総柄アロハシャツ",
+            "title": "",
+            "button_label": "more",
+            "link": "https://www.karakubuy.com/collections/catshirt/products/krk-yj-520915",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "media_w43kcB",
+        "media_RFmxwF"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "full",
+        "overlay_padding": "standard",
+        "button_style": "primary"
+      }
+    },
+    "1468e6ab-e17c-413d-8eb1-b5e8dd7a28ac": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16740071866587__1468e6ab-e17c-413d-8eb1-b5e8dd7a28ac-1684750507da0843c8-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "-02-"
+          }
+        },
+        "template--16740071866587__1468e6ab-e17c-413d-8eb1-b5e8dd7a28ac-1684750507da0843c8-1": {
+          "type": "heading",
+          "settings": {
+            "title": "夏の風物詩",
+            "use_h1": false
+          }
+        },
+        "template--16740071866587__1468e6ab-e17c-413d-8eb1-b5e8dd7a28ac-1684750507da0843c8-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16740071866587__1468e6ab-e17c-413d-8eb1-b5e8dd7a28ac-1684750507da0843c8-0",
+        "template--16740071866587__1468e6ab-e17c-413d-8eb1-b5e8dd7a28ac-1684750507da0843c8-1",
+        "template--16740071866587__1468e6ab-e17c-413d-8eb1-b5e8dd7a28ac-1684750507da0843c8-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "b66b6f32-c80c-44e7-ae7c-a17caf64aeb8": {
+      "type": "rich-text",
+      "blocks": {
+        "7268950e-1687-4251-b0cf-93f83f5086d4": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "-01-"
+          }
+        },
+        "e87a6173-420f-4b45-b6ef-1638577e6c6a": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "夏祭りにぴったりアイテアイテム",
+            "use_h1": false
+          }
+        },
+        "42f48777-5639-4589-b636-8b8330d8d8d8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>金魚や扇子など夏の風物詩らしく柄はインパクト抜群で、夏のムードにマッチ。花火大会や夏祭りの様に夏を感じたい日に、オススメしたいアイテムです。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "7268950e-1687-4251-b0cf-93f83f5086d4",
+        "e87a6173-420f-4b45-b6ef-1638577e6c6a",
+        "42f48777-5639-4589-b636-8b8330d8d8d8"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "ad507942-c04f-4f7c-826e-3b9196ce541a": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "template--16740071866587__ad507942-c04f-4f7c-826e-3b9196ce541a-1684749162ea255a6b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/c93dbfb2a5426feb281b3a791bba2999_a5e1a816-609f-4cce-8179-38c3f988b193.jpg",
+            "image-id": "",
+            "image_link": ""
+          }
+        },
+        "template--16740071866587__ad507942-c04f-4f7c-826e-3b9196ce541a-1684749162ea255a6b-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image-id": "",
+            "image_link": ""
+          }
+        },
+        "template--16740071866587__ad507942-c04f-4f7c-826e-3b9196ce541a-1684749162ea255a6b-2": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16740071866587__ad507942-c04f-4f7c-826e-3b9196ce541a-1684749162ea255a6b-0",
+        "template--16740071866587__ad507942-c04f-4f7c-826e-3b9196ce541a-1684749162ea255a6b-1",
+        "template--16740071866587__ad507942-c04f-4f7c-826e-3b9196ce541a-1684749162ea255a6b-2"
+      ],
+      "settings": {}
+    },
+    "gallery_cF9eEX": {
+      "type": "gallery",
+      "blocks": {
+        "media_rcA88D": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/KRK-GLRJ-201121628-7_61fc86db-7a0d-426c-8dc1-ea9202a5f2c6.jpg",
+            "enlarge_media": true,
+            "subheading": "日本の伝統文化・芸術　総柄アロハシャツ",
+            "title": "",
+            "button_label": "more",
+            "link": "https://karakubuy.com/products/krk-glrj-201121628?_pos=16&_sid=51ec14923&_ss=r",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "media_rcA88D"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 280,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "full",
+        "overlay_padding": "standard",
+        "button_style": "primary"
+      }
+    },
+    "f703ea58-7ce6-4c39-a23a-b0b6f92b3001": {
+      "type": "rich-text",
+      "blocks": {
+        "b95ca1a5-33b6-4aa9-85bf-3f0df44f4b56": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "-03-"
+          }
+        },
+        "cd5af306-5f8b-4cd1-9bd5-20b78fc97b24": {
+          "type": "heading",
+          "settings": {
+            "title": "理想的なバケーションシーン",
+            "use_h1": false
+          }
+        },
+        "513ed970-53cd-47b0-82a4-a5c9c30f7895": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "b95ca1a5-33b6-4aa9-85bf-3f0df44f4b56",
+        "cd5af306-5f8b-4cd1-9bd5-20b78fc97b24",
+        "513ed970-53cd-47b0-82a4-a5c9c30f7895"
+      ],
+      "custom_css": [],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "26e348fa-8f98-4fbe-8086-61f5d75bba74": {
+      "type": "rich-text",
+      "blocks": {
+        "e6a220a7-e621-44b3-ac5c-17ffd6aaad03": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "-01-"
+          }
+        },
+        "b98af51a-3b65-491c-b9c3-fbe0463c079e": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "夏祭りにぴったりアイテアイテム",
+            "use_h1": false
+          }
+        },
+        "64559486-e89d-4a1e-9416-3595f27af588": {
+          "type": "text",
+          "settings": {
+            "text": "<p>アロハシャツといえばハワイ旅行のイメージが強い。ヤシの木や、レトロカー・サーフボードなどの柄が絶対出るよね。Karakuは理想的なバケーションシーン柄をデザインされたアロハシャツをしっかり揃えています。是非、お気に入りの一着を見つけてください。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "e6a220a7-e621-44b3-ac5c-17ffd6aaad03",
+        "b98af51a-3b65-491c-b9c3-fbe0463c079e",
+        "64559486-e89d-4a1e-9416-3595f27af588"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "700fd7d0-9d13-41fd-88f5-a89d6b7c490b": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "87e343e9-948e-473f-9090-b9bd913626bf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/17d5e88d739b02eb14de34746a4fc8ba.jpg",
+            "image-id": "",
+            "image_link": ""
+          }
+        },
+        "059d00af-6f8a-4b09-b6b0-146b2cf72e50": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image-id": "",
+            "image_link": ""
+          }
+        },
+        "7b835dce-de69-4e6a-8d54-ec48dced0166": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "87e343e9-948e-473f-9090-b9bd913626bf",
+        "059d00af-6f8a-4b09-b6b0-146b2cf72e50",
+        "7b835dce-de69-4e6a-8d54-ec48dced0166"
+      ],
+      "custom_css": [],
+      "settings": {}
+    },
+    "gallery_knMxNz": {
+      "type": "gallery",
+      "blocks": {
+        "media_3YbUAT": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/Snipaste_2023-05-23_17-34-57.jpg",
+            "enlarge_media": false,
+            "subheading": "「ヤシの木・レトロカー・サーフボード」アロハシャツ",
+            "title": "",
+            "button_label": "more",
+            "link": "https://www.karakubuy.com/products/krk-djclcs23414?_pos=17&_sid=f3afa2b32&_ss=r",
+            "text_alignment": "center center"
+          }
+        },
+        "media_aUMeMa": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/Snipaste_2023-05-23_17-36-59.jpg",
+            "enlarge_media": true,
+            "subheading": "インディアン柄　アメカジ半袖アロハシャツ",
+            "title": "",
+            "button_label": "more",
+            "link": "https://www.karakubuy.com/products/krk-sn-yda3232?_pos=65&_sid=f3afa2b32&_ss=r",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "media_3YbUAT",
+        "media_aUMeMa"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "full",
+        "overlay_padding": "standard",
+        "button_style": "primary"
+      }
+    },
+    "913cc45b-b6c2-4e3a-bb93-bb71b35c2ad8": {
+      "type": "rich-text",
+      "blocks": {
+        "6eaa8eaa-db44-4fc1-8951-f51c8066463c": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "-04-"
+          }
+        },
+        "54eaedc5-a7d4-47a5-b908-1b9b614eebfa": {
+          "type": "heading",
+          "settings": {
+            "title": "定番のボタニカル",
+            "use_h1": false
+          }
+        },
+        "625c1104-d968-41bc-80b3-032de8e96e16": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "6eaa8eaa-db44-4fc1-8951-f51c8066463c",
+        "54eaedc5-a7d4-47a5-b908-1b9b614eebfa",
+        "625c1104-d968-41bc-80b3-032de8e96e16"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "5f5cc3a2-c5d4-4bf7-a2d4-a06cb084125f": {
+      "type": "rich-text",
+      "blocks": {
+        "fd74e80c-b17c-48bd-9d63-ed603d8543f1": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "-01-"
+          }
+        },
+        "d9db0ea0-c739-4438-b73e-0a862485bbb7": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "夏祭りにぴったりアイテアイテム",
+            "use_h1": false
+          }
+        },
+        "1e3ad0b4-4119-4f10-9bf9-673627b03304": {
+          "type": "text",
+          "settings": {
+            "text": "<p>アロハシャツ＝「ボタニカル柄」といっても過言ではないほど、定番の柄です。涼しげなボタニカル柄が上品な華やかさを感じさせます。今夏も注目度の高い！</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "fd74e80c-b17c-48bd-9d63-ed603d8543f1",
+        "d9db0ea0-c739-4438-b73e-0a862485bbb7",
+        "1e3ad0b4-4119-4f10-9bf9-673627b03304"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "4606f06b-2170-435b-8bb4-8e9cad3e43d3": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "f275d9bf-80d2-4f18-82d5-94f2b0fe265a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/cd957ed6ed7e365fcda750356b0e6692.jpg",
+            "image-id": "",
+            "image_link": ""
+          }
+        },
+        "4ed85570-65cf-4f3c-9374-866f294529cd": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image-id": "",
+            "image_link": ""
+          }
+        },
+        "4b0dd86a-9a9c-4ac7-8669-15322e499c20": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "f275d9bf-80d2-4f18-82d5-94f2b0fe265a",
+        "4ed85570-65cf-4f3c-9374-866f294529cd",
+        "4b0dd86a-9a9c-4ac7-8669-15322e499c20"
+      ],
+      "settings": {}
+    },
+    "gallery_HWfwjq": {
+      "type": "gallery",
+      "blocks": {
+        "media_jV4DnG": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/Snipaste_2023-05-23_17-41-31.jpg",
+            "enlarge_media": true,
+            "subheading": "テンセル　グラデーション 藍染めキューバカラーアロハシャツ",
+            "title": "",
+            "button_label": "more",
+            "link": "https://www.karakubuy.com/products/krk-ylhcs1509?_pos=90&_sid=ea2b4f1be&_ss=r",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "media_jV4DnG"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 270,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "full",
+        "overlay_padding": "standard",
+        "button_style": "primary"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "large",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1652174971ed44938d": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    },
+    "1649757612ea7476eb": {
+      "type": "text-editor",
+      "settings": {
+        "data_wrapper_1250": false,
+        "text1": "<p>{{ collection.metafields.commodity.productintroduction | metafield_tag }}</p>"
+      }
+    },
+    "36e94ff7-1775-471b-a9b2-05355104f160": {
+      "type": "background-image",
+      "settings": {
+        "background_color_overlay": "",
+        "background_color": ""
+      }
+    }
+  },
+  "order": [
+    "603de01b-c224-4381-9dbe-71df6cf0b139",
+    "custom_content_epyBGE",
+    "dd393c38-d5bd-47fb-bf04-cc5d52896d56",
+    "82c5673c-1c42-45e0-98f9-b906af1b872a",
+    "5fddd80a-1b49-4503-9333-b0d15216f125",
+    "gallery_RBdGbA",
+    "1468e6ab-e17c-413d-8eb1-b5e8dd7a28ac",
+    "b66b6f32-c80c-44e7-ae7c-a17caf64aeb8",
+    "ad507942-c04f-4f7c-826e-3b9196ce541a",
+    "gallery_cF9eEX",
+    "f703ea58-7ce6-4c39-a23a-b0b6f92b3001",
+    "26e348fa-8f98-4fbe-8086-61f5d75bba74",
+    "700fd7d0-9d13-41fd-88f5-a89d6b7c490b",
+    "gallery_knMxNz",
+    "913cc45b-b6c2-4e3a-bb93-bb71b35c2ad8",
+    "5f5cc3a2-c5d4-4bf7-a2d4-a06cb084125f",
+    "4606f06b-2170-435b-8bb4-8e9cad3e43d3",
+    "gallery_HWfwjq",
+    "main",
+    "1652174971ed44938d",
+    "1649757612ea7476eb",
+    "36e94ff7-1775-471b-a9b2-05355104f160"
+  ]
+}

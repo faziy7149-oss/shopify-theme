@@ -1,0 +1,580 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "slideshow_8qNtct": {
+      "type": "slideshow",
+      "blocks": {
+        "image_ikCAr7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/146__banner.1920.jpg",
+            "mobile_image": "shopify://shop_images/146___1080_cdd7aba0-57a0-49ef-ad3c-234c6af62231.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_ikCAr7"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_9wa8e7": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/146___1920.png",
+        "mobile_image": "shopify://shop_images/20240515-174141.png",
+        "img_rul": ""
+      }
+    },
+    "image_8qYywd": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/20240515-144338.png",
+        "mobile_image": "shopify://shop_images/20240515-144338.png",
+        "img_rul": ""
+      }
+    },
+    "image_hN86gj": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/01_7c565f43-0d3d-4724-933c-41e067e56669.png",
+        "mobile_image": "shopify://shop_images/01_7c565f43-0d3d-4724-933c-41e067e56669.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_txcMpb": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -2,
+        "margin_top2": -3
+      }
+    },
+    "slide_block_group_cRWPQL": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_py7aaa": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/KRK-GSH-XZMHSG306-02.jpg",
+            "slide_title": "河鍋暁斎「踊る骸骨百態」浮世絵綿麻アロハシャツ",
+            "slide_price": 9980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-xzmhsg306?_pos=1&_sid=81c2a3e97&_ss=r&variant=44994057044187",
+            "slide_intro": "骨だけの骸骨は河鍋暁斎は好んで描いていますが、こちらも生きている人間以上に元気溌溂に動いています。"
+          }
+        },
+        "slide_block_En77tG": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/KRK-ZYD-SHGYQTSG129-01.jpg",
+            "slide_title": "国芳・武者絵「関羽五関破図」浮世絵総柄アロハシャツ",
+            "slide_price": 10980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-zyd-shgyqtsg129?variant=44799590891739",
+            "slide_intro": "画面の中を所狭しと躍動する極彩色のヒーローは、国芳芸術の特長を余すことなく伝えています。"
+          }
+        },
+        "slide_block_G6PbAa": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/KRK-LY-YGTJMYSG315-01.jpg",
+            "slide_img2": "shopify://shop_images/KRK-LY-YGTJMYSG315-02.jpg",
+            "slide_title": "江戸時代「妖怪尽くし図鑑」浮世絵アロハシャツ",
+            "slide_price": 10980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-ly-ygtjmysg315?_pos=1&_sid=b82cdffc1&_ss=r&variant=45043661799643",
+            "slide_intro": "日本の江戸時代から伝わる妖怪の神秘的な世界を探求する、江戸時代の妖怪図鑑の描画をテーマにした、夏のためのハワイアンシャツ。"
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_py7aaa",
+        "slide_block_En77tG",
+        "slide_block_G6PbAa"
+      ],
+      "settings": {
+        "slide_btn_color": "#d83a21",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#ece15c",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f"
+      }
+    },
+    "adjusting_spacing_cQp8Gi": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -3
+      }
+    },
+    "image_FMJwnD": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/02_fc76f0f2-7612-4270-95f2-3c36c310e55f.png",
+        "mobile_image": "shopify://shop_images/02_fc76f0f2-7612-4270-95f2-3c36c310e55f.png",
+        "img_rul": ""
+      }
+    },
+    "slide_block_group_faEqXD": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_xJYeDK": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/KRK-ZYD-MMKDCLSG1220-01.jpg",
+            "slide_title": "「モネの睡蓮に夢遊び黒猫」油絵総柄アロハシャツ",
+            "slide_price": 10980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-zyd-mmkdclsg1220?_pos=1&_sid=6d243cb19&_ss=r&variant=44694989013211",
+            "slide_intro": "猫が夢遊びする幻想的な世界を描いた絵です。デザインの中心には黒い猫が描かれて、その猫がクロード・モネの「睡蓮」の中にある日本橋にしゃがみ込んでいる。"
+          }
+        },
+        "slide_block_Vt93JR": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/KRK-ZYD-ZLMYHSG128-02.jpg",
+            "slide_img2": "shopify://shop_images/KRK-ZYD-ZLMYHSG128-01.jpg",
+            "slide_title": "「モネガーデンに黒猫の散策」油絵総柄アロハシャツ",
+            "slide_price": 5999,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-zyd-zlmyhsg128?_pos=1&_sid=371a2ce01&_ss=r&variant=44864758776027",
+            "slide_intro": "背景にはクロード・モネの有名な絵画「モネの庭の小道」が描かれて、紫、オレンジ、赤、白、などの花が咲き乱れている様子を描いたものであり、印象派の代表的な作品。"
+          }
+        },
+        "slide_block_cgeXVC": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/KRK-XRK-23111451-01.jpg",
+            "slide_title": "『Six Sunflowers』 油絵総柄アロハシャツ",
+            "slide_price": 14391,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-xrk-23111451?variant=43867029799131",
+            "slide_intro": "ボディーに画家ファン・ゴッホの代表的な絵画『Six Sunflowers』を施し、落ち着く色に映える名画のプリントは、華やかさをマーク、独特なタッチや質感がハイクオリティーに表現され、シルクのような艶のあると相まって高級感を醸し出します。"
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_xJYeDK",
+        "slide_block_Vt93JR",
+        "slide_block_cgeXVC"
+      ],
+      "settings": {
+        "slide_btn_color": "#d83a21",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#ece15c",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f"
+      }
+    },
+    "adjusting_spacing_rRbeDa": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -3
+      }
+    },
+    "image_eQTmUr": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/03_ffd07dc7-50ce-4495-b6b8-9bd8c36161bf.png",
+        "mobile_image": "shopify://shop_images/03_ffd07dc7-50ce-4495-b6b8-9bd8c36161bf.png",
+        "img_rul": ""
+      }
+    },
+    "slide_block_group_9EfaYx": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_BGtctg": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/KRK-ZYD-HMYHCLSG403-01.jpg",
+            "slide_title": "「夜桜の森に潜む黒猫」総柄アロハシャツ",
+            "slide_price": 8890,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-zyd-hmyhclsg403?_pos=1&_sid=3fc352f05&_ss=r&variant=45189987238107",
+            "slide_intro": "夜の桜の森に隠れた黒猫は、ほとんど姿を見せず、炯炯とした目だけが見えます。黒猫の目を際立たせるデザインが施されており、夜空に輝く星のような輝きを放ち、神秘的な雰囲気を漂わせます。"
+          }
+        },
+        "slide_block_aimBAe": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/KRK-ZYD-BHMZMSG222-02.jpg",
+            "slide_img2": "shopify://shop_images/KRK-ZYD-BHMZMSG222-01.jpg",
+            "slide_title": "版画風「桜山にいた猫たち」浮世絵アロハシャツ",
+            "slide_price": 6980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-zyd-bhmzmsg222?_pos=1&_sid=da583c61f&_ss=r&variant=44881045487835",
+            "slide_intro": "桜の花が咲き誇る山の風景に猫たちが描かれて、自然の美しさと猫の可愛らしさを組み合わせた、和の雰囲気を感じさせるテーマ。"
+          }
+        },
+        "slide_block_GPPxgR": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/KRK-LY-TYFMMSG329-01.jpg",
+            "slide_title": "「猫のまなざし」 手描き風アロハシャツ",
+            "slide_price": 10980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-ly-tyfmmsg329?_pos=1&_sid=3e432454f&_ss=r&variant=45141010350299",
+            "slide_intro": "黒猫の目は独特の魅力を持ち、そのまなざしには神秘的で深い感情が込められている。目を拡大して描かれ、細部まで丁寧に表現され。"
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_BGtctg",
+        "slide_block_aimBAe",
+        "slide_block_GPPxgR"
+      ],
+      "settings": {
+        "slide_btn_color": "#d83a21",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#ece15c",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f"
+      }
+    },
+    "adjusting_spacing_TfVTHf": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -3
+      }
+    },
+    "image_DAd6fK": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/2_1592a6d0-f052-4056-bb5b-58d0f7f0de93.png",
+        "mobile_image": "shopify://shop_images/2_3da655c6-ce6a-45d2-8990-8c7150a74349.png",
+        "img_rul": ""
+      }
+    },
+    "image_hg3rD6": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/04_4820a149-3bf3-4b70-ba37-0dffbb0bb6a5.png",
+        "mobile_image": "shopify://shop_images/04_4820a149-3bf3-4b70-ba37-0dffbb0bb6a5.png",
+        "img_rul": ""
+      }
+    },
+    "slide_block_group_rNbmiH": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_EfWJPQ": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/KRK-MD-TWW2201248-01.jpg",
+            "slide_title": "ブルーハワイ アロハシャツ",
+            "slide_price": 9161,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-md-tww2201248-1?_pos=2&_sid=0409e77a9&_ss=r&variant=45017382224091",
+            "slide_intro": "ロイヤルブルーをベース、さらにその上にハワイ代表的なシーアイランドとギターをアクセント、柄自体それほどインパクトがある"
+          }
+        },
+        "slide_block_iLNgE4": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/KRK-AE5274C-01.jpg",
+            "slide_title": "熱帯雨林のクロネコたち総柄アロハシャツ",
+            "slide_price": 6962,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-ae5274c?_pos=1&_sid=420502ea4&_ss=r&variant=44172216008923",
+            "slide_intro": "熱帯雨林の植物や花、葉っぱなどの要素を取り入れることで、自然の美しさや生命力を表現。"
+          }
+        },
+        "slide_block_b4pGFM": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/KRK-AE253C-01.jpg",
+            "slide_img2": "shopify://shop_images/KRK-AE253C-02.jpg",
+            "slide_title": "HAWAII ALOHA　「ヤシの木・フラミンゴ・花火」アロハシャツ",
+            "slide_price": 6622,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-ae253c?_pos=1&_sid=a3ee8d364&_ss=r&variant=44120101486811",
+            "slide_intro": "一番目立つのはヤシの木や、フラミンゴ・花火などの総柄デザイン、夏にぴったり、まるで理想的なバケーションシーン！"
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_EfWJPQ",
+        "slide_block_iLNgE4",
+        "slide_block_b4pGFM"
+      ],
+      "settings": {
+        "slide_btn_color": "#d83a21",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#ece15c",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f"
+      }
+    },
+    "adjusting_spacing_yYFnMH": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -3
+      }
+    },
+    "image_9bh4qU": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/05_ad63cdf0-2c22-4086-bec5-6207e0e302b5.png",
+        "mobile_image": "shopify://shop_images/05_ad63cdf0-2c22-4086-bec5-6207e0e302b5.png",
+        "img_rul": ""
+      }
+    },
+    "slide_block_group_hAMJcK": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_zBYnAM": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/KRK-ZJ-FGHTSG626-02.jpg",
+            "slide_title": "モンステラ総柄キューバ―シャツ",
+            "slide_price": 15990,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-zj-fghtsg626?variant=44161282244827",
+            "slide_intro": "南国ムードあふれる熱帯のモンステラ総柄をたっぷり!ビーチだけじゃない！タウンユースで着用できます。"
+          }
+        },
+        "slide_block_MFD9NK": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/KRK-AE5282C-01.jpg",
+            "slide_img2": "shopify://shop_images/KRK-AE5282C-02.jpg",
+            "slide_title": "レッドアサガオ総柄　綿麻キューバシャツ",
+            "slide_price": 6999,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-ae5282c?_pos=1&_sid=0a0dd63e2&_ss=r&variant=44192820494555",
+            "slide_intro": "一番目立つのはレッドアサガオ総柄、アサガオの花びらの鮮やかな赤色は、他の花とは一線を画し、個性的で特別な存在感を放つ。情熱的で力強いイメージを表現し、自信や積極性を引き出す。"
+          }
+        },
+        "slide_block_UD4qgz": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/KRK-Mbbc9369-01.jpg",
+            "slide_title": "「パープルバラとサソリ」ウォーターカラー風テンセルアロハシャツ",
+            "slide_price": 14980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-mbbc9369?_pos=1&_sid=6f4b2181c&_ss=r&variant=45499615248603",
+            "slide_intro": "一番目立つのはウォーターカラー風のパープルバラやサソリなどの総柄デザインで、夏にぴったり！繊細かつ鮮やかなプリント柄、模様のデザインが上質なため、意外と派手過ぎず上品に着こなせる。"
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_zBYnAM",
+        "slide_block_MFD9NK",
+        "slide_block_UD4qgz"
+      ],
+      "settings": {
+        "slide_btn_color": "#d83a21",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#ece15c",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f"
+      }
+    },
+    "adjusting_spacing_r8eUQF": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -3
+      }
+    },
+    "image_axkCKk": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/06_28ea4301-fd0e-40f2-b792-0a3095962bd7.png",
+        "mobile_image": "shopify://shop_images/06_28ea4301-fd0e-40f2-b792-0a3095962bd7.png",
+        "img_rul": ""
+      }
+    },
+    "slide_block_group_QbbrdN": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_QzjpnH": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/KRK-XG-7271640-02.jpg",
+            "slide_title": "インディゴ染　　コットンリネン幾何柄アロハシャツ",
+            "slide_price": 7999,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-xg-7271640?_pos=3&_sid=7208e50dd&_ss=r&variant=43113043394779",
+            "slide_intro": "インディゴ染めのコットンリネン生地にレトロな幾何学模様を全面にプリントした、トレンドライクなアロハシャツです。"
+          }
+        },
+        "slide_block_pkNPn7": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/KRK-Mbbc9343-01.jpg",
+            "slide_title": "チマヨ柄＆ストライプアロハシャツ",
+            "slide_price": 13990,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-mbbc9343?_pos=1&_sid=662d83331&_ss=r&variant=44099791356123",
+            "slide_intro": "全体に対称性のある多数のひし形を組み合わせたようなネイティブアメリカンの伝統なチマヨ柄をモチーフにしたデザインが存在感抜群。"
+          }
+        },
+        "slide_block_UAQ4yW": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/KRK-TF-CS856-02.jpg",
+            "slide_img2": "shopify://shop_images/KRK-TF-CS856-01.jpg",
+            "slide_title": "ダメージ加工ジャガード丸型柄　細畝コーデュロイ半袖アロハシャツ",
+            "slide_price": 10980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-tf-cs856?_pos=1&_sid=393b93f2c&_ss=r&variant=45474675785947",
+            "slide_intro": "絶妙な細畝コーデュロイ生地に織り感がある丸型総柄がに仕上げたことで、レトロ調の中にも高級感のある佇まいを演出。"
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_QzjpnH",
+        "slide_block_pkNPn7",
+        "slide_block_UAQ4yW"
+      ],
+      "settings": {
+        "slide_btn_color": "#d83a21",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#ece15c",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f"
+      }
+    },
+    "featured_collection_AA7Rfh": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ALOHA SHIRT",
+        "collection": "2024-pattern-alohashirt",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "background_image_TCkHMe": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-05-15_11-58-07.jpg",
+        "background_color_overlay": "",
+        "background_color": ""
+      }
+    }
+  },
+  "order": [
+    "slideshow_8qNtct",
+    "image_9wa8e7",
+    "image_8qYywd",
+    "image_hN86gj",
+    "adjusting_spacing_txcMpb",
+    "slide_block_group_cRWPQL",
+    "adjusting_spacing_cQp8Gi",
+    "image_FMJwnD",
+    "slide_block_group_faEqXD",
+    "adjusting_spacing_rRbeDa",
+    "image_eQTmUr",
+    "slide_block_group_9EfaYx",
+    "adjusting_spacing_TfVTHf",
+    "image_DAd6fK",
+    "image_hg3rD6",
+    "slide_block_group_rNbmiH",
+    "adjusting_spacing_yYFnMH",
+    "image_9bh4qU",
+    "slide_block_group_hAMJcK",
+    "adjusting_spacing_r8eUQF",
+    "image_axkCKk",
+    "slide_block_group_QbbrdN",
+    "featured_collection_AA7Rfh",
+    "main",
+    "background_image_TCkHMe"
+  ]
+}

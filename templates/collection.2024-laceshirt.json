@@ -1,0 +1,657 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "slideshow_VYThxU": {
+      "type": "slideshow",
+      "blocks": {
+        "image_qYhPpf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_eb370b05-ad99-4f0a-8571-51c47bdec13b.jpg",
+            "mobile_image": "shopify://shop_images/1920_x_780_7.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 26,
+            "title_size": 104,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": false,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_qYhPpf"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 640,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "adjusting_spacing_7eV6ic": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 2,
+        "margin_top2": 1
+      }
+    },
+    "image_bExT8y": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_820f72cd-28a7-4a55-8e03-bb8e292e0639.png",
+        "mobile_image": "shopify://shop_images/720_2a35458f-4a63-450f-a164-48315044b69d.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_FyfAaR": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 2,
+        "margin_top2": 1
+      }
+    },
+    "rich_text_94G9CY": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_gU3KEB": {
+          "type": "heading",
+          "settings": {
+            "title": "LACE SHIRT",
+            "use_h1": false
+          }
+        },
+        "text_Tj8bfX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>レースシャツは、夏から秋にかけてぴったりの素材で、今シーズンのメンズファッションで注目されています。透け感のある生地やキャッチーな柄など、旬なトップスを身にまとい、おしゃれを楽しみましょう。</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_gU3KEB",
+        "text_Tj8bfX"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "image_kPtNhg": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-01_ef3749ac-5750-49e1-b1c0-df19a080606d.png",
+        "mobile_image": "shopify://shop_images/720-01.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_M7t8jH": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -3
+      }
+    },
+    "image_slider_JUtQY3": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_NJT6rD": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01___01.png"
+          }
+        },
+        "image_slider_mnct9t": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01___03.png"
+          }
+        },
+        "image_slider_DerPK3": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01___01.png"
+          }
+        },
+        "image_slider_FiTGpm": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01___02.png"
+          }
+        },
+        "main_diagram_rAmygJ": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/01_01.png",
+            "main_img2": "shopify://shop_images/01_02.png"
+          }
+        },
+        "image_info_jAPWEC": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "トレンドの透かし編みで、程よい透け感がリラックス感を演出。清涼感を与えてくれる透け感と、軽い着心地で春夏のオシャレをお楽しみいただけます。",
+            "price_discount": 12980,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-515-c31?_pos=1&_sid=c0a5f8bb6&_ss=r&variant=45966096138459"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_NJT6rD",
+        "image_slider_mnct9t",
+        "image_slider_DerPK3",
+        "image_slider_FiTGpm",
+        "main_diagram_rAmygJ",
+        "image_info_jAPWEC"
+      ],
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "adjusting_spacing_Ct9TYH": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -3
+      }
+    },
+    "image_JPFWjV": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-02.png",
+        "mobile_image": "shopify://shop_images/720-02.png",
+        "img_rul": ""
+      }
+    },
+    "image_slider_JT8N7n": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_XDwA7j": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/02___01.png"
+          }
+        },
+        "image_slider_CwgcAR": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/02___02.png"
+          }
+        },
+        "image_slider_DK4YWm": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/02___03.png"
+          }
+        },
+        "image_slider_DQEekr": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/02___04.png"
+          }
+        },
+        "main_diagram_6wKeDK": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/02_01.png",
+            "main_img2": "shopify://shop_images/02_02.png"
+          }
+        },
+        "image_info_eRXbJN": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "横方向に編み込まれたボーダー調の柄が、シンプルになりがちなサマースタイルに溶け込むデザインです。",
+            "price_discount": 14980,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-ls-plzzks620?_pos=1&_sid=20c7f0435&_ss=r&variant=45752997150939"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_XDwA7j",
+        "image_slider_CwgcAR",
+        "image_slider_DK4YWm",
+        "image_slider_DQEekr",
+        "main_diagram_6wKeDK",
+        "image_info_eRXbJN"
+      ],
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_4dwbkA": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-03.png",
+        "mobile_image": "shopify://shop_images/720-03.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_n8LP8h": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -3
+      }
+    },
+    "image_slider_CHhXPb": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_b7B4zy": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/03___02_cba3232e-97eb-4e00-ad25-c63fbf19c1ac.png"
+          }
+        },
+        "image_slider_imy6WY": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/03___04_a38c0968-3e86-4d5d-bc7d-859421fda412.png"
+          }
+        },
+        "image_slider_wkBJDw": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/03___01_a1a22926-2d76-4c87-8ace-a49740ef92d0.png"
+          }
+        },
+        "image_slider_79XTKN": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/03___03_998c91a0-39fa-47a6-baf3-b8080ccb7b9b.png"
+          }
+        },
+        "main_diagram_bcBnJx": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/03_01.png",
+            "main_img2": "shopify://shop_images/03_02.png"
+          }
+        },
+        "image_info_nNLQYe": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "全体に透かし彫りのデザインが施されて、生地を切り抜いたり、細かい模様を作ったりすることによって実現。",
+            "price_discount": 10980,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-391-cs108?_pos=1&_sid=3cc4100cf&_ss=r&variant=45486199668955"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_b7B4zy",
+        "image_slider_imy6WY",
+        "image_slider_wkBJDw",
+        "image_slider_79XTKN",
+        "main_diagram_bcBnJx",
+        "image_info_nNLQYe"
+      ],
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_8WNQ9E": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-04.png",
+        "mobile_image": "shopify://shop_images/720-04.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_RpYKbM": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -3
+      }
+    },
+    "image_slider_JKCq7D": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_7ktG6k": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/04___01.png"
+          }
+        },
+        "image_slider_eBzz7x": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/04___04.png"
+          }
+        },
+        "image_slider_yxaRzM": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/04___02.png"
+          }
+        },
+        "image_slider_yyyhrR": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/04___03.png"
+          }
+        },
+        "main_diagram_A3gDwW": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/04_01.png",
+            "main_img2": "shopify://shop_images/04_02.png"
+          }
+        },
+        "image_info_dra4kB": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "バルファスレースで贅沢な仕上がりとなっており、主役級の存在感があるアイテムです。縦方向に編み込まれたストライプ調の柄が、シンプルになりがちなサマースタイルに溶け込むデザインです。",
+            "price_discount": 10980,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-nxa083-tg112?_pos=1&_sid=0b0ea11b4&_ss=r"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_7ktG6k",
+        "image_slider_eBzz7x",
+        "image_slider_yxaRzM",
+        "image_slider_yyyhrR",
+        "main_diagram_A3gDwW",
+        "image_info_dra4kB"
+      ],
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_e7NAgM": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-05.png",
+        "mobile_image": "shopify://shop_images/720-05.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_Mn374B": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -3
+      }
+    },
+    "image_slider_QrJe3J": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_fEx3Uy": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/05___01.png"
+          }
+        },
+        "image_slider_CwFpie": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/05___02.png"
+          }
+        },
+        "image_slider_6CGtCt": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/05___04.png"
+          }
+        },
+        "image_slider_zwTJid": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/05___03.png"
+          }
+        },
+        "main_diagram_Le37jV": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/05_01.png",
+            "main_img2": "shopify://shop_images/05_02.png"
+          }
+        },
+        "image_info_rptiHr": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "細番手高級糸のこと、きめ細やかで肌触りもとても良く、独特の微かな光沢感も品が良く、そのうえ、強度にも優れているので丈夫で長持ちします。",
+            "price_discount": 9980,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-cs201?_pos=1&_sid=6065906f2&_ss=r&variant=45845360017627"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_fEx3Uy",
+        "image_slider_CwFpie",
+        "image_slider_6CGtCt",
+        "image_slider_zwTJid",
+        "main_diagram_Le37jV",
+        "image_info_rptiHr"
+      ],
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_GxDbLi": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-06.png",
+        "mobile_image": "shopify://shop_images/720-06.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_XXQbhV": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -3
+      }
+    },
+    "image_slider_hUbTxB": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_3MaD9X": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/5_2304ec32-d628-44fb-99b6-bb5f42cdc63a.jpg"
+          }
+        },
+        "image_slider_ryLjxF": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/4_f43abf89-c351-446d-a391-6f177478ab26.jpg"
+          }
+        },
+        "image_slider_kUVTFB": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/3_5f0a7cd8-5c8f-4b60-a7ab-04204ccfc1ea.jpg"
+          }
+        },
+        "image_slider_Kz3hYz": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/2_a744cc21-c624-4cec-9ade-4ed750c48e43.jpg"
+          }
+        },
+        "main_diagram_apWURq": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/c9ebf776602493aa6fc17cc7eb4b8bb6_8e115652-07cc-4f57-8498-e93c834d3dc8.jpg",
+            "main_img2": "shopify://shop_images/1_85f0d256-f7c1-4a7a-8060-ad5e0e5d880e.jpg"
+          }
+        },
+        "image_info_qU39ei": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "透かし彫りのデザインは、暑い季節でも快適に着られるように設計され、通気性が良く、肌に優しい素材が使われている。ゆったりとしたフィットは、体型を気にせずリラックスして着用できる。",
+            "price_discount": 10980,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/collections/2024-laceshirt/products/krk-515-c32"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_3MaD9X",
+        "image_slider_ryLjxF",
+        "image_slider_kUVTFB",
+        "image_slider_Kz3hYz",
+        "main_diagram_apWURq",
+        "image_info_qU39ei"
+      ],
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "background_image_pLcR6j": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-06-28_17-24-57_729ba2a2-937c-4d59-a0aa-57d5ed89f6da.jpg"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "slideshow_VYThxU",
+    "adjusting_spacing_7eV6ic",
+    "image_bExT8y",
+    "adjusting_spacing_FyfAaR",
+    "rich_text_94G9CY",
+    "image_kPtNhg",
+    "adjusting_spacing_M7t8jH",
+    "image_slider_JUtQY3",
+    "adjusting_spacing_Ct9TYH",
+    "image_JPFWjV",
+    "image_slider_JT8N7n",
+    "image_4dwbkA",
+    "adjusting_spacing_n8LP8h",
+    "image_slider_CHhXPb",
+    "image_8WNQ9E",
+    "adjusting_spacing_RpYKbM",
+    "image_slider_JKCq7D",
+    "image_e7NAgM",
+    "adjusting_spacing_Mn374B",
+    "image_slider_QrJe3J",
+    "image_GxDbLi",
+    "adjusting_spacing_XXQbhV",
+    "image_slider_hUbTxB",
+    "background_image_pLcR6j",
+    "main"
+  ]
+}

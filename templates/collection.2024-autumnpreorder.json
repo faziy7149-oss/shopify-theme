@@ -1,0 +1,696 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "5916ccef-07fd-4b2d-aa65-7a52f8826224": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17080100618459__5916ccef-07fd-4b2d-aa65-7a52f8826224-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/304___1920.jpg",
+            "mobile_image": "shopify://shop_images/304___1080.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17080100618459__5916ccef-07fd-4b2d-aa65-7a52f8826224-image-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "rich_text_yEm9Y7": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_pnq673": {
+          "type": "heading",
+          "settings": {
+            "title": "2024 AUTUMN PRE-ORDER",
+            "use_h1": false
+          }
+        },
+        "text_UFaK37": {
+          "type": "text",
+          "settings": {
+            "text": "<p>秋冬シーズンの新作が早くも予約受付スタート！この秋真っ先にチェックすべきアイテムをご紹介します。</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_pnq673",
+        "text_UFaK37"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "single_image_7MjaGT": {
+      "type": "single-image",
+      "settings": {
+        "image_block_image": "shopify://shop_images/1920-1_864d1dfd-344d-4fb9-b0d8-2f6cd1f6851b.png",
+        "image_block_image_m": "shopify://shop_images/20240730-115437.png",
+        "image_link": ""
+      }
+    },
+    "6ebd41c7-260b-415d-a681-c9a5caa9d84b": {
+      "type": "image-slider",
+      "blocks": {
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-imageSlider-1": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/1-_-3.png"
+          }
+        },
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-imageSlider-2": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/1-_-2.png"
+          }
+        },
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-imageSlider-3": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/1-_-4.png"
+          }
+        },
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-imageSlider-4": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/1-_-1.png"
+          }
+        },
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-mainDiagram-1": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/1-1.png",
+            "main_img2": "shopify://shop_images/1-2.png"
+          }
+        },
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-imageInfo-1": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "胸元の左右対称のドクロ刺繡は、デザインのバランス感と対称美を強調し、安定感と調和の取れた視覚体験を提供。ドクロの内部や周りには日本の浮世絵風の波の要素が融合されて、バックデザインのテーマを継承している。",
+            "price_discount": 26982,
+            "original_price": 29980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-zyd-hsclhxh621?_pos=1&_sid=e3616c8d2&_ss=r&variant=45757403070683"
+          }
+        }
+      },
+      "block_order": [
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-imageSlider-1",
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-imageSlider-2",
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-imageSlider-3",
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-imageSlider-4",
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-mainDiagram-1",
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-imageInfo-1"
+      ],
+      "settings": {
+        "data_title": "【予約】横須賀「ドクロ、蛇と波」浮世絵刺繡入りスカジャン",
+        "data_tit_col": "#50463d",
+        "info_text_col": "#4f3f37",
+        "price_col": "#d21616",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#4f3f37",
+        "but_col": "#d1b296",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#d1b296"
+      }
+    },
+    "single_image_wyzfxN": {
+      "type": "single-image",
+      "settings": {
+        "image_block_image": "shopify://shop_images/1920-2_5b743798-0e5f-44c9-89b2-d1f92c8ef27d.png",
+        "image_block_image_m": "shopify://shop_images/720-2_5464dfb7-d4aa-45bc-8e0e-b91f964fdb41.png",
+        "image_link": ""
+      }
+    },
+    "image_slider_rPTBRB": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_6c7bf6": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/4-_-4.png"
+          }
+        },
+        "image_slider_TkRmL7": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/4-_-3.png"
+          }
+        },
+        "image_slider_DzwUhK": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/4-_-2.png"
+          }
+        },
+        "image_slider_dnX7GK": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/4-_-1.png"
+          }
+        },
+        "main_diagram_n3nJ3X": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/4-1.png",
+            "main_img2": "shopify://shop_images/4-2.png"
+          }
+        },
+        "image_info_XbNjwE": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "背中には大きな龍の刺繡が施されており、視線を引きつけます。この龍は伝統的な浮世絵スタイルで、主に淡いグリーンで描かれています。龍の鱗や髭、爪などが力強く動きのあるデザインになっており、オレンジ色の炎やアクセントが加えられることで、視覚的に非常に魅力的です。",
+            "price_discount": 19782,
+            "original_price": 21980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-zpht-zylcxfxja724?_pos=1&_sid=189c59d10&_ss=r&variant=45884916334811"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_6c7bf6",
+        "image_slider_TkRmL7",
+        "image_slider_DzwUhK",
+        "image_slider_dnX7GK",
+        "main_diagram_n3nJ3X",
+        "image_info_XbNjwE"
+      ],
+      "settings": {
+        "data_title": "【予約】「KaraKuｘ中坪宏太」咆哮している緑色の龍刺繡入り　浮世絵風フライトジャケット",
+        "data_tit_col": "#50463d",
+        "info_text_col": "#4f3f37",
+        "price_col": "#d21616",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#4f3f37",
+        "but_col": "#d1b296",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#d1b296"
+      }
+    },
+    "single_image_9aBHJF": {
+      "type": "single-image",
+      "settings": {
+        "image_block_image": "shopify://shop_images/1920-3_2c6da278-b19e-4bf1-a5f1-1ecc948ba816.png",
+        "image_block_image_m": "shopify://shop_images/720-3_a109a384-0dd2-4b55-b13e-6d5a1b960d92.png",
+        "image_link": ""
+      }
+    },
+    "image_slider_aYDb7h": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_Uexi9P": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/7-_-4.png"
+          }
+        },
+        "image_slider_GLBLMw": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/7-_-3.png"
+          }
+        },
+        "image_slider_w4D4px": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/7-_-4.png"
+          }
+        },
+        "image_slider_jJjixm": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/7-_-1.png"
+          }
+        },
+        "main_diagram_rbN7DW": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/7-1.png",
+            "main_img2": "shopify://shop_images/7-2.png"
+          }
+        },
+        "image_info_HPrpF7": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "クルーネックで、クラシックかつシンプルで、非常に多用途であり、重ね着しやすい特徴がある。袖口にはリブが施されて、袖のズレを防ぎ、フィット感を向上させている。",
+            "price_discount": 7191,
+            "original_price": 7990,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-gsh-jczbct723?_pos=1&_sid=dd2d4d4ee&_ss=r&variant=45888322732251"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_Uexi9P",
+        "image_slider_GLBLMw",
+        "image_slider_w4D4px",
+        "image_slider_jJjixm",
+        "main_diagram_rbN7DW",
+        "image_info_HPrpF7"
+      ],
+      "settings": {
+        "data_title": "【予約】ミニマル　無地クルーネックコットン長袖Tee",
+        "data_tit_col": "#50463d",
+        "info_text_col": "#4f3f37",
+        "price_col": "#d21616",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#4f3f37",
+        "but_col": "#d1b296",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#d1b296"
+      }
+    },
+    "single_image_xrDFAW": {
+      "type": "single-image",
+      "settings": {
+        "image_block_image": "shopify://shop_images/1920-4_5f130af0-4950-4fdb-8fe3-1afa7a60e642.png",
+        "image_block_image_m": "shopify://shop_images/720-4_21c9635e-f904-404b-8fea-c1cb05e188c1.png",
+        "image_link": ""
+      }
+    },
+    "image_slider_iWz9BV": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_KNKcDM": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/6-_-4.png"
+          }
+        },
+        "image_slider_fLfhxX": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/6-_-3.png"
+          }
+        },
+        "image_slider_pGTrgp": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/6-_-2.png"
+          }
+        },
+        "image_slider_TcG8tq": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/6-_-4.png"
+          }
+        },
+        "main_diagram_r3KERL": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/6-1.png",
+            "main_img2": "shopify://shop_images/6-2.png"
+          }
+        },
+        "image_info_3Gfp8n": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "「神奈川沖浪裏」の波のデザインは非常にダイナミックで力強いイメージを持っている。エルボーパッチにこのデザインを使用することで、スウェット自体がシンプルでありながら、肘部分に視覚的なインパクトを与える。",
+            "price_discount": 14382,
+            "original_price": 15980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-olclsdxvlw725?_pos=1&_sid=0c5f6d142&_ss=r&variant=45891392569563"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_KNKcDM",
+        "image_slider_fLfhxX",
+        "image_slider_pGTrgp",
+        "image_slider_TcG8tq",
+        "main_diagram_r3KERL",
+        "image_info_3Gfp8n"
+      ],
+      "settings": {
+        "data_title": "【予約】「神奈川沖浪裏」エルボーパッチ　藍染グラデーションスウェット",
+        "data_tit_col": "#50463d",
+        "info_text_col": "#4f3f37",
+        "price_col": "#d21616",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#4f3f37",
+        "but_col": "#d1b296",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#d1b296"
+      }
+    },
+    "single_image_EHFzp4": {
+      "type": "single-image",
+      "settings": {
+        "image_block_image": "shopify://shop_images/1920-5_156b9bc4-1008-416b-8766-4a65a99678a5.png",
+        "image_block_image_m": "shopify://shop_images/720-5_31dc4b8d-431a-4105-99e7-cacee8cb8192.png",
+        "image_link": ""
+      }
+    },
+    "image_slider_Mexdfi": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_CCTyrQ": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/5-_-2.png"
+          }
+        },
+        "image_slider_AffnPL": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/6-_-3.png"
+          }
+        },
+        "image_slider_ccLhXy": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/5-_-3.png"
+          }
+        },
+        "image_slider_PEMnPy": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/6-_-4.png"
+          }
+        },
+        "main_diagram_QTYWp8": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/5-2.png",
+            "main_img2": "shopify://shop_images/5-1.png"
+          }
+        },
+        "image_info_eHnMBm": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "アクセントに美しい夜空をイメージした藍染グラデーションによってデザイン、藍の絶妙の質感と自然の色落ちで表現してる古着感は特徴。",
+            "price_discount": 14382,
+            "original_price": 15980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-olvllrwy725?_pos=1&_sid=0c9a2289f&_ss=r&variant=45891327426779"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_CCTyrQ",
+        "image_slider_AffnPL",
+        "image_slider_ccLhXy",
+        "image_slider_PEMnPy",
+        "main_diagram_QTYWp8",
+        "image_info_eHnMBm"
+      ],
+      "settings": {
+        "data_title": "【予約】刺繍ロゴ入り　藍染グラデーションプルオーバースウェット",
+        "data_tit_col": "#50463d",
+        "info_text_col": "#4f3f37",
+        "price_col": "#d21616",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#4f3f37",
+        "but_col": "#d1b296",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#d1b296"
+      }
+    },
+    "single_image_C3gNq3": {
+      "type": "single-image",
+      "settings": {
+        "image_block_image": "shopify://shop_images/1920-6_d89f2d7d-6fbf-4cfe-a6ce-36f01cdc3351.png",
+        "image_block_image_m": "shopify://shop_images/720-6_86f7b4b1-0666-4b94-995f-6c03ae2f2fe3.png",
+        "image_link": ""
+      }
+    },
+    "image_slider_P86KdJ": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_JbjY6e": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/2-_-4.png"
+          }
+        },
+        "image_slider_baN4QL": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/2-_-3.png"
+          }
+        },
+        "image_slider_7M9bWi": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/2-_-2.png"
+          }
+        },
+        "image_slider_8tQjaU": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/2-_-3.png"
+          }
+        },
+        "main_diagram_JT6izM": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/2-1.png",
+            "main_img2": "shopify://shop_images/2-2.png"
+          }
+        },
+        "image_info_XUgW8z": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "フロントに黒とオークルの配色コンビデザインが施されており、質感もテクスチャーも美しく表現されています。スペシャル感とヴィンテージ感を兼ね備えたデザインが魅力です。平織手法を用い、リネンライクのタッチを残すために柔らかく生地になじむ加工が施されています。",
+            "price_discount": 12582,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-zyd-cxzsgbs705?_pos=1&_sid=f3f5caad3&_ss=r&variant=45829217321179"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_JbjY6e",
+        "image_slider_baN4QL",
+        "image_slider_7M9bWi",
+        "image_slider_8tQjaU",
+        "main_diagram_JT6izM",
+        "image_info_XUgW8z"
+      ],
+      "settings": {
+        "data_title": "【予約】オーダーメイド　異素材配色切替キューバカラーシャツ",
+        "data_tit_col": "#50463d",
+        "info_text_col": "#4f3f37",
+        "price_col": "#d21616",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#4f3f37",
+        "but_col": "#d1b296",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#d1b296"
+      }
+    },
+    "single_image_gz9qWy": {
+      "type": "single-image",
+      "settings": {
+        "image_block_image": "shopify://shop_images/1920-7_6688790d-a18b-4f66-8ca4-152eaa8bda59.png",
+        "image_block_image_m": "shopify://shop_images/720-7.png",
+        "image_link": ""
+      }
+    },
+    "image_slider_qTYrLW": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_W7wAf9": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/3-_-4.png"
+          }
+        },
+        "image_slider_ccQbLk": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/3-_-2.png"
+          }
+        },
+        "image_slider_KxwDfj": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/3-_-3.png"
+          }
+        },
+        "image_slider_rwyPEM": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/3-_-1.png"
+          }
+        },
+        "main_diagram_mEMLXA": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/3-2.png",
+            "main_img2": "shopify://shop_images/3-1.png"
+          }
+        },
+        "image_info_4yJqy7": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "洗練された大人カジュアルカラーのベージュを基調として、モダンなトリプルストライプ柄と相まって程良いイタリアンテイストを演出してくれた一枚です。",
+            "price_discount": 11682,
+            "original_price": 12980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-zyd-twkjscs722?variant=45876532805851"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_W7wAf9",
+        "image_slider_ccQbLk",
+        "image_slider_KxwDfj",
+        "image_slider_rwyPEM",
+        "main_diagram_mEMLXA",
+        "image_info_4yJqy7"
+      ],
+      "settings": {
+        "data_title": "【予約】トリプルストライプ柄　オープンカラーワーク長袖シャツ",
+        "data_tit_col": "#50463d",
+        "info_text_col": "#4f3f37",
+        "price_col": "#d21616",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#4f3f37",
+        "but_col": "#d1b296",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#d1b296"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "dbe8991f-ca90-42e6-95f7-068961ab9f0e": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-07-30_10-35-10.jpg"
+      }
+    },
+    "tag_link_HT8zt4": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    },
+    "featured_collection_UfMJCB": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "2024   AUTUMN PRE-ORDER",
+        "collection": "2024-autumn-preorder",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "5916ccef-07fd-4b2d-aa65-7a52f8826224",
+    "rich_text_yEm9Y7",
+    "single_image_7MjaGT",
+    "6ebd41c7-260b-415d-a681-c9a5caa9d84b",
+    "single_image_wyzfxN",
+    "image_slider_rPTBRB",
+    "single_image_9aBHJF",
+    "image_slider_aYDb7h",
+    "single_image_xrDFAW",
+    "image_slider_iWz9BV",
+    "single_image_EHFzp4",
+    "image_slider_Mexdfi",
+    "single_image_C3gNq3",
+    "image_slider_P86KdJ",
+    "single_image_gz9qWy",
+    "image_slider_qTYrLW",
+    "main",
+    "dbe8991f-ca90-42e6-95f7-068961ab9f0e",
+    "tag_link_HT8zt4",
+    "featured_collection_UfMJCB"
+  ]
+}

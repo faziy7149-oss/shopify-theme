@@ -1,0 +1,335 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "48b83a8e-af96-4a14-a5d0-612c31334713": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/16_9_37f713fe-343f-4834-905b-4a841382f11f.jpg",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background"
+      }
+    },
+    "75086b5b-adba-4b20-9a16-0f3c6cd111a2": {
+      "type": "rich-text",
+      "blocks": {
+        "f66184b8-bd7d-4201-a1c7-13e028cc7022": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "KaraKu 3year anniversary"
+          }
+        },
+        "template--15421975888091__75086b5b-adba-4b20-9a16-0f3c6cd111a2-1682580732dd59d3ae-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Karaku3周年記念キャンペーンのお知らせ",
+            "use_h1": false
+          }
+        },
+        "template--15421975888091__75086b5b-adba-4b20-9a16-0f3c6cd111a2-1682580732dd59d3ae-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><p>日頃よりKarakubuyにご愛顧を賜り誠に有難うございます。</p><p>おかげさまで、karakuオンラインショップは<br/>2023年5月1日で3周年を迎えることとなりました。</p><p>これまでの3年間、多くのお客様にご支持いただき、<br/>私たちは成長し続けることができました。<br/></p><p>その感謝の気持ちを込めまして、<br/>最大60%OFFキャンペーン、期間限定ポイントアップ、<br/>福袋限定発売、プレゼント企画、SNSキャンペーンなど<br/></p><p>様々なイベントをご用意しておりますので、<br/>たくさんのご参加お待ちしています。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "f66184b8-bd7d-4201-a1c7-13e028cc7022",
+        "template--15421975888091__75086b5b-adba-4b20-9a16-0f3c6cd111a2-1682580732dd59d3ae-1",
+        "template--15421975888091__75086b5b-adba-4b20-9a16-0f3c6cd111a2-1682580732dd59d3ae-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "3a090d46-bb16-4261-9f35-4af0aaaabb5e": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Dw9pQk": {
+          "type": "heading",
+          "settings": {
+            "title": "対象品が最大60％OFFキャンペーン",
+            "use_h1": false
+          }
+        },
+        "text_cEMR77": {
+          "type": "text",
+          "settings": {
+            "text": "<p></p><p>karaku 3周年記念企画第1弾</p><p>対象品が最大<strong>60％OFF</strong>キャンペーン<br/></p><p>Tシャツから、トレンドのアロハシャツまで、幅広い人気アイテムがお得に手に入ります。</p><p>お得なチャンスをお見逃しなく！</p><p>キャンペーン期間：5/1(月)～5/21(日)まで</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_qbEzLD": {
+          "type": "button",
+          "settings": {
+            "button_label": "対象商品はこちら",
+            "button_link": "https://www.karakubuy.com/collections/karaku-3rd-anniversary-thanksgiving-sale",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Dw9pQk",
+        "text_cEMR77",
+        "button_qbEzLD"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/60off_edm.jpg",
+        "image_width": 700,
+        "image_link": "https://www.karakubuy.com/collections/karaku-3rd-anniversary-thanksgiving-sale",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "661df963-28ff-47b6-9c2b-6a00b94d1903": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_cBGWdY": {
+          "type": "heading",
+          "settings": {
+            "title": "3周年記念福袋発売",
+            "use_h1": false
+          }
+        },
+        "text_THc7zx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>karaku 3周年記念企画第2弾</p><p>3周年記念<strong>福袋</strong>発売決定いたしました！</p><p>先着<strong>300名様</strong>限定</p><p>数に限りがありますのでお早めにゲットしてください。</p><p>キャンペーン期間：5/1(月)～5/7(日)まで<br/></p>",
+            "enlarge_text": false
+          }
+        },
+        "button_cN6KHj": {
+          "type": "button",
+          "settings": {
+            "button_label": "記念福袋を見る",
+            "button_link": "https://www.karakubuy.com/collections/karaku-3rd-anniversary-thanksgiving-lucky-bag",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_cBGWdY",
+        "text_THc7zx",
+        "button_cN6KHj"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/edm_1ca8e5b4-a5f8-43b9-94a2-2fcebaec280a.jpg",
+        "image_width": 700,
+        "image_link": "https://www.karakubuy.com/collections/karaku-3rd-anniversary-thanksgiving-lucky-bag",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "106c5c2a-c679-4663-bcb0-c664efc90e57": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_heFTfU": {
+          "type": "heading",
+          "settings": {
+            "title": "ポイント10倍アップ ！",
+            "use_h1": false
+          }
+        },
+        "text_gqtc9e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>karaku 3周年記念企画第3弾</p><p>会員限定・全商品ポイント<strong>10倍</strong>アップ ！</p><p>期間中、通常のポイント付与が通常の10倍にアップ！お買い物がさらにお得になります。</p><p>キャンペーン期間：5/1(月)～5/21(日)まで</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_nawcbH": {
+          "type": "button",
+          "settings": {
+            "button_label": "会員登録はこちら",
+            "button_link": "https://www.karakubuy.com/account/login",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_heFTfU",
+        "text_gqtc9e",
+        "button_nawcbH"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/586.jpg",
+        "image_width": 700,
+        "image_link": "https://www.karakubuy.com/account/login",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "f4b2ec00-ef9e-4625-aaf1-e3f5ff6a88a2": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_3nmVKx": {
+          "type": "heading",
+          "settings": {
+            "title": "最大25％OFFクーポン配布",
+            "use_h1": false
+          }
+        },
+        "text_AaGVNP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>karaku 3周年記念企画第4弾</p><p>①2点購入で10%OFF！<br/>クーポン番号：<strong>3rd10</strong></p><p>②3点以上のご購入で15%OFF！<br/>クーポン番号：<strong>3rd15</strong></p><p>③5点以上のご購入で25%OFF！<br/>クーポン番号：<strong>3rd25</strong></p><p>利用期間：5/1(月)～5/21(日)まで</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_xyyhDU": {
+          "type": "button",
+          "settings": {
+            "button_label": "すぐ使える",
+            "button_link": "https://www.karakubuy.com/collections/karaku-3rd-anniversary-thanksgiving-sale",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_3nmVKx",
+        "text_AaGVNP",
+        "button_xyyhDU"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/19f6cdf48e7de3247131d5a9d51946b6_2d7b73a6-bc59-48ff-a9dc-17288e56ae07.jpg",
+        "image_width": 700,
+        "image_link": "https://www.karakubuy.com/collections/karaku-3rd-anniversary-thanksgiving-sale",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "1b40414d-cd05-4cd4-8889-7ab3484b7fd9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_h8Ur3J": {
+          "type": "heading",
+          "settings": {
+            "title": "SNSプレゼントキャンペーン",
+            "use_h1": false
+          }
+        },
+        "text_ydYbfD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>karaku 3周年記念企画第5弾</p><p>karakubuy公式TwitterとInstagramのフォロワー様限定のプレゼントキャンペーンを開催中！</p><p>キャンペーン期間：5/1(月)～5/7(日)まで</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_YekHx3": {
+          "type": "button",
+          "settings": {
+            "button_label": "詳しくはこちらへ",
+            "button_link": "https://www.karakubuy.com/blogs/2023blog/karaku-drawing-for-4-winners",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_h8Ur3J",
+        "text_ydYbfD",
+        "button_YekHx3"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/582-2.jpg",
+        "image_width": 700,
+        "image_link": "https://www.karakubuy.com/blogs/2023blog/karaku-drawing-for-4-winners",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "a0352615-eddb-4e38-a33b-517d55e0f301": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ew4V3p": {
+          "type": "heading",
+          "settings": {
+            "title": "ご購入金額が29,999円（税込）以上でプレゼント！",
+            "use_h1": false
+          }
+        },
+        "text_CAzLiY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>karaku 3周年記念企画第6弾</p><p>期間中に合計金額が29,999円以上のお買い上げをいただいたお客様に、カラクラベル付けコットンTeeをプレゼントいたします。</p><p>キャンペーン期間：5/8(月)～5/21(日)まで</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_ew4V3p",
+        "text_CAzLiY"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/edm1_1.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "c7bdab89-c83b-4a35-96a6-a295f419fa72": {
+      "type": "video",
+      "settings": {
+        "video_external": "https://www.youtube.com/watch?v=2wS4bRryMIY",
+        "video_description": "",
+        "placeholder_image": "shopify://shop_images/12_e5dc0487-9d1e-4d64-8e15-ad55c277cf07.jpg",
+        "text_alignment": "center center",
+        "full_width": true,
+        "overlay_style": "full"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "settings": {
+        "show_date": true,
+        "show_author": true,
+        "show_article_tags": true,
+        "show_sharing_icons": true,
+        "show_twitter": true,
+        "show_facebook": true,
+        "show_pinterest": true,
+        "show_featured_image": true,
+        "full_width_image": true,
+        "featured_image_height": "large",
+        "enable_title_overlay": false,
+        "overlay_style": "shadow"
+      }
+    }
+  },
+  "order": [
+    "48b83a8e-af96-4a14-a5d0-612c31334713",
+    "75086b5b-adba-4b20-9a16-0f3c6cd111a2",
+    "3a090d46-bb16-4261-9f35-4af0aaaabb5e",
+    "661df963-28ff-47b6-9c2b-6a00b94d1903",
+    "106c5c2a-c679-4663-bcb0-c664efc90e57",
+    "f4b2ec00-ef9e-4625-aaf1-e3f5ff6a88a2",
+    "1b40414d-cd05-4cd4-8889-7ab3484b7fd9",
+    "a0352615-eddb-4e38-a33b-517d55e0f301",
+    "c7bdab89-c83b-4a35-96a6-a295f419fa72",
+    "main"
+  ]
+}

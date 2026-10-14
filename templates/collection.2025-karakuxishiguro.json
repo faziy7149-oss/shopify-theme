@@ -1,0 +1,633 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "dynamic_picture_nm3i9m": {
+      "type": "dynamic-picture",
+      "blocks": {
+        "image_Cc6WbY": {
+          "type": "image",
+          "settings": {
+            "image_hover": "shopify://shop_images/12_c3fcf54a-46cf-43a2-967b-570236954218.png",
+            "top_location": 9,
+            "left_location": 16,
+            "top_location2": 21,
+            "left_location2": 62,
+            "pc_img_width": 12,
+            "m_img_width": 25
+          }
+        },
+        "image2_ewUCBy": {
+          "type": "image2",
+          "settings": {
+            "image_hover_2": "shopify://shop_images/5c1c18adb65c7850c0e95c123d529df6.png",
+            "bottom_location": 7,
+            "right_location": 10,
+            "right_location2": 15,
+            "bottom_location2": 10,
+            "pc_img_width2": 20,
+            "m_img_width2": 18
+          }
+        }
+      },
+      "block_order": [
+        "image_Cc6WbY",
+        "image2_ewUCBy"
+      ],
+      "name": "动态图片",
+      "settings": {
+        "image": "shopify://shop_images/456__1920x780_33288b36-8ec0-4b73-b529-033b0cd8f188.jpg",
+        "image2": "shopify://shop_images/456__1080x1440_415d619e-1079-41f2-8f2c-c9268279b80f.jpg",
+        "img_animation": "updown"
+      }
+    },
+    "adjusting_spacing_wkgk67": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": 2,
+        "margin_top2": 0
+      }
+    },
+    "image_YyCiPw": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_0b1aa20e-3085-4ffe-8fb4-d186b18957fa.png",
+        "mobile_image": "shopify://shop_images/720_70cf6755-52c0-4bd2-8c43-859b1cc256b6.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_VYdJPj": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -12,
+        "margin_top2": -13
+      }
+    },
+    "reel_module_kcrd6g": {
+      "type": "reel-module",
+      "blocks": {
+        "slide_P4ram3": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/new_2575a099-717c-44b3-8a77-f9426bb9d577.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "",
+            "reel_link": "",
+            "reel_image_width": 73,
+            "reel_image_left": 3,
+            "reel_image_top": 3,
+            "reel_text_left": 0,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_zNzi6t": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/14_fdbd2e76-697a-4e2b-90f2-718535514766.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "",
+            "reel_link": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C/products/krk-zyd-lmtgnz0509",
+            "reel_image_width": 92,
+            "reel_image_left": 10,
+            "reel_image_top": 5,
+            "reel_text_left": 0,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_xJYGp9": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/15_035a13e8-d37d-4984-8d2e-fa96f23a0f3f.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "",
+            "reel_link": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C/products/krk-lrj-bhqoiu0809",
+            "reel_image_width": 59,
+            "reel_image_left": 15,
+            "reel_image_top": 5,
+            "reel_text_left": 0,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_RqXpzK": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/20251015-134116.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "",
+            "reel_link": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C/products/krk-lrj-swjcjb0730",
+            "reel_image_width": 78,
+            "reel_image_left": 20,
+            "reel_image_top": 3,
+            "reel_text_left": -3,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_NwqjbF": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/17_ec4e2e63-3e4c-4383-984e-ad1569cd852d.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "",
+            "reel_link": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C/products/krk-zyd-tgsns0703",
+            "reel_image_width": 89,
+            "reel_image_left": 27,
+            "reel_image_top": 3,
+            "reel_text_left": 0,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        }
+      },
+      "block_order": [
+        "slide_P4ram3",
+        "slide_zNzi6t",
+        "slide_xJYGp9",
+        "slide_RqXpzK",
+        "slide_NwqjbF"
+      ],
+      "name": "Rell Module",
+      "settings": {
+        "bg_image": "shopify://shop_images/39698006488f04c88e5e4390720fe3cb.png",
+        "bg_color": "#333333",
+        "button_hover_color": "#555555",
+        "button_text_color": "#ffffff",
+        "text_color": "#333333",
+        "title_color": "#333333"
+      }
+    },
+    "adjusting_spacing_tXgpC4": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -11,
+        "margin_top2": -13
+      }
+    },
+    "image_list_tULUEj": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_RCabEN": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/1_959670a3-2d2f-4744-91f8-4b31094f3c42.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_RCabEN"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "shake"
+      }
+    },
+    "adjusting_spacing_LqjhhC": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -4,
+        "margin_top2": -4
+      }
+    },
+    "image_slider_rabAEh": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_4jm46M": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-13_d6603596-41ed-4212-aa0c-f2187161ca58.jpg"
+          }
+        },
+        "image_slider_Hfxqrf": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-14_a0aca3d4-464c-40c1-ad98-8417b11e1277.jpg"
+          }
+        },
+        "image_slider_7RhxGM": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-15_13b7cdb2-4014-4264-97a2-b444e76ae622.jpg"
+          }
+        },
+        "image_slider_p8GWL8": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-16_9ca09b10-2c3f-48ad-a0b8-cad1c53d68dc.jpg"
+          }
+        },
+        "main_diagram_UVXUpW": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-7_f91f329e-2f45-48c0-b98b-faee2af25dfd.jpg",
+            "main_img2": "shopify://shop_images/600x720-8_e7e2e7a9-7792-4c45-909e-db1f0473a5fe.jpg"
+          }
+        },
+        "image_info_ijDYmF": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "襟やポケット、裾、背面に、白く燃え上がる縞模様の「白虎」を大胆な刺繍で切り替え、石黒氏ならではの力強いデザインを立体的に表現しました。",
+            "price_discount": 21980,
+            "original_price": 21980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C/products/krk-zyd-lmtgnz0509"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_4jm46M",
+        "image_slider_Hfxqrf",
+        "image_slider_7RhxGM",
+        "image_slider_p8GWL8",
+        "main_diagram_UVXUpW",
+        "image_info_ijDYmF"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#000000",
+        "price_col": "#ffffff",
+        "og_price_col": "#72abb4",
+        "but_font_col": "#466f70",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#ff8254"
+      }
+    },
+    "image_list_4dcJDH": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_xTLgXL": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/2_7ab2ba12-68a1-4883-a818-f094e2b4eb86.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_xTLgXL"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "shake"
+      }
+    },
+    "adjusting_spacing_EM8xaE": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -4,
+        "margin_top2": -4
+      }
+    },
+    "image_slider_cM74XC": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_kHMayK": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-1_2da8ae09-e4ea-4cbe-85b3-49a77d2f479a.jpg"
+          }
+        },
+        "image_slider_Tq4ppP": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-2_924038cb-02ed-4b18-80ad-38e3b544352c.jpg"
+          }
+        },
+        "image_slider_BLhYGW": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-3_e30d7321-a411-4cc6-a2a0-ddd7a147a9c9.jpg"
+          }
+        },
+        "image_slider_fbbzTC": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-4_c566929a-dc13-4a56-8154-1aa75e16a2f0.jpg"
+          }
+        },
+        "main_diagram_LcyRQk": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-2_904c37ed-5bbc-4a19-9360-fb93ef1f1902.jpg",
+            "main_img2": "shopify://shop_images/600x720-1_b0ca8ca5-47fd-4bef-b6e1-96f6e54ff556.jpg"
+          }
+        },
+        "image_info_WDrCM6": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "バックには、毒キノコを生やした三毛猫をモチーフにした大胆な刺繍を施し、 サイケデリックで幻想的な雰囲気に仕上げました。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C/products/krk-lrj-bhqoiu0809"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_kHMayK",
+        "image_slider_Tq4ppP",
+        "image_slider_BLhYGW",
+        "image_slider_fbbzTC",
+        "main_diagram_LcyRQk",
+        "image_info_WDrCM6"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#000000",
+        "price_col": "#ffffff",
+        "og_price_col": "#72abb4",
+        "but_font_col": "#466f70",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#ff8254"
+      }
+    },
+    "image_list_ceA4ji": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_DmArH3": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/3_438fce06-ef87-46cf-a7e2-59ad126ae7c3.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_DmArH3"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "shake"
+      }
+    },
+    "adjusting_spacing_FHh6VU": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -4,
+        "margin_top2": -4
+      }
+    },
+    "image_slider_ULKWfV": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_NUfqtq": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-5_88b879de-104a-4fd5-bd8d-69433b68dce1.jpg"
+          }
+        },
+        "image_slider_4em3WA": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-6_d346d6f9-e51f-4ccd-b040-332b466ffc5d.jpg"
+          }
+        },
+        "image_slider_CV7ewT": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-7_baf0768d-1f04-4063-b9f9-705353994d11.jpg"
+          }
+        },
+        "image_slider_UdxjFr": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-8_22a2862f-f5d9-424e-91dc-dbae43591e7e.jpg"
+          }
+        },
+        "main_diagram_xVgrxe": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-4_7345103e-67a1-4973-8234-c0b9b3ce6c54.jpg",
+            "main_img2": "shopify://shop_images/600x720-3_455f912d-d717-4813-9c7a-ae7f41d266cb.jpg"
+          }
+        },
+        "image_info_4YgnCA": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "バックには、百種の動物の顔で形作られた「百頭魚」を刺繍。 生命の混沌と調和を象徴する、圧倒的なアートデザインです。",
+            "price_discount": 21980,
+            "original_price": 21980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C/products/krk-lrj-swjcjb0730"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_NUfqtq",
+        "image_slider_4em3WA",
+        "image_slider_CV7ewT",
+        "image_slider_UdxjFr",
+        "main_diagram_xVgrxe",
+        "image_info_4YgnCA"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#000000",
+        "price_col": "#ffffff",
+        "og_price_col": "#72abb4",
+        "but_font_col": "#466f70",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#ff8254"
+      }
+    },
+    "image_list_WJ9FdL": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_EbEyxN": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/20251015-141559.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_EbEyxN"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "shake"
+      }
+    },
+    "adjusting_spacing_CaYfhy": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -4,
+        "margin_top2": -4
+      }
+    },
+    "image_slider_aNGg7Y": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_ncUrNA": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-9_e6404892-3051-43db-99e5-2aba4588401c.jpg"
+          }
+        },
+        "image_slider_Reabrp": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-10_42b9bc9f-5fce-4605-9b09-e2f202b9c610.jpg"
+          }
+        },
+        "image_slider_Wp3hgg": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-11_d0882b24-3e6f-405c-947e-3de0348d208b.jpg"
+          }
+        },
+        "image_slider_hjV3Qk": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-12_0aca6e19-e529-49f4-ad2e-3827e9c12083.jpg"
+          }
+        },
+        "main_diagram_JfPiqX": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-5_e8a81f61-86a2-4136-b91e-1fc52100a966.jpg",
+            "main_img2": "shopify://shop_images/600x720-6_12c4df05-3c69-45fc-bf0d-8c93325a4fef.jpg"
+          }
+        },
+        "image_info_gDTEmC": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "白く燃え上がる縞模様の「白虎」を、石黒亜矢子ならではのジャカード織りで力強く表現。杢糸の柔らかな風合いが、立体感と深みのあるアート性を引き出します。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C/products/krk-zyd-tgsns0703"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_ncUrNA",
+        "image_slider_Reabrp",
+        "image_slider_Wp3hgg",
+        "image_slider_hjV3Qk",
+        "main_diagram_JfPiqX",
+        "image_info_gDTEmC"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#000000",
+        "price_col": "#ffffff",
+        "og_price_col": "#72abb4",
+        "but_font_col": "#466f70",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#ff8254"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 2,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "background_image_BQdYPK": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#c2b39a",
+        "background_color": "linear-gradient(180deg, rgba(209, 127, 113, 1), rgba(223, 229, 204, 1) 55%, rgba(59, 152, 169, 1) 100%)",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "dynamic_picture_nm3i9m",
+    "adjusting_spacing_wkgk67",
+    "image_YyCiPw",
+    "adjusting_spacing_VYdJPj",
+    "reel_module_kcrd6g",
+    "adjusting_spacing_tXgpC4",
+    "image_list_tULUEj",
+    "adjusting_spacing_LqjhhC",
+    "image_slider_rabAEh",
+    "image_list_4dcJDH",
+    "adjusting_spacing_EM8xaE",
+    "image_slider_cM74XC",
+    "image_list_ceA4ji",
+    "adjusting_spacing_FHh6VU",
+    "image_slider_ULKWfV",
+    "image_list_WJ9FdL",
+    "adjusting_spacing_CaYfhy",
+    "image_slider_aNGg7Y",
+    "main",
+    "background_image_BQdYPK"
+  ]
+}

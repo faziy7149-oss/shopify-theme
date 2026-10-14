@@ -1,0 +1,681 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "slideshow_anppW4": {
+      "type": "slideshow",
+      "blocks": {
+        "image_CNTQji": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/591__1920x780_8835fd43-3691-4d71-8e36-91a260bc1031.jpg",
+            "mobile_image": "shopify://shop_images/591__1080x1440_bc4b5c0f-6a12-4049-a4d1-cf6cf0408c81.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": false,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_CNTQji"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 800,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "scrolling_banner_NYQM9f": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_RLfWDn": {
+          "type": "text",
+          "settings": {
+            "text": "2025  PRE-ORDER  Spring Collection",
+            "color": "#fd621c",
+            "link": "https://karakubuy.com/collections/%E5%85%88%E8%A1%8C%E4%BA%88%E7%B4%84%E5%95%86%E5%93%81",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "icon_GYTfbH": {
+          "type": "icon",
+          "settings": {
+            "icon": "clock",
+            "icon_width": 50,
+            "color": "#fd621c"
+          }
+        }
+      },
+      "block_order": [
+        "text_RLfWDn",
+        "icon_GYTfbH"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 22,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "image_8BHnmL": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_ae3a47ef-7394-41c7-886f-aed73e43693a.png",
+        "mobile_image": "shopify://shop_images/720_7307e4eb-6511-4a43-ab1f-b7a05075250d.png",
+        "img_rul": ""
+      }
+    },
+    "url_text_6JKbTX": {
+      "type": "url-text",
+      "settings": {
+        "url_text": "https://karakubuy.com/collections/%E5%85%88%E8%A1%8C%E4%BA%88%E7%B4%84%E5%95%86%E5%93%81",
+        "text_url": "先行予約商品",
+        "btn_color": "#1e6895",
+        "btn_color_hover": "#ffffff",
+        "btn_text_color": "#ffffff",
+        "btn_text_color_hover": "#1e6895",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 25,
+        "url_font_size_moble": 18,
+        "img_postion_size_pc": 55,
+        "img_postion_size_moble": 92,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "image_jump_custom_dE3hUq": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_YcmC7g": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1340x780-1_13ce053d-ce28-48ee-8f1f-4dbfc184aa0a.png",
+            "image-id": "",
+            "image_link": "https://karakubuy.com/products/krk-zyd-twcs1122?_pos=1&_sid=485714a26&_ss=r&variant=46299947073755"
+          }
+        }
+      },
+      "block_order": [
+        "image_YcmC7g"
+      ],
+      "settings": {}
+    },
+    "image_slider_CnLamA": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_U78R74": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-1_9b4aad90-dd80-4c55-be8e-bb819e3d261e.jpg"
+          }
+        },
+        "image_slider_RT4BQ3": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-4_47628f58-a099-4cb2-98f7-93cbbee16169.jpg"
+          }
+        },
+        "image_slider_TkjCwA": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-3_766655ae-af1f-4043-a0b8-4d692b1ccc5f.jpg"
+          }
+        },
+        "image_slider_VFibPh": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-2_7ead656f-1197-4d0b-8d2a-b41efc047899.jpg"
+          }
+        },
+        "main_diagram_484yNM": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-1_2fa10bd6-6797-4e11-b637-ed64bb178ad3.jpg",
+            "main_img2": "shopify://shop_images/600x720-2_8e7a8393-e938-45d1-979b-d54d3496534b.jpg"
+          }
+        },
+        "image_info_JgwGLf": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "クラシックなミリタリースタイルを現代的にアレンジした「ストライプ柄 海軍CPOツイルデニムシャツ」は、機能性とファッション性を両立した一着です。",
+            "price_discount": 9980,
+            "original_price": 12980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-zyd-twcs1122?_pos=1&_sid=a576cc0fd&_ss=r&variant=46299947073755"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_U78R74",
+        "image_slider_RT4BQ3",
+        "image_slider_TkjCwA",
+        "image_slider_VFibPh",
+        "main_diagram_484yNM",
+        "image_info_JgwGLf"
+      ],
+      "settings": {
+        "data_title": "【予約】ストライプ柄　海軍CPOツイルデニムシャツ",
+        "data_tit_col": "#1e6895",
+        "info_text_col": "#585454",
+        "price_col": "#1e6895",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#1e6895",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#1e6895"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "image_jump_custom_hTymEe": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_CRc6nx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1340x780-2_62eaf01c-5a8d-4897-92d6-0ea77f5bcc22.png",
+            "image-id": "",
+            "image_link": "https://karakubuy.com/products/krk-zyd-nwhpjbdl1129?_pos=1&_sid=c894b7abf&_ss=r&variant=46304001851611"
+          }
+        }
+      },
+      "block_order": [
+        "image_CRc6nx"
+      ],
+      "settings": {}
+    },
+    "image_slider_jVarnk": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_aFVPRA": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-5_9ef3efce-c86d-420c-89df-128837774b2f.jpg"
+          }
+        },
+        "image_slider_cAw44c": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-6_0449375d-bbf0-4cea-8855-f761004025a9.jpg"
+          }
+        },
+        "image_slider_qft88Y": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-8_2f43a88b-667c-496a-bc96-892f2f80d030.jpg"
+          }
+        },
+        "image_slider_pmdDJY": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-7_c1592f4f-449e-4029-b98a-33598df61937.jpg"
+          }
+        },
+        "main_diagram_RnB9gg": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-3_2290c763-80d2-46f5-a46d-401b2c25b238.jpg",
+            "main_img2": "shopify://shop_images/600x720-4_9f2f3f02-698a-4ae0-b7c7-94e256d9773d.jpg"
+          }
+        },
+        "image_info_9kjMne": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ヴィンテージ感とストリート感を兼ね備えたデザインが魅力のプルオーバーが登場しました。シンプルなブラックのボディに、袖部分にナバホ柄を施し、ベージュ、ブラウン、ネイビー、ホワイト、レッドの色合いが絶妙に組み合わさっています。伝統的な模様とモダンなデザインが融合し、クラシックでありながらも現代的なスタイルを実現。",
+            "price_discount": 8980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-zyd-nwhpjbdl1129?_pos=1&_sid=c75f84918&_ss=r&variant=46304001851611"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_aFVPRA",
+        "image_slider_cAw44c",
+        "image_slider_qft88Y",
+        "image_slider_pmdDJY",
+        "main_diagram_RnB9gg",
+        "image_info_9kjMne"
+      ],
+      "settings": {
+        "data_title": "【予約】ナバホ柄コンビ　ドローストリング付きポーラーフリースプルオーバー",
+        "data_tit_col": "#1e6895",
+        "info_text_col": "#585454",
+        "price_col": "#1e6895",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#1e6895",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#1e6895"
+      }
+    },
+    "image_jump_custom_yEEfgA": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_d9TKD4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1340x780-3.png",
+            "image-id": "",
+            "image_link": "https://karakubuy.com/products/krk-gsh-wlnzjk1128?_pos=1&_sid=efd21b70a&_ss=r&variant=46301733814491"
+          }
+        }
+      },
+      "block_order": [
+        "image_d9TKD4"
+      ],
+      "settings": {}
+    },
+    "image_slider_BQMkVH": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_wXJeEf": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-10_4aaa3fff-eef4-40fe-9db6-4dcc29f69bcf.jpg"
+          }
+        },
+        "image_slider_icQTR6": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-12_05e66d18-9567-415a-b819-800f57614ffa.jpg"
+          }
+        },
+        "image_slider_V467Jy": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-11_28b5fb28-5830-442b-8770-026c3254754b.jpg"
+          }
+        },
+        "image_slider_KWfm4N": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-9_a19b51d2-db2f-49be-9a8b-8a327c7c0dfd.jpg"
+          }
+        },
+        "main_diagram_hcW4hN": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-6_d1de5115-5fc8-435d-ae60-07b4b8e0aff4.jpg",
+            "main_img2": "shopify://shop_images/600x720-5_dcc0f42a-4ccd-47cf-b39e-12195349abb3.jpg"
+          }
+        },
+        "image_info_7N9Vym": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "フロントのポケットにはコーデュロイ素材を採用し、異素材の切り替えが程よいアクセントに。前立てにはギザギザのステッチが施され、クラフト感と耐久性を両立。さらに、配色ボタンを採用することで、さりげなくも個性が光る仕上がりに。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-gsh-wlnzjk1128?_pos=1&_sid=0c6046aba&_ss=r&variant=46301733814491"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_wXJeEf",
+        "image_slider_icQTR6",
+        "image_slider_V467Jy",
+        "image_slider_KWfm4N",
+        "main_diagram_hcW4hN",
+        "image_info_7N9Vym"
+      ],
+      "settings": {
+        "data_title": "【予約】コーデュロイポケット切替　ステッチ入りノーカラーデニムジャケット",
+        "data_tit_col": "#1e6895",
+        "info_text_col": "#585454",
+        "price_col": "#1e6895",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#1e6895",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#1e6895"
+      }
+    },
+    "image_jump_custom_NVmM7B": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_4TqckU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1340x780-4.png",
+            "image-id": "",
+            "image_link": "https://karakubuy.com/products/krk-zyd-nzrcs1202?_pos=1&_sid=def344216&_ss=r"
+          }
+        }
+      },
+      "block_order": [
+        "image_4TqckU"
+      ],
+      "settings": {}
+    },
+    "image_slider_Gtxkbb": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_PTDgRz": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-13_603b3c88-a562-4909-9210-3e085e1731b4.jpg"
+          }
+        },
+        "image_slider_AGxdBL": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-15_88e90c35-4091-4056-af78-93f5ac49b5f0.jpg"
+          }
+        },
+        "image_slider_jqGPdq": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-14_ec60f6f4-8959-4ae7-803c-da90fff05674.jpg"
+          }
+        },
+        "image_slider_kwTLmg": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-13_603b3c88-a562-4909-9210-3e085e1731b4.jpg"
+          }
+        },
+        "main_diagram_94y8Nk": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-7_fb65dfc8-7005-45ab-8202-7d19a7cd0c70.jpg",
+            "main_img2": "shopify://shop_images/600x720-8_7ea227e0-416a-4ab6-b299-07f0ef1d1bfb.jpg"
+          }
+        },
+        "image_info_TcYx64": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "伝統とモダンが融合した、こだわりのウエスタンシャツ。起毛感のある生地にエスニック柄のツイードパッチを組み合わせ、視覚的なアクセントを加えた個性的なデザインが魅力です。シャツの要となるボタンにはオーダーメイドのコンチョボタンを採用し、ディテールに高級感と独自性をプラス。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-zyd-nzrcs1202?_pos=1&_sid=3d18850d5&_ss=r"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_PTDgRz",
+        "image_slider_AGxdBL",
+        "image_slider_jqGPdq",
+        "image_slider_kwTLmg",
+        "main_diagram_94y8Nk",
+        "image_info_TcYx64"
+      ],
+      "settings": {
+        "data_title": "【予約】オーダーメイドコンチョボタン　エスニック柄パッチツイードチェックシャツ",
+        "data_tit_col": "#1e6895",
+        "info_text_col": "#585454",
+        "price_col": "#1e6895",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#1e6895",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#1e6895"
+      }
+    },
+    "image_jump_custom_hLjd9A": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_dNPH3R": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1340x780-5.png",
+            "image-id": "",
+            "image_link": "https://karakubuy.com/products/krk-lrj-lkpshfgtx1221?_pos=1&_sid=786f7a287&_ss=r&variant=46369429749979"
+          }
+        }
+      },
+      "block_order": [
+        "image_dNPH3R"
+      ],
+      "settings": {}
+    },
+    "image_slider_gYyKL9": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_xCdrLJ": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-17_b43ed366-c9cd-4f44-b8c5-34da1ea9f7a0.jpg"
+          }
+        },
+        "image_slider_BTRkBG": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-20_e4a2bddf-0200-47d5-8c15-a28d9d45f062.jpg"
+          }
+        },
+        "image_slider_Cbizcj": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-18_a78bd59f-a282-4b02-94ed-c5af53f19785.jpg"
+          }
+        },
+        "image_slider_w6DdX9": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-19_dade23e4-5d79-4049-bd7d-2a5009a0e0da.jpg"
+          }
+        },
+        "main_diagram_DCctrh": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-9_47593e8a-840c-4f07-bd30-9837b044da2a.jpg",
+            "main_img2": "shopify://shop_images/600x720-10_85690920-64f4-4e9e-b234-f4104168c5aa.jpg"
+          }
+        },
+        "image_info_fYnL3A": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "左胸元に刺繍された「KaraKu」のロゴがアクセントになって、シンプルながらも高級感を引き立てている。刺繍はゴールド系の糸で施され、控えめながら目を引くポイントとなっている。袖口と裾はリブ仕様になって、適度なフィット感を与えるとともに、リラックスした着心地を保っている。",
+            "price_discount": 7999,
+            "original_price": 10980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lrj-lkpshfgtx1221?_pos=1&_sid=92a9133d1&_ss=r&variant=46369429749979"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_xCdrLJ",
+        "image_slider_BTRkBG",
+        "image_slider_Cbizcj",
+        "image_slider_w6DdX9",
+        "main_diagram_DCctrh",
+        "image_info_fYnL3A"
+      ],
+      "settings": {
+        "data_title": "【予約】「KaraKu」刺繍　ワッフルヘンリーネックロンT",
+        "data_tit_col": "#1e6895",
+        "info_text_col": "#585454",
+        "price_col": "#1e6895",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#1e6895",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#1e6895"
+      }
+    },
+    "image_jump_custom_jkHWDN": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_8Eefhn": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1340x780-6.png",
+            "image-id": "",
+            "image_link": "https://karakubuy.com/products/krk-zyd-mzylrpjllwy1218?_pos=1&_sid=bbc912b89&_ss=r&variant=46357795635419"
+          }
+        }
+      },
+      "block_order": [
+        "image_8Eefhn"
+      ],
+      "settings": {}
+    },
+    "image_slider_zEHGpJ": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_rLnWQL": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-21_76d7c987-74b4-4acd-bcfc-45faad1d0e57.jpg"
+          }
+        },
+        "image_slider_LcEK46": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-24_90fd4da8-e2fa-43dd-8375-6c1aba67b730.jpg"
+          }
+        },
+        "image_slider_WJMHma": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-23_6018cf1c-d40c-467b-b100-f591d169a28c.jpg"
+          }
+        },
+        "image_slider_yMBkcP": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-22_9c409175-a311-44e1-9103-628906059b18.jpg"
+          }
+        },
+        "main_diagram_hrmLJ3": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-11_3c8d9068-e577-418e-a4ac-b4c5d93c1b97.jpg",
+            "main_img2": "shopify://shop_images/600x720-12_6f7b4787-81d7-4bf7-a011-ada6d9d1529b.jpg"
+          }
+        },
+        "image_info_ECM4gD": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "丈夫なスエード素材を肘部分に配置することで、デザインのアクセントとなるだけでなく、耐久性を高めた実用的な仕様。身頃に使用されたパイナップルニット素材は、独特の凹凸感が特徴。見た目に立体感を与え、さらに通気性を確保することで快適な着心地を実現しました。",
+            "price_discount": 14980,
+            "original_price": 17980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-zyd-mzylrpjllwy1218?_pos=1&_sid=bbc912b89&_ss=r&variant=46357795635419"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_rLnWQL",
+        "image_slider_LcEK46",
+        "image_slider_WJMHma",
+        "image_slider_yMBkcP",
+        "main_diagram_hrmLJ3",
+        "image_info_ECM4gD"
+      ],
+      "settings": {
+        "data_title": "【予約】肘パッチ　パイナップルパイルニット&フリース切替スタンドカラースウェット　",
+        "data_tit_col": "#1e6895",
+        "info_text_col": "#585454",
+        "price_col": "#1e6895",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#1e6895",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#1e6895"
+      }
+    },
+    "background_image_LTRCYf": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-12-31_15-29-55.jpg",
+        "background_color_overlay": "",
+        "background_color": ""
+      }
+    }
+  },
+  "order": [
+    "slideshow_anppW4",
+    "scrolling_banner_NYQM9f",
+    "image_8BHnmL",
+    "url_text_6JKbTX",
+    "image_jump_custom_dE3hUq",
+    "image_slider_CnLamA",
+    "main",
+    "image_jump_custom_hTymEe",
+    "image_slider_jVarnk",
+    "image_jump_custom_yEEfgA",
+    "image_slider_BQMkVH",
+    "image_jump_custom_NVmM7B",
+    "image_slider_Gtxkbb",
+    "image_jump_custom_hLjd9A",
+    "image_slider_gYyKL9",
+    "image_jump_custom_jkHWDN",
+    "image_slider_zEHGpJ",
+    "background_image_LTRCYf"
+  ]
+}

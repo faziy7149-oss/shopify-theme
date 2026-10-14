@@ -1,0 +1,508 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "slideshow_4w3tcf": {
+      "type": "slideshow",
+      "blocks": {
+        "image_fArYB8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20260212-183240.jpg",
+            "mobile_image": "shopify://shop_images/20260212-175035.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_fArYB8"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "scrolling_banner_4ermtK": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_cC7DFC": {
+          "type": "text",
+          "settings": {
+            "text": "With Denim, Through Every Season.",
+            "color": "#8e0d10",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_cC7DFC"
+      ],
+      "name": "Scrolling banner",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 20,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "image_ETjCm8": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_f402b224-a7c3-404a-9687-35f0564b6504.png",
+        "mobile_image": "shopify://shop_images/720_ffddd6e5-2e4a-4be4-a5da-5bc9b66b34d2.png",
+        "img_rul": ""
+      }
+    },
+    "background_image_PMPMr6": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "image": "shopify://shop_images/bg_fcf19515-bf98-48a0-8c5b-2cf542a1777c.png",
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#f5f5f5",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_jump_custom_nngayh": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_y8kwtK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_32020e67-5152-4455-b0c9-6060accc27c3.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_y8kwtK"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "slide_block_group_EPyw6G": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_MHyfgN": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/1_717032fd-8cf8-4af9-bdc7-2e059f5881cc.png",
+            "slide_img": "shopify://shop_images/20260212-181123.jpg",
+            "slide_title": "接触冷感「C-Blend」ストリートデニムパンツ",
+            "slide_price": 13990,
+            "slide_price_new": 10490,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-md-tw2301031?_pos=1&_sid=bc60443ae&_ss=r&variant=43947126227163",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_AhwrHd": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/2_7c9cb0c3-b0f9-4de3-8663-f049bcc1e502.png",
+            "slide_img": "shopify://shop_images/1336x1604-2_185a669c-89b7-4c7c-b37a-0553f9fccd49.jpg",
+            "slide_title": "軽量デニムイージーパンツ",
+            "slide_price": 0,
+            "slide_price_new": 8990,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-k3309?_pos=1&_sid=0f1f18b9e&_ss=r&variant=44155744420059",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_XKdzAW": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/3_c7ac0cd0-0358-4320-9366-12153ba8d3bd.png",
+            "slide_img": "shopify://shop_images/1336x1604-3_6277a9e4-3aa9-4a2b-8531-9a406760d5e8.jpg",
+            "slide_title": "アメカジ定番　ウォッシュド加工デニムヘンリーネックTシャツ",
+            "slide_price": 9980,
+            "slide_price_new": 7000,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-md-th2407822?_pos=1&_sid=c45b242ce&_ss=r&variant=48241769087195",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_MHyfgN",
+        "slide_block_AhwrHd",
+        "slide_block_XKdzAW"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#829197",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#082f3e",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_nhEXTh": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_V3TJjL": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/4_3353fd6c-2c42-49cf-a485-e42b0c17356e.png",
+            "slide_img": "shopify://shop_images/1336x1604-4_3d5255f6-1824-4df9-b76a-a4d09f780dfd.jpg",
+            "slide_title": "今大人気！海軍CPOデニムシャツ",
+            "slide_price": 10532,
+            "slide_price_new": 9530,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-md-tww2201213?_pos=2&_sid=64ff90a1c&_ss=r&variant=42256757162203",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_GjGTdP": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/5_8c567266-587f-41c6-a9cf-d255c26cf22b.png",
+            "slide_img": "shopify://shop_images/1336x1604-5_b6f038e1-2f8c-4954-ab2c-a80fb118a9ad.jpg",
+            "slide_title": "チャイナボタン　スタンドカラーデニム半袖シャツ",
+            "slide_price": 0,
+            "slide_price_new": 10980,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-lg-ae5353c?_pos=1&_sid=35e5434a2&_ss=r&variant=45171150356699",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_C94KYf": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/6_822e39bf-9789-484f-9166-dd67e7f062f0.png",
+            "slide_img": "shopify://shop_images/1336x1604-6_2bdc9389-6fc8-460a-935a-e05eb8228b4b.jpg",
+            "slide_title": "油絵風グラデーション総柄　ラグランデニムワークシャツ",
+            "slide_price": 0,
+            "slide_price_new": 10980,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-gpd-gs1381?_pos=1&_sid=58c10a408&_ss=r&variant=45068775293147",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_V3TJjL",
+        "slide_block_GjGTdP",
+        "slide_block_C94KYf"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#829197",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#082f3e",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "image_jump_custom_KrwXHD": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_JnmWbf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_bd9fd449-553f-466c-ae74-22192f2d127e.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_JnmWbf"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "slide_block_group_VnB8CC": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_pFAPWh": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/7_d4692ef0-bb57-4aa6-b86d-4a0fd5d2c395.png",
+            "slide_img": "shopify://shop_images/1336x1604-7_b1af1622-1608-45e8-b7a6-db24ee6c27e2.jpg",
+            "slide_title": "14.75oz　2タイプ選べるシンチバック付きヘビーウェイトデニムパンツ",
+            "slide_price": 0,
+            "slide_price_new": 17980,
+            "slide_btn": "CHECK",
+            "slide_url": "shopify://products/krk-cs-ok5907",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_U4qidn": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/8_91e8b75f-5e2e-4689-88a4-6bfa02a45336.png",
+            "slide_img": "shopify://shop_images/1336x1604-8_2e632a0e-fc4c-44a8-b887-8e0f8cca15c0.jpg",
+            "slide_title": "14oz 4-Pocketsデニムジャケット",
+            "slide_price": 0,
+            "slide_price_new": 15980,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-md-ts2301057?_pos=2&_sid=d65ac74c1&_ss=r&variant=44224933363931",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_LpHBEx": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/9_039a33b8-7740-40b0-bfed-7b64058d79be.png",
+            "slide_img": "shopify://shop_images/1336x1604-9_68b563de-652b-44ab-acb4-9d93fff21119.jpg",
+            "slide_title": "13ozデニム　スウェーデン軍モーターサイクルジャケット",
+            "slide_price": 25980,
+            "slide_price_new": 19490,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-gz-ss2022077?_pos=3&_sid=d40a0f268&_ss=r&variant=44723096846555",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_pFAPWh",
+        "slide_block_U4qidn",
+        "slide_block_LpHBEx"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#829197",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#082f3e",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "image_jump_custom_HnYQND": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_HikCTN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_57f0fc60-afb3-4ecf-86cb-f0d8514b1579.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_HikCTN"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "slide_block_group_k4rWdY": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_MyPpYC": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/10_24f9dba4-ad28-4b28-a074-4864e6f6e2cc.png",
+            "slide_img": "shopify://shop_images/1336x1604-10_109d16ee-3476-4e59-8701-986d2a2f199f.jpg",
+            "slide_title": "ジャガードペイズリー総柄ウォッシュデニム長袖シャツ",
+            "slide_price": 0,
+            "slide_price_new": 12980,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-bgpzrs0807?_pos=1&_sid=8c808ee67&_ss=r&variant=47512779292891",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_hrg7HH": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/11_3fbcf81a-79e2-45e3-a5de-07682833db85.png",
+            "slide_img": "shopify://shop_images/1336x1604-11_60256a33-3942-498a-9c1f-2ba4a627ea36.jpg",
+            "slide_title": "ジャガード織り　海軍CPOデニムシャツ　",
+            "slide_price": 13980,
+            "slide_price_new": 10490,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-twpdnzsg601?_pos=1&_sid=975ed88fc&_ss=r&variant=44165607162075",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_YhTcam": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/12_3ffdbfa3-a5cd-48d1-aed5-09440f389f4b.png",
+            "slide_img": "shopify://shop_images/1336x1604-12_6f904a47-8c2c-40c5-b18f-454f5396833e.jpg",
+            "slide_title": "グラデーション　ペイズリー柄ジャガード織りデニムワークシャツ",
+            "slide_price": 0,
+            "slide_price_new": 14980,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-lsx-yghthcx0529?_pos=1&_sid=2326bcc1a&_ss=r&variant=47266043953371",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_MyPpYC",
+        "slide_block_hrg7HH",
+        "slide_block_YhTcam"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#829197",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#082f3e",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_LiLEgA": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_hjEXA6": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/13_08c8b046-9c8e-4bf9-9385-d5261d9f2cf5.png",
+            "slide_img": "shopify://shop_images/1336x1604-13_c273cfa1-ef01-446b-9bec-94c4c5defb21.jpg",
+            "slide_title": "ボロ風ジャガード 先染めデニムワークシャツ",
+            "slide_price": 12000,
+            "slide_price_new": 8400,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-md-tw2301015?_pos=1&_sid=848c9cf70&_ss=r&variant=44003892134107",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_JHCjhn": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/14_8abb852a-cbb1-489d-84d6-35a1564d84e1.png",
+            "slide_img": "shopify://shop_images/1336x1604-14_e4d96d00-833d-4edb-9a24-463f44b58e8f.jpg",
+            "slide_title": "再構築　ギンガムチェック柄切替フリンジ加工デニムシャツ",
+            "slide_price": 0,
+            "slide_price_new": 13980,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-lrj-simegt?_pos=1&_sid=8ef28df2e&_ss=r&variant=47609605718235",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_tBGWQe": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/15_08462308-05d7-4571-911c-7f28ef03dc74.png",
+            "slide_img": "shopify://shop_images/1336x1604-15_a0aaafec-149e-4c3d-b0df-658849921d97.jpg",
+            "slide_title": "【予約】ジャガード織りチェック柄　アンティーク調ボタン付きデニムシャツ",
+            "slide_price": 0,
+            "slide_price_new": 13980,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-sh251276?_pos=1&_sid=a0ae8e1c5&_ss=r&variant=48146135810267",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_hjEXA6",
+        "slide_block_JHCjhn",
+        "slide_block_tBGWQe"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#829197",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#082f3e",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_4w3tcf",
+    "scrolling_banner_4ermtK",
+    "image_ETjCm8",
+    "background_image_PMPMr6",
+    "image_jump_custom_nngayh",
+    "slide_block_group_EPyw6G",
+    "slide_block_group_nhEXTh",
+    "image_jump_custom_KrwXHD",
+    "slide_block_group_VnB8CC",
+    "image_jump_custom_HnYQND",
+    "slide_block_group_k4rWdY",
+    "slide_block_group_LiLEgA"
+  ]
+}

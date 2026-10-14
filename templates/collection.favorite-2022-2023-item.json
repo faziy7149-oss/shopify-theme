@@ -1,0 +1,1014 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "9d9a6fac-4522-4cf1-9c1d-0e918042df7a": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16674676343003__9d9a6fac-4522-4cf1-9c1d-0e918042df7a-167392610303185dcf-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner_1.jpg",
+            "mobile_image": "shopify://shop_images/banner_2_72094839-d328-466a-91b5-7021c9824686.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16674676343003__9d9a6fac-4522-4cf1-9c1d-0e918042df7a-167392610303185dcf-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "2c206c78-0433-4821-9c62-197779e3ef09": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16674676343003__2c206c78-0433-4821-9c62-197779e3ef09-1673937900373da8c4-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "template--16674676343003__2c206c78-0433-4821-9c62-197779e3ef09-1673937900373da8c4-1": {
+          "type": "heading",
+          "settings": {
+            "title": "2022年下半期、KarakubuyのInstagram公式アカウントに『いいね！ボタン』を多数押していただいたアイテムをランキングでご紹介。                皆さんもランキングをチェックして、【フォロー】してみてください、タイムラインに登場します♡",
+            "use_h1": false
+          }
+        },
+        "template--16674676343003__2c206c78-0433-4821-9c62-197779e3ef09-1673937900373da8c4-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>こちら☟のQRコードをスキャンしていただくと、KarakubuyのInstagram公式アカウント画面に飛びます♡</p><p>※Instagramアプリの検索画面を開き、右上の読み取りマークをタップするとカメラが起動します。 QRコード読み取り用の枠内に収まるように、QRコードを映せばOKです。 <br/>※価格は2023年1月18日（水）現在を参照<br/><br/></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16674676343003__2c206c78-0433-4821-9c62-197779e3ef09-1673937900373da8c4-0",
+        "template--16674676343003__2c206c78-0433-4821-9c62-197779e3ef09-1673937900373da8c4-1",
+        "template--16674676343003__2c206c78-0433-4821-9c62-197779e3ef09-1673937900373da8c4-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "left",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_fUMKkA": {
+      "type": "custom-content",
+      "blocks": {
+        "image_EACWdN": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/20230118-111332.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.instagram.com/karakubuyofficial/",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_EACWdN"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_qcxJka": {
+      "type": "custom-content",
+      "blocks": {
+        "image_7J8PfQ": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/1_8cf10d63-8a83-4f2c-ba8f-3d11d008b803.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://minipia.myshopify.com/products/krk-md-ts2207808",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "text_BctEr8": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "left",
+            "subheading": "",
+            "title": "ポーラーフリースパッチワークスウェット",
+            "text": "<p>パッチワークに切り替えた機能美あふれるデザインが特徴の一点</p><p></p><p><a href=\"https://www.karakubuy.com/products/krk-md-ts2207808?_pos=1&_sid=4fd7ed952&_ss=r\" title=\"https://www.karakubuy.com/products/krk-md-ts2207808?_pos=1&_sid=4fd7ed952&_ss=r\">￥13,990（税込）</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_7J8PfQ",
+        "text_BctEr8"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_MHJ9mE": {
+      "type": "custom-content",
+      "blocks": {
+        "image_H7gmab": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/2_72dedee3-b8f9-462c-b904-5c146b075fcb.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "shopify://products/md-ts2107028",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_EEP6NH": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/4_446d3a10-b57d-4164-8bbf-e0b9a8d526fe.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "shopify://blogs/2021/ナバホ柄シリーズが新登場",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_efKQPM": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/5_ba9aae78-4b39-433e-8ce7-768bf94bef7b.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "shopify://products/krk-md-tw2107069",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_HAEkLb": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/6_55898bd4-a820-43ec-8a5d-f2cf69f61fd6.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/products/krk-md-ts2107054?_pos=3&_sid=26cc0dc88&_ss=r",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_H7gmab",
+        "image_EEP6NH",
+        "image_efKQPM",
+        "image_HAEkLb"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_FCbffK": {
+      "type": "custom-content",
+      "blocks": {
+        "image_AHjjrQ": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/1_d4b84023-89e0-4400-bda7-8a6bd4a0e9ce.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_qyqPqj": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "left",
+            "subheading": "",
+            "title": "パイナップルパイルニットセーター",
+            "text": "<p>全体は立体感で表現してるパイナップルパイルニットセーター</p><p></p><p><a href=\"https://www.karakubuy.com/products/krk-md-ts2107054?_pos=3&_sid=26cc0dc88&_ss=r\" title=\"https://www.karakubuy.com/products/krk-md-ts2107054?_pos=3&_sid=26cc0dc88&_ss=r\">￥10.136（税込）</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_AHjjrQ",
+        "text_qyqPqj"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_bPNj87": {
+      "type": "custom-content",
+      "blocks": {
+        "image_ER63C3": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/2_cdbc81dd-2f8c-49d4-8c0a-fdce756cd73f.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/accessory-feature",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_xTprqD": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/3_6c6a77c9-c4b6-4b80-a1c5-3ce4000a3df5.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "shopify://products/krk-md-1801026",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_pAzCjH": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/4_9628d6fe-1563-49a7-b1f5-a1e3bd6e708a.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "shopify://products/krk-md-tw2207657",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_LRncTG": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/6_cf5f5ba2-e8ff-4968-a6d3-d1f6658275e4.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "shopify://products/krk-a051-22067",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_ER63C3",
+        "image_xTprqD",
+        "image_pAzCjH",
+        "image_LRncTG"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_4Ujca6": {
+      "type": "custom-content",
+      "blocks": {
+        "image_dmQwja": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/1_2_014d7de1-f53d-4df2-87fc-c6c6684dbc10.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://minipia.myshopify.com/products/krk-md-md2107046",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_fAtrmX": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "left",
+            "subheading": "",
+            "title": "裏返し革エンジニアブーツ　秋冬",
+            "text": "<p>男らしいバイカースタイルを演出。</p><p></p><p></p><p><a href=\"https://www.karakubuy.com/products/krk-md-md2107046?_pos=1&_sid=571b33ef5&_ss=r\" title=\"https://www.karakubuy.com/products/krk-md-md2107046?_pos=1&_sid=571b33ef5&_ss=r\">￥18,590（税込）</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_dmQwja",
+        "text_fAtrmX"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_XQbctr": {
+      "type": "custom-content",
+      "blocks": {
+        "image_Qzjb38": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/2_2_7668392e-ae91-4a29-a539-5034a4b170f8.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "shopify://products/krk-md-ts2207213",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_PyjWnV": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/4_2_195b24d3-6c2b-4bbd-a9c2-20722bf82809.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "shopify://products/krk-md-tw2107093",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_NPT8hC": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/5_2_93ece938-41a9-4a79-9342-fe8bb50b4392.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "shopify://products/krk-wy269030",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_XmdCKq": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/6_2_99102e37-6ea1-42cf-a0cd-a3a816a5b250.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "shopify://products/md-w1901101",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        }
+      },
+      "block_order": [
+        "image_Qzjb38",
+        "image_PyjWnV",
+        "image_NPT8hC",
+        "image_XmdCKq"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_JRnaqf": {
+      "type": "custom-content",
+      "blocks": {
+        "image_fjdqci": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/1_3_abb3e504-d0ef-4597-8106-97d675abfaaa.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "shopify://products/md-s2007034",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_A6Pxz7": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "left",
+            "subheading": "",
+            "title": "ウォバッシュストライプワークパンツ",
+            "text": "<p>オールド感漂うウォバッシュストライプのワークパンツはKarakubuyの人気で定番の1本。</p><p><a href=\"https://www.karakubuy.com/products/md-s2007034?_pos=2&_sid=64f82013b&_ss=r\" title=\"https://www.karakubuy.com/products/md-s2007034?_pos=2&_sid=64f82013b&_ss=r\">￥,8,990（税込）</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_fjdqci",
+        "text_A6Pxz7"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_36JtCm": {
+      "type": "custom-content",
+      "blocks": {
+        "image_PRGnhr": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/2_3_5e1ef473-7d9a-418b-aea1-db5e8e9d2d47.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "shopify://products/krk-gd-8153",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "image_PkcrMV": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/3_3_3e1991c2-320e-43a0-be92-09c66b051723.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "shopify://products/mc-16960nd",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_mCJQtt": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/4_3_70e9cb50-af1c-4f63-a8b6-7fdec670ab4e.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://minipia.myshopify.com/products/krk-stksf22001",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_YzQaGe": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/6_3_67643ac0-98c4-4237-a5d2-54000a21459c.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "shopify://products/krk-md-ts2107021",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_PRGnhr",
+        "image_PkcrMV",
+        "image_mCJQtt",
+        "image_YzQaGe"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_6x4VPx": {
+      "type": "custom-content",
+      "blocks": {
+        "image_rmwizL": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/1_4_cdacc876-3def-4958-8354-3e31e11dd663.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "shopify://products/krk-md-tw2007165",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_kzwNAM": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "left",
+            "subheading": "",
+            "title": "B-15中綿ボンバージャケット",
+            "text": "<p>KaraKuBuyの代表的モチーフである\"B-15\"が落とし込まれた人気ランナップ!</p><p><a href=\"https://www.karakubuy.com/products/krk-md-tw2007165?_pos=1&_sid=a3ba239f9&_ss=r\" title=\"https://www.karakubuy.com/products/krk-md-tw2007165?_pos=1&_sid=a3ba239f9&_ss=r\">￥16,800（税込）</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_rmwizL",
+        "text_kzwNAM"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_9dczJX": {
+      "type": "custom-content",
+      "blocks": {
+        "image_9niKee": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/2_4_c0d99f6c-2fc8-4ccd-9307-cef0e7f7e139.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "shopify://products/dh090703",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "image_mCNCJm": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/3_4_4dc8bbf8-6e4e-4ca3-b4ea-a9e88a977521.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "shopify://products/krk-md-tw2107050",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_eferjM": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/5_4_c39f5f6e-82ba-4ac1-b449-392c1774f1e5.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://minipia.myshopify.com/products/md-w2007119",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_JEjmjq": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/6_4_7eed9ad5-9571-49ae-a1c1-0b3860399551.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://minipia.myshopify.com/products/krk-nxb425-my661",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_9niKee",
+        "image_mCNCJm",
+        "image_eferjM",
+        "image_JEjmjq"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "fa9dfc57-29d9-429a-ad78-f1c3b0e73d03": {
+      "type": "collection-list",
+      "blocks": {
+        "a1cfda4d-2e5f-4eef-844f-e0f5bb378673": {
+          "type": "collection",
+          "settings": {
+            "collection": "casual",
+            "image": "shopify://shop_images/c748b6fbc74a48b24d75e66f4ba7160b.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "9da0261c-e6c2-4a9a-bbfc-119356e53e8e": {
+          "type": "collection",
+          "settings": {
+            "collection": "business",
+            "image": "shopify://shop_images/09b45cc61e451a48cc831f5c6eb891a0.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "687282e0-14a4-4d42-8dcb-0babe002b96a": {
+          "type": "collection",
+          "settings": {
+            "collection": "outdoor-sports",
+            "image": "shopify://shop_images/e0b1bc00e2371c92c676cd7a426a4d4d.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "6185350f-3346-4610-8759-0a714c2e8490": {
+          "type": "collection",
+          "settings": {
+            "collection": "navy",
+            "image": "shopify://shop_images/85e3b13ed818a2cb62f8b53434edd859.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "a1cfda4d-2e5f-4eef-844f-e0f5bb378673",
+        "9da0261c-e6c2-4a9a-bbfc-119356e53e8e",
+        "687282e0-14a4-4d42-8dcb-0babe002b96a",
+        "6185350f-3346-4610-8759-0a714c2e8490"
+      ],
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "2420005b-14c5-4caa-9a7d-43fdd84db79b": {
+      "type": "collection-list",
+      "blocks": {
+        "6cca92bc-ff30-47e3-bcd8-cead95f4d013": {
+          "type": "collection",
+          "settings": {
+            "collection": "2023-spring-color-collection",
+            "image": "shopify://shop_images/4_6244b71f-05b4-49ae-966e-b1f711299bd3.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "d281587a-f75d-4174-9193-ec9823e8f189": {
+          "type": "collection",
+          "settings": {
+            "collection": "karaku-best-item",
+            "image": "shopify://shop_images/banner_2_acb1ed3e-6960-4625-b6bb-023b0a2fcdcd.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "ee6249d0-a039-419b-945c-c2b73ea588fc": {
+          "type": "collection",
+          "settings": {
+            "collection": "2022-karaku-gift",
+            "image": "shopify://shop_images/ins3_5097e7c8-b659-4856-aa0b-b4f8a9dc8137.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "0317e1e9-e5fb-4c6f-b25a-d14aa4de5d58": {
+          "type": "collection",
+          "settings": {
+            "collection": "weatherforecaster-winter",
+            "image": "shopify://shop_images/20221223-151038_e4c44318-cc12-4e53-9673-681aec66e10f.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "6cca92bc-ff30-47e3-bcd8-cead95f4d013",
+        "d281587a-f75d-4174-9193-ec9823e8f189",
+        "ee6249d0-a039-419b-945c-c2b73ea588fc",
+        "0317e1e9-e5fb-4c6f-b25a-d14aa4de5d58"
+      ],
+      "settings": {
+        "title": "特集をもっと見る",
+        "enable_carousel": true,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    }
+  },
+  "order": [
+    "1635765484031572a6",
+    "9d9a6fac-4522-4cf1-9c1d-0e918042df7a",
+    "2c206c78-0433-4821-9c62-197779e3ef09",
+    "custom_content_fUMKkA",
+    "custom_content_qcxJka",
+    "custom_content_MHJ9mE",
+    "custom_content_FCbffK",
+    "custom_content_bPNj87",
+    "custom_content_4Ujca6",
+    "custom_content_XQbctr",
+    "custom_content_JRnaqf",
+    "custom_content_36JtCm",
+    "custom_content_6x4VPx",
+    "custom_content_9dczJX",
+    "main",
+    "fa9dfc57-29d9-429a-ad78-f1c3b0e73d03",
+    "2420005b-14c5-4caa-9a7d-43fdd84db79b"
+  ]
+}

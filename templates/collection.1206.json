@@ -1,0 +1,94 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "163876156127e4d817": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "全商品",
+        "collection": "all-products",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 5,
+        "rows": 5,
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 36,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "enable_sticky_filter": true,
+        "image_position": "center center"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "1638762004b63ae892": {
+      "type": "rich-text",
+      "blocks": {
+        "16387620045ad53f8b-1": {
+          "type": "heading",
+          "settings": {
+            "title": "注意事項",
+            "use_h1": false
+          }
+        },
+        "16387620045ad53f8b-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>・本セールは、予告なく変更および終了する場合がございます。</p><p>・商品が売り切れの場合や、都合により一時的に商品ページを非表示としている場合は、「商品が見つかりませんでした」と表示されることがございます。</p><p>・販売価格は予告なく変更となる場合がございます。</p><p>・サイトの表示価格と商品のタグ（下げ札）に記載されている価格が異なる場合がございますが、注文時の価格より、お値引きすることはできません。</p><p>・販売価格の変更予定に関するお問い合わせには、お答えいたしかねます。</p><p>・日付が変わるタイミングはアクセスが集中しやすく、ご注文手続きの際にエラーが発生する場合がございます。恐れ入りますが、お時間に余裕をもって、ご注文くださいますようお願いいたします。</p><p>・福袋は対象外となります。</p><p>以上の点について、あらかじめご了承ください。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "16387620045ad53f8b-1",
+        "16387620045ad53f8b-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "left",
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "163876156127e4d817",
+    "main",
+    "1635765484031572a6",
+    "1638762004b63ae892"
+  ]
+}

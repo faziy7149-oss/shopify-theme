@@ -1,0 +1,114 @@
+{% style %}
+ .section-id-{{ section.id }} .data-bgurl{
+    width:100%;
+    background-image:url({{ section.settings.background-image | image_url: width: 2800 }});
+    background-repeat: no-repeat; 
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center 0px;
+  }
+  {% if section.settings.background-image == blank %}
+    .section-id-{{ section.id }} .data-bg-color {
+      background: {{ section.settings.background_color | default: section.settings.background_color_overlay }}
+    }
+  {% endif %}
+  html {
+      scroll-behavior: smooth;
+  }
+  .section-id-{{ section.id }} .image-outer {
+    margin-top: 10px;
+    width: {{ section.settings.grid }}%;
+    height: auto;
+  }
+{% endstyle %}
+<div class="section-id-{{ section.id }}">
+  <div class="data-bg-color {% if section.settings['background-image'] != blank %} data-bgurl {% endif %}">
+    <div class="image-box">
+      {%- for block in section.blocks -%}
+        <div class="image-outer">
+        {%- if block.settings.image == blank -%}
+          <div class="placeholder-image">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+        {%- else -%}
+        {% if block.settings.image-id != blank %}
+          <a class="image-anchor-a" href="{{ block.settings.image-id }}" style="display: inline-block;">
+        {% endif %}
+        {% render 'image' with block.settings.image, sizes: '3000px', loading: 'lazy', class:"image-anchor-img" %}
+        {% if block.settings.image-id != blank %}
+          </a>
+        {% endif %}
+  
+        {%- endif -%}
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+
+{% schema %}
+ {
+   "name": "Customized image jumping",
+   "settings": [
+        {
+          "type": "image_picker",
+          "id": "background-image",
+          "label": "背景图片" 
+        },
+        {
+          "type": "color",
+          "id": "background_color_overlay",
+          "label": "Background color"
+        },
+        {
+          "type": "color_background",
+          "id": "background_color",
+          "label": "Background gradient (optional)"
+        },
+       {
+        "type": "range",
+        "id": "grid",
+        "label": "图片之间的间距",
+        "min": 16,
+        "max": 27,
+        "step": 1,
+        "default": 19
+      }
+   ],
+   "blocks":[
+     {
+     "type": "image",
+     "name": "Image",
+     "limit":10,
+     "settings": [
+       {
+         "type": "image_picker",
+         "id": "image",
+         "label": "Image"
+       },
+       {
+          "type": "text",
+          "id": "image-id",
+          "label": "Image Id",
+          "info": "#data-xxxx"
+        }
+     ]
+     }
+   ],
+   "presets":[
+        {
+                "name":"Customized image jumping",
+         "blocks": [
+       {
+         "type": "image"
+       },
+       {
+         "type": "image"
+       },
+       {
+         "type": "image"
+       }
+     ]
+        }
+]
+ }
+{% endschema %}

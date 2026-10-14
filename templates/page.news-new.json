@@ -1,0 +1,416 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_page_title": true,
+        "full_width": false
+      }
+    },
+    "71fce4ca-16b7-40bb-817f-1a14c7000111": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/image_processing20230413-1-vvhfp6.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "27d120e5-513a-44a7-8fe8-0d719d657597": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/image_processing20230413-1-gxv2ti.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "d275aecc-1981-4a25-b8be-96b51e94be58": {
+      "type": "background-video",
+      "disabled": true,
+      "settings": {
+        "video_external": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_description": "",
+        "placeholder_image": "shopify://shop_images/mqdefault_524df8b3-a8d2-4ba5-8081-210b028aa318.jpg",
+        "text_alignment": "center center",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "overlay_style": "full"
+      }
+    },
+    "5c7a9de5-4f06-434c-a232-18cb1df7f719": {
+      "type": "news-list",
+      "blocks": {
+        "newslist_8cFG4C": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/1080_c586add5-227e-482e-8385-764a3ba5b398.jpg",
+            "page": "cat-donation",
+            "news_info": "【ご報告】 皆さまのおかげで、第1回目の寄付金を届けました。"
+          }
+        },
+        "newslist_PWF3iy": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/20260701154814_4523_35_56275bb8-2a32-46c6-9c67-5507a632b63f.png",
+            "page": "cat-charity",
+            "news_info": "【お知らせ】CAT COLLECTION チャリティープロジェクト実施中！"
+          }
+        },
+        "newslist_jwa6HD": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/9b541f8d01ea63a7a9701ad54473d87e.jpg",
+            "page": "7-2-live",
+            "news_info": "SUMMER SALE直前、 7.2（木）20:00 LIVE配信！"
+          }
+        },
+        "newslist_rXQRmz": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/20260626-091932.jpg",
+            "page": "summer-sale2026",
+            "news_info": "SUMMER SALE開催のお知らせ！"
+          }
+        },
+        "newslist_kFTjqa": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/20260525-165700.jpg",
+            "page": "recruit",
+            "news_info": "神戸三宮店 スタッフ募集のお知らせ"
+          }
+        },
+        "newslist_hzKGEw": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/136_4_banner_1200.jpg",
+            "page": "karaku-2026-6-04",
+            "news_info": "KARAKU 6周年 を記念し、4つの特別なコラボが、まもなく登場！"
+          }
+        },
+        "newslist_xXDjgq": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/6__1200_56fe90cf-abcf-447a-948a-7f55085c1ea1.jpg",
+            "page": "karaku-6th-preview",
+            "news_info": "【開催予告】KARAKU 6周年記念キャンペーン間もなく開催！！"
+          }
+        },
+        "newslist_MizaDM": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/179_sns__3.jpg",
+            "page": "karaku-6th-preview",
+            "news_info": "【6周年記念】オリジナルパズルプレゼントキャンペーン開催！"
+          }
+        },
+        "newslist_g8aYH4": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/20260420-175206_852c09e5-adcf-4794-8939-67248445fb9c.jpg",
+            "page": "karaku-inslive",
+            "news_info": "4月27日（月）20:00〜 インスタライブ配信のご案内！"
+          }
+        },
+        "newslist_RmjEea": {
+          "type": "newslist",
+          "disabled": true,
+          "settings": {
+            "news_page": "shopify://shop_images/085_news.jpg",
+            "page": "news-2-14",
+            "news_info": "【重要】仕入先・海外倉庫休業による配送遅延のお知らせ"
+          }
+        },
+        "newslist_E9Ad7T": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/MB_523b5949-c57b-44ed-92e6-8d2e623f4df3.png",
+            "page": "25-end-sale",
+            "news_info": "【年末年始SALE 開催のお知らせ】"
+          }
+        },
+        "newslist_kmnm4E": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/mb-1200_503f6afe-228c-45ce-b735-8d9ae4aebe4a.jpg",
+            "page": "26karaku-luckybag",
+            "news_info": "12月12日より、KARAKU 新春福袋 販売スタート！"
+          }
+        },
+        "newslist_wJ3DzA": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/20251125115410_1239_35_af29c903-a112-4ac0-b74f-077e369bea3b.jpg",
+            "page": "お知らせ-12月1日-20-00-karaku-二回目のtiktokライブ配信決定",
+            "news_info": "【お知らせ】12月1日 20:00〜｜KARAKU 二回目のTikTokライブ配信決定！"
+          }
+        },
+        "newslist_qprCyn": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/506__banner_banner_1200x1200_91b55531-1fcd-43d9-9483-8490cad8f4d5.png",
+            "page": "2025-black-friday-news",
+            "news_info": "【2025 BLACK FRIDAY 開催のお知らせ】"
+          }
+        },
+        "newslist_tVaxbH": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/445_tiktok__1200_400a4d06-e25f-42c8-b812-cd6749dcdd8a.jpg",
+            "page": "10-15-live",
+            "news_info": "KARAKU初のTikTokライブ配信決定！"
+          }
+        },
+        "newslist_HmX7Je": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/20251013-161704_7265c77b-563f-46a6-b05d-648507a373d3.jpg",
+            "page": "karaku-2025-autumn-winter-collaboration",
+            "news_info": "【KARAKU × 石黒亜矢子】 2025 AUTUMN & WINTER COLLECTION 10月15日より発売"
+          }
+        },
+        "newslist_Dgifzz": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/20250901-155120.jpg",
+            "page": "officialwebsite-20250901",
+            "news_info": "偽サイトに関する重要なお知らせとご注意のお願い"
+          }
+        },
+        "newslist_cXYkci": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/004_5_3___1200.jpg",
+            "page": "karaku-5周年記念感謝祭を開催",
+            "news_info": "KARAKU 5周年記念キャンペーンを開催！"
+          }
+        },
+        "newslist_FqjWfq": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/005__banner_2_1200_278aa405-e906-465f-8cf9-16892e8c949c.jpg",
+            "page": "５周年記念-karaku-x石黒亜矢子スペシャルコレクション4月30日より発売",
+            "news_info": "５周年記念、KARAKU x石黒亜矢子スペシャルコレクション4月30日より発売"
+          }
+        },
+        "newslist_WUkh6b": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/720_-news_15aa4ce3-9321-40f9-81f3-7b1c39ab36b9.jpg",
+            "page": "karaku-commemorative-set",
+            "news_info": "【オーペン５周年】記念3点セットをプレゼント"
+          }
+        },
+        "newslist_ALF6DU": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/20250417-172258_7a2dc0b7-8866-4360-b758-9d3a46063bf2.jpg",
+            "page": "karaku-inslive",
+            "news_info": "KARAKU オンラインショップ『オープン５周年』初のインスタライブ配信決定"
+          }
+        },
+        "newslist_EBJnne": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/20250408115509.png",
+            "page": "news-408",
+            "news_info": "4/12、13 渋谷で開催される 『SYNCHRONICITY’25』にKARAKUが協賛決定！🚀"
+          }
+        },
+        "newslist_zpixMD": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/20240627-105301.jpg",
+            "page": "6-28-2024",
+            "news_info": "6月28日（金）より「KARAKU SUMMER SALE」開催!"
+          }
+        },
+        "newslist_eeNYCa": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/20240606-095948.jpg",
+            "page": "24-6-5",
+            "news_info": "【父の日】ありがとうキャンペーンを6月7日より開催！"
+          }
+        },
+        "newslist_VVaDEk": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/9b3c21640f064edf8d9e8032a6c386ce.webp",
+            "page": "karaku-365cat-art-collaboratio",
+            "news_info": "KARAKU×365CAT.ARTとの初のコラボレーションアイテムが登場！"
+          }
+        },
+        "newslist_ptQMyT": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/4.29-5.13_1200-2.jpg",
+            "page": "karaku-4th-campaign",
+            "news_info": "KARAKU 4周年記念感謝祭を開催！"
+          }
+        },
+        "newslist_pz9CCx": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/20240408154401_dbefbea2-613e-47cc-b1ac-d5edd7681948.jpg",
+            "page": "warm-blue-karaku-2024",
+            "news_info": "KARAKU×ASJ  \"WARM BLUE\"。藍染めアイテム1枚ご購入につき420円が寄付に❢"
+          }
+        },
+        "newslist_YtHwFX": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/3428e45dd5084443bfe11fe52c372c2b.webp",
+            "page": "instagram-50000",
+            "news_info": "【Instagramフォロワー50,000名突破】記念キャンペーン開催！"
+          }
+        },
+        "newslist_diBL8q": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/output.lin_98f83d58-6539-4f92-9ea5-325bfd5d9f07.jpg",
+            "page": "news-3-11",
+            "news_info": "春の新生活を応援する特別キャンペーンを開催！"
+          }
+        },
+        "newslist_M8pxMQ": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/20240318-162130.jpg",
+            "page": "2-27",
+            "news_info": "「重要」雑誌Begin（ビギン）4月号掲載のお知らせ！"
+          }
+        },
+        "625f6540-a406-4b6b-b432-eb38bfcc501c": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/output.lin_a5f67360-f780-445e-ac21-7512f636676e.jpg",
+            "page": "news-12-21",
+            "news_info": "リピーター様限定！プレゼントキャンペーンを開催！"
+          }
+        },
+        "template--17113122275547__5c7a9de5-4f06-434c-a232-18cb1df7f719-newslist-1": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/20231214-145106.webp",
+            "page": "karaku2024-collaboration-illustrator",
+            "news_info": "KARAKU2024  コラボイラストレーター募集"
+          }
+        },
+        "template--17113122275547__5c7a9de5-4f06-434c-a232-18cb1df7f719-newslist-2": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/EDM213.webp",
+            "page": "news-sale2023",
+            "news_info": "12月15日より「KARAKU年末年始セール」開催！"
+          }
+        },
+        "template--17113122275547__5c7a9de5-4f06-434c-a232-18cb1df7f719-newslist-3": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/998_ef8b9ac7-23e6-44d9-ba17-bdbbf5bbfdd0.webp",
+            "page": "news-luckybag",
+            "news_info": "12月8日より2024新春福袋の予約販売をスタート！"
+          }
+        },
+        "template--17113122275547__5c7a9de5-4f06-434c-a232-18cb1df7f719-newslist-4": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/994_76234f1c-bf5f-417e-9e8a-4282f17e1f6b.webp",
+            "page": "news-black-friday-sale",
+            "news_info": "『BLACK FRIDAY SALE』を開催のお知らせ！"
+          }
+        },
+        "template--17113122275547__5c7a9de5-4f06-434c-a232-18cb1df7f719-newslist-5": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/995_e222e32c-eb32-4066-a6b0-fa2e5020638f.webp",
+            "page": "karakuvip",
+            "news_info": "KARAKU会員サービスをスタート！"
+          }
+        },
+        "898df4ac-c2cd-4008-98bd-fb63a3ad7f05": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/996_da2167f1-5bbf-4c7c-9f2b-13a81158710c.webp",
+            "page": "重要なお知らせ-01",
+            "news_info": "【重要なお知らせ】❕模倣品及び類似品にご注意ください。"
+          }
+        }
+      },
+      "block_order": [
+        "newslist_8cFG4C",
+        "newslist_PWF3iy",
+        "newslist_jwa6HD",
+        "newslist_rXQRmz",
+        "newslist_kFTjqa",
+        "newslist_hzKGEw",
+        "newslist_xXDjgq",
+        "newslist_MizaDM",
+        "newslist_g8aYH4",
+        "newslist_RmjEea",
+        "newslist_E9Ad7T",
+        "newslist_kmnm4E",
+        "newslist_wJ3DzA",
+        "newslist_qprCyn",
+        "newslist_tVaxbH",
+        "newslist_HmX7Je",
+        "newslist_Dgifzz",
+        "newslist_cXYkci",
+        "newslist_FqjWfq",
+        "newslist_WUkh6b",
+        "newslist_ALF6DU",
+        "newslist_EBJnne",
+        "newslist_zpixMD",
+        "newslist_eeNYCa",
+        "newslist_VVaDEk",
+        "newslist_ptQMyT",
+        "newslist_pz9CCx",
+        "newslist_YtHwFX",
+        "newslist_diBL8q",
+        "newslist_M8pxMQ",
+        "625f6540-a406-4b6b-b432-eb38bfcc501c",
+        "template--17113122275547__5c7a9de5-4f06-434c-a232-18cb1df7f719-newslist-1",
+        "template--17113122275547__5c7a9de5-4f06-434c-a232-18cb1df7f719-newslist-2",
+        "template--17113122275547__5c7a9de5-4f06-434c-a232-18cb1df7f719-newslist-3",
+        "template--17113122275547__5c7a9de5-4f06-434c-a232-18cb1df7f719-newslist-4",
+        "template--17113122275547__5c7a9de5-4f06-434c-a232-18cb1df7f719-newslist-5",
+        "898df4ac-c2cd-4008-98bd-fb63a3ad7f05"
+      ],
+      "settings": {
+        "news_title": "NEWS",
+        "more_url": "",
+        "view_all": "",
+        "full_width": false,
+        "enable_carousel": false,
+        "grid": 5,
+        "coll_thumb_mob_per_row": "2",
+        "color_scheme": "default"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "71fce4ca-16b7-40bb-817f-1a14c7000111",
+    "27d120e5-513a-44a7-8fe8-0d719d657597",
+    "d275aecc-1981-4a25-b8be-96b51e94be58",
+    "5c7a9de5-4f06-434c-a232-18cb1df7f719"
+  ]
+}

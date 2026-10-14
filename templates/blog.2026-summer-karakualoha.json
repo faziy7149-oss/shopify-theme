@@ -1,0 +1,76 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "layout": "list",
+        "crop_ratio": "1.78",
+        "show_author": true,
+        "show_date": true,
+        "show_excerpts": true,
+        "show_article_tags": true,
+        "show_rss_icon": true,
+        "show_twitter": true,
+        "show_facebook": true
+      }
+    },
+    "slideshow_HaJfcj": {
+      "type": "slideshow",
+      "blocks": {
+        "image_VmdFTz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/VS-0093__1920_cd471cf3-62da-4d4f-942b-fc7cef017a9c.jpg",
+            "mobile_image": "shopify://shop_images/VS-0093__1080_55ac6c69-e1c3-4fa1-83ff-9f2cd34a87f5.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_VmdFTz"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_HaJfcj"
+  ]
+}

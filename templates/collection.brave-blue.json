@@ -1,0 +1,108 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1635736314e4e3d1c3": {
+      "type": "rich-text",
+      "blocks": {
+        "1635736314e4e3d1c3-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "注目製品"
+          }
+        },
+        "1635736314e4e3d1c3-1": {
+          "type": "heading",
+          "settings": {
+            "title": "“Brave blue”「勇気のブルー」",
+            "use_h1": false
+          }
+        },
+        "1635736314e4e3d1c3-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DESIGN BY KARAKUBUY | KARAKU2022 春夏シリーズ</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1635736314e4e3d1c3-0",
+        "1635736314e4e3d1c3-1",
+        "1635736314e4e3d1c3-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false
+      }
+    },
+    "163573663356216c07": {
+      "type": "rich-text",
+      "blocks": {
+        "163573663356216c07-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "INTRODUCTION"
+          }
+        },
+        "163573663356216c07-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "“Brave blue”「勇気のブルー」",
+            "use_h1": false
+          }
+        },
+        "163573663356216c07-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>良きも悪きも経験した2021年に別れを告げ、期待高まる2022年はハッピーに迎えたい！<br/>Karaku今シーズンのテーマは“Brave blue”「勇気のブルー」、日本の伝統が受け継ぐ藍染め工芸で仕上げられ、落ち着いてるインディゴブルー色で表現する新作アイテムを続々と登場する！<br/>新しい1年に、悪い経験をすべて忘れ、勇気を持って新しい挑戦に立ち上がれ、「恐れを知らず」という気持ちでやり直すように。<br/>そして、急速な発展のこの時代に、少しペースを落とし、時間をかけた職人手染によって仕上げられた日本の伝統の「藍色」を身に纏い、その魅力を感じてもらいたい。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "163573663356216c07-0",
+        "163573663356216c07-1",
+        "163573663356216c07-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 36,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "enable_sticky_filter": true,
+        "image_position": "center center"
+      }
+    }
+  },
+  "order": [
+    "1635736314e4e3d1c3",
+    "163573663356216c07",
+    "main"
+  ]
+}

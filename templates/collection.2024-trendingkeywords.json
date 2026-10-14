@@ -1,0 +1,381 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_wdN4hD": {
+      "type": "slideshow",
+      "blocks": {
+        "image_x8C99x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/200___1920.jpg",
+            "mobile_image": "shopify://shop_images/171___1080_52958849-b89e-4292-8310-0c167d4bcbed.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_x8C99x"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "adjusting_spacing_nbCTt8": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 1,
+        "margin_top2": 1
+      }
+    },
+    "rich_text_a9Bq8j": {
+      "type": "rich-text",
+      "blocks": {
+        "text_XtGqW3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>夏スタイルに欠かせない！おしゃれのヒントはトレンドアイテム。「＃SPORTS MIX」「#OPENWORK TOP」「＃TREND COLOR」な今っぽアイテムをご紹介！</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "text_XtGqW3"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "image_p3pB3y": {
+      "type": "image",
+      "disabled": true,
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_5913ac1c-5ff8-467f-8065-409e020e8c98.png",
+        "mobile_image": "shopify://shop_images/720_21c04bb1-4b49-41a3-a18d-6c4d92b35207.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_f9rWgw": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -2,
+        "margin_top2": -2
+      }
+    },
+    "rich_text_kiJpwh": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_4gc9J9": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "TREND KEY WORD 01"
+          }
+        },
+        "heading_xDYHpp": {
+          "type": "heading",
+          "settings": {
+            "title": "#OPENWORK TOP",
+            "use_h1": false
+          }
+        },
+        "text_U3Be7E": {
+          "type": "text",
+          "settings": {
+            "text": "<p>2024年の夏、日本のメンズファッションで注目されているトレンドアイテムの一つは、透かしトップスです。通気性が良く、軽やかなレイヤーとして夏に最適です。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_4gc9J9",
+        "heading_xDYHpp",
+        "text_U3Be7E"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "adjusting_spacing_zJeaBb": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -1,
+        "margin_top2": 1
+      }
+    },
+    "image_zjgwgg": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1_f37e31b3-999e-4f49-94ce-fa4cd909253e.png",
+        "mobile_image": "shopify://shop_images/1_f37e31b3-999e-4f49-94ce-fa4cd909253e.png",
+        "img_rul": ""
+      }
+    },
+    "featured_collection_9XLYmU": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "OPENWORK TOP",
+        "collection": "openwork-top",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "rich_text_6BH3yL": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_KwfHP9": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "TREND KEY WORD 02"
+          }
+        },
+        "heading_GBXYc6": {
+          "type": "heading",
+          "settings": {
+            "title": "#TREND COLOR-PINK",
+            "use_h1": false
+          }
+        },
+        "text_xGtnrF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ソルベカラーでいつものスタイリングを新鮮に！フレッシュなピンクにはグレーやブラックのボトムスで決まり。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_KwfHP9",
+        "heading_GBXYc6",
+        "text_xGtnrF"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "adjusting_spacing_LVBVzW": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -2,
+        "margin_top2": 1
+      }
+    },
+    "image_qtbRr3": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/2_ce0cac70-e1d5-4251-9d11-91d04f390cb3.png",
+        "mobile_image": "shopify://shop_images/2_ce0cac70-e1d5-4251-9d11-91d04f390cb3.png",
+        "img_rul": ""
+      }
+    },
+    "featured_collection_TBUWkP": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "TREND COLOR-PINK",
+        "collection": "trend-color",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "rich_text_t8DzDk": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_JA4cWy": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "TREND KEY WORD 03"
+          }
+        },
+        "heading_amxCUD": {
+          "type": "heading",
+          "settings": {
+            "title": "#SPORTS MIX",
+            "use_h1": false
+          }
+        },
+        "text_E93bE7": {
+          "type": "text",
+          "settings": {
+            "text": "<p>今季大注目のサッカーユニーフォーム、ライン入り、スポーツディテールデザインを取り入れてトレンドスタイルを楽しみたい！メンズはさりげなくロゴを主張したクリーンでモードなスタイルがおすすめです。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_JA4cWy",
+        "heading_amxCUD",
+        "text_E93bE7"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "adjusting_spacing_eHcAQT": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -1,
+        "margin_top2": 1
+      }
+    },
+    "image_THp7me": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/3_8db2e0b2-7ad6-4489-84a7-3edbf60d00bd.png",
+        "mobile_image": "shopify://shop_images/3_8db2e0b2-7ad6-4489-84a7-3edbf60d00bd.png",
+        "img_rul": ""
+      }
+    },
+    "featured_collection_AckNU4": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "SPORTS MIX",
+        "collection": "sports-mix",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "background_image_6Dft8J": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-06-13_17-28-32.jpg"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "tag_link_FTkDfQ": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    }
+  },
+  "order": [
+    "slideshow_wdN4hD",
+    "adjusting_spacing_nbCTt8",
+    "rich_text_a9Bq8j",
+    "image_p3pB3y",
+    "adjusting_spacing_f9rWgw",
+    "rich_text_kiJpwh",
+    "adjusting_spacing_zJeaBb",
+    "image_zjgwgg",
+    "featured_collection_9XLYmU",
+    "rich_text_6BH3yL",
+    "adjusting_spacing_LVBVzW",
+    "image_qtbRr3",
+    "featured_collection_TBUWkP",
+    "rich_text_t8DzDk",
+    "adjusting_spacing_eHcAQT",
+    "image_THp7me",
+    "featured_collection_AckNU4",
+    "background_image_6Dft8J",
+    "main",
+    "tag_link_FTkDfQ"
+  ]
+}

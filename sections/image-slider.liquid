@@ -1,0 +1,663 @@
+{%- liquid
+  assign section_selector = 'section-id-' | append: section.id
+  assign anim_stagger = section.index | default: 1 | minus: 1 | times: 0.85
+  assign slide_stagger = section.index | default: 1 | minus: 1 | times: 1.1
+-%}
+
+<style>
+  .{{ section_selector }} {
+    --img-slider-anim-delay: {{ anim_stagger }}s;
+    --img-slide-anim-delay: {{ slide_stagger }}s;
+    --slide--img--transform: translate(0px);
+  }
+
+  .{{ section_selector }} .itemBox ul,
+  .{{ section_selector }} .itemBox li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  .{{ section_selector }} .itemBox {
+    margin-bottom: 10em;
+    margin-top: 3em;
+  }
+  .{{ section_selector }} .img-slider-title {
+    font-size: 40px;
+    margin: 60px 0 30px 0;
+    text-align: center;
+    color: {{ section.settings.data_tit_col }};
+  }
+  .{{ section_selector }} .itemBox .product-info {
+    margin: 30px 0;
+    letter-spacing: 0.1em;
+    text-align: justify;
+    color: {{ section.settings.info_text_col }};
+  }
+  .{{ section_selector }} .itemBox .slider-product-price {
+    margin: 30px 0;
+    text-align: center;
+  }
+  .{{ section_selector }} .itemBox .slider-product-price .price-current {
+    font-size: 17px;
+    color: {{ section.settings.price_col }};
+  }
+  .{{ section_selector }} .itemBox .slider-product-price .price-original {
+    text-decoration: line-through;
+    color: {{ section.settings.og_price_col }};
+    opacity: 0.6;
+  }
+  .{{ section_selector }} .itemBox .slider-link {
+    width: 60%;
+    height: 40px;
+    margin: 0 auto;
+    text-align: center;
+    font-weight: bold;
+    line-height: 40px;
+    background-color: {{ section.settings.but_col }};
+    border: 1px solid #000;
+    cursor: pointer;
+    transition: background-color 0.6s linear, color 0.6s linear;
+  }
+  .{{ section_selector }} .itemBox .slider-link > a {
+    display: block;
+    color: {{ section.settings.but_font_col }};
+    text-decoration: none;
+  }
+  .{{ section_selector }} .itemBox .slider-link:hover {
+    background-color: {{ section.settings.but_col2 }};
+  }
+  .{{ section_selector }} .itemBox .slider-link:hover > a {
+    color: {{ section.settings.but_font_col2 }};
+  }
+  .{{ section_selector }} .itemBox .itembox-wrap .big-img .img-box {
+    position: relative;
+    width: 600px;
+    height: 720px;
+  }
+  .{{ section_selector }} .itemBox .itembox-wrap .big-img .img-box .img-item {
+    position: absolute;
+    inset: 0;
+  }
+  .{{ section_selector }} .itemBox .itembox-wrap .big-img .img-box .img-item .theme-img,
+  .{{ section_selector }} .itemBox .itembox-wrap .big-img .img-box .img-item img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+  .{{ section_selector }} .itemBox .itembox-wrap .big-img .img-box .img-item:first-child {
+    z-index: 4;
+    animation: Imgshrinkage 5s calc(1s + var(--img-slider-anim-delay, 0s)) linear infinite alternate;
+    animation-play-state: paused;
+  }
+  .{{ section_selector }} .itemBox .itembox-wrap .big-img .img-box .img-item:last-child {
+    opacity: 0;
+    animation: Imgpenetration 5s calc(1s + var(--img-slider-anim-delay, 0s)) linear infinite alternate;
+    animation-play-state: paused;
+  }
+  .{{ section_selector }}.is-inview .itemBox .itembox-wrap .big-img .img-box .img-item:first-child,
+  .{{ section_selector }}.is-inview .itemBox .itembox-wrap .big-img .img-box .img-item:last-child,
+  .{{ section_selector }}.is-inview .details-img .loopSlide .slick-track-img .slick-item img {
+    animation-play-state: running;
+  }
+  .{{ section_selector }} .details-img .loopSlide .slick-track-img .slick-item img,
+  .{{ section_selector }} .details-img .loopSlide .slick-track-img .slick-item .theme-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    animation: imageSlidingSp-{{ section.id | replace: 'template--', '' | replace: '__', '-' }} 10s calc(1s + var(--img-slide-anim-delay, 0s)) linear infinite alternate;
+    animation-play-state: paused;
+  }
+
+  @keyframes Imgpenetration {
+    0% { opacity: 0; }
+    10% { opacity: 0.3; }
+    20% { opacity: 0.4; }
+    30% { opacity: 0.5; }
+    40% { opacity: 0.6; }
+    50% { opacity: 0.7; }
+    60% { opacity: 0.8; }
+    70% { opacity: 0.9; }
+    80% { opacity: 1; }
+    90% { opacity: 1; }
+    100% { z-index: 5; opacity: 1; }
+  }
+  @keyframes Imgshrinkage {
+    0% { opacity: 1; }
+    10% { opacity: 1; }
+    20% { opacity: 1; }
+    30% { opacity: 0.9; }
+    40% { opacity: 0.8; }
+    50% { opacity: 0.7; }
+    60% { opacity: 0.6; }
+    70% { opacity: 0.5; }
+    80% { opacity: 0.4; }
+    90% { opacity: 0.3; }
+    100% { opacity: 0; z-index: 1; }
+  }
+  @keyframes imageSlidingSp-{{ section.id | replace: 'template--', '' | replace: '__', '-' }} {
+    from { transform: translate(0); }
+    to { transform: var(--slide--img--transform); }
+  }
+
+  @media (min-width: 768px) {
+    .{{ section_selector }} .pc-none {
+      display: none;
+    }
+    .{{ section_selector }} .sp-none {
+      display: block;
+    }
+    .{{ section_selector }} .itemBox .itembox-wrap {
+      display: flex;
+      justify-content: center;
+    }
+    .{{ section_selector }} .itemBox .itembox-wrap .details-img {
+      width: 27%;
+      margin-right: 2em;
+    }
+    .{{ section_selector }} .itemBox .itembox-wrap .details-img .loopSlide {
+      overflow: hidden;
+    }
+    .{{ section_selector }} .itemBox .itembox-wrap .details-img .loopSlide .slick-track-img {
+      display: flex;
+      width: 15000px;
+    }
+    .{{ section_selector }} .slick-item {
+      width: 370px;
+      height: 370px;
+      flex-shrink: 0;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .{{ section_selector }} .sp-none {
+      display: none;
+    }
+    .{{ section_selector }} .pc-none {
+      display: block;
+      width: 100%;
+    }
+    .{{ section_selector }} .itemBox {
+      margin-top: 1.5em;
+    }
+    .{{ section_selector }} .img-slider-title {
+      font-size: 20px;
+      margin-bottom: 10px;
+    }
+    .{{ section_selector }} .itemBox .itembox-wrap {
+      display: block;
+    }
+    .{{ section_selector }} .itemBox .itembox-wrap .big-img .img-box {
+      width: 100%;
+      height: 450px;
+    }
+    .{{ section_selector }} .itemBox .product-info {
+      padding: 0 2em;
+      margin-top: 1em;
+    }
+    .{{ section_selector }} .itemBox .slider-product-price {
+      margin: 15px 0;
+    }
+    .{{ section_selector }} .itemBox .slider-link {
+      margin-bottom: 3em;
+    }
+    .{{ section_selector }} .itemBox .itembox-wrap .details-img {
+      width: 100%;
+      height: 170px;
+    }
+    .{{ section_selector }} .itemBox .itembox-wrap .details-img .loopSlide {
+      overflow: hidden;
+    }
+    .{{ section_selector }} .itemBox .itembox-wrap .details-img .loopSlide .slick-track-img {
+      display: flex;
+      width: 15000px;
+    }
+    .{{ section_selector }} .itemBox .itembox-wrap .details-img .slick-track-img .slick-item {
+      display: inline-block;
+      width: 250px;
+      height: 250px;
+      flex-shrink: 0;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .{{ section_selector }} .itemBox .itembox-wrap .big-img .img-box .img-item:first-child,
+    .{{ section_selector }} .itemBox .itembox-wrap .big-img .img-box .img-item:last-child,
+    .{{ section_selector }} .details-img .loopSlide .slick-track-img .slick-item img,
+    .{{ section_selector }} .details-img .loopSlide .slick-track-img .slick-item .theme-img {
+      animation: none !important;
+      opacity: 1 !important;
+    }
+    .{{ section_selector }} .itemBox .itembox-wrap .big-img .img-box .img-item:last-child {
+      display: none;
+    }
+  }
+</style>
+
+<div
+  class="{{ section_selector }}"
+  data-image-slider
+  data-section-id="{{ section.id }}"
+>
+  <div class="container">
+    {% if section.settings.data_title != blank %}
+      <h2 class="img-slider-title">{{ section.settings.data_title }}</h2>
+    {% endif %}
+
+    <div class="itemBox">
+      <div class="itembox-wrap">
+        {%- comment -%} 移动端主图 + 信息 {%- endcomment -%}
+        <div class="big-img pc-none">
+          <ul class="img-box">
+            {% for block in section.blocks %}
+              {% if block.type == 'mainDiagram' %}
+                <li class="img-item" {{ block.shopify_attributes }}>
+                  {% if block.settings.main_img != blank %}
+                    {% render 'image' with block.settings.main_img, sizes: '(max-width: 767px) 100vw, 600px', loading: 'lazy' %}
+                  {% else %}
+                    <div class="placeholder-image">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+                  {% endif %}
+                </li>
+                <li class="img-item">
+                  {% if block.settings.main_img2 != blank %}
+                    {% render 'image' with block.settings.main_img2, sizes: '(max-width: 767px) 100vw, 600px', loading: 'lazy' %}
+                  {% else %}
+                    <div class="placeholder-image">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+                  {% endif %}
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+          {% for block in section.blocks %}
+            {% if block.type == 'imageInfo' %}
+              {%- liquid
+                assign price_discount_formatted = blank
+                assign original_price_formatted = blank
+                if block.settings.price_discount != blank and block.settings.price_discount > 0
+                  assign price_discount_digits = block.settings.price_discount | replace: ',', '' | replace: '，', '' | strip
+                  assign price_discount_cents = price_discount_digits | times: 100
+                  assign price_discount_formatted = price_discount_cents | money
+                endif
+                if block.settings.original_price != blank and block.settings.original_price > 0
+                  assign original_price_digits = block.settings.original_price | replace: ',', '' | replace: '，', '' | strip
+                  assign original_price_cents = original_price_digits | times: 100
+                  assign original_price_formatted = original_price_cents | money
+                endif
+              -%}
+              <div {{ block.shopify_attributes }}>
+                {% if block.settings.info_text != blank %}
+                  <p class="product-info">{{ block.settings.info_text }}</p>
+                {% endif %}
+                {% if price_discount_formatted != blank or original_price_formatted != blank %}
+                  <p class="slider-product-price">
+                    {% if price_discount_formatted != blank and original_price_formatted != blank %}
+                      <span class="price-current">{{ price_discount_formatted }}</span>
+                      <span class="price-original">{{ original_price_formatted }}</span>
+                    {% elsif price_discount_formatted != blank %}
+                      <span class="price-current">{{ price_discount_formatted }}</span>
+                    {% else %}
+                      <span class="price-current">{{ original_price_formatted }}</span>
+                    {% endif %}
+                  </p>
+                {% endif %}
+                {% if block.settings.but_tex != blank %}
+                  <div class="slider-link">
+                    {% if block.settings.btn_url != blank %}
+                      <a href="{{ block.settings.btn_url }}">{{ block.settings.but_tex }}</a>
+                    {% else %}
+                      <span>{{ block.settings.but_tex }}</span>
+                    {% endif %}
+                  </div>
+                {% endif %}
+              </div>
+            {% endif %}
+          {% endfor %}
+        </div>
+
+        {%- comment -%} 侧边轮播 + 桌面信息 {%- endcomment -%}
+        <div class="details-img">
+          <div class="loopSlide">
+            <div class="slide-list">
+              <div class="slick-track-img">
+                {% for block in section.blocks %}
+                  {% if block.type == 'imageSlider' and block.settings.slider_img != blank %}
+                    <div class="slick-item" {{ block.shopify_attributes }}>
+                      {% render 'image' with block.settings.slider_img, sizes: '(max-width: 767px) 250px, 370px', loading: 'lazy' %}
+                    </div>
+                  {% endif %}
+                {% endfor %}
+              </div>
+            </div>
+          </div>
+
+          {% for block in section.blocks %}
+            {% if block.type == 'imageInfo' %}
+              {%- liquid
+                assign price_discount_formatted = blank
+                assign original_price_formatted = blank
+                if block.settings.price_discount != blank and block.settings.price_discount > 0
+                  assign price_discount_digits = block.settings.price_discount | replace: ',', '' | replace: '，', '' | strip
+                  assign price_discount_cents = price_discount_digits | times: 100
+                  assign price_discount_formatted = price_discount_cents | money
+                endif
+                if block.settings.original_price != blank and block.settings.original_price > 0
+                  assign original_price_digits = block.settings.original_price | replace: ',', '' | replace: '，', '' | strip
+                  assign original_price_cents = original_price_digits | times: 100
+                  assign original_price_formatted = original_price_cents | money
+                endif
+              -%}
+              {% if block.settings.info_text != blank %}
+                <p class="product-info sp-none">{{ block.settings.info_text }}</p>
+              {% endif %}
+              {% if price_discount_formatted != blank or original_price_formatted != blank %}
+                <p class="slider-product-price sp-none">
+                  {% if price_discount_formatted != blank and original_price_formatted != blank %}
+                    <span class="price-current">{{ price_discount_formatted }}</span>
+                    <span class="price-original">{{ original_price_formatted }}</span>
+                  {% elsif price_discount_formatted != blank %}
+                    <span class="price-current">{{ price_discount_formatted }}</span>
+                  {% else %}
+                    <span class="price-current">{{ original_price_formatted }}</span>
+                  {% endif %}
+                </p>
+              {% endif %}
+              {% if block.settings.but_tex != blank %}
+                <div class="slider-link sp-none">
+                  {% if block.settings.btn_url != blank %}
+                    <a href="{{ block.settings.btn_url }}">{{ block.settings.but_tex }}</a>
+                  {% else %}
+                    <span>{{ block.settings.but_tex }}</span>
+                  {% endif %}
+                </div>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+        </div>
+
+        {%- comment -%} 桌面端主图 {%- endcomment -%}
+        <div class="big-img sp-none">
+          <ul class="img-box">
+            {% for block in section.blocks %}
+              {% if block.type == 'mainDiagram' %}
+                <li class="img-item">
+                  {% if block.settings.main_img != blank %}
+                    {% render 'image' with block.settings.main_img, sizes: '(max-width: 767px) 100vw, 600px', loading: 'lazy' %}
+                  {% else %}
+                    <div class="placeholder-image">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+                  {% endif %}
+                </li>
+                <li class="img-item">
+                  {% if block.settings.main_img2 != blank %}
+                    {% render 'image' with block.settings.main_img2, sizes: '(max-width: 767px) 100vw, 600px', loading: 'lazy' %}
+                  {% else %}
+                    <div class="placeholder-image">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+                  {% endif %}
+                </li>
+              {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Image slider",
+  "settings": [
+    {
+      "type": "text",
+      "id": "data_title",
+      "label": "标题",
+      "default": "Special order form"
+    },
+    {
+      "type": "color",
+      "id": "data_tit_col",
+      "label": "标题颜色",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "info_text_col",
+      "label": "简介的字体颜色",
+      "default": "#6d7175"
+    },
+    {
+      "type": "color",
+      "id": "price_col",
+      "label": "折扣价颜色",
+      "default": "#6d7175"
+    },
+    {
+      "type": "color",
+      "id": "og_price_col",
+      "label": "原价颜色",
+      "default": "#6d7175"
+    },
+    {
+      "type": "color",
+      "id": "but_font_col",
+      "label": "按钮字体颜色",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "but_col",
+      "label": "按钮颜色",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "but_font_col2",
+      "label": "鼠标悬停按钮字体颜色",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "but_col2",
+      "label": "鼠标悬停按钮颜色",
+      "default": "#000000"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "imageSlider",
+      "name": "slider img",
+      "limit": 4,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "slider_img",
+          "label": "轮播图(370 x 370)"
+        }
+      ]
+    },
+    {
+      "type": "imageInfo",
+      "name": "info",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "text",
+          "id": "info_text",
+          "label": "info",
+          "default": "Here you need to fill in the product information."
+        },
+        {
+          "type": "number",
+          "id": "price_discount",
+          "label": "折扣价（仅输入数字，自动显示货币符号）",
+          "info": "如果为空，则不显示折扣价",
+          "default": 14980
+        },
+        {
+          "type": "number",
+          "id": "original_price",
+          "label": "原价（仅输入数字，自动显示货币符号）",
+          "info": "如果为空，则不显示原价",
+          "default": 18990
+        },
+        {
+          "type": "text",
+          "id": "but_tex",
+          "label": "按钮内容",
+          "default": "VIEW MORE"
+        },
+        {
+          "type": "url",
+          "id": "btn_url",
+          "label": "url"
+        }
+      ]
+    },
+    {
+      "type": "mainDiagram",
+      "name": "detail image",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "main_img",
+          "label": "主图(600 x 720)"
+        },
+        {
+          "type": "image_picker",
+          "id": "main_img2",
+          "label": "主图(600 x 720)"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image slider",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "imageSlider",
+          "settings": {}
+        },
+        {
+          "type": "imageSlider",
+          "settings": {}
+        },
+        {
+          "type": "imageSlider",
+          "settings": {}
+        },
+        {
+          "type": "imageSlider",
+          "settings": {}
+        },
+        {
+          "type": "mainDiagram",
+          "settings": {}
+        },
+        {
+          "type": "imageInfo",
+          "settings": {}
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+  (function () {
+    const sectionId = {{ section.id | json }};
+    const root = document.querySelector('[data-section-id="' + sectionId + '"][data-image-slider]');
+    if (!root) return;
+
+    function cleanup() {
+      if (root._imageSliderCleanup) {
+        root._imageSliderCleanup();
+        root._imageSliderCleanup = null;
+      }
+    }
+
+    function initImageSlider() {
+      cleanup();
+
+      const details = root.querySelector('.details-img');
+      let resizeTimer = 0;
+      let io = null;
+
+      function updateSlideTransform() {
+        if (!details) return;
+        const imgs = details.querySelectorAll('.slick-item img');
+        if (imgs.length <= 1) return;
+
+        const firstImg = imgs[0];
+        const imgWidth = firstImg.getBoundingClientRect().width || firstImg.offsetWidth;
+        if (!imgWidth) return;
+
+        const winWidth = window.innerWidth;
+        const widthSum = winWidth >= 768
+          ? imgWidth * (imgs.length - 1)
+          : imgWidth * (imgs.length - 1.6);
+
+        details.style.setProperty('--slide--img--transform', 'translate(-' + widthSum + 'px)');
+      }
+
+      function onResize() {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(updateSlideTransform, 150);
+      }
+
+      // 图片可能 lazy，加载后再算位移
+      const slideImgs = details ? details.querySelectorAll('.slick-item img') : [];
+      slideImgs.forEach(function (img) {
+        if (img.complete) return;
+        img.addEventListener('load', updateSlideTransform, { once: true });
+      });
+
+      updateSlideTransform();
+      window.addEventListener('resize', onResize);
+
+      // 进入视口才播放动画，离开则暂停（多实例更省性能，也避免同相位感过强）
+      if ('IntersectionObserver' in window) {
+        io = new IntersectionObserver(
+          function (entries) {
+            entries.forEach(function (entry) {
+              root.classList.toggle('is-inview', entry.isIntersecting);
+            });
+          },
+          { rootMargin: '80px', threshold: 0.15 }
+        );
+        io.observe(root);
+      } else {
+        root.classList.add('is-inview');
+      }
+
+      root._imageSliderCleanup = function () {
+        window.removeEventListener('resize', onResize);
+        clearTimeout(resizeTimer);
+        if (io) {
+          io.disconnect();
+          io = null;
+        }
+      };
+    }
+
+    function boot() {
+      initImageSlider();
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', boot, { once: true });
+    } else {
+      boot();
+    }
+
+    document.addEventListener('shopify:section:load', function (e) {
+      if (e.detail && e.detail.sectionId === sectionId) boot();
+    });
+    document.addEventListener('shopify:section:unload', function (e) {
+      if (e.detail && e.detail.sectionId === sectionId) cleanup();
+    });
+  })();
+</script>

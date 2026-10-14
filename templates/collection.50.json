@@ -1,0 +1,320 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "163582397205207ecd": {
+      "type": "rich-text",
+      "blocks": {
+        "163582397205207ecd-1": {
+          "type": "heading",
+          "settings": {
+            "title": "レトロで個性的！50年代メンズファッションとは？",
+            "use_h1": false
+          }
+        },
+        "163582397205207ecd-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DESINGN BY KARAKU| RETRO STYLE</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "163582397205207ecd-1",
+        "163582397205207ecd-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "16358239770de058d3": {
+      "type": "slideshow",
+      "blocks": {
+        "16358239770de058d3-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/ef2e0d08fa8d12aad38859b95e59efce.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16358239770de058d3-1"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 800,
+        "height_mobile": 200,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 3,
+        "accessibility_info": ""
+      }
+    },
+    "1635827082bf87958e": {
+      "type": "rich-text",
+      "blocks": {
+        "1635827082bf87958e-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "introduction"
+          }
+        },
+        "1635827082bf87958e-1": {
+          "type": "heading",
+          "settings": {
+            "title": "1950'S FASHION",
+            "use_h1": false
+          }
+        },
+        "1635827082bf87958e-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>50年代メンズファッションの特徴をご紹介。アメリカのロカビリー、日本の太陽族など歴史に残る50sファッションについて簡単に解説します。現代でも使えるレトロな1950年代スタイルも提案。</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1635827082bf87958e-0",
+        "1635827082bf87958e-1",
+        "1635827082bf87958e-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "1660206629dda00f4d": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_GgfKKX": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1950年代のファッションは「<strong>アメリカン・スタイル</strong>」が基礎となっています。</p><p>理由として、1945年に第二次世界大戦が終わった頃なので、一気にアメリカの文化が流れ込んだ時代になります。</p><p><strong>アメリカの映画・音楽文化がファッションに強く影響を与えました。映画に出演している俳優、女優のスターが着こなしているファッションスタイルが大流行。</strong></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_GgfKKX"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1eb9bde1-1460-485b-b485-3b2bb0e12dfa.jpg",
+        "image_2": "shopify://shop_images/6f24d14f-2b3d-45d7-99f2-d541024f3e60.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "1660206925004d4849": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_X7t7Md": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "50年代メンズファッション"
+          }
+        },
+        "heading_jxQ6r7": {
+          "type": "heading",
+          "settings": {
+            "title": "1、「ロカビリー」",
+            "use_h1": false
+          }
+        },
+        "text_pAWgFB": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1950年代メンズファッション「ロカビリー」とは｜アメリカロックンロールの歴史から生まれたレトロスタイル。1950年代のメンズファッションといえば、<strong>「ロカビリーファッション」</strong>。<strong>エルビス・プレスリー</strong>などのアメリカの「ロックンロール」が流行った時代に生まれたファッションです。</p><p>戦後50年代のアメリカは歴史的な好景気をむかえていました。<br/>そんな中、<strong>若者たちの間で生まれたのが、楽天的で華やかなロカビリーファッションです。</strong>日本では、1958年に「日劇ウエスタン･カーニバル」という音楽フェステイバルが開催され、そこから一気にロカビリーファッションが大流行しました。リーゼントヘアに丈が長めのジャケット、ゆったりとした腰回りから裾にかけてすぼまっていくシルエットのマンボズボンなどのスタイルが特徴的です。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_X7t7Md",
+        "heading_jxQ6r7",
+        "text_pAWgFB"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/ba8906b588ff110a5c57717606c69eb4.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "1635834610c39d49da": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "その他の浮世絵風商品",
+        "collection": "national-treasure-of-japan",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 5,
+        "rows": 5,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "16602072757861e3c0": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_p9Bf8p": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "50年代メンズファッション"
+          }
+        },
+        "heading_ALUdwT": {
+          "type": "heading",
+          "settings": {
+            "title": "2、「太陽族」日本のヤンキースタイルの原点",
+            "use_h1": false
+          }
+        },
+        "text_n7pxCt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>次にご紹介する50年代メンズファッションは、<strong>「太陽族」</strong>です。1950年代の日本では、石原慎太郎の著書「太陽の季節」の映画化のブームが起こりました。<br/><strong>秩序やモラルを持たず、反社会的な生き方をする主人公の青年に憧れを抱く若者が多く現れたのです。</strong>彼らは、その映画の登場人物の生き様やファッションを真似るようになり、<strong>「太陽族」</strong>と呼ばれるようになりました。スポーツ刈りにサングラス、アロハシャツのファッションが特徴的で、<strong>ヤンキースタイルの歴史の原点</strong>となっています。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_p9Bf8p",
+        "heading_ALUdwT",
+        "text_n7pxCt"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/cc26f751-3ae6-412e-8d4d-b566e8208652.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "1660207462630ed346": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_GEqErA": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "50年代メンズファッション"
+          }
+        },
+        "heading_FGeJ8E": {
+          "type": "heading",
+          "settings": {
+            "title": "3、「ボールド・ルック」",
+            "use_h1": false
+          }
+        },
+        "text_PE6Jm6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1950年代のメンズスーツスタイルは、アメリカンな<strong>「ボールド・ルック」</strong>が主流となりました。「ボールド・ルック」とはその名の通り、大胆で力強いルックという意味です。<br/><strong>全体的にダボっとした大きめサイズで、ジャケットには肩パットがしっかり入っているのが特徴的です。</strong>ネクタイも幅が広く、パンツは股上の深い、ゆったりとしたシルエットです。アメリカのジャズマンたちがしていたスーツファッションが、日本で真似をされ、広まったという歴史もあります。</p><p>今っぽくボールド・ルックをメンズファッションに取り入れるには、<strong>肩幅が大きめのレトロなジャケット</strong>をさらりと羽織るのがおすすめです。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_GEqErA",
+        "heading_FGeJ8E",
+        "text_PE6Jm6"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/8cebede9-fa35-43cd-99a1-c16c1f412756.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 50,
+        "grid": 5,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "163582397205207ecd",
+    "16358239770de058d3",
+    "1635827082bf87958e",
+    "1660206629dda00f4d",
+    "1660206925004d4849",
+    "1635834610c39d49da",
+    "16602072757861e3c0",
+    "1660207462630ed346",
+    "main"
+  ]
+}

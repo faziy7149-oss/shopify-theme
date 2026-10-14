@@ -1,0 +1,1911 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "collection_list_pj9rPc": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_H3tpAw": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-new-longsleeve-collection",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_Vzekpw": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-summer-karakualoha",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_DxRrxR": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-summersale-ranking",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_RAPeLx": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-stay-true-1",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_d3mAyE": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-skeleton-items-collection",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_aWMCbP": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-summersale",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_ihC3Ni": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-karaku-cat",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_QGGrxA": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-whitetee-collection",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_kcrDfW": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-fathers-day",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_ar6HP4": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-summer-function-wear",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_wd8RgB": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-long-seller-sneakers",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_j7prXg": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-staff-picks-for-the-journey",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_NNeR9w": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-paisley-tops",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_CMqJYf": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-6th-anniversary-collaboration",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_4tDqWh": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-ocean-patterns",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_6QBcwM": {
+          "type": "collection",
+          "settings": {
+            "collection": "less-but-distinct",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_3Dqg9y": {
+          "type": "collection",
+          "settings": {
+            "collection": "summer-tshirt",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_VR74C7": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-hanamioutfits",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_qnLiRA": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-karakuss-lookbook",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_bF9TKK": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-earlyspring-aloha",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_H3tpAw",
+        "collection_Vzekpw",
+        "collection_DxRrxR",
+        "collection_RAPeLx",
+        "collection_d3mAyE",
+        "collection_aWMCbP",
+        "collection_ihC3Ni",
+        "collection_QGGrxA",
+        "collection_kcrDfW",
+        "collection_ar6HP4",
+        "collection_wd8RgB",
+        "collection_j7prXg",
+        "collection_NNeR9w",
+        "collection_CMqJYf",
+        "collection_4tDqWh",
+        "collection_6QBcwM",
+        "collection_3Dqg9y",
+        "collection_VR74C7",
+        "collection_qnLiRA",
+        "collection_bF9TKK"
+      ],
+      "settings": {
+        "title": "最新特集",
+        "enable_carousel": false,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "tallest",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "1",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "left",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "adjusting_spacing_xWtxE6": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -8,
+        "margin_top2": 0
+      }
+    },
+    "collection_list_4wf698": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_fLTf8k": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-spring-color-coordination",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_PfML7H": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-for-spring",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_TQP6xQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-denim-for-season",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_7648EG": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-search-by-price",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_zLXnTF": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-cat-graphic-sweatshirt-collection",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_hXMLmH": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-best-selling-pants",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_PJxAFN": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-valentines-day",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_Cx4HHb": {
+          "type": "collection",
+          "settings": {
+            "collection": "2026-kp-spring-preorder",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_Fpfffz": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-outfit-for-hatsumode",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_xAWbcy": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-realbuyitem",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_MaCHzT": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-temperature",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_gEqwQd": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-christmasgift",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_VY3LRP": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-woolitems",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_7TYwqR": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-corduroy",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_k3BgHg": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-instagrammers-picked",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_WnfUQ7": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-25aw-karaku-ishiguro",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_JchEYk": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-lightouter",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_jGYqeA": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-men-s-boots",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_4aJRFq": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-karakuplus-lookbook",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_87BABN": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-aw-denimitems",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_fLTf8k",
+        "collection_PfML7H",
+        "collection_TQP6xQ",
+        "collection_7648EG",
+        "collection_zLXnTF",
+        "collection_hXMLmH",
+        "collection_PJxAFN",
+        "collection_Cx4HHb",
+        "collection_Fpfffz",
+        "collection_xAWbcy",
+        "collection_MaCHzT",
+        "collection_gEqwQd",
+        "collection_VY3LRP",
+        "collection_7TYwqR",
+        "collection_k3BgHg",
+        "collection_WnfUQ7",
+        "collection_JchEYk",
+        "collection_jGYqeA",
+        "collection_4aJRFq",
+        "collection_87BABN"
+      ],
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "tallest",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "left",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "adjusting_spacing_NPjb8x": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -8,
+        "margin_top2": 0
+      }
+    },
+    "collection_list_jmgf3E": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_9e7XEp": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-fall-business-casual",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_n8MYX8": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-25fw-lookbook",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_NYqHgw": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-ethnic",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_4zdkPU": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-long-sleeve-t",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_wxWqFw": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-autumnpreorder",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_yqEAL7": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-karakuart-series",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_jbLaiE": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-best-sellers-top-10",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_kxWnRf": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-men-s-jewellery",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_77xq8T": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-rainy-day",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_aHUmYy": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-hanabi",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_RC8pMz": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-father-s-day",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_fDWWFp": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-turquoise-style-button-item",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_ECMwRD": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-forsummer",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_z8zFmz": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-5th-anniversary",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_Yq3MaW": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-spring-summer-denimitems",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_XxzNEN": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-playfulness",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_HheGg4": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-springsweat",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_EcTEk6": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-springlook",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_PYtVBh": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-spring-summer-karaku",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_3kDX4B": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-valentine-s-day-gift",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_9e7XEp",
+        "collection_n8MYX8",
+        "collection_NYqHgw",
+        "collection_4zdkPU",
+        "collection_wxWqFw",
+        "collection_yqEAL7",
+        "collection_jbLaiE",
+        "collection_kxWnRf",
+        "collection_77xq8T",
+        "collection_aHUmYy",
+        "collection_RC8pMz",
+        "collection_fDWWFp",
+        "collection_ECMwRD",
+        "collection_z8zFmz",
+        "collection_Yq3MaW",
+        "collection_XxzNEN",
+        "collection_HheGg4",
+        "collection_EcTEk6",
+        "collection_PYtVBh",
+        "collection_3kDX4B"
+      ],
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "tallest",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "left",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "adjusting_spacing_tEeQfp": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -8,
+        "margin_top2": 0
+      }
+    },
+    "collection_list_V8DU44": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_yn3gTb": {
+          "type": "collection",
+          "settings": {
+            "collection": "2025-goods-accessories",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_HFeGgt": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-christmasday",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_zbbTd3": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-25ss-springpreorder",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_6JjdCG": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-fleece-items",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_dkHgEA": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-best-hit-item-ranking",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_ktP6WL": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-knit",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_c9Py6j": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-checkshirt",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_e6XkUA": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-laceshirt",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_YF7K8Y": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-trendingkeywords",
+            "image": "shopify://shop_images/171___1080_52958849-b89e-4292-8310-0c167d4bcbed_1.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_W8GV6d": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-fathers-day",
+            "image": "shopify://shop_images/171___1080_fee0c577-5109-494c-8003-b8186d080e57.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_echAeT": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-pattern-alohashirt",
+            "image": "shopify://shop_images/146___1080_5afb2cae-6f86-4376-94ec-fe4ba1ca9d13.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_eAFXGF": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-4th-blue",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_kz7VXa": {
+          "type": "collection",
+          "settings": {
+            "collection": "karakuⅹmetamount",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_JAzKd8": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-springdenimitems",
+            "image": "shopify://shop_images/1080_7d246f91-70ae-484c-9580-64206f106076_1.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_eDnKj9": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-spring-plainshirts",
+            "image": "shopify://shop_images/44___1080_ab6e1a8d-5ec9-4a49-91bb-859ea008a899.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_yjxDJK": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-newlifesupport",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_TVayCU": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-militaryitems",
+            "image": "shopify://shop_images/M_f6dfbc82-6cff-4828-bbab-3856873f6d0a.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_zahLr4": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-animalseries-sukajan",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_TiJnXe": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-winterlookbook",
+            "image": "shopify://shop_images/1080-2_1_b681da70-8e6e-4c44-9a80-ca7230b52843.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_HUdpXU": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-ethnicitems",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_yn3gTb",
+        "collection_HFeGgt",
+        "collection_zbbTd3",
+        "collection_6JjdCG",
+        "collection_dkHgEA",
+        "collection_ktP6WL",
+        "collection_c9Py6j",
+        "collection_e6XkUA",
+        "collection_YF7K8Y",
+        "collection_W8GV6d",
+        "collection_echAeT",
+        "collection_eAFXGF",
+        "collection_kz7VXa",
+        "collection_JAzKd8",
+        "collection_eDnKj9",
+        "collection_yjxDJK",
+        "collection_TVayCU",
+        "collection_zahLr4",
+        "collection_TiJnXe",
+        "collection_HUdpXU"
+      ],
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "tallest",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "left",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "adjusting_spacing_9eKqT7": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -8,
+        "margin_top2": 0
+      }
+    },
+    "collection_list_GTMGkQ": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_kJcJTd": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-outfit-by-temperature",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_YPB6kX": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-autumn-preorder",
+            "image": "shopify://shop_images/304___1080_53a8e418-6e54-4f1c-8be0-efd03abc0229.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_TjKy93": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-newlifesupport",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_3MdJzE": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-pre-cat-alohashirts",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_dCkwDY": {
+          "type": "collection",
+          "settings": {
+            "collection": "2023-downjacket",
+            "image": "shopify://shop_images/M_cd43d4b0-306e-4664-b6af-04a775a16752.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_hVCRMe": {
+          "type": "collection",
+          "settings": {
+            "collection": "2023-christmas-gift-top10",
+            "image": "shopify://shop_images/M_841786be-5fe0-4c48-a099-ecb141383222.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_GcgyqT": {
+          "type": "collection",
+          "settings": {
+            "collection": "souvenir-jacket",
+            "image": "shopify://shop_images/7_8ac3ec48-c667-42db-ab3b-98fa9078eead.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_Ah9Xj4": {
+          "type": "collection",
+          "settings": {
+            "collection": "2023-blackfriday-sale",
+            "image": "shopify://shop_images/20231110-100442_540x_14d4035f-e494-4ac4-9981-e15dec2d49f6.webp",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_zkRQGK": {
+          "type": "collection",
+          "settings": {
+            "collection": "2023-on-off-items",
+            "image": "shopify://shop_images/2_1e0a072d-b407-4306-b76e-72190d9bb448.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_YMftPp": {
+          "type": "collection",
+          "settings": {
+            "collection": "2023-ethnic",
+            "image": "shopify://shop_images/7_2_43ff6d92-1b8e-4ca1-afaa-15d849239737.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_nRqayY": {
+          "type": "collection",
+          "settings": {
+            "collection": "must-have-items-for-early-autumn",
+            "image": "shopify://shop_images/12_87c2c84b-4176-42a2-893b-0f3d878d35d2.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_8t3h38": {
+          "type": "collection",
+          "settings": {
+            "collection": "hit-item-firsthalf-of-2023",
+            "image": "shopify://shop_images/2_1522ef1a-c5bb-4dc6-a3af-1871b05de36b.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_7eQRFh": {
+          "type": "collection",
+          "settings": {
+            "collection": "2023-autumn-pre-order",
+            "image": "shopify://shop_images/2_40bd19d3-90d3-495d-b47c-485434fe2238.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_YhWJiF": {
+          "type": "collection",
+          "settings": {
+            "collection": "cleanstyle",
+            "image": "shopify://shop_images/banner_2_3_782eef2b-5d9e-4053-bcb0-8ccad2189d56.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_h8jFJz": {
+          "type": "collection",
+          "settings": {
+            "collection": "2023-stripeshirts",
+            "image": "shopify://shop_images/2_32c90477-72f9-41e3-8040-5e4e713aa0ed.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_ae3whD": {
+          "type": "collection",
+          "settings": {
+            "collection": "2023-summer-collection",
+            "image": "shopify://shop_images/2_a2cfa7ae-2236-45d5-90b5-645fafa06f3a.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_DjpRz3": {
+          "type": "collection",
+          "settings": {
+            "collection": "oh-aloha-shirts",
+            "image": "shopify://shop_images/624_M_582c3102-9250-48d6-aa9e-e71838ad4cfb.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_zXXmhj": {
+          "type": "collection",
+          "settings": {
+            "collection": "2023summer-accesories",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_mNztka": {
+          "type": "collection",
+          "settings": {
+            "collection": "nekosuki",
+            "image": "shopify://shop_images/20230517-111033_be79bb99-2d2c-491d-b7a6-0eb11872b173.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_KRPyxg": {
+          "type": "collection",
+          "settings": {
+            "collection": "autumn-sweatshirt",
+            "image": "shopify://shop_images/2_aa2f3038-d57c-4b01-b868-a60de2d3bc73.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_kJcJTd",
+        "collection_YPB6kX",
+        "collection_TjKy93",
+        "collection_3MdJzE",
+        "collection_dCkwDY",
+        "collection_hVCRMe",
+        "collection_GcgyqT",
+        "collection_Ah9Xj4",
+        "collection_zkRQGK",
+        "collection_YMftPp",
+        "collection_nRqayY",
+        "collection_8t3h38",
+        "collection_7eQRFh",
+        "collection_YhWJiF",
+        "collection_h8jFJz",
+        "collection_ae3whD",
+        "collection_DjpRz3",
+        "collection_zXXmhj",
+        "collection_mNztka",
+        "collection_KRPyxg"
+      ],
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "tallest",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "left",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "adjusting_spacing_H6VCb6": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -8,
+        "margin_top2": 0
+      }
+    },
+    "collection_list_QDka3P": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_cHWyaQ": {
+          "type": "collection",
+          "settings": {
+            "collection": "outdoor-townuse",
+            "image": "shopify://shop_images/9f51552b11f9d48d1aa47638aceefcfb_ba27a229-26bd-493e-bc85-cbcae3b2dc4e.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_NCdpc6": {
+          "type": "collection",
+          "settings": {
+            "collection": "polo2023-huang",
+            "image": "shopify://shop_images/mobile_606588b6-ebb3-4c39-924f-559744ff7149.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_kgqMXm": {
+          "type": "collection",
+          "settings": {
+            "collection": "german-army-trainer-4-options",
+            "image": "shopify://shop_images/banner_2_b5934f60-68b0-42b6-b8ac-7f94f82edeff_1.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_UmFXCW": {
+          "type": "collection",
+          "settings": {
+            "collection": "karaku-best-item",
+            "image": "shopify://shop_images/banner_2_6d5b7fda-dab1-423f-b612-8f7edf060dff.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_ycWydP": {
+          "type": "collection",
+          "settings": {
+            "collection": "2022-karaku-gift",
+            "image": "shopify://shop_images/20221214-140000.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_rcXPne": {
+          "type": "collection",
+          "settings": {
+            "collection": "weatherforecaster-winter",
+            "image": "shopify://shop_images/20221123-143312.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_KzpfTE": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessory-feature",
+            "image": "shopify://shop_images/292-_banner_2_6ea362db-045a-4e22-b36f-d890063307df.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_fgzx6Q": {
+          "type": "collection",
+          "settings": {
+            "collection": "military-styling",
+            "image": "shopify://shop_images/20221028-134731.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_NdHcmk": {
+          "type": "collection",
+          "settings": {
+            "collection": "karaku-weather-forecast",
+            "image": "shopify://shop_images/20221014-111533.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_LKrJcU": {
+          "type": "collection",
+          "settings": {
+            "collection": "2022-23-autumn-recommended-coordination-10",
+            "image": "shopify://shop_images/10_13_1.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_iHXmHP": {
+          "type": "collection",
+          "settings": {
+            "collection": "seasonless-striped-shirts",
+            "image": "shopify://shop_images/3_cb5a7029-c803-486b-b24e-8c3ad3ca3f0a.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_MWWrRc": {
+          "type": "collection",
+          "settings": {
+            "collection": "2022-august-special-series",
+            "image": "shopify://shop_images/8_M_1_1.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_3wcUjw": {
+          "type": "collection",
+          "settings": {
+            "collection": "2022-autumn-feature-series",
+            "image": "shopify://shop_images/20220725-175357.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_b6hk8W": {
+          "type": "collection",
+          "settings": {
+            "collection": "summer-sale-2022",
+            "image": "shopify://shop_images/SALE_M_9d4ae05a-2ba2-4000-a5f9-fffb4b1f5baf.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_DwJENE": {
+          "type": "collection",
+          "settings": {
+            "collection": "7-styles-of-j",
+            "image": "shopify://shop_images/20220712-163733.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_cHWyaQ",
+        "collection_NCdpc6",
+        "collection_kgqMXm",
+        "collection_UmFXCW",
+        "collection_ycWydP",
+        "collection_rcXPne",
+        "collection_KzpfTE",
+        "collection_fgzx6Q",
+        "collection_NdHcmk",
+        "collection_LKrJcU",
+        "collection_iHXmHP",
+        "collection_MWWrRc",
+        "collection_3wcUjw",
+        "collection_b6hk8W",
+        "collection_DwJENE"
+      ],
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "shortest",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "left",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "adjusting_spacing_QteLPy": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -8,
+        "margin_top2": 0
+      }
+    },
+    "927b182c-5ebe-4e79-80f2-ab733e257a81": {
+      "type": "collection-list",
+      "blocks": {
+        "0e84b6f6-340d-42f5-8275-cc8d7cafbf04": {
+          "type": "collection",
+          "settings": {
+            "collection": "手作り-ジャパン-ブルー",
+            "image": "shopify://shop_images/Blue_Japan_1_10a93fc3-4c76-4dbc-9ae1-07aec0b3f865.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "8d214ec0-58d1-4aa8-8396-e65df6aa42fe": {
+          "type": "collection",
+          "settings": {
+            "collection": "ma-1-flight-jackets",
+            "image": "shopify://shop_images/MA-1_Jackets_1_64ae1d73-34ea-47d1-aea1-abb1e3cbc600.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "7d8a2d7d-73d2-402f-87ad-cecf44ff16a1": {
+          "type": "collection",
+          "settings": {
+            "collection": "ミリタリーはいつもトレンドの中心にある",
+            "image": "shopify://shop_images/Military_Retro_1_2f5c3f5b-4f0f-4fb1-a80f-f0a2de6a048d.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "b3babdea-75ae-4d6d-a1f9-6a8c02014bb3": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "最高にかっこいい生地のwabash-ウォバッシュ-とは-アメカジにおすすめ",
+            "image": "shopify://shop_images/20220530-151704.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "6c828ced-2f3d-457c-9567-66c01bfd9213": {
+          "type": "collection",
+          "settings": {
+            "collection": "再構築ファッション",
+            "image": "shopify://shop_images/Patchwork_Style_1_6018b1af-3928-42ae-8fbf-2a959565ebd6.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "a106f8ce-c0bb-42c4-aff9-512643b2d714": {
+          "type": "collection",
+          "settings": {
+            "collection": "motorcycle-fashion",
+            "image": "shopify://shop_images/output.lin_1_3b0c69cb-37aa-49f8-8a0a-7530236fa19c.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "5af38b11-a3f2-438a-a6a0-a74c1a27e94e": {
+          "type": "collection",
+          "settings": {
+            "collection": "urban-ninja",
+            "image": "shopify://shop_images/output.lin_9e15806e-e96f-4eb4-a079-cd998ffe5e91.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "26068a58-be58-4a08-bffe-ef0d28048bc9": {
+          "type": "collection",
+          "settings": {
+            "collection": "navajo-style",
+            "image": "shopify://shop_images/Navajo_Style_1_3a226ef8-3ea4-42b3-b796-507ab1f64dba.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "105f7631-2a01-4220-9b8c-de22a8b62ed9": {
+          "type": "collection",
+          "settings": {
+            "collection": "sukajan",
+            "image": "shopify://shop_images/20231201174322.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "0e84b6f6-340d-42f5-8275-cc8d7cafbf04",
+        "8d214ec0-58d1-4aa8-8396-e65df6aa42fe",
+        "7d8a2d7d-73d2-402f-87ad-cecf44ff16a1",
+        "b3babdea-75ae-4d6d-a1f9-6a8c02014bb3",
+        "6c828ced-2f3d-457c-9567-66c01bfd9213",
+        "a106f8ce-c0bb-42c4-aff9-512643b2d714",
+        "5af38b11-a3f2-438a-a6a0-a74c1a27e94e",
+        "26068a58-be58-4a08-bffe-ef0d28048bc9",
+        "105f7631-2a01-4220-9b8c-de22a8b62ed9"
+      ],
+      "settings": {
+        "title": "厳選特集",
+        "enable_carousel": false,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "tallest",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "left",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "main": {
+      "type": "main-list-collections",
+      "blocks": {
+        "image_KTRqBx": {
+          "type": "image",
+          "settings": {
+            "collection": "2024-animalseries-sukajan",
+            "image": "shopify://shop_images/01__1080.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "image_xB848p": {
+          "type": "image",
+          "settings": {
+            "collection": "2024-trendcolor-brown",
+            "image": "shopify://shop_images/455-_-__1080.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "image_qTmRQM": {
+          "type": "image",
+          "settings": {
+            "collection": "2024-winterlookbook",
+            "image": "shopify://shop_images/1080-2_1177461b-4da2-492b-8100-e4c892862786.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "image_jqdmyC": {
+          "type": "image",
+          "settings": {
+            "collection": "2024-ethnicitems",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "image_gVc4ap": {
+          "type": "image",
+          "settings": {
+            "collection": "2024-early-autumn-outdoor",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "image_W99rAW": {
+          "type": "image",
+          "settings": {
+            "collection": "2024-outfit-by-temperature",
+            "image": "shopify://shop_images/20241031-180754_941bab9d-7b41-41da-839e-8149bee74eae.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "image_e6Xecy": {
+          "type": "image",
+          "settings": {
+            "collection": "2024-autumn-preorder",
+            "image": "shopify://shop_images/304___1080_ca8290e9-6bac-49f2-8d33-2ec760908dc6.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "image_MXYCHq": {
+          "type": "image",
+          "settings": {
+            "collection": "2024-newlifesupport",
+            "image": "shopify://shop_images/20240315-182711.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "image_yi8EaC": {
+          "type": "image",
+          "settings": {
+            "collection": "2024-militaryitems",
+            "image": "shopify://shop_images/M_e11d9735-094e-4262-b2ae-ba40f1ae2c31.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "image_QzaDmT": {
+          "type": "image",
+          "settings": {
+            "collection": "2024-summersale",
+            "image": "shopify://shop_images/267___1080.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "image_kMFRNb": {
+          "type": "image",
+          "settings": {
+            "collection": "2024-valentines-day-gift",
+            "image": "shopify://shop_images/M_a372c681-357d-4d03-b887-9d4ab3002b38.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "image_mVTVb9": {
+          "type": "image",
+          "settings": {
+            "collection": "2024-pre-cat-alohashirts",
+            "image": "shopify://shop_images/M_e77c5b7d-592b-4d0b-8ba2-d18eba4ce7d7.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "91a1ee5c-e1b6-4c97-9a69-47ff4ad67f0f": {
+          "type": "image",
+          "settings": {
+            "collection": "must-have-items-for-early-autumn",
+            "image": "shopify://shop_images/12_87c2c84b-4176-42a2-893b-0f3d878d35d2.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "4e491a73-5fd2-4e75-b544-83620e6fa506": {
+          "type": "image",
+          "settings": {
+            "collection": "hit-item-firsthalf-of-2023",
+            "image": "shopify://shop_images/2_1522ef1a-c5bb-4dc6-a3af-1871b05de36b.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "334d587e-c757-410a-881e-b1a211d8da75": {
+          "type": "image",
+          "settings": {
+            "collection": "cleanstyle",
+            "image": "shopify://shop_images/banner_2_3_782eef2b-5d9e-4053-bcb0-8ccad2189d56.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "f1e1a9d0-774d-4b67-b241-8417723da002": {
+          "type": "image",
+          "settings": {
+            "collection": "summertrip-8tops",
+            "image": "shopify://shop_images/732_b633020c-ed86-48c5-8d38-606b2414a812.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "0a521bfc-71ec-48bd-a30f-1a40a41ef8e7": {
+          "type": "image",
+          "settings": {
+            "collection": "2023summer-accesories",
+            "image": "shopify://shop_images/20230717-182801.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "806ac15c-c52b-4ea6-93ae-40cf315a4eea": {
+          "type": "image",
+          "settings": {
+            "collection": "2023fathersday",
+            "image": "shopify://shop_images/3_8bb8435e-2578-44b7-ab71-1d5db41ac534.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "04373cb5-0b87-41c1-a35c-d6676c65757a": {
+          "type": "image",
+          "settings": {
+            "collection": "nekosuki",
+            "image": "shopify://shop_images/20230517-111033.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "43c0f57e-2028-454e-80ae-111b32ed5106": {
+          "type": "image",
+          "settings": {
+            "collection": "autumn-sweatshirt",
+            "image": "shopify://shop_images/2_f1a522af-7356-45fc-865c-c9e512ea5e6a.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "45e976ca-09ac-48ea-abcf-f9a88a37783b": {
+          "type": "image",
+          "settings": {
+            "collection": "outdoor-townuse",
+            "image": "shopify://shop_images/9f51552b11f9d48d1aa47638aceefcfb.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "e3432604-b63a-4f21-8d87-3f63b2ccb80e": {
+          "type": "image",
+          "settings": {
+            "collection": "polo2023-huang",
+            "image": "shopify://shop_images/mobile.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "d9d11546-269b-4add-ac58-f9caaceba653": {
+          "type": "image",
+          "settings": {
+            "collection": "german-army-trainer-4-options",
+            "image": "shopify://shop_images/banner_2_b5934f60-68b0-42b6-b8ac-7f94f82edeff.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "a4cca7dd-771a-4570-9a62-d0a2d4e2dfff": {
+          "type": "image",
+          "settings": {
+            "collection": "2023-03-27-no-sweater-no-life",
+            "image": "shopify://shop_images/2_2891d005-2acf-4a67-8440-c0e6bf9dad05.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "c5cb0cf0-f488-4d82-824e-03647ecc652a": {
+          "type": "image",
+          "settings": {
+            "collection": "the-best-leather-jacket",
+            "image": "shopify://shop_images/banner_2_ece747a8-7d6c-40df-9202-9ee7e83341d4.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "410ea81f-20e7-4434-88f6-764a09b03091": {
+          "type": "image",
+          "settings": {
+            "collection": "japan-blue",
+            "image": "shopify://shop_images/457-M_ac933773-7a0b-4ecf-ad19-e6795791a488.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "f1b9b1e9-3530-482f-b52b-bf871369f966": {
+          "type": "image",
+          "settings": {
+            "collection": "ukiyo-e-prints",
+            "image": "shopify://shop_images/20230220-170530_1.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "961c0ec2-431c-42ee-a281-efc517932086": {
+          "type": "image",
+          "settings": {
+            "collection": "perfectoils",
+            "image": "shopify://shop_images/61_e901918b-1266-4acc-829b-458a51d816a6_1.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "a5799c58-757f-4291-8e87-dc0e7674929b": {
+          "type": "image",
+          "settings": {
+            "collection": "favorite-2022-2023-items",
+            "image": "shopify://shop_images/banner_2_5e3ba032-fc08-4fb3-8cbc-db28b2e4e018.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "dcbaa9cf-1d58-4fa6-bb4a-4ad7a661ab9f": {
+          "type": "image",
+          "settings": {
+            "collection": "2023-spring-color-collection",
+            "image": "shopify://shop_images/4_ecc0d109-377b-4937-b631-cfe4402cb174.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "196d10dc-5cbc-4fda-a7bc-15388553b7d5": {
+          "type": "image",
+          "settings": {
+            "collection": "karaku-best-item",
+            "image": "shopify://shop_images/banner_2_6d5b7fda-dab1-423f-b612-8f7edf060dff.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "d3cfe938-c944-451a-b58e-241ad8634e62": {
+          "type": "image",
+          "settings": {
+            "collection": "2022-karaku-gift",
+            "image": "shopify://shop_images/20221214-140000.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "63b0e9ea-58c1-4258-89ce-bb2899c5f23b": {
+          "type": "image",
+          "settings": {
+            "collection": "weatherforecaster-winter",
+            "image": "shopify://shop_images/20221123-143312.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "dc5ca730-f598-4253-9da9-0988b1e87b3d": {
+          "type": "image",
+          "settings": {
+            "collection": "accessory-feature",
+            "image": "shopify://shop_images/292-_banner_2_6ea362db-045a-4e22-b36f-d890063307df.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "c0a9e6fd-2118-4ef3-b80e-7292c939f40a": {
+          "type": "image",
+          "settings": {
+            "collection": "military-styling",
+            "image": "shopify://shop_images/20221028-134731.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "408f7c72-54ad-4c90-bf60-f43b6e5867fa": {
+          "type": "image",
+          "settings": {
+            "collection": "karaku-weather-forecast",
+            "image": "shopify://shop_images/20221014-111533.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "c80b504f-8f1e-43c4-b8b5-7f33e19a8243": {
+          "type": "image",
+          "settings": {
+            "collection": "2022-23-autumn-recommended-coordination-10",
+            "image": "shopify://shop_images/10_13_1.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "332eaa61-b150-4b98-a976-28c7c2773791": {
+          "type": "image",
+          "settings": {
+            "collection": "seasonless-striped-shirts",
+            "image": "shopify://shop_images/3_cb5a7029-c803-486b-b24e-8c3ad3ca3f0a.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "38f0e69a-4ca0-4ccb-97f4-d8df912ccb68": {
+          "type": "image",
+          "settings": {
+            "collection": "the-former-counterculture-symbolized-by-jeans",
+            "image": "shopify://shop_images/20220819-163307.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "f8e18c02-0372-4444-a3ba-80f5252f39d8": {
+          "type": "image",
+          "settings": {
+            "collection": "2022-august-special-series",
+            "image": "shopify://shop_images/8_M_1_1.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "8f9e464d-c5e6-42bd-a210-f2425885e051": {
+          "type": "image",
+          "settings": {
+            "collection": "2022-autumn-feature-series",
+            "image": "shopify://shop_images/20220725-175357.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "c0212a25-9dc9-4656-ba64-6ff2ea15af5c": {
+          "type": "image",
+          "settings": {
+            "collection": "summer-sale-2022",
+            "image": "shopify://shop_images/SALE_M_9d4ae05a-2ba2-4000-a5f9-fffb4b1f5baf.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "83d4be98-398a-4eb3-afad-ef89a1c0cc50": {
+          "type": "image",
+          "settings": {
+            "collection": "7-styles-of-j",
+            "image": "shopify://shop_images/20220712-163733.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "bc4b7952-7a2d-49ba-bd80-355fdb76bfc5": {
+          "type": "image",
+          "settings": {
+            "collection": "2022-blacttshirt",
+            "image": "shopify://shop_images/T_m_034de41b-5825-4a54-a6ed-1d91ac176180.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "c3c9d668-889c-46d0-ba0f-151cc1f7c2ac": {
+          "type": "image",
+          "settings": {
+            "collection": "highly-rated-item",
+            "image": "shopify://shop_images/6_M_f108a300-96eb-4d98-a0d6-cc2ac62684b0.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "d8588bb2-5713-4b68-b19a-e4cd8aa4d4c7": {
+          "type": "image",
+          "settings": {
+            "collection": "tiger-2022-summer",
+            "image": "shopify://shop_images/M_f1de825d-8e05-4a5c-9013-d6dc4e7a4504.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "17ebfa76-9848-4dca-90f3-e341b8fc9922": {
+          "type": "image",
+          "settings": {
+            "collection": "the-best-gift-ranking-fathers-day",
+            "image": "shopify://shop_images/M_e5b325ee-6833-41aa-8b57-873c6a7f4906_1.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "6edee658-8886-4282-af0f-968b90939ecb": {
+          "type": "image",
+          "settings": {
+            "collection": "a-new-selection-in-the-spring-of-2022",
+            "image": "shopify://shop_images/20220408-173301.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "image_C69ARb": {
+          "type": "image",
+          "settings": {
+            "collection": "",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_KTRqBx",
+        "image_xB848p",
+        "image_qTmRQM",
+        "image_jqdmyC",
+        "image_gVc4ap",
+        "image_W99rAW",
+        "image_e6Xecy",
+        "image_MXYCHq",
+        "image_yi8EaC",
+        "image_QzaDmT",
+        "image_kMFRNb",
+        "image_mVTVb9",
+        "91a1ee5c-e1b6-4c97-9a69-47ff4ad67f0f",
+        "4e491a73-5fd2-4e75-b544-83620e6fa506",
+        "334d587e-c757-410a-881e-b1a211d8da75",
+        "f1e1a9d0-774d-4b67-b241-8417723da002",
+        "0a521bfc-71ec-48bd-a30f-1a40a41ef8e7",
+        "806ac15c-c52b-4ea6-93ae-40cf315a4eea",
+        "04373cb5-0b87-41c1-a35c-d6676c65757a",
+        "43c0f57e-2028-454e-80ae-111b32ed5106",
+        "45e976ca-09ac-48ea-abcf-f9a88a37783b",
+        "e3432604-b63a-4f21-8d87-3f63b2ccb80e",
+        "d9d11546-269b-4add-ac58-f9caaceba653",
+        "a4cca7dd-771a-4570-9a62-d0a2d4e2dfff",
+        "c5cb0cf0-f488-4d82-824e-03647ecc652a",
+        "410ea81f-20e7-4434-88f6-764a09b03091",
+        "f1b9b1e9-3530-482f-b52b-bf871369f966",
+        "961c0ec2-431c-42ee-a281-efc517932086",
+        "a5799c58-757f-4291-8e87-dc0e7674929b",
+        "dcbaa9cf-1d58-4fa6-bb4a-4ad7a661ab9f",
+        "196d10dc-5cbc-4fda-a7bc-15388553b7d5",
+        "d3cfe938-c944-451a-b58e-241ad8634e62",
+        "63b0e9ea-58c1-4258-89ce-bb2899c5f23b",
+        "dc5ca730-f598-4253-9da9-0988b1e87b3d",
+        "c0a9e6fd-2118-4ef3-b80e-7292c939f40a",
+        "408f7c72-54ad-4c90-bf60-f43b6e5867fa",
+        "c80b504f-8f1e-43c4-b8b5-7f33e19a8243",
+        "332eaa61-b150-4b98-a976-28c7c2773791",
+        "38f0e69a-4ca0-4ccb-97f4-d8df912ccb68",
+        "f8e18c02-0372-4444-a3ba-80f5252f39d8",
+        "8f9e464d-c5e6-42bd-a210-f2425885e051",
+        "c0212a25-9dc9-4656-ba64-6ff2ea15af5c",
+        "83d4be98-398a-4eb3-afad-ef89a1c0cc50",
+        "bc4b7952-7a2d-49ba-bd80-355fdb76bfc5",
+        "c3c9d668-889c-46d0-ba0f-151cc1f7c2ac",
+        "d8588bb2-5713-4b68-b19a-e4cd8aa4d4c7",
+        "17ebfa76-9848-4dca-90f3-e341b8fc9922",
+        "6edee658-8886-4282-af0f-968b90939ecb",
+        "image_C69ARb"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "すべての特集",
+        "display_type": "all",
+        "grid": 4,
+        "coll_grid_image_shape": "shortest",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    }
+  },
+  "order": [
+    "collection_list_pj9rPc",
+    "adjusting_spacing_xWtxE6",
+    "collection_list_4wf698",
+    "adjusting_spacing_NPjb8x",
+    "collection_list_jmgf3E",
+    "adjusting_spacing_tEeQfp",
+    "collection_list_V8DU44",
+    "adjusting_spacing_9eKqT7",
+    "collection_list_GTMGkQ",
+    "adjusting_spacing_H6VCb6",
+    "collection_list_QDka3P",
+    "adjusting_spacing_QteLPy",
+    "927b182c-5ebe-4e79-80f2-ab733e257a81",
+    "main"
+  ]
+}

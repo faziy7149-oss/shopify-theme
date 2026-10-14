@@ -1,0 +1,416 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "settings": {
+        "show_date": true,
+        "show_author": true,
+        "show_article_tags": true,
+        "show_sharing_icons": true,
+        "show_twitter": true,
+        "show_facebook": true,
+        "show_pinterest": true,
+        "show_featured_image": false,
+        "full_width_image": true,
+        "featured_image_height": "huge",
+        "enable_title_overlay": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "slideshow_GbEEVJ": {
+      "type": "slideshow",
+      "blocks": {
+        "image_Y8kmp3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/VS-0093__1920_cd471cf3-62da-4d4f-942b-fc7cef017a9c.jpg",
+            "mobile_image": "shopify://shop_images/VS-0093__1080_55ac6c69-e1c3-4fa1-83ff-9f2cd34a87f5.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_Y8kmp3"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "adjusting_spacing_QdUpLi": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": 3,
+        "margin_top2": 1
+      }
+    },
+    "image_AzxtfW": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_397e9d81-140b-4c22-a6f2-186f356f2a1f.png",
+        "mobile_image": "shopify://shop_images/720_1dd45006-0575-4c18-83e1-cf407c33b0df.png",
+        "img_rul": ""
+      }
+    },
+    "image_list_E8dmp3": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_JnJKLN": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/400-1.png",
+            "image_list_link": "shopify://products/krk-zyd-sh-260135"
+          }
+        },
+        "imagelist_jQRFG3": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/400-2.png",
+            "image_list_link": "shopify://products/krk-zj-260256"
+          }
+        },
+        "imagelist_NN7WHU": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/400-3.png",
+            "image_list_link": "shopify://products/krk-ae519c"
+          }
+        },
+        "imagelist_tiALRy": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/400-4.png",
+            "image_list_link": "shopify://products/krk-gsh-sh260119"
+          }
+        },
+        "imagelist_dUUhjd": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/400-5.png",
+            "image_list_link": "shopify://products/krk-zyd-sh260241"
+          }
+        },
+        "imagelist_Kab4HU": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/400-6.png",
+            "image_list_link": "shopify://products/krk-gsh-sh260413"
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_JnJKLN",
+        "imagelist_jQRFG3",
+        "imagelist_NN7WHU",
+        "imagelist_tiALRy",
+        "imagelist_dUUhjd",
+        "imagelist_Kab4HU"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "shake"
+      }
+    },
+    "background_image_KMCEMx": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#2654A4",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_jump_custom_9FpNWY": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_zgGwj6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_455ceb34-825a-4594-b05f-c7133a4ce6b3.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_zgGwj6"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_and_text_links_j7igNa": {
+      "type": "image-and-text-links",
+      "blocks": {
+        "text_link_WkAb4R": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "SHIRT",
+            "discounted_price": "¥10,070",
+            "original_price": "¥12,590",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-zyd-sh-260135?_pos=2&_sid=7b7e29f71&_ss=r&variant=48357429412059"
+          }
+        }
+      },
+      "block_order": [
+        "text_link_WkAb4R"
+      ],
+      "name": "1",
+      "settings": {
+        "image": "shopify://shop_images/1080-1.png",
+        "coll_grid_image_shape": "shortest",
+        "image_position": "column-reverse",
+        "styling_all_text": "",
+        "styling_all_link": "",
+        "max_width_screen": 900,
+        "title_color": "#FF7909",
+        "discounted_price": "#FFFFFF",
+        "original_price": "#252A2C"
+      }
+    },
+    "image_and_text_links_LNMbxf": {
+      "type": "image-and-text-links",
+      "blocks": {
+        "text_link_PxFqYU": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "SHIRT",
+            "discounted_price": "¥7,999",
+            "original_price": "¥10,980",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-zj-260256?_pos=2&_sid=43aa30a9b&_ss=r&variant=48509773611227"
+          }
+        }
+      },
+      "block_order": [
+        "text_link_PxFqYU"
+      ],
+      "name": "2",
+      "settings": {
+        "image": "shopify://shop_images/1080-2.png",
+        "coll_grid_image_shape": "shortest",
+        "image_position": "column-reverse",
+        "styling_all_text": "",
+        "styling_all_link": "",
+        "max_width_screen": 900,
+        "title_color": "#FF7909",
+        "discounted_price": "#FFFFFF",
+        "original_price": "#252A2C"
+      }
+    },
+    "image_jump_custom_PzEQF4": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_ELB3A6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_8aebf5f4-5539-4428-93e3-66a0b6100480.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ELB3A6"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_and_text_links_WFVxqE": {
+      "type": "image-and-text-links",
+      "blocks": {
+        "text_link_EpfiX3": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "SHIRT",
+            "discounted_price": "¥6,550",
+            "original_price": "¥8,190",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-ae519c?_pos=4&_sid=5407ac180&_ss=r&variant=44108817531099"
+          }
+        }
+      },
+      "block_order": [
+        "text_link_EpfiX3"
+      ],
+      "name": "3",
+      "settings": {
+        "image": "shopify://shop_images/1080-3.png",
+        "coll_grid_image_shape": "shortest",
+        "image_position": "column-reverse",
+        "styling_all_text": "",
+        "styling_all_link": "",
+        "max_width_screen": 900,
+        "title_color": "#FF7909",
+        "discounted_price": "#FFFFFF",
+        "original_price": "#252A2C"
+      }
+    },
+    "image_and_text_links_nqp49i": {
+      "type": "image-and-text-links",
+      "blocks": {
+        "text_link_gTDKJb": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "SHIRT",
+            "discounted_price": "¥7,130",
+            "original_price": "¥10,980",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-gsh-sh260119?_pos=1&_sid=f2f45c386&_ss=r&variant=48509500555483"
+          }
+        }
+      },
+      "block_order": [
+        "text_link_gTDKJb"
+      ],
+      "name": "4",
+      "settings": {
+        "image": "shopify://shop_images/1080-4.png",
+        "coll_grid_image_shape": "shortest",
+        "image_position": "column-reverse",
+        "styling_all_text": "",
+        "styling_all_link": "",
+        "max_width_screen": 900,
+        "title_color": "#FF7909",
+        "discounted_price": "#FFFFFF",
+        "original_price": "#252A2C"
+      }
+    },
+    "image_jump_custom_6kj8aU": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_iGEYkM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_007b3a3c-7da6-464b-992a-061bbc7f1f67.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_iGEYkM"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_and_text_links_whnVwU": {
+      "type": "image-and-text-links",
+      "blocks": {
+        "text_link_qzVKCM": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "SHIRT",
+            "discounted_price": "¥10,390",
+            "original_price": "¥12,980",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-zyd-sh260241?_pos=1&_sid=83435d2ef&_ss=r&variant=48608112247003"
+          }
+        }
+      },
+      "block_order": [
+        "text_link_qzVKCM"
+      ],
+      "name": "5",
+      "settings": {
+        "image": "shopify://shop_images/1080-5.png",
+        "coll_grid_image_shape": "shortest",
+        "image_position": "column-reverse",
+        "styling_all_text": "",
+        "styling_all_link": "",
+        "max_width_screen": 900,
+        "title_color": "#FF7909",
+        "discounted_price": "#FFFFFF",
+        "original_price": "#252A2C"
+      }
+    },
+    "image_and_text_links_4c7tRR": {
+      "type": "image-and-text-links",
+      "blocks": {
+        "text_link_WrbGqA": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "SHIRT",
+            "discounted_price": "¥7,690",
+            "original_price": "¥10,980",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-gsh-sh260413?_pos=1&_sid=674e8e8bb&_ss=r&variant=48594037899483"
+          }
+        }
+      },
+      "block_order": [
+        "text_link_WrbGqA"
+      ],
+      "name": "6",
+      "settings": {
+        "image": "shopify://shop_images/1080-6.png",
+        "coll_grid_image_shape": "shortest",
+        "image_position": "column-reverse",
+        "styling_all_text": "",
+        "styling_all_link": "",
+        "max_width_screen": 900,
+        "title_color": "#FF7909",
+        "discounted_price": "#FFFFFF",
+        "original_price": "#252A2C"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_GbEEVJ",
+    "adjusting_spacing_QdUpLi",
+    "image_AzxtfW",
+    "image_list_E8dmp3",
+    "background_image_KMCEMx",
+    "image_jump_custom_9FpNWY",
+    "image_and_text_links_j7igNa",
+    "image_and_text_links_LNMbxf",
+    "image_jump_custom_PzEQF4",
+    "image_and_text_links_WFVxqE",
+    "image_and_text_links_nqp49i",
+    "image_jump_custom_6kj8aU",
+    "image_and_text_links_whnVwU",
+    "image_and_text_links_4c7tRR"
+  ]
+}

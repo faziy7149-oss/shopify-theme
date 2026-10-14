@@ -1,0 +1,296 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1653879050074ce328": {
+      "type": "rich-text",
+      "blocks": {
+        "16538790507f16ffe1-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "16538790507f16ffe1-1": {
+          "type": "heading",
+          "settings": {
+            "title": "KARAKU 厳選8品をご紹介！",
+            "use_h1": false
+          }
+        },
+        "16538790507f16ffe1-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>6月19日（日）は、父の日です。照れくさくて普段感謝を伝えられない人には、絶好の機会。<br/>今年は“ありがとう”の言葉と共に、ギフトを贈ってみませんか？お父様のお気に入りもきっと見つかります。</p><p>KARAKU 厳選8品をご紹介！</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "16538790507f16ffe1-0",
+        "16538790507f16ffe1-1",
+        "16538790507f16ffe1-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 36,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "165387883483a90190": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_69fAjJ": {
+          "type": "heading",
+          "settings": {
+            "title": "N0.1 無地だからこそこだわる",
+            "use_h1": false
+          }
+        },
+        "text_7zzagN": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>品名：【Classic】2枚組！アメリカンレトロコットン100%半袖Tシャツ</strong></p><p>しなやかさと耐久性を両立させたコットン生地。<br/>程良いハリ感とボリューム感がありながらも、柔らかくサラッとした肌触りが特徴的なコットン100％生地を採用。吸汗性と速乾性に優れ、夏の時期はもちろん、季節を問わず快適に着用が可能なのが嬉しいポイント。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_jFMtqh": {
+          "type": "button",
+          "settings": {
+            "button_label": "詳細",
+            "button_link": "https://www.karakubuy.com/collections/t%e3%82%b7%e3%83%a3%e3%83%84-%e3%82%ab%e3%83%83%e3%83%88%e3%82%bd%e3%83%bc/products/%e3%82%a2%e3%83%a1%e3%83%aa%e3%82%ab%e3%83%b3%e3%83%ac%e3%83%88%e3%83%ad%e3%82%b3%e3%83%83%e3%83%88%e3%83%b3100-%e3%83%9b%e3%83%af%e3%82%a4%e3%83%88t%e3%82%b7%e3%83%a3%e3%83%84-%e5%8d%8a%e8%a2%96",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_69fAjJ",
+        "text_7zzagN",
+        "button_jFMtqh"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/MD-1801066-white_black-1_720x_c567fa2d-8883-4d56-92c9-26ee49b3cdd2.webp",
+        "image_width": 400,
+        "image_link": "https://www.karakubuy.com/collections/t%e3%82%b7%e3%83%a3%e3%83%84-%e3%82%ab%e3%83%83%e3%83%88%e3%82%bd%e3%83%bc/products/%e3%82%a2%e3%83%a1%e3%83%aa%e3%82%ab%e3%83%b3%e3%83%ac%e3%83%88%e3%83%ad%e3%82%b3%e3%83%83%e3%83%88%e3%83%b3100-%e3%83%9b%e3%83%af%e3%82%a4%e3%83%88t%e3%82%b7%e3%83%a3%e3%83%84-%e5%8d%8a%e8%a2%96",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "1653879263a856eb53": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_bqneH3": {
+          "type": "heading",
+          "settings": {
+            "title": "N0.2 しっかりとした生地で他の人と被らない",
+            "use_h1": false
+          }
+        },
+        "text_Bwi3Kg": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>品名：ボウリング キューバン カラー 半袖シャツ</strong></p><p>トレンド感を意識しつつも長袖の方を半袖に改良！様々な着こなしに溶け込むナチュラルさ。リラックスムード漂う大人の夏コレクション。</p><p>ボウリングシャツとは、1950年代のアメリカでボウリング用ウェアとして誕生したものをカジュアルに落とし込んだアイテムです。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_yAgzHX": {
+          "type": "button",
+          "settings": {
+            "button_label": "詳細",
+            "button_link": "https://www.karakubuy.com/products/krk-glbl0471721?_pos=1&_sid=61eb4a766&_ss=r&variant=42682198294747",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_bqneH3",
+        "text_Bwi3Kg",
+        "button_yAgzHX"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/20220407171202_720x_39014b5e-a857-44c2-8cda-df4944755186.webp",
+        "image_width": 400,
+        "image_link": "https://www.karakubuy.com/products/krk-glbl0471721?_pos=1&_sid=61eb4a766&_ss=r&variant=42682198294747",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "1653879382282b75f5": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_WGJgDU": {
+          "type": "heading",
+          "settings": {
+            "title": "N0.3　着回し力抜群！",
+            "use_h1": false
+          }
+        },
+        "text_QLjzEt": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>品名：チノオーバーオール</strong></p><p>ラフスタイルで大人カジュアルを楽しむオーバーオール<br/>トレンドライクなゆとりのあるワイドシルエット<br/>〇開きがフロントファスナーのため、楽に着脱が可能</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_QREAPM": {
+          "type": "button",
+          "settings": {
+            "button_label": "詳細",
+            "button_link": "https://www.karakubuy.com/collections/%e3%82%aa%e3%83%bc%e3%83%ab%e3%82%a4%e3%83%b3%e3%83%af%e3%83%b3-%e3%82%b5%e3%83%ad%e3%83%9a%e3%83%83%e3%83%88-%e3%83%a1%e3%83%b3%e3%82%ba/products/krk-bd155512",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_WGJgDU",
+        "text_QLjzEt",
+        "button_QREAPM"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/14_9a051601-2497-48b5-b1e8-4eacfdb518a3.jpg",
+        "image_width": 400,
+        "image_link": "https://www.karakubuy.com/collections/%e3%82%aa%e3%83%bc%e3%83%ab%e3%82%a4%e3%83%b3%e3%83%af%e3%83%b3-%e3%82%b5%e3%83%ad%e3%83%9a%e3%83%83%e3%83%88-%e3%83%a1%e3%83%b3%e3%82%ba/products/krk-bd155512",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "1653879712c8b525be": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Jhtx4F": {
+          "type": "heading",
+          "settings": {
+            "title": "N0.4　夏の定番アイテム！",
+            "use_h1": false
+          }
+        },
+        "text_Q7grqe": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>品名：浮世絵風 虎柄アロハシャツ</strong></p><p>江戸時代に活躍した浮世絵。</p><p>【和柄虎柄】<br/>鼻がハートの虎のアロハシャツ、海外のファッションブロガーに大人気！</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_NgfHNw": {
+          "type": "button",
+          "settings": {
+            "button_label": "詳細",
+            "button_link": "https://www.karakubuy.com/collections/shirts/products/%E5%A4%8F%E9%99%90%E5%AE%9A-%E6%B5%AE%E4%B8%96%E7%B5%B5%E9%A2%A8-%E8%99%8E%E6%9F%84%E3%82%A2%E3%83%AD%E3%83%8F%E3%82%B7%E3%83%A3%E3%83%84",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Jhtx4F",
+        "text_Q7grqe",
+        "button_NgfHNw"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/image1_1.jpg",
+        "image_width": 400,
+        "image_link": "https://www.karakubuy.com/collections/shirts/products/%E5%A4%8F%E9%99%90%E5%AE%9A-%E6%B5%AE%E4%B8%96%E7%B5%B5%E9%A2%A8-%E8%99%8E%E6%9F%84%E3%82%A2%E3%83%AD%E3%83%8F%E3%82%B7%E3%83%A3%E3%83%84",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "165388139453853d6c": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_UTjTNy": {
+          "type": "heading",
+          "settings": {
+            "title": "N0.5　バイク乗りにプレゼント！",
+            "use_h1": false
+          }
+        },
+        "text_wrhFiG": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>品名：（Civil Air Patrol）MA-1フライトジャケット</strong></p><p>男らしさ満点の人気アイテム\"フライトジャケット\"が登場。<br/>KaraKuBuyの代表的モチーフである\"（Civil Air Patrol）\"が落とし込まれた人気ランナップ!</p><p>耐久性・防風性の抜群の生地を使用、中間気候に着やすいように中綿を抜いたライトMA-1の仕様になっています。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_44UL3y": {
+          "type": "button",
+          "settings": {
+            "button_label": "詳細",
+            "button_link": "https://www.karakubuy.com/collections/%e5%a4%a7%e6%b5%81%e8%a1%8c%e3%81%aema-1/products/krk-vip-ak181117",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_UTjTNy",
+        "text_wrhFiG",
+        "button_44UL3y"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/7376d19b161f2a93a4051e47289d0505_720x_ef49fe0b-aec8-4ebf-a690-97002ffa1a01.webp",
+        "image_width": 400,
+        "image_link": "https://www.karakubuy.com/collections/%e5%a4%a7%e6%b5%81%e8%a1%8c%e3%81%aema-1/products/krk-vip-ak181117",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    }
+  },
+  "order": [
+    "1653879050074ce328",
+    "main",
+    "165387883483a90190",
+    "1653879263a856eb53",
+    "1653879382282b75f5",
+    "1653879712c8b525be",
+    "165388139453853d6c"
+  ]
+}

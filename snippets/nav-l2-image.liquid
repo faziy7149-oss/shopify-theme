@@ -1,0 +1,41 @@
+{%- comment -%}
+  Resolve an image for a nav link (L2).
+  Only the collection image uploaded in admin (collection.image).
+  Do not use collection.featured_image — Shopify falls that back to the first product image.
+  Without a cover image, outputs nothing (caller shows text only).
+
+  Supports:
+  - collection_link (preferred)
+  - http_link / custom URL that points to /collections/handle
+{%- endcomment -%}
+{%- liquid
+  assign nav_l2_image = blank
+  assign nav_l2_coll = blank
+  assign nav_l2_handle = ''
+  assign size_cols = size_cols_desktop | default: 4
+
+  if link.type == 'collection_link' and link.object != blank
+    assign nav_l2_handle = link.object.handle
+    assign nav_l2_coll = collections[link.object.handle]
+    if nav_l2_coll == blank
+      assign nav_l2_coll = link.object
+    endif
+  elsif link.url contains '/collections/'
+    assign nav_l2_url_parts = link.url | split: '/collections/'
+    if nav_l2_url_parts.size > 1
+      assign nav_l2_handle = nav_l2_url_parts | last | split: '?' | first | split: '/' | first | url_decode | strip
+      if nav_l2_handle != blank
+        assign nav_l2_coll = collections[nav_l2_handle]
+      endif
+    endif
+  endif
+
+  if nav_l2_coll != blank and nav_l2_coll.image != blank
+    assign nav_l2_image = nav_l2_coll.image
+  endif
+-%}
+{%- if nav_l2_image != blank -%}
+  <div class="navigation__l2-image">
+    {%- render 'image' with nav_l2_image, size_cols_desktop: size_cols, loading: 'manual' -%}
+  </div>
+{%- endif -%}

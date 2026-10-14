@@ -1,0 +1,388 @@
+{%- liquid
+  assign slide_count = section.blocks.size
+  assign show_nav = section.settings.show_navigation
+  assign show_pagination = section.settings.show_pagination
+  if slide_count < 2
+    assign show_nav = false
+    assign show_pagination = false
+  endif
+-%}
+
+<style>
+  .section-id-{{ section.id }} {
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+
+  .section-id-{{ section.id }} .swiper-card-effects__inner {
+    position: relative;
+    max-width: {{ section.settings.card_max_width }}px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 2.5rem 2.5rem 3rem;
+  }
+
+  .section-id-{{ section.id }} .swiper-card-effects__title {
+    text-align: center;
+    margin: 0 0 1.5rem;
+  }
+
+  .section-id-{{ section.id }} .swiper-card-effects__empty {
+    text-align: center;
+    padding: 3rem 1rem;
+    color: #666;
+  }
+
+  .section-id-{{ section.id }} .swiper {
+    width: 100%;
+    overflow: visible;
+  }
+
+  .section-id-{{ section.id }} .swiper-slide {
+    border-radius: {{ section.settings.card_border_radius }}px;
+    overflow: hidden;
+    background: #f5f5f5;
+  }
+
+  .section-id-{{ section.id }} .swiper-card-link,
+  .section-id-{{ section.id }} .swiper-card-media {
+    display: block;
+    width: 100%;
+    line-height: 0;
+  }
+
+  .section-id-{{ section.id }} .swiper-card-link img,
+  .section-id-{{ section.id }} .swiper-card-media img,
+  .section-id-{{ section.id }} .swiper-card-link .placeholder-svg,
+  .section-id-{{ section.id }} .swiper-card-media .placeholder-svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    vertical-align: middle;
+  }
+
+  .section-id-{{ section.id }} .placeholder-image {
+    aspect-ratio: 3 / 4;
+    background: #eee;
+  }
+
+  .section-id-{{ section.id }} .placeholder-image .placeholder-svg {
+    width: 100%;
+    height: 100%;
+  }
+
+  .section-id-{{ section.id }} .swiper-3d .swiper-slide-shadow {
+    background: transparent;
+  }
+
+  .section-id-{{ section.id }} .swiper-pagination {
+    bottom: 0.25rem;
+    text-align: center;
+  }
+
+  .section-id-{{ section.id }} .swiper-button-next,
+  .section-id-{{ section.id }} .swiper-button-prev {
+    background-color: #fff;
+    width: 44px;
+    height: 44px;
+    margin-top: 0;
+    top: 50%;
+    transform: translateY(-50%);
+    border: 0;
+    padding: 0;
+    border-radius: 50%;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.12);
+    color: #111;
+    cursor: pointer;
+  }
+
+  .section-id-{{ section.id }} .swiper-button-next:after,
+  .section-id-{{ section.id }} .swiper-button-prev:after {
+    font-size: 16px;
+    font-weight: 700;
+  }
+
+  .section-id-{{ section.id }} .swiper-button-disabled {
+    opacity: 0.35;
+  }
+
+  @media (max-width: 767px) {
+    .section-id-{{ section.id }} {
+      overflow: hidden;
+    }
+
+    .section-id-{{ section.id }} .swiper-card-effects__inner {
+      width: 80%;
+      padding: 1.5rem 0.75rem 2.5rem;
+    }
+
+    .section-id-{{ section.id }} .swiper-button-next,
+    .section-id-{{ section.id }} .swiper-button-prev {
+      width: 36px;
+      height: 36px;
+    }
+
+    .section-id-{{ section.id }} .swiper-button-next:after,
+    .section-id-{{ section.id }} .swiper-button-prev:after {
+      font-size: 14px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .section-id-{{ section.id }} .swiper-slide {
+      transition: none !important;
+    }
+  }
+</style>
+
+<div
+  class="section-id-{{ section.id }} swiper-card-effects"
+  data-section-id="{{ section.id }}"
+  data-section-type="swiper-card-effects"
+>
+  <div class="container">
+    {%- if section.settings.title != blank -%}
+      <h2 class="swiper-card-effects__title h4">{{ section.settings.title | escape }}</h2>
+    {%- endif -%}
+
+    {%- if slide_count == 0 -%}
+      <div class="swiper-card-effects__empty">
+        <p>请在主题编辑器中添加卡片图片</p>
+      </div>
+    {%- else -%}
+      <div class="swiper-card-effects__inner">
+        <div class="swiper" id="SwiperCardEffects-{{ section.id }}">
+          <div class="swiper-wrapper">
+            {%- for block in section.blocks -%}
+              <div class="swiper-slide" {{ block.shopify_attributes }}>
+                {%- capture card_media -%}
+                  {%- if block.settings.swiper_card_image == blank -%}
+                    <div class="placeholder-image">
+                      {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                    </div>
+                  {%- else -%}
+                    {%- render 'image' with block.settings.swiper_card_image,
+                      sizes: '(min-width: 768px) 700px, 80vw',
+                      widths: '340, 480, 740, 980, 1200',
+                      loading: 'lazy',
+                      class: 'swiper-card-image'
+                    -%}
+                  {%- endif -%}
+                {%- endcapture -%}
+
+                {%- if block.settings.swiper_card_link != blank -%}
+                  <a class="swiper-card-link" href="{{ block.settings.swiper_card_link }}">
+                    {{ card_media }}
+                  </a>
+                {%- else -%}
+                  <div class="swiper-card-media">
+                    {{ card_media }}
+                  </div>
+                {%- endif -%}
+              </div>
+            {%- endfor -%}
+          </div>
+
+          {%- if show_pagination -%}
+            <div class="swiper-pagination" aria-hidden="true"></div>
+          {%- endif -%}
+
+          {%- if show_nav -%}
+            <button type="button" class="swiper-button-prev" aria-label="上一张"></button>
+            <button type="button" class="swiper-button-next" aria-label="下一张"></button>
+          {%- endif -%}
+        </div>
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+<script>
+  (function () {
+    var sectionId = {{ section.id | json }};
+    var rootSelector = '.section-id-' + sectionId;
+    var slideCount = {{ slide_count }};
+    var enableAutoplay = {{ section.settings.enable_autoplay | json }};
+    var autoplayDelay = {{ section.settings.autoplay_delay | default: 4000 }};
+    var showPagination = {{ show_pagination | json }};
+    var showNavigation = {{ show_nav | json }};
+    var instanceKey = 'swiperCardEffects_' + sectionId;
+
+    function getReducedMotion() {
+      return window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    }
+
+    function destroyInstance() {
+      if (window[instanceKey] && typeof window[instanceKey].destroy === 'function') {
+        window[instanceKey].destroy(true, true);
+        window[instanceKey] = null;
+      }
+    }
+
+    function initSwiper() {
+      var swiperEl = document.querySelector(rootSelector + ' .swiper');
+      if (!swiperEl || typeof Swiper === 'undefined' || slideCount < 1) return;
+
+      destroyInstance();
+
+      var options = {
+        effect: 'cards',
+        grabCursor: slideCount > 1,
+        allowTouchMove: slideCount > 1,
+        cardsEffect: {
+          perSlideOffset: 8,
+          perSlideRotate: getReducedMotion() ? 0 : 2,
+          slideShadows: false
+        }
+      };
+
+      if (showPagination) {
+        options.pagination = {
+          el: rootSelector + ' .swiper-pagination',
+          clickable: true
+        };
+      }
+
+      if (showNavigation) {
+        options.navigation = {
+          nextEl: rootSelector + ' .swiper-button-next',
+          prevEl: rootSelector + ' .swiper-button-prev'
+        };
+      }
+
+      if (enableAutoplay && slideCount > 1 && !getReducedMotion()) {
+        options.autoplay = {
+          delay: autoplayDelay,
+          disableOnInteraction: false,
+          pauseOnMouseEnter: true
+        };
+      }
+
+      window[instanceKey] = new Swiper(swiperEl, options);
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', initSwiper);
+    } else {
+      initSwiper();
+    }
+
+    document.addEventListener('shopify:section:load', function (event) {
+      if (event.detail && event.detail.sectionId === sectionId) {
+        initSwiper();
+      }
+    });
+
+    document.addEventListener('shopify:section:unload', function (event) {
+      if (event.detail && event.detail.sectionId === sectionId) {
+        destroyInstance();
+      }
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Swiper Card Effects",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "标题"
+    },
+    {
+      "type": "range",
+      "id": "card_max_width",
+      "min": 320,
+      "max": 900,
+      "step": 10,
+      "unit": "px",
+      "label": "卡片最大宽度",
+      "default": 700
+    },
+    {
+      "type": "range",
+      "id": "card_border_radius",
+      "min": 0,
+      "max": 40,
+      "step": 2,
+      "unit": "px",
+      "label": "卡片圆角",
+      "default": 16
+    },
+    {
+      "type": "checkbox",
+      "id": "show_navigation",
+      "label": "显示左右箭头",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_pagination",
+      "label": "显示分页点",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_autoplay",
+      "label": "自动播放",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "autoplay_delay",
+      "min": 2000,
+      "max": 8000,
+      "step": 500,
+      "unit": "ms",
+      "label": "自动播放间隔",
+      "default": 4000
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "上边距",
+      "default": 36
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 100,
+      "step": 4,
+      "unit": "px",
+      "label": "下边距",
+      "default": 36
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image_card",
+      "name": "图片卡片",
+      "limit": 8,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "swiper_card_image",
+          "label": "卡片图片"
+        },
+        {
+          "type": "url",
+          "id": "swiper_card_link",
+          "label": "链接"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Swiper Card Effects",
+      "category": "layout"
+    }
+  ]
+}
+{% endschema %}

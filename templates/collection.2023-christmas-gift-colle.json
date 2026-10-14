@@ -1,0 +1,984 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "5916ccef-07fd-4b2d-aa65-7a52f8826224": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17080100618459__5916ccef-07fd-4b2d-aa65-7a52f8826224-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PC_921c2e17-8a47-4f8c-8d59-194470185ecc.jpg",
+            "mobile_image": "shopify://shop_images/M_1f26500d-919f-425f-bd3d-da0fe10c0de1.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17080100618459__5916ccef-07fd-4b2d-aa65-7a52f8826224-image-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "dd60f533-9188-46c0-b7a9-7b2365f85f33": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "template--17080100618459__dd60f533-9188-46c0-b7a9-7b2365f85f33-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20231215-150703.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17080100618459__dd60f533-9188-46c0-b7a9-7b2365f85f33-image-3"
+      ],
+      "settings": {}
+    },
+    "ca06f30d-cf4c-41df-8018-273021ad1676": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "3c5b087a-d6ef-4fe0-850e-d9989c71c762": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_196d1861-775d-422a-9f95-1350f9205c48.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "3c5b087a-d6ef-4fe0-850e-d9989c71c762"
+      ],
+      "settings": {}
+    },
+    "6ebd41c7-260b-415d-a681-c9a5caa9d84b": {
+      "type": "image-slider",
+      "blocks": {
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-imageSlider-1": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/md-s2001059_8.jpg"
+          }
+        },
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-imageSlider-2": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/md-s2001059_8.jpg"
+          }
+        },
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-imageSlider-3": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/md-s2001059_7.jpg"
+          }
+        },
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-imageSlider-4": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/md-s2001059_6.jpg"
+          }
+        },
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-mainDiagram-1": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/edm-2_0a5b77c8-56cc-44ae-920b-8f7127b3c65b.jpg",
+            "main_img2": "shopify://shop_images/27_1da54e5e-1a68-4397-b1fb-e0b41284916e.jpg"
+          }
+        },
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-imageInfo-1": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "見た目にシンプルですっきりとしたミリタリーベルトワンタッチで、長さの調整はもちろんんこと、脱着も可能な機能性◎",
+            "price_discount": 3200,
+            "original_price": 10600,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/md-s2001059-1?_pos=1&_sid=4831db936&_ss=r"
+          }
+        }
+      },
+      "block_order": [
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-imageSlider-1",
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-imageSlider-2",
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-imageSlider-3",
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-imageSlider-4",
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-mainDiagram-1",
+        "template--17080100618459__6ebd41c7-260b-415d-a681-c9a5caa9d84b-imageInfo-1"
+      ],
+      "settings": {
+        "data_title": "コブラバックルベルト",
+        "data_tit_col": "#ffb057",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "ad786d63-af00-4392-934d-bc9e745a9eaf": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "ecc4bdc6-c31e-46a8-b2a1-fb4d63da2053": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_7faaf494-4554-46d1-9a9d-022a7616517c.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "ecc4bdc6-c31e-46a8-b2a1-fb4d63da2053"
+      ],
+      "settings": {}
+    },
+    "42974450-d3c5-4de6-b2e6-3adb8d0d81ce": {
+      "type": "image-slider",
+      "blocks": {
+        "58db9b25-0367-45da-b74e-71b4ee0660b9": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TW2007200-16_8ea8cf52-5395-493d-9752-afa7a7e98646.jpg"
+          }
+        },
+        "01befeeb-94fb-493b-bc79-866aacb518ef": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TW2007200-13_1c81e272-d058-4b63-98ea-67a98b11e7a9.jpg"
+          }
+        },
+        "5fd84691-d3fd-4091-bc36-b65d3d94fd06": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TW2007200-15_ec5bbd43-17ac-47ed-a6fb-a276df81aee0.jpg"
+          }
+        },
+        "73caac48-5a6c-4824-82cd-213043e68c65": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TW2007200-16_8ea8cf52-5395-493d-9752-afa7a7e98646.jpg"
+          }
+        },
+        "8684bae2-7087-401f-b681-4bda56b3df21": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/edm-6.jpg",
+            "main_img2": "shopify://shop_images/29_a4cca234-9acf-48bc-9000-2f310bf10408.jpg"
+          }
+        },
+        "a96d8c57-e774-470a-9f93-bfc4b7247fe8": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ざっくりとしたニット地でビンテージな印象で、パイナップルパイルはまたボリューム感を与えます。",
+            "price_discount": 5055,
+            "original_price": 9190,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-md-tw2007200-new?_pos=3&_sid=0a7760d7f&_ss=r"
+          }
+        }
+      },
+      "block_order": [
+        "58db9b25-0367-45da-b74e-71b4ee0660b9",
+        "01befeeb-94fb-493b-bc79-866aacb518ef",
+        "5fd84691-d3fd-4091-bc36-b65d3d94fd06",
+        "73caac48-5a6c-4824-82cd-213043e68c65",
+        "8684bae2-7087-401f-b681-4bda56b3df21",
+        "a96d8c57-e774-470a-9f93-bfc4b7247fe8"
+      ],
+      "settings": {
+        "data_title": "レトロパイナップルパイルマフラー",
+        "data_tit_col": "#ffb057",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "d386e2b5-8bf6-44c7-90e3-5f93878d751b": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "0aa63308-1c82-4f3d-aaa1-9ec0e340f1b6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_2_2edd846d-738b-48fc-ace8-c3d8e95f7fed.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "0aa63308-1c82-4f3d-aaa1-9ec0e340f1b6"
+      ],
+      "settings": {}
+    },
+    "6d54e6b6-fdd9-4c22-bd48-4dfc3dc8286c": {
+      "type": "image-slider",
+      "blocks": {
+        "6621b552-6418-49cc-a531-64ed8f40f451": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-ORJNKEY1012-9_ac85cf81-4752-4e6e-aee3-da5d3cb78edb.jpg"
+          }
+        },
+        "6c44c390-04b0-4aa9-b2e1-b235881cf540": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-ORJNKEY1012-12_11ecb38c-974e-4b2a-82e2-89b80af4d475.jpg"
+          }
+        },
+        "1cbe7dd2-7167-4cf7-857b-f2ba9d6973f4": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-ORJNKEY1012-9_ac85cf81-4752-4e6e-aee3-da5d3cb78edb.jpg"
+          }
+        },
+        "654646a2-95b1-45f5-b2de-c3d4dadf6dab": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-ORJNKEY1012-14_73f2dd77-11e5-483c-ae63-4871015da4cf.jpg"
+          }
+        },
+        "6c676031-2237-45db-99e3-a08ec06d8057": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/edm-5.jpg",
+            "main_img2": "shopify://shop_images/25_c62b484b-6713-4088-b614-8e84653ea2ef.jpg"
+          }
+        },
+        "c4cd84b0-15a1-414a-af9d-8927ed476429": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ミニデニムジャケットをモチーフにしたヴィンテージ調のキーホルダーです。生デニムを使用、クラシックな真鍮キーホルダーを装着しています。バッグのハンドルに取り付けることができるので迷子になりがちな鍵をしっかりホールド。",
+            "price_discount": 7192,
+            "original_price": 8990,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-orjnkey1012?_pos=1&_sid=b2fa9676d&_ss=r"
+          }
+        }
+      },
+      "block_order": [
+        "6621b552-6418-49cc-a531-64ed8f40f451",
+        "6c44c390-04b0-4aa9-b2e1-b235881cf540",
+        "1cbe7dd2-7167-4cf7-857b-f2ba9d6973f4",
+        "654646a2-95b1-45f5-b2de-c3d4dadf6dab",
+        "6c676031-2237-45db-99e3-a08ec06d8057",
+        "c4cd84b0-15a1-414a-af9d-8927ed476429"
+      ],
+      "settings": {
+        "data_title": "デニムミニジャケットキーホルダー",
+        "data_tit_col": "#ffb057",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "cd40493f-dd36-4500-941c-f89e207de60f": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "8e8107c4-1768-4cf3-9cdb-c0ede68507c9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_3_4305f360-9f57-4e71-a452-61e6579c166d.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "8e8107c4-1768-4cf3-9cdb-c0ede68507c9"
+      ],
+      "settings": {}
+    },
+    "c6b10b4d-f2f7-45eb-ae98-572262bbb93d": {
+      "type": "image-slider",
+      "blocks": {
+        "42879ac7-4395-4941-99ef-c7f61695de30": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/5_38a88ccc-ee86-409b-8f1d-177276fd0785.jpg"
+          }
+        },
+        "22a4860e-6ba1-413f-9cc4-b5e995211a25": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/6_7cb8877f-f455-40bc-bdf9-09a0e0ac22c8.jpg"
+          }
+        },
+        "4610ad71-58f5-44c7-8792-af5611b41860": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/7_d64332d2-5b94-47d2-b6ae-b8583b020ff0.jpg"
+          }
+        },
+        "540fe849-edca-4baf-beaf-5da6b31eca24": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/8_ca012145-f697-42b3-8740-09d15523903c.jpg"
+          }
+        },
+        "8d88bf3d-bd2a-4583-a466-3484b8f68f50": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/edm-1.jpg",
+            "main_img2": "shopify://shop_images/24_aba867e9-2d78-4dae-b09d-c41a5965b76a.jpg"
+          }
+        },
+        "ce7d7a69-37e4-4d17-a300-90e43b55e602": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "しっかりとした厚みでヨレが少なく耐久性に優れたコットンキャンバス生地を採用。シーズン問わずに使いやすい素材なので、どんなスタイルにも取り入れやすいです。",
+            "price_discount": 7137,
+            "original_price": 10980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-md-tw2207657?_pos=2&_sid=8759291df&_ss=r"
+          }
+        }
+      },
+      "block_order": [
+        "42879ac7-4395-4941-99ef-c7f61695de30",
+        "22a4860e-6ba1-413f-9cc4-b5e995211a25",
+        "4610ad71-58f5-44c7-8792-af5611b41860",
+        "540fe849-edca-4baf-beaf-5da6b31eca24",
+        "8d88bf3d-bd2a-4583-a466-3484b8f68f50",
+        "ce7d7a69-37e4-4d17-a300-90e43b55e602"
+      ],
+      "settings": {
+        "data_title": "キャンバスニュースペーパーバッグ",
+        "data_tit_col": "#ffb057",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "5625ebaf-330e-40f4-a66c-51562536f65e": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "834ba1c9-282c-48a4-aca0-7339ae096081": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_4.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "834ba1c9-282c-48a4-aca0-7339ae096081"
+      ],
+      "settings": {}
+    },
+    "6a3ccf1a-afbb-4d1a-a94f-c804f2063209": {
+      "type": "image-slider",
+      "blocks": {
+        "9f9993d7-ba65-43fa-9f22-ced1082e35f8": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/8_922a7a6b-d976-4c52-be2e-4056d840dfc9.jpg"
+          }
+        },
+        "b5dbd81c-9e20-4bc1-980b-2ae21430714a": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/6_ee4294a8-56b4-4470-8cbb-f85548994c6d.jpg"
+          }
+        },
+        "85654d38-5381-4a65-9853-0e6941eebb3c": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/3_760ed77a-1638-4118-9331-b8605b3ab24a.jpg"
+          }
+        },
+        "006a06f4-0cfd-4559-9422-702c353cce4e": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/10_ff7da245-6f8a-4114-bdcd-4fada3c99c7c.jpg"
+          }
+        },
+        "d10c7b2a-94d7-4aca-a165-abc7728e5222": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/edm-7.jpg",
+            "main_img2": "shopify://shop_images/26_f8e1b67b-7e18-4a11-aedb-c6e0292d092f.jpg"
+          }
+        },
+        "a61e18a2-c2c1-4d42-9af2-c89acc89febc": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "軽量でずれ落ち防止のホルダーとしてだけではなく、おしゃれなアクセサリー小物としてメンズやレディースにも人気です。実用性と、ファッション性、そして耐久性まで兼ね備えた眼鏡ホルダーです。",
+            "price_discount": 3990,
+            "original_price": 5190,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-md-tw2107082?_pos=1&_sid=3f18e4865&_ss=r"
+          }
+        }
+      },
+      "block_order": [
+        "9f9993d7-ba65-43fa-9f22-ced1082e35f8",
+        "b5dbd81c-9e20-4bc1-980b-2ae21430714a",
+        "85654d38-5381-4a65-9853-0e6941eebb3c",
+        "006a06f4-0cfd-4559-9422-702c353cce4e",
+        "d10c7b2a-94d7-4aca-a165-abc7728e5222",
+        "a61e18a2-c2c1-4d42-9af2-c89acc89febc"
+      ],
+      "settings": {
+        "data_title": "首掛け　レザーメガネホルダー",
+        "data_tit_col": "#ffb057",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "f9c0e88d-967c-466a-b8f4-5d03b6a2b949": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "template--17080100618459__f9c0e88d-967c-466a-b8f4-5d03b6a2b949-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_5.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17080100618459__f9c0e88d-967c-466a-b8f4-5d03b6a2b949-image-1"
+      ],
+      "settings": {}
+    },
+    "b6b857d0-6aeb-436c-9d20-d870dca31214": {
+      "type": "image-slider",
+      "blocks": {
+        "594d50c7-2f43-4309-a9c7-da79acc00022": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/3_523692e1-c963-4fd4-af5c-2dfdb29e0f6b.jpg"
+          }
+        },
+        "b984fbff-e07a-431f-8e88-08be7d4546fc": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/4_eb0f44f6-622f-4292-8166-4ee2616e5ae7.jpg"
+          }
+        },
+        "b3336ee8-0d41-4bc6-8b3e-e45dd48f0e67": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/8_41899da4-7ef0-4523-9379-48e9931cf074.jpg"
+          }
+        },
+        "8ff06a8f-39b7-4567-9118-8b9dd2d20839": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/5_1b6dad00-052d-4c24-822b-09a62b802ccc.jpg"
+          }
+        },
+        "5c93d698-177b-46f7-ad66-d3b2f2f82b62": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/edm-9.jpg",
+            "main_img2": "shopify://shop_images/28_47817cf5-abc1-4c24-a2c4-eaf5942dd7c0.jpg"
+          }
+        },
+        "44d290bc-1d6f-4d51-b28f-d1bdc1dd9d8b": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ファンシーヤーンの編み目には、独自の模様やデザインが施されて、グローブ自体が装飾的で洗練された外観を持つ。美しい編み地やモチーフが使用され、個性的なスタイルを演出。",
+            "price_discount": 3980,
+            "original_price": 7980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-md-ts2307849?_pos=1&_sid=2e504b7b0&_ss=r"
+          }
+        }
+      },
+      "block_order": [
+        "594d50c7-2f43-4309-a9c7-da79acc00022",
+        "b984fbff-e07a-431f-8e88-08be7d4546fc",
+        "b3336ee8-0d41-4bc6-8b3e-e45dd48f0e67",
+        "8ff06a8f-39b7-4567-9118-8b9dd2d20839",
+        "5c93d698-177b-46f7-ad66-d3b2f2f82b62",
+        "44d290bc-1d6f-4d51-b28f-d1bdc1dd9d8b"
+      ],
+      "settings": {
+        "data_title": "ファンシーヤーンニットグローブ",
+        "data_tit_col": "#ffb057",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "bc100d68-2fbf-4822-8afb-1b3fa724fffb": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "ac66fd49-65ce-4484-9df8-3b8d8844675d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_5-1.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "ac66fd49-65ce-4484-9df8-3b8d8844675d"
+      ],
+      "settings": {}
+    },
+    "acf9d5c5-9da7-4ab9-88c6-1b22ae5bacc3": {
+      "type": "image-slider",
+      "blocks": {
+        "bfd8bd94-6e29-49f1-87bb-403ff4c7df4a": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/5a3b1eea-3832-4438-81f5-973b59d7fa7a.jpg"
+          }
+        },
+        "e4bbec53-ac1d-4f97-8da5-648b2d9a7cf6": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/b2207c76-f8c0-4df3-8f51-8d94e17de328.jpg"
+          }
+        },
+        "d38d99d9-2471-45ad-9db1-cf7ac002786b": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/9b21812b-09e3-4737-a23d-63c72bc594a3.jpg"
+          }
+        },
+        "c2e5bad8-8f43-48d0-8c7e-c34ec32c12e1": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/5a3b1eea-3832-4438-81f5-973b59d7fa7a.jpg"
+          }
+        },
+        "b2a9d651-9d3d-4ed9-81a0-0d915a5eb5d6": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/edm-8.jpg",
+            "main_img2": "shopify://shop_images/23_2fe6a9d8-b4f6-45e8-b7f2-afe0f0e04e16.jpg"
+          }
+        },
+        "288d7115-c1ae-4ce2-8d68-d65c80f92ee8": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ボロパーチワークは、古布を切り貼りしてパッチワーク状に組み合わせる技法であり、ボロの組み合わせや色使いによって個性的でアンティークな印象を与える。",
+            "price_discount": 14382,
+            "original_price": 15980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-ae5317m?_pos=1&_sid=a2f71b808&_ss=r&variant=44421025267931"
+          }
+        }
+      },
+      "block_order": [
+        "bfd8bd94-6e29-49f1-87bb-403ff4c7df4a",
+        "e4bbec53-ac1d-4f97-8da5-648b2d9a7cf6",
+        "d38d99d9-2471-45ad-9db1-cf7ac002786b",
+        "c2e5bad8-8f43-48d0-8c7e-c34ec32c12e1",
+        "b2a9d651-9d3d-4ed9-81a0-0d915a5eb5d6",
+        "288d7115-c1ae-4ce2-8d68-d65c80f92ee8"
+      ],
+      "settings": {
+        "data_title": "古布ボロパーチワーク風　裏キルト中綿入り半纏",
+        "data_tit_col": "#ffb057",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "8c0425cf-d452-42b0-bbc6-7b4127c69965": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "215cb598-7a99-4991-b005-6d184ebd4be1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_5-2.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "215cb598-7a99-4991-b005-6d184ebd4be1"
+      ],
+      "settings": {}
+    },
+    "29e5949d-f535-4642-ae08-6fe2fd3a1827": {
+      "type": "image-slider",
+      "blocks": {
+        "template--17080100618459__29e5949d-f535-4642-ae08-6fe2fd3a1827-imageSlider-1": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-ZYD-MYCLHXJA915-9_6c918bd4-8aef-4237-9e9b-ea62b0f53149.jpg"
+          }
+        },
+        "template--17080100618459__29e5949d-f535-4642-ae08-6fe2fd3a1827-imageSlider-2": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-ZYD-MYCLHXJA915-7_eb5b3bf4-4fc1-43a0-b2ab-e93317950555.jpg"
+          }
+        },
+        "template--17080100618459__29e5949d-f535-4642-ae08-6fe2fd3a1827-imageSlider-3": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-ZYD-MYCLHXJA915-12_3dcac921-9cf6-4d5d-aa3b-eae4ff5c51eb.jpg"
+          }
+        },
+        "template--17080100618459__29e5949d-f535-4642-ae08-6fe2fd3a1827-imageSlider-4": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-ZYD-MYCLHXJA915-8_4b9fdb40-7d72-48ef-8e38-418b78687d41.jpg"
+          }
+        },
+        "template--17080100618459__29e5949d-f535-4642-ae08-6fe2fd3a1827-mainDiagram-1": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/edm-10.jpg",
+            "main_img2": "shopify://shop_images/22_0b4e338e-b55e-42a1-89b2-b22504700499.jpg"
+          }
+        },
+        "template--17080100618459__29e5949d-f535-4642-ae08-6fe2fd3a1827-imageInfo-1": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ベースカラーはブラックとなって、光沢感のある素材を使用することで、スカジャンに高級感や洗練された雰囲気を加えている。刺繡は繊細で精巧に施されており、存在感とアート性をもたらします。",
+            "price_discount": 17980,
+            "original_price": 25980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-zyd-myclhxja915?_pos=1&_sid=fbe68c6d0&_ss=r&variant=44267354030299"
+          }
+        }
+      },
+      "block_order": [
+        "template--17080100618459__29e5949d-f535-4642-ae08-6fe2fd3a1827-imageSlider-1",
+        "template--17080100618459__29e5949d-f535-4642-ae08-6fe2fd3a1827-imageSlider-2",
+        "template--17080100618459__29e5949d-f535-4642-ae08-6fe2fd3a1827-imageSlider-3",
+        "template--17080100618459__29e5949d-f535-4642-ae08-6fe2fd3a1827-imageSlider-4",
+        "template--17080100618459__29e5949d-f535-4642-ae08-6fe2fd3a1827-mainDiagram-1",
+        "template--17080100618459__29e5949d-f535-4642-ae08-6fe2fd3a1827-imageInfo-1"
+      ],
+      "settings": {
+        "data_title": "横須賀「神奈川沖浪裏と波乗り猫」浮世絵刺繡入りスカジャン",
+        "data_tit_col": "#ffb057",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "e16870f6-e8c9-4759-887a-3993b63bab0d": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "8e9cdd80-28da-42a6-aae2-3a43fa611bb9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_5-3.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "8e9cdd80-28da-42a6-aae2-3a43fa611bb9"
+      ],
+      "settings": {}
+    },
+    "3735dea1-7ce9-435f-ad4a-e045b595e7ed": {
+      "type": "image-slider",
+      "blocks": {
+        "template--17080100618459__3735dea1-7ce9-435f-ad4a-e045b595e7ed-imageSlider-1": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-S2007047-17_da884b7f-79d6-4536-a1c9-c2f5748499b2.jpg"
+          }
+        },
+        "template--17080100618459__3735dea1-7ce9-435f-ad4a-e045b595e7ed-imageSlider-2": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-S2007047-14_683c0422-eceb-4cc9-971a-7e6bfe33453c.jpg"
+          }
+        },
+        "template--17080100618459__3735dea1-7ce9-435f-ad4a-e045b595e7ed-imageSlider-3": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-S2007047-13_6a589c46-fa71-4614-ae95-1863954c9f83.jpg"
+          }
+        },
+        "template--17080100618459__3735dea1-7ce9-435f-ad4a-e045b595e7ed-imageSlider-4": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-S2007047-15_bcb056eb-faf6-4f18-b248-8d2df4465e1c.jpg"
+          }
+        },
+        "template--17080100618459__3735dea1-7ce9-435f-ad4a-e045b595e7ed-mainDiagram-1": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/edm-4.jpg",
+            "main_img2": "shopify://shop_images/21_307b5796-7bd7-4ccf-86e2-ac280ad8c68c.jpg"
+          }
+        },
+        "template--17080100618459__3735dea1-7ce9-435f-ad4a-e045b595e7ed-imageInfo-1": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "コットンの上質なコーデュロイを使用し、ソフトな肌ざわりとほどよい起毛感が温かみのある表情を生み出している。厚手でふくらみのある風合いが、素材感を一層引き立てている。",
+            "price_discount": 7990,
+            "original_price": 12000,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-s2007047-1?_pos=6&_sid=c8f1b0112&_ss=r&variant=44334840348891"
+          }
+        }
+      },
+      "block_order": [
+        "template--17080100618459__3735dea1-7ce9-435f-ad4a-e045b595e7ed-imageSlider-1",
+        "template--17080100618459__3735dea1-7ce9-435f-ad4a-e045b595e7ed-imageSlider-2",
+        "template--17080100618459__3735dea1-7ce9-435f-ad4a-e045b595e7ed-imageSlider-3",
+        "template--17080100618459__3735dea1-7ce9-435f-ad4a-e045b595e7ed-imageSlider-4",
+        "template--17080100618459__3735dea1-7ce9-435f-ad4a-e045b595e7ed-mainDiagram-1",
+        "template--17080100618459__3735dea1-7ce9-435f-ad4a-e045b595e7ed-imageInfo-1"
+      ],
+      "settings": {
+        "data_title": "コーデュロイワイドパンツ",
+        "data_tit_col": "#ffb057",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "8e2d3051-a04f-445e-8dec-22e7eae33c11": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "9bc92735-8c0b-4287-93b0-e73f631b00c1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_5-4.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "9bc92735-8c0b-4287-93b0-e73f631b00c1"
+      ],
+      "settings": {}
+    },
+    "8e0e4842-4a9d-4b4a-a9ba-5d009e64d7cf": {
+      "type": "image-slider",
+      "blocks": {
+        "template--17080100618459__8e0e4842-4a9d-4b4a-a9ba-5d009e64d7cf-imageSlider-1": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-ZYD-GFKLWY928-13_1c9590bd-6661-4319-8378-cc22d1e84d1e.jpg"
+          }
+        },
+        "template--17080100618459__8e0e4842-4a9d-4b4a-a9ba-5d009e64d7cf-imageSlider-2": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-ZYD-GFKLWY928-10_13d4c6db-9d88-4958-88a3-f91ebb3b2b1d.jpg"
+          }
+        },
+        "template--17080100618459__8e0e4842-4a9d-4b4a-a9ba-5d009e64d7cf-imageSlider-3": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-ZYD-GFKLWY928-13_1c9590bd-6661-4319-8378-cc22d1e84d1e.jpg"
+          }
+        },
+        "template--17080100618459__8e0e4842-4a9d-4b4a-a9ba-5d009e64d7cf-imageSlider-4": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-ZYD-GFKLWY928-11_c41b1e3c-5325-4d06-93a9-309f531b5b4f.jpg"
+          }
+        },
+        "template--17080100618459__8e0e4842-4a9d-4b4a-a9ba-5d009e64d7cf-mainDiagram-1": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/edm-3_1f14b59d-765d-44ee-8d5b-4ceb5d38d19b.jpg",
+            "main_img2": "shopify://shop_images/20_a3c24ebd-1ad3-4a3a-be89-e90117d71ebd.jpg"
+          }
+        },
+        "template--17080100618459__8e0e4842-4a9d-4b4a-a9ba-5d009e64d7cf-imageInfo-1": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "国芳の描いた善知安方忠義伝をモチーフとした、とても迫力がある骸骨の図柄をスウェットに再現しました。ネックから脇にかけて斜めに曲線を描きながら入っているのが最大の特徴。",
+            "price_discount": 9980,
+            "original_price": 15980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-zyd-mzmsw928?_pos=2&_sid=6310ab4b7&_ss=r&variant=44283104624859"
+          }
+        }
+      },
+      "block_order": [
+        "template--17080100618459__8e0e4842-4a9d-4b4a-a9ba-5d009e64d7cf-imageSlider-1",
+        "template--17080100618459__8e0e4842-4a9d-4b4a-a9ba-5d009e64d7cf-imageSlider-2",
+        "template--17080100618459__8e0e4842-4a9d-4b4a-a9ba-5d009e64d7cf-imageSlider-3",
+        "template--17080100618459__8e0e4842-4a9d-4b4a-a9ba-5d009e64d7cf-imageSlider-4",
+        "template--17080100618459__8e0e4842-4a9d-4b4a-a9ba-5d009e64d7cf-mainDiagram-1",
+        "template--17080100618459__8e0e4842-4a9d-4b4a-a9ba-5d009e64d7cf-imageInfo-1"
+      ],
+      "settings": {
+        "data_title": "「善知安方忠義伝柄」浮世絵風プリントラグランスリーブスウェット",
+        "data_tit_col": "#ffb057",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "dbe8991f-ca90-42e6-95f7-068961ab9f0e": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2023-12-14_18-45-14.jpg"
+      }
+    },
+    "tag_link_HT8zt4": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    }
+  },
+  "order": [
+    "5916ccef-07fd-4b2d-aa65-7a52f8826224",
+    "dd60f533-9188-46c0-b7a9-7b2365f85f33",
+    "ca06f30d-cf4c-41df-8018-273021ad1676",
+    "6ebd41c7-260b-415d-a681-c9a5caa9d84b",
+    "ad786d63-af00-4392-934d-bc9e745a9eaf",
+    "42974450-d3c5-4de6-b2e6-3adb8d0d81ce",
+    "d386e2b5-8bf6-44c7-90e3-5f93878d751b",
+    "6d54e6b6-fdd9-4c22-bd48-4dfc3dc8286c",
+    "cd40493f-dd36-4500-941c-f89e207de60f",
+    "c6b10b4d-f2f7-45eb-ae98-572262bbb93d",
+    "5625ebaf-330e-40f4-a66c-51562536f65e",
+    "6a3ccf1a-afbb-4d1a-a94f-c804f2063209",
+    "f9c0e88d-967c-466a-b8f4-5d03b6a2b949",
+    "b6b857d0-6aeb-436c-9d20-d870dca31214",
+    "bc100d68-2fbf-4822-8afb-1b3fa724fffb",
+    "acf9d5c5-9da7-4ab9-88c6-1b22ae5bacc3",
+    "8c0425cf-d452-42b0-bbc6-7b4127c69965",
+    "29e5949d-f535-4642-ae08-6fe2fd3a1827",
+    "e16870f6-e8c9-4759-887a-3993b63bab0d",
+    "3735dea1-7ce9-435f-ad4a-e045b595e7ed",
+    "8e2d3051-a04f-445e-8dec-22e7eae33c11",
+    "8e0e4842-4a9d-4b4a-a9ba-5d009e64d7cf",
+    "main",
+    "dbe8991f-ca90-42e6-95f7-068961ab9f0e",
+    "tag_link_HT8zt4"
+  ]
+}

@@ -1,0 +1,138 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "16454319580c12d3c9": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/PC_8e03999b-a8ae-436d-9848-fe4862c199be.jpg",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "image_link": "https://www.karakubuy.com/account/login",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_page_title": true,
+        "full_width": true
+      }
+    },
+    "171073536087abce2b": {
+      "type": "apps",
+      "blocks": {
+        "smile_loyalty_rewards_smile_landing_page_header_ezTqbf": {
+          "type": "shopify://apps/smile-io/blocks/smile-landing-page-header/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+          "settings": {
+            "primary_colour": "#333333",
+            "secondary_colour": "#ffffff",
+            "title_text": "KARAKU CLUBポイントについて",
+            "description_text": "公式オンラインショップでご購入された場合、購買日にポイントが付与されます。"
+          }
+        },
+        "smile_loyalty_rewards_smile_landing_page_how_it_works_katpK8": {
+          "type": "shopify://apps/smile-io/blocks/smile-landing-page-how-it-works/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+          "settings": {
+            "primary_colour": "#333333",
+            "secondary_colour": "#ffffff",
+            "title_text": "ポイント取得について"
+          }
+        },
+        "smile_loyalty_rewards_smile_landing_page_earning_rule_highlight_3CiPYC": {
+          "type": "shopify://apps/smile-io/blocks/smile-landing-page-earning-rule-highlight/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+          "settings": {
+            "primary_colour": "#333333",
+            "secondary_colour": "#ffffff",
+            "image": "shopify://shop_images/995_a05bb91a-fc4f-4469-88b9-7840afe147f4.jpg",
+            "title_text": "ポイント貯まる",
+            "description_text": ""
+          }
+        },
+        "smile_loyalty_rewards_smile_landing_page_redeeming_rule_highlight_m67QGk": {
+          "type": "shopify://apps/smile-io/blocks/smile-landing-page-redeeming-rule-highlight/2fae4e25-1841-4ea2-bc02-bd548478c4f6",
+          "settings": {
+            "primary_colour": "#333333",
+            "secondary_colour": "#ffffff",
+            "image": "shopify://shop_images/60off_35846e3b-7402-473c-acad-d2300331d345.jpg",
+            "title_text": "ポイント使う",
+            "description_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "smile_loyalty_rewards_smile_landing_page_header_ezTqbf",
+        "smile_loyalty_rewards_smile_landing_page_how_it_works_katpK8",
+        "smile_loyalty_rewards_smile_landing_page_earning_rule_highlight_3CiPYC",
+        "smile_loyalty_rewards_smile_landing_page_redeeming_rule_highlight_m67QGk"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_space": true
+      }
+    },
+    "rich_text_BYtGf3": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_7djQkV": {
+          "type": "heading",
+          "settings": {
+            "title": "KARAKU 会員サービス",
+            "use_h1": true
+          }
+        },
+        "text_4UrBtE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1人1人のお客様とのより深い結びつきを育み独自のサービスを通して交流を重ねながら好奇心をカタチに変えることを目指すクラブです。わくわくする心を大切にするメンバーとしてあなたのご入会を心より歓迎します。</p>",
+            "enlarge_text": false
+          }
+        },
+        "heading_NpfPTR": {
+          "type": "heading",
+          "settings": {
+            "title": "  お楽しみ積立ポイント",
+            "use_h1": false
+          }
+        },
+        "text_PRW3Hm": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>🏆【会員限定】每月7、17、27日のお買い物でポイント3倍アップ</li></ul><p></p><ul><li><strong>100ポイント=1円でご利用可能！</strong><a href=\"https://www.karakubuy.com/pages/%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E4%BD%BF%E7%94%A8%E6%96%B9%E6%B3%95\">※ポイントの使用方法</a></li></ul><p>    ※但し、店内の他の割引・サービスとの併用不可</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_7djQkV",
+        "text_4UrBtE",
+        "heading_NpfPTR",
+        "text_PRW3Hm"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    }
+  },
+  "order": [
+    "16454319580c12d3c9",
+    "main",
+    "171073536087abce2b",
+    "rich_text_BYtGf3"
+  ]
+}

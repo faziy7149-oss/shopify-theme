@@ -1,0 +1,465 @@
+{%- liquid
+  assign blog = blogs[section.settings.blog_item]
+  assign post_limit = section.settings.post_limit
+  assign enable_carousel = section.settings.enable_carousel
+  assign view_all_url = section.settings.blog_link_url
+  if view_all_url == blank and blog != blank and blog.empty? == false
+    assign view_all_url = blog.url
+  endif
+  assign has_articles = false
+  unless blog.empty?
+    if blog.articles.size > 0
+      assign has_articles = true
+    endif
+  endunless
+  assign use_carousel = false
+  if enable_carousel and has_articles
+    assign use_carousel = true
+  endif
+  assign articles_per_slide = 2
+  assign carousel_slide_count = 0
+  if has_articles
+    assign article_count = blog.articles.size
+    if article_count > post_limit
+      assign article_count = post_limit
+    endif
+    assign carousel_slide_count = article_count | plus: 1 | divided_by: articles_per_slide
+  endif
+-%}
+
+<style>
+  #section-id-{{ section.id }} .blog-content {
+    margin: 3em 0;
+  }
+
+  #section-id-{{ section.id }} .blog-title-wrapper {
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  #section-id-{{ section.id }} .blog-list-ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  #section-id-{{ section.id }} .blog-list-ul--grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 2rem;
+  }
+
+  #section-id-{{ section.id }} .blog-carousel {
+    position: relative;
+    overflow: hidden;
+  }
+
+  #section-id-{{ section.id }} .blog-carousel .swiper-slide {
+    height: auto;
+  }
+
+  #section-id-{{ section.id }} .blog-list-ul--page {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+    height: 100%;
+  }
+
+  #section-id-{{ section.id }} .entry-inner {
+    display: flex;
+    gap: 1rem;
+    align-items: flex-start;
+  }
+
+  #section-id-{{ section.id }} .entry-right-inner a {
+    color: #100f0f;
+    text-decoration: none;
+  }
+
+  {% comment %} #section-id-{{ section.id }} .entry-right-inner a:hover .entry-title {
+    text-decoration: underline;
+  } {% endcomment %}
+
+  #section-id-{{ section.id }} .entry-meta {
+    display: block;
+    margin-top: 0.5rem;
+    font-size: 0.875rem;
+  }
+
+  #section-id-{{ section.id }} .entry-image-placeholder {
+    width: 100%;
+    aspect-ratio: 1;
+    background: rgba(0, 0, 0, 0.05);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #section-id-{{ section.id }} .entry-image-placeholder svg {
+    width: 50%;
+    height: auto;
+    opacity: 0.35;
+  }
+
+  #section-id-{{ section.id }} .blog-link {
+    margin-top: 2.5rem;
+    text-align: center;
+  }
+
+  #section-id-{{ section.id }} .blog-list-empty,
+  #section-id-{{ section.id }} .blog-list-setup {
+    text-align: center;
+    padding: 1.5rem 0 0.5rem;
+    color: rgba(16, 15, 15, 0.7);
+  }
+
+  #section-id-{{ section.id }} .blog-carousel .swiper-pagination {
+    position: relative;
+    margin-top: 2rem;
+  }
+
+  #section-id-{{ section.id }} .blog-carousel .swiper-pagination-bullet-active {
+    background-color: rgb(var(--link-color, 16 15 15));
+  }
+
+  @media (min-width: 768px) {
+    #section-id-{{ section.id }} .blog-list-ul--grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 2.5rem 3rem;
+    }
+
+    #section-id-{{ section.id }} .blog-list-ul--page {
+      gap: 2.5rem;
+    }
+
+    #section-id-{{ section.id }} .blog-carousel .swiper-slide {
+      display: flex;
+      flex-direction: column;
+    }
+
+    #section-id-{{ section.id }} .entry-inner {
+      gap: 1.5rem;
+    }
+
+    #section-id-{{ section.id }} .entry-inner .rimage-outer-wrapper,
+    #section-id-{{ section.id }} .entry-image-placeholder {
+      width: 200px;
+      flex-shrink: 0;
+    }
+
+    #section-id-{{ section.id }} .entry-title {
+      font-size: 18px;
+      font-weight: 800;
+    }
+
+    #section-id-{{ section.id }} .entry-right-inner {
+      padding-right: 1rem;
+    }
+  }
+
+  @media (max-width: 767px) {
+    #section-id-{{ section.id }} .blog-list-ul--page {
+      gap: 1.5rem;
+    }
+
+    #section-id-{{ section.id }} .entry-inner {
+      flex-direction: row-reverse;
+      justify-content: space-between;
+    }
+
+    #section-id-{{ section.id }} .entry-right {
+      flex: 1;
+      min-width: 0;
+    }
+
+    #section-id-{{ section.id }} .entry-img {
+      width: 100px;
+      flex-shrink: 0;
+    }
+
+    #section-id-{{ section.id }} .entry-inner .rimage-outer-wrapper,
+    #section-id-{{ section.id }} .entry-image-placeholder {
+      width: 100px;
+    }
+
+    #section-id-{{ section.id }} .entry-title {
+      font-size: 15px;
+      font-weight: 700;
+      display: -webkit-box;
+      -webkit-line-clamp: 2;
+      -webkit-box-orient: vertical;
+      overflow: hidden;
+    }
+  }
+</style>
+
+<div id="section-id-{{ section.id }}" class="collection-slider-row for-collections">
+  <div class="container">
+    <div class="blog-content">
+      <div class="blog-title-wrapper">
+        <h2 class="blog-title has-paging__title h4 align-center">{{ section.settings.blog_title | escape }}</h2>
+      </div>
+
+      {%- unless blog.empty? -%}
+        {%- if blog.articles.size == 0 -%}
+          <p class="blog-list-empty">{{ 'onboarding.blog.empty' | t }}</p>
+        {%- else -%}
+          {%- if use_carousel -%}
+            <div class="blog-carousel swiper">
+              <div class="swiper-wrapper">
+                {%- for article in blog.articles limit: post_limit -%}
+                  {%- assign page_start = forloop.index0 | modulo: articles_per_slide -%}
+                  {%- if page_start == 0 -%}
+                    <div class="swiper-slide">
+                      <ul class="blog-list-ul blog-list-ul--page">
+                  {%- endif -%}
+                        <li class="entry">
+                          <div class="entry-inner">
+                            <div class="article-image entry-img">
+                              <a href="{{ article.url }}" class="blog-list-bg">
+                                {%- if article.image -%}
+                                  <div class="rimage-outer-wrapper">
+                                    <div class="rimage-wrapper placeholder-wrapper">
+                                      {%- render 'image' with article.image,
+                                        sizes: '(min-width: 768px) 200px, 100px',
+                                        custom_aspect_ratio: section.settings.crop_ratio
+                                      -%}
+                                    </div>
+                                  </div>
+                                {%- else -%}
+                                  <div class="entry-image-placeholder">{{ 'image' | placeholder_svg_tag }}</div>
+                                {%- endif -%}
+                              </a>
+                            </div>
+
+                            <div class="entry-right">
+                              <div class="entry-right-inner meta">
+                                <a href="{{ article.url }}">
+                                  <h3 class="entry-title">{{ article.title | escape }}</h3>
+                                </a>
+                                <span class="entry-meta iconmeta time">
+                                  {{ article.published_at | time_tag: format: 'date' }}
+                                  &mdash;<span class="author">{{ article.author }}</span>
+                                </span>
+                              </div>
+                            </div>
+                          </div>
+                        </li>
+                  {%- assign page_end = forloop.index | modulo: articles_per_slide -%}
+                  {%- if page_end == 0 or forloop.last -%}
+                      </ul>
+                    </div>
+                  {%- endif -%}
+                {%- endfor -%}
+              </div>
+              {%- if carousel_slide_count > 1 -%}
+                <div class="swiper-pagination"></div>
+              {%- endif -%}
+            </div>
+          {%- else -%}
+            <ul class="blog-list-ul blog-list-ul--grid">
+              {%- for article in blog.articles limit: post_limit -%}
+                <li class="entry">
+                  <div class="entry-inner">
+                    <div class="article-image entry-img">
+                      <a href="{{ article.url }}" class="blog-list-bg">
+                        {%- if article.image -%}
+                          <div class="rimage-outer-wrapper">
+                            <div class="rimage-wrapper placeholder-wrapper">
+                              {%- render 'image' with article.image,
+                                sizes: '(min-width: 768px) 200px, 100px',
+                                custom_aspect_ratio: section.settings.crop_ratio
+                              -%}
+                            </div>
+                          </div>
+                        {%- else -%}
+                          <div class="entry-image-placeholder">{{ 'image' | placeholder_svg_tag }}</div>
+                        {%- endif -%}
+                      </a>
+                    </div>
+
+                    <div class="entry-right">
+                      <div class="entry-right-inner meta">
+                        <a href="{{ article.url }}">
+                          <h3 class="entry-title">{{ article.title | escape }}</h3>
+                        </a>
+                        <span class="entry-meta iconmeta time">
+                          {{ article.published_at | time_tag: format: 'date' }}
+                          &mdash;<span class="author">{{ article.author }}</span>
+                        </span>
+                      </div>
+                    </div>
+                  </div>
+                </li>
+              {%- endfor -%}
+            </ul>
+          {%- endif -%}
+        {%- endif -%}
+      {%- else -%}
+        <p class="blog-list-setup">请在主题编辑器中选择博客</p>
+        <ul class="blog-list-ul blog-list-ul--grid">
+          {%- for i in (1..post_limit) -%}
+            <li class="entry">
+              <div class="entry-inner">
+                <div class="article-image entry-img">
+                  <div class="entry-image-placeholder">{{ 'image' | placeholder_svg_tag }}</div>
+                </div>
+                <div class="entry-right">
+                  <div class="entry-right-inner meta">
+                    <h3 class="entry-title">{{ 'onboarding.article.title' | t }}</h3>
+                    <span class="entry-meta iconmeta time">
+                      {{ 'now' | time_tag: format: 'date' }}
+                      &mdash;<span class="author">{{ 'onboarding.article.author' | t }}</span>
+                    </span>
+                  </div>
+                </div>
+              </div>
+            </li>
+          {%- endfor -%}
+        </ul>
+      {%- endunless -%}
+
+      {%- if section.settings.blog_link != blank and view_all_url != blank -%}
+        <div class="blog-link align-center">
+          <a class="small-feature-link" href="{{ view_all_url }}">{{ section.settings.blog_link | escape }}</a>
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Blog list",
+  "settings": [
+    {
+      "type": "text",
+      "id": "blog_title",
+      "label": "标题",
+      "default": "博客列表"
+    },
+    {
+      "type": "blog",
+      "id": "blog_item",
+      "label": "博客"
+    },
+    {
+      "type": "range",
+      "id": "post_limit",
+      "label": "展示数量",
+      "min": 2,
+      "max": 12,
+      "step": 1,
+      "default": 4,
+      "info": "展示所选博客的最新文章，最多 12 篇"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_carousel",
+      "label": "开启轮播",
+      "default": true
+    },
+    {
+      "type": "text",
+      "id": "blog_link",
+      "label": "链接文字",
+      "default": "查看更多博客 》"
+    },
+    {
+      "type": "url",
+      "id": "blog_link_url",
+      "label": "链接地址",
+      "info": "留空时将自动使用所选博客的链接"
+    },
+    {
+      "type": "select",
+      "id": "crop_ratio",
+      "label": "图片比例",
+      "options": [
+        {
+          "value": "",
+          "label": "原始比例"
+        },
+        {
+          "value": "0.67",
+          "label": "竖版 (2:3)"
+        },
+        {
+          "value": "1.0",
+          "label": "方形 (1:1)"
+        },
+        {
+          "value": "1.33",
+          "label": "横版 (4:3)"
+        },
+        {
+          "value": "1.78",
+          "label": "宽屏 (16:9)"
+        }
+      ],
+      "default": "1.0"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Blog list",
+      "category": "Blog",
+      "settings": {
+        "blog_title": "博客列表",
+        "blog_link": "查看更多博客 》"
+      }
+    }
+  ]
+}
+{% endschema %}
+
+{%- if use_carousel -%}
+  <script>
+    (function () {
+      var sectionId = {{ section.id | json }};
+      var rootSelector = '#section-id-' + sectionId + ' .blog-carousel';
+
+      function initBlogListSwiper() {
+        var root = document.querySelector(rootSelector);
+        if (!root) return;
+
+        var slides = root.querySelectorAll('.swiper-slide');
+        if (slides.length <= 1) return;
+
+        if (root.swiper) {
+          root.swiper.destroy(true, true);
+        }
+
+        new Swiper(root, {
+          slidesPerView: 1,
+          slidesPerGroup: 1,
+          spaceBetween: 0,
+          watchOverflow: true,
+          pagination: {
+            el: root.querySelector('.swiper-pagination'),
+            clickable: true
+          },
+          breakpoints: {
+            768: {
+              slidesPerView: 2,
+              slidesPerGroup: 2,
+              spaceBetween: 32
+            }
+          }
+        });
+      }
+
+      if (document.readyState === 'loading') {
+        document.addEventListener('DOMContentLoaded', initBlogListSwiper);
+      } else {
+        initBlogListSwiper();
+      }
+
+      document.addEventListener('shopify:section:load', function (event) {
+        if (event.detail.sectionId === sectionId) {
+          initBlogListSwiper();
+        }
+      });
+    })();
+  </script>
+{%- endif -%}

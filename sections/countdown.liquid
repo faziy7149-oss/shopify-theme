@@ -1,0 +1,563 @@
+{% style %}
+  .section-id-{{ section.id }} #data-tit-col {
+     color: {{ section.settings.countdown_text_col }};
+   }
+  .section-id-{{ section.id }} #day {
+          color:{{ section.settings.countdown_day_fcol }};
+          background-color:{{ section.settings.countdown_day_bcol }};
+  }
+  .section-id-{{ section.id }} .count-customize-bg #data-bg-col {
+          background-color:{{ section.settings.countdown_wei_bcol }}
+  }
+  .section-id-{{ section.id }} .count-customize-bg {
+    background: {{ section.settings.countdown_wei_bcol }};
+  }
+  .section-id-{{ section.id }} .clock-con .time-item-num {
+          color:{{ section.settings.countdown_time_col }}
+  }
+  .count-down-box .time-item-colon{
+    font-size: 40px;
+    position: absolute;
+    top: -6px;
+    right: -12px;
+    color:{{ section.settings.countdown_time_col }}
+  }
+
+  .section-id-{{ section.id }} .count-customize-bg .time-item-text {
+    font-size: 12px;
+    margin-top: -10px;
+    color:{{ section.settings.countdown_time_col }};
+  }
+  .section-id-{{ section.id }} .count-down-box .time-item-text {
+    font-size: 12px;
+    margin-top: -18px;
+    color:{{ section.settings.countdown_time_col }};
+  }
+   .section-id-{{ section.id }} .count-shop-now-link {
+    text-align: center;
+    height: 50px;
+    max-width: 100%;
+    overflow: hidden;
+    margin-top: 20px;
+    margin-left: 7em;
+    padding: 10px 30px;
+    border: 1px solid {{ section.settings.countdown_time_col }};
+    cursor: pointer;
+    transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
+  }
+  .section-id-{{ section.id }}  .count-shop-now-link >  .count-shop-now {
+    color: {{ section.settings.countdown_time_col }};
+    vertical-align: middle;
+    display: inline-block;
+  }
+  .section-id-{{ section.id }}  .count-shop-now-link:after {
+    content: '';
+    display: block;
+    width: 300%;
+    height: 60px;
+    margin: -42px 0 0 -35px;
+    background: transparent;
+    transition: all 0.25s cubic-bezier(0.104, 0.204, 0.492, 1);
+  }
+  .section-id-{{ section.id }}  .count-shop-now-link:hover::after {
+    background: {{ section.settings.countdown_time_col }};
+  }
+   .section-id-{{ section.id }} .count-shop-now-link:hover > .count-shop-now {
+    color: {{ section.settings.countdown_wei_bcol }};
+  }
+  .section-id-{{ section.id }} .container--no-max {
+    padding-right: 0;
+    padding-left: 0;
+  }
+/* 倒计时 countdown.liquid */
+@media (min-width: 767px){
+  .section-id-{{ section.id }}  .count-down-outer{
+    /* display: flex;
+    flex-direction: row-reverse; */
+  }
+   .section-id-{{ section.id }}    .count-down-box {
+      text-align: center;
+    }
+   .section-id-{{ section.id }} .count-customize-bg .data-count-box{
+    display: flex;
+    justify-content: center;
+  }
+   .section-id-{{ section.id }}  .data-count-box{
+      display: flex;
+      justify-content: center;
+    }
+   .section-id-{{ section.id }} .count-down-center{
+/*      margin: 1em 0 -3em 0; */
+    margin: 0 0 -1em 0;
+  }
+   .section-id-{{ section.id }} .count-down-outer2{
+    justify-content: space-around;
+  }
+}
+  .section-id-{{ section.id }} .count-down-day{
+  display:none;
+}
+  .section-id-{{ section.id }} .count-down-title {
+ font-weight: bold;
+ color: black;
+ margin-bottom: 0;
+ margin-right: 50px;
+ line-height: 4.5;
+ z-index: 9;
+}
+
+  .section-id-{{ section.id }} .clock-con {
+ position: relative;
+ display: flex;
+ justify-content: space-between;
+ width: 14em;
+ height: 60px;
+ /* margin: 0 auto; */
+ margin-top: 8px;
+ z-index: 9;
+}
+
+      .section-id-{{ section.id }}    .day-box {
+            position: absolute;
+            left: 0;
+            top: 0;
+            transform: translate(-50%, -50%) rotate(-35deg);
+            z-index: 99;
+            font-size: 12px;
+            font-weight: bold;
+            color: black;
+            background-color: #D3D3D3;
+            border-radius: 4px;
+            padding: 0 2px;
+        }
+
+       .section-id-{{ section.id }}   .time-item {
+            position: relative;
+            width: 30%;
+            height: 100%;
+        }
+
+        .section-id-{{ section.id }}  .time-item-num {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: 1;
+            text-align: center;
+            font-size: 28px;
+            line-height: 60px;
+            font-weight: bold;
+            color: white;
+        }
+
+        .section-id-{{ section.id }}  .time-item-bg {
+            display: flex;
+            flex-direction: column;
+            /* justify-content: space-between; */
+            width: 100%;
+            height: 100%;
+                  background-color: black;
+        }
+
+/*         .time-item-bg::before,
+        .time-item-bg::after {
+            content: "";
+            width: 100%;
+            height: 48%;
+            background-color: black;
+        } */
+
+        .section-id-{{ section.id }}  .deadline-box {
+          display: none;
+            width: 300px;
+            margin: 0 auto;
+            margin-top: 5px;
+            text-align: center;
+            font-weight: bold;
+        }
+       .section-id-{{ section.id }}   .edit-box {
+            position: absolute;
+/*             visibility: hidden; */
+                  display:none;
+        }
+
+        .section-id-{{ section.id }} .edit-box input {
+            width: 200px;
+            height: 30px;
+            padding-left: 7px;
+            font-size: 16px;
+            border: 1px solid #f74730;
+        }
+
+        .section-id-{{ section.id }} .edit-box input:focus {
+            outline: none;
+        }
+@media (max-width: 767px) {
+   .section-id-{{ section.id }} .count-down-outer .count-shop-now-link:after{
+    margin: -39px 0 0 -35px;
+  }
+  .section-id-{{ section.id }} .count-down-outer .count-customize-bg .time-item-colon {
+    font-size: 29px;
+    top: -10px;
+    left: 2em;
+  }
+   .section-id-{{ section.id }} .count-down-box .time-item-colon {
+    font-size: 29px;
+    top: -10px;
+    width: 10px;
+    left: 41px;
+  }
+   .section-id-{{ section.id }} .count-down-outer .count-shop-now-link{
+   display: block;
+   margin: 2em 3.5em 1em 3.5em;
+  }
+   .section-id-{{ section.id }} .count-down-outer .count-down-box .time-item-text {
+    margin-top: -6px;
+    text-align: center;
+  }
+
+ .section-id-{{ section.id }} .count-down-outer .count-customize-bg  .time-item{
+    width: 20%;
+  }
+  .section-id-{{ section.id }} .count-down-outer .count-down-box .time-item {
+    width: 40px;
+    margin-left: 10px;
+  }
+     .section-id-{{ section.id }} .count-down-box {
+        display: flex;
+        width: 100%;
+        align-items: center;
+    }
+
+     .section-id-{{ section.id }} .clock-con {
+        position: relative;
+        display: flex;
+        justify-content: space-evenly;
+        width: 100%;
+        height: 30px;
+        margin-right: 0.8em;
+        margin-top:0px
+    }
+
+     .section-id-{{ section.id }} .day-box {
+        font-size: 10px;
+    }
+
+     .section-id-{{ section.id }} .time-item-num {
+        font-size: 15px;
+        line-height: 30px;
+    }
+  .section-id-{{ section.id }} .count-customize-bg .count-down-title {
+          font-size:25px;
+    font-weight: 600;
+    text-align: center;
+/*     margin-left: 0.8em;
+    line-height: 2; */
+    height: 100%;
+    line-height: 2.8;
+    margin:0;
+    margin-bottom: -10px;
+  }
+  .section-id-{{ section.id }} .count-down-box .count-down-title {
+          font-size:18px;
+    font-weight: 600;
+    text-align: center;
+    height: 100%;
+    line-height: 2.8;
+    width: -webkit-fill-available;
+    margin:0;
+    margin-bottom: 0px;
+  }
+  .count-down-m{
+    margin-bottom: 0;
+    justify-content: space-evenly;
+  }
+   .section-id-{{ section.id }} .count-customize-bg .count-down-clock-con{
+    margin:0;
+    margin-bottom: 20px;
+  }
+   .section-id-{{ section.id }} .count-down-clock-con {
+     margin:0;
+     margin-top: 10px;
+   }
+ .section-id-{{ section.id }} .count-customize-bg .data-count-box{
+    display: block;
+  }
+   .section-id-{{ section.id }} .data-count-box{
+    display: flex;
+    justify-content: center;
+  }
+  }
+/* END 倒计时 countdown.liquid */
+{% endstyle %}
+
+{% if section.settings.countdown_cbox %}
+<div class="section-id-{{ section.id }}">
+  <div class="container count-down-outer {% if section.settings.count_down_center %}count-down-outer2{% endif %} {% if section.settings.full_width %} container--no-max{% endif %}">
+    <div class="{% if section.settings.countdown_customize_css %} count-customize-bg {% endif %} count-down-box {% if section.settings.count_down_center %}count-down-center count-down-m{% endif %}">
+      <div class="data-count-box">
+        <h3 class="count-down-title" id="data-tit-col">{{ section.settings.countdown_title }}</h3>
+        <div class="clock-con {% if section.settings.count_down_center %}count-down-clock-con{% endif %}">
+          <div class="day-box {% if section.settings.top_left_day %} count-down-day{% endif %}" id="day">
+            <span id="day-num">123</span>Day
+          </div>
+          <div class="time-item" id="hour">
+            <div class="time-item-bg" id="data-bg-col"></div>
+            <div class="time-item-num" id="hour-num">12</div>
+            {% if section.settings.countdown_customize_css %}
+              <div class="time-item-text">HOURS</div>
+            {% endif %}
+            <span class="time-item-colon">:</span>
+          </div>
+          <div class="time-item" id="min">
+            <div class="time-item-bg" id="data-bg-col"></div>
+            <div class="time-item-num" id="min-num">12</div>
+            {% if section.settings.countdown_customize_css %}
+              <div class="time-item-text">MINUTES</div>
+            {% endif %}
+            <span class="time-item-colon">:</span>
+          </div>
+          <div class="time-item" id="sec">
+            <div class="time-item-bg" id="data-bg-col"></div>
+            <div class="time-item-num" id="sec-num">00</div>
+            {% if section.settings.countdown_customize_css %}
+              <div class="time-item-text">SECONDS</div>
+            {% endif %}
+          </div>
+        </div>
+        {% if section.settings.countdown_customize_css %}
+          {% if section.settings.count_down_link_text != blank %}
+            <a class="count-shop-now-link" href="{{ section.settings.count_down_link }}">
+              <div class="count-shop-now">{{ section.settings.count_down_link_text }}</div>
+            </a>
+          {% endif %}
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <div class="deadline-box">
+    截止时间：
+    <span class="deadline-str-box" id="deadline-str"></span>
+  </div>
+  <div class="edit-box">
+    <input type="text" placeholder="xxxx-xx-xx" id="edit-deadline" value="{{section.settings.countdown_time}}">
+  </div>
+</div>
+{% endif %}
+
+{% schema %}
+{
+"name": "Countdown",
+"settings": [
+  {
+    "id": "countdown_time",
+    "type": "text",
+    "label": "2099/12/31,23:00"
+  },
+  {
+    "type": "checkbox",
+    "id": "countdown_cbox",
+    "label": "开启定时器",
+    "default": false
+  },
+  {
+    "type": "checkbox",
+    "id": "countdown_customize_css",
+    "label": "开启自定义样式",
+    "default": true
+  },
+  {
+    "type": "color",
+    "id": "countdown_text_col",
+    "label": "Countdown Title Color",
+    "default": "#000000"
+  },
+  {
+    "type": "color",
+    "id": "countdown_day_bcol",
+    "label": "Countdown Day BackgrundColor",
+    "default": "#D3D3D3"
+  },
+  {
+    "type": "color",
+    "id": "countdown_day_fcol",
+    "label": "Countdown Day FontColor",
+    "default": "#000000"
+  },
+  {
+    "type": "color",
+    "id": "countdown_wei_bcol",
+    "label": "背景颜色",
+    "default": "#A20000"
+  },
+  {
+    "type": "color",
+    "id": "countdown_time_col",
+    "label": "Countdown Time FontColor",
+    "default": "#FFFFFF"
+  },
+  {
+    "id": "countdown_title",
+    "type": "text",
+    "label": "Timer Name",
+    "default": "Weekly Sale"
+  },
+  {
+    "type": "checkbox",
+    "id": "top_left_day",
+    "label": "Top left corner days switch",
+    "info": "关闭左上角天数的开关",
+    "default": true
+  },
+  {
+    "type": "checkbox",
+    "id": "count_down_center",
+    "label": "Countdown is centered",
+    "info": "倒计时居中",
+    "default": true
+  },
+  {
+    "type": "url",
+    "id": "count_down_link",
+    "label": "Countdown link",
+    "info": "倒计时链接"
+  },
+  {
+    "type": "text",
+    "id": "count_down_link_text",
+    "label": "购买按钮文本",
+    "default": "SHOP NOW"
+  },
+  {
+      "id": "full_width",
+      "type": "checkbox",
+      "label": "Full page width",
+      "default": true
+  }
+],
+"presets": [
+  {
+    "name": "Countdown",
+    "settings": {}
+  }
+]
+}
+{% endschema %}
+
+<script>
+function dataCountdown() {
+  const hourBox = document.getElementById('hour-num');
+  const minBox = document.getElementById('min-num');
+  const secBox = document.getElementById('sec-num');
+  const deadlineStrBox = document.getElementById('deadline-str');
+  const editDeadline = document.getElementById('edit-deadline');
+  const dayBox = document.getElementById('day-num');
+  const dayCon = document.getElementById('day');
+  let deadline = OutputDeadlineStr(deadlineStrBox);
+  let millis = CountDown(deadline, hourBox, minBox, secBox);
+  let timerID = -1;
+  if (millis > 0) {
+    timerID = setInterval(() => {
+      let millis = CountDown(deadline, hourBox, minBox, secBox);
+      if (!millis) {
+        clearInterval(timerID);
+      }
+    }, 1000);
+  }
+  if (editDeadline.value != ' ') {
+    var orgValue = editDeadline.value;
+    var listenInput;
+    function countdownBox() {
+      clearTimeout(listenInput);
+      var v = editDeadline.value;
+      let hourVal = hourBox.innerHTML;
+      let minVal = minBox.innerHTML;
+      let secVal = secBox.innerHTML;
+      if (hourVal == 00 && minVal == 00 && secVal == 00) {
+        let countdownOuter = document.getElementsByClassName('count-down-outer')[0];
+        let countdownBoxs = document.getElementsByClassName('count-down-box')[0];
+        countdownOuter.removeChild(countdownBoxs);
+        countdownOuter.style.display = 'none';
+      }
+      if (v == orgValue) {
+        orgValue = v;
+        if (editDeadline.value) {
+          let dateStr2 = editDeadline.value;
+          let dateStr3 = dateStr2.replace(/,/g, ' ');
+          let dateStr = dateStr3.replace(/\-/g, '/');
+          let newDeadlineDate = new Date(dateStr);
+          localStorage.setItem('deadlineDate', newDeadlineDate);
+          editDeadline.value = '';
+          let deadline = OutputDeadlineStr(deadlineStrBox);
+          clearInterval(timerID);
+          let millis = CountDown(deadline, hourBox, minBox, secBox);
+          if (millis > 0) {
+            timerID = setInterval(() => {
+              let millis = CountDown(deadline, hourBox, minBox, secBox);
+              if (!millis) {
+                clearInterval(timerID);
+              }
+            }, 1000);
+          }
+        }
+      }
+      listenInput = setTimeout(countdownBox, 10000);
+    }
+  }
+  countdownBox();
+
+  function OutputDeadlineStr(deadlineStrBox) {
+    let deadlineDate = new Date(localStorage.getItem('deadlineDate'));
+    let curTime = new Date();
+    let deadline = deadlineDate;
+    if (!localStorage.getItem('deadlineDate')) {
+      deadline = curTime;
+      deadlineDate = curTime;
+    }
+    let dmonth = deadlineDate.getMonth() + 1;
+    let dday = deadlineDate.getDate();
+    let dhour = deadlineDate.getHours();
+    let dmin = deadlineDate.getMinutes();
+    let dsec = deadlineDate.getSeconds();
+    deadlineStrBox.innerHTML =
+      deadlineDate.getFullYear() +
+      '年' +
+      (dmonth < 10 ? '0' + dmonth : dmonth) +
+      '月' +
+      (dday < 10 ? '0' + dday : dday) +
+      '日' +
+      ' ' +
+      (dhour < 10 ? '0' + dhour : dhour) +
+      ':' +
+      (dmin < 10 ? '0' + dmin : dmin) +
+      ':' +
+      (dsec < 10 ? '0' + dsec : dsec);
+    return deadline;
+  }
+  function CountDown(deadline, hourBox, minBox, secBox) {
+    let curTime = new Date();
+    let millis = deadline - curTime;
+    millis = millis < 0 ? 0 : millis;
+    let day = parseInt(millis / 1000 / 60 / 60 / 24);
+    let hour = parseInt(millis / 1000 / 60 / 60);
+    let min = parseInt((millis / 1000 / 60) % 60);
+    let sec = parseInt((millis / 1000) % 60);
+    hourBox.innerHTML = hour < 10 ? '0' + hour : hour;
+    minBox.innerHTML = min < 10 ? '0' + min : min;
+    secBox.innerHTML = sec < 10 ? '0' + sec : sec;
+    if (day > 0) {
+      dayBox.innerHTML = day;
+      dayCon.style.visibility = 'visible';
+    } else {
+      dayCon.style.visibility = 'hidden';
+    }
+    return millis;
+  }
+}
+dataCountdown();
+document.addEventListener('shopify:section:load', function (event) {
+  dataCountdown();
+});
+</script>

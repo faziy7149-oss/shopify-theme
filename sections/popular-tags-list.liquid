@@ -1,0 +1,158 @@
+<style>
+  .section-id-{{ section.id }} .popular-tags-wrapper {
+    margin: 4rem 0;
+    /* max-width: 1650px; */
+  }
+  .section-id-{{ section.id }} .popular-tags-wrapper .popular-tags-title {
+    margin-bottom: 2rem;
+    text-align: center;
+  }
+  .section-id-{{ section.id }} .popular-tags-wrapper .popular-tags-list {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+  }
+  .section-id-{{ section.id }} .popular-tags-item {
+    background-color: #f2f2f2;
+    padding: 0.5rem 1rem;
+    border-radius: 1.8rem;
+    /* box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px; */
+    transition: all 0.5s ease-out;
+    cursor: pointer;
+  }
+  .section-id-{{ section.id }} .popular-tags-item:hover {
+   background-color: #000000; 
+   color: #ccc;
+  }
+  .section-id-{{ section.id }} .popular-tags-item:hover span{
+    color: #f2f2f2;
+  }
+  .section-id-{{ section.id }} .popular-tags-item  span {
+    font-size: 13px;
+    font-weight: lighter;
+    color: #100f10;
+  }
+  @media (max-width: 767px) {
+    .section-id-{{ section.id }} .popular-tags-item {
+      padding: 0.2rem 0.5rem;
+    }
+    .section-id-{{ section.id }} .popular-tags-wrapper .popular-tags-title {
+      text-align: center;
+    }
+    .section-id-{{ section.id }} .popular-tags-wrapper .popular-tags-list {
+      justify-content: center;
+      gap: 0.5rem;
+    }
+    .section-id-{{ section.id }} .popular-tags-item  span {
+      font-size: 13px;
+      font-weight: 300;
+      color: #100f10;
+    }
+  }
+</style>
+
+<div class="section-id-{{ section.id }}">
+  <div class="container">
+    <div class="popular-tags-wrapper">
+      {% comment %} 标题 {% endcomment %}
+        <div class="popular-tags-title">
+          {% if section.settings.title %}
+            <h2 class="h4 popular-tags-title-text">{{ section.settings.title }}</h2>
+          {% endif %}
+        </div>
+      
+        {% comment %} 特色标签tag {% endcomment %}
+         <ul class="popular-tags-list">
+            {% for block in section.blocks %}
+              <li class="popular-tags-item">
+                {% if block.settings.tag_url != blank %}
+                  <a href="{{ block.settings.tag_url }}" class="popular-tags-item-link">
+                {% endif %}
+                  <span class="popular-tags-item-text">{{ block.settings.tag_title }}</span>
+                {% if block.settings.tag_url != blank %}
+                  </a>
+                {% endif %}
+              </li>
+            {% endfor %}
+         </ul>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Popular Tags",
+  "settings": [
+      {
+        "type": "text",
+        "id": "title",
+        "label": "Title",
+        "default": "Popular Tags"
+      }
+    ],
+  "blocks": [
+    {
+      "type": "PopularTag",
+      "name": "Tag",
+      "limit": 10,
+      "settings": [
+        {
+          "type": "text",
+          "id": "tag_title",
+          "label": "Tag Title",
+          "default": "Tag Title"
+        },
+        {
+          "type": "url",
+          "id": "tag_url",
+          "label": "Tag URL"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+    "name": "Popular Tags",
+    "settings": {
+      "title": "Popular Tags"
+    },
+    "blocks": [
+      {
+        "type": "PopularTag",
+        "settings": {}
+      },
+      {
+        "type": "PopularTag",
+        "settings": {}
+      },
+      {
+        "type": "PopularTag",
+        "settings": {}
+      },
+      {
+        "type": "PopularTag",
+        "settings": {}
+      },
+      {
+        "type": "PopularTag",
+        "settings": {}
+      },
+      {
+        "type": "PopularTag",
+        "settings": {}
+      },
+      {
+        "type": "PopularTag",
+        "settings": {}
+      },
+      {
+        "type": "PopularTag",
+        "settings": {}
+      }
+    ]
+    }
+  ]
+}
+{% endschema %}

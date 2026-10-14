@@ -1,0 +1,187 @@
+<style>
+  .section-id-{{ section.id }} .time-title {
+    font-size: 40px;
+    border-bottom: 1px solid #cccccc;
+    font-weight: bold;
+    line-height: 1;
+    letter-spacing: 0.1em;
+    padding-bottom: 10px;
+    margin-bottom: 0;
+  }
+  @media (min-width: 768px) {
+  .section-id-{{ section.id }} {
+    padding: 8rem 0;
+  }
+  .section-id-{{ section.id }} .time-anchor {
+    float: right;
+  }
+  .section-id-{{ section.id }} .time-line-wrap {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  .section-id-{{ section.id }} .time-img {
+    width: 50%;
+    padding: 0 5rem;
+  }
+  .section-id-{{ section.id }} .time-img:nth-child(even){
+    margin-top: 10em;
+
+  }
+  .section-id-{{ section.id }} .time-img:nth-child(odd){
+    border-right: 4px solid #cccccc;
+  }
+  .section-id-{{ section.id }} .time-text {
+    margin-top: 1rem;
+  }
+  }
+  @media (max-width: 767px) {
+    .section-id-{{ section.id }} .time-anchor {
+      display: none;
+    }
+    .section-id-{{ section.id }} .time-title {
+      font-size: 24px;
+      text-align: center;
+      margin: 15px 0;
+    }
+    .section-id-{{ section.id }} .time-img{
+      margin: 3rem 0;
+    }
+  }
+</style>
+
+<div class="section-id-{{ section.id }}">
+  <div class="container">
+    <div class="time-anchor">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'time_line_title' %}
+            {% comment %} 时间跳转锚点 {% endcomment %}
+            <div class="time-anchor-item">
+              {% if block.settings.text != blank %}
+                <a href="{{ block.settings.text }}">
+              {% endif %}
+              {{ block.settings.title }}
+              {% if block.settings.text != blank %}
+                </a>
+              {% endif %}
+            </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+    <div class="time-line-wrap">
+      {% for block in section.blocks %}
+        {% case block.type %}
+          {% when 'time_line_item' %}
+            {% comment %} 图片模块区域 {% endcomment %}
+            <div class="time-img" id="{{ block.settings.time_anchor }}">
+              <div class="time-title">
+                {{ block.settings.time_title }}
+              </div>
+              <div class="time-text">
+                <span>{{ block.settings.timeline_text }}</span>
+              </div>
+              <div class="time-img-item">
+                {% if block.settings.time_image == blank %}
+                  <div class="placeholder-image">{{ 'collection-1' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+                {% else %}
+                  {% render 'image' with block.settings.time_image,
+                    sizes: '3000px',
+                    loading: 'lazy',
+                    class: 'data-image'
+                  %}
+                {% endif %}
+              </div>
+            </div>
+        {% endcase %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "New Time Line",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "time_line_title",
+      "name": "timeAnchor",
+      "settings": [
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Time Anchor",
+          "default": "-2020"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Year Anchor",
+          "info": "#data-xxxx"
+        }
+      ]
+    },
+    {
+      "type": "time_line_item",
+      "name": "TimeLineItem",
+      "settings": [
+        {
+          "type": "text",
+          "id": "time_title",
+          "label": "标题",
+          "default": "2020"
+        },
+        {
+          "type": "richtext",
+          "id": "timeline_text",
+          "label": "Timeline Text",
+          "default": "<p>Fill in the text content corresponding to the timeline</p>"
+        },
+        {
+          "type": "image_picker",
+          "id": "time_image",
+          "label": "图片"
+        },
+        {
+          "type": "text",
+          "id": "time_anchor",
+          "label": "anchor point",
+          "info": "data-xxxx"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "New Time Line",
+      "blocks": [
+         {
+           "type": "time_line_title"
+         },
+         {
+           "type": "time_line_title"
+         },
+         {
+           "type": "time_line_item"
+         },
+         {
+           "type": "time_line_item"
+         },
+         {
+           "type": "time_line_item"
+         },
+         {
+           "type": "time_line_item"
+         },
+         {
+           "type": "time_line_item"
+         },
+         {
+           "type": "time_line_item"
+         }
+      ]
+    }
+  ]
+}
+{% endschema %}

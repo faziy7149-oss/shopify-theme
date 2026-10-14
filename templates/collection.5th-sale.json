@@ -1,0 +1,257 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "photo_banner_countdown_9YwmmF": {
+      "type": "photo-banner-countdown",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/718__sale_1500.jpg",
+        "mobile_image": "shopify://shop_images/718__sale_800.jpg",
+        "banner_link": "https://karakubuy.com/collections/end-of-the-year2024-sale",
+        "photo_banner_col": "#ff6900",
+        "end_date": "",
+        "end_time": "22:59",
+        "end_text": "",
+        "hide_on_end": false,
+        "number_size": 24,
+        "number_font": "base",
+        "divider_type": "colon",
+        "show_timer_labels": true,
+        "countdown_col": "#ffffff",
+        "countdown_text_col": "#100f0f"
+      }
+    },
+    "photo_banner_3Qb8d6": {
+      "type": "photo-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/718__sale_1500.jpg",
+        "mobile_image": "shopify://shop_images/718__sale_800.jpg",
+        "banner_link": "",
+        "photo_banner_col": "#ff6900"
+      }
+    },
+    "photo_banner_wb8dnf": {
+      "type": "photo-banner",
+      "disabled": true,
+      "name": "Photo Banner",
+      "settings": {
+        "image": "shopify://shop_images/004_5__1500.jpg",
+        "mobile_image": "shopify://shop_images/004_5__800.jpg",
+        "banner_link": "https://karakubuy.com/collections/karaku-5th-sale",
+        "photo_banner_col": "#fe5300"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [
+          "shirts",
+          "スウェット",
+          "ジャケット-アウター",
+          "アクセサリー",
+          "short-sleeve-t-shirts",
+          "short-sleeve-shirts",
+          "カーゴパンツ",
+          "coat",
+          "デニムパンツ"
+        ],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "rich_text_bebQTw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3AY8BA": {
+          "type": "heading",
+          "settings": {
+            "title": "KaraKuｘ365CAT.ART",
+            "use_h1": true
+          }
+        },
+        "text_HjFyVL": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_3AY8BA",
+        "text_HjFyVL"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "tag_link_xQzLVX": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    },
+    "image_MqPChM": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/20250430-165137.jpg",
+        "mobile_image": "shopify://shop_images/about-us_96c11b9c-6b92-4dbb-8ae9-b3cdb1155768.jpg",
+        "img_rul": "https://karakubuy.com/collections/karaku-ishiguroayako"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "KARAKU×石黒亜矢子5周年記念スペシャルコレクション",
+        "collection": "karaku-ishiguroayako",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "featured_collection_FAHRHc": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "在庫処分セール",
+        "collection": "stock-clearance-sale",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 5,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "news_list_gYXXVm": {
+      "type": "news-list",
+      "blocks": {
+        "newslist_3WBHgY": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/004_5_3___1200.jpg",
+            "page": "karaku-5周年記念感謝祭を開催",
+            "news_info": "KARAKU 5周年記念記念キャンペーンを開催！"
+          }
+        },
+        "newslist_hmwn6B": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/unnamed_4dd524ad-f034-482d-8355-22835582a2da.jpg",
+            "page": "５周年記念-karaku-x石黒亜矢子スペシャルコレクション4月30日より発売",
+            "news_info": "５周年記念、KARAKU x石黒亜矢子スペシャルコレクション4月30日より発売"
+          }
+        },
+        "newslist_B9ywEJ": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/20250417-172258_9a0894dc-1d5e-4035-947e-f808ac740180.jpg",
+            "page": "karaku-inslive",
+            "news_info": "KARAKU オンラインショップ『オープン５周年』初のインスタライブ配信決定"
+          }
+        },
+        "newslist_4AtnmA": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/720_-news_3b1414ca-169a-47aa-9cf8-61859f6e3778.jpg",
+            "page": "karaku-commemorative-set",
+            "news_info": "KARAKUオンラインショップ【オープン５周年】記念3点セットをプレゼント"
+          }
+        }
+      },
+      "block_order": [
+        "newslist_3WBHgY",
+        "newslist_hmwn6B",
+        "newslist_B9ywEJ",
+        "newslist_4AtnmA"
+      ],
+      "name": "news list",
+      "settings": {
+        "news_title": "NEWS",
+        "more_url": "",
+        "view_all": "View all",
+        "full_width": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "coll_thumb_mob_per_row": "2",
+        "color_scheme": "default"
+      }
+    }
+  },
+  "order": [
+    "photo_banner_countdown_9YwmmF",
+    "photo_banner_3Qb8d6",
+    "photo_banner_wb8dnf",
+    "main",
+    "rich_text_bebQTw",
+    "tag_link_xQzLVX",
+    "image_MqPChM",
+    "1635765484031572a6",
+    "featured_collection_FAHRHc",
+    "news_list_gYXXVm"
+  ]
+}

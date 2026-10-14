@@ -1,0 +1,401 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_WAMwww": {
+      "type": "slideshow",
+      "blocks": {
+        "image_gNCUhw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/44___1920.jpg",
+            "mobile_image": "shopify://shop_images/44___1080.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_gNCUhw"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "adjusting_spacing_VjzFm6": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": 0
+      }
+    },
+    "image_7FkYQg": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/44_1f10e960-a4d2-4be5-9c2f-b903f917c688.png",
+        "mobile_image": "shopify://shop_images/44____700.png",
+        "img_rul": "https://karakubuy.com/collections/plain-shirts"
+      }
+    },
+    "adjusting_spacing_f3WhqD": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 2,
+        "margin_top2": 1
+      }
+    },
+    "image_BKbkrc": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/44_____1920-2.png",
+        "mobile_image": "shopify://shop_images/44_____720-2_e6d77b50-6218-4c3b-83bd-58f9a008db03.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_tARFNA": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -2,
+        "margin_top2": 0
+      }
+    },
+    "image_block_BkCXbD": {
+      "type": "image-block",
+      "blocks": {
+        "image_KbKFPe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/44_____900-5_14aaa2cd-be5e-485a-a1d2-2156109d850c.png",
+            "image_link": "https://karakubuy.com/products/krk-gpd-gs1344?_pos=2&_sid=6fde88c59&_ss=r&variant=45025350418651",
+            "title_big": "Cleanfit　赤ヒモ付き　刺繍入りオックスフォード長袖シャツ",
+            "title_small": "",
+            "more_b": "¥6,999 "
+          }
+        },
+        "image_9pPtgA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/44_____900-6_ee373f6b-c3c1-4f21-909d-6872167e3504.png",
+            "image_link": "https://karakubuy.com/products/krk-xg-1227924?_pos=1&_sid=b65347a86&_ss=r&variant=43833181044955",
+            "title_big": "ミニカップ刺繡　オックスフォードワークシャツ",
+            "title_small": "",
+            "more_b": "¥10,390 "
+          }
+        },
+        "image_nCRed9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/44_____900-7_aa9802b1-e50e-4a0f-a28f-6619d2570202.png",
+            "image_link": "https://karakubuy.com/products/krk-ae252c?_pos=1&_sid=c19d3daee&_ss=r&variant=44212836794587",
+            "title_big": "アイビールック　オックスフォード長袖シャツ",
+            "title_small": "",
+            "more_b": "¥6,999"
+          }
+        },
+        "image_tF3T9i": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/44_____900-8_6d864c54-9ab5-4eb2-8df3-416263e39535.png",
+            "image_link": "https://karakubuy.com/products/krk-xg1221850?_pos=1&_sid=c610037e8&_ss=r&variant=43823699525851",
+            "title_big": "スエードパッチ　オックスフォードワークシャツ",
+            "title_small": "",
+            "more_b": "¥6,999"
+          }
+        }
+      },
+      "block_order": [
+        "image_KbKFPe",
+        "image_9pPtgA",
+        "image_nCRed9",
+        "image_tF3T9i"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#b66c24"
+      }
+    },
+    "adjusting_spacing_QiXFeQ": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 2,
+        "margin_top2": -3
+      }
+    },
+    "image_6TzR7H": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/44_____1920-1.png",
+        "mobile_image": "shopify://shop_images/44_____720-1.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_4d6qMB": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -3,
+        "margin_top2": -1
+      }
+    },
+    "image_block_TxhgEK": {
+      "type": "image-block",
+      "blocks": {
+        "image_7xVRTj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/44_____900-1.png",
+            "image_link": "https://karakubuy.com/products/krk-gpd-gs1062?_pos=1&_sid=a11f36e7e&_ss=r&variant=45034020962523",
+            "title_big": "Business&Casual　ツイルコットン無地長袖ワークシャツ",
+            "title_small": "",
+            "more_b": "¥9,980"
+          }
+        },
+        "image_F3TKXB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/44_____900-2_03977020-1c1a-4837-ac2f-b0642e36dab3.png",
+            "image_link": "https://karakubuy.com/products/krk-gpd-gs1098?_pos=1&_sid=ddbfead19&_ss=r&variant=44974748008667",
+            "title_big": "Business&Casual　レッドステッチワンポイント無地ワークシャツ　",
+            "title_small": "",
+            "more_b": "¥9,980"
+          }
+        },
+        "image_PdijQ4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/44_____900-3.png",
+            "image_link": "https://karakubuy.com/products/krk-gpd-gs1028?_pos=1&_sid=23353a272&_ss=r&variant=44872845525211",
+            "title_big": "「Spring special」四色展開　レッドステッチ切替無地長袖シャツ　",
+            "title_small": "",
+            "more_b": "¥6,999 "
+          }
+        },
+        "image_g6UH3z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/44_____900-4.png",
+            "image_link": "https://karakubuy.com/products/krk-gpd-gs0492?_pos=1&_sid=c9267264a&_ss=r&variant=44900252647643",
+            "title_big": "シワ加工　肘補強パッチコットンワークシャツ　",
+            "title_small": "",
+            "more_b": "¥6,999"
+          }
+        }
+      },
+      "block_order": [
+        "image_7xVRTj",
+        "image_F3TKXB",
+        "image_PdijQ4",
+        "image_g6UH3z"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#b66c24"
+      }
+    },
+    "adjusting_spacing_BpFgV6": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 2,
+        "margin_top2": -3
+      }
+    },
+    "image_tdkPFB": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/44_____1920-3.png",
+        "mobile_image": "shopify://shop_images/44_____720-3.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_YUeF9H": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -3,
+        "margin_top2": -1
+      }
+    },
+    "image_block_RYyMqf": {
+      "type": "image-block",
+      "blocks": {
+        "image_H9qTNk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/44_____900-9.png",
+            "image_link": "https://karakubuy.com/products/krk-ae5286c?_pos=1&_sid=bec8d80af&_ss=r&variant=44216302895323",
+            "title_big": "オリジナル加工　ジャガード綿麻長袖シャツ",
+            "title_small": "",
+            "more_b": "¥8,999"
+          }
+        },
+        "image_EheL4X": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/44_____900-10.png",
+            "image_link": "https://karakubuy.com/products/krk-lg-ae5348c?_pos=1&_sid=b1cf9719c&_ss=r&variant=44982014181595",
+            "title_big": "CLEANFIT　リネン混スタンドカラー長袖シャツ",
+            "title_small": "",
+            "more_b": "¥10,980"
+          }
+        },
+        "image_FDmUt9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/44_____900-11.png",
+            "image_link": "https://karakubuy.com/products/krk-ae5272c?_pos=1&_sid=88d58edeb&_ss=r&variant=44172025135323",
+            "title_big": "ベーシック　綿麻半袖キューバシャツ",
+            "title_small": "",
+            "more_b": "¥7,999"
+          }
+        },
+        "image_z7EjHF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/44_____900-12.png",
+            "image_link": "https://karakubuy.com/products/krk-mcjl-m23?_pos=1&_sid=7c7e05240&_ss=r&variant=44118649077979",
+            "title_big": "ジャカード織り綿麻ワークシャツ",
+            "title_small": "",
+            "more_b": "¥8,390"
+          }
+        }
+      },
+      "block_order": [
+        "image_H9qTNk",
+        "image_EheL4X",
+        "image_FDmUt9",
+        "image_z7EjHF"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#b66c24"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "background_image_Bymi6q": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-03-29_18-05-57.jpg"
+      }
+    },
+    "featured_collection_AbF9je": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "2024-Spring-Plainshirts",
+        "collection": "2024-spring-plainshirts",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "tag_link_F4MBjR": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    }
+  },
+  "order": [
+    "slideshow_WAMwww",
+    "adjusting_spacing_VjzFm6",
+    "image_7FkYQg",
+    "adjusting_spacing_f3WhqD",
+    "image_BKbkrc",
+    "adjusting_spacing_tARFNA",
+    "image_block_BkCXbD",
+    "adjusting_spacing_QiXFeQ",
+    "image_6TzR7H",
+    "adjusting_spacing_4d6qMB",
+    "image_block_TxhgEK",
+    "adjusting_spacing_BpFgV6",
+    "image_tdkPFB",
+    "adjusting_spacing_YUeF9H",
+    "image_block_RYyMqf",
+    "main",
+    "background_image_Bymi6q",
+    "featured_collection_AbF9je",
+    "tag_link_F4MBjR"
+  ]
+}

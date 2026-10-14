@@ -1,0 +1,57 @@
+{%- comment -%}
+  Custom snippet for featured-collection-tabs section only.
+  Accepts:
+  - collection {Collection} - collection to display (optional)
+  - product_limit {Number} - max products
+  - enable_carousel {Boolean} - wrap items in slider markup and pass carousel flags to product-block
+{%- endcomment -%}
+
+{%- liquid
+  if collection == blank
+    for i in (1..product_limit)
+      if enable_carousel
+        echo '<div class="slider__item">'
+      endif
+      render 'onboarding-product-block', forloop: forloop
+      if enable_carousel
+        echo '</div>'
+      endif
+    endfor
+  else
+    if settings.prod_thumb_shape == 'portrait-23'
+      assign chosen_aspect_ratio = 0.67
+    elsif settings.prod_thumb_shape == 'portrait-45'
+      assign chosen_aspect_ratio = 0.8
+    elsif settings.prod_thumb_shape == 'square'
+      assign chosen_aspect_ratio = 1.0
+    elsif settings.prod_thumb_shape == 'landscape-54'
+      assign chosen_aspect_ratio = 1.25
+    elsif settings.prod_thumb_shape == 'landscape-32'
+      assign chosen_aspect_ratio = 1.50
+    elsif settings.prod_thumb_shape == 'tallest'
+      assign chosen_aspect_ratio = 99
+      for product in collection.products limit: product_limit
+        if product.featured_media.preview_image.aspect_ratio < chosen_aspect_ratio
+          assign chosen_aspect_ratio = product.featured_media.preview_image.aspect_ratio
+        endif
+      endfor
+    else
+      assign chosen_aspect_ratio = 0
+      for product in collection.products limit: product_limit
+        if product.featured_media.preview_image.aspect_ratio > chosen_aspect_ratio
+          assign chosen_aspect_ratio = product.featured_media.preview_image.aspect_ratio
+        endif
+      endfor
+    endif
+
+    for product in collection.products limit: product_limit
+      if enable_carousel
+        echo '<div class="slider__item">'
+      endif
+      render 'product-block', product: product, collection: collection, custom_aspect_ratio: chosen_aspect_ratio, no_swiping: enable_carousel, no_quick_buy_markup: enable_carousel
+      if enable_carousel
+        echo '</div>'
+      endif
+    endfor
+  endif
+-%}

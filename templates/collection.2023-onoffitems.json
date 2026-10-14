@@ -1,0 +1,359 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4de5ffdf-527f-4fd5-998a-14b64e9ecf78": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16894097031387__4de5ffdf-527f-4fd5-998a-14b64e9ecf78-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_067ee982-f79c-4b9e-84fc-34f1145034cb.png",
+            "mobile_image": "shopify://shop_images/2_8c8e47ff-6e2a-4d60-a473-4e1819922bcd.png",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16894097031387__4de5ffdf-527f-4fd5-998a-14b64e9ecf78-image-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "c7af2e1f-9a2e-4733-ad00-1b4a48381ae8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16894097031387__c7af2e1f-9a2e-4733-ad00-1b4a48381ae8-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "-2023-"
+          }
+        },
+        "template--16894097031387__c7af2e1f-9a2e-4733-ad00-1b4a48381ae8-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "オンオフ使える優秀なアイテム",
+            "use_h1": false
+          }
+        },
+        "template--16894097031387__c7af2e1f-9a2e-4733-ad00-1b4a48381ae8-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ビジネススタイルのカジュアル化もどんどん進んでいますし、<br/>普段の好みをちょこっと取り込むことだって不可能じゃないはず。</p><p>今回の特集では、オンオフ使えるモノを厳選したので、ぜひご参考まで！</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16894097031387__c7af2e1f-9a2e-4733-ad00-1b4a48381ae8-subheading-1",
+        "template--16894097031387__c7af2e1f-9a2e-4733-ad00-1b4a48381ae8-heading-1",
+        "template--16894097031387__c7af2e1f-9a2e-4733-ad00-1b4a48381ae8-text-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "9b8a150f-4af9-4507-9b43-d3fb30c05b91": {
+      "type": "featured-blog",
+      "disabled": true,
+      "settings": {
+        "title": "Blogs",
+        "blog": "2023blog",
+        "post_limit": 3,
+        "show_author": true,
+        "show_date": true,
+        "show_excerpts": false,
+        "crop_ratio": "1.0",
+        "color_scheme": "default"
+      }
+    },
+    "ec0b544a-f4b7-4186-a6ca-71d9442af367": {
+      "type": "image-block",
+      "blocks": {
+        "template--16894097031387__ec0b544a-f4b7-4186-a6ca-71d9442af367-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1.gif",
+            "image_link": "https://www.karakubuy.com/products/krk-xg-1227924?_pos=1&_sid=825bc052e&_ss=r&variant=43833181044955",
+            "title_big": "ミニカップ刺繡　オックスフォードワークシャツ",
+            "title_small": "Oxford workshirt",
+            "more_b": "View More"
+          }
+        },
+        "template--16894097031387__ec0b544a-f4b7-4186-a6ca-71d9442af367-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2.gif",
+            "image_link": "https://karakubuy.com/products/md-1909018?_pos=2&_sid=da1d0e733&_ss=r",
+            "title_big": "本革ワークシューズ",
+            "title_small": "Black workshoes",
+            "more_b": "View More"
+          }
+        },
+        "55996599-7ad5-46c4-bf8a-14e81a08440e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3.gif",
+            "image_link": "https://karakubuy.com/products/krk-xf-2182?_pos=1&_sid=febb55ffa&_ss=r&variant=43951469986011",
+            "title_big": "デニムブレザージャケット",
+            "title_small": "Denim blazer jacket",
+            "more_b": "View More"
+          }
+        },
+        "4f3a6b27-2996-4f27-bb90-ae1b43ef3b26": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4.gif",
+            "image_link": "https://karakubuy.com/products/kkrk-bd-101448?_pos=3&_sid=41925a017&_ss=r&variant=43565599064283",
+            "title_big": "ウール混ツイードテーラードジャケット",
+            "title_small": "Wool blend tweed tailored jacket",
+            "more_b": "View More"
+          }
+        },
+        "f476b3bb-6c1b-402b-b777-42da8d77b33a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5.gif",
+            "image_link": "https://karakubuy.com/products/krk-mbbw3085?_pos=1&_sid=777c5bea8&_ss=r&variant=42489221382363",
+            "title_big": "コーデュロイベスト",
+            "title_small": "Corduroy vest",
+            "more_b": "View More"
+          }
+        },
+        "34a93096-29ba-4e72-8b45-7ef90f5656f0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_fd1e264b-f90f-443c-93d8-61b98e7b5969.gif",
+            "image_link": "https://karakubuy.com/products/krk-mbbt1161?_pos=1&_sid=d8f2ba7be&_ss=r&variant=43424872825051",
+            "title_big": "コットンポロシャツ",
+            "title_small": "Cotton poloshirt",
+            "more_b": "View More"
+          }
+        },
+        "0e0b997a-dfa6-4520-b764-15b7199fa746": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7.gif",
+            "image_link": "https://karakubuy.com/products/krk-mbbt1191?_pos=1&_sid=17d0a4657&_ss=r&variant=44315917058267",
+            "title_big": "スラブコットンヘンリーTシャツ",
+            "title_small": "Slubcotton henley t-shirt",
+            "more_b": "View More"
+          }
+        },
+        "bcf3f51c-4476-4a37-8f9c-183ff499a84c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/8.gif",
+            "image_link": "https://karakubuy.com/products/krk-md-ts2307257?_pos=1&_sid=650489017&_ss=r&variant=44310323822811",
+            "title_big": "キャンバスデトロイトジャケット",
+            "title_small": "Canvas detroit jacket",
+            "more_b": "View More"
+          }
+        },
+        "6579f2db-8791-4937-b3a1-efea0af95b0d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9.gif",
+            "image_link": "https://karakubuy.com/products/krk-rf-q002?_pos=1&_sid=96b731443&_ss=r",
+            "title_big": "デニムパンツ",
+            "title_small": "Denim pants",
+            "more_b": "View More"
+          }
+        },
+        "1231ca0f-c105-4eae-830f-420a7dd1a673": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/10_ab746106-a2c9-4a69-a136-b6dd2b88bd53.gif",
+            "image_link": "https://karakubuy.com/products/krk-qms8893?_pos=1&_sid=6c7e89428&_ss=r",
+            "title_big": "キャンバストートバッグ",
+            "title_small": "Canvas tote bag",
+            "more_b": "View More"
+          }
+        },
+        "875d219e-5bf1-46dc-ab7d-c99c59849333": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/11_2ab9f7c3-fa67-4072-9e56-7173d141854c.gif",
+            "image_link": "https://karakubuy.com/products/krk-md-tw2307615?_pos=1&_sid=2e9e00261&_ss=r",
+            "title_big": "生デニムパンツ",
+            "title_small": "Raw denim pants",
+            "more_b": "View More"
+          }
+        },
+        "1453674b-9b29-4575-a46c-b7e9f9a4694a": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/12_74e41d7f-9239-4550-9220-c7a285dc1788.gif",
+            "image_link": "https://karakubuy.com/products/md1803022?_pos=1&_sid=9abdaf395&_ss=r&variant=40651203543218",
+            "title_big": "ジャック・パーセルスマイルスニーカー",
+            "title_small": "Jack purcell smile sneakers",
+            "more_b": "View More"
+          }
+        },
+        "8772cbc2-c30a-4092-9ee5-f76bc9e95d97": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/13.gif",
+            "image_link": "https://karakubuy.com/products/krk-md-tw2107082?_pos=1&_sid=50bec0af6&_ss=r",
+            "title_big": "首掛けレザーメガネホルダー",
+            "title_small": "Neck leather glasses holder",
+            "more_b": "View More"
+          }
+        },
+        "73e95dcd-0c8d-4175-9a61-ffd63f0dcacc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/14.gif",
+            "image_link": "https://karakubuy.com/products/nk-tw52?_pos=1&_sid=52b8e5a9d&_ss=r",
+            "title_big": "サスペンダー付きストライプワークパンツ",
+            "title_small": "Striped work pants with suspenders",
+            "more_b": "View More"
+          }
+        }
+      },
+      "block_order": [
+        "template--16894097031387__ec0b544a-f4b7-4186-a6ca-71d9442af367-image-1",
+        "template--16894097031387__ec0b544a-f4b7-4186-a6ca-71d9442af367-image-2",
+        "55996599-7ad5-46c4-bf8a-14e81a08440e",
+        "4f3a6b27-2996-4f27-bb90-ae1b43ef3b26",
+        "f476b3bb-6c1b-402b-b777-42da8d77b33a",
+        "34a93096-29ba-4e72-8b45-7ef90f5656f0",
+        "0e0b997a-dfa6-4520-b764-15b7199fa746",
+        "bcf3f51c-4476-4a37-8f9c-183ff499a84c",
+        "6579f2db-8791-4937-b3a1-efea0af95b0d",
+        "1231ca0f-c105-4eae-830f-420a7dd1a673",
+        "875d219e-5bf1-46dc-ab7d-c99c59849333",
+        "1453674b-9b29-4575-a46c-b7e9f9a4694a",
+        "8772cbc2-c30a-4092-9ee5-f76bc9e95d97",
+        "73e95dcd-0c8d-4175-9a61-ffd63f0dcacc"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#b89c2c"
+      }
+    },
+    "c3f52148-b5ef-4a0b-8e00-34c7cff5bf62": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2023-10-31_15-19-45.jpg"
+      }
+    },
+    "efe639f9-3b4d-4c46-a417-aee099c546b7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "on&off",
+        "collection": "2023-on-off-items",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "94df555d-41e8-4a71-9e80-3bf0bbf9b4b6": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    }
+  },
+  "order": [
+    "4de5ffdf-527f-4fd5-998a-14b64e9ecf78",
+    "c7af2e1f-9a2e-4733-ad00-1b4a48381ae8",
+    "main",
+    "9b8a150f-4af9-4507-9b43-d3fb30c05b91",
+    "ec0b544a-f4b7-4186-a6ca-71d9442af367",
+    "c3f52148-b5ef-4a0b-8e00-34c7cff5bf62",
+    "efe639f9-3b4d-4c46-a417-aee099c546b7",
+    "94df555d-41e8-4a71-9e80-3bf0bbf9b4b6"
+  ]
+}

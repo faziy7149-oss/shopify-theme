@@ -1,0 +1,651 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "seamless_scrolling_ygRfH6": {
+      "type": "seamless-scrolling",
+      "blocks": {
+        "image_left_VfAD69": {
+          "type": "imageLeft",
+          "settings": {
+            "seamless_scrolling_image": "shopify://shop_images/1_a6b97d36-b42d-4413-a67d-8acbc2a6493b.png",
+            "seamless_scrolling_image2": "shopify://shop_images/2_2f7285ff-8f20-4a50-8889-6c130aa3001a.png"
+          }
+        },
+        "image_right_BYgPCW": {
+          "type": "imageRight",
+          "settings": {
+            "seamless_scrolling_image_right": "shopify://shop_images/3_defe427a-0d72-43f7-82a0-1a873c088a85.png",
+            "seamless_scrolling_image_right2": "shopify://shop_images/4_74b63176-8ee4-4933-bf45-3c225c205112.png"
+          }
+        },
+        "center_image_gqcMxm": {
+          "type": "centerImage",
+          "settings": {
+            "seamless_scrolling_image_center": "shopify://shop_images/01__1920_c35d7e53-8f33-4656-b4e5-17b9e60b070a.png",
+            "seamless_scrolling_image_center2": "shopify://shop_images/01__1080_614bb975-12e6-41cc-8108-d6cce4fb0e3f.png"
+          }
+        },
+        "advertising_tags_kEUDJt": {
+          "type": "AdvertisingTags",
+          "settings": {
+            "seamless_scrolling_tag": "shopify://shop_images/KARAKU__2_-removebg-preview.png",
+            "top_location": 8,
+            "left_location": 32,
+            "top_location2": 26,
+            "left_location2": 59,
+            "img_animation": "rotation"
+          }
+        }
+      },
+      "block_order": [
+        "image_left_VfAD69",
+        "image_right_BYgPCW",
+        "center_image_gqcMxm",
+        "advertising_tags_kEUDJt"
+      ],
+      "settings": {
+        "light_img": "shopify://shop_images/light_c500ae3a-7508-4c1e-b7de-8826997411d2.svg"
+      }
+    },
+    "rich_text_nDTexy": {
+      "type": "rich-text",
+      "blocks": {
+        "text_kQycTt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>いつも購入を後回しにしてしまいがちな手袋やソックス、マフラーなどの冬小物。そんな小物こそSALEでお得にゲットするべき！Karakuが提案するこの冬おススメの小物・雑貨を揃えました。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_kQycTt"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "image_jump_custom_EKArtP": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_WFqJmU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_5846b3c3-2004-4604-bf72-f1ebbee7903f.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_WFqJmU"
+      ],
+      "settings": {}
+    },
+    "adjusting_spacing_B3DEfm": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -4,
+        "margin_top2": -4
+      }
+    },
+    "slide_block_group_cRWPQL": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_VXHjmt": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1-1-1.png",
+            "slide_img2": "shopify://shop_images/1-1-2.png",
+            "slide_title": "バッジ付き スプラッシュインクフリップキャップ",
+            "slide_price": 8990,
+            "slide_price_new": 4050,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-md-ts2307249?_pos=2&_sid=3336e5f66&_ss=r",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_jyKMXJ": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1-2-1.png",
+            "slide_img2": "shopify://shop_images/1-2-2.png",
+            "slide_title": "裏和柄・招き猫 デニムボールキャップ",
+            "slide_price": 8980,
+            "slide_price_new": 4050,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-zyd-zcmbybqm123?_pos=1&_sid=9b6bca307&_ss=r",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_WhHGMr": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1-3-1.png",
+            "slide_title": "三色展開　刺繍入り後ろ被り可能ハンチングキャップ",
+            "slide_price": 5990,
+            "slide_price_new": 3600,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-im-208?_pos=1&_sid=b4c8de9de&_ss=r",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_VXHjmt",
+        "slide_block_jyKMXJ",
+        "slide_block_WhHGMr"
+      ],
+      "settings": {
+        "slide_btn_color": "#fffec6",
+        "slide_text_color": "#bd331a",
+        "slide_btn_hover_color": "#f6cd44",
+        "slide_text_hover_color": "#fffec8",
+        "slide_font_color": "#ffffff",
+        "price_new_color": "#fffec8"
+      }
+    },
+    "url_text_gcKwKE": {
+      "type": "url-text",
+      "settings": {
+        "url_text": "https://karakubuy.com/collections/2025-sale-cap",
+        "text_url": "CHECK MORE",
+        "btn_color": "#f6cd44",
+        "btn_color_hover": "#c20000",
+        "btn_text_color": "#c20000",
+        "btn_text_color_hover": "#fffec8",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 25,
+        "url_font_size_moble": 13,
+        "img_postion_size_pc": 55,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "divider_PKQXAa": {
+      "type": "divider",
+      "settings": {}
+    },
+    "image_jump_custom_ttmUTB": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_paBPtT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_baddeef4-910f-4a45-b2e8-4155d9ed74c7.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_paBPtT"
+      ],
+      "settings": {}
+    },
+    "slide_block_group_LiUFke": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_eDxNzC": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/2-2-1.png",
+            "slide_img2": "shopify://shop_images/2-2-2.png",
+            "slide_title": "NEW! 2wayタクティカルベスト・バッグ",
+            "slide_price": 15950,
+            "slide_price_new": 10370,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-md-tss2201029?_pos=7&_sid=4815de932&_ss=r",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_mgcjYe": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/2-3-2.png",
+            "slide_img2": "shopify://shop_images/2-3-1.png",
+            "slide_title": "オイルワックスキャンバスハンドバッグ",
+            "slide_price": 5962,
+            "slide_price_new": 3880,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/s1901293?_pos=1&_sid=8a1379f3f&_ss=r&variant=42641155850459",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_z3TcLK": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/2-1-1.png",
+            "slide_img2": "shopify://shop_images/2-1-2.png",
+            "slide_title": "改良型 60‘s キャンバスニュースペーパーバッグ",
+            "slide_price": 10980,
+            "slide_price_new": 8130,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-md-tw2207657?_pos=2&_sid=db529b88b&_ss=r",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_eDxNzC",
+        "slide_block_mgcjYe",
+        "slide_block_z3TcLK"
+      ],
+      "settings": {
+        "slide_btn_color": "#fffec6",
+        "slide_text_color": "#bd331a",
+        "slide_btn_hover_color": "#f6cd44",
+        "slide_text_hover_color": "#fffec6",
+        "slide_font_color": "#ffffff",
+        "price_new_color": "#fffec8"
+      }
+    },
+    "url_text_hEUQz6": {
+      "type": "url-text",
+      "settings": {
+        "url_text": "https://karakubuy.com/collections/2025-sale-bag",
+        "text_url": "CHECK MORE",
+        "btn_color": "#f6cd44",
+        "btn_color_hover": "#c20000",
+        "btn_text_color": "#c20000",
+        "btn_text_color_hover": "#fffec8",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 25,
+        "url_font_size_moble": 13,
+        "img_postion_size_pc": 55,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "divider_a9H4Dx": {
+      "type": "divider",
+      "settings": {}
+    },
+    "image_jump_custom_kwf4ax": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_TecKpm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_672793be-5252-4cbb-b57f-9a96993faaf3.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_TecKpm"
+      ],
+      "settings": {}
+    },
+    "slide_block_group_bRWWxp": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_iiVVgf": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/3-1-2.png",
+            "slide_img2": "shopify://shop_images/3-1-1.png",
+            "slide_title": "コブラバックルベルト",
+            "slide_price": 10600,
+            "slide_price_new": 3200,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/md-s2001059-1?_pos=2&_sid=b64ac2a1a&_ss=r",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_MUarEi": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/3-3-1.png",
+            "slide_img2": "shopify://shop_images/3-3-2.png",
+            "slide_title": "イギリス軍　 UK ARMY SASベルト",
+            "slide_price": 5962,
+            "slide_price_new": 3800,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-md-s2101090?_pos=1&_sid=c420412ec&_ss=r",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_RnPx7d": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/3-2-1.png",
+            "slide_img2": "shopify://shop_images/3-2-2.png",
+            "slide_title": "ファイヤーマン・バックルベルト　牛革＆銅",
+            "slide_price": 11980,
+            "slide_price_new": 10790,
+            "slide_btn": "MORE",
+            "slide_url": "https://xksfsf04qxhs84qe-5418582051.shopifypreview.com/products_preview?preview_key=23bd3a997f3e15da26454b4f91c9e176",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_iiVVgf",
+        "slide_block_MUarEi",
+        "slide_block_RnPx7d"
+      ],
+      "settings": {
+        "slide_btn_color": "#fffec6",
+        "slide_text_color": "#bd331a",
+        "slide_btn_hover_color": "#f6cd44",
+        "slide_text_hover_color": "#fffec6",
+        "slide_font_color": "#ffffff",
+        "price_new_color": "#fffec8"
+      }
+    },
+    "url_text_WAacm6": {
+      "type": "url-text",
+      "settings": {
+        "url_text": "https://karakubuy.com/collections/2025-sale-belt",
+        "text_url": "CHECK MORE",
+        "btn_color": "#f6cd44",
+        "btn_color_hover": "#c20000",
+        "btn_text_color": "#c20000",
+        "btn_text_color_hover": "#fffec8",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 25,
+        "url_font_size_moble": 13,
+        "img_postion_size_pc": 55,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "divider_Pqmban": {
+      "type": "divider",
+      "settings": {}
+    },
+    "image_jump_custom_dUxYXT": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_jqDhxq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_f57eb838-7a09-4d12-ba5a-98aa82b2c156.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jqDhxq"
+      ],
+      "settings": {}
+    },
+    "slide_block_group_NBBArT": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_wRhQpP": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/4-2-2.png",
+            "slide_img2": "shopify://shop_images/4-2-1.png",
+            "slide_title": "ミリタリーニットグローブ",
+            "slide_price": 6160,
+            "slide_price_new": 3100,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-md-tw2007180-1?_pos=1&_sid=cd0579374&_ss=r",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_LjrzK4": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/4-1-1.png",
+            "slide_img2": "shopify://shop_images/4-1-2.png",
+            "slide_title": "異素材コンビスマホ対応プロテクター付きオートバイグローブ",
+            "slide_price": 16980,
+            "slide_price_new": 15290,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-mt-sx12?_pos=1&_sid=5d83eeed0&_ss=r",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_WXt4F7": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/4-3-2.png",
+            "slide_img2": "shopify://shop_images/4-3-1.png",
+            "slide_title": "本革バイカー 　半指グローブ ",
+            "slide_price": 15980,
+            "slide_price_new": 12980,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-mt-606934?_pos=2&_sid=d6b0f8e76&_ss=r&variant=42930524356827",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_wRhQpP",
+        "slide_block_LjrzK4",
+        "slide_block_WXt4F7"
+      ],
+      "settings": {
+        "slide_btn_color": "#fffec6",
+        "slide_text_color": "#bd331a",
+        "slide_btn_hover_color": "#f6cd44",
+        "slide_text_hover_color": "#fffec6",
+        "slide_font_color": "#ffffff",
+        "price_new_color": "#fffec8"
+      }
+    },
+    "url_text_gPmCNX": {
+      "type": "url-text",
+      "settings": {
+        "url_text": "https://karakubuy.com/collections/2025-sale-glove",
+        "text_url": "CHECK MORE",
+        "btn_color": "#f6cd44",
+        "btn_color_hover": "#c20000",
+        "btn_text_color": "#c20000",
+        "btn_text_color_hover": "#fffec8",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 25,
+        "url_font_size_moble": 13,
+        "img_postion_size_pc": 55,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "divider_AJfehL": {
+      "type": "divider",
+      "settings": {}
+    },
+    "image_jump_custom_UE64U3": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_wqadKe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_1e156663-0237-4827-a466-32af8e6c3a56.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_wqadKe"
+      ],
+      "settings": {}
+    },
+    "slide_block_group_74r9iw": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_jzpXA4": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/5-1-1.png",
+            "slide_img2": "shopify://shop_images/5-1-2.png",
+            "slide_title": "ハーレープリントコットンスカーフ",
+            "slide_price": 8990,
+            "slide_price_new": 3980,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-ex-126902?_pos=1&_sid=e3139c7eb&_ss=r",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_AwhGUq": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/5-2-1.png",
+            "slide_title": "選べる2柄　ナバホ＆星空 ネックウォーマー",
+            "slide_price": 9190,
+            "slide_price_new": 4300,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-md-tw2207651?_pos=1&_sid=ec969f6f1&_ss=r",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_JVYgbq": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/5-3-2.png",
+            "slide_title": "レトロパイナップルパイルマフラー",
+            "slide_price": 9190,
+            "slide_price_new": 5060,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-md-tw2007200-new?_pos=3&_sid=39384d5c4&_ss=r",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_jzpXA4",
+        "slide_block_AwhGUq",
+        "slide_block_JVYgbq"
+      ],
+      "settings": {
+        "slide_btn_color": "#fffec6",
+        "slide_text_color": "#bd331a",
+        "slide_btn_hover_color": "#f6cd44",
+        "slide_text_hover_color": "#fffec6",
+        "slide_font_color": "#ffffff",
+        "price_new_color": "#fffec8"
+      }
+    },
+    "url_text_3kdp4T": {
+      "type": "url-text",
+      "settings": {
+        "url_text": "https://karakubuy.com/collections/2025-sale-scarf",
+        "text_url": "CHECK MORE",
+        "btn_color": "#f6cd44",
+        "btn_color_hover": "#c20000",
+        "btn_text_color": "#c20000",
+        "btn_text_color_hover": "#fffec8",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 25,
+        "url_font_size_moble": 13,
+        "img_postion_size_pc": 55,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "background_image_TCkHMe": {
+      "type": "background-image",
+      "settings": {
+        "background_color_overlay": "#bd331a",
+        "background_color": ""
+      }
+    }
+  },
+  "order": [
+    "seamless_scrolling_ygRfH6",
+    "rich_text_nDTexy",
+    "image_jump_custom_EKArtP",
+    "adjusting_spacing_B3DEfm",
+    "slide_block_group_cRWPQL",
+    "url_text_gcKwKE",
+    "divider_PKQXAa",
+    "image_jump_custom_ttmUTB",
+    "slide_block_group_LiUFke",
+    "url_text_hEUQz6",
+    "divider_a9H4Dx",
+    "image_jump_custom_kwf4ax",
+    "slide_block_group_bRWWxp",
+    "url_text_WAacm6",
+    "divider_Pqmban",
+    "image_jump_custom_dUxYXT",
+    "slide_block_group_NBBArT",
+    "url_text_gPmCNX",
+    "divider_AJfehL",
+    "image_jump_custom_UE64U3",
+    "slide_block_group_74r9iw",
+    "url_text_3kdp4T",
+    "main",
+    "background_image_TCkHMe"
+  ]
+}

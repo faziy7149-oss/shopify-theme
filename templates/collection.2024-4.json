@@ -1,0 +1,572 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "photo_banner_pDnQy9": {
+      "type": "photo-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/1500.png",
+        "mobile_image": "shopify://shop_images/800.png",
+        "banner_link": "shopify://collections/72-time-sale",
+        "photo_banner_col": "#ff5626"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "background_image_3ki6G8": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/105____1920__2__02.png"
+      }
+    },
+    "slideshow_67zcJD": {
+      "type": "slideshow",
+      "blocks": {
+        "image_hgGVCm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20240426-173728.jpg",
+            "mobile_image": "shopify://shop_images/20240426-173718.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_hgGVCm"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "adjusting_spacing_nmpLjt": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 1,
+        "margin_top2": 0
+      }
+    },
+    "single_image_8AwaP8": {
+      "type": "single-image",
+      "settings": {
+        "image_block_image": "shopify://shop_images/105___1920___01.png",
+        "image_block_image_m": "shopify://shop_images/105___1920___01_c976d955-a301-49b1-8d61-86f06baa5c03.png",
+        "image_link": ""
+      }
+    },
+    "single_image_BgRMAE": {
+      "type": "single-image",
+      "settings": {
+        "image_block_image": "shopify://shop_images/PC_06a19b0c-8c7d-4c6a-bb0d-3a720a72c425.png",
+        "image_block_image_m": "shopify://shop_images/20240426-185120.png",
+        "image_link": "shopify://products/krk-fthlrtz426-5"
+      }
+    },
+    "image_NXkcdL": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/105____1920-1.png",
+        "mobile_image": "shopify://shop_images/105____750-1.png",
+        "img_rul": ""
+      }
+    },
+    "image_slider_nrpeUp": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_ibdFhP": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01_-_-_-4_e18079e3-8895-4564-b2f0-7050fee49fb1.jpg"
+          }
+        },
+        "image_slider_yEcKeN": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01_-_-_-3_345f028b-3b91-4cac-9d8d-a1e4d5fe9b68.jpg"
+          }
+        },
+        "image_slider_44cpwT": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01_-_-_-2_ea38bd20-a67f-410a-95b4-ad71fdc04e2e.jpg"
+          }
+        },
+        "image_slider_Bcx7Hc": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01_-_-_-1_4546b77b-50e5-4c90-aca3-719d5b5e709e.jpg"
+          }
+        },
+        "main_diagram_LbtK3D": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/01_-_-2_8a30c049-fed6-4c09-a091-9f5f95643e0a.jpg",
+            "main_img2": "shopify://shop_images/01_-_-1_ecf1d0e7-e662-47b2-b325-e13f632d5e0d.jpg"
+          }
+        },
+        "image_info_4b7wYC": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "藍染め技法とモンステラとオオハシのイラストを取り入れたデザインにより、島の生活のリラックスと多彩さを表現した、個性的なハワイアンスタイルのシャツを作りました。",
+            "price_discount": 28980,
+            "original_price": 35980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-fthlrtz426"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_ibdFhP",
+        "image_slider_yEcKeN",
+        "image_slider_44cpwT",
+        "image_slider_Bcx7Hc",
+        "main_diagram_LbtK3D",
+        "image_info_4b7wYC"
+      ],
+      "settings": {
+        "data_title": "オオハシ&モンステラプリント入り綿麻アロハシャツ",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#ffffff",
+        "but_font_col": "#08216e",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "adjusting_spacing_6TJH8X": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -6
+      }
+    },
+    "image_j9j6wa": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/105____1920-2.png",
+        "mobile_image": "shopify://shop_images/105____750-2.png",
+        "img_rul": ""
+      }
+    },
+    "image_slider_JWcYQf": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_hLa6DN": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01_-t-_-1.jpg"
+          }
+        },
+        "image_slider_eXnagL": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01_-t-_-2.jpg"
+          }
+        },
+        "image_slider_pbTTF4": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01_-t-_-3.jpg"
+          }
+        },
+        "image_slider_ynJghA": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01_-t-_-4.jpg"
+          }
+        },
+        "main_diagram_QBDXLM": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/01_-t-1_88f0d2eb-a366-4496-9322-c40e7bc1c2f3.jpg",
+            "main_img2": "shopify://shop_images/01_-t-2.jpg"
+          }
+        },
+        "image_info_6iM6Df": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "藍染め技法とモンステラとオオハシのイラストを取り入れたデザインにより、島の生活のリラックスと多彩さを表現した、個性的なハワイアンスタイルのコットンTシャツを作りました。",
+            "price_discount": 10980,
+            "original_price": 15980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-fthlrtx426"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_hLa6DN",
+        "image_slider_eXnagL",
+        "image_slider_pbTTF4",
+        "image_slider_ynJghA",
+        "main_diagram_QBDXLM",
+        "image_info_6iM6Df"
+      ],
+      "settings": {
+        "data_title": "オオハシ&モンステラプリント入りコットンTee",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#f6f6f6",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "adjusting_spacing_VQtUTa": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -6
+      }
+    },
+    "image_VBrXXr": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/105____1920-3.png",
+        "mobile_image": "shopify://shop_images/105____750-3.png",
+        "img_rul": ""
+      }
+    },
+    "image_slider_9BLgaR": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_icB8Pz": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01_-_-_-1.jpg"
+          }
+        },
+        "image_slider_FbW6H3": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01_-_-_-2.jpg"
+          }
+        },
+        "image_slider_zXFV3B": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01_-_-_-4.jpg"
+          }
+        },
+        "image_slider_3x9ybV": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01_-_-_-3.jpg"
+          }
+        },
+        "main_diagram_gmhC7d": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/01_-_-1_7e0d6496-a83b-48ba-bed6-8953341558e0.jpg",
+            "main_img2": "shopify://shop_images/01_-_-2.jpg"
+          }
+        },
+        "image_info_7dwDwG": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "伝統的な藍染め技法で仕上げられており、鮮やかで清涼感のある藍が特徴です。大容量で使い勝手の良く、普段の外出からちょっとした旅行まで対応できます。",
+            "price_discount": 10980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-fthlrbb426"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_icB8Pz",
+        "image_slider_FbW6H3",
+        "image_slider_zXFV3B",
+        "image_slider_3x9ybV",
+        "main_diagram_gmhC7d",
+        "image_info_7dwDwG"
+      ],
+      "settings": {
+        "data_title": "オオハシ&モンステラプリント入りキャンバストートバッグ",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "adjusting_spacing_M3Ckb6": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -6
+      }
+    },
+    "image_GHUfP4": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/105____1920-4.png",
+        "mobile_image": "shopify://shop_images/105____750-4.png",
+        "img_rul": ""
+      }
+    },
+    "image_slider_iYQ7qm": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_7mEDHp": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01_-_-_-4_658a848a-6616-473a-8b61-a35fc6ff9391.jpg"
+          }
+        },
+        "image_slider_KyjfWr": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01_-_-_-1_45bf30e4-7b2b-4bd4-88f0-8604adc8f698.jpg"
+          }
+        },
+        "image_slider_y7mxJi": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01_-_-_-2_48f7cc72-9154-45c9-b566-66f03d2107ac.jpg"
+          }
+        },
+        "image_slider_EiWqkb": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01_-_-_-3_7d2b05b2-01ed-4176-823a-da5591ec1ee6.jpg"
+          }
+        },
+        "main_diagram_9GLJej": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/20240428-135041.jpg",
+            "main_img2": "shopify://shop_images/20240426-210813.jpg"
+          }
+        },
+        "image_info_LEAtYG": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "側面にはオオハシの刺繍が施されており、ハワイの熱帯の風景や生態系を象徴しています。シンプルなデザインはオーセンティックな雰囲気、リアのアジャスターでサイズ調整が可能です。",
+            "price_discount": 10980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-fthlrmz426"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_7mEDHp",
+        "image_slider_KyjfWr",
+        "image_slider_y7mxJi",
+        "image_slider_EiWqkb",
+        "main_diagram_9GLJej",
+        "image_info_LEAtYG"
+      ],
+      "custom_css": [],
+      "settings": {
+        "data_title": "オオハシ刺繍入り綿麻ボールキャップ",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "adjusting_spacing_7aAyX7": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -6
+      }
+    },
+    "image_jEhYCU": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/105____1920-5.png",
+        "mobile_image": "shopify://shop_images/105____750-5.png",
+        "img_rul": ""
+      }
+    },
+    "image_slider_KRjEww": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_T4MHza": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01_-_-_-4_997ba7ea-fb7e-4b99-92b8-949b9e18795f.jpg"
+          }
+        },
+        "image_slider_AKXfrc": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01_-_-_-1_aa6850da-4a1c-4d82-8c78-042ca8e7c98d.jpg"
+          }
+        },
+        "image_slider_LMQEXG": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01_-_-_-3_8eff42ab-cda4-4f67-8255-13ebdd496c67.jpg"
+          }
+        },
+        "image_slider_a3Cg4w": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01_-_-_-2_759a9423-94b1-46d3-8b71-966dbe0dcb77.jpg"
+          }
+        },
+        "main_diagram_gF9kQp": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/01_-_-1_40d2b747-f853-498c-9647-85c53bff106d.jpg",
+            "main_img2": "shopify://shop_images/01_-_-2_02b7f2e9-8e56-4e18-be5b-d04122a64d8b.jpg"
+          }
+        },
+        "image_info_qyNpU4": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "交互に編む表編みと裏編みが組み合わさり、縦方向にリブの縞模様が形成されます。このデザインによって、ソックスが足にぴったりとフィットし、伸縮性と快適な着用感を提供します。",
+            "price_discount": 4980,
+            "original_price": 6980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-fthlrwz426"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_T4MHza",
+        "image_slider_AKXfrc",
+        "image_slider_LMQEXG",
+        "image_slider_a3Cg4w",
+        "main_diagram_gF9kQp",
+        "image_info_qyNpU4"
+      ],
+      "settings": {
+        "data_title": "オオハシ刺繍入りリブ編みニットソックス",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#080a86",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#b8c60e"
+      }
+    },
+    "adjusting_spacing_qfgKMT": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -8
+      }
+    },
+    "featured_collection_AUP7Qt": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "四周年感謝祭・藍染シリーズ",
+        "collection": "2024-4th-blue",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 3,
+        "rows": 3,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "photo_banner_pDnQy9",
+    "main",
+    "background_image_3ki6G8",
+    "slideshow_67zcJD",
+    "adjusting_spacing_nmpLjt",
+    "single_image_8AwaP8",
+    "single_image_BgRMAE",
+    "image_NXkcdL",
+    "image_slider_nrpeUp",
+    "adjusting_spacing_6TJH8X",
+    "image_j9j6wa",
+    "image_slider_JWcYQf",
+    "adjusting_spacing_VQtUTa",
+    "image_VBrXXr",
+    "image_slider_9BLgaR",
+    "adjusting_spacing_M3Ckb6",
+    "image_GHUfP4",
+    "image_slider_iYQ7qm",
+    "adjusting_spacing_7aAyX7",
+    "image_jEhYCU",
+    "image_slider_KRjEww",
+    "adjusting_spacing_qfgKMT",
+    "featured_collection_AUP7Qt"
+  ]
+}

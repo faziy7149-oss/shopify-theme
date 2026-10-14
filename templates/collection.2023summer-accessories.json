@@ -1,0 +1,344 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "2ea771aa-30d2-4d4f-862d-2a4d4358e625": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16772672946395__2ea771aa-30d2-4d4f-862d-2a4d4358e625-1689575511e0e9bc10-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pc_639fb8da-6c69-4a66-92e3-4249fc7143b5.jpg",
+            "mobile_image": "shopify://shop_images/20230717-182801.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        },
+        "template--16772672946395__2ea771aa-30d2-4d4f-862d-2a4d4358e625-1689575511e0e9bc10-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "slide_link": "",
+            "subheading": "Subheading",
+            "title": "Tell your story",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "<p>Pair text with an image to tell a story</p>",
+            "enlarge_text": true,
+            "button_label_1": "Shop this",
+            "button_url_1": "",
+            "button_label_2": "Shop all",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16772672946395__2ea771aa-30d2-4d4f-862d-2a4d4358e625-1689575511e0e9bc10-0",
+        "template--16772672946395__2ea771aa-30d2-4d4f-862d-2a4d4358e625-1689575511e0e9bc10-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "0dc8cc30-7774-4d3e-a9d7-88f93fbf6a72": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16772672946395__0dc8cc30-7774-4d3e-a9d7-88f93fbf6a72-16895786351f954bbd-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "2023 SUMMER accessories"
+          }
+        },
+        "template--16772672946395__0dc8cc30-7774-4d3e-a9d7-88f93fbf6a72-16895786351f954bbd-1": {
+          "type": "heading",
+          "settings": {
+            "title": "夏に映えるおススメアクセサリー特集",
+            "use_h1": false
+          }
+        },
+        "template--16772672946395__0dc8cc30-7774-4d3e-a9d7-88f93fbf6a72-16895786351f954bbd-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>アクセサリーはメンズファッションのプラスワンアイテムとして欠かせないです。今回では、夏に映えるアクセサリー特集をご紹介します。夏の涼しげコーデにぴったりので、自分に合ったアクセサリー選びのご参考にしてみてください。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16772672946395__0dc8cc30-7774-4d3e-a9d7-88f93fbf6a72-16895786351f954bbd-0",
+        "template--16772672946395__0dc8cc30-7774-4d3e-a9d7-88f93fbf6a72-16895786351f954bbd-1",
+        "template--16772672946395__0dc8cc30-7774-4d3e-a9d7-88f93fbf6a72-16895786351f954bbd-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1652174971ed44938d": {
+      "type": "tag-link",
+      "disabled": true,
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "1649757612ea7476eb": {
+      "type": "text-editor",
+      "settings": {
+        "data_wrapper_1250": false,
+        "text1": "<p>{{ collection.metafields.commodity.productintroduction | metafield_tag }}</p>"
+      }
+    },
+    "f7083423-f11c-4067-ad02-85185a1f0752": {
+      "type": "picture-list",
+      "blocks": {
+        "template--16772672946395__f7083423-f11c-4067-ad02-85185a1f0752-16895775943ef827af-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_b32098a6-e4bc-42e9-a477-d4fb24f76b3e.jpg",
+            "image_link": "shopify://products/krk-saz23614"
+          }
+        },
+        "template--16772672946395__f7083423-f11c-4067-ad02-85185a1f0752-16895775943ef827af-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_1db376dc-13be-4209-b688-484f9b3f91c0.jpg",
+            "image_link": "shopify://products/krk-vibszxsl627"
+          }
+        },
+        "template--16772672946395__f7083423-f11c-4067-ad02-85185a1f0752-16895775943ef827af-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_b30734d4-fa65-4982-90a6-8f0de7ca2dfe.jpg",
+            "image_link": "shopify://products/krk-saz-235031526"
+          }
+        },
+        "template--16772672946395__f7083423-f11c-4067-ad02-85185a1f0752-16895775943ef827af-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_10ffa7d3-18ae-4901-8513-1ee047661694.jpg",
+            "image_link": "shopify://products/krk-vibjtsl20704"
+          }
+        },
+        "bd7827d7-9df0-4f3e-bacb-4f08e3a58a54": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_af11a058-e827-4038-9085-2947a909d90b.jpg",
+            "image_link": "shopify://products/krk-vib-ymyz23425"
+          }
+        },
+        "576c7836-33c6-460b-b2f3-0c6db65aa027": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_93bfd74b-e1c8-45b8-9e16-8cb0e5fe82a7.jpg",
+            "image_link": "shopify://products/krk-saz-234241718"
+          }
+        },
+        "1ef5e7b3-55c7-44bb-9727-8106a209a534": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7_e9525396-02f5-474a-90f4-5a462eee62a1.jpg",
+            "image_link": "shopify://products/krk-saz-551804"
+          }
+        },
+        "9566a48f-7417-4597-8fdc-a395e286650d": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/8_2aac1f8b-ac4c-488f-907c-d06fe9f937c0.jpg",
+            "image_link": "shopify://products/krk-md-tw2107140"
+          }
+        },
+        "c25e657b-56f9-4be5-87a6-05d1e65970c7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9_1b9b9cda-2124-49e8-bb1d-b432532cfadb.jpg",
+            "image_link": "shopify://products/krk-saz-sl235061533"
+          }
+        },
+        "4de3d8a5-4da1-4cbc-a06e-f2fa33210c66": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/10_88ef30e6-45b8-420f-9146-34e31795f7d4.jpg",
+            "image_link": "shopify://products/krk-vibzjsl705"
+          }
+        },
+        "aebde1df-4009-4230-bfb6-a25cc8c6c14f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/11_8367fc80-a6ee-47ba-b809-d1abc99f957d.jpg",
+            "image_link": "shopify://products/krk-vibzspjsl706"
+          }
+        },
+        "40cfb784-427a-4c17-a607-6e1055cc1428": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/12_c7bf9f4f-b570-4c9c-9420-8f4897982e05.jpg",
+            "image_link": "shopify://products/krk-vibscpjsl706"
+          }
+        }
+      },
+      "block_order": [
+        "template--16772672946395__f7083423-f11c-4067-ad02-85185a1f0752-16895775943ef827af-0",
+        "template--16772672946395__f7083423-f11c-4067-ad02-85185a1f0752-16895775943ef827af-1",
+        "template--16772672946395__f7083423-f11c-4067-ad02-85185a1f0752-16895775943ef827af-2",
+        "template--16772672946395__f7083423-f11c-4067-ad02-85185a1f0752-16895775943ef827af-3",
+        "bd7827d7-9df0-4f3e-bacb-4f08e3a58a54",
+        "576c7836-33c6-460b-b2f3-0c6db65aa027",
+        "1ef5e7b3-55c7-44bb-9727-8106a209a534",
+        "9566a48f-7417-4597-8fdc-a395e286650d",
+        "c25e657b-56f9-4be5-87a6-05d1e65970c7",
+        "4de3d8a5-4da1-4cbc-a06e-f2fa33210c66",
+        "aebde1df-4009-4230-bfb6-a25cc8c6c14f",
+        "40cfb784-427a-4c17-a607-6e1055cc1428"
+      ],
+      "settings": {}
+    },
+    "771e71bb-09ca-4222-955e-1bee9c9487be": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "2023 Summer Accesories",
+        "collection": "2023summer-accesories",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "06db0a83-8369-4c4b-9464-7ba602f13d5d": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    }
+  },
+  "order": [
+    "2ea771aa-30d2-4d4f-862d-2a4d4358e625",
+    "0dc8cc30-7774-4d3e-a9d7-88f93fbf6a72",
+    "main",
+    "1652174971ed44938d",
+    "1635765484031572a6",
+    "1649757612ea7476eb",
+    "f7083423-f11c-4067-ad02-85185a1f0752",
+    "771e71bb-09ca-4222-955e-1bee9c9487be",
+    "06db0a83-8369-4c4b-9464-7ba602f13d5d"
+  ]
+}

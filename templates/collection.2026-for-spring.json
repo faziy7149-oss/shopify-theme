@@ -1,0 +1,826 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "slideshow_PEhrV7": {
+      "type": "slideshow",
+      "blocks": {
+        "image_PbYABk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/099__1920_16030543-f5a0-44e9-81f1-2d6498958f25.jpg",
+            "mobile_image": "shopify://shop_images/099__1080_564b1817-4531-48b5-bc7a-c1f778437461.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_PbYABk"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "scrolling_banner_wFzetJ": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_fzHX9J": {
+          "type": "text",
+          "settings": {
+            "text": "Get Spring-Ready！",
+            "color": "#ffd659",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_fzHX9J"
+      ],
+      "name": "Scrolling banner",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 35,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "image_aANqkh": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_debb837a-0830-42d8-b82d-d7610563d0e6.png",
+        "mobile_image": "shopify://shop_images/720_9f789908-092e-41e9-8a18-13cbc3ae0908.png",
+        "img_rul": ""
+      }
+    },
+    "background_image_ycfVCC": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "image": "shopify://shop_images/bg_11cd54c0-faa2-45ed-b7f3-d09f3c533f9a.png",
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#f5f5f5",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_slider_VffcVU": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_fwayRd": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-1_c8dde355-25ed-40ac-8505-21ab70e264fa.jpg"
+          }
+        },
+        "image_slider_3xpTrV": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-2_fbeae0b2-c2d2-47d2-b018-5040ac6426e3.jpg"
+          }
+        },
+        "image_slider_EMVPca": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-3_eac06738-2adf-4539-b270-08cc90b81855.jpg"
+          }
+        },
+        "image_slider_M8EmVx": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-4_caef52ee-0f27-4ea0-bc13-c2246d653cea.jpg"
+          }
+        },
+        "main_diagram_3LTEKj": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-1_088805e1-821e-43f1-975a-57a262772ecf.jpg",
+            "main_img2": "shopify://shop_images/600x720-2_2a4f041f-58de-4d1b-9423-499d1e136cc8.jpg"
+          }
+        },
+        "image_info_8GMG8H": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "調節可能なショルダーストラップを胸の位置でオーダーメイドボタン留め、両腰でメタルバックルベルトを留め 、フロントにＤポケット1つとジャバラポケットを2つ、背面にパッチポケット2つ を配置して機能性が満載。",
+            "price_discount": 17000,
+            "original_price": 18890,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-md-tss2201065?_pos=1&_sid=a3c3d2ef9&_ss=r&variant=43029415788763"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_fwayRd",
+        "image_slider_3xpTrV",
+        "image_slider_EMVPca",
+        "image_slider_M8EmVx",
+        "main_diagram_3LTEKj",
+        "image_info_8GMG8H"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "ストレッチ ヴィンテージオーバーオール",
+        "data_tit_col": "#585454",
+        "info_text_col": "#6d7175",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#00af8e",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#ffd659"
+      }
+    },
+    "image_slider_TEWUpf": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_EtjgFD": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-5_27ea5162-a992-41ee-bee9-058fd3c6805e.jpg"
+          }
+        },
+        "image_slider_yKwx93": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-6_514be5e9-cf41-4d4c-9e1d-204d5fb5e81f.jpg"
+          }
+        },
+        "image_slider_qQHreT": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-7_734bc368-5864-4d4c-9ae0-b8acc9007ba3.jpg"
+          }
+        },
+        "image_slider_49fRcg": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-8_291979fc-2161-480d-9def-ae229fbecbd3.jpg"
+          }
+        },
+        "main_diagram_RAwz9K": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-3_84b97ee6-74fe-46d5-95f0-638ed01eee34.jpg",
+            "main_img2": "shopify://shop_images/600x720-4_5ae06350-cfe0-4eb4-afaf-08a1b67bc332.jpg"
+          }
+        },
+        "image_info_mahnWq": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "一般的なジャケットに見られる襟付きデザインを排除し、Vネックにすることで軽さと動きやすさを強調し、首元がすっきりと開いているため、アクセサリーや襟付きシャツとの相性も良い。",
+            "price_discount": 9090,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-061-urwt25?_pos=1&_sid=cddb7bce0&_ss=r&variant=46535154794715"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_EtjgFD",
+        "image_slider_yKwx93",
+        "image_slider_qQHreT",
+        "image_slider_49fRcg",
+        "main_diagram_RAwz9K",
+        "image_info_mahnWq"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "MA-1袖ポケット　薄手Ⅴネックフライトジャケット",
+        "data_tit_col": "#585454",
+        "info_text_col": "#6d7175",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#00af8e",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#ffd659"
+      }
+    },
+    "image_slider_9YXeVV": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_hFKEnz": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-9_2b643324-6b19-4126-999d-7df4c5ac3188.jpg"
+          }
+        },
+        "image_slider_Tpmap4": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-10_eaee2ef3-3a28-45d3-95f6-56a9450b658a.jpg"
+          }
+        },
+        "image_slider_MDR8aY": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-11_f0e0ea4e-b948-47ec-ade5-7802f7f0ba8e.jpg"
+          }
+        },
+        "image_slider_pKiyV8": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-12_7d78932f-b26e-4b8f-a71f-8890664c4d5a.jpg"
+          }
+        },
+        "main_diagram_rGnB3a": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-5_cf195807-15a3-459e-85e1-a6d3fb1979f7.jpg",
+            "main_img2": "shopify://shop_images/600x720-6_2d2ab41a-693a-4d85-8fc2-c9121ef3c695.jpg"
+          }
+        },
+        "image_info_nHETRa": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "猫の姿に焦点を当てている点がユニークで、一般的な描写とは異なり、ミステリアスでアート性が高いです。猫の姿は写実的でありながら、あえて細部を曖昧に描くことで、デザイン全体が柔らかい印象に仕上がっています。ミニマルな白地にこの絵を配置することで、作品そのものの美しさが際立っています。",
+            "price_discount": 7190,
+            "original_price": 7190,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-gsh-ht260151?_pos=1&_sid=eee63466b&_ss=r&variant=48250968244443"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_hFKEnz",
+        "image_slider_Tpmap4",
+        "image_slider_MDR8aY",
+        "image_slider_pKiyV8",
+        "main_diagram_rGnB3a",
+        "image_info_nHETRa"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "【予約】ピエール・ボナール『白い猫』ナビ派アートプリントコットンTee",
+        "data_tit_col": "#585454",
+        "info_text_col": "#6d7175",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#00af8e",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#ffd659"
+      }
+    },
+    "image_slider_ABwqti": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_Ur9RqN": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-13_3a4081d8-33a0-4716-a03e-7a1028b4d70f.jpg"
+          }
+        },
+        "image_slider_YBGCVw": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-14_205fcb8b-f43a-4ca1-96ff-fde556c9a36f.jpg"
+          }
+        },
+        "image_slider_pia8Bp": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-15_97177668-05c0-408d-ab7a-808eb2b2e39c.jpg"
+          }
+        },
+        "image_slider_gDnyYG": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-16_5f230b42-dd2b-4b56-8100-5db6fdc46516.jpg"
+          }
+        },
+        "main_diagram_H9eFrL": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-7_21a9475c-0a5b-4d55-9af9-45ed33ef1bb7.jpg",
+            "main_img2": "shopify://shop_images/600x720-8_b9b10460-2e57-475a-b602-3e713de4a636.jpg"
+          }
+        },
+        "image_info_8F8VDq": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ユーモラスなワンポイント刺繍が胸元に施されたシャツが登場！一見すると富士山に朝日が昇る風景──でもよく見ると、山頂にはちょこんと座る白猫が。赤い毛玉で遊ぶその姿が可愛くて、ワンポイントになる。",
+            "price_discount": 8990,
+            "original_price": 8990,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lrj-sh260203?_pos=1&_sid=3fb7f81e0&_ss=r&variant=48236877840603"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_Ur9RqN",
+        "image_slider_YBGCVw",
+        "image_slider_pia8Bp",
+        "image_slider_gDnyYG",
+        "main_diagram_H9eFrL",
+        "image_info_8F8VDq"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "【予約】赤ヒモ付き　「富士頂上の猫遊び 」刺繍入り長袖シャツ",
+        "data_tit_col": "#585454",
+        "info_text_col": "#6d7175",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#00af8e",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#ffd659"
+      }
+    },
+    "image_slider_wBUqpQ": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_qDEaxp": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-17_cbf08fbd-d68a-4dce-bf5b-cdbc4ca7d86e.jpg"
+          }
+        },
+        "image_slider_3aJqHg": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-18_982066d9-8809-4d4d-91bc-156d3a3da01c.jpg"
+          }
+        },
+        "image_slider_6jKPBC": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-19_dee375e2-58a8-4485-a85f-600f27c24c07.jpg"
+          }
+        },
+        "image_slider_cWfjEj": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-20_d4f81e0b-4b23-417e-8643-3cefeeacf22c.jpg"
+          }
+        },
+        "main_diagram_ydBNjg": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-9_e65982a1-b36f-441e-b1fc-50bc96a2e754.jpg",
+            "main_img2": "shopify://shop_images/600x720-10_ff54ae22-c1ad-489a-ad9a-61934f845e13.jpg"
+          }
+        },
+        "image_info_i3pd7D": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "フロントにはシンプルなロゴプリントを配し、すっきりとした印象に。襟元の「Vガゼット」デザインは、クラシックなスウェットシャツの伝統的なディテールを取り入れ、デザイン性と機能性を両立させています。バックスタイルには、帽子を被った猫がゴルフスイングの瞬間に振り向く、躍動感あふれるグラフィックを大胆にプリント。ユーモアとストーリー性を感じさせる一枚に仕上げました。",
+            "price_discount": 12980,
+            "original_price": 12980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lrj-hd251164?_pos=1&_sid=0793d90c7&_ss=r&variant=48219559592155"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_qDEaxp",
+        "image_slider_3aJqHg",
+        "image_slider_6jKPBC",
+        "image_slider_cWfjEj",
+        "main_diagram_ydBNjg",
+        "image_info_i3pd7D"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "「ゴルフキャットのひと振り」バックプリント入り　Vガゼットプルオーバースウェット",
+        "data_tit_col": "#585454",
+        "info_text_col": "#6d7175",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#00af8e",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#ffd659"
+      }
+    },
+    "image_slider_rkYeer": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_mzJxM3": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-21_643d3cbc-8e99-41e7-b87b-dd0b547a3e57.jpg"
+          }
+        },
+        "image_slider_KFiQq3": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-22_154dc810-3e3b-4d0d-801a-6487b68355a2.jpg"
+          }
+        },
+        "image_slider_jGgxgy": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-23_fd4f69fe-097b-4da0-b09f-286dcd630dca.jpg"
+          }
+        },
+        "image_slider_kLFazQ": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-24_108ef506-ed7a-4cc8-b3d9-2d7d6ea64507.jpg"
+          }
+        },
+        "main_diagram_bQtFKh": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-11_00e0d9e7-fa4b-4340-8264-77f3ff64dd2a.jpg",
+            "main_img2": "shopify://shop_images/600x720-12_697e756d-6834-4928-9390-ecfb8bf5c7dd.jpg"
+          }
+        },
+        "image_info_6r6ynb": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "裏地のエスニック柄がデザインのポイントです。裾を折り返した際に見えるデザインが目を引き、シンプルな外見に遊び心を加えています。柄は幾何学模様が中心で、オレンジやグリーンなどの暖色系を配したデザインは、春秋の季節感を演出します。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lrj-pt1024?_pos=1&_sid=ac2cfe7ce&_ss=r&variant=48204490244315"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_mzJxM3",
+        "image_slider_KFiQq3",
+        "image_slider_jGgxgy",
+        "image_slider_kLFazQ",
+        "main_diagram_bQtFKh",
+        "image_info_6r6ynb"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "【予約】裏エスニック調柄コットン混ストレートデニムパンツ",
+        "data_tit_col": "#585454",
+        "info_text_col": "#6d7175",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#00af8e",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#ffd659"
+      }
+    },
+    "image_slider_jVyzmg": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_rFDUVa": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-25_edaa3fe1-2e7d-407d-a7aa-6d7ce622a343.jpg"
+          }
+        },
+        "image_slider_HYrX74": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-26_731f6563-7f94-46db-8a0c-91ae6f10479a.jpg"
+          }
+        },
+        "image_slider_jh4AaR": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-27_004a7db2-a007-4945-8387-9693ff4a457d.jpg"
+          }
+        },
+        "image_slider_yLMynD": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-28_3326d13a-3b38-43dd-865f-322109790687.jpg"
+          }
+        },
+        "main_diagram_ddCfTE": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-13_78309f7b-2b44-4aee-9b9b-9b24eed19bea.jpg",
+            "main_img2": "shopify://shop_images/600x720-14_c284a7d1-5e2a-4bb0-af5b-872abf76ac28.jpg"
+          }
+        },
+        "image_info_Btg8GJ": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "首元はすっきりとしたスタンドカラー仕様。前を閉じれば端正で都会的な印象に、開ければ程よく力の抜けた大人のカジュアルスタイルを演出します。フックボタンはデザインアクセントであると同時に、着脱のしやすさにも配慮した実用的なディテールです。",
+            "price_discount": 18980,
+            "original_price": 18980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-gsh-dlrwje?_pos=2&_sid=9316297e0&_ss=r&variant=48092040265947"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_rFDUVa",
+        "image_slider_HYrX74",
+        "image_slider_jh4AaR",
+        "image_slider_yLMynD",
+        "main_diagram_ddCfTE",
+        "image_info_Btg8GJ"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "フックボタン付き斜め前立て　スタンドカラーデニムジャケット",
+        "data_tit_col": "#585454",
+        "info_text_col": "#6d7175",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#00af8e",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#ffd659"
+      }
+    },
+    "image_slider_dRTVmU": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_gTDkUQ": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-29_325a225e-51d2-49a7-a9e9-ada606209cd1.jpg"
+          }
+        },
+        "image_slider_zY8WHi": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-30_47546560-8f0d-4afe-b2d0-d9a285ea875e.jpg"
+          }
+        },
+        "image_slider_hXaDnk": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-31_96cf4247-1076-455b-a20a-fb2872cb34e4.jpg"
+          }
+        },
+        "image_slider_789DN8": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-32_e96d745a-7a0a-41ac-9596-6e5de2b7b732.jpg"
+          }
+        },
+        "main_diagram_Gg9ea6": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-15_52643b8f-2c22-4933-b333-d73397caae2e.jpg",
+            "main_img2": "shopify://shop_images/600x720-16_babf8185-7e2c-4cf6-ab25-1531f2da392b.jpg"
+          }
+        },
+        "image_info_p9kjE6": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "肘部分には滑らかなスエードパッチを配し、デザイン性と耐久性を両立しています。裏側には柔らかな裏パイル素材を使用しており、肌あたりが心地よく、ロングシーズン快適に着られる万能アイテム。",
+            "price_discount": 7190,
+            "original_price": 11980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lsx-ts251216?_pos=1&_sid=354d290d9&_ss=r&variant=48036338663643"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_gTDkUQ",
+        "image_slider_zY8WHi",
+        "image_slider_hXaDnk",
+        "image_slider_789DN8",
+        "main_diagram_Gg9ea6",
+        "image_info_p9kjE6"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "赤ヒモ付き　肘スエードパッチ入り裏パイルクルーネックスウェット",
+        "data_tit_col": "#585454",
+        "info_text_col": "#6d7175",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#00af8e",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#ffd659"
+      }
+    },
+    "image_slider_XKktH3": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_Atii6p": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-33_7b9e818a-7ff1-4dbb-b9fe-8522b6e72685.jpg"
+          }
+        },
+        "image_slider_9Y8M3b": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-34_d8d81360-a380-4bac-aa2e-79b833db1866.jpg"
+          }
+        },
+        "image_slider_W6eHGK": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-35_c8f92cda-f1c4-4ab8-9663-82efb7400150.jpg"
+          }
+        },
+        "image_slider_J7LxKU": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-36_1132547d-b879-46e7-9a93-7f7421a9486f.jpg"
+          }
+        },
+        "main_diagram_rERJ47": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-17_242b8a38-7a15-4e2f-8c51-e62ccc657e84.jpg",
+            "main_img2": "shopify://shop_images/600x720-18_5c308bf6-df8d-40c6-9269-145aeb9d3fbd.jpg"
+          }
+        },
+        "image_info_9a8V7C": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "フード部分はゆったりとした形状で、カジュアルさを演出しています。ドローコードがついており、実用性とデザイン性を両立しています。裾部分にも調整可能なドローコードがついており、シルエットを変えられる機能性が追加されています。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-zyd-jk251294?_pos=1&_sid=c306d15e6&_ss=r&variant=48076564037851"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_Atii6p",
+        "image_slider_9Y8M3b",
+        "image_slider_W6eHGK",
+        "image_slider_J7LxKU",
+        "main_diagram_rERJ47",
+        "image_info_9a8V7C"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "【予約】「KaraKu」刺繡ロゴ　ペイズリー総柄コットンフーディー",
+        "data_tit_col": "#585454",
+        "info_text_col": "#6d7175",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#00af8e",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#ffd659"
+      }
+    },
+    "image_slider_8DYrAq": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_7cgCVD": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-37_b1527503-6d3a-41f7-8c93-c2ec3eebd074.jpg"
+          }
+        },
+        "image_slider_BMwnwM": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-38_6ba225e3-41d4-4f2a-9415-6fee803a32d3.jpg"
+          }
+        },
+        "image_slider_CNYDFy": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-39_01c424fd-1de4-40e6-8c14-0e39f244ef35.jpg"
+          }
+        },
+        "image_slider_YyFpqn": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-40_7b8023df-0b5c-4c24-8304-93a99ae0cc74.jpg"
+          }
+        },
+        "main_diagram_y8MWNi": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-19_18566109-d31a-45b0-b44c-806fb8f65157.jpg",
+            "main_img2": "shopify://shop_images/600x720-20_67caef02-ee7e-4e35-be4e-bb68d4470ca0.jpg"
+          }
+        },
+        "image_info_BzGQf4": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "フロント部分に、ジッパーの開口部から「化け猫」がのぞいているユニークなデザインです。化け猫は、日本の伝統的な妖怪の一つとして知られ、浮世絵や伝統芸術のテーマにも頻繁に登場します。この化け猫は、浮世絵風のタッチで描かれており、細かい毛並みや表情がアーティスティックです。大きな目と鋭い視線がインパクトを与えています。",
+            "price_discount": 7980,
+            "original_price": 7980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-gsh-hsd251278?_pos=1&_sid=2f7240f32&_ss=r&variant=48219513389275"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_7cgCVD",
+        "image_slider_BMwnwM",
+        "image_slider_CNYDFy",
+        "image_slider_YyFpqn",
+        "main_diagram_y8MWNi",
+        "image_info_BzGQf4"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "【予約】「クロスジップの隙間から覗く化け猫」浮世絵風プリントコットンTee",
+        "data_tit_col": "#585454",
+        "info_text_col": "#6d7175",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#00af8e",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#ffd659"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_PEhrV7",
+    "scrolling_banner_wFzetJ",
+    "image_aANqkh",
+    "background_image_ycfVCC",
+    "image_slider_VffcVU",
+    "image_slider_TEWUpf",
+    "image_slider_9YXeVV",
+    "image_slider_ABwqti",
+    "image_slider_wBUqpQ",
+    "image_slider_rkYeer",
+    "image_slider_jVyzmg",
+    "image_slider_dRTVmU",
+    "image_slider_XKktH3",
+    "image_slider_8DYrAq"
+  ]
+}

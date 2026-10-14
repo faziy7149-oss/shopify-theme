@@ -1,0 +1,78 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-search",
+      "settings": {
+        "show_vendor": false,
+        "coll_num_per_page_int": 24,
+        "grid": 4,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true
+      }
+    },
+    "blog_listing": {
+      "type": "blog-listing",
+      "settings": {
+        "heading": "Blog",
+        "blog": "all",
+        "blog_handle": "all",
+        "posts_per_page": "12",
+        "desktop_columns": 3,
+        "mobile_columns": "1",
+        "gap": 20,
+        "show_search": true,
+        "show_tag_filter": true,
+        "tag_display_order": "",
+        "show_year_filter": true,
+        "search_placeholder": "Search articles...",
+        "read_more_text": "Read more",
+        "load_more_text": "Load more",
+        "title_size": 48,
+        "max_width": 1400,
+        "image_aspect_ratio": "100%",
+        "section_padding": 60,
+        "background_color": "#111111",
+        "text_color": "#e8e8e8",
+        "heading_color": "#ffffff",
+        "muted_color": "#9a9a9a",
+        "search_bg_color": "#1a1a1a",
+        "search_text_color": "#ffffff",
+        "search_border_color": "#333333",
+        "search_placeholder_color": "#777777",
+        "accent_color": "#ffffff",
+        "accent_text_color": "#111111",
+        "chip_bg_color": "#1a1a1a",
+        "chip_text_color": "#ffffff",
+        "chip_hover_bg_color": "#333333",
+        "chip_hover_text_color": "#ffffff",
+        "chip_active_bg_color": "#ffffff",
+        "chip_active_text_color": "#111111",
+        "card_bg_color": "#1a1a1a",
+        "button_bg_color": "#1a1a1a",
+        "button_text_color": "#ffffff",
+        "button_hover_bg_color": "#ffffff",
+        "button_hover_text_color": "#111111"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "blog_listing"
+  ]
+}

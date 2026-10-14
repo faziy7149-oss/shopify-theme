@@ -1,0 +1,662 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "slideshow_6kkGkE": {
+      "type": "slideshow",
+      "blocks": {
+        "image_KCjDRj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/051__1920.png",
+            "mobile_image": "shopify://shop_images/051__1080.png",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_KCjDRj"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "divider_BmFzRH": {
+      "type": "divider",
+      "name": "Divider",
+      "settings": {}
+    },
+    "image_LehmQM": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_37aa259d-5670-42be-a6e7-31458203e426.png",
+        "mobile_image": "shopify://shop_images/720_0a1de551-54e1-4bbd-bf53-18f5d9575f3f.png",
+        "img_rul": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "image_slider_GRF6d3": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_QarRmf": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-1_77a46563-d1cd-427a-8da8-27a1012f49a5.jpg"
+          }
+        },
+        "image_slider_pyWBUw": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-2_dfeab9b4-b57f-4a41-8ae4-733a114d163e.jpg"
+          }
+        },
+        "image_slider_Yr7BXK": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-3_a44f6c62-4061-486f-b5a0-a06d16ab8095.jpg"
+          }
+        },
+        "image_slider_AinQcp": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-4_30f35f66-0292-4b41-b75b-8315cc96c655.jpg"
+          }
+        },
+        "main_diagram_bJb6Cp": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-1_04ef7f71-b8e0-45a7-958e-1b275e48eb7e.jpg",
+            "main_img2": "shopify://shop_images/600x720-2_5e73c4a5-36e1-4f9f-a631-7e1db59fbbe8.jpg"
+          }
+        },
+        "image_info_iK83FC": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "胸元に描かれたのは、半開きのジップ。その隙間から、まるで別世界から姿を現そうとする“化け猫”がひょっこりと顔を覗かせる、遊び心あふれるグラフィックフーディです。アートワークとしても楽しめる存在感のある一枚です。",
+            "price_discount": 7790,
+            "original_price": 12980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lsx-hd251155?_pos=1&_sid=017aeee8e&_ss=r&variant=47931275575515"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_QarRmf",
+        "image_slider_pyWBUw",
+        "image_slider_Yr7BXK",
+        "image_slider_AinQcp",
+        "main_diagram_bJb6Cp",
+        "image_info_iK83FC"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "「クロスジップの隙間から覗く化け猫」浮世絵風プリント入りスウェット",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#df6c21",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_CHtKai": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_ezNVU6": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-5_9221405e-4d94-497c-8716-21cfd3101b14.jpg"
+          }
+        },
+        "image_slider_8dcaqw": {
+          "type": "imageSlider",
+          "settings": {}
+        },
+        "image_slider_kByHwH": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-7_9f8c4d7c-0d8a-4aa4-a590-0cb6548bf93e.jpg"
+          }
+        },
+        "image_slider_cVWb4x": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-8_d1e726a4-c26e-42a4-a466-55da66a247c6.jpg"
+          }
+        },
+        "main_diagram_i9yanF": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-3_77f69f59-1b75-401a-91e4-7e7d49d7683c.jpg",
+            "main_img2": "shopify://shop_images/600x720-4_24ed9912-a186-4cdd-ae54-8c640e8d71ac.jpg"
+          }
+        },
+        "image_info_f3pfbD": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "オールブラックのスウェットに、刀を振り下ろす“武士猫”の瞬間を切り取ったグラフィックをオン。ネックから裾へ、さらに左腰から右腰へと走るカットオフ風のフリンジ加工を施し、あえてプリントの一部を隠すことで、まるで武士猫が布地を斬り裂き、中から飛び出してくるようなダイナミックな演出を加えています。",
+            "price_discount": 8450,
+            "original_price": 12980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lrj-hd251176?_pos=1&_sid=574a41812&_ss=r&variant=47963298103515"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_ezNVU6",
+        "image_slider_8dcaqw",
+        "image_slider_kByHwH",
+        "image_slider_cVWb4x",
+        "main_diagram_i9yanF",
+        "image_info_f3pfbD"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "「瞬刃の武士猫」プリント入りフリンジ加工プルオーバースウェット",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#df6c21",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_D6xkdU": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_EWhQGL": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-9_232a4a16-de0b-4cc6-960d-4176eb3fd3e1.jpg"
+          }
+        },
+        "image_slider_QLCEKY": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-10_996688ef-a7a1-4b48-a008-b64d0b1d5faf.jpg"
+          }
+        },
+        "image_slider_HcUXUt": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-11_21571f0f-af93-4da7-8317-a79b5f4d9b3c.jpg"
+          }
+        },
+        "image_slider_qwiCXX": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-12_77728181-1722-4288-abc5-1c6a66e9442d.jpg"
+          }
+        },
+        "main_diagram_kTkYCB": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-5_2605e0f9-d19a-4858-93c1-472237d1c4e0.jpg",
+            "main_img2": "shopify://shop_images/600x720-6_5fd8d301-d1e1-429b-999b-e9a9e9233a09.jpg"
+          }
+        },
+        "image_info_NLGz8t": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "フロントに筋肉質な猫のキャラクターが描かれています。このキャラクターは力強さとユーモアを同時に表現しており、視覚的なインパクトがあります。「KARAKU」や「STAY STRONG」の文字は太字のヴィンテージ調フォントが使用されており、クラシックで力強い印象を与えます。  ",
+            "price_discount": 9100,
+            "original_price": 12980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-gsh-sw251160?_pos=1&_sid=b0bab7055&_ss=r&variant=47963515715803"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_EWhQGL",
+        "image_slider_QLCEKY",
+        "image_slider_HcUXUt",
+        "image_slider_qwiCXX",
+        "main_diagram_kTkYCB",
+        "image_info_NLGz8t"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "「筋肉猫」プリント裏パイルコットンVガゼットスウェット",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#df6c21",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_7K8NWq": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_jgFH6U": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-13_2a6580d1-c843-4a39-87a3-3c59f200128f.jpg"
+          }
+        },
+        "image_slider_EVj8jr": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-14_71b67f96-eb50-449e-bab6-93f0276b20e0.jpg"
+          }
+        },
+        "image_slider_yap9kX": {
+          "type": "imageSlider",
+          "settings": {}
+        },
+        "image_slider_yHGxCB": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-16_8d70e5f6-242a-4d2e-9d68-ff52b73222e1.jpg"
+          }
+        },
+        "main_diagram_q3UX4p": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-7_c725e923-edd4-4687-9953-dcff6f620ac5.jpg",
+            "main_img2": "shopify://shop_images/600x720-8_2eaec6f5-bbc1-4d6f-9fcd-1413321b2acc.jpg"
+          }
+        },
+        "image_info_YTNfJ7": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "和の趣とストリートの遊び心を融合させた、「和猫ライダー」スウェット。和の装いをまとった猫が、颯爽とバイクを駆け抜ける――。風を切って走る姿にあわせて、尻尾がまっすぐになびく様子が印象的な「和猫ライダー」プリント。ユーモラスでありながら、どこか凛とした気配を漂わせる一枚です。",
+            "price_discount": 7790,
+            "original_price": 12980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-zyd-hd251060?_pos=1&_sid=1588bebfe&_ss=r&variant=47890319147227"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_jgFH6U",
+        "image_slider_EVj8jr",
+        "image_slider_yap9kX",
+        "image_slider_yHGxCB",
+        "main_diagram_q3UX4p",
+        "image_info_YTNfJ7"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "「和猫ライダー」プリントVガゼット入りコットンプルオーバースウェット",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#df6c21",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_dierKw": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_hmEBjL": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-21_0769789b-f7a5-4756-8cba-d9318cda6443.jpg"
+          }
+        },
+        "image_slider_EAndXB": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-22_59cf565d-a01b-44e6-ab6d-9d0284ee9107.jpg"
+          }
+        },
+        "image_slider_JMR67a": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-23_b30b6739-02fa-4cd4-9d13-27a27b720a2d.jpg"
+          }
+        },
+        "image_slider_EaHdYU": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-24_2945bfa2-e7f5-45d9-8fd7-7706b762b119.jpg"
+          }
+        },
+        "main_diagram_HDJA8V": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-11_b28bb9d8-51b2-47aa-b600-8ea0d8756804.jpg",
+            "main_img2": "shopify://shop_images/600x720-12_c6ab6622-cabc-41d3-a1f0-dbe2db2d9f93.jpg"
+          }
+        },
+        "image_info_ThaKdJ": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "猫がヘルメットを被りスケートボードを持つ構図は、遊び心がありながらも、力強さとストリートカルチャーを表現。ヘルメットやスケートボードには、和柄（唐草模様や波模様）を思わせるディテールが入って、単なるストリートデザインではなく、日本的な伝統要素を取り入れることで、独自性を強調しています。",
+            "price_discount": 12980,
+            "original_price": 12980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lrj-sw1012?_pos=1&_sid=a2d4fde48&_ss=r&variant=47815644774619"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_hmEBjL",
+        "image_slider_EAndXB",
+        "image_slider_JMR67a",
+        "image_slider_EaHdYU",
+        "main_diagram_HDJA8V",
+        "image_info_ThaKdJ"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "肘スエードパッチ「ヘルメットを被ったスケボー猫」プリント裏起毛スウェット",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#df6c21",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_hVMj3B": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_TQQjkq": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-25_4e0efec7-c6a1-4631-afdf-cc42c7e089a6.jpg"
+          }
+        },
+        "image_slider_JVcVbr": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-26_e712c6b3-08bc-400a-98c8-d417b755cc2f.jpg"
+          }
+        },
+        "image_slider_Knk33p": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-27_ebdd2667-8442-4244-a78c-0ac6456d960a.jpg"
+          }
+        },
+        "image_slider_FAYqPf": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-28_f17ec5a5-b3cd-4789-b6f8-a47cc2445e5f.jpg"
+          }
+        },
+        "main_diagram_BQGmxM": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-13_5d77a84b-002f-448c-8729-3bb550849637.jpg",
+            "main_img2": "shopify://shop_images/600x720-13_5d77a84b-002f-448c-8729-3bb550849637.jpg"
+          }
+        },
+        "image_info_hqBrkA": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "バックに描かれた「海賊・キャプテンネコ」のプリントが目を引く、遊び心あふれるプルオーバースウェット。ブラックのベーシックなボディに、プリントと相性の良い“CAPTAIN”英文字刺繍を重ね、グラフィックの存在感をより立体的に表現しています。",
+            "price_discount": 12980,
+            "original_price": 12980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-gsh-sw251186?_pos=1&_sid=e4c5feadf&_ss=r&variant=47992355422427"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_TQQjkq",
+        "image_slider_JVcVbr",
+        "image_slider_Knk33p",
+        "image_slider_FAYqPf",
+        "main_diagram_BQGmxM",
+        "image_info_hqBrkA"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "「海賊・キャプテンネコ」プリント入り肘スエードパッチプルオーバースウェット",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#df6c21",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_idNWdr": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_Kd4RJE": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-29_363467da-eb39-445e-a9cb-d5bb639dd6bf.jpg"
+          }
+        },
+        "image_slider_KjJidf": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-30_6f2dee30-b225-4ae6-8edd-a69a619c873a.jpg"
+          }
+        },
+        "image_slider_QnT3MK": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-31_3e9a350c-f070-4e4e-b09a-40e4571e9ab3.jpg"
+          }
+        },
+        "image_slider_LwLCqR": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-32_b3310946-fff5-4861-b0e2-dfb417ee288e.jpg"
+          }
+        },
+        "main_diagram_tyJemC": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-15_866bd228-5431-42e2-8f13-e964101dc659.jpg",
+            "main_img2": "shopify://shop_images/600x720-16_e9b5b2de-141b-47bc-a195-256ba1161ff9.jpg"
+          }
+        },
+        "image_info_qqzYHE": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "バッグプリントのデザインには猫と般若面が描かれており、刀も含まれていることで、伝統的な日本文化や侍の要素を感じさせます。桜の花びらが舞っており、日本らしい美的感覚を加えています。 ",
+            "price_discount": 8430,
+            "original_price": 12980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-zyd-he251153?_pos=1&_sid=2c6e6fc10&_ss=r&variant=47931473232091"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_Kd4RJE",
+        "image_slider_KjJidf",
+        "image_slider_QnT3MK",
+        "image_slider_LwLCqR",
+        "main_diagram_tyJemC",
+        "image_info_qqzYHE"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "「KaraKu」刺繡＆「般若面・侍猫」プリント裏パイルVガゼットスウェット",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#df6c21",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_HrEcLH": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_tm9K8z": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-33_96ad19d3-cba2-4da1-884c-500416fb127a.jpg"
+          }
+        },
+        "image_slider_qFCEC9": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-34_2c1dd022-da6b-4795-9f73-d972fa4d644e.jpg"
+          }
+        },
+        "image_slider_rm3GXg": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-35_e231baa9-b697-424b-832a-28e6be214ad2.jpg"
+          }
+        },
+        "image_slider_AUjV43": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-36_75dc6579-6666-4c57-9ceb-68f54205fc8d.jpg"
+          }
+        },
+        "main_diagram_LnaDbm": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-17_cc1ef2d2-fd80-46a3-88e8-5d4400e27e39.jpg",
+            "main_img2": "shopify://shop_images/600x720-18_cdcdde12-1957-4f50-aac6-d69ced1d217f.jpg"
+          }
+        },
+        "image_info_VqcYwU": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "バックには、ヘルメットを被った猫が中心のデザインになって、猫の表情には自信と冒険心が感じられ、ユニークで親しみやすい印象を与え。バイカーやモーターカルチャーを意識した、スピード感や力強さを強調している。ポップアートの要素があり、洗練されたカジュアルデザインです。",
+            "price_discount": 12980,
+            "original_price": 12980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lrj-mtctsw0810?_pos=1&_sid=c183f639e&_ss=r&variant=47510124757211"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_tm9K8z",
+        "image_slider_qFCEC9",
+        "image_slider_rm3GXg",
+        "image_slider_AUjV43",
+        "main_diagram_LnaDbm",
+        "image_info_VqcYwU"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "「ヘルメットを被った猫」プリント＆KaraKuロゴ刺繡入りVガゼットスウェット",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#c20000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#df6c21",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "background_image_7GDaQ4": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#f4f2e6",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "slideshow_6kkGkE",
+    "divider_BmFzRH",
+    "image_LehmQM",
+    "main",
+    "image_slider_GRF6d3",
+    "image_slider_CHtKai",
+    "image_slider_D6xkdU",
+    "image_slider_7K8NWq",
+    "image_slider_dierKw",
+    "image_slider_hVMj3B",
+    "image_slider_idNWdr",
+    "image_slider_HrEcLH",
+    "background_image_7GDaQ4"
+  ]
+}

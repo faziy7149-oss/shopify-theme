@@ -1,0 +1,546 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "16570081522c5796df": {
+      "type": "slideshow",
+      "blocks": {
+        "1657008152a237684b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/SALE_34a108e7-ee35-429f-a2f3-22e9d78121be.jpg",
+            "mobile_image": "shopify://shop_images/SALE_M_9d4ae05a-2ba2-4000-a5f9-fffb4b1f5baf.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        },
+        "a224042d-71f4-4d0a-8c9d-b11e9e529a67": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_eaddd656-0ad6-40bf-b2bb-dbe2f303509e.jpg",
+            "mobile_image": "shopify://shop_images/M_d1ed334f-b7e0-4931-8759-f4379f0bb783.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1657008152a237684b-0",
+        "a224042d-71f4-4d0a-8c9d-b11e9e529a67"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "1657247011ebcd16b6": {
+      "type": "rich-text",
+      "blocks": {
+        "165724701138abf1f6-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "トップス　（ピーチスキンシャツMD-W2001199）42％OFF"
+          }
+        },
+        "165724701138abf1f6-1": {
+          "type": "heading",
+          "settings": {
+            "title": "ショーツ　（「P-44」 改良型ミリタリーショートパンツ  MD-S1901250）50％OFF",
+            "use_h1": false
+          }
+        },
+        "165724701138abf1f6-2": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "165724701138abf1f6-0",
+        "165724701138abf1f6-1",
+        "165724701138abf1f6-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_FbJMHC": {
+      "type": "custom-content",
+      "blocks": {
+        "image_AYT4MH": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/10_1dcac553-0d24-403b-8ace-e2bd9e96f33d.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_trJdPY": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "",
+            "text": "<p><a href=\"https://www.karakubuy.com/products/%E3%83%94%E3%83%BC%E3%83%81%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B7%E3%83%A3%E3%83%84?_pos=1&_sid=4b240dd80&_ss=r&variant=40332082610354\" title=\"https://www.karakubuy.com/products/%E3%83%94%E3%83%BC%E3%83%81%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B7%E3%83%A3%E3%83%84?_pos=1&_sid=4b240dd80&_ss=r&variant=40332082610354\">シャツ　│ピーチスキンシャツ　│¥8,515 Buy</a></p><p><a href=\"https://www.karakubuy.com/products/%E3%83%8B%E3%83%83%E3%83%88%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E8%BB%8D%E4%BA%8B%E3%83%8F%E3%83%BC%E3%83%95%E3%83%91%E3%83%B3%E3%83%84?_pos=1&_sid=fdeb93d5f&_ss=r&variant=40176662085810\" title=\"https://www.karakubuy.com/products/%E3%83%8B%E3%83%83%E3%83%88%E3%82%B9%E3%83%9D%E3%83%BC%E3%83%84%E8%BB%8D%E4%BA%8B%E3%83%8F%E3%83%BC%E3%83%95%E3%83%91%E3%83%B3%E3%83%84?_pos=1&_sid=fdeb93d5f&_ss=r&variant=40176662085810\">ショーツ　│「P-44」 改良型ミリタリーショートパンツ　│¥5,250 Buy</a></p><p><a href=\"https://www.karakubuy.com/collections/%E9%9D%B4/products/%E3%83%89%E3%82%A4%E3%83%84%E8%BB%8D%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%BC\" title=\"https://www.karakubuy.com/collections/%E9%9D%B4/products/%E3%83%89%E3%82%A4%E3%83%84%E8%BB%8D%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%BC\">スニーカー│ドイツ軍ジャーマンスニーカー　│¥16,631 Buy</a></p><p><a href=\"https://www.karakubuy.com/collections/%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B5%E3%83%AA%E3%83%BC-%E5%B0%8F%E7%89%A9/products/%E6%9C%AC%E9%9D%A9%E3%83%AC%E3%82%B6%E3%83%BC%E3%83%96%E3%83%AC%E3%82%B9%E3%83%AC%E3%83%83%E3%83%88\" title=\"https://www.karakubuy.com/collections/%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B5%E3%83%AA%E3%83%BC-%E5%B0%8F%E7%89%A9/products/%E6%9C%AC%E9%9D%A9%E3%83%AC%E3%82%B6%E3%83%BC%E3%83%96%E3%83%AC%E3%82%B9%E3%83%AC%E3%83%83%E3%83%88\">小物　│本革レザーブレスレット　│¥5,465 Buy</a></p><p></p><p></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_AYT4MH",
+        "text_trJdPY"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "16571003585af86bec": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "2022-summer-sale",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "1657247166e2eba245": {
+      "type": "rich-text",
+      "blocks": {
+        "165724716604e4ea27-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "トップス　（バック虎刺繍Tシャツ ）36％OFF"
+          }
+        },
+        "165724716604e4ea27-1": {
+          "type": "heading",
+          "settings": {
+            "title": "ボトムス　（40’s U.S.NAVY ヴィンテージデッキカーゴオーバーオール　）60％OFF",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "165724716604e4ea27-0",
+        "165724716604e4ea27-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "1635220294067ab8a1": {
+      "type": "collection-list",
+      "blocks": {
+        "22a68d2d-1230-4f98-96b2-5b4029b9dc36": {
+          "type": "collection",
+          "settings": {
+            "collection": "アクセサリー-小物",
+            "image": "shopify://shop_images/QQ_20211029184022.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "ba2cf3cc-2a86-4841-9a15-fa4bbb764def": {
+          "type": "collection",
+          "settings": {
+            "collection": "セールから探す",
+            "image": "shopify://shop_images/QQ_20211029184109.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "22a68d2d-1230-4f98-96b2-5b4029b9dc36",
+        "ba2cf3cc-2a86-4841-9a15-fa4bbb764def"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 2,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "custom_content_9JHmJQ": {
+      "type": "custom-content",
+      "blocks": {
+        "image_aj7gbe": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/11_a1a13a36-7b34-48ac-992e-b99b01f6fc30.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_GpdtjB": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "",
+            "text": "<p><a href=\"https://www.karakubuy.com/products/%E3%83%90%E3%83%83%E3%82%AF%E8%99%8E%E5%88%BA%E7%B9%8Dt%E3%82%B7%E3%83%A3%E3%83%84-%E8%81%B7%E4%BA%BA%E6%89%8B%E4%BD%9C%E3%82%8A?_pos=1&_sid=b2f31707c&_ss=r&variant=40337382277298#looxReviews\" title=\"https://www.karakubuy.com/products/%E3%83%90%E3%83%83%E3%82%AF%E8%99%8E%E5%88%BA%E7%B9%8Dt%E3%82%B7%E3%83%A3%E3%83%84-%E8%81%B7%E4%BA%BA%E6%89%8B%E4%BD%9C%E3%82%8A?_pos=1&_sid=b2f31707c&_ss=r&variant=40337382277298#looxReviews\">Tシャツ　│　バック虎刺繍Tシャツ　│¥7,776 Buy</a></p><p><a href=\"https://www.karakubuy.com/products/krk-ss21ssju-01x?_pos=1&_sid=17aa6bd44&_ss=r\" title=\"https://www.karakubuy.com/products/krk-ss21ssju-01x?_pos=1&_sid=17aa6bd44&_ss=r\">オーバーオール　│40’s U.S.NAVY ヴィンテージデッキカーゴオーバーオール　│¥12,111 Buy</a></p><p><a href=\"https://www.karakubuy.com/products/md-md2007031?_pos=1&_sid=00ac7c983&_ss=r&variant=40779068506290\" title=\"https://www.karakubuy.com/products/md-md2007031?_pos=1&_sid=00ac7c983&_ss=r&variant=40779068506290\">ブーツ　│M-43 サービスシューズ　│¥14,850 Buy</a></p><p><a href=\"https://www.karakubuy.com/collections/%E5%B8%BD%E5%AD%90/products/%E3%83%AC%E3%83%88%E3%83%AD%E3%83%87%E3%83%8B%E3%83%A0%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97\" title=\"https://www.karakubuy.com/collections/%E5%B8%BD%E5%AD%90/products/%E3%83%AC%E3%83%88%E3%83%AD%E3%83%87%E3%83%8B%E3%83%A0%E3%83%9C%E3%83%BC%E3%83%AB%E3%82%AD%E3%83%A3%E3%83%83%E3%83%97\">帽子　│レトロデニムボールキャップ　│¥7,000 Buy</a></p><p><a href=\"https://www.karakubuy.com/collections/%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B5%E3%83%AA%E3%83%BC-%E5%B0%8F%E7%89%A9/products/krk-ts2107064\" title=\"https://www.karakubuy.com/collections/%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B5%E3%83%AA%E3%83%BC-%E5%B0%8F%E7%89%A9/products/krk-ts2107064\">バッグ　│2way仕様のヘルメットバッグ　│¥11,726 Buy</a><br/></p><p></p><p></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_aj7gbe",
+        "text_GpdtjB"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "1657101869130dea37": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "2022-summer-sale-1",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "16572473495a1bb84e": {
+      "type": "rich-text",
+      "blocks": {
+        "1657247349d8a29764-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "トップス　（脇下メッシュ切替　ハイスタンド半袖フーディ ）30％OFF"
+          }
+        },
+        "1657247349d8a29764-1": {
+          "type": "heading",
+          "settings": {
+            "title": "小物　（コブラバックルベルト）70％OFF",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "1657247349d8a29764-0",
+        "1657247349d8a29764-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_WtgxDL": {
+      "type": "custom-content",
+      "blocks": {
+        "image_Mc8R87": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/12_b940fd2d-5fc1-4909-83e2-137ac9310040.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_gdBbJi": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "",
+            "text": "<p><a href=\"https://www.karakubuy.com/products/%E8%84%87%E4%B8%8B%E3%83%A1%E3%83%83%E3%82%B7%E3%83%A5%E5%88%87%E6%9B%BF-%E3%83%8F%E3%82%A4%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E5%8D%8A%E8%A2%96%E3%83%95%E3%83%BC%E3%83%87%E3%82%A3?_pos=1&_sid=ecfae0eed&_ss=r\" title=\"https://www.karakubuy.com/products/%E8%84%87%E4%B8%8B%E3%83%A1%E3%83%83%E3%82%B7%E3%83%A5%E5%88%87%E6%9B%BF-%E3%83%8F%E3%82%A4%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E5%8D%8A%E8%A2%96%E3%83%95%E3%83%BC%E3%83%87%E3%82%A3?_pos=1&_sid=ecfae0eed&_ss=r\">トップス　│　脇下メッシュ切替　ハイスタンド半袖フーディ　│¥8,002 Buy</a><br/><a href=\"https://www.karakubuy.com/collections/item-summer-sale-2022/products/%E7%A9%BA%E6%8C%BA%E5%85%B5%E3%82%AB%E3%83%A2%E3%83%95%E3%83%A9%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%83%91%E3%83%B3%E3%83%84\" title=\"https://www.karakubuy.com/collections/item-summer-sale-2022/products/%E7%A9%BA%E6%8C%BA%E5%85%B5%E3%82%AB%E3%83%A2%E3%83%95%E3%83%A9%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%BC%E3%83%88%E3%83%91%E3%83%B3%E3%83%84\">ボトムス　│空挺兵カモフラーハーフカーゴパンツ　│¥10,498 Buy</a></p><p><a href=\"https://www.karakubuy.com/products/%E6%96%B0%E5%93%81%E6%9C%9F%E9%96%93%E9%99%90%E5%AE%9A-%E5%A4%A7%E4%BA%BA%E6%B0%97-%E3%83%8F%E3%82%A4%E3%83%88%E3%83%83%E3%83%97%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%90%E3%82%B9%E3%82%B7%E3%83%A5%E3%83%BC%E3%82%BA-%E3%82%B8%E3%83%83%E3%83%91%E3%83%BC%E5%8F%A4%E3%81%84%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3?_pos=1&_sid=d7622c420&_ss=r&variant=39831032496306#looxReviews\" title=\"https://www.karakubuy.com/products/%E6%96%B0%E5%93%81%E6%9C%9F%E9%96%93%E9%99%90%E5%AE%9A-%E5%A4%A7%E4%BA%BA%E6%B0%97-%E3%83%8F%E3%82%A4%E3%83%88%E3%83%83%E3%83%97%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%90%E3%82%B9%E3%82%B7%E3%83%A5%E3%83%BC%E3%82%BA-%E3%82%B8%E3%83%83%E3%83%91%E3%83%BC%E5%8F%A4%E3%81%84%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3?_pos=1&_sid=d7622c420&_ss=r&variant=39831032496306#looxReviews\">スニーカー　│ハイトップキャンバスシューズ　│¥12,949 Buy</a></p><p><a href=\"https://www.karakubuy.com/products/md-s2001059-1?_pos=1&_sid=59b4270a4&_ss=r\" title=\"https://www.karakubuy.com/products/md-s2001059-1?_pos=1&_sid=59b4270a4&_ss=r\">小物│　コブラバックルベルト　│¥3,120 Buy</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_Mc8R87",
+        "text_gdBbJi"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "1657187412d3fcb2e5": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "2022-summer-sale-set",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "16572479498caa6a56": {
+      "type": "rich-text",
+      "blocks": {
+        "16572479499c7e7783-1": {
+          "type": "heading",
+          "settings": {
+            "title": "もっと見る☟",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "16572479499c7e7783-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "gallery_r43bn9": {
+      "type": "gallery",
+      "blocks": {
+        "media_DaFYyc": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20220723223751.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_DaFYyc"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "adapt",
+        "desktop_image_height": 890,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "no_background",
+        "button_style": "primary"
+      }
+    },
+    "1652174971ed44938d": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "1649757612ea7476eb": {
+      "type": "text-editor",
+      "settings": {
+        "data_wrapper_1250": false,
+        "text1": "<p>{{ collection.metafields.commodity.productintroduction | metafield_tag }}</p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16570081522c5796df",
+    "1657247011ebcd16b6",
+    "custom_content_FbJMHC",
+    "16571003585af86bec",
+    "1657247166e2eba245",
+    "1635220294067ab8a1",
+    "custom_content_9JHmJQ",
+    "1657101869130dea37",
+    "16572473495a1bb84e",
+    "custom_content_WtgxDL",
+    "1657187412d3fcb2e5",
+    "16572479498caa6a56",
+    "gallery_r43bn9",
+    "1652174971ed44938d",
+    "1635765484031572a6",
+    "1649757612ea7476eb"
+  ]
+}

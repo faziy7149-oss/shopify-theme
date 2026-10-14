@@ -1,0 +1,785 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "slideshow_BLAcCf": {
+      "type": "slideshow",
+      "blocks": {
+        "image_HjJLUH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/186__1920.jpg",
+            "mobile_image": "shopify://shop_images/186__1080.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_HjJLUH"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_4WjyEf": {
+      "type": "image",
+      "name": "前言",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_07e6f5e1-83ca-4cfb-8847-ebd1f381e6f7.png",
+        "mobile_image": "shopify://shop_images/720_58910908-1853-4492-9c91-1ff5dea040c5.png",
+        "img_rul": ""
+      }
+    },
+    "image_jump_custom_dUpWJb": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_L3nbQV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_2bdba24b-3e05-4df0-a6d4-8248e1578386.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_L3nbQV"
+      ],
+      "name": "小标题",
+      "settings": {}
+    },
+    "image_slider_9ftmPk": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_TTmLzK": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-1_3fb266b6-37c3-4b48-a737-26603c4a5626.jpg"
+          }
+        },
+        "image_slider_FRYJqN": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-2_890d4a49-bdce-4a11-a794-8e3f5afa2296.jpg"
+          }
+        },
+        "image_slider_UtBdKF": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-3_c7e0cdc0-1e35-4a3b-a8c9-34b9b3647a8f.jpg"
+          }
+        },
+        "image_slider_4DiKUL": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-4_da788b1a-f9a2-452c-9f04-cc4a02534510.jpg"
+          }
+        },
+        "main_diagram_X4pT4h": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-1_14627cb7-7570-4737-b29b-9f5329e66ff8.jpg",
+            "main_img2": "shopify://shop_images/600x720-2_8ace19f5-4fe0-4ce0-b860-5ad8fbd78bdf.jpg"
+          }
+        },
+        "image_info_89tfKk": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "裏側にエスニック調の幾何学模様が用いられ、視覚的なアクセントが加えられています。模様の色使いは、表側のデニムカラーと調和しつつも、異なる文化的なテイストを取り入れています。",
+            "price_discount": 12980,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lsx-ujcacr?_pos=1&_sid=7012708c8&_ss=r&variant=47579324448987"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_TTmLzK",
+        "image_slider_FRYJqN",
+        "image_slider_UtBdKF",
+        "image_slider_4DiKUL",
+        "main_diagram_X4pT4h",
+        "image_info_89tfKk"
+      ],
+      "name": "赤ヒモ付き　「Karaku」刺繡ロゴ 裏エスニック調柄デニム長袖シャツ",
+      "settings": {
+        "data_title": "赤ヒモ付き　「Karaku」刺繡ロゴ 裏エスニック調柄デニム長袖シャツ",
+        "data_tit_col": "#341f14",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#341f14",
+        "but_col": "#fbe580",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_bF63zw": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_bLxrgM": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-5_fd76f50f-e081-4ef9-aa48-5593d848dd02.jpg"
+          }
+        },
+        "image_slider_jgixtG": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-6_3023be5c-2573-40a1-93b9-40ca7e4a7061.jpg"
+          }
+        },
+        "image_slider_GdRmaU": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-7_9a080fbf-546d-4544-b6b7-e71d92d93261.jpg"
+          }
+        },
+        "image_slider_FQG4Ai": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-8_b3f1b5e4-d666-41a1-968d-a3b7753a7612.jpg"
+          }
+        },
+        "main_diagram_mB9p7n": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-3_6ee4f225-adb3-4087-a5ae-6558d1e21db9.jpg",
+            "main_img2": "shopify://shop_images/600x720-4_3e0c83cb-b437-4d93-98b5-0bf39fee1d5a.jpg"
+          }
+        },
+        "image_info_GkEN9r": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "表はミニマル、裏に遊び心を秘めた一着。さりげない個性が光る、裏地ペイズリー総柄プリント入りキューバカラーシャツ。一見シンプルに見える外観ながら、裏地にはクラシックなペイズリー柄を全面にプリント。",
+            "price_discount": 11980,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lsx-sh260180?_pos=1&_sid=3447d90d5&_ss=r&variant=48575673368795"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_bLxrgM",
+        "image_slider_jgixtG",
+        "image_slider_GdRmaU",
+        "image_slider_FQG4Ai",
+        "main_diagram_mB9p7n",
+        "image_info_GkEN9r"
+      ],
+      "name": "【予約】裏地ペイズリー総柄プリント入りキューバカラーシャツ",
+      "settings": {
+        "data_title": "【予約】裏地ペイズリー総柄プリント入りキューバカラーシャツ",
+        "data_tit_col": "#341f14",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#341f14",
+        "but_col": "#fbe580",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_WV88qU": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_A4iGrN": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-21_b6bebc43-ab71-4114-8436-f3ef730f38c3.jpg"
+          }
+        },
+        "image_slider_AAyXBU": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-22_6a5125e0-d458-4e67-a0db-9b1fb7967b23.jpg"
+          }
+        },
+        "image_slider_m8VVmx": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-23_e6faea89-dfb4-40f8-b1fe-f194e29a38ea.jpg"
+          }
+        },
+        "image_slider_Kxfre8": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-24_4551fdbe-1450-4581-bfed-f1239591d7ad.jpg"
+          }
+        },
+        "main_diagram_hFMeYp": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-11_0734f1d8-9c3e-4f23-ad83-4da841b6c3ea.jpg",
+            "main_img2": "shopify://shop_images/600x720-12_1d1d50ea-4430-4352-833a-08a4c07d56f8.jpg"
+          }
+        },
+        "image_info_ANcj64": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "軽やかな風合いと立体感のあるデザインが魅力のエアーレイヤードポケットTシャツ。袖口にはターコイズ風の装飾ボタンをあしらい、さりげないアクセントで夏らしい抜け感を演出。",
+            "price_discount": 7190,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-zyd-ht260116"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_A4iGrN",
+        "image_slider_AAyXBU",
+        "image_slider_m8VVmx",
+        "image_slider_Kxfre8",
+        "main_diagram_hFMeYp",
+        "image_info_ANcj64"
+      ],
+      "name": "袖ターコイズ風ボタン付き　Vガゼット入りエアーレイヤードTシャツ",
+      "settings": {
+        "data_title": "袖ターコイズ風ボタン付き　Vガゼット入りエアーレイヤードTシャツ",
+        "data_tit_col": "#341f14",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#341f14",
+        "but_col": "#fbe580",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_jump_custom_yaqtJw": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_DtDhGk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_7af89fe4-1a6b-4ae7-9643-69d1a01b1794.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_DtDhGk"
+      ],
+      "name": "小标题",
+      "settings": {}
+    },
+    "image_slider_ND9aPQ": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_7tVbBG": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-9_06ecb543-cb70-48c9-b718-40d9d0203dfd.jpg"
+          }
+        },
+        "image_slider_kNqqAK": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-10_71421133-351c-461f-bc45-30f41eb76dd1.jpg"
+          }
+        },
+        "image_slider_j4nXbR": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-11_c4b2bc29-6d2d-4187-b7b0-6fe6c5f8eb6b.jpg"
+          }
+        },
+        "image_slider_wK4nCm": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-12_81ba0a93-5ac4-46f1-b3fa-b10bde21d0fc.jpg"
+          }
+        },
+        "main_diagram_NrQDLj": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-5_3581a715-e8b3-49bb-9987-3bc2fe759726.jpg",
+            "main_img2": "shopify://shop_images/600x720-6_1377dbfb-3bea-43c3-ba85-c92cd20544d5.jpg"
+          }
+        },
+        "image_info_BjFMkn": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ペイズリー柄をベースに、繊細なジャカード織りで表現した奥行きのある総柄が魅力のオープンカラーシャツ。光の角度によって浮かび上がるペイズリーのアンダーパターンが、落ち着いた中にも華やかさと存在感を添え、上品なヴィンテージムードを演出します。",
+            "price_discount": 12980,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-lsx-sh260107"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_7tVbBG",
+        "image_slider_kNqqAK",
+        "image_slider_j4nXbR",
+        "image_slider_wK4nCm",
+        "main_diagram_NrQDLj",
+        "image_info_BjFMkn"
+      ],
+      "name": "ウール混　ペイズリー柄ジャカード織りオープンカラーシャツ",
+      "settings": {
+        "data_title": "ウール混　ペイズリー柄ジャカード織りオープンカラーシャツ",
+        "data_tit_col": "#341f14",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#341f14",
+        "but_col": "#fbe580",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_gmNHNi": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_TzJiX8": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-25_8d95cdea-b020-4bb9-8bea-3f5f07a42e99.jpg"
+          }
+        },
+        "image_slider_fyqgmN": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-26_3f1db99b-d5ca-4c1c-87d1-0b46bec254e3.jpg"
+          }
+        },
+        "image_slider_4WBUA3": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-27_77d52b8d-9aa8-4011-9903-9bdb69316b1f.jpg"
+          }
+        },
+        "image_slider_Cd8Lq3": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-28_7116ec6a-2655-46cc-b2e3-8fc82514099b.jpg"
+          }
+        },
+        "main_diagram_3htLDg": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-13_95ce9bc0-d0cc-4300-aa5b-b96e09e8d7fb.jpg",
+            "main_img2": "shopify://shop_images/600x720-14_539e3fb2-e24a-4e1b-8925-4f261b2ab7bf.jpg"
+          }
+        },
+        "image_info_6rCMwf": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ボディ全体に施された民族調ジャカード織りのパターンは、単なるプリントではなく、立体的な織りの表情が特徴。カジュアルながらも奥行きのあるデザインで、一枚で着映えする仕上がりです。",
+            "price_discount": 7990,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-zyd-ht260126"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_TzJiX8",
+        "image_slider_fyqgmN",
+        "image_slider_4WBUA3",
+        "image_slider_Cd8Lq3",
+        "main_diagram_3htLDg",
+        "image_info_6rCMwf"
+      ],
+      "name": "【予約】エスニック民族調ジャカード織り　ターコイズ調ボタンヘンリーネックTee",
+      "settings": {
+        "data_title": "【予約】エスニック民族調ジャカード織り　ターコイズ調ボタンヘンリーネックTee",
+        "data_tit_col": "#341f14",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#341f14",
+        "but_col": "#fbe580",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_d8bWHV": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_cH99LD": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-29_3d4380a8-6ca0-4728-b2ac-0e5eb2e65906.jpg"
+          }
+        },
+        "image_slider_jhqeCE": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-30_00a647fc-73b1-41f3-b6ba-d257ecadf230.jpg"
+          }
+        },
+        "image_slider_CiRMiV": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-31_5b95162c-113a-40f0-9baf-27d543014b00.jpg"
+          }
+        },
+        "image_slider_iT98Yj": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-32_11161057-0eba-452c-9334-a251829c0957.jpg"
+          }
+        },
+        "main_diagram_mTCtqX": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-15_85c8d234-e891-43dd-b37b-2bb6b34a2ba4.jpg",
+            "main_img2": "shopify://shop_images/600x720-16_6a5ec8cd-e99a-4e61-b5f7-2d49ba61becc.jpg"
+          }
+        },
+        "image_info_dBCcby": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "表情豊かなパイナップルパイル編みを採用し、立体感のある編地とヘビーウェイトならではの安心感ある着心地を両立しました。胸ポケットに「STAY TRUE」と刺繍ワッペンが付いて、シンプルながらもユニークなポイントになって、ワッペンの黄色が全体のダークなカラーに対してアクセントとなり、目を引く。",
+            "price_discount": 9980,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lsx-nt260106?_pos=1&_sid=afdaf15b9&_ss=r&variant=48163067298011"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_cH99LD",
+        "image_slider_jhqeCE",
+        "image_slider_CiRMiV",
+        "image_slider_iT98Yj",
+        "main_diagram_mTCtqX",
+        "image_info_dBCcby"
+      ],
+      "name": "【予約】「STAY TRUE」刺繍ワッペン　フェイクレイヤードパイナップルパイルニットTee",
+      "settings": {
+        "data_title": "【予約】「STAY TRUE」刺繍ワッペン　フェイクレイヤードパイナップルパイルニットTee",
+        "data_tit_col": "#341f14",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#341f14",
+        "but_col": "#fbe580",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_jump_custom_eLd7aC": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_iyrNiY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_a14b249a-fa57-4134-bbcd-ed9acb824fe0.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_iyrNiY"
+      ],
+      "name": "小标题",
+      "settings": {}
+    },
+    "image_slider_TrNVeH": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_KiqqaN": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-13_d4c069b7-66f2-46be-8bef-3193cbd49029.jpg"
+          }
+        },
+        "image_slider_Q9gCR6": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-14_29c6ee61-1554-4930-a284-709abc7438a8.jpg"
+          }
+        },
+        "image_slider_RiY7bg": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-15_9b5c2657-49d8-49a2-8fc6-c07e17a25cdc.jpg"
+          }
+        },
+        "image_slider_yeEqxL": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-16_c7c7a3d9-217c-4b43-9e58-d87f4c1d6470.jpg"
+          }
+        },
+        "main_diagram_JMeeW4": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-7_da2ae0c1-76ae-4b81-9e5d-93fd639c7562.jpg",
+            "main_img2": "shopify://shop_images/600x720-8_165ba0be-5260-47b3-af16-5ffa36a3907e.jpg"
+          }
+        },
+        "image_info_hbzKhF": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ユーモラスなワンポイント刺繍が胸元に施されたシャツが登場！一見すると富士山に朝日が昇る風景──でもよく見ると、山頂にはちょこんと座る白猫が。赤い毛玉で遊ぶその姿が可愛くて、ワンポイントになる。また裾には赤ヒモ付きのディテールがアクセントとなり、遊び心をプラスします。",
+            "price_discount": 8990,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-lrj-sh260203"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_KiqqaN",
+        "image_slider_Q9gCR6",
+        "image_slider_RiY7bg",
+        "image_slider_yeEqxL",
+        "main_diagram_JMeeW4",
+        "image_info_hbzKhF"
+      ],
+      "name": "【予約】赤ヒモ付き　「富士頂上の猫遊び 」刺繍入り長袖シャツ",
+      "settings": {
+        "data_title": "【予約】赤ヒモ付き　「富士頂上の猫遊び 」刺繍入り長袖シャツ",
+        "data_tit_col": "#341f14",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#341f14",
+        "but_col": "#fbe580",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_4GwbBn": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_znrLFE": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-17_e4c59215-dad0-4758-a1c7-75819958db3d.jpg"
+          }
+        },
+        "image_slider_cGQ7rd": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-18_ab820b8f-1451-43b2-b5bd-4d22c7501fdd.jpg"
+          }
+        },
+        "image_slider_em87Qm": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-19_7e1a2413-edf7-4478-9252-692f417372d8.jpg"
+          }
+        },
+        "image_slider_xVpp94": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-20_8c247401-6e1f-46d4-af13-9daa4180a5c7.jpg"
+          }
+        },
+        "main_diagram_VYxXf7": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-9_ec3470da-212c-46e0-b4e9-c8f750257724.jpg",
+            "main_img2": "shopify://shop_images/600x720-10_2cfffd86-8339-4737-9013-cf726567493c.jpg"
+          }
+        },
+        "image_info_gg8mKi": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "前立てやポケットにあしらわれたチェーンステッチは、控えめながらも立体感のある表情をプラスし、シンプルな中に奥行きを与えるディテールに。ディテールへのこだわりが光る、上品さとカジュアルさを兼ね備えたデザインとなっている。",
+            "price_discount": 10980,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-zj-sh260116"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_znrLFE",
+        "image_slider_cGQ7rd",
+        "image_slider_em87Qm",
+        "image_slider_xVpp94",
+        "main_diagram_VYxXf7",
+        "image_info_gg8mKi"
+      ],
+      "name": "【予約】前立て・ポケットチェーンステッチ入り　リネン混キューバカラーシャツ",
+      "settings": {
+        "data_title": "【予約】前立て・ポケットチェーンステッチ入り　リネン混キューバカラーシャツ",
+        "data_tit_col": "#341f14",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#341f14",
+        "but_col": "#fbe580",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_tJhkgt": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_a9etLQ": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-33_b28f7624-3fa2-4a6c-a5a4-7025a0c071c9.jpg"
+          }
+        },
+        "image_slider_xWQepm": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-34_7b03ed63-b64d-4b03-893a-23db90a31ff4.jpg"
+          }
+        },
+        "image_slider_iTfYGi": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-35_7ddd6346-2b0a-425b-82d5-e5d0ab42aa6a.jpg"
+          }
+        },
+        "image_slider_Rzfzax": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-36_458427b3-ce2f-41de-91b9-308c403cdbeb.jpg"
+          }
+        },
+        "main_diagram_r9pwbL": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-17_7f25704b-3a06-424b-8092-c3ead512120e.jpg",
+            "main_img2": "shopify://shop_images/600x720-18_0167f8ae-aed2-4812-8469-5e7b3e0d154b.jpg"
+          }
+        },
+        "image_info_3fcAAF": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "裾の赤と白の紐がデザインされていて、遊び心があふれています。カジュアルな雰囲気を強調しつつ、視線を引きつける役割を果たしています。",
+            "price_discount": 5990,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-gsh-ht260131?_pos=2&_sid=f20bcdeef&_ss=r&variant=48301367460059"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_a9etLQ",
+        "image_slider_xWQepm",
+        "image_slider_iTfYGi",
+        "image_slider_Rzfzax",
+        "main_diagram_r9pwbL",
+        "image_info_3fcAAF"
+      ],
+      "name": "紅白ヒモ付き　「KaraKu」ロゴ刺繡入りブラックコットンTee",
+      "settings": {
+        "data_title": "紅白ヒモ付き　「KaraKu」ロゴ刺繡入りブラックコットンTee",
+        "data_tit_col": "#341f14",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#341f14",
+        "but_col": "#fbe580",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "background_image_yBdhaw": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-06-28_17-22-03_316e58c5-863f-4efe-8f52-aac52bab3c8f.jpg",
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#f5f5f5",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_BLAcCf",
+    "image_4WjyEf",
+    "image_jump_custom_dUpWJb",
+    "image_slider_9ftmPk",
+    "image_slider_bF63zw",
+    "image_slider_WV88qU",
+    "image_jump_custom_yaqtJw",
+    "image_slider_ND9aPQ",
+    "image_slider_gmNHNi",
+    "image_slider_d8bWHV",
+    "image_jump_custom_eLd7aC",
+    "image_slider_TrNVeH",
+    "image_slider_4GwbBn",
+    "image_slider_tJhkgt",
+    "background_image_yBdhaw"
+  ]
+}

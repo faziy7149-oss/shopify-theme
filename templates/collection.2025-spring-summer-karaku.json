@@ -1,0 +1,285 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "video_with_text_KbMgNg": {
+      "type": "video-with-text",
+      "blocks": {
+        "heading_nGPV9q": {
+          "type": "heading",
+          "settings": {
+            "title": "「大地と共に生きる、美しき選択」",
+            "use_h1": false
+          }
+        },
+        "text_aKjrcm": {
+          "type": "text",
+          "settings": {
+            "text": "<p>岩は何百年もの時を超えてそこに佇み、木々は四季の移ろいを受け入れながら生き続ける。自然は何も急がず、すべてを循環させる。</p><p>KARAKU 2025 春夏シリーズは、大地の声に耳を傾け、人と自然が交わす対話を紡ぐコレクション。厳選された天然素材、環境に配慮した染色技術、時を経ても愛される、流行にとらわれないデザイン。</p><p></p><p>「この先の未来に、何を残せるだろう？」</p><p></p><p>大量消費ではなく、大切に選び、長く愛し、自然と共鳴する服づくり。KARAKUが提案するのは、循環する時の中で、本当に残すべきものを見つめ直す春夏のスタイル。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_TTKrYb": {
+          "type": "button",
+          "settings": {
+            "button_label": "more →",
+            "button_link": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C",
+            "button_style": "secondary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_nGPV9q",
+        "text_aKjrcm",
+        "button_TTKrYb"
+      ],
+      "settings": {
+        "video_shopify": "shopify://files/videos/HD_音アリ.mp4",
+        "video_external": "",
+        "video_description": "",
+        "autoplay": false,
+        "placeholder_image": "shopify://shop_images/Snipaste_2025-02-19_17-54-14.jpg",
+        "video_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "2"
+      }
+    },
+    "compact_messages_4Me4LM": {
+      "type": "compact-messages",
+      "blocks": {
+        "message_YdpT48": {
+          "type": "message",
+          "settings": {
+            "heading": "KARAKU原宿店",
+            "subheading": "Jingumae 3-24-1 In the Stream Building 1F, Shibuya-ku, Tokyo",
+            "link_url": "https://www.instagram.com/karaku_harajuku/"
+          }
+        },
+        "message_iCLNLF": {
+          "type": "message",
+          "settings": {
+            "heading": "KARAKUマレーシア店",
+            "subheading": "GS.11.0 - The Exchange TRX, 55188 Kuala Lumpur, Malaysia",
+            "link_url": "https://www.instagram.com/karaku_malaysia/"
+          }
+        }
+      },
+      "block_order": [
+        "message_YdpT48",
+        "message_iCLNLF"
+      ],
+      "settings": {
+        "head_not_col_bg": "#f4f6f8",
+        "head_not_col_txt1": "#171717",
+        "head_not_col_txt2": "#4c4c4b",
+        "head_not_mob_show": true,
+        "head_not_mob_text": "KARAKU原宿店 / KARAKUマレーシア店",
+        "head_not_mob_url": "https://www.instagram.com/karaku_harajuku/"
+      }
+    },
+    "adjusting_spacing_LGBWQj": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -8,
+        "margin_top2": 0
+      }
+    },
+    "key_features_video_4f9D4B": {
+      "type": "key-features-video",
+      "blocks": {
+        "feature_TdAj6K": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/17_cdb7c44b-d66e-4d6b-aea7-0654c81af757.png",
+            "bg_color": "#ffffff",
+            "bg_gradient": "",
+            "text_color": "#333029",
+            "heading": "デザインの起点",
+            "text": "<p>デザインの着想から完成まで、一つひとつの工程にこだわり抜き、職人の手による繊細な技術が息づくアイテムを展開します。</p>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "1",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "feature_YTtDAJ": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/micheile-henderson-N_wGDmRL4hQ-unsplash.jpg",
+            "bg_color": "#e3e3e3",
+            "bg_gradient": "",
+            "text_color": "#505050",
+            "heading": "厳選された素材",
+            "text": "<p>経年変化を楽しめる天然染めの生地など、質感と耐久性を兼ね備えた素材を厳選。風合いと機能性のバランスにもこだわりました。</p>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "2",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        },
+        "feature_wRBbBb": {
+          "type": "feature",
+          "settings": {
+            "image": "shopify://shop_images/16_2fc88f2e-75e1-4ce3-a2b8-0599861100ad.png",
+            "bg_color": "#c3c3c3",
+            "bg_gradient": "",
+            "text_color": "#505050",
+            "heading": "ディテールへの徹底したこだわり",
+            "text": "<p>ボタンにはブランド独自の刻印を施し、細部にまで統一感を演出。ラベルやタグには、Karakuのフィロソフィーが込められた特別なデザインを採用し、細部までクラフトマンシップを感じられる仕上がりに。</p>",
+            "show_segments": true,
+            "segments": 4,
+            "active_segment": "3",
+            "fill_segments": true,
+            "show_labels": true,
+            "label_left": "",
+            "label_middle": "",
+            "label_right": "",
+            "show_icon": false,
+            "icon": "star"
+          }
+        }
+      },
+      "block_order": [
+        "feature_TdAj6K",
+        "feature_YTtDAJ",
+        "feature_wRBbBb"
+      ],
+      "settings": {
+        "heading": "Commitment to Detail",
+        "image_max_width": 700,
+        "media_aspect_ratio": "s",
+        "image_position": "right",
+        "segment_position": "under-text",
+        "background_image": "shopify://shop_images/Snipaste_2025-02-19_18-43-17.jpg"
+      }
+    },
+    "image_with_text_xC36Mn": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_eXQtQG": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Image with text",
+            "use_h1": false
+          }
+        },
+        "text_4DWAHD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Karakuとともに、みんなとともに。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_eXQtQG",
+        "text_4DWAHD"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/849edd8628f9b427382b4729e5bab763.gif",
+        "image_width": 340,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "background_image_KNVGwJ": {
+      "type": "background-image",
+      "settings": {
+        "background_color_overlay": "#dddcc5",
+        "background_color": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "featured_collection_hR48Q4": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "2025 SPRING&SUMMER",
+        "collection": "新作",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "adjusting_spacing_qE9RXc": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": 0
+      }
+    }
+  },
+  "order": [
+    "video_with_text_KbMgNg",
+    "compact_messages_4Me4LM",
+    "adjusting_spacing_LGBWQj",
+    "key_features_video_4f9D4B",
+    "image_with_text_xC36Mn",
+    "background_image_KNVGwJ",
+    "main",
+    "featured_collection_hR48Q4",
+    "adjusting_spacing_qE9RXc"
+  ]
+}

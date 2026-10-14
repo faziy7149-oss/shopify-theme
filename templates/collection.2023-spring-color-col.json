@@ -1,0 +1,522 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1649757612ea7476eb": {
+      "type": "text-editor",
+      "settings": {
+        "data_wrapper_1250": false,
+        "text1": "<p>{{ collection.metafields.commodity.productintroduction | metafield_tag }}</p>"
+      }
+    },
+    "66b03909-488e-496f-bb68-c216a3cfe6a3": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16666470908123__66b03909-488e-496f-bb68-c216a3cfe6a3-16728189824a2f48c7-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_913da963-a434-41f3-88c8-8090859b50e0.jpg",
+            "mobile_image": "shopify://shop_images/4_9911f46b-fac4-4fb0-a921-57071144a263.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16666470908123__66b03909-488e-496f-bb68-c216a3cfe6a3-16728189824a2f48c7-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "b14fe564-86c5-4441-ae46-f801c412535c": {
+      "type": "image-jump",
+      "blocks": {
+        "template--16666470908123__b14fe564-86c5-4441-ae46-f801c412535c-16766258767e215993-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_af80336e-c220-4b34-a632-5a9e0dada1e2.jpg",
+            "image-id": "#date-green"
+          }
+        },
+        "template--16666470908123__b14fe564-86c5-4441-ae46-f801c412535c-16766258767e215993-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_2_980e966e-97fb-4211-89ab-a81f0096acd7.jpg",
+            "image-id": "#date-blue"
+          }
+        },
+        "template--16666470908123__b14fe564-86c5-4441-ae46-f801c412535c-16766258767e215993-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_3-2_e2ad45d0-5e6d-4fb9-99a5-254745bf87e9.jpg",
+            "image-id": "#date-white"
+          }
+        },
+        "bc7f37c4-4e25-41f0-b21c-3e520ea424f4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_3-1_8014d1d9-094c-45e0-8eb5-e2e5ae81c1f5.jpg",
+            "image-id": "#date-yellow-orange"
+          }
+        },
+        "e2907a93-d608-4956-a287-00da55285f13": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_3_e8ccbc6c-4eac-48ac-93ef-47c698e7f83f.jpg",
+            "image-id": "#date-brown"
+          }
+        },
+        "3f28c8bd-667b-467b-a94d-a45dbbfac67c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_b2ae5b5f-5ac3-4e5c-978e-07a2497a6416.jpg",
+            "image-id": "#date-navy"
+          }
+        }
+      },
+      "block_order": [
+        "template--16666470908123__b14fe564-86c5-4441-ae46-f801c412535c-16766258767e215993-0",
+        "template--16666470908123__b14fe564-86c5-4441-ae46-f801c412535c-16766258767e215993-1",
+        "template--16666470908123__b14fe564-86c5-4441-ae46-f801c412535c-16766258767e215993-2",
+        "bc7f37c4-4e25-41f0-b21c-3e520ea424f4",
+        "e2907a93-d608-4956-a287-00da55285f13",
+        "3f28c8bd-667b-467b-a94d-a45dbbfac67c"
+      ],
+      "settings": {
+        "background-image": "",
+        "grid": 27
+      }
+    },
+    "5a0bc9e4-78a6-47cd-ae99-e75bb8109ff2": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16666470908123__5a0bc9e4-78a6-47cd-ae99-e75bb8109ff2-167290844763b90a0b-1": {
+          "type": "heading",
+          "settings": {
+            "title": "KARAKU（カラク）がこの春推していきたいカラーアイテムを一挙ご紹介。今の時期から先まで着まわせる万能アイテムが盛りだくさん。",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16666470908123__5a0bc9e4-78a6-47cd-ae99-e75bb8109ff2-167290844763b90a0b-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "90e43e98-7664-4c20-ac5c-064ea7ec8cdc": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "template--16666470908123__90e43e98-7664-4c20-ac5c-064ea7ec8cdc-16728192441c5138ba-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/GREEN_a7358735-51ad-4723-8784-4cebddcd338a.jpg",
+            "image-id": "date-green",
+            "image_link": "https://www.karakubuy.com/collections/2023spring-green"
+          }
+        },
+        "25877734-86f8-4110-af6c-f5c28eb19e32": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_08fd5186-1ab4-4ae1-adcb-08eb7e5d8dce.jpg",
+            "image-id": "",
+            "image_link": "shopify://collections/2023spring-green"
+          }
+        }
+      },
+      "block_order": [
+        "template--16666470908123__90e43e98-7664-4c20-ac5c-064ea7ec8cdc-16728192441c5138ba-0",
+        "25877734-86f8-4110-af6c-f5c28eb19e32"
+      ],
+      "settings": {}
+    },
+    "c5736f96-17b8-4354-87b7-44a72d1e3b62": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "2023spring-green",
+        "collection": "2023spring-green",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "ebe1c2c9-9d93-401e-80fe-57ad9bcf7e5c": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "template--16666470908123__ebe1c2c9-9d93-401e-80fe-57ad9bcf7e5c-16728192441c5138ba-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BLUE_e66e6196-dd40-412e-9a73-567fb69ea5a0.jpg",
+            "image-id": "date-blue",
+            "image_link": "https://www.karakubuy.com/collections/2023spring-blue"
+          }
+        },
+        "880ce61e-3e26-4797-aa88-69e5136b4bce": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_2_29298270-3474-44c7-b443-b135030ee770.jpg",
+            "image-id": "",
+            "image_link": "shopify://collections/2023spring-blue"
+          }
+        }
+      },
+      "block_order": [
+        "template--16666470908123__ebe1c2c9-9d93-401e-80fe-57ad9bcf7e5c-16728192441c5138ba-0",
+        "880ce61e-3e26-4797-aa88-69e5136b4bce"
+      ],
+      "settings": {}
+    },
+    "473274ed-f6e9-4544-ad64-eb2ff4856d60": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "2023spring-blue",
+        "collection": "2023spring-blue",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "51e37811-f92e-491b-9321-c2cddd25a923": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "template--16666470908123__51e37811-f92e-491b-9321-c2cddd25a923-16728192441c5138ba-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/WHITE_42096b07-f656-4cd7-bf49-b76b1826a7aa.jpg",
+            "image-id": "date-white",
+            "image_link": "https://www.karakubuy.com/collections/2023spring-white"
+          }
+        },
+        "9a8ad532-ec7c-45fb-8d05-8ffd697d90b5": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_3_7233928d-650a-4ba8-a87c-b04801767bf9.jpg",
+            "image-id": "",
+            "image_link": "shopify://collections/2023spring-white"
+          }
+        }
+      },
+      "block_order": [
+        "template--16666470908123__51e37811-f92e-491b-9321-c2cddd25a923-16728192441c5138ba-0",
+        "9a8ad532-ec7c-45fb-8d05-8ffd697d90b5"
+      ],
+      "settings": {}
+    },
+    "c9df69c0-b7aa-49fd-9a02-d239873ac8ac": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "2023spring-white",
+        "collection": "2023spring-white",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "bc5592a1-0e65-4ae3-a563-36eadd33db9f": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "template--16666470908123__bc5592a1-0e65-4ae3-a563-36eadd33db9f-16728192441c5138ba-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/YELLOW_ORANGE_7393bcc9-8b32-4dfb-97ad-75b156ef5760.jpg",
+            "image-id": "date-yellow-orange",
+            "image_link": "https://www.karakubuy.com/collections/2023spring-yellow-orange"
+          }
+        },
+        "49eb8f41-343a-4091-b44b-dbe44d77b7f2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_3-1.jpg",
+            "image-id": "",
+            "image_link": "shopify://collections/2023spring-yellow-orange"
+          }
+        }
+      },
+      "block_order": [
+        "template--16666470908123__bc5592a1-0e65-4ae3-a563-36eadd33db9f-16728192441c5138ba-0",
+        "49eb8f41-343a-4091-b44b-dbe44d77b7f2"
+      ],
+      "settings": {}
+    },
+    "d4c9b40f-ba75-4abf-92c2-a1b19c711eea": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "2023spring-yellow＆Orange",
+        "collection": "2023spring-yellow-orange",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "89da3337-931b-4995-9d1f-9a4a3472f519": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "template--16666470908123__89da3337-931b-4995-9d1f-9a4a3472f519-16728192441c5138ba-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/BROWN_83a4ef68-d0f6-48be-92f4-3228df11f60a.jpg",
+            "image-id": "date-brown",
+            "image_link": "https://www.karakubuy.com/collections/2023spring-brown"
+          }
+        },
+        "6f0ef370-c580-4e10-a4a9-06088baa1a19": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_3_65533833-e1a6-489f-ae44-44d0dcfd5ce2.jpg",
+            "image-id": "",
+            "image_link": "shopify://collections/2023spring-brown"
+          }
+        }
+      },
+      "block_order": [
+        "template--16666470908123__89da3337-931b-4995-9d1f-9a4a3472f519-16728192441c5138ba-0",
+        "6f0ef370-c580-4e10-a4a9-06088baa1a19"
+      ],
+      "settings": {}
+    },
+    "f5b74c78-41ea-4af3-b66f-efbddf1b788e": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "2023spring-brown",
+        "collection": "2023spring-brown",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "c28420d1-209f-4ed7-9d8e-c7a50a3694a3": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "template--16666470908123__c28420d1-209f-4ed7-9d8e-c7a50a3694a3-16728192441c5138ba-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/NAVY_39258f28-bafe-4b77-99d3-a0430f2e3803.jpg",
+            "image-id": "date-navy",
+            "image_link": "https://www.karakubuy.com/collections/2023spring-navy"
+          }
+        },
+        "95b6022f-4594-4719-bab4-d5c1a62aef1c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_88465418-737c-4371-b22b-7baa2a1c9772.jpg",
+            "image-id": "",
+            "image_link": "shopify://collections/2023spring-navy"
+          }
+        }
+      },
+      "block_order": [
+        "template--16666470908123__c28420d1-209f-4ed7-9d8e-c7a50a3694a3-16728192441c5138ba-0",
+        "95b6022f-4594-4719-bab4-d5c1a62aef1c"
+      ],
+      "settings": {}
+    },
+    "18946429-9f5c-42ef-a33b-f09286331996": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "2023spring-navy",
+        "collection": "2023spring-navy",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "589995a6-fda4-49b0-9c53-b03931277db2": {
+      "type": "collection-list",
+      "blocks": {
+        "6360ab44-75c9-4050-a2d1-767afd99fe11": {
+          "type": "collection",
+          "settings": {
+            "collection": "karaku-best-item",
+            "image": "shopify://shop_images/banner_2_dbe68f49-f56d-4056-b18c-13520718cb83.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "78f807d2-cb9e-485c-902e-8cecbf1cb7e2": {
+          "type": "collection",
+          "settings": {
+            "collection": "2022-karaku-gift",
+            "image": "shopify://shop_images/ins3_6c7e2d28-456f-44c1-aeed-8af357698b03.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "44b8d68f-bd68-4688-a61a-5161063b5bc3": {
+          "type": "collection",
+          "settings": {
+            "collection": "weatherforecaster-winter",
+            "image": "shopify://shop_images/20221223-151038_fef1900d-0811-44af-a796-b37e0b9ab8f8.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "2720d535-7034-47cd-b6fd-2cf1f934f94d": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessory-feature",
+            "image": "shopify://shop_images/292-_banner_2_458ce2c8-98ae-4043-8526-ff052a45b7b9.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "b6eeae98-358a-47d5-839c-34e414fd88cf": {
+          "type": "collection",
+          "settings": {
+            "collection": "military-styling",
+            "image": "shopify://shop_images/20230104-164442.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "6360ab44-75c9-4050-a2d1-767afd99fe11",
+        "78f807d2-cb9e-485c-902e-8cecbf1cb7e2",
+        "44b8d68f-bd68-4688-a61a-5161063b5bc3",
+        "2720d535-7034-47cd-b6fd-2cf1f934f94d",
+        "b6eeae98-358a-47d5-839c-34e414fd88cf"
+      ],
+      "settings": {
+        "title": "特集をもっと見る",
+        "enable_carousel": true,
+        "grid": 5,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "ac3f6eda-5daf-4a83-9259-76019dd0c875": {
+      "type": "photo-banner",
+      "settings": {
+        "image": "shopify://shop_images/900.jpg",
+        "mobile_image": "shopify://shop_images/100.jpg",
+        "banner_link": "shopify://pages/新規会員限定-ポイント取得ページ",
+        "photo_banner_col": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "1649757612ea7476eb",
+    "66b03909-488e-496f-bb68-c216a3cfe6a3",
+    "b14fe564-86c5-4441-ae46-f801c412535c",
+    "5a0bc9e4-78a6-47cd-ae99-e75bb8109ff2",
+    "90e43e98-7664-4c20-ac5c-064ea7ec8cdc",
+    "c5736f96-17b8-4354-87b7-44a72d1e3b62",
+    "ebe1c2c9-9d93-401e-80fe-57ad9bcf7e5c",
+    "473274ed-f6e9-4544-ad64-eb2ff4856d60",
+    "51e37811-f92e-491b-9321-c2cddd25a923",
+    "c9df69c0-b7aa-49fd-9a02-d239873ac8ac",
+    "bc5592a1-0e65-4ae3-a563-36eadd33db9f",
+    "d4c9b40f-ba75-4abf-92c2-a1b19c711eea",
+    "89da3337-931b-4995-9d1f-9a4a3472f519",
+    "f5b74c78-41ea-4af3-b66f-efbddf1b788e",
+    "c28420d1-209f-4ed7-9d8e-c7a50a3694a3",
+    "18946429-9f5c-42ef-a33b-f09286331996",
+    "main",
+    "589995a6-fda4-49b0-9c53-b03931277db2",
+    "ac3f6eda-5daf-4a83-9259-76019dd0c875"
+  ]
+}

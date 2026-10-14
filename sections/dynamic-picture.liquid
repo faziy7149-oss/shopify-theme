@@ -1,0 +1,328 @@
+<style>
+  .section-id-{{ section.id }} {
+    padding: 0;
+  }
+  .section-id-{{ section.id }} .dynamic-picture-container{
+    padding: 0;
+    margin: 0;
+  }
+
+  .section-id-{{ section.id }} .dynamic-picture-image-wrap {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+  .section-id-{{ section.id }} .dynamic-picture-image-hover-wrap {
+    position: absolute;
+  }
+  .section-id-{{ section.id }} .dynamic-bg {
+    width: 100%;
+    height: 100%;
+  }
+  {% for block in section.blocks %}
+    @media (min-width: 768px) {
+      .section-id-{{ section.id }} .hover-image-1 {
+        top: {{ block.settings.top_location }}%;
+        left: {{ block.settings.left_location }}%;
+        width: {{ block.settings.pc_img_width }}%;
+      }
+      .section-id-{{ section.id }} .hover-image-2 {
+        bottom: {{ block.settings.bottom_location }}%;
+        right: {{ block.settings.right_location }}%;
+        width: {{ block.settings.pc_img_width2 }}%;
+      }
+    }
+    @media (max-width: 767px) {
+      .section-id-{{ section.id }} .hover-image-1 {
+        top: {{ block.settings.top_location2 }}%;
+        left: {{ block.settings.left_location2 }}%;
+        width: {{ block.settings.m_img_width }}%;
+      }
+      .section-id-{{ section.id }} .hover-image-2 {
+        bottom: {{ block.settings.bottom_location2 }}%;
+        right: {{ block.settings.right_location2 }}%;
+        width: {{ block.settings.m_img_width2 }}%;
+      }
+    }
+    .section-id-{{ section.id }} .imageShake-1-updown {
+      animation: floating-y1 1.8s ease-in-out infinite alternate-reverse;
+    }
+    .section-id-{{ section.id }} .imageShake-2-updown {
+      animation: floating-y2 1.8s ease-in-out infinite alternate-reverse;
+    }
+    .section-id-{{ section.id }} .imageShake-1-shake {
+      animation: imageShake-y1 1.8s ease-in-out infinite alternate-reverse;
+    }
+    .section-id-{{ section.id }} .imageShake-2-shake {
+      animation: imageShake-y2 1.8s ease-in-out infinite alternate-reverse;
+    }
+
+  {% endfor %}
+
+
+  @media (min-width: 768px) {
+    .section-id-{{ section.id }} .pc-none{
+      display: none;
+    }
+  }
+  @media (max-width: 767px) {
+    .section-id-{{ section.id }} .mobile-none{
+      display: none;
+    }
+  }
+  
+  @keyframes floating-y2 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, 20px);
+    }
+  }
+  @keyframes floating-y1 {
+    0% {
+      transform: translate(0, 0);
+    }
+    100% {
+      transform: translate(0, -20px);
+    }
+  }
+  @keyframes imageShake-y1 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(-20deg);
+    }
+  }
+  @keyframes imageShake-y2 {
+    0% {
+      transform: rotate(0deg);
+    }
+    100% {
+      transform: rotate(20deg);
+    }
+  }
+</style>
+<div class="section-id-{{ section.id }}">
+  <div class="dynamic-picture-container">
+    <div class="dynamic-picture-wrap">
+      <div class="dynamic-picture-image-wrap">
+
+      {% comment %} 底部大图 {% endcomment %}
+      {% render 'image' with section.settings.image, sizes: '3200px', class: 'dynamic-bg mobile-none', loading: 'lazy'
+    %}
+      {% render 'image' with section.settings.image2, sizes: '700px', class: 'ynamic-bg pc-none', loading: 'lazy'
+    %}
+      {% comment %} 悬浮图片 {% endcomment %}
+       {% for block in section.blocks %}
+        {%  case block.type %} 
+        {% when 'image' %}
+            <div class="dynamic-picture-image-hover-wrap hover-image-1 {% if section.settings.img_animation != 'none' %} imageShake-1-{{ section.settings.img_animation }}{% endif %} ">
+              {% render 'image' with block.settings.image_hover, sizes: '500px', loading: 'lazy' %}
+            </div> 
+        {%  when 'image2' %}
+          
+      {% comment %} 悬浮图片2 {% endcomment %}
+            <div class="dynamic-picture-image-hover-wrap hover-image-2 {% if section.settings.img_animation != 'none' %} imageShake-2-{{ section.settings.img_animation }}{% endif %} ">
+              {% render 'image' with block.settings.image_hover_2, sizes: '500px', loading: 'lazy' %}
+            </div>
+       {% endcase %}
+       {% endfor %}
+
+
+
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "动态图片",
+  "settings": [
+      {
+        "type": "image_picker",
+        "id": "image",
+        "label": "pc端图片"
+      },
+      {
+        "type": "image_picker",
+        "id": "image2",
+        "label": "移动端图片"
+      },
+      {
+        "type": "select",
+        "id": "img_animation",
+        "label": "动画效果",
+        "default": "none",
+        "options": [
+          {
+            "value": "none",
+            "label": "无"
+          },
+          {
+            "value": "updown",
+            "label": "上下移动"
+          },
+          {
+            "value": "shake",
+            "label": "摇晃"
+          }
+        ]
+      }
+    ],
+    "blocks": [
+      {
+        "type": "image",
+        "name": "hover_image",
+        "limit": 1,
+        "settings": [
+          {
+          "type": "image_picker",
+          "id": "image_hover",
+          "label": "悬浮图片"
+          },
+          {
+            "type": "range",
+            "id": "top_location",
+            "min": 1,
+            "max": 60,
+            "step": 1,
+            "unit": "%",
+            "label": "pc端上间距",
+            "default": 9
+          },
+          {
+            "type": "range",
+            "id": "left_location",
+            "min": 1,
+            "max": 80,
+            "step": 1,
+            "unit": "%",
+            "label": "pc端左间距",
+            "default": 11
+          },
+          {
+            "type": "range",
+            "id": "top_location2",
+            "min": 1,
+            "max": 60,
+            "step": 1,
+            "unit": "%",
+            "label": "移动端上间距",
+            "default": 9
+          },
+          {
+            "type": "range",
+            "id": "left_location2",
+            "min": 1,
+            "max": 80,
+            "step": 1,
+            "unit": "%",
+            "label": "移动端左间距",
+            "default": 11
+          },
+          {
+            "type": "range",
+            "id": "pc_img_width",
+            "min": 1,
+            "max": 80,
+            "step": 1,
+            "unit": "%",
+            "label": "PC端悬浮图片大小",
+            "default": 20
+          },
+          {
+            "type": "range",
+            "id": "m_img_width",
+            "min": 1,
+            "max": 80,
+            "step": 1,
+            "unit": "%",
+            "label": "移动端悬浮图片大小",
+            "default": 40
+          }
+        ]
+      },
+      {
+        "type": "image2",
+        "name": "hover_image_2",
+        "limit": 1,
+        "settings": [
+          {
+          "type": "image_picker",
+          "id": "image_hover_2",
+          "label": "悬浮图片2"
+          },
+          {
+            "type": "range",
+            "id": "bottom_location",
+            "min": 1,
+            "max": 60,
+            "step": 1,
+            "unit": "%",
+            "label": "pc端下间距",
+            "default": 7
+          },
+          {
+            "type": "range",
+            "id": "right_location",
+            "min": 1,
+            "max": 80,
+            "step": 1,
+            "unit": "%",
+            "label": "pc端右间距",
+            "default": 10
+          },
+          {
+            "type": "range",
+            "id": "right_location2",
+            "min": 1,
+            "max": 60,
+            "step": 1,
+            "unit": "%",
+            "label": "移动端右间距",
+            "default": 7
+          },
+          {
+            "type": "range",
+            "id": "bottom_location2",
+            "min": 1,
+            "max": 60,
+            "step": 1,
+            "unit": "%",
+            "label": "移动端下间距",
+            "default": 7
+          },
+          {
+            "type": "range",
+            "id": "pc_img_width2",
+            "min": 1,
+            "max": 80,
+            "step": 1,
+            "unit": "%",
+            "label": "PC端悬浮图片大小",
+            "default": 20
+          },
+          {
+            "type": "range",
+            "id": "m_img_width2",
+            "min": 1,
+            "max": 80,
+            "step": 1,
+            "unit": "%",
+            "label": "移动端悬浮图片大小",
+            "default": 40
+          }
+        ]
+      }
+    ],
+    "presets": [
+      {
+        "name": "动态图片",
+        "category": "图片"
+      }
+    ]
+}
+{% endschema %}

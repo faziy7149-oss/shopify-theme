@@ -1,0 +1,504 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_WAMwww": {
+      "type": "slideshow",
+      "blocks": {
+        "image_gNCUhw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PC_7480ae8c-9d55-4c85-90eb-d06d51a66f42.jpg",
+            "mobile_image": "shopify://shop_images/M_e11d9735-094e-4262-b2ae-ba40f1ae2c31.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_gNCUhw"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "adjusting_spacing_VjzFm6": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": 0
+      }
+    },
+    "image_7FkYQg": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/xim.png",
+        "mobile_image": "shopify://shop_images/20240207-174058.png",
+        "img_rul": "https://karakubuy.com/collections/%E3%83%9F%E3%83%AA%E3%82%BF%E3%83%AA%E3%83%BC%E7%B3%BB"
+      }
+    },
+    "adjusting_spacing_f3WhqD": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -4,
+        "margin_top2": -1
+      }
+    },
+    "image_BKbkrc": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1_71d2b23b-a56a-4e01-8adb-2ee2324a01ad.png",
+        "mobile_image": "shopify://shop_images/1M_e27d0547-4e30-480d-98dd-d765c916ef58.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_tARFNA": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -3,
+        "margin_top2": -1
+      }
+    },
+    "image_block_BkCXbD": {
+      "type": "image-block",
+      "blocks": {
+        "image_KbKFPe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1104.gif",
+            "image_link": "https://karakubuy.com/products/md-w2007119?_pos=3&_sid=438a56ff3&_ss=r&variant=40680247099570",
+            "title_big": "MA-1 フライトジャケット",
+            "title_small": "",
+            "more_b": "¥15,160 "
+          }
+        },
+        "image_9pPtgA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1104-2.gif",
+            "image_link": "https://karakubuy.com/products/v21ajk007?_pos=2&_sid=cd621838f&_ss=r&variant=40867534635186",
+            "title_big": "（Biker）レザーMA-1フライトジャケット",
+            "title_small": "",
+            "more_b": "¥23,990"
+          }
+        },
+        "image_nCRed9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1104-3.gif",
+            "image_link": "https://karakubuy.com/products/krk-yrlgfxj117?_pos=1&_sid=bb06ccb2d&_ss=r&variant=44414184587483",
+            "title_big": "軽量ダウンフライトジャケット",
+            "title_small": "",
+            "more_b": "¥14,980 "
+          }
+        },
+        "image_tF3T9i": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1104-4.gif",
+            "image_link": "https://karakubuy.com/products/krk-md-w1901185?_pos=1&_sid=f7fa88b47&_ss=r&variant=43671925817563",
+            "title_big": "裏キルト中綿　MA-1フライトジャケット",
+            "title_small": "",
+            "more_b": "¥18,990"
+          }
+        }
+      },
+      "block_order": [
+        "image_KbKFPe",
+        "image_9pPtgA",
+        "image_nCRed9",
+        "image_tF3T9i"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#283710"
+      }
+    },
+    "adjusting_spacing_QiXFeQ": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 2,
+        "margin_top2": -3
+      }
+    },
+    "image_6TzR7H": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/2_6e4e01c1-26af-4a6a-8ae4-8a64747c6f0e.png",
+        "mobile_image": "shopify://shop_images/2M_c23d3536-1311-461b-88e0-4e965bbdde4b.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_4d6qMB": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -3,
+        "margin_top2": -1
+      }
+    },
+    "image_block_TxhgEK": {
+      "type": "image-block",
+      "blocks": {
+        "image_7xVRTj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1104-5.gif",
+            "image_link": "https://karakubuy.com/products/krk-md-w1907111?_pos=3&_sid=e8c73c05a&_ss=r&variant=41189396021426",
+            "title_big": "M-51 シープボアライナーフィッシュテールコート",
+            "title_small": "",
+            "more_b": "¥23,980"
+          }
+        },
+        "image_VLXtrX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1104-6.gif",
+            "image_link": "https://karakubuy.com/products/krk-md-tw2207631?_pos=3&_sid=94c9d53ac&_ss=r",
+            "title_big": "M-51フィッシュテールパーカー　ウインドブレーカー",
+            "title_small": "",
+            "more_b": "¥18,390"
+          }
+        },
+        "image_6pDnJQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1104-7.gif",
+            "image_link": "https://karakubuy.com/products/md-w1901186?_pos=3&_sid=f60c9ac83&_ss=r&variant=40507593588914",
+            "title_big": "M-65フィールドジャケット",
+            "title_small": "",
+            "more_b": "¥13,996"
+          }
+        },
+        "image_g6UH3z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1104-8.gif",
+            "image_link": "https://karakubuy.com/products/krk-lysj-ky203101?_pos=1&_sid=91c6c0689&_ss=r",
+            "title_big": "異素材配色フード付き　M-51(フィッシュテールパーカー)",
+            "title_small": "",
+            "more_b": "¥15,120"
+          }
+        }
+      },
+      "block_order": [
+        "image_7xVRTj",
+        "image_VLXtrX",
+        "image_6pDnJQ",
+        "image_g6UH3z"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#5d2510"
+      }
+    },
+    "adjusting_spacing_BpFgV6": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 2,
+        "margin_top2": -3
+      }
+    },
+    "image_tdkPFB": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/3_96d3b5eb-4c2d-4692-bbbb-d3949a8333f6.png",
+        "mobile_image": "shopify://shop_images/20240207-180237.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_YUeF9H": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -3,
+        "margin_top2": -1
+      }
+    },
+    "image_block_RYyMqf": {
+      "type": "image-block",
+      "blocks": {
+        "image_GcFYPd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1104-9.gif",
+            "image_link": "https://karakubuy.com/products/md-w1901101?_pos=5&_sid=bd3d97b78&_ss=r&variant=41159592149170",
+            "title_big": "スウェーデン軍モーターサイクルジャケット",
+            "title_small": "",
+            "more_b": "¥15,980"
+          }
+        },
+        "image_JDxxzm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1104-10.gif",
+            "image_link": "https://karakubuy.com/products/krk-gz-ss2022077?_pos=1&_sid=3523291b8&_ss=r&variant=44723096846555",
+            "title_big": "13ozデニム　スウェーデン軍モーターサイクルジャケット",
+            "title_small": "",
+            "more_b": "¥18,980"
+          }
+        },
+        "image_JbAxNG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1104-11.gif",
+            "image_link": "https://karakubuy.com/products/krk-ex-ndbrdjk125?_pos=1&_sid=6b89e9bc9&_ss=r&variant=44786519310555",
+            "title_big": "リバーシブル仕様インナー付き　複刻スウェーデン軍モーターサイクルジャケット",
+            "title_small": "",
+            "more_b": "¥37,980"
+          }
+        },
+        "image_aKrfjJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1104-12.gif",
+            "image_link": "https://karakubuy.com/products/krk-at-fw2312d?_pos=1&_sid=341d7549c&_ss=r",
+            "title_big": "Teflon「防風・防水・防汚」高機能　複刻スウェーデン軍モーターサイクルジャケット",
+            "title_small": "",
+            "more_b": "¥23,980"
+          }
+        }
+      },
+      "block_order": [
+        "image_GcFYPd",
+        "image_JDxxzm",
+        "image_JbAxNG",
+        "image_aKrfjJ"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#283710"
+      }
+    },
+    "adjusting_spacing_ykpjaU": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 2,
+        "margin_top2": -3
+      }
+    },
+    "image_QyqYNg": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/4_b98bda2c-9770-4e04-9395-1f9699e8bf80.png",
+        "mobile_image": "shopify://shop_images/4M.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_tdER9r": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -3,
+        "margin_top2": -1
+      }
+    },
+    "image_block_r3KztQ": {
+      "type": "image-block",
+      "blocks": {
+        "image_GAQbPD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1104-13.gif",
+            "image_link": "https://karakubuy.com/products/krk-ok2702?_pos=1&_sid=d9f78f4b7&_ss=r&variant=43419748073691",
+            "title_big": "USS Carl Vinson (CVN-70)　N-1デッキジャケット",
+            "title_small": "",
+            "more_b": "¥23,980"
+          }
+        },
+        "image_6xA6Kd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1104-14.gif",
+            "image_link": "https://karakubuy.com/products/krk-cs-ok9702?_pos=2&_sid=d75b7deda&_ss=r&variant=41078483943602",
+            "title_big": "海軍　N1デッキジャケット",
+            "title_small": "",
+            "more_b": "¥18,252"
+          }
+        },
+        "image_3cL9fB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1104-15.gif",
+            "image_link": "https://karakubuy.com/products/krk-md-ts2207643?variant=43677318381787",
+            "title_big": "U.S NAVY 　N-1デッキジャケット",
+            "title_small": "",
+            "more_b": "¥25,990"
+          }
+        },
+        "image_XrK3kf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1104-16.gif",
+            "image_link": "https://karakubuy.com/products/krk-ok2706?_pos=1&_sid=79373a3d0&_ss=r&variant=43515077853403",
+            "title_big": "襟ラビットファー・裏ウール混 　N1デッキジャケット　",
+            "title_small": "",
+            "more_b": "¥28,890"
+          }
+        }
+      },
+      "block_order": [
+        "image_GAQbPD",
+        "image_6xA6Kd",
+        "image_3cL9fB",
+        "image_XrK3kf"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#283710"
+      }
+    },
+    "adjusting_spacing_767MBi": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 2,
+        "margin_top2": -3
+      }
+    },
+    "image_e8Kt9G": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/5_8df93e65-7ab5-422d-ba69-b7e8e14986c8.png",
+        "mobile_image": "shopify://shop_images/5M.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_3cADQm": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -3,
+        "margin_top2": -1
+      }
+    },
+    "image_block_cFhBhW": {
+      "type": "image-block",
+      "blocks": {
+        "image_W3RRPw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1104-17.gif",
+            "image_link": "https://karakubuy.com/products/krk-gz-ss2022007?_pos=1&_sid=e019b4fdb&_ss=r",
+            "title_big": "3way仕様　改良型米軍民間用ヘルメットバッグ",
+            "title_small": "",
+            "more_b": "¥19,980"
+          }
+        },
+        "image_cj8PBP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1104-18.gif",
+            "image_link": "https://karakubuy.com/products/krk-jrs-tkb125?_pos=1&_sid=1deccd02f&_ss=r&variant=44786537136347",
+            "title_big": "2way仕様改良型米軍民間用裏キルトヘルメットバッグ",
+            "title_small": "",
+            "more_b": "¥17,980"
+          }
+        }
+      },
+      "block_order": [
+        "image_W3RRPw",
+        "image_cj8PBP"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#283710"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "background_image_Bymi6q": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-02-07_17-29-10.jpg"
+      }
+    }
+  },
+  "order": [
+    "slideshow_WAMwww",
+    "adjusting_spacing_VjzFm6",
+    "image_7FkYQg",
+    "adjusting_spacing_f3WhqD",
+    "image_BKbkrc",
+    "adjusting_spacing_tARFNA",
+    "image_block_BkCXbD",
+    "adjusting_spacing_QiXFeQ",
+    "image_6TzR7H",
+    "adjusting_spacing_4d6qMB",
+    "image_block_TxhgEK",
+    "adjusting_spacing_BpFgV6",
+    "image_tdkPFB",
+    "adjusting_spacing_YUeF9H",
+    "image_block_RYyMqf",
+    "adjusting_spacing_ykpjaU",
+    "image_QyqYNg",
+    "adjusting_spacing_tdER9r",
+    "image_block_r3KztQ",
+    "adjusting_spacing_767MBi",
+    "image_e8Kt9G",
+    "adjusting_spacing_3cADQm",
+    "image_block_cFhBhW",
+    "main",
+    "background_image_Bymi6q"
+  ]
+}

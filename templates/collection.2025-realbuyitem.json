@@ -1,0 +1,370 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "slideshow_BYzaq7": {
+      "type": "slideshow",
+      "blocks": {
+        "image_E3rNzE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/631__1920_5f7316fb-2467-481d-babe-c393909592d8.jpg",
+            "mobile_image": "shopify://shop_images/631__1080_ea5b38e5-d2a0-4b39-8463-072c650307d7.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_E3rNzE"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "adjusting_spacing_Nmdkt9": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -7,
+        "margin_top2": -6
+      }
+    },
+    "scrolling_banner_image_kJzyQj": {
+      "type": "scrolling-banner-image",
+      "blocks": {
+        "carousel_image_wkHK8w": {
+          "type": "carouselImage",
+          "settings": {
+            "scrolling_banner_image_pc": "shopify://shop_images/gif_4583076f-5688-43e1-8384-67f0e1c9a38e.gif",
+            "scrolling_banner_image_mobile": "shopify://shop_images/gif_4583076f-5688-43e1-8384-67f0e1c9a38e.gif",
+            "scrolling_image_link": ""
+          }
+        },
+        "text_KEGAX7": {
+          "type": "text",
+          "settings": {
+            "text": "KARAKU  2025  HOLIDAY SEASON STAFF REAL BUY",
+            "color": "#731112",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "carousel_image_wkHK8w",
+        "text_KEGAX7"
+      ],
+      "name": "Scrolling banner image",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 13.5,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "adjusting_spacing_3jRjbb": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -6,
+        "margin_top2": -7
+      }
+    },
+    "image_PCEKcc": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_b86ff4cc-e75a-4b93-9608-684d7f5489a8.png",
+        "mobile_image": "shopify://shop_images/720_b49dc2bd-0375-476f-a436-9f895dff8097.png",
+        "img_rul": ""
+      }
+    },
+    "url_text_NX6bQP": {
+      "type": "url-text",
+      "name": "URL Text",
+      "settings": {
+        "url_text": "https://karakubuy.com/collections/2025-26-end-of-the-year",
+        "text_url": "アイテム一覧",
+        "btn_color": "#731112",
+        "btn_color_hover": "#731112",
+        "btn_text_color": "#fffeee",
+        "btn_text_color_hover": "#fffee0",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 25,
+        "url_font_size_moble": 15,
+        "img_postion_size_pc": 55,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "adjusting_spacing_8bAdMa": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -2,
+        "margin_top2": -3
+      }
+    },
+    "image_and_text_links_YiCC9A": {
+      "type": "image-and-text-links",
+      "blocks": {
+        "text_link_4rakKc": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "シャツ",
+            "discounted_price": "¥6,400",
+            "original_price": "¥15,980",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-vmr-y83?_pos=1&_sid=c96e94fdb&_ss=r&variant=48061001335003"
+          }
+        }
+      },
+      "block_order": [
+        "text_link_4rakKc"
+      ],
+      "name": "Image and Text Links",
+      "settings": {
+        "image": "shopify://shop_images/1080x3000-1_97ee60e5-547d-4505-a0ab-8705c0478cab.jpg",
+        "coll_grid_image_shape": "shortest",
+        "image_position": "column-reverse",
+        "styling_all_text": "",
+        "styling_all_link": "",
+        "max_width_screen": 680,
+        "title_color": "#333333",
+        "discounted_price": "#c20000",
+        "original_price": "#333333"
+      }
+    },
+    "image_and_text_links_8KAzTG": {
+      "type": "image-and-text-links",
+      "blocks": {
+        "text_link_LhfpiB": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "ジャケット",
+            "discounted_price": "¥19,580",
+            "original_price": "¥35,590",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/kkrk-bd-101448?_pos=4&_sid=01c7fd55c&_ss=r&variant=43565599064283"
+          }
+        }
+      },
+      "block_order": [
+        "text_link_LhfpiB"
+      ],
+      "name": "Image and Text Links",
+      "settings": {
+        "image": "shopify://shop_images/1080x3000-2_4635f52b-2752-412b-885e-3ccef6266363.jpg",
+        "coll_grid_image_shape": "shortest",
+        "image_position": "column-reverse",
+        "styling_all_text": "",
+        "styling_all_link": "",
+        "max_width_screen": 680,
+        "title_color": "#333333",
+        "discounted_price": "#c20000",
+        "original_price": "#333333"
+      }
+    },
+    "image_and_text_links_eWNpPX": {
+      "type": "image-and-text-links",
+      "blocks": {
+        "text_link_eB6XrC": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "スウェット",
+            "discounted_price": "¥5,600",
+            "original_price": "¥15,980",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-27-wy562?_pos=1&_sid=bd27e20d2&_ss=r&variant=46341377163483"
+          }
+        },
+        "text_link_k7zhDf": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "シャツ",
+            "discounted_price": "¥6,490 ",
+            "original_price": "¥12,980",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-gpd-gs1383?variant=45007117484251"
+          }
+        }
+      },
+      "block_order": [
+        "text_link_eB6XrC",
+        "text_link_k7zhDf"
+      ],
+      "name": "Image and Text Links",
+      "settings": {
+        "image": "shopify://shop_images/1080x3000-3_4aae7331-937d-4492-b00c-e5aec4f0d34d.jpg",
+        "coll_grid_image_shape": "shortest",
+        "image_position": "column-reverse",
+        "styling_all_text": "",
+        "styling_all_link": "",
+        "max_width_screen": 680,
+        "title_color": "#333333",
+        "discounted_price": "#c20000",
+        "original_price": "#333333"
+      }
+    },
+    "image_and_text_links_RxBTxH": {
+      "type": "image-and-text-links",
+      "blocks": {
+        "text_link_UNp48M": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "ジャケット",
+            "discounted_price": "¥14,390",
+            "original_price": "¥23,980",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/krk-a051-22067?_pos=3&_sid=bfec29eb8&_ss=r&variant=43554446377179"
+          }
+        },
+        "text_link_6Q6Xgb": {
+          "type": "text-link",
+          "settings": {
+            "list_text": "ベルト",
+            "discounted_price": "¥3,200",
+            "original_price": "¥10,600",
+            "text": "BUY",
+            "link": "https://karakubuy.com/products/md-s2001059-1?_pos=4&_sid=6cca7ee4d&_ss=r"
+          }
+        }
+      },
+      "block_order": [
+        "text_link_UNp48M",
+        "text_link_6Q6Xgb"
+      ],
+      "name": "Image and Text Links",
+      "settings": {
+        "image": "shopify://shop_images/1080x3000-4_e4386ec0-36d7-4f33-9571-5a82f8f8c0cd.jpg",
+        "coll_grid_image_shape": "shortest",
+        "image_position": "column-reverse",
+        "styling_all_text": "",
+        "styling_all_link": "",
+        "max_width_screen": 680,
+        "title_color": "#333333",
+        "discounted_price": "#c20000",
+        "original_price": "#333333"
+      }
+    },
+    "adjusting_spacing_r4Udcw": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -4
+      }
+    },
+    "background_image_ceHVKr": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#ede6d6",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_BYzaq7",
+    "adjusting_spacing_Nmdkt9",
+    "scrolling_banner_image_kJzyQj",
+    "adjusting_spacing_3jRjbb",
+    "image_PCEKcc",
+    "url_text_NX6bQP",
+    "adjusting_spacing_8bAdMa",
+    "image_and_text_links_YiCC9A",
+    "image_and_text_links_8KAzTG",
+    "image_and_text_links_eWNpPX",
+    "image_and_text_links_RxBTxH",
+    "adjusting_spacing_r4Udcw",
+    "background_image_ceHVKr"
+  ]
+}

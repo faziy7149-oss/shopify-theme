@@ -1,0 +1,482 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_WAMwww": {
+      "type": "slideshow",
+      "blocks": {
+        "image_gNCUhw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/455-_-__1920.jpg",
+            "mobile_image": "shopify://shop_images/455-_-__1080.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_gNCUhw"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "adjusting_spacing_VjzFm6": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 3,
+        "margin_top2": 1
+      }
+    },
+    "image_7FkYQg": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_362295aa-7f63-49ff-9e34-ef0ff8abe9d3.png",
+        "mobile_image": "shopify://shop_images/720_3b675b26-d17d-453f-acc7-425298b533a5.png",
+        "img_rul": "https://karakubuy.com/collections/plain-shirts"
+      }
+    },
+    "adjusting_spacing_f3WhqD": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 2,
+        "margin_top2": 1
+      }
+    },
+    "image_BKbkrc": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1_79af865d-8e64-429d-9bab-9275fcc60194.png",
+        "mobile_image": "shopify://shop_images/1_79af865d-8e64-429d-9bab-9275fcc60194.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_tARFNA": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -2,
+        "margin_top2": 0
+      }
+    },
+    "image_block_BkCXbD": {
+      "type": "image-block",
+      "blocks": {
+        "image_KbKFPe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1-1_83d5e8a3-4051-4f63-a78c-4b998ebc9b91.png",
+            "image_link": "https://karakubuy.com/products/krk-ljp-lgcxzswy726?_pos=1&_sid=408a77324&_ss=r",
+            "title_big": "【予約】「KARAKU」刺繡ロゴ　ユーズド加工海軍クルーネックスウェット",
+            "title_small": "",
+            "more_b": "13,980"
+          }
+        },
+        "image_9pPtgA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1-2_f769e16b-553b-4419-9059-567b5b21ea46.png",
+            "image_link": "https://karakubuy.com/products/krk-lg-ae981g?_pos=1&_sid=538fe73db&_ss=r&variant=46078244618459",
+            "title_big": "多色展開　アランケーブルクルーネックニットベスト",
+            "title_small": "",
+            "more_b": "9,980"
+          }
+        },
+        "image_nCRed9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1-3.png",
+            "image_link": "https://karakubuy.com/products/krk-sy-243cs09147?_pos=1&_sid=2c50649d5&_ss=r&variant=45992996339931",
+            "title_big": "ウール混ツイードチェック柄切替　コットンコーデュロイ長袖シャツ",
+            "title_small": "",
+            "more_b": "¥7,990"
+          }
+        },
+        "image_tF3T9i": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1-4.png",
+            "image_link": "https://karakubuy.com/products/krk-b515-c29?_pos=1&_sid=12d5dd411&_ss=r&variant=45954538471643",
+            "title_big": "エスニック調刺繡　コーデュロイショールカラーシャツ　セット対応",
+            "title_small": "",
+            "more_b": "¥13,980"
+          }
+        }
+      },
+      "block_order": [
+        "image_KbKFPe",
+        "image_9pPtgA",
+        "image_nCRed9",
+        "image_tF3T9i"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#562e23"
+      }
+    },
+    "adjusting_spacing_QiXFeQ": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 2,
+        "margin_top2": -3
+      }
+    },
+    "image_6TzR7H": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/2_40c5216a-4704-42a6-932f-7df66f165249.png",
+        "mobile_image": "shopify://shop_images/2_40c5216a-4704-42a6-932f-7df66f165249.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_4d6qMB": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -3,
+        "margin_top2": 1
+      }
+    },
+    "image_block_TxhgEK": {
+      "type": "image-block",
+      "blocks": {
+        "image_7xVRTj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2-1_fcaedba3-413c-4a78-a021-b8277a678565.png",
+            "image_link": "https://karakubuy.com/products/krk-ljp-pjdxrjk912?_pos=1&_sid=6c22eb644&_ss=r",
+            "title_big": "【予約】肘レザーパッチ　ウォッシュドコーデュロイテーラードジャケット",
+            "title_small": "",
+            "more_b": "¥18,980"
+          }
+        },
+        "image_F3TKXB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2-2_d9698ac7-f877-4d3b-a6b8-e8cc9a96e153.png",
+            "image_link": "https://karakubuy.com/products/krk-018-cs969?_pos=1&_sid=72abb82f6&_ss=r&variant=45946135871707",
+            "title_big": "ユニークチャイナボタン　レザーシャツジャケット",
+            "title_small": "",
+            "more_b": "¥14,980"
+          }
+        },
+        "image_PdijQ4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2-3.png",
+            "image_link": "https://karakubuy.com/products/krk-rf-18130?_pos=1&_sid=25ff268e6&_ss=r&variant=46106489487579",
+            "title_big": "無地2色　レトロヘビーウェイトカバーオール",
+            "title_small": "",
+            "more_b": "¥16,980"
+          }
+        },
+        "image_g6UH3z": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2-4.png",
+            "image_link": "https://karakubuy.com/products/krk-018-wt3007?_pos=1&_sid=ce7c541b8&_ss=r&variant=46104253169883",
+            "title_big": "ウール混　コーデュロイ切替ヘリンボーン織り裏中綿キルトチェック柄ジャケット",
+            "title_small": "",
+            "more_b": "¥25,980"
+          }
+        }
+      },
+      "block_order": [
+        "image_7xVRTj",
+        "image_F3TKXB",
+        "image_PdijQ4",
+        "image_g6UH3z"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#562e23"
+      }
+    },
+    "adjusting_spacing_BpFgV6": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 2,
+        "margin_top2": -3
+      }
+    },
+    "image_tdkPFB": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/3_323ab8cd-75ac-4fd3-9e4c-a5416d4a76ab.png",
+        "mobile_image": "shopify://shop_images/3_323ab8cd-75ac-4fd3-9e4c-a5416d4a76ab.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_YUeF9H": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -3,
+        "margin_top2": 1
+      }
+    },
+    "image_block_RYyMqf": {
+      "type": "image-block",
+      "blocks": {
+        "image_H9qTNk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3-1_24351645-09f1-4ef1-a5d6-45bc86dded0f.png",
+            "image_link": "https://karakubuy.com/products/krk-s2007047?_pos=6&_sid=de0bf9189&_ss=r&variant=40859730641074",
+            "title_big": "コーデュロイワイドパンツ",
+            "title_small": "",
+            "more_b": "¥7,990"
+          }
+        },
+        "image_EheL4X": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3-2_f41502e5-ed99-4893-ae7b-84549eec4dcd.png",
+            "image_link": "https://karakubuy.com/products/krk-xj-1604?_pos=1&_sid=97578356a&_ss=r&variant=45976685510875",
+            "title_big": "膝パッチ　大容量ポケットワークオーバーオール",
+            "title_small": "",
+            "more_b": "16,980"
+          }
+        },
+        "image_FDmUt9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3-3.png",
+            "image_link": "https://karakubuy.com/products/krk-lpy-pb-388?_pos=1&_sid=069e83975&_ss=r&variant=44514526068955",
+            "title_big": "片面サスペンダー付き　裏起毛コーデュロイパンツ",
+            "title_small": "",
+            "more_b": "12,582 "
+          }
+        },
+        "image_z7EjHF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3-4.png",
+            "image_link": "https://karakubuy.com/products/krk-b515-mk273?_pos=1&_sid=c5d7d0be4&_ss=r&variant=45954365915355",
+            "title_big": "エスニック調刺繡　コーデュロイイージーパンツ　セット対応",
+            "title_small": "",
+            "more_b": "12,980"
+          }
+        }
+      },
+      "block_order": [
+        "image_H9qTNk",
+        "image_EheL4X",
+        "image_FDmUt9",
+        "image_z7EjHF"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#562e23"
+      }
+    },
+    "adjusting_spacing_Qfx3Am": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 2,
+        "margin_top2": -3
+      }
+    },
+    "image_Uakf6G": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/4_d1d6bfda-accc-4d4a-a288-f00d1e9f1909.png",
+        "mobile_image": "shopify://shop_images/4_d1d6bfda-accc-4d4a-a288-f00d1e9f1909.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_nAghLd": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -3,
+        "margin_top2": 1
+      }
+    },
+    "image_block_RMcUfx": {
+      "type": "image-block",
+      "blocks": {
+        "image_yErNHA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4-1_1f2d18b4-f31e-4f20-9a6c-22f40bb39427.png",
+            "image_link": "https://karakubuy.com/products/krk-nc-101030811?_pos=1&_sid=19ea4b225&_ss=r&variant=44107605410011",
+            "title_big": "Horween USAレザー 首掛けメガネホルダー",
+            "title_small": "",
+            "more_b": "¥10,980"
+          }
+        },
+        "image_cwaL97": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4-2_d2c2db41-bea2-42ef-ba65-5819e10900cd.png",
+            "image_link": "https://karakubuy.com/products/nk-20190522-1?_pos=1&_sid=24b483920&_ss=r&variant=40765980999858",
+            "title_big": "サスペンダー",
+            "title_small": "",
+            "more_b": "¥5,763"
+          }
+        },
+        "image_iPDgYd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4-3_83f12609-9c57-4d97-b4fd-9e0d120593c4.png",
+            "image_link": "https://karakubuy.com/products/krk-kw-8010?_pos=1&_sid=b800c278f&_ss=r&variant=44089002262747",
+            "title_big": "職人手作り ナスカン付き鞣し牛革ミニポーチ",
+            "title_small": "",
+            "more_b": "¥15,390"
+          }
+        },
+        "image_miL7rD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4-4_ac9ff03a-87fa-47fb-9f30-1004ff4218a7.png",
+            "image_link": "https://karakubuy.com/products/krk-xyj-mszbtsl06?_pos=1&_sid=8f56dca02&_ss=r",
+            "title_big": "「ゴビ砂漠」マット天然石コンビブレスレット",
+            "title_small": "",
+            "more_b": "¥8,990"
+          }
+        }
+      },
+      "block_order": [
+        "image_yErNHA",
+        "image_cwaL97",
+        "image_iPDgYd",
+        "image_miL7rD"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#562e23"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "background_image_Bymi6q": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-08-30_16-45-58_81b6e6bf-9a04-4349-873c-3f0e71dfbea7.jpg"
+      }
+    },
+    "featured_collection_AbF9je": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "2024-TREND COLOR-BROWN",
+        "collection": "2024-trendcolor-brown",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "tag_link_F4MBjR": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    }
+  },
+  "order": [
+    "slideshow_WAMwww",
+    "adjusting_spacing_VjzFm6",
+    "image_7FkYQg",
+    "adjusting_spacing_f3WhqD",
+    "image_BKbkrc",
+    "adjusting_spacing_tARFNA",
+    "image_block_BkCXbD",
+    "adjusting_spacing_QiXFeQ",
+    "image_6TzR7H",
+    "adjusting_spacing_4d6qMB",
+    "image_block_TxhgEK",
+    "adjusting_spacing_BpFgV6",
+    "image_tdkPFB",
+    "adjusting_spacing_YUeF9H",
+    "image_block_RYyMqf",
+    "adjusting_spacing_Qfx3Am",
+    "image_Uakf6G",
+    "adjusting_spacing_nAghLd",
+    "image_block_RMcUfx",
+    "main",
+    "background_image_Bymi6q",
+    "featured_collection_AbF9je",
+    "tag_link_F4MBjR"
+  ]
+}

@@ -1,0 +1,513 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "slideshow_qwYAtq": {
+      "type": "slideshow",
+      "blocks": {
+        "image_9FCNBK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/170__1920_10c9c7bd-a376-4dde-8ea2-bff740596b87.jpg",
+            "mobile_image": "shopify://shop_images/170__1080_86a5a753-61f9-4a3d-967e-2a44745db4c9.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_9FCNBK"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "scrolling_banner_qVBdJr": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_AeHKCy": {
+          "type": "text",
+          "settings": {
+            "text": "KARAKU PLUS 2026 SUMMER T-SHIRTS",
+            "color": "#f58e2d",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_AeHKCy"
+      ],
+      "name": "Scrolling banner",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 15,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "image_fCe8bP": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_e9b84ca8-13eb-483d-8df1-b7def6183d54.png",
+        "mobile_image": "shopify://shop_images/720_3655d8f9-3a42-494f-b13d-284137da2ddf.png",
+        "img_rul": ""
+      }
+    },
+    "url_text_BW7TqM": {
+      "type": "url-text",
+      "name": "URL Text",
+      "settings": {
+        "url_text": "https://karakubuy.com/collections/t%E3%82%B7%E3%83%A3%E3%83%84-%E3%82%AB%E3%83%83%E3%83%88%E3%82%BD%E3%83%BC",
+        "text_url": "Tシャツ一覧",
+        "btn_color": "#edb300",
+        "btn_color_hover": "#53589a",
+        "btn_text_color": "#fffeee",
+        "btn_text_color_hover": "#fffeee",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 25,
+        "url_font_size_moble": 18,
+        "img_postion_size_pc": 55,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "image_jump_custom_d6bM4C": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_aDDhB4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_3445e2cf-f69d-48b5-aa09-c0b3bd1cd2e0.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_aDDhB4"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "slide_block_group_6BMWtP": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_TdCw9G": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/1_904e3d7d-455d-4b64-9300-71b5c90afea6.png",
+            "slide_img": "shopify://shop_images/1336x1604-1_b429cc22-c20c-4288-8974-1b8fa628ec92.jpg",
+            "slide_title": "袖ターコイズ風ボタン付き　Vガゼット入りエアーレイヤードTシャツ",
+            "slide_price": 0,
+            "slide_price_new": 7190,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-zyd-ht260116?_pos=1&_sid=3548c35c0&_ss=r&variant=48525607207131",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_WAFXAt": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/2_d0f73757-e24c-4638-b7cc-612d215f9fd5.png",
+            "slide_img": "shopify://shop_images/20260407-101818.jpg",
+            "slide_title": "【予約】ターコイズ風ボタン付き　ヘリンボーンジャガードヘンリーネックTee",
+            "slide_price": 0,
+            "slide_price_new": 7190,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lsx-ht260106?_pos=1&_sid=cb465f633&_ss=r&variant=48338944655579",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_4XVp8X": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/3_96491d1c-386c-4ad2-b632-0a97deacec21.png",
+            "slide_img": "shopify://shop_images/1336x1604-3_35ffbe28-036d-48ba-bea9-1254adae0981.jpg",
+            "slide_title": "【予約】エスニック民族調ジャカード織り　ターコイズ調ボタンヘンリーネックTee",
+            "slide_price": 0,
+            "slide_price_new": 7990,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-zyd-ht260126?_pos=1&_sid=662469077&_ss=r&variant=48312944820443",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_TdCw9G",
+        "slide_block_WAFXAt",
+        "slide_block_4XVp8X"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#f58e2d",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#49548a",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_tnPBqE": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_pGkwhH": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/4_f4f14113-5f30-449f-9bb7-b392509fd860.png",
+            "slide_img": "shopify://shop_images/1336x1604-4_6d129809-ded6-4613-a6e0-bd51a006a36d.jpg",
+            "slide_title": "紅白ヒモ付き　「KaraKu」ロゴ刺繡入りブラックコットンTee",
+            "slide_price": 0,
+            "slide_price_new": 5990,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-ht260131?_pos=1&_sid=b98fad451&_ss=r&variant=48301367460059",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_DP374b": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/5_ebfaa4e8-6329-4db3-aa77-5604042822a6.png",
+            "slide_img": "shopify://shop_images/1336x1604-5_3c1143ff-cf10-4f39-a949-22543da5b9be.jpg",
+            "slide_title": "【予約】「STAY TRUE」刺繍ワッペン　フェイクレイヤードパイナップルパイルニットTee",
+            "slide_price": 0,
+            "slide_price_new": 9980,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lsx-nt260106?_pos=1&_sid=c3016aaaf&_ss=r&variant=48163067298011",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_ekbThB": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/6_49fdce85-d682-4bd1-87e3-10a37ff7ab24.png",
+            "slide_img": "shopify://shop_images/1336x1604-6_25165c72-9ee6-4c8a-a568-6f7110657620.jpg",
+            "slide_title": "ターコイズ風ボタン付き　ワッフルヘンリーTシャツ",
+            "slide_price": 0,
+            "slide_price_new": 7190,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lsx-lsst0410?_pos=2&_sid=1ac6ed344&_ss=r&variant=46779204665563",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_pGkwhH",
+        "slide_block_DP374b",
+        "slide_block_ekbThB"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#f58e2d",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#49548a",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "image_jump_custom_zdExkt": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_eJh7tj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_7ea3f46d-8db8-4b0e-9c5e-583a025efc3c.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_eJh7tj"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "slide_block_group_MftBpG": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_HfLhUJ": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/7_57fa5c0c-00f4-4416-8777-28b279ce9668.png",
+            "slide_img": "shopify://shop_images/1336x1604-7_4712d31b-468c-4828-844d-ca3314426a6c.jpg",
+            "slide_title": "【予約】「骸骨・サマーバケーション」バックプリント入りコットンポケットTee",
+            "slide_price": 0,
+            "slide_price_new": 7990,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lrj-ht260247?_pos=1&_sid=8b07b9770&_ss=r&variant=48508934062299",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_abYwpy": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/8_aacef121-32ea-44d5-8d09-9ac0a6744f9e.png",
+            "slide_img": "shopify://shop_images/1336x1604-8_3be43926-fa06-484c-aa32-87de9f90bd19.jpg",
+            "slide_title": "「ウエスタンハットをかぶったカウボーイ猫」エアーレイヤーラグランスリーブTee",
+            "slide_price": 0,
+            "slide_price_new": 9980,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lrj-ht260134?_pos=1&_sid=806798891&_ss=r&variant=48306205917403",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_dV9hEd": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/9_ed6aea2a-2e52-4f47-bca8-acccc40cd702.png",
+            "slide_img": "shopify://shop_images/1336x1604-9_f858c4f9-90ca-4e28-a71d-48f0d035b322.jpg",
+            "slide_title": "赤ヒモ付き　「毛糸玉と遊ぶ猫」 グラフィックプリント入りコットンTee",
+            "slide_price": 0,
+            "slide_price_new": 7190,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lrj-ht260226?_pos=1&_sid=0c7260d63&_ss=r&variant=48357378883803",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_HfLhUJ",
+        "slide_block_abYwpy",
+        "slide_block_dV9hEd"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#f58e2d",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#49548a",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_KpBGtj": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_jWCxHq": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/10_629898fa-ea0c-4823-8c4f-02c6abb2d0c5.png",
+            "slide_img": "shopify://shop_images/1336x1604-10_14d9cfc8-72ec-47b4-97a2-c7a3ef91de72.jpg",
+            "slide_title": "【予約】室町時代「百鬼夜行」プリントコットンベーシックTee",
+            "slide_price": 0,
+            "slide_price_new": 7990,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-ht260231?_pos=1&_sid=91977537d&_ss=r&variant=48517107581147",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_BfzHrG": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/11_8391682b-7bae-44c4-a20d-5ac774136cbe.png",
+            "slide_img": "shopify://shop_images/1336x1604-11_1950924f-931e-43cd-9c6d-783692524a85.jpg",
+            "slide_title": "室町時代「妖怪が絵巻を破り出る」浮世絵風プリントコットンTee",
+            "slide_price": 0,
+            "slide_price_new": 7980,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-ts251273?_pos=1&_sid=0a8899792&_ss=r&variant=48219545305307",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_3HV4QH": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/12_cbb3b6f0-a451-4504-bc26-fb3f05f184f0.png",
+            "slide_img": "shopify://shop_images/1336x1604-12_1ff44379-7ac3-410f-b002-ed3d0c764385.jpg",
+            "slide_title": "アビシニアンファラオ＆ロゴプリント入り　エアーレイヤーラグランスリーブTee",
+            "slide_price": 0,
+            "slide_price_new": 9980,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lrj-ht260135?_pos=1&_sid=0ad2c6d78&_ss=r&variant=48296571896027",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_jWCxHq",
+        "slide_block_BfzHrG",
+        "slide_block_3HV4QH"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#f58e2d",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#49548a",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_TwUwFU": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_yXymfR": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/13_e53b28e5-723e-4fae-9a50-a714ac34dab7.png",
+            "slide_img": "shopify://shop_images/1336x1604-13_cf483f60-3e9c-4bb4-8412-d558236e65dc.jpg",
+            "slide_title": "ピエール・ボナール『白い猫』ナビ派アートプリントコットンTee",
+            "slide_price": 0,
+            "slide_price_new": 7190,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-ht260151?_pos=1&_sid=eb9f5fb34&_ss=r&variant=48250968244443",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_h8TQkE": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/14_0ddb6a0f-315b-4389-ba66-88cdc9dec6a1.png",
+            "slide_img": "shopify://shop_images/1336x1604-14_6923cbf7-893e-4c48-a242-c1951ee11449.jpg",
+            "slide_title": "「クロスジップの隙間から覗く化け猫」浮世絵風プリントコットンTee",
+            "slide_price": 0,
+            "slide_price_new": 7980,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-hsd251278?_pos=1&_sid=632bed3ea&_ss=r&variant=48219513389275",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_tYiAX7": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/15_8b1c59bb-6e67-407d-acdb-f5ced76daaa6.png",
+            "slide_img": "shopify://shop_images/1336x1604-15_7018c860-b247-4176-847b-a58157a59e67.jpg",
+            "slide_title": "「烈吼ノ幕府将軍猫」プリント＆karaku刺繍入りコットンTシャツ",
+            "slide_price": 0,
+            "slide_price_new": 7980,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-bfsgt0611?_pos=1&_sid=534223f4b&_ss=r&variant=46874903838939",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_yXymfR",
+        "slide_block_h8TQkE",
+        "slide_block_tYiAX7"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#f58e2d",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#49548a",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "background_image_baLGXq": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-06-28_17-22-03_b547d521-a970-4edb-894f-2c3500dea888.jpg",
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "fixed",
+        "background_color_overlay": "#f5f5f5",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_qwYAtq",
+    "scrolling_banner_qVBdJr",
+    "image_fCe8bP",
+    "url_text_BW7TqM",
+    "image_jump_custom_d6bM4C",
+    "slide_block_group_6BMWtP",
+    "slide_block_group_tnPBqE",
+    "image_jump_custom_zdExkt",
+    "slide_block_group_MftBpG",
+    "slide_block_group_KpBGtj",
+    "slide_block_group_TwUwFU",
+    "background_image_baLGXq"
+  ]
+}

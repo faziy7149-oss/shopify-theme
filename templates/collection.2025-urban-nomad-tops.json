@@ -1,0 +1,582 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "slideshow_QJC4wY": {
+      "type": "slideshow",
+      "blocks": {
+        "image_yiLj3T": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/318__1920x780_2179c32d-c1c0-44ba-906e-fddd2001ce04.jpg",
+            "mobile_image": "shopify://shop_images/318__1080x1440_409fb98a-dc99-4cb7-9c9a-2842fe28f4c3.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_yiLj3T"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_xaFMVA": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_5215669d-b5b8-440b-96be-47bc0a89aaf6.png",
+        "mobile_image": "shopify://shop_images/720_770318b2-8aaa-4d6e-b3a5-5aa425c15562.png",
+        "img_rul": ""
+      }
+    },
+    "image_jump_custom_wNKdjJ": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_XkFfiD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20250819-174201.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_XkFfiD"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "adjusting_spacing_YUhd4P": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -4,
+        "margin_top2": -5
+      }
+    },
+    "image_list_XRtTqx": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_HTmcXq": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/1_e090ef3d-0ca4-4ff6-b03f-81298866c250.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_HTmcXq"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "whirling"
+      }
+    },
+    "adjusting_spacing_HmK4Mb": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -9,
+        "margin_top2": -6
+      }
+    },
+    "slide_block_group_mijzLK": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_zm9FCA": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-3_d39e6c34-59b2-4556-83f4-344eeff09efd.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-4_82ce4042-f898-4343-bda5-cad1d496ed97.jpg",
+            "slide_title": "襟・前たてコーデュロイ切替　幾何学模様柄改良型半袖半纏",
+            "slide_price": 11980,
+            "slide_price_new": 8980,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-018-cs3067?_pos=1&_sid=b3d700e1a&_ss=r&variant=47299741745371",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_eN9kVD": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-5_6b08d93e-6753-426a-8ca0-16d694d0fb25.jpg",
+            "slide_title": "エスニック調　ニット編みストライプ柄透かし彫りオープンカラーシャツ",
+            "slide_price": 10980,
+            "slide_price_new": 0,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-515-dx71?_pos=1&_sid=1d3299811&_ss=r&variant=47198100914395",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_wKiPba": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-1_8c624702-93c2-4b12-b9e8-245ea21f01ad.jpg",
+            "slide_title": "シンメトリーサンダーバード刺繍入り　ワントーンキューバカラーシャツ",
+            "slide_price": 12980,
+            "slide_price_new": 8390,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-018-cs3052",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_zm9FCA",
+        "slide_block_eN9kVD",
+        "slide_block_wKiPba"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#954530",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#503833",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_tVC6Le": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_LwLBMC": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-7_3d21754c-24f3-4cee-93d5-c2031ebb0d33.jpg",
+            "slide_title": "エスニック調　「サンダーバード」バックプリント＆刺繍mixコットンTee",
+            "slide_price": 8980,
+            "slide_price_new": 0,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-bcsrt0703?_pos=1&_sid=c12691f83&_ss=r&variant=47166481268955",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_G8HDPR": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-9_11a43a39-22e7-4ca2-a652-5849e24df595.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-10_82d27bc2-748b-4079-8b92-9ec38096c6e7.jpg",
+            "slide_title": "インディアン風「にゃん族模様のミステリー」ピーチスキンオープンカラーシャツ",
+            "slide_price": 11980,
+            "slide_price_new": 7790,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lrj-mzftpc0614?_pos=1&_sid=ba1eebb3f&_ss=r&variant=46896786309339",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_FgfAye": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-11_88b7e8f8-129a-4a7c-937e-ea88a710b6a7.jpg",
+            "slide_title": "袖ペイズリープリント　ミニマリズムコットンTee",
+            "slide_price": 7990,
+            "slide_price_new": 5999,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-xkmzct0530?_pos=1&_sid=2ec5eb96c&_ss=r&variant=46852493672667",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_LwLBMC",
+        "slide_block_G8HDPR",
+        "slide_block_FgfAye"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#954530",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#503833",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_LHnKPr": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_hfNYAU": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-14_a57c5b75-a0c3-4d6b-9e18-a67613547f94.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-13_4231a4d8-ac55-4da9-8c3a-8d3d00622638.jpg",
+            "slide_title": "飾りステッチ　ナバホ風のフェザープリントコットンTee",
+            "slide_price": 7980,
+            "slide_price_new": 0,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lrj-daymt0615?_pos=1&_sid=d95e6ef0c&_ss=r&variant=46929236689115",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_x6Pc4Q": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-16.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-15_e587a4dc-b70f-469d-8c34-5b1550d2f2b1.jpg",
+            "slide_title": "インディアン風　「ターコイズサンダーバード」刺繍入りコットンTシャツ",
+            "slide_price": 7990,
+            "slide_price_new": 5600,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lrj-dznt0522?_pos=1&_sid=ef06ec032&_ss=r&variant=46817118552283",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_9wmCTR": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-18.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-17_27ae3788-7b57-46a2-8a22-58e67f042128.jpg",
+            "slide_title": "2色展開　幾何学模様刺繍入りキューバカラーコットンシャツ",
+            "slide_price": 10980,
+            "slide_price_new": 0,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-018-cs3071?_pos=1&_sid=1ceb05cf4&_ss=r&variant=47074931507419",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_hfNYAU",
+        "slide_block_x6Pc4Q",
+        "slide_block_9wmCTR"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#954530",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#503833",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "image_jump_custom_nKBTCU": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_mf7aV4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20250819-174201.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_mf7aV4"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "adjusting_spacing_HJp8Cf": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -3,
+        "margin_top2": -3
+      }
+    },
+    "image_list_CjFVkR": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_f3UaUf": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/2_e57d58e0-716d-4141-878e-34a51badb3fa.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_f3UaUf"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "whirling"
+      }
+    },
+    "adjusting_spacing_x3NYyY": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -9,
+        "margin_top2": -6
+      }
+    },
+    "slide_block_group_DwPrmG": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_aGRQMg": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-19.jpg",
+            "slide_title": "【予約】「KaraKu」ロゴ＆ナバホ調フェザー刺繍　エアーレイヤーピケスウェット",
+            "slide_price": 13980,
+            "slide_price_new": 0,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-ydaylt0806?_pos=1&_sid=10c6b8c79&_ss=r&variant=47393585660123",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_Rpj4Vb": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-21.jpg",
+            "slide_title": "【予約】パール調ボタン付き　グラデーションペイズリー柄デニムワークシャツ",
+            "slide_price": 14980,
+            "slide_price_new": 0,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lsx-anygh0620?_pos=1&_sid=a71fa8340&_ss=r&variant=47377267917019",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_WVrNmt": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-23.jpg",
+            "slide_title": "【予約】インディアン酋長プリント&刺繍入り　ストライプ柄ヘビーウェイトオーバーシャツ",
+            "slide_price": 12980,
+            "slide_price_new": 0,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lrj-twydazsg725?_pos=1&_sid=f439f13a4&_ss=r&variant=47304291254491",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_aGRQMg",
+        "slide_block_Rpj4Vb",
+        "slide_block_WVrNmt"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#954530",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#503833",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_3zDKUg": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_8UmF4F": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-25.jpg",
+            "slide_title": "【予約】インディアン風　「ターコイズサンダーバード」刺繍入り長袖シャツ",
+            "slide_price": 12980,
+            "slide_price_new": 0,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lrj-dzncxc0425?_pos=1&_sid=2c6224568&_ss=r&variant=47300899340507",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_f9yb3q": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-28.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-27.jpg",
+            "slide_title": "【予約】「ナバホ＆サンダーバード」柄刺繍入り　Vガゼットコットンスウェット",
+            "slide_price": 11980,
+            "slide_price_new": 0,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-zbcxw0313?_pos=1&_sid=c331a34c5&_ss=r&variant=47282412093659",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_76zA8b": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-29.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-30.jpg",
+            "slide_title": "【予約】ウエスタンテイストチェーン刺繍入り　ハーフジッププルオーバースウェット",
+            "slide_price": 13980,
+            "slide_price_new": 0,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-glfsj0319?_pos=1&_sid=5244c7273&_ss=r&variant=47267697819867",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_8UmF4F",
+        "slide_block_f9yb3q",
+        "slide_block_76zA8b"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#954530",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#503833",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_RXgD8A": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_JfnWEf": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-31.jpg",
+            "slide_title": "【予約】グラデーション　ペイズリー柄ジャカード織りデニムワークシャツ",
+            "slide_price": 14980,
+            "slide_price_new": 0,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lsx-yghthcx0529?_pos=1&_sid=14968cf7a&_ss=r&variant=47266043953371",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_g63Knd": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-33.jpg",
+            "slide_title": "【予約】民族調ジャガードポケット　ターコイズ風ボタンピーチスキンシャツ",
+            "slide_price": 11980,
+            "slide_price_new": 0,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lsx-mzpbc0606?_pos=1&_sid=42f96f10c&_ss=r&variant=47256922030299",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_UR4UEG": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-36.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-35.jpg",
+            "slide_title": "【予約】木調トグルダッフルボタン付き　ペイズリー柄ジャカード織りデニムシャツ",
+            "slide_price": 15980,
+            "slide_price_new": 0,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lrj-njkc0402?_pos=1&_sid=635d745a4&_ss=r&variant=47246628946139",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_JfnWEf",
+        "slide_block_g63Knd",
+        "slide_block_UR4UEG"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#954530",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#503833",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "background_image_DhMeRk": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-09-18_17-42-11_01f7c366-0ffb-4df3-9d79-60283d6f2d4d.jpg",
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#f5f5f5",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "slideshow_QJC4wY",
+    "image_xaFMVA",
+    "image_jump_custom_wNKdjJ",
+    "adjusting_spacing_YUhd4P",
+    "image_list_XRtTqx",
+    "adjusting_spacing_HmK4Mb",
+    "slide_block_group_mijzLK",
+    "slide_block_group_tVC6Le",
+    "slide_block_group_LHnKPr",
+    "image_jump_custom_nKBTCU",
+    "adjusting_spacing_HJp8Cf",
+    "image_list_CjFVkR",
+    "adjusting_spacing_x3NYyY",
+    "slide_block_group_DwPrmG",
+    "slide_block_group_3zDKUg",
+    "slide_block_group_RXgD8A",
+    "main",
+    "background_image_DhMeRk"
+  ]
+}

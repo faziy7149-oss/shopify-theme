@@ -1,0 +1,214 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_ybNB73": {
+      "type": "slideshow",
+      "blocks": {
+        "image_zgCF9r": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/news-1920.jpg",
+            "mobile_image": "shopify://shop_images/1280x720_6783c025-80e6-44b5-bc19-3ebcdd02b44a.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_zgCF9r"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_page_title": true,
+        "full_width": false
+      }
+    },
+    "image_with_text_UHPeGk": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_TpF4Jm": {
+          "type": "heading",
+          "settings": {
+            "title": "皆さまの想いを、猫たちへ届けました。",
+            "use_h1": false
+          }
+        },
+        "text_RAJhce": {
+          "type": "text",
+          "settings": {
+            "text": "<p>皆さまの一着が、猫たちへの支援になりました。</p><p>第1回寄付金として、30,000円をネコリパブリック保護猫基金へお届けしました。</p><p>小さな一歩を、これからも。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_r6rE9e": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button text",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_TpF4Jm",
+        "text_RAJhce",
+        "button_r6rE9e"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/20260819-153923.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_8BtKgk": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_EWQLzV": {
+          "type": "heading",
+          "settings": {
+            "title": "皆さまの支援が、猫たちの力に！",
+            "use_h1": false
+          }
+        },
+        "text_gYqe3C": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>保護された猫たちの中には、治療やケアを必要とする子たちも。<br/><br/>一匹一匹の命に寄り添い、必要な医療を届けています。<br/><br/></p>",
+            "enlarge_text": false
+          }
+        },
+        "button_XWgVRL": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button text",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_EWQLzV",
+        "text_gYqe3C",
+        "button_XWgVRL"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/772534618_1045898941490625_4252998121912663480_n.jpg",
+        "image_2": "shopify://shop_images/777915013_1053012480532707_1863733150093681592_n.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_jTbjCp": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_GFJzGB": {
+          "type": "heading",
+          "settings": {
+            "title": "安心して過ごせる場所を。",
+            "use_h1": false
+          }
+        },
+        "text_iBCfcP": {
+          "type": "text",
+          "settings": {
+            "text": "<p><br/>猫たちが安心して過ごせる「猫のお家」。<br/><br/>日々の生活を支えながら、新しい家族との出会いを待っています。<br/><br/></p>",
+            "enlarge_text": false
+          }
+        },
+        "button_Ag4wE8": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "Button text",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_GFJzGB",
+        "text_iBCfcP",
+        "button_Ag4wE8"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/773555422_4499360550292257_4743709843044090813_n.jpg",
+        "image_2": "shopify://shop_images/770301891_1372351907778680_758075567950846561_n.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "featured_collection_fiBPeL": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "関連アイテムを見る",
+        "collection": "karaku-cat",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "slideshow_ybNB73",
+    "main",
+    "image_with_text_UHPeGk",
+    "image_with_text_8BtKgk",
+    "image_with_text_jTbjCp",
+    "featured_collection_fiBPeL"
+  ]
+}

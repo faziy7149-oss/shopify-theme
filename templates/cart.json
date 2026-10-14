@@ -1,0 +1,94 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1764139466530ce73b": {
+      "type": "apps",
+      "blocks": {
+        "selleasy_lb_upsell_addon_block_UaGUYR": {
+          "type": "shopify://apps/selleasy/blocks/lb-upsell-addon-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "selleasy_lb_upsell_addon_block_UaGUYR"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_space": true
+      }
+    },
+    "main": {
+      "type": "main-cart",
+      "settings": {
+        "show_page_title": true,
+        "show_backorder_text": true,
+        "show_inventory_notice": "low",
+        "show_inventory_count": "low",
+        "inventory_threshold": 10,
+        "show_order_note": true,
+        "show_tax_and_shipping": false,
+        "show_additional_checkout_buttons": true,
+        "cart_terms_page": "",
+        "show_continue_shopping": true,
+        "continue_shopping_url": "",
+        "empty_icon": "basket",
+        "empty_heading": "Your cart is empty",
+        "empty_text": "",
+        "empty_button_text": "Start shopping",
+        "empty_button_link": "shopify://collections/all",
+        "empty_button_style": "primary",
+        "show_shipping_calculator": false,
+        "shipping_calculator_default_country": "United States"
+      }
+    },
+    "rich_text_9MJDYg": {
+      "type": "rich-text",
+      "blocks": {
+        "text_P83NPP": {
+          "type": "text",
+          "settings": {
+            "text": "<p>返品：可能<a href=\"https://karakubuy.com/pages/return?_gl=1%2A1w4uju9%2A_gcl_au%2AODMxMTA2OTIxLjE3MzYzMjQxMzEuMjEwMTA0MTg2NS4xNzM3NjkzNjI2LjE3Mzc2OTM2MjY.%2A_ga%2AMTEyMzg1Mjk5My4xNzIwNTk1MzIw%2A_ga_PTFYJHXP6K%2AMTc0MzU2MTI2Ny40MC4xLjE3NDM1NjQ2NDIuNjAuMC43NzkwNTA4MTY.\" target=\"_blank\" title=\"https://karakubuy.com/pages/return?_gl=1%2A1w4uju9%2A_gcl_au%2AODMxMTA2OTIxLjE3MzYzMjQxMzEuMjEwMTA0MTg2NS4xNzM3NjkzNjI2LjE3Mzc2OTM2MjY.%2A_ga%2AMTEyMzg1Mjk5My4xNzIwNTk1MzIw%2A_ga_PTFYJHXP6K%2AMTc0MzU2MTI2Ny40MC4xLjE3NDM1NjQ2NDIuNjAuMC43NzkwNTA4MTY.\">»詳しくはこちら</a></p><p>発送方法・送料：<a href=\"https://karakubuy.com/pages/shipment?_gl=1%2Aly6b2j%2A_gcl_au%2AODMxMTA2OTIxLjE3MzYzMjQxMzEuMjEwMTA0MTg2NS4xNzM3NjkzNjI2LjE3Mzc2OTM2MjY.%2A_ga%2AMTEyMzg1Mjk5My4xNzIwNTk1MzIw%2A_ga_PTFYJHXP6K%2AMTc0MzU2MTI2Ny40MC4xLjE3NDM1NjQxNTIuNDIuMC43NzkwNTA4MTY.\" target=\"_blank\" title=\"https://karakubuy.com/pages/shipment?_gl=1%2Aly6b2j%2A_gcl_au%2AODMxMTA2OTIxLjE3MzYzMjQxMzEuMjEwMTA0MTg2NS4xNzM3NjkzNjI2LjE3Mzc2OTM2MjY.%2A_ga%2AMTEyMzg1Mjk5My4xNzIwNTk1MzIw%2A_ga_PTFYJHXP6K%2AMTc0MzU2MTI2Ny40MC4xLjE3NDM1NjQxNTIuNDIuMC43NzkwNTA4MTY.\">»詳しくはこちら</a></p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "text_P83NPP"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "left",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "16533834520433827f": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "1764139466530ce73b",
+    "main",
+    "rich_text_9MJDYg",
+    "16533834520433827f"
+  ]
+}

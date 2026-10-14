@@ -1,0 +1,296 @@
+<style>
+  .section-id-{{ section.id }} .data-image-container {
+      position: relative;
+   }
+  .section-id-{{ section.id }} .mobile-text {
+    display: none;
+  }
+  .section-id-{{ section.id }} .block-id-{{ section.id }} .countdown__item {
+      background-color: {{ section.settings.countdown_col }};
+      border-radius: 8px;
+    }
+  .section-id-{{ section.id }} .block-id-{{ section.id }} .countdown .countdown__item .countdown__number,.section-id-{{ section.id }} .mobile-text,.section-id-{{ section.id }} .block-id-{{ section.id }} .countdown__unit {
+    color: {{ section.settings.countdown_text_col }};
+   }
+  .section-id-{{ section.id }} .mobile-text{
+    font-family: Futura;
+    font-weight: bold;
+   }
+
+
+  @media (min-width: 767px) {
+    .section-id-{{ section.id }} .data-photo-banner2 .data-mobile-image {
+      display: none;
+    }
+    .section-id-{{ section.id }} .photo-banner-link {
+      display: block;
+      width: 100%;
+    }
+    .section-id-{{ section.id }} .photo-image{
+      width: 100%;
+      height: 3.72em;
+    }
+
+    .section-id-{{ section.id }} .data-image-container {
+      width: 980px;
+      margin: 0 auto;
+      position: relative;
+    }
+    .section-id-{{ section.id }} .block-id-{{ section.id }} {
+      position: absolute;
+      margin: 0;
+      top: 8%;
+      right: 0%;
+    }
+
+    .block-id-{{ section.id }}  .countdown__number {
+      font-family: Futura;
+      width: 3rem;
+      padding: 10px 0;
+    }
+    .section-id-{{ section.id }} .block-id-{{ section.id }} .countdown__item:last-child .countdown__number {
+      justify-content: center;
+    }
+    .section-id-{{ section.id }} .block-id-{{ section.id }} .countdown__item:not(:last-child) .countdown__number:after{
+      top: 0.2em;
+    }
+    .section-id-{{ section.id }} .block-id-{{ section.id }} .countdown__unit {
+      margin-top: -1em;
+      font-size: 10px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .section-id-{{ section.id }} .data-photo-banner2 .data-image {
+      display: none;
+    }
+    .section-id-{{ section.id }} .data-photo-banner2 .data-mobile-image {
+      height: 4.3em;
+    }
+    .section-id-{{ section.id }} .block-id-{{ section.id }} {
+      position: absolute;
+      margin: 0;
+      top: 38%;
+      right: 2%;
+    }
+    .section-id-{{ section.id }} .mobile-text {
+      position: absolute;
+      top: 2%;
+      right: 2%;
+      /* display: block; */
+      display: none;
+    }
+    .block-id-{{ section.id }}  .countdown__number {
+      font-family: Futura;
+      width: 2em;
+      padding: 9px 0;
+    }
+    .section-id-{{ section.id }} .block-id-{{ section.id }} .countdown__item {
+      border-radius: 4px;
+    }
+    .section-id-{{ section.id }} .block-id-{{ section.id }} .countdown .countdown__item .countdown__number {
+      font-size: 16px;
+      font-weight: bold;
+     }  
+    .section-id-{{ section.id }} .block-id-{{ section.id }} .countdown__item:last-child .countdown__number {
+      justify-content: center;
+    }
+    .section-id-{{ section.id }} .block-id-{{ section.id }} .countdown__item:not(:last-child) .countdown__number:after{
+      top: 0.5em;
+    }
+    .section-id-{{ section.id }} .block-id-{{ section.id }} .countdown__unit {
+      margin-top: -1em;
+      font-size: 10px;
+    }
+
+  }
+
+</style>
+
+<div class="section-id-{{ section.id }}">
+  <div class="data-photo-banner2">
+    <div class="photo-banner-box">
+      <a
+        class="photo-banner-link"
+        href="{{ section.settings.banner_link }}"
+        style="background-color: {{ section.settings.photo_banner_col }};"
+      >
+        <div class="data-image-container">
+          <div class="data-image-overlay-pc">
+            <div
+              class="data-image photo-image"
+              style="background:url({{ section.settings.image | image_url: width: 1500 }}) no-repeat top / 100%;"
+            ></div>
+          </div>
+          <div class="data-image-overlay-mobile">
+            <div
+              class="data-mobile-image photo-image"
+              style="background:url({{ section.settings.mobile_image | image_url: width: 1024 }}) no-repeat center / 100%;"
+            ></div>
+          </div>
+          {% comment %} 倒计时 {% endcomment %}
+          <script src="{{ 'countdown-timer.js' | asset_url }}" defer></script>
+          {% style %}
+            .block-id-{{ section.id }} .countdown {
+              --countdown-desktop-size: {{ section.settings.number_size }}px;
+            }
+          {% endstyle %}
+          <div class="mobile-text">
+            <span>Ends In</span>
+          </div>
+          <div
+            class="block-id-{{ section.id }} lightly-spaced-row lightish-spaced-row-above countdown-font-{{ section.settings.number_font }} countdown-divider-{{ section.settings.divider_type }}"
+            {{ section.shopify_attributes }}
+          >
+            {% render 'countdown-timer',
+              end_date: section.settings.end_date,
+              end_time: section.settings.end_time,
+              end_text: section.settings.end_text,
+              end_midnight: true,
+              hide_on_end: section.settings.hide_on_end,
+              show_labels: section.settings.show_timer_labels
+            %}
+          </div>
+          {% comment %} 倒计时 {% endcomment %}
+        </div>
+      </a>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Photo Banner Countdown",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "1500px * 86px recommended"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile image",
+      "info": "800px * 141px recommended"
+    },
+    {
+      "type": "url",
+      "id": "banner_link",
+      "label": "Banner link"
+    },
+    {
+      "type": "color",
+      "id": "photo_banner_col",
+      "label": "Banner color",
+      "default": "#FFFFFF"
+    },
+    {
+      "type": "text",
+      "id": "end_date",
+      "label": "End date",
+      "info": "Required. Format: YYYY-MM-DD."
+    },
+    {
+      "type": "text",
+      "id": "end_time",
+      "label": "End time (optional)",
+      "info": "Format: 17:00 (24 hour clock). Uses the store's timezone."
+    },
+    {
+      "type": "richtext",
+      "id": "end_text",
+      "label": "End text",
+      "info": "This shows when the date and time elapses."
+    },
+    {
+      "type": "checkbox",
+      "id": "hide_on_end",
+      "label": "Hide the timer when the date and time elapses",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "number_size",
+      "min": 12,
+      "max": 30,
+      "step": 2,
+      "unit": "px",
+      "label": "Number size",
+      "default": 24
+    },
+    {
+      "type": "select",
+      "id": "number_font",
+      "label": "Number font",
+      "options": [
+        {
+          "label": "Text font",
+          "value": "base"
+        },
+        {
+          "label": "Heading font",
+          "value": "heading"
+        }
+      ],
+      "default": "base"
+    },
+    {
+      "type": "select",
+      "id": "divider_type",
+      "label": "Divider type",
+      "default": "colon",
+      "options": [
+        {
+          "value": "colon",
+          "label": "Colon"
+        },
+        {
+          "value": "dot",
+          "label": "Dot"
+        },
+        {
+          "value": "line",
+          "label": "Line"
+        },
+        {
+          "value": "none",
+          "label": "None"
+        }
+      ]
+    },
+    {
+      "type": "checkbox",
+      "id": "show_timer_labels",
+      "label": "Show labels",
+      "default": true
+    },
+    {
+      "type": "color",
+      "id": "countdown_col",
+      "label": "倒计时背景色",
+      "default": "#e65514"
+    },
+    {
+      "type": "color",
+      "id": "countdown_text_col",
+      "label": "倒计时文字颜色",
+      "default": "#fff"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Photo Banner Countdown"
+    }
+  ]
+}
+{% endschema %}
+
+
+<script>
+  $(function(){
+    if($('.section-id-{{ section.id }} .block-id-{{ section.id }} .countdown__item').length <= 0){
+      $('.section-id-{{ section.id }} .mobile-text').remove();
+    }
+  })
+</script>

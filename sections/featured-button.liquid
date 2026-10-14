@@ -1,0 +1,454 @@
+{%- liquid
+  assign offset_x = section.settings.margin_left | minus: section.settings.margin_right
+  assign offset_y = section.settings.margin_top | minus: section.settings.margin_bottom
+  assign offset_x_mobile = section.settings.margin_left_mobile | minus: section.settings.margin_right_mobile
+  assign offset_y_mobile = section.settings.margin_top_mobile | minus: section.settings.margin_bottom_mobile
+-%}
+<style>
+  {% if section.settings.out_of_flow %}
+    #shopify-section-{{ section.id }} {
+      position: relative;
+      z-index: {{ section.settings.z_index }};
+      height: 0;
+      margin: 0 !important;
+      padding: 0 !important;
+      overflow: visible;
+    }
+
+    .section-class-{{ section.id }} {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      width: 100%;
+      z-index: {{ section.settings.z_index }};
+      pointer-events: none;
+    }
+
+    .section-class-{{ section.id }} .wrap-featured-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      transform: translate({{ offset_x }}px, {{ offset_y }}px);
+    }
+
+    .section-class-{{ section.id }} .featured-button {
+      pointer-events: auto;
+    }
+  {% else %}
+    .section-class-{{ section.id }} {
+      position: relative;
+      z-index: {{ section.settings.z_index }};
+    }
+
+    .section-class-{{ section.id }} .wrap-featured-button {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  {% endif %}
+
+  .section-class-{{ section.id }} .box-featured-button {
+    {% if section.settings.btn_width_mode == 'custom' %}
+      width: {{ section.settings.btn_width_pc }}%;
+    {% else %}
+      width: auto;
+    {% endif %}
+    max-width: 100%;
+  }
+
+  .section-class-{{ section.id }} .featured-button {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    line-height: 1.2;
+    cursor: pointer;
+    border-radius: {{ section.settings.btn_radius }}px;
+    font-size: {{ section.settings.font_size_pc }}px;
+    padding: {{ section.settings.padding_y_pc }}px {{ section.settings.padding_x_pc }}px;
+    position: relative;
+    overflow: hidden;
+    -webkit-tap-highlight-color: transparent;
+  }
+
+  /* 实心按钮 */
+  .section-class-{{ section.id }} .featured-button--solid {
+    background-color: {{ section.settings.btn_color }};
+    color: {{ section.settings.btn_text_color }};
+    border: 1.5px solid {{ section.settings.btn_color }};
+    transition: background-color 0.3s ease, color 0.3s ease, border-color 0.3s ease;
+  }
+
+  .section-class-{{ section.id }} .featured-button--solid:hover {
+    background-color: {{ section.settings.btn_color_hover }};
+    color: {{ section.settings.btn_text_color_hover }};
+    border-color: {{ section.settings.btn_color_hover }};
+  }
+
+  /* 空心按钮 */
+  .section-class-{{ section.id }} .featured-button--outline {
+    background-color: transparent;
+    color: {{ section.settings.btn_text_color }};
+    border: 1.5px solid {{ section.settings.btn_text_color }};
+    transition: none;
+  }
+
+  .section-class-{{ section.id }} .featured-button--outline::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    background-color: {{ section.settings.btn_color_hover }};
+    transform: scaleY(0);
+    transform-origin: bottom center;
+    transition: transform 0.3s ease;
+    z-index: 0;
+    pointer-events: none;
+  }
+
+  .section-class-{{ section.id }} .featured-button--outline:hover::before {
+    transform: scaleY(1);
+  }
+
+  .section-class-{{ section.id }} .featured-button--outline .featured-button__text {
+    position: relative;
+    z-index: 1;
+  }
+
+  @media (max-width: 768px) {
+    {% if section.settings.out_of_flow %}
+      .section-class-{{ section.id }} .wrap-featured-button {
+        transform: translate({{ offset_x_mobile }}px, {{ offset_y_mobile }}px);
+      }
+    {% endif %}
+
+    .section-class-{{ section.id }} .box-featured-button {
+      {% if section.settings.btn_width_mode == 'custom' %}
+        width: {{ section.settings.btn_width_mobile }}%;
+      {% else %}
+        width: auto;
+      {% endif %}
+    }
+
+    .section-class-{{ section.id }} .featured-button {
+      font-size: {{ section.settings.font_size_mobile }}px;
+      padding: {{ section.settings.padding_y_mobile }}px {{ section.settings.padding_x_mobile }}px;
+    }
+  }
+</style>
+
+<div class="section-class-{{ section.id }}">
+  <div class="container">
+    <div class="wrap-featured-button">
+      {% unless section.settings.featured_button_text == blank %}
+        <div class="box-featured-button">
+          <a
+            class="featured-button featured-button--{{ section.settings.btn_style }}"
+            href="{{ section.settings.featured_button_url }}"
+          >
+            <span class="featured-button__text">{{ section.settings.featured_button_text }}</span>
+          </a>
+        </div>
+      {% endunless %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "特色按钮",
+  "settings": [
+    {
+      "type": "header",
+      "content": "按钮内容"
+    },
+    {
+      "type": "text",
+      "id": "featured_button_text",
+      "label": "按钮文字",
+      "default": "了解更多"
+    },
+    {
+      "type": "url",
+      "id": "featured_button_url",
+      "label": "按钮链接"
+    },
+    {
+      "type": "select",
+      "id": "btn_style",
+      "label": "按钮样式",
+      "options": [
+        {
+          "value": "solid",
+          "label": "实心"
+        },
+        {
+          "value": "outline",
+          "label": "空心"
+        }
+      ],
+      "default": "solid"
+    },
+    {
+      "type": "header",
+      "content": "颜色与圆角"
+    },
+    {
+      "type": "color",
+      "id": "btn_color",
+      "label": "按钮背景颜色（实心）",
+      "default": "#01847e"
+    },
+    {
+      "type": "color",
+      "id": "btn_color_hover",
+      "label": "悬停背景颜色",
+      "default": "#53589a"
+    },
+    {
+      "type": "color",
+      "id": "btn_text_color",
+      "label": "按钮文字颜色（空心时兼作边框色）",
+      "default": "#fffeee"
+    },
+    {
+      "type": "color",
+      "id": "btn_text_color_hover",
+      "label": "悬停文字颜色（仅实心）",
+      "default": "#e5eb15"
+    },
+    {
+      "type": "range",
+      "id": "btn_radius",
+      "label": "按钮圆角",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 10
+    },
+    {
+      "type": "header",
+      "content": "宽度"
+    },
+    {
+      "type": "select",
+      "id": "btn_width_mode",
+      "label": "宽度模式",
+      "options": [
+        {
+          "value": "auto",
+          "label": "自适应"
+        },
+        {
+          "value": "custom",
+          "label": "自定义"
+        }
+      ],
+      "default": "auto"
+    },
+    {
+      "type": "range",
+      "id": "btn_width_pc",
+      "label": "桌面端宽度",
+      "min": 10,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "btn_width_mobile",
+      "label": "手机端宽度",
+      "min": 10,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "default": 80
+    },
+    {
+      "type": "header",
+      "content": "桌面端字号与内边距"
+    },
+    {
+      "type": "range",
+      "id": "font_size_pc",
+      "label": "桌面端字号",
+      "min": 12,
+      "max": 40,
+      "step": 1,
+      "unit": "px",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "padding_y_pc",
+      "label": "桌面端上下内边距",
+      "min": 0,
+      "max": 60,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "padding_x_pc",
+      "label": "桌面端左右内边距",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 36
+    },
+    {
+      "type": "header",
+      "content": "手机端字号与内边距"
+    },
+    {
+      "type": "range",
+      "id": "font_size_mobile",
+      "label": "手机端字号",
+      "min": 12,
+      "max": 32,
+      "step": 1,
+      "unit": "px",
+      "default": 14
+    },
+    {
+      "type": "range",
+      "id": "padding_y_mobile",
+      "label": "手机端上下内边距",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "padding_x_mobile",
+      "label": "手机端左右内边距",
+      "min": 0,
+      "max": 80,
+      "step": 1,
+      "unit": "px",
+      "default": 28
+    },
+    {
+      "type": "header",
+      "content": "层级与位移"
+    },
+    {
+      "type": "checkbox",
+      "id": "out_of_flow",
+      "label": "脱离文档流（开启后可位移，不占布局空间）",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "z_index",
+      "label": "层级 (z-index)",
+      "min": 0,
+      "max": 50,
+      "step": 1,
+      "default": 10
+    },
+    {
+      "type": "paragraph",
+      "content": "以下位移仅在「脱离文档流」开启时生效。上/下、左/右会互相抵消。"
+    },
+    {
+      "type": "range",
+      "id": "margin_top",
+      "label": "桌面端向下位移",
+      "min": -250,
+      "max": 250,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom",
+      "label": "桌面端向上位移",
+      "min": -250,
+      "max": 250,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_left",
+      "label": "桌面端向右位移",
+      "min": -250,
+      "max": 250,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_right",
+      "label": "桌面端向左位移",
+      "min": -250,
+      "max": 250,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_top_mobile",
+      "label": "手机端向下位移",
+      "min": -250,
+      "max": 250,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_bottom_mobile",
+      "label": "手机端向上位移",
+      "min": -250,
+      "max": 250,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_left_mobile",
+      "label": "手机端向右位移",
+      "min": -250,
+      "max": 250,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "margin_right_mobile",
+      "label": "手机端向左位移",
+      "min": -250,
+      "max": 250,
+      "step": 5,
+      "unit": "px",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "特色按钮"
+    }
+  ]
+}
+{% endschema %}

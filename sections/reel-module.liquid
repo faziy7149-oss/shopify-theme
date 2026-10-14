@@ -1,0 +1,637 @@
+{%- liquid
+  assign section_selector = 'section-id-' | append: section.id
+  if section.settings.bg_image != blank
+    assign bg_image_desktop = section.settings.bg_image | image_url: width: 1600
+    assign bg_image_mobile = section.settings.bg_image | image_url: width: 800
+  endif
+-%}
+
+<style>
+  .{{ section_selector }} {
+    position: relative;
+    width: 100%;
+    height: 62rem;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+  }
+  .{{ section_selector }}::-webkit-scrollbar {
+    display: none;
+  }
+  .{{ section_selector }} .container {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+  .{{ section_selector }} .reel-module-left-image {
+    position: relative;
+    left: -0.2rem;
+  }
+  .{{ section_selector }} .reel-module-left-image::after {
+    content: "";
+    position: absolute;
+    left: 15px;
+    top: 50%;
+    width: 5px;
+    height: 34rem;
+    box-shadow: 2px 0 25px 8px #000000db;
+    z-index: 6;
+  }
+  .{{ section_selector }} .reel-module-left-image .reel-module-left-image-img {
+    position: absolute;
+    top: -1rem;
+    width: 1.5rem;
+    height: 37rem;
+    z-index: 9;
+  }
+  .{{ section_selector }} .reel-module-bg-image {
+    position: absolute;
+    top: 50%;
+    left: 100%;
+    transform: translateY(-50%);
+    width: 100%;
+    min-width: max-content;
+    height: 35rem;
+    {% if section.settings.bg_image != blank %}
+    background-image: url("{{ bg_image_desktop }}");
+    {% endif %}
+    background-repeat: repeat;
+    background-size: contain;
+    transition: left 1.5s ease;
+  }
+  .{{ section_selector }} .reel-module-bg-image.animate-in {
+    left: 0;
+  }
+  .{{ section_selector }} .reel-module-content-wrapper {
+    display: inline-flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    position: relative;
+  }
+  .{{ section_selector }} .reel-module-content-item-img {
+    transition: transform 0.3s ease-in-out;
+    position: relative;
+    overflow: hidden;
+  }
+  .{{ section_selector }} .reel-module-content-item-img:hover {
+    transform: scale(1.05);
+  }
+  .{{ section_selector }} .reel-module-content-item-img a {
+    display: block;
+  }
+  .{{ section_selector }} .lazy-image-container {
+    position: relative;
+    overflow: hidden;
+  }
+  .{{ section_selector }} .loading-indicator {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 40px;
+    height: 40px;
+    border: 3px solid rgba(188, 60, 38, 0.2);
+    border-top: 3px solid #bc3c26;
+    border-radius: 50%;
+    animation: reel-spin-{{ section.id | replace: 'template--', '' | replace: '__', '_' }} 1s linear infinite;
+    z-index: 1;
+  }
+  @keyframes reel-spin-{{ section.id | replace: 'template--', '' | replace: '__', '_' }} {
+    0% { transform: translate(-50%, -50%) rotate(0deg); }
+    100% { transform: translate(-50%, -50%) rotate(360deg); }
+  }
+  .{{ section_selector }} .lazy-image {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    display: block;
+    position: relative;
+  }
+  .{{ section_selector }} .lazy-image.loaded {
+    opacity: 1;
+  }
+  .{{ section_selector }} .reel-module-content-item-text {
+    width: 26rem;
+  }
+  .{{ section_selector }} .reel-module-content-item-text .button {
+    position: relative;
+    display: inline-block;
+    background-color: {{ section.settings.bg_color }};
+    color: {{ section.settings.button_text_color }};
+    padding: 0.5rem 1rem;
+    border-radius: 20px;
+    transition: background-color 0.3s ease-in-out, transform 0.3s ease-in-out, color 0.3s ease-in-out;
+    z-index: 10;
+  }
+  .{{ section_selector }} .reel-module-content-item-text .button:hover {
+    background-color: {{ section.settings.button_hover_color }};
+    color: {{ section.settings.button_text_color }};
+    transform: scale(1.05);
+  }
+  .{{ section_selector }} .reel-module-content-item-text h3 {
+    font-size: 1.5rem;
+    color: {{ section.settings.title_color }};
+  }
+  {% for block in section.blocks %}
+  .{{ section_selector }} .reel-module-content-item-img.data-item-{{ forloop.index }} {
+    position: relative;
+    left: {{ block.settings.reel_image_left }}rem;
+    top: {{ block.settings.reel_image_top }}rem;
+    width: {{ block.settings.reel_image_width }}rem;
+  }
+  .{{ section_selector }} .data-text-{{ forloop.index }} {
+    position: relative;
+    top: {{ block.settings.reel_text_top }}rem;
+    left: {{ block.settings.reel_text_left }}rem;
+    color: {{ section.settings.text_color }};
+    font-size: {{ block.settings.reel_text_font_size }}px;
+  }
+  {% endfor %}
+  .{{ section_selector }} .reel-module-placeholder {
+    margin-left: 40rem;
+    width: 100px;
+    height: 100px;
+    flex-shrink: 0;
+  }
+
+  @media (max-width: 767px) {
+    .{{ section_selector }} {
+      height: 36rem;
+    }
+    .{{ section_selector }} .reel-module-bg-image {
+      height: 22rem;
+      {% if section.settings.bg_image != blank %}
+      background-image: url("{{ bg_image_mobile }}");
+      {% endif %}
+    }
+    .{{ section_selector }} .reel-module-left-image::after {
+      height: 20rem;
+      left: 8px;
+      box-shadow: 1px 0 16px 4px #000000db;
+    }
+    .{{ section_selector }} .reel-module-left-image .reel-module-left-image-img {
+      height: 22rem;
+      width: 1rem;
+      top: -0.5rem;
+    }
+    .{{ section_selector }} .reel-module-content-item-text {
+      width: 14rem;
+    }
+    .{{ section_selector }} .reel-module-content-item-text h3 {
+      font-size: 1.1rem;
+    }
+    .{{ section_selector }} .reel-module-placeholder {
+      margin-left: 6rem;
+    }
+    .{{ section_selector }} .reel-module-content-item-img:hover {
+      transform: none;
+    }
+    {%- comment -%} 移动端按桌面配置等比缩小，避免 rem 宽度相对视口过大 {%- endcomment -%}
+    {% for block in section.blocks %}
+    .{{ section_selector }} .reel-module-content-item-img.data-item-{{ forloop.index }} {
+      left: {{ block.settings.reel_image_left | times: 0.55 }}rem;
+      top: {{ block.settings.reel_image_top | times: 0.55 }}rem;
+      width: {{ block.settings.reel_image_width | times: 0.55 }}rem;
+    }
+    .{{ section_selector }} .data-text-{{ forloop.index }} {
+      top: {{ block.settings.reel_text_top | times: 0.55 }}rem;
+      left: {{ block.settings.reel_text_left | times: 0.55 }}rem;
+      font-size: {{ block.settings.reel_text_font_size | times: 0.75 | round }}px;
+    }
+    {% endfor %}
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .{{ section_selector }} .reel-module-bg-image {
+      left: 0;
+      transition: none;
+    }
+    .{{ section_selector }} .reel-module-content-item-img,
+    .{{ section_selector }} .reel-module-content-item-text .button,
+    .{{ section_selector }} .lazy-image {
+      transition: none;
+    }
+    .{{ section_selector }} .reel-module-content-item-img:hover,
+    .{{ section_selector }} .reel-module-content-item-text .button:hover {
+      transform: none;
+    }
+    .{{ section_selector }} .loading-indicator {
+      animation: none;
+    }
+  }
+</style>
+
+<div
+  class="{{ section_selector }}"
+  data-reel-module
+  data-section-id="{{ section.id }}"
+  role="region"
+  aria-label="Reel gallery"
+>
+  <div class="container data-container--no-max">
+    <div class="reel-module-wrapper">
+      <div class="reel-module-bg-image" data-reel-bg>
+        {% if section.settings.left_image != blank %}
+          <div class="reel-module-left-image">
+            {% render 'image' with section.settings.left_image,
+              sizes: '24px',
+              widths: '48, 96',
+              loading: 'lazy',
+              class: 'reel-module-left-image-img'
+            %}
+          </div>
+        {% endif %}
+
+        <div class="reel-module-content-wrapper">
+          {% for block in section.blocks %}
+            {%- liquid
+              assign img = block.settings.reel_image
+              assign img_request_width = block.settings.reel_image_width | times: 16 | at_most: 1200 | at_least: 320
+              assign img_display_width = block.settings.reel_image_width | times: 16
+              assign img_display_height = img_display_width
+              if img != blank
+                assign img_request_width = img_request_width | at_most: img.width
+                if img.aspect_ratio != blank and img.aspect_ratio > 0
+                  assign img_display_height = img_display_width | divided_by: img.aspect_ratio | round
+                endif
+              endif
+            -%}
+            <div class="scroll-item-block" {{ block.shopify_attributes }}>
+              <div class="reel-module-content-item-img data-item-{{ forloop.index }}">
+                {% if img != blank %}
+                  {% if block.settings.reel_link != blank %}
+                    <a
+                      href="{{ block.settings.reel_link }}"
+                      {% if block.settings.reel_title != blank %}
+                        aria-label="{{ block.settings.reel_title | escape }}"
+                      {% elsif img.alt != blank %}
+                        aria-label="{{ img.alt | escape }}"
+                      {% endif %}
+                    >
+                  {% endif %}
+                  <div class="lazy-image-container">
+                    <div class="loading-indicator" aria-hidden="true"></div>
+                    <img
+                      class="lazy-image"
+                      data-src="{{ img | image_url: width: img_request_width }}"
+                      alt="{{ img.alt | escape }}"
+                      width="{{ img_display_width }}"
+                      height="{{ img_display_height }}"
+                      decoding="async"
+                    >
+                  </div>
+                  {% if block.settings.reel_link != blank %}
+                    </a>
+                  {% endif %}
+                {% else %}
+                  <div class="lazy-image-container">
+                    <div class="placeholder-image">{{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+                  </div>
+                {% endif %}
+              </div>
+
+              {% if block.settings.reel_text != blank or block.settings.reel_title != blank or block.settings.reel_button_text != blank %}
+                <div class="reel-module-content-item-text data-text-{{ forloop.index }}">
+                  {% if block.settings.reel_title != blank %}
+                    <h3>{{ block.settings.reel_title }}</h3>
+                  {% endif %}
+                  {% if block.settings.reel_text != blank %}
+                    {{ block.settings.reel_text }}
+                  {% endif %}
+                  {% if block.settings.reel_button_text != blank and block.settings.reel_link != blank %}
+                    <a href="{{ block.settings.reel_link }}">
+                      <span class="button">{{ block.settings.reel_button_text }}</span>
+                    </a>
+                  {% elsif block.settings.reel_link != blank %}
+                    <span class="button">{{ block.settings.reel_button_text }}</span>
+                  {% endif %}
+                </div>
+              {% endif %}
+            </div>
+          {% endfor %}
+          <div class="reel-module-placeholder" aria-hidden="true"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Reel Module",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "背景图片"
+    },
+    {
+      "type": "image_picker",
+      "id": "left_image",
+      "label": "左端图片"
+    },
+    {
+      "type": "color",
+      "id": "bg_color",
+      "label": "按钮背景颜色",
+      "default": "#333"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_color",
+      "label": "按钮悬停颜色",
+      "default": "#555"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "按钮文字颜色",
+      "default": "#fff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "文字颜色",
+      "default": "#333"
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "标题颜色",
+      "default": "#333"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide",
+      "name": "卷轴项目",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "reel_image",
+          "label": "图片"
+        },
+        {
+          "type": "text",
+          "id": "reel_title",
+          "label": "标题",
+          "default": "项目标题"
+        },
+        {
+          "type": "richtext",
+          "id": "reel_text",
+          "label": "文本",
+          "default": "<p>ずっと触っていたくなる触り心地のクッションは珍しい猫柄もラインナップ。猫って、動物がたくさん登場する鳥獣戯画の中でも甲巻に1度しか登場しないレアキャラなんですよ。</p>"
+        },
+        {
+          "type": "text",
+          "id": "reel_button_text",
+          "label": "按钮文字",
+          "default": "了解更多"
+        },
+        {
+          "type": "url",
+          "id": "reel_link",
+          "label": "链接"
+        },
+        {
+          "type": "range",
+          "id": "reel_image_width",
+          "label": "图片宽度（rem）",
+          "min": 10,
+          "max": 100,
+          "step": 1,
+          "default": 20
+        },
+        {
+          "type": "range",
+          "id": "reel_image_left",
+          "label": "图片左边距（rem）",
+          "min": -50,
+          "max": 50,
+          "step": 1,
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "reel_image_top",
+          "label": "图片上边距（rem）",
+          "min": -50,
+          "max": 50,
+          "step": 1,
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "reel_text_left",
+          "label": "文字左边距（rem）",
+          "min": -50,
+          "max": 50,
+          "step": 1,
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "reel_text_top",
+          "label": "文字上边距（rem）",
+          "min": -50,
+          "max": 50,
+          "step": 1,
+          "default": 0
+        },
+        {
+          "type": "range",
+          "id": "reel_text_font_size",
+          "label": "文字字体大小（px）",
+          "min": 10,
+          "max": 50,
+          "step": 1,
+          "default": 16
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Reel Module"
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+  (function () {
+    const sectionId = {{ section.id | json }};
+    const root = document.querySelector('[data-section-id="' + sectionId + '"][data-reel-module]');
+    if (!root) return;
+
+    function prefersReducedMotion() {
+      return window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    }
+
+    function canUseWheelHijack() {
+      return window.matchMedia && window.matchMedia('(hover: hover) and (pointer: fine)').matches;
+    }
+
+    function cleanup() {
+      if (root._reelCleanup) {
+        root._reelCleanup();
+        root._reelCleanup = null;
+      }
+    }
+
+    function initReelModule() {
+      cleanup();
+
+      const bgEl = root.querySelector('[data-reel-bg]');
+      let observer = null;
+      let rafId = 0;
+
+      // 入场动画
+      if (bgEl) {
+        if (prefersReducedMotion()) {
+          bgEl.classList.add('animate-in');
+        } else {
+          requestAnimationFrame(function () {
+            bgEl.classList.add('animate-in');
+          });
+        }
+      }
+
+      // 横向容器内懒加载（避免同页多实例一次拉全图）
+      const images = root.querySelectorAll('.lazy-image[data-src]');
+      if ('IntersectionObserver' in window) {
+        observer = new IntersectionObserver(
+          function (entries, obs) {
+            entries.forEach(function (entry) {
+              if (!entry.isIntersecting) return;
+              const img = entry.target;
+              const src = img.getAttribute('data-src');
+              if (!src) return;
+
+              const tempImg = new Image();
+              tempImg.onload = function () {
+                img.src = src;
+                img.removeAttribute('data-src');
+                img.classList.add('loaded');
+                const ph = img.closest('.lazy-image-container') && img.closest('.lazy-image-container').querySelector('.loading-indicator');
+                if (ph) ph.remove();
+              };
+              tempImg.onerror = function () {
+                img.removeAttribute('data-src');
+                const ph = img.closest('.lazy-image-container') && img.closest('.lazy-image-container').querySelector('.loading-indicator');
+                if (ph) ph.remove();
+              };
+              tempImg.src = src;
+              obs.unobserve(img);
+            });
+          },
+          { root: root, rootMargin: '200px', threshold: 0.01 }
+        );
+        images.forEach(function (img) {
+          observer.observe(img);
+        });
+      } else {
+        images.forEach(function (img) {
+          const src = img.getAttribute('data-src');
+          if (!src) return;
+          img.src = src;
+          img.classList.add('loaded');
+          img.removeAttribute('data-src');
+          const ph = img.closest('.lazy-image-container') && img.closest('.lazy-image-container').querySelector('.loading-indicator');
+          if (ph) ph.remove();
+        });
+      }
+
+      // 仅桌面精确指针：滚轮转横滑；触屏保持原生横滑，不加任何提示 UI
+      let scrollTarget = 0;
+      let isScrolling = false;
+      let isMouseInside = false;
+
+      function smoothScroll() {
+        const diff = scrollTarget - root.scrollLeft;
+        root.scrollLeft += diff * 0.1;
+        if (Math.abs(diff) > 0.5) {
+          rafId = requestAnimationFrame(smoothScroll);
+        } else {
+          isScrolling = false;
+          rafId = 0;
+        }
+      }
+
+      function onMouseEnter() {
+        isMouseInside = true;
+      }
+      function onMouseLeave() {
+        isMouseInside = false;
+      }
+      function onWheel(e) {
+        if (!isMouseInside) return;
+
+        const isAtLeftEdge = root.scrollLeft <= 5;
+        const isAtRightEdge = root.scrollLeft + root.clientWidth >= root.scrollWidth - 5;
+
+        if ((e.deltaY < 0 && isAtLeftEdge) || (e.deltaY > 0 && isAtRightEdge)) {
+          return;
+        }
+
+        e.preventDefault();
+        if (!isScrolling) {
+          scrollTarget = root.scrollLeft;
+          isScrolling = true;
+          rafId = requestAnimationFrame(smoothScroll);
+        }
+
+        scrollTarget += e.deltaY * 1.5;
+        scrollTarget = Math.max(0, Math.min(scrollTarget, root.scrollWidth - root.clientWidth));
+      }
+
+      if (canUseWheelHijack()) {
+        root.addEventListener('mouseenter', onMouseEnter);
+        root.addEventListener('mouseleave', onMouseLeave);
+        root.addEventListener('wheel', onWheel, { passive: false });
+      }
+
+      root._reelCleanup = function () {
+        if (observer) {
+          observer.disconnect();
+          observer = null;
+        }
+        if (rafId) {
+          cancelAnimationFrame(rafId);
+          rafId = 0;
+        }
+        root.removeEventListener('mouseenter', onMouseEnter);
+        root.removeEventListener('mouseleave', onMouseLeave);
+        root.removeEventListener('wheel', onWheel);
+      };
+
+      root.dataset.reelInitialized = 'true';
+    }
+
+    function boot() {
+      initReelModule();
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', boot, { once: true });
+    } else {
+      boot();
+    }
+
+    document.addEventListener('shopify:section:load', function (e) {
+      if (e.detail && e.detail.sectionId === sectionId) {
+        boot();
+      }
+    });
+
+    document.addEventListener('shopify:section:unload', function (e) {
+      if (e.detail && e.detail.sectionId === sectionId) {
+        cleanup();
+      }
+    });
+  })();
+</script>

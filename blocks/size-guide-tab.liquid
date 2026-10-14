@@ -1,0 +1,80 @@
+{%- if block.settings.title != blank and block.settings.show_tab -%}
+  <div id="panel-{{ block.id }}" role="tabpanel" tabindex="0" hidden aria-labelledby="tab-{{ block.id }}" {{ block.shopify_attributes }}>
+    <template data-tab-button>
+      <button type="button" class="tablist__tab" id="tab-{{ block.id }}" role="tab" aria-controls="panel-{{ block.id }}" aria-selected="false">
+        {{- block.settings.title | escape -}}
+      </button>
+    </template>
+
+    {% content_for 'blocks' %}
+  </div>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Tab",
+  "tag": null,
+  "settings": [
+    {
+      "id": "show_tab",
+      "type": "checkbox",
+      "label": "Show tab",
+      "default": true
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "label": "Tab name",
+      "default": "Size guide tab"
+    }
+  ],
+  "blocks": [
+    { "type": "size-guide-content" },
+    { "type": "size-guide-table" }
+  ],
+  "presets": [
+    {
+      "name": "Tab",
+      "blocks": [
+        {
+          "type": "size-guide-table",
+          "blocks": [
+            {
+              "type": "size-guide-table-row",
+              "settings": {
+                "is_table_header": true,
+                "title": "",
+                "column_1": "Length"
+              }
+            },
+            {
+              "type": "size-guide-table-row",
+              "settings": {
+                "is_table_header": false,
+                "title": "S",
+                "column_1": "10cm"
+              }
+            },
+            {
+              "type": "size-guide-table-row",
+              "settings": {
+                "is_table_header": false,
+                "title": "M",
+                "column_1": "20cm"
+              }
+            },
+            {
+              "type": "size-guide-table-row",
+              "settings": {
+                "is_table_header": false,
+                "title": "L",
+                "column_1": "30cm"
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

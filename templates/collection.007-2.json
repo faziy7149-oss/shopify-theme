@@ -1,0 +1,178 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "163582397205207ecd": {
+      "type": "rich-text",
+      "blocks": {
+        "163582397205207ecd-1": {
+          "type": "heading",
+          "settings": {
+            "title": "National Treasure of Japan",
+            "use_h1": false
+          }
+        },
+        "163582397205207ecd-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DESINGN BY KARKU| <strong>日本の意匠</strong></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "163582397205207ecd-1",
+        "163582397205207ecd-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "16358239770de058d3": {
+      "type": "slideshow",
+      "blocks": {
+        "16358239770de058d3-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/76.png",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16358239770de058d3-1"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 800,
+        "height_mobile": 200,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 3,
+        "accessibility_info": ""
+      }
+    },
+    "1635827082bf87958e": {
+      "type": "rich-text",
+      "blocks": {
+        "1635827082bf87958e-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "introduction"
+          }
+        },
+        "1635827082bf87958e-1": {
+          "type": "heading",
+          "settings": {
+            "title": "KARAKU × 日本の意匠",
+            "use_h1": false
+          }
+        },
+        "1635827082bf87958e-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>日本の文化芸術がさらなる広がりをみせた江戸時代の絵師たちに焦点を当て、アロハシャツというキャンバスに巨匠たちの作品を再現し、日本が世界に誇る意匠（デザイン）に込められた情熱を現代に蘇らせる。</strong></p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1635827082bf87958e-0",
+        "1635827082bf87958e-1",
+        "1635827082bf87958e-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 36,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1635834610c39d49da": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "その他の浮世絵風商品",
+        "collection": "national-treasure-of-japan",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 5,
+        "rows": 4,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "163582397205207ecd",
+    "16358239770de058d3",
+    "1635827082bf87958e",
+    "main",
+    "1635834610c39d49da"
+  ]
+}

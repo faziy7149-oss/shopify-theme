@@ -1,0 +1,223 @@
+{%- liquid
+  if block.settings.is_table_header
+    assign cell_tag = 'th'
+  else
+    assign cell_tag = 'td'
+  endif
+-%}
+<{{ cell_tag }} class="size-guide-cell" data-size-guide-column="0" {{ block.shopify_attributes }}>{{- block.settings.title | escape -}}</{{ cell_tag }}>
+
+{%- if block.settings.column_1 != blank -%}
+  <{{ cell_tag }} class="size-guide-cell" data-size-guide-column="1">{{ block.settings.column_1 }}</{{ cell_tag }}>
+{%- endif -%}
+
+{%- if block.settings.column_2 != blank -%}
+  <{{ cell_tag }} class="size-guide-cell" data-size-guide-column="2">{{ block.settings.column_2 }}</{{ cell_tag }}>
+{%- endif -%}
+
+{%- if block.settings.column_3 != blank -%}
+  <{{ cell_tag }} class="size-guide-cell" data-size-guide-column="3">{{ block.settings.column_3 }}</{{ cell_tag }}>
+{%- endif -%}
+
+{%- if block.settings.column_4 != blank -%}
+  <{{ cell_tag }} class="size-guide-cell" data-size-guide-column="4">{{ block.settings.column_4 }}</{{ cell_tag }}>
+{%- endif -%}
+
+{%- if block.settings.column_5 != blank -%}
+  <{{ cell_tag }} class="size-guide-cell" data-size-guide-column="5">{{ block.settings.column_5 }}</{{ cell_tag }}>
+{%- endif -%}
+
+{%- if block.settings.column_6 != blank -%}
+  <{{ cell_tag }} class="size-guide-cell" data-size-guide-column="6">{{ block.settings.column_6 }}</{{ cell_tag }}>
+{%- endif -%}
+
+{%- if block.settings.column_7 != blank -%}
+  <{{ cell_tag }} class="size-guide-cell" data-size-guide-column="7">{{ block.settings.column_7 }}</{{ cell_tag }}>
+{%- endif -%}
+
+{%- if block.settings.column_8 != blank -%}
+  <{{ cell_tag }} class="size-guide-cell" data-size-guide-column="8">{{ block.settings.column_8 }}</{{ cell_tag }}>
+{%- endif -%}
+
+{%- if block.settings.column_9 != blank -%}
+  <{{ cell_tag }} class="size-guide-cell" data-size-guide-column="9">{{ block.settings.column_9 }}</{{ cell_tag }}>
+{%- endif -%}
+
+{%- if block.settings.column_10 != blank -%}
+  <{{ cell_tag }} class="size-guide-cell" data-size-guide-column="10">{{ block.settings.column_10 }}</{{ cell_tag }}>
+{%- endif -%}
+
+{%- if block.settings.column_11 != blank -%}
+  <{{ cell_tag }} class="size-guide-cell" data-size-guide-column="11">{{ block.settings.column_11 }}</{{ cell_tag }}>
+{%- endif -%}
+
+{%- if block.settings.column_12 != blank -%}
+  <{{ cell_tag }} class="size-guide-cell" data-size-guide-column="12">{{ block.settings.column_12 }}</{{ cell_tag }}>
+{%- endif -%}
+
+{%- if block.settings.column_13 != blank -%}
+  <{{ cell_tag }} class="size-guide-cell" data-size-guide-column="13">{{ block.settings.column_13 }}</{{ cell_tag }}>
+{%- endif -%}
+
+{%- if block.settings.column_14 != blank -%}
+  <{{ cell_tag }} class="size-guide-cell" data-size-guide-column="14">{{ block.settings.column_14 }}</{{ cell_tag }}>
+{%- endif -%}
+
+{%- if block.settings.column_15 != blank -%}
+  <{{ cell_tag }} class="size-guide-cell" data-size-guide-column="15">{{ block.settings.column_15 }}</{{ cell_tag }}>
+{%- endif -%}
+
+{%- if block.settings.column_16 != blank -%}
+  <{{ cell_tag }} class="size-guide-cell" data-size-guide-column="16">{{ block.settings.column_16 }}</{{ cell_tag }}>
+{%- endif -%}
+
+{%- if block.settings.column_17 != blank -%}
+  <{{ cell_tag }} class="size-guide-cell" data-size-guide-column="17">{{ block.settings.column_17 }}</{{ cell_tag }}>
+{%- endif -%}
+
+{%- if block.settings.column_18 != blank -%}
+  <{{ cell_tag }} class="size-guide-cell" data-size-guide-column="18">{{ block.settings.column_18 }}</{{ cell_tag }}>
+{%- endif -%}
+
+{%- if block.settings.column_19 != blank -%}
+  <{{ cell_tag }} class="size-guide-cell" data-size-guide-column="19">{{ block.settings.column_19 }}</{{ cell_tag }}>
+{%- endif -%}
+
+{%- if block.settings.column_20 != blank -%}
+  <{{ cell_tag }} class="size-guide-cell" data-size-guide-column="20">{{ block.settings.column_20 }}</{{ cell_tag }}>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Table row",
+  "tag": "tr",
+  "settings": [
+    {
+      "id": "is_table_header",
+      "type": "checkbox",
+      "label": "Row is table header",
+      "default": false
+    },
+    {
+      "id": "title",
+      "type": "text",
+      "label": "Row name (first column)",
+      "default": "Row"
+    },
+    {
+      "id": "column_1",
+      "type": "text",
+      "label": "Column 1"
+    },
+    {
+      "id": "column_2",
+      "type": "text",
+      "label": "Column 2"
+    },
+    {
+      "id": "column_3",
+      "type": "text",
+      "label": "Column 3"
+    },
+    {
+      "id": "column_4",
+      "type": "text",
+      "label": "Column 4"
+    },
+    {
+      "id": "column_5",
+      "type": "text",
+      "label": "Column 5"
+    },
+    {
+      "id": "column_6",
+      "type": "text",
+      "label": "Column 6"
+    },
+    {
+      "id": "column_7",
+      "type": "text",
+      "label": "Column 7"
+    },
+    {
+      "id": "column_8",
+      "type": "text",
+      "label": "Column 8"
+    },
+    {
+      "id": "column_9",
+      "type": "text",
+      "label": "Column 9"
+    },
+    {
+      "id": "column_10",
+      "type": "text",
+      "label": "Column 10"
+    },
+    {
+      "id": "column_11",
+      "type": "text",
+      "label": "Column 11"
+    },
+    {
+      "id": "column_12",
+      "type": "text",
+      "label": "Column 12"
+    },
+    {
+      "id": "column_13",
+      "type": "text",
+      "label": "Column 13"
+    },
+    {
+      "id": "column_14",
+      "type": "text",
+      "label": "Column 14"
+    },
+    {
+      "id": "column_15",
+      "type": "text",
+      "label": "Column 15"
+    },
+    {
+      "id": "column_16",
+      "type": "text",
+      "label": "Column 16"
+    },
+    {
+      "id": "column_17",
+      "type": "text",
+      "label": "Column 17"
+    },
+    {
+      "id": "column_18",
+      "type": "text",
+      "label": "Column 18"
+    },
+    {
+      "id": "column_19",
+      "type": "text",
+      "label": "Column 19"
+    },
+    {
+      "id": "column_20",
+      "type": "text",
+      "label": "Column 20"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Table row",
+      "settings": {
+        "is_table_header": false
+      }
+    },
+    {
+      "name": "Table header",
+      "settings": {
+        "is_table_header": true
+      }
+    }
+  ]
+}
+{% endschema %}

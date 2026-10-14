@@ -1,0 +1,206 @@
+<div class="size-guide-table-container my-8" {{ block.shopify_attributes }}>
+  <div class="flex items-center justify-between">
+    <h3 class="h5 flex-1">{{ block.settings.title | escape }}</h3>
+
+    {% if block.settings.show_unit_converter %}
+      <div class="size-guide-unit-converter small-text">
+        <label class="size-guide-unit-converter__label">
+          <input class="size-guide-unit-converter__input visually-hidden" type="radio" name="{{ block.id }}-unit-converter" value="metric"{% if block.settings.default_unit == 'metric' %} checked{% endif %}>
+          <span class="size-guide-unit-converter__label-text">{{ block.settings.metric_label | escape }}</span>
+        </label>
+        <label class="size-guide-unit-converter__label">
+          <input class="size-guide-unit-converter__input visually-hidden" type="radio" name="{{ block.id }}-unit-converter" value="imperial"{% if block.settings.default_unit != 'metric' %} checked{% endif %}>
+          <span class="size-guide-unit-converter__label-text">{{ block.settings.imperial_label | escape }}</span>
+        </label>
+      </div>
+    {% endif %}
+  </div>
+
+  <div class="scrollable-table">
+    <table class="size-guide-table
+                  size-guide-table--align-first-{{ block.settings.text_alignment_first }}
+                  size-guide-table--align-{{ block.settings.text_alignment }}
+                  {{ block.settings.table_text_size }}
+                  {%- if block.settings.sticky_row_name %} size-guide-table--sticky-row-name{% endif %}
+                  {%- if block.settings.table_text_wrap == false and block.settings.table_even_columns == false %} whitespace-nowrap{% endif %}
+                  {%- if block.settings.table_even_columns %} size-guide-table--even-columns{% endif %}"
+      data-precision="{{ block.settings.converter_precision }}">
+      {% content_for 'blocks' %}
+    </table>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Table",
+  "tag": "div",
+  "blocks": [{ "type": "size-guide-table-row" }],
+  "settings": [
+    {
+      "id": "title",
+      "type": "text",
+      "label": "Table name",
+      "default": "Sizes"
+    },
+    {
+      "id": "sticky_row_name",
+      "type": "checkbox",
+      "label": "Enable sticky row name",
+      "default": true
+    },
+    {
+      "id": "show_unit_converter",
+      "type": "checkbox",
+      "label": "Show unit converter",
+      "info": "Automatically converts numbers entered with these units: \", in, cm, lb, kg, g, oz",
+      "default": false
+    },
+    {
+      "visible_if": "{{ block.settings.show_unit_converter }}",
+      "id": "default_unit",
+      "type": "select",
+      "label": "Default unit",
+      "default": "metric",
+      "options": [
+        {
+          "value": "metric",
+          "label": "Metric"
+        },
+        {
+          "value": "imperial",
+          "label": "Imperial"
+        }
+      ]
+    },
+    {
+      "visible_if": "{{ block.settings.show_unit_converter }}",
+      "id": "metric_label",
+      "type": "text",
+      "label": "Metric label",
+      "default": "Metric"
+    },
+    {
+      "visible_if": "{{ block.settings.show_unit_converter }}",
+      "id": "imperial_label",
+      "type": "text",
+      "label": "Imperial label",
+      "default": "Imperial"
+    },
+    {
+      "visible_if": "{{ block.settings.show_unit_converter }}",
+      "type": "range",
+      "id": "converter_precision",
+      "min": 0,
+      "max": 3,
+      "step": 1,
+      "unit": "dp",
+      "label": "Precision",
+      "default": 1
+    },
+    {
+      "type": "header",
+      "content": "Table cells"
+    },
+    {
+      "id": "table_text_size",
+      "type": "select",
+      "label": "Text size",
+      "default": "",
+      "options": [
+        {
+          "value": "",
+          "label": "Normal"
+        },
+        {
+          "value": "small-text",
+          "label": "Small"
+        }
+      ]
+    },
+    {
+      "id": "text_alignment_first",
+      "type": "select",
+      "label": "First column (name) alignment",
+      "default": "left",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ]
+    },
+    {
+      "id": "text_alignment",
+      "type": "select",
+      "label": "Standard column alignment",
+      "default": "left",
+      "options": [
+        {
+          "value": "left",
+          "label": "Left"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        }
+      ]
+    },
+    {
+      "id": "table_even_columns",
+      "type": "checkbox",
+      "label": "Even column widths",
+      "default": false
+    },
+    {
+      "visible_if": "{{ block.settings.table_even_columns == false }}",
+      "id": "table_text_wrap",
+      "type": "checkbox",
+      "label": "Allow text wrap",
+      "default": false
+    }
+  ],
+  "presets": [
+    {
+      "name": "Table",
+      "blocks": [
+        {
+          "type": "size-guide-table-row",
+          "settings": {
+            "is_table_header": true,
+            "title": "",
+            "column_1": "Length"
+          }
+        },
+        {
+          "type": "size-guide-table-row",
+          "settings": {
+            "is_table_header": false,
+            "title": "S",
+            "column_1": "10cm"
+          }
+        },
+        {
+          "type": "size-guide-table-row",
+          "settings": {
+            "is_table_header": false,
+            "title": "M",
+            "column_1": "20cm"
+          }
+        },
+        {
+          "type": "size-guide-table-row",
+          "settings": {
+            "is_table_header": false,
+            "title": "L",
+            "column_1": "30cm"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

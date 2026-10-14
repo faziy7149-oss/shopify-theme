@@ -1,0 +1,391 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "66ef8202-a2ce-4eae-868c-4cd242bc8dcd": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16696392024283__66ef8202-a2ce-4eae-868c-4cd242bc8dcd-1676616699b181fe25-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "人と自然、地球と調和する「KARAKU」の最新コレクション"
+          }
+        },
+        "template--16696392024283__66ef8202-a2ce-4eae-868c-4cd242bc8dcd-1676616699b181fe25-1": {
+          "type": "heading",
+          "settings": {
+            "title": "自然をHUGして、自然にHUGされる",
+            "use_h1": false
+          }
+        },
+        "3f0f2ffe-cd9e-41e4-ad6d-7cad08c1b79c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>環境に優しい「Nature‘s HUG・藍」シリーズ商品</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16696392024283__66ef8202-a2ce-4eae-868c-4cd242bc8dcd-1676616699b181fe25-0",
+        "template--16696392024283__66ef8202-a2ce-4eae-868c-4cd242bc8dcd-1676616699b181fe25-1",
+        "3f0f2ffe-cd9e-41e4-ad6d-7cad08c1b79c"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "15400629-f502-4536-b1ab-fd77aabe1ca3": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16696392024283__15400629-f502-4536-b1ab-fd77aabe1ca3-167661455502a6bc7e-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/457-PC.jpg",
+            "mobile_image": "shopify://shop_images/457-M.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        },
+        "template--16696392024283__15400629-f502-4536-b1ab-fd77aabe1ca3-167661455502a6bc7e-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/457-PC_7b7d6364-80ce-4d82-9f14-964168d7b75e.jpg",
+            "mobile_image": "shopify://shop_images/457-M_d35637fc-4fc5-4928-80b8-788b1b85eee7.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16696392024283__15400629-f502-4536-b1ab-fd77aabe1ca3-167661455502a6bc7e-0",
+        "template--16696392024283__15400629-f502-4536-b1ab-fd77aabe1ca3-167661455502a6bc7e-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "e68af961-1559-4a6f-b209-9aadecf0c5d8": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16696392024283__e68af961-1559-4a6f-b209-9aadecf0c5d8-1676616699b181fe25-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>上質な天然素材をキーワードに、環境に配慮した温かみのあるコレクションを提案する「KARAKU（カラク）」。「Nature‘s  HUG・藍」という名前には、「自然をHUGして、自然にHUGされる」と「自然を育み、自然で育む」という2つの「ハグ」が込められています。植物性染料で染めたもの、環境に優しい素材を使用することにこだわっている。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16696392024283__e68af961-1559-4a6f-b209-9aadecf0c5d8-1676616699b181fe25-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "0db858f7-d94f-4c34-a7e9-856ff8da3a63": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16696392024283__0db858f7-d94f-4c34-a7e9-856ff8da3a63-167661455502a6bc7e-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20230217-162321.jpg",
+            "mobile_image": "shopify://shop_images/457-M2.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16696392024283__0db858f7-d94f-4c34-a7e9-856ff8da3a63-167661455502a6bc7e-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "ae65713c-4573-4cc2-b551-be0f2a8a72d7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16696392024283__ae65713c-4573-4cc2-b551-be0f2a8a72d7-1676616699b181fe25-1": {
+          "type": "heading",
+          "settings": {
+            "title": "自然を育み、自然で育む",
+            "use_h1": false
+          }
+        },
+        "3b919122-4ad8-4b6c-a2db-d39f56cbd81d": {
+          "type": "text",
+          "settings": {
+            "text": "<p>天然藍については、藍の葉を発酵させたすくもに灰汁を加えて自然発酵させる「発酵建て」という方法で藍の色を引き出しています。天然の材料だけを使用していますので、体にやさしく、また使い終わった藍染の液も、土に還り循環することができる、環境に優しい染料です。<br/></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16696392024283__ae65713c-4573-4cc2-b551-be0f2a8a72d7-1676616699b181fe25-1",
+        "3b919122-4ad8-4b6c-a2db-d39f56cbd81d"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "392faf3b-46c2-46ad-b256-2bb57dc8d6dc": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16696392024283__392faf3b-46c2-46ad-b256-2bb57dc8d6dc-1676616699b181fe25-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Our Mission",
+            "use_h1": false
+          }
+        },
+        "87ac1056-d897-4860-b95a-0045f83da7d5": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>自然をHUGして、自然にHUGされる</strong></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16696392024283__392faf3b-46c2-46ad-b256-2bb57dc8d6dc-1676616699b181fe25-1",
+        "87ac1056-d897-4860-b95a-0045f83da7d5"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "gallery_nkH9fh": {
+      "type": "gallery",
+      "blocks": {
+        "media_LyhtkL": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20230222-160309.gif",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_MJw3bW": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/2-480.gif",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_Vnwwrf": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/3-480_3f38555c-782d-4a51-9810-9cea70e42ea3.gif",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_LyhtkL",
+        "media_MJw3bW",
+        "media_Vnwwrf"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "no_background",
+        "button_style": "primary"
+      }
+    },
+    "fc2e796e-a106-449d-8122-10782fb12b17": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16696392024283__fc2e796e-a106-449d-8122-10782fb12b17-16799000054743451c-1": {
+          "type": "heading",
+          "settings": {
+            "title": "衣料品寄付プロジェクト",
+            "use_h1": false
+          }
+        },
+        "template--16696392024283__fc2e796e-a106-449d-8122-10782fb12b17-16799000054743451c-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>廃棄するべき衣料品は、認定特定非営利活動法人ブリッジ エーシア ジャパン（※1）が展開する＜フルクル＞を通じ、ミャンマーとベトナムの貧困に悩む人々のサポートに活かされます。</p><p>衣類の廃棄を減らすとともに、限られた資源の有効活用に貢献しています。</p><p>2023年2月〜継続中</p><p>認定特定非営利活動法人ブリッジ エーシア ジャパン：<a href=\"https://www.baj-npo.org/index.html\" target=\"_blank\" title=\"https://www.baj-npo.org/index.html\">https://www.baj-npo.org/index.html</a></p>",
+            "enlarge_text": false
+          }
+        },
+        "8ac9c61c-84ff-43d9-bf26-dd2cc1370cf7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/35_91ed6c0c-b69b-40a0-ae33-35851ff34227.jpg",
+            "image_width": 260,
+            "url": "https://www.karakubuy.com/pages/karaku-donation-project"
+          }
+        },
+        "7a947c71-314e-4aff-b797-5608a2db0ef8": {
+          "type": "button",
+          "settings": {
+            "button_label": "View More",
+            "button_link": "https://www.karakubuy.com/pages/karaku-donation-project",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "template--16696392024283__fc2e796e-a106-449d-8122-10782fb12b17-16799000054743451c-1",
+        "template--16696392024283__fc2e796e-a106-449d-8122-10782fb12b17-16799000054743451c-2",
+        "8ac9c61c-84ff-43d9-bf26-dd2cc1370cf7",
+        "7a947c71-314e-4aff-b797-5608a2db0ef8"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    }
+  },
+  "order": [
+    "66ef8202-a2ce-4eae-868c-4cd242bc8dcd",
+    "15400629-f502-4536-b1ab-fd77aabe1ca3",
+    "e68af961-1559-4a6f-b209-9aadecf0c5d8",
+    "0db858f7-d94f-4c34-a7e9-856ff8da3a63",
+    "ae65713c-4573-4cc2-b551-be0f2a8a72d7",
+    "main",
+    "392faf3b-46c2-46ad-b256-2bb57dc8d6dc",
+    "gallery_nkH9fh",
+    "fc2e796e-a106-449d-8122-10782fb12b17"
+  ]
+}

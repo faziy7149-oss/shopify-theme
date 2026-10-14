@@ -1,0 +1,286 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "photo_banner_countdown_9YwmmF": {
+      "type": "photo-banner-countdown",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/542___1500_2e74d3da-86d2-48c4-8f95-3c4518e109d8.jpg",
+        "mobile_image": "shopify://shop_images/542___800_d15b8f1b-1f1c-4012-8944-99639b404b84.jpg",
+        "banner_link": "https://karakubuy.com/collections/black-2024",
+        "photo_banner_col": "#aa171f",
+        "end_date": "2024-12-2",
+        "end_time": "22:59",
+        "end_text": "",
+        "hide_on_end": false,
+        "number_size": 24,
+        "number_font": "base",
+        "divider_type": "colon",
+        "show_timer_labels": true,
+        "countdown_col": "#100f0f",
+        "countdown_text_col": "#ffffff"
+      }
+    },
+    "slideshow_anppW4": {
+      "type": "slideshow",
+      "blocks": {
+        "image_CNTQji": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/20240628-142216.jpg",
+            "mobile_image": "shopify://shop_images/20240628-142209.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": false,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_CNTQji"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": false,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "featured_collection_PGkeet": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "KaraKu福袋2026 中身一覧",
+        "collection": "karaku2026-fuku-7",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "tag_link_xQzLVX": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    },
+    "collection_list_Uaky3C": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_aPfAHn": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-animalseries-sukajan",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_UQEWYR": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-trendcolor-brown",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_6pr9CW": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-knit",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_RKxPKe": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-early-autumn-outdoor",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_iirrkc": {
+          "type": "collection",
+          "settings": {
+            "collection": "2024-checkshirt",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_aPfAHn",
+        "collection_UQEWYR",
+        "collection_6pr9CW",
+        "collection_RKxPKe",
+        "collection_iirrkc"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "特集",
+        "enable_carousel": true,
+        "grid": 5,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "shortest",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "gallery_4rXzJG": {
+      "type": "gallery",
+      "blocks": {
+        "media_GRttJT": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20241202-171712.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://karakubuy.com/collections/%E9%80%B1%E6%9B%BF%E3%82%8F%E3%82%8A%E3%81%A7%E3%81%8A%E8%B2%B7%E3%81%84%E5%BE%97%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_M3kt6r": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20241202-171728.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://karakubuy.com/collections/%E4%BA%BA%E6%B0%97%E5%95%86%E5%93%81",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_GRttJT",
+        "media_M3kt6r"
+      ],
+      "disabled": true,
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "adapt",
+        "desktop_image_height": 600,
+        "mobile_image_height": 150,
+        "title_size": 54,
+        "title_size_mobile": 28,
+        "enable_margin": true,
+        "enable_row_spacing": false,
+        "full_width": true,
+        "color_scheme": "default",
+        "enable_carousel": false,
+        "overlay_style": "full",
+        "overlay_padding": "standard",
+        "button_style": "primary"
+      }
+    },
+    "text_editor_qVBiHq": {
+      "type": "text-editor",
+      "settings": {
+        "data_wrapper_1250": false,
+        "text1": "<p>{{ collection.metafields.commodity.productintroduction | metafield_tag }}</p>"
+      }
+    }
+  },
+  "order": [
+    "photo_banner_countdown_9YwmmF",
+    "slideshow_anppW4",
+    "main",
+    "featured_collection_PGkeet",
+    "tag_link_xQzLVX",
+    "collection_list_Uaky3C",
+    "gallery_4rXzJG",
+    "text_editor_qVBiHq"
+  ]
+}

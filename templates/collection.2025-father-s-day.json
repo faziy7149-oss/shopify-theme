@@ -1,0 +1,725 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [
+          "shirts",
+          "スウェット",
+          "ジャケット-アウター",
+          "アクセサリー",
+          "short-sleeve-t-shirts",
+          "short-sleeve-shirts",
+          "カーゴパンツ",
+          "coat",
+          "デニムパンツ"
+        ],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "slideshow_4BVafX": {
+      "type": "slideshow",
+      "blocks": {
+        "image_g4GNy7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20250530-105636.jpg",
+            "mobile_image": "shopify://shop_images/20250530-105641.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_g4GNy7"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "divider_RFGwyN": {
+      "type": "divider",
+      "name": "Divider",
+      "settings": {}
+    },
+    "image_Jtjqie": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_7f35324d-4064-4c14-bf8c-d2a8e8608468.png",
+        "mobile_image": "shopify://shop_images/720_60563db8-f985-4ea8-b1a5-18425390d22f.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_HW9ryq": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": 2,
+        "margin_top2": 1
+      }
+    },
+    "masterpiece_showcase_EYfzig": {
+      "type": "masterpiece-showcase",
+      "blocks": {
+        "left_image_jfgDC6": {
+          "type": "LeftImage",
+          "settings": {
+            "masterpiece_image": "shopify://shop_images/1_09da00c6-6783-4068-abac-04421bee0fb5.jpg",
+            "link": "#data-1",
+            "masterpiece_image2": "shopify://shop_images/6_4bd318c1-2345-4038-b5f5-57d9938983e7.jpg",
+            "link2": "#data-6",
+            "mobile_masterpiece_image": "shopify://shop_images/1_a3f2e5c9-7264-4c6e-a49a-8caf366c4263.jpg",
+            "mobile_link": "#data-1",
+            "mobile_masterpiece_image2": "shopify://shop_images/2_73375c07-514b-49ae-9277-03b3f7369487.jpg",
+            "mobile_link2": "#data-2",
+            "mobile_masterpiece_image3": "shopify://shop_images/6_d85605c3-fb70-428c-90de-d43b526b55f4.jpg",
+            "mobile_link3": "#data-6"
+          }
+        },
+        "top_right_bhTipP": {
+          "type": "TopRight",
+          "settings": {
+            "masterpiece_image_top_right": "shopify://shop_images/2_97da2d66-396e-42dc-9c79-8302c958615c.jpg",
+            "link_top_right": "#data-2",
+            "masterpiece_image_top_right2": "shopify://shop_images/5_65c4bb16-45a5-4a2b-9a5e-91e64210cf27.jpg",
+            "link_top_right2": "#data-5",
+            "masterpiece_image_top_right3": "shopify://shop_images/3_08f03e7c-3211-4afe-b4d1-3dbd72964ab1.jpg",
+            "link_top_right3": "#data-3",
+            "masterpiece_image_top_right4": "shopify://shop_images/4_6487adf9-1a74-434a-843f-8c5e06bdd816.jpg",
+            "link_top_right4": "#data-4",
+            "masterpiece_image_bottom_right": "shopify://shop_images/7_d1b60398-b0ae-41b4-bf46-0a937b3d774e.jpg",
+            "link_bottom_right": "#data-7",
+            "mobile_masterpiece_image_top_right": "shopify://shop_images/4_a7b65289-2844-4757-a9c6-e306f13f71aa.jpg",
+            "mobile_link_top_right": "#data-4",
+            "mobile_masterpiece_image_top_right2": "shopify://shop_images/5_8051388f-4fdd-44ec-9c1d-580969d62f56.jpg",
+            "mobile_link_top_right2": "#data-5",
+            "mobile_masterpiece_image_top_right3": "shopify://shop_images/3_335ab313-fed9-4a06-bcc1-3d5cbadde1cd.jpg",
+            "mobile_link_top_right3": "#data-3",
+            "mobile_masterpiece_image_bottom_right": "shopify://shop_images/7_b4410c22-33f3-4cfd-abca-8bc1fe96fa79.jpg",
+            "mobile_link_bottom_right": "#data-7"
+          }
+        }
+      },
+      "block_order": [
+        "left_image_jfgDC6",
+        "top_right_bhTipP"
+      ],
+      "name": "Masterpiece Showcase",
+      "settings": {
+        "masterpiece_color": "#9b6f42"
+      }
+    },
+    "image_jump_custom_GVFDzt": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_qCbcT6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/780x243-1.png",
+            "image-id": "data-1",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_qCbcT6"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "background_image_XqFNzP": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "background_color_overlay": "#ebe4d2",
+        "background_color": ""
+      }
+    },
+    "image_block_BqhUfd": {
+      "type": "image-block",
+      "blocks": {
+        "image_y3RwQJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-1_59193331-af5a-4413-9f0d-2bca45f021d3.png",
+            "image_link": "https://karakubuy.com/products/krk-gsh-lmdt0309?_pos=1&_sid=e47fa20a0&_ss=r&variant=46741842297051",
+            "title_big": "¥7,990",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_66RpAU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-2_12d960f6-7a14-4508-b5f9-6a041f9d3183.png",
+            "image_link": "https://karakubuy.com/products/krk-lrj-tk0325?_pos=1&_sid=32f133eaa&_ss=r&variant=46659167617243",
+            "title_big": "¥7,990",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_ehpR89": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-3_800da927-69bd-4904-b958-469b727af1c7.png",
+            "image_link": "https://karakubuy.com/products/krk-md-tww2201244?_pos=3&_sid=a1fe5327c&_ss=r&variant=42706882101467",
+            "title_big": "¥7,390",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_CytLA9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-4_1d0cb597-a22e-4def-8a00-971cf0a3a603.png",
+            "image_link": "https://karakubuy.com/products/krk-lsx-hfgt0318?_pos=1&_sid=277c26e5b&_ss=r&variant=46659282174171",
+            "title_big": "¥7,990",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        }
+      },
+      "block_order": [
+        "image_y3RwQJ",
+        "image_66RpAU",
+        "image_ehpR89",
+        "image_CytLA9"
+      ],
+      "name": "Image block",
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#4d2424"
+      }
+    },
+    "image_jump_custom_C6nCB8": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_bM4zzR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/780x243-2.png",
+            "image-id": "data-2",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_bM4zzR"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_block_J8GFUy": {
+      "type": "image-block",
+      "blocks": {
+        "image_KbGA6f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-5_274153a5-2099-44d1-b55f-c7d37a07e1dd.png",
+            "image_link": "https://karakubuy.com/products/krk-gz-ss2022077?_pos=2&_sid=d95bf3b1c&_ss=r&variant=44723096846555",
+            "title_big": "¥19,490",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_9Ykazp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-6_a16b531c-4b1a-4cac-8392-bfec13d4b414.png",
+            "image_link": "https://karakubuy.com/products/krk-061-urwt25?_pos=1&_sid=d11eaf93b&_ss=r&variant=46535154794715",
+            "title_big": "¥9,090 ",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_9pa9Pd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-7_3514889b-5594-44a7-8619-a693f6fa4cfb.png",
+            "image_link": "https://karakubuy.com/products/krk-gsh-wljk0319?_pos=2&_sid=55bccf93f&_ss=r&variant=46623303565531",
+            "title_big": "¥13,980",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_ydMdGm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-8_58c8fd18-e231-4164-8a7e-c45c748e27ad.png",
+            "image_link": "https://karakubuy.com/products/krk-ljp-pjdxrjk912?_pos=1&_sid=fdc798535&_ss=r",
+            "title_big": "¥18,980",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        }
+      },
+      "block_order": [
+        "image_KbGA6f",
+        "image_9Ykazp",
+        "image_9pa9Pd",
+        "image_ydMdGm"
+      ],
+      "name": "Image block",
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#4d2424"
+      }
+    },
+    "image_jump_custom_k9ehdH": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_bi9GLG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/780x243-3.png",
+            "image-id": "data-3",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_bi9GLG"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_block_xyCXPi": {
+      "type": "image-block",
+      "blocks": {
+        "image_BrxJUD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-9_11e3caa6-d8f6-4411-a1f2-b530c06381a5.png",
+            "image_link": "https://karakubuy.com/products/krk-lsx-kcbt0407?_pos=1&_sid=f2e9cb750&_ss=r&variant=46681026658523",
+            "title_big": "¥7,500 ",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_4hhec7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-10_ed55c6ab-e92d-46dc-bf4a-6e09823312de.png",
+            "image_link": "https://karakubuy.com/products/krk-gpd-gs1344?_pos=1&_sid=7e75fb62d&_ss=r&variant=45025350418651",
+            "title_big": "¥7,140 ",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_9e9ihM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-11_867bc1a3-7156-4242-bffe-96fe859f1411.png",
+            "image_link": "https://karakubuy.com/products/krk-tywf-0229?_pos=1&_sid=c5e2abd53&_ss=r&variant=46556755198171",
+            "title_big": "¥10,980",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_xV7LCK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-12_0d4ace3e-059c-47fd-a598-c43c5fe5e61b.png",
+            "image_link": "https://karakubuy.com/products/krk-tywf-jltwsg326?_pos=1&_sid=3435bd51e&_ss=r&variant=46639765651675",
+            "title_big": "¥10,980",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        }
+      },
+      "block_order": [
+        "image_BrxJUD",
+        "image_4hhec7",
+        "image_9e9ihM",
+        "image_xV7LCK"
+      ],
+      "name": "Image block",
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#4d2424"
+      }
+    },
+    "image_jump_custom_cnDEGV": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_TagJiE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/780x243-4.png",
+            "image-id": "data-4",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_TagJiE"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_block_n8L3ck": {
+      "type": "image-block",
+      "blocks": {
+        "image_W86kiW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-13_c3ef70e8-21f7-464e-b43a-a1c2522409bf.png",
+            "image_link": "https://karakubuy.com/products/md-s2007034?_pos=4&_sid=373e5e8b0&_ss=r",
+            "title_big": "¥11,200",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_Q8Atrw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-14_8dd57020-6120-4bff-ab53-16c3e38fa0ab.png",
+            "image_link": "https://karakubuy.com/products/md-s1901250?_pos=2&_sid=9fb3ff371&_ss=r&variant=40176662085810",
+            "title_big": "¥7,880 ",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_CcVzAt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-15_85d1e08f-326b-4467-93dc-c3cc473fe2b4.png",
+            "image_link": "https://karakubuy.com/products/krk-md-tls2201827?_pos=3&_sid=93d80f706&_ss=r",
+            "title_big": "¥12,580",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_Tk4DCg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-16_05e88a9d-d882-4b91-9509-52c4d2780e9d.png",
+            "image_link": "https://karakubuy.com/products/krk-gsy-yghgbsg311?_pos=1&_sid=d6ac5b388&_ss=r",
+            "title_big": "¥8,790 ",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        }
+      },
+      "block_order": [
+        "image_W86kiW",
+        "image_Q8Atrw",
+        "image_CcVzAt",
+        "image_Tk4DCg"
+      ],
+      "name": "Image block",
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#4d2424"
+      }
+    },
+    "image_jump_custom_aXRhhh": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_n4PpNV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/780x243-5.png",
+            "image-id": "data-5",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_n4PpNV"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_block_qaBUd6": {
+      "type": "image-block",
+      "blocks": {
+        "image_AqFnmR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-17_13ba0bf4-defa-49a5-98e1-3006f55c0205.png",
+            "image_link": "https://karakubuy.com/products/md-2001005?_pos=3&_sid=3b488afd9&_ss=r",
+            "title_big": "¥12,470",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_NWwHpK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-18_b48cbf37-1f54-462c-81f2-8abef77b2b28.png",
+            "image_link": "https://karakubuy.com/products/krk-ww-66-4?_pos=1&_sid=a7dbdaf82&_ss=r&variant=44905539961051",
+            "title_big": "¥22,980",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_MLpH7L": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-19_1852915b-46d4-4279-a389-41146ebe24d8.png",
+            "image_link": "https://karakubuy.com/products/md-md2007031?_pos=1&_sid=84f4947d7&_ss=r",
+            "title_big": "¥15,200 ",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_kzhLzW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-20_2af2e56b-dd04-4f34-8837-0db9d5024020.png",
+            "image_link": "https://karakubuy.com/products/krk-md2401243?_pos=1&_sid=fc5cf3d16&_ss=r&variant=46722053308635",
+            "title_big": "¥10,980",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        }
+      },
+      "block_order": [
+        "image_AqFnmR",
+        "image_NWwHpK",
+        "image_MLpH7L",
+        "image_kzhLzW"
+      ],
+      "name": "Image block",
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#4d2424"
+      }
+    },
+    "image_jump_custom_XybAhJ": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_ynQpwt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/780x243-6.png",
+            "image-id": "data-6",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_ynQpwt"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_block_pLEDtm": {
+      "type": "image-block",
+      "blocks": {
+        "image_4fLfna": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-21.png",
+            "image_link": "https://karakubuy.com/products/krk-gu2025015?_pos=1&_sid=62c63c967&_ss=r",
+            "title_big": "¥8,990",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_GD9hFB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-22.png",
+            "image_link": "https://karakubuy.com/products/krk-hat-0007?_pos=1&_sid=8ffea9809&_ss=r&variant=43211115888859",
+            "title_big": "¥10,590",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_UTBaBm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-23.png",
+            "image_link": "https://karakubuy.com/products/krk-md-tw2107095?_pos=5&_sid=7c6edc905&_ss=r",
+            "title_big": "¥6,780 ",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_XCYfF9": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-24.png",
+            "image_link": "https://karakubuy.com/products/krk-im-208?_pos=1&_sid=026788c70&_ss=r",
+            "title_big": "¥5,990",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        }
+      },
+      "block_order": [
+        "image_4fLfna",
+        "image_GD9hFB",
+        "image_UTBaBm",
+        "image_XCYfF9"
+      ],
+      "name": "Image block",
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#4d2424"
+      }
+    },
+    "image_jump_custom_xTCRLr": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_pPwQjF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/780x243-7.png",
+            "image-id": "data-7",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_pPwQjF"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_block_KCtnDK": {
+      "type": "image-block",
+      "blocks": {
+        "image_AkTatM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-25.png",
+            "image_link": "https://karakubuy.com/products/krk-zyd-nzdnb1223?_pos=1&_sid=826a23587&_ss=r",
+            "title_big": "¥10,980",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_HFpdPi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-26.png",
+            "image_link": "https://karakubuy.com/products/mc-16960nd?_pos=1&_sid=ae9cac106&_ss=r&variant=40234036297906",
+            "title_big": "¥16,980",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_h8QdaB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-27_0afa4ea0-5cc9-4785-9460-81254c45a9a5.png",
+            "image_link": "https://karakubuy.com/products/krk-xt-d002?_pos=1&_sid=2016589c6&_ss=r",
+            "title_big": "¥5,980",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_86Rw3t": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-28_4f14e496-5d62-4126-9b08-ec682bc7ddd9.png",
+            "image_link": "https://karakubuy.com/products/krk-md-tw2107082?_pos=1&_sid=088d0f0f1&_ss=r",
+            "title_big": "¥4,150 ",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        }
+      },
+      "block_order": [
+        "image_AkTatM",
+        "image_HFpdPi",
+        "image_h8QdaB",
+        "image_86Rw3t"
+      ],
+      "name": "Image block",
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#4d2424"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_4BVafX",
+    "divider_RFGwyN",
+    "image_Jtjqie",
+    "adjusting_spacing_HW9ryq",
+    "masterpiece_showcase_EYfzig",
+    "image_jump_custom_GVFDzt",
+    "background_image_XqFNzP",
+    "image_block_BqhUfd",
+    "image_jump_custom_C6nCB8",
+    "image_block_J8GFUy",
+    "image_jump_custom_k9ehdH",
+    "image_block_xyCXPi",
+    "image_jump_custom_cnDEGV",
+    "image_block_n8L3ck",
+    "image_jump_custom_aXRhhh",
+    "image_block_qaBUd6",
+    "image_jump_custom_XybAhJ",
+    "image_block_pLEDtm",
+    "image_jump_custom_xTCRLr",
+    "image_block_KCtnDK"
+  ]
+}

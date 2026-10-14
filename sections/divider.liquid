@@ -1,0 +1,60 @@
+<style>
+  .section-id-{{ section.id }} .divider-wrap{
+    position: relative;
+    overflow-x: hidden;
+    height: 3.5em;
+  }
+  .section-id-{{ section.id }} .divider-inner {
+    background: radial-gradient(circle farthest-side, #000, #000 40%, transparent 0, transparent 60%);
+    background-size: 6px 2px;
+    content: "";
+    height: 2px;
+    left: 0;
+    margin: auto;
+    position: absolute;
+    right: 0;
+    top: 50%;
+  }
+  .section-id-{{ section.id }} .data-plane{
+    transform: rotate(90deg);
+    position: absolute;
+    top: 23%;
+    animation: plane 10s linear infinite;
+  }
+  @keyframes plane {
+    0% {
+      transform: translateX(-1vw);
+      }
+    100% {
+      transform: translateX(92vw);
+      }
+  }
+</style>
+
+<div class="section-id-{{ section.id }}">
+  <div class="container">
+    <div class="divider-wrap">
+      <div class="divider-inner">
+      </div>
+      <div class="data-plane">
+        <svg t="1726044931902" class="icon" viewBox="0 0 1024 1024" version="1.1" xmlns="http://www.w3.org/2000/svg" p-id="2715" width="200" height="200"><path d="M303.71328 934.059008l89.723904 0 201.35424-358.960128 231.576576 0c0 0 134.588416 0 134.588416-62.751744 0-62.80704-134.588416-62.80704-134.588416-62.80704L594.791424 449.540096 393.437184 90.63424l-89.723904 0 111.625216 358.904832L254.420992 449.539072l-100.99712-89.78432L63.694848 359.754752l71.835648 152.537088L63.694848 664.8832l89.729024 0 100.99712-89.78432 160.917504 0L303.71328 934.059008 303.71328 934.059008zM303.71328 934.059008" p-id="2716" fill="#2c2c2c"></path></svg>
+      </div>
+
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Divider",
+  "settings": [
+    
+    ],
+    "presets": [
+      {
+        "name": "Divider",
+        "category": "General"
+      }
+    ]
+}
+{% endschema %}

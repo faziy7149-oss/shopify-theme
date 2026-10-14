@@ -1,0 +1,2562 @@
+{% comment %}
+  Lookbook Grid — Phase 4
+  Tag filter + MENU + animations + Swiper modal + product list
+{% endcomment %}
+
+{%- liquid
+  assign pc_cols = section.settings.pc_columns | default: 3
+  assign mob_cols = section.settings.mobile_columns | default: 2
+  assign pc_gap = section.settings.pc_gap | default: 12
+  assign initial_rows = section.settings.initial_rows | default: 2
+  assign rows_per_load = section.settings.rows_per_load | default: 2
+  assign initial_visible = pc_cols | times: initial_rows
+  assign menu_align = section.settings.menu_alignment | default: 'center'
+  assign title_align = section.settings.title_alignment | default: 'center'
+  assign tags_align = section.settings.tags_alignment | default: 'center'
+  assign tags_more_label = section.settings.tags_more_label | default: 'MORE'
+  assign tags_less_label = section.settings.tags_less_label | default: 'LESS'
+  assign menu_label = section.settings.menu_label | default: 'MENU'
+  assign products_heading = section.settings.products_heading | default: 'ITEMS FOR THIS STYLE'
+  assign shop_now_label = section.settings.shop_now_label | default: 'Shop Now'
+  assign empty_products_text = section.settings.empty_products_text | default: 'No products selected'
+  assign image_shape = section.settings.image_shape | default: 'portrait-34'
+  assign lb_aspect = 0.75
+  assign lb_aspect_natural = false
+
+  if image_shape == 'natural'
+    assign lb_aspect_natural = true
+  elsif image_shape == 'portrait-23'
+    assign lb_aspect = 0.67
+  elsif image_shape == 'portrait-45'
+    assign lb_aspect = 0.8
+  elsif image_shape == 'portrait-34'
+    assign lb_aspect = 0.75
+  elsif image_shape == 'square'
+    assign lb_aspect = 1.0
+  elsif image_shape == 'landscape-54'
+    assign lb_aspect = 1.25
+  elsif image_shape == 'landscape-32'
+    assign lb_aspect = 1.5
+  elsif image_shape == 'tallest'
+    assign lb_aspect = 99
+    for block in section.blocks
+      if block.type == 'look' and block.settings.image_1 != blank
+        if block.settings.image_1.aspect_ratio < lb_aspect
+          assign lb_aspect = block.settings.image_1.aspect_ratio
+        endif
+      endif
+    endfor
+    if lb_aspect == 99
+      assign lb_aspect = 0.75
+    endif
+  elsif image_shape == 'shortest'
+    assign lb_aspect = 0
+    for block in section.blocks
+      if block.type == 'look' and block.settings.image_1 != blank
+        if block.settings.image_1.aspect_ratio > lb_aspect
+          assign lb_aspect = block.settings.image_1.aspect_ratio
+        endif
+      endif
+    endfor
+    if lb_aspect == 0
+      assign lb_aspect = 0.75
+    endif
+  endif
+-%}
+
+{% style %}
+  #section-id-{{ section.id }} {
+    --lb-pc-cols: {{ pc_cols }};
+    --lb-mob-cols: {{ mob_cols }};
+    --lb-gap: {{ pc_gap }}px;
+    --lb-initial-rows: {{ initial_rows }};
+    --lb-rows-per-load: {{ rows_per_load }};
+    --lb-modal-bg: {{ section.settings.modal_background | default: '#ffffff' }};
+    --lb-modal-text: {{ section.settings.modal_text_color | default: '#222222' }};
+    --lb-modal-muted: {{ section.settings.modal_muted_color | default: '#666666' }};
+    --lb-modal-overlay: {{ section.settings.overlay_opacity | default: 55 | divided_by: 100.0 }};
+    {%- unless lb_aspect_natural -%}
+      --lb-aspect-ratio: {{ lb_aspect }};
+    {%- endunless -%}
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid {
+    padding: 2rem 0;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__container {
+    width: 100%;
+    margin: 0 auto;
+    padding-left: {{ section.settings.side_padding_mobile | default: 16 }}px;
+    padding-right: {{ section.settings.side_padding_mobile | default: 16 }}px;
+    box-sizing: border-box;
+    {%- if section.settings.full_width -%}
+      max-width: none;
+    {%- else -%}
+      max-width: {{ section.settings.max_width | default: 1400 }}px;
+    {%- endif -%}
+  }
+
+  @media (min-width: 768px) {
+    #section-id-{{ section.id }} .lookbook-grid__container {
+      padding-left: {{ section.settings.side_padding | default: 24 }}px;
+      padding-right: {{ section.settings.side_padding | default: 24 }}px;
+    }
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__header {
+    margin-bottom: 1.5rem;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__title {
+    margin: 0 0 1rem;
+    font-size: clamp(1.25rem, 2vw, 1.75rem);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__title[data-align="left"] {
+    text-align: left;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__title[data-align="center"] {
+    text-align: center;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__title[data-align="right"] {
+    text-align: right;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__filters-wrap {
+    display: flex;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__filters-wrap[data-align="left"] {
+    justify-content: flex-start;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__filters-wrap[data-align="center"] {
+    justify-content: center;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__filters-wrap[data-align="right"] {
+    justify-content: flex-end;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__filters-panel {
+    width: 100%;
+    max-width: 100%;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__filters-row {
+    width: 100%;
+  }
+
+  /*
+    MORE/LESS uses float:right inside the list so:
+    - first row leaves space for the button (no overlap)
+    - row 2+ still uses full width
+  */
+  #section-id-{{ section.id }} .lookbook-grid__filters {
+    display: block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    box-sizing: border-box;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__filters::after {
+    content: '';
+    display: table;
+    clear: both;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__filters-wrap[data-align="left"] .lookbook-grid__filters {
+    text-align: left;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__filters-wrap[data-align="center"] .lookbook-grid__filters {
+    text-align: center;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__filters-wrap[data-align="right"] .lookbook-grid__filters {
+    text-align: right;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__filters > li {
+    display: inline-block;
+    vertical-align: middle;
+    margin: 0.25rem 0.375rem;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__tags-more-item {
+    float: right;
+    margin: 0.25rem 0 0.25rem 0.5rem;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__tags-more-item[hidden] {
+    display: none !important;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__tags-more {
+    display: inline-flex;
+    align-items: center;
+    appearance: none;
+    margin: 0;
+    padding: 0.35rem 0.75rem;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+    white-space: nowrap;
+    line-height: 1.2;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__filters.is-expanded {
+    max-height: none !important;
+    overflow: visible;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__filter-btn {
+    appearance: none;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    padding: 0.35rem 0.75rem;
+    font-size: 0.8125rem;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__filter-btn.is-active {
+    font-weight: 600;
+    text-decoration: underline;
+    text-underline-offset: 4px;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__grid {
+    display: grid;
+    grid-template-columns: repeat(var(--lb-mob-cols), minmax(0, 1fr));
+    gap: var(--lb-gap);
+  }
+
+  @media (min-width: 768px) {
+    #section-id-{{ section.id }} .lookbook-grid__grid {
+      grid-template-columns: repeat(var(--lb-pc-cols), minmax(0, 1fr));
+      gap: var(--lb-gap);
+    }
+  }
+  @media (max-width: 767px) { 
+    #section-id-{{ section.id }} .lookbook-grid__grid {
+      gap: 15px;
+    }
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__item {
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    opacity: 0;
+    transform: translate3d(0, 18px, 0);
+    transition: opacity 0.55s ease, transform 0.55s ease;
+    will-change: opacity, transform;
+  }
+
+  #section-id-{{ section.id }}.lookbook-grid--gsap .lookbook-grid__item {
+    transition: none;
+  }
+
+  #section-id-{{ section.id }}.lookbook-grid--gsap .lookbook-grid__media img {
+    transition: none;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__item.is-inview {
+    opacity: 1;
+    transform: translate3d(0, 0, 0);
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__item.is-inview.is-animated {
+    will-change: auto;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__item[hidden] {
+    display: none !important;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__trigger {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__media {
+    display: block;
+    width: 100%;
+    {%- if lb_aspect_natural -%}
+      aspect-ratio: auto;
+    {%- else -%}
+      aspect-ratio: var(--lb-aspect-ratio);
+    {%- endif -%}
+    overflow: hidden;
+    background: #f3f3f3;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__media img,
+  #section-id-{{ section.id }} .lookbook-grid__media .placeholder-svg {
+    display: block;
+    width: 100%;
+    {%- if lb_aspect_natural -%}
+      height: auto;
+      object-fit: contain;
+    {%- else -%}
+      height: 100%;
+      object-fit: cover;
+    {%- endif -%}
+  }
+
+  /* Image soft fade / slight scale once decoded */
+  #section-id-{{ section.id }} .lookbook-grid__media img {
+    opacity: 0;
+    transform: scale(1.04);
+    transition: opacity 0.6s ease, transform 0.7s ease;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__media img.is-loaded {
+    opacity: 1;
+    transform: scale(1);
+  }
+
+  /* Dual-image crossfade (grid only; performance-safe) */
+  #section-id-{{ section.id }} .lookbook-grid__media--crossfade {
+    position: relative;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__media--crossfade .lookbook-grid__img--alt {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    transform: none;
+    opacity: 0;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__media--crossfade:not(.is-cf-ready) .lookbook-grid__img--alt.is-loaded {
+    opacity: 0;
+    transform: none;
+  }
+
+  {%- unless lb_aspect_natural -%}
+  #section-id-{{ section.id }} .lookbook-grid__media--crossfade .lookbook-grid__img:not(.lookbook-grid__img--alt) {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  {%- endunless -%}
+
+  #section-id-{{ section.id }} .lookbook-grid__media--crossfade.is-cf-ready .lookbook-grid__img {
+    transition: opacity var(--cf-duration, 1s) ease;
+    transform: none;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__media--crossfade.is-cf-ready .lookbook-grid__img.is-active {
+    opacity: 1;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__media--crossfade.is-cf-ready .lookbook-grid__img:not(.is-active) {
+    opacity: 0;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__media--crossfade.is-fading .lookbook-grid__img {
+    will-change: opacity;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__media--crossfade:not(.is-fading) .lookbook-grid__img {
+    will-change: auto;
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    #section-id-{{ section.id }} .lookbook-grid__item,
+    #section-id-{{ section.id }} .lookbook-grid__media img {
+      opacity: 1;
+      transform: none;
+      transition: none;
+    }
+
+    #section-id-{{ section.id }} .lookbook-grid__media--crossfade.is-cf-ready .lookbook-grid__img {
+      transition: none;
+    }
+
+    #section-id-{{ section.id }} .lookbook-grid__media--crossfade .lookbook-grid__img--alt {
+      display: none !important;
+    }
+  }
+
+  /* MENU: own row below grid */
+  #section-id-{{ section.id }} .lookbook-grid__menu-row {
+    display: flex;
+    align-items: center;
+    margin: 1.5rem 0 0;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__menu-row[data-align="left"] {
+    justify-content: flex-start;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__menu-row[data-align="center"] {
+    justify-content: center;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__menu-row[data-align="right"] {
+    justify-content: flex-end;
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__menu-row[hidden] {
+    display: none !important;
+  }
+
+/*  #section-id-{{ section.id }} .lookbook-grid__menu-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 5.5rem;
+    min-height: 5.5rem;
+    padding: 0.75rem 1rem;
+    border: 1px solid currentColor;
+    border-radius: 50%;
+    background: transparent;
+    color: inherit;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+  }
+*/
+  #section-id-{{ section.id }} .lookbook-grid__menu-btn:hover {
+    opacity: 0.7;
+    transform: scale(1.04);
+  }
+
+  #section-id-{{ section.id }} .lookbook-grid__menu-btn:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 3px;
+  }
+
+  /* —— Modal (~80vw × 85vh, centered) —— */
+  #section-id-{{ section.id }} .lookbook-modal.modal {
+    --modal-overlay-opacity: var(--lb-modal-overlay);
+    z-index: 8000;
+    padding: 1.25rem;
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal .modal__window {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: min(1280px, 80vw);
+    max-width: min(1280px, 80vw);
+    min-width: 0;
+    height: auto;
+    max-height: 90vh;
+    margin: 0;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    overflow: visible;
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__panel {
+    display: grid;
+    grid-template-columns: minmax(0, 1.05fr) minmax(0, 0.95fr);
+    width: 100%;
+    height: min(85vh, 860px);
+    max-height: 90vh;
+    background: var(--lb-modal-bg);
+    color: var(--lb-modal-text);
+    overflow: hidden;
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__media {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 0;
+    padding: 1.5rem;
+    overflow: hidden;
+    background: var(--lb-modal-bg);
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__swiper {
+    position: relative;
+    width: 100%;
+    height: 100%;
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__swiper .swiper-wrapper,
+  #section-id-{{ section.id }} .lookbook-modal__swiper .swiper-slide {
+    height: 100%;
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__swiper .swiper-slide {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__swiper img,
+  #section-id-{{ section.id }} .lookbook-modal__swiper .placeholder-svg {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__pagination {
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0.75rem;
+    z-index: 2;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.4rem;
+    width: 100%;
+    margin: 0;
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__pagination .swiper-pagination-bullet {
+    position: relative;
+    width: 8px;
+    height: 8px;
+    margin: 0 !important;
+    background: #fff;
+    opacity: 0.45;
+    border-radius: 50%;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+    transition: opacity 0.2s ease, transform 0.2s ease;
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__pagination .swiper-pagination-bullet::before {
+    content: '';
+    position: absolute;
+    inset: -8px;
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__pagination .swiper-pagination-bullet-active {
+    opacity: 1;
+    transform: scale(1.15);
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__look-nav {
+    position: absolute;
+    top: 50%;
+    z-index: 8;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: rgba(255, 255, 255, 0.95);
+    color: var(--lb-modal-text);
+    cursor: pointer;
+    transform: translateY(-50%);
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, opacity 0.2s ease;
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__look-nav:hover {
+    transform: translateY(-50%) scale(1.05);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.22);
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__look-nav[hidden] {
+    display: none !important;
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__look-nav--prev {
+    left: 0.75rem;
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__look-nav--next {
+    right: 0.75rem;
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__look-nav .icon {
+    width: 14px;
+    height: 14px;
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__body {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    height: 100%;
+    overflow: hidden;
+    padding: 2rem 1.75rem 1.75rem;
+    border-left: 1px solid color-mix(in srgb, var(--lb-modal-text) 12%, transparent);
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__heading {
+    flex-shrink: 0;
+    margin: 0 0 0.85rem;
+    padding-bottom: 0.85rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--lb-modal-text) 18%, transparent);
+    font-size: 0.8125rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__products {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+    padding-right: 0.35rem;
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__product {
+    display: grid;
+    grid-template-columns: 64px minmax(0, 1fr) auto;
+    gap: 0.85rem;
+    align-items: center;
+    padding: 0.85rem 0;
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid color-mix(in srgb, var(--lb-modal-text) 8%, transparent);
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__product:last-child {
+    border-bottom: 0;
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__thumb {
+    width: 64px;
+    height: 64px;
+    overflow: hidden;
+    background: color-mix(in srgb, var(--lb-modal-text) 4%, transparent);
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__thumb img,
+  #section-id-{{ section.id }} .lookbook-modal__thumb .placeholder-svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__product-meta {
+    min-width: 0;
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__product-title {
+    margin: 0 0 0.25rem;
+    font-size: 0.8125rem;
+    line-height: 1.4;
+    color: var(--lb-modal-text);
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__product:hover .lookbook-modal__product-title {
+    text-decoration: underline;
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__product-price {
+    margin: 0;
+    font-size: 0.8125rem;
+    color: var(--lb-modal-muted);
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__shop-now {
+    flex-shrink: 0;
+    font-size: 0.6875rem;
+    font-weight: 600;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    white-space: nowrap;
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__empty {
+    margin: 1rem 0 0;
+    font-size: 0.8125rem;
+    color: var(--lb-modal-muted);
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__close {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    z-index: 10;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    color: #222;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__close:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.22);
+  }
+
+  #section-id-{{ section.id }} .lookbook-modal__close .icon {
+    width: 14px;
+    height: 14px;
+  }
+
+  @media (max-width: 767.98px) {
+    #section-id-{{ section.id }} .lookbook-modal.modal {
+      padding: 0.5rem 0.5rem 0.75rem;
+      align-items: center;
+    }
+
+    #section-id-{{ section.id }} .lookbook-modal .modal__window {
+      width: 100%;
+      max-width: 100%;
+      max-height: 94vh;
+    }
+
+    #section-id-{{ section.id }} .lookbook-modal__panel {
+      grid-template-columns: 1fr;
+      height: auto;
+      max-height: 94vh;
+    }
+
+    #section-id-{{ section.id }} .lookbook-modal__media {
+      align-items: flex-start;
+      padding: 0;
+      max-height: 70vh;
+    }
+
+    #section-id-{{ section.id }} .lookbook-modal__swiper {
+      max-height: 70vh;
+    }
+
+    #section-id-{{ section.id }} .lookbook-modal__swiper .swiper-slide {
+      align-items: flex-start;
+    }
+
+    #section-id-{{ section.id }} .lookbook-modal__swiper img,
+    #section-id-{{ section.id }} .lookbook-modal__swiper .placeholder-svg {
+      width: 100%;
+      height: auto;
+      max-height: 70vh;
+      object-fit: contain;
+      object-position: top center;
+    }
+
+    #section-id-{{ section.id }} .lookbook-modal__body {
+      border-left: 0;
+      border-top: 1px solid color-mix(in srgb, var(--lb-modal-text) 12%, transparent);
+      padding: 0.75rem 1rem 0.65rem;
+      max-height: none;
+      height: auto;
+    }
+
+    #section-id-{{ section.id }} .lookbook-modal__heading {
+      margin-bottom: 0.5rem;
+      padding-bottom: 0.5rem;
+    }
+
+    /* ~1 product visible; scroll for the rest */
+    #section-id-{{ section.id }} .lookbook-modal__products {
+      max-height: 6.75rem;
+    }
+
+    #section-id-{{ section.id }} .lookbook-modal__close {
+      position: absolute;
+      top: 0.5rem;
+      right: 0.5rem;
+      z-index: 10;
+      margin-top: 0;
+    }
+
+    #section-id-{{ section.id }} .lookbook-modal__look-nav {
+      width: 36px;
+      height: 36px;
+    }
+
+    #section-id-{{ section.id }} .lookbook-modal__look-nav--prev {
+      left: 0.35rem;
+    }
+
+    #section-id-{{ section.id }} .lookbook-modal__look-nav--next {
+      right: 0.35rem;
+    }
+
+    #section-id-{{ section.id }} .lookbook-modal__pagination {
+      bottom: 0.5rem;
+    }
+
+    #section-id-{{ section.id }} .lookbook-modal__product {
+      grid-template-columns: 56px minmax(0, 1fr);
+      gap: 0.65rem;
+    }
+
+    #section-id-{{ section.id }} .lookbook-modal__shop-now {
+      grid-column: 2;
+    }
+  }
+  @media (min-width: 768px) {
+    /* pc端按钮位置调整 */
+    #section-id-{{ section.id }} .lookbook-modal__look-nav--prev {
+      left: 10%;
+    }
+
+    #section-id-{{ section.id }} .lookbook-modal__look-nav--next {
+      right: 10%;
+    }
+    /* END pc端按钮位置调整 */
+  }
+{% endstyle %}
+
+{%- comment -%} Collect unique tags from all blocks for filter bar {%- endcomment -%}
+{%- assign all_tags_string = '' -%}
+{%- for block in section.blocks -%}
+  {%- if block.type == 'look' and block.settings.tags != blank -%}
+    {%- assign all_tags_string = all_tags_string | append: block.settings.tags | append: ',' -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign raw_tags = all_tags_string | split: ',' -%}
+{%- assign unique_tags = '' -%}
+{%- for tag in raw_tags -%}
+  {%- assign cleaned = tag | strip -%}
+  {%- if cleaned != blank -%}
+    {%- assign needle = '|' | append: cleaned | append: '|' -%}
+    {%- unless unique_tags contains needle -%}
+      {%- assign unique_tags = unique_tags | append: needle -%}
+    {%- endunless -%}
+  {%- endif -%}
+{%- endfor -%}
+{%- assign tag_list = unique_tags | split: '|' -%}
+
+<div
+  id="section-id-{{ section.id }}"
+  class="lookbook-grid section-id-{{ section.id }}"
+  data-section-id="{{ section.id }}"
+  data-pc-cols="{{ pc_cols }}"
+  data-mob-cols="{{ mob_cols }}"
+  data-initial-rows="{{ initial_rows }}"
+  data-rows-per-load="{{ rows_per_load }}"
+  data-initial-visible="{{ initial_visible }}"
+>
+  <div class="lookbook-grid__container">
+  <header class="lookbook-grid__header">
+    {%- if section.settings.title != blank -%}
+      <h2 class="lookbook-grid__title" data-align="{{ title_align }}">
+        {{ section.settings.title | escape }}
+      </h2>
+    {%- endif -%}
+
+    <nav
+      class="lookbook-grid__filters-wrap"
+      data-align="{{ tags_align }}"
+      aria-label="Lookbook tags"
+    >
+      <div class="lookbook-grid__filters-panel" data-lookbook-filters-panel>
+        <div class="lookbook-grid__filters-row" data-lookbook-filters-row>
+          <ul class="lookbook-grid__filters" role="list" data-lookbook-filters>
+            <li class="lookbook-grid__tags-more-item" data-lookbook-tags-more-item hidden>
+              <button
+                type="button"
+                class="lookbook-grid__tags-more"
+                data-lookbook-tags-more
+                data-label-more="{{ tags_more_label | escape }}"
+                data-label-less="{{ tags_less_label | escape }}"
+                aria-expanded="false"
+              >
+                {{ tags_more_label | escape }}
+              </button>
+            </li>
+            <li>
+              <button
+                type="button"
+                class="lookbook-grid__filter-btn is-active"
+                data-tag="ALL"
+                aria-pressed="true"
+              >
+                ALL
+              </button>
+            </li>
+            {%- for tag in tag_list -%}
+              {%- if tag != blank -%}
+                <li>
+                  <button
+                    type="button"
+                    class="lookbook-grid__filter-btn"
+                    data-tag="{{ tag | escape }}"
+                    aria-pressed="false"
+                  >
+                    {{ tag | escape }}
+                  </button>
+                </li>
+              {%- endif -%}
+            {%- endfor -%}
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+
+  <div class="lookbook-grid__grid" data-lookbook-grid>
+    {%- for block in section.blocks -%}
+      {%- if block.type == 'look' -%}
+        {%- liquid
+          assign look_image = block.settings.image_1
+          if look_image == blank
+            assign look_image = block.settings.image_2
+          endif
+          if look_image == blank
+            assign look_image = block.settings.image_3
+          endif
+          if look_image == blank
+            assign look_image = block.settings.image_4
+          endif
+          if look_image == blank
+            assign look_image = block.settings.image_5
+          endif
+          if look_image == blank
+            assign look_image = block.settings.image_6
+          endif
+
+          if look_image.alt != blank
+            assign look_alt = look_image.alt
+          else
+            assign look_alt = section.settings.title
+          endif
+        -%}
+
+        <article
+          class="lookbook-grid__item"
+          {{ block.shopify_attributes }}
+          data-lookbook-item
+          data-block-id="{{ block.id }}"
+          data-tags="{{ block.settings.tags | escape }}"
+          data-index="{{ forloop.index0 }}"
+          {% if forloop.index > initial_visible %}hidden{% endif %}
+        >
+          <modal-opener data-modal="lookbook-modal-{{ section.id }}-{{ block.id }}">
+            <button
+              type="button"
+              class="lookbook-grid__trigger"
+              data-lookbook-open
+              aria-haspopup="dialog"
+              aria-label="Open look {{ forloop.index }}"
+            >
+              {%- liquid
+                assign enable_crossfade = false
+                assign look_image_alt = blank
+                if block.settings.image_1 != blank and block.settings.image_2 != blank
+                  assign enable_crossfade = true
+                  assign look_image_alt = block.settings.image_2
+                endif
+              -%}
+              <span
+                class="lookbook-grid__media{% if enable_crossfade %} lookbook-grid__media--crossfade{% endif %}"
+                {% if enable_crossfade %}data-lookbook-crossfade{% endif %}
+              >
+                {%- if look_image != blank -%}
+                  {%- liquid
+                    assign img_src = look_image | image_url: width: 900
+                    assign u360 = look_image | image_url: width: 360
+                    assign u540 = look_image | image_url: width: 540
+                    assign u720 = look_image | image_url: width: 720
+                    assign u900 = look_image | image_url: width: 900
+                    assign img_srcset = u360 | append: ' 360w, ' | append: u540 | append: ' 540w, ' | append: u720 | append: ' 720w, ' | append: u900 | append: ' 900w'
+                    assign img_w = look_image.width | default: 900
+                    assign img_h = look_image.height | default: 1200
+                  -%}
+                  {%- if forloop.index > initial_visible -%}
+                    <img
+                      class="lookbook-grid__img{% if enable_crossfade %} is-active{% endif %}"
+                      src="{{ look_image | image_url: width: 40 }}"
+                      data-src="{{ img_src }}"
+                      data-srcset="{{ img_srcset }}"
+                      data-sizes="(min-width: 768px) 33vw, 50vw"
+                      width="{{ img_w }}"
+                      height="{{ img_h }}"
+                      alt="{{ look_alt | escape }}"
+                      decoding="async"
+                      loading="lazy"
+                    >
+                  {%- else -%}
+                    <img
+                      class="lookbook-grid__img{% if enable_crossfade %} is-active{% endif %}"
+                      src="{{ img_src }}"
+                      srcset="{{ img_srcset }}"
+                      sizes="(min-width: 768px) 33vw, 50vw"
+                      width="{{ img_w }}"
+                      height="{{ img_h }}"
+                      alt="{{ look_alt | escape }}"
+                      decoding="async"
+                      loading="lazy"
+                    >
+                  {%- endif -%}
+                  {%- if enable_crossfade -%}
+                    {%- liquid
+                      assign alt_src = look_image_alt | image_url: width: 900
+                      assign a360 = look_image_alt | image_url: width: 360
+                      assign a540 = look_image_alt | image_url: width: 540
+                      assign a720 = look_image_alt | image_url: width: 720
+                      assign a900 = look_image_alt | image_url: width: 900
+                      assign alt_srcset = a360 | append: ' 360w, ' | append: a540 | append: ' 540w, ' | append: a720 | append: ' 720w, ' | append: a900 | append: ' 900w'
+                      assign alt_w = look_image_alt.width | default: 900
+                      assign alt_h = look_image_alt.height | default: 1200
+                      if look_image_alt.alt != blank
+                        assign look_alt2 = look_image_alt.alt
+                      else
+                        assign look_alt2 = look_alt
+                      endif
+                    -%}
+                    <img
+                      class="lookbook-grid__img lookbook-grid__img--alt"
+                      src="{{ look_image_alt | image_url: width: 40 }}"
+                      data-src="{{ alt_src }}"
+                      data-srcset="{{ alt_srcset }}"
+                      data-sizes="(min-width: 768px) 33vw, 50vw"
+                      width="{{ alt_w }}"
+                      height="{{ alt_h }}"
+                      alt="{{ look_alt2 | escape }}"
+                      decoding="async"
+                      loading="lazy"
+                      aria-hidden="true"
+                    >
+                  {%- endif -%}
+                {%- else -%}
+                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                {%- endif -%}
+              </span>
+            </button>
+          </modal-opener>
+        </article>
+      {%- endif -%}
+    {%- else -%}
+      {%- for i in (1..6) -%}
+        <article class="lookbook-grid__item" data-lookbook-item data-tags="" data-index="{{ forloop.index0 }}">
+          <button type="button" class="lookbook-grid__trigger" data-lookbook-open aria-label="Open look {{ forloop.index }}">
+            <span class="lookbook-grid__media">
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            </span>
+          </button>
+        </article>
+      {%- endfor -%}
+    {%- endfor -%}
+  </div>
+
+  <div
+    class="lookbook-grid__menu-row"
+    data-lookbook-menu-row
+    data-align="{{ menu_align }}"
+    hidden
+  >
+    <button
+      type="button"
+      class="lookbook-grid__menu-btn btn"
+      data-lookbook-menu
+      aria-label="{{ menu_label | escape }}"
+    >
+      {{ menu_label | escape }}
+    </button>
+  </div>
+  </div>
+
+  {%- comment -%} Modals: theme modal-dialog (overlay / Escape / .js-close-modal) {%- endcomment -%}
+  {%- for block in section.blocks -%}
+    {%- if block.type == 'look' -%}
+      {%- liquid
+        assign modal_id = 'lookbook-modal-' | append: section.id | append: '-' | append: block.id
+        assign slide_count = 0
+        if block.settings.image_1 != blank
+          assign slide_count = slide_count | plus: 1
+        endif
+        if block.settings.image_2 != blank
+          assign slide_count = slide_count | plus: 1
+        endif
+        if block.settings.image_3 != blank
+          assign slide_count = slide_count | plus: 1
+        endif
+        if block.settings.image_4 != blank
+          assign slide_count = slide_count | plus: 1
+        endif
+        if block.settings.image_5 != blank
+          assign slide_count = slide_count | plus: 1
+        endif
+        if block.settings.image_6 != blank
+          assign slide_count = slide_count | plus: 1
+        endif
+      -%}
+      <modal-dialog
+        class="modal lookbook-modal invisible fixed top-0 left-0 w-full h-full flex items-center justify-center"
+        id="{{ modal_id }}"
+        role="dialog"
+        aria-label="{{ products_heading | escape }}"
+        aria-modal="true"
+        tabindex="-1"
+        data-lookbook-modal
+        data-block-id="{{ block.id }}"
+        data-slide-count="{{ slide_count }}"
+      >
+        <button
+          type="button"
+          class="lookbook-modal__look-nav lookbook-modal__look-nav--prev"
+          data-lookbook-look-prev
+          aria-label="Previous look"
+        >
+          {% render 'icon-chevron-left', stroke_width: 1.3 %}
+        </button>
+
+        <div class="modal__window relative has-motion">
+          <div class="lookbook-modal__panel">
+            <div class="lookbook-modal__media">
+              <div
+                class="swiper lookbook-modal__swiper{% if slide_count < 2 %} lookbook-modal__swiper--single{% endif %}"
+                data-lookbook-swiper
+              >
+                <div class="swiper-wrapper">
+                  {%- if slide_count > 0 -%}
+                    {%- if block.settings.image_1 != blank -%}
+                      <div class="swiper-slide">
+                        {%- assign slide_alt_1 = block.settings.image_1.alt | default: products_heading -%}
+                        {{
+                          block.settings.image_1
+                          | image_url: width: 1400
+                          | image_tag:
+                            loading: 'lazy',
+                            widths: '600, 800, 1000, 1200, 1400',
+                            sizes: '(min-width: 768px) 40vw, 90vw',
+                            alt: slide_alt_1
+                        }}
+                      </div>
+                    {%- endif -%}
+                    {%- if block.settings.image_2 != blank -%}
+                      <div class="swiper-slide">
+                        {%- assign slide_alt_2 = block.settings.image_2.alt | default: products_heading -%}
+                        {{
+                          block.settings.image_2
+                          | image_url: width: 1400
+                          | image_tag:
+                            loading: 'lazy',
+                            widths: '600, 800, 1000, 1200, 1400',
+                            sizes: '(min-width: 768px) 40vw, 90vw',
+                            alt: slide_alt_2
+                        }}
+                      </div>
+                    {%- endif -%}
+                    {%- if block.settings.image_3 != blank -%}
+                      <div class="swiper-slide">
+                        {%- assign slide_alt_3 = block.settings.image_3.alt | default: products_heading -%}
+                        {{
+                          block.settings.image_3
+                          | image_url: width: 1400
+                          | image_tag:
+                            loading: 'lazy',
+                            widths: '600, 800, 1000, 1200, 1400',
+                            sizes: '(min-width: 768px) 40vw, 90vw',
+                            alt: slide_alt_3
+                        }}
+                      </div>
+                    {%- endif -%}
+                    {%- if block.settings.image_4 != blank -%}
+                      <div class="swiper-slide">
+                        {%- assign slide_alt_4 = block.settings.image_4.alt | default: products_heading -%}
+                        {{
+                          block.settings.image_4
+                          | image_url: width: 1400
+                          | image_tag:
+                            loading: 'lazy',
+                            widths: '600, 800, 1000, 1200, 1400',
+                            sizes: '(min-width: 768px) 40vw, 90vw',
+                            alt: slide_alt_4
+                        }}
+                      </div>
+                    {%- endif -%}
+                    {%- if block.settings.image_5 != blank -%}
+                      <div class="swiper-slide">
+                        {%- assign slide_alt_5 = block.settings.image_5.alt | default: products_heading -%}
+                        {{
+                          block.settings.image_5
+                          | image_url: width: 1400
+                          | image_tag:
+                            loading: 'lazy',
+                            widths: '600, 800, 1000, 1200, 1400',
+                            sizes: '(min-width: 768px) 40vw, 90vw',
+                            alt: slide_alt_5
+                        }}
+                      </div>
+                    {%- endif -%}
+                    {%- if block.settings.image_6 != blank -%}
+                      <div class="swiper-slide">
+                        {%- assign slide_alt_6 = block.settings.image_6.alt | default: products_heading -%}
+                        {{
+                          block.settings.image_6
+                          | image_url: width: 1400
+                          | image_tag:
+                            loading: 'lazy',
+                            widths: '600, 800, 1000, 1200, 1400',
+                            sizes: '(min-width: 768px) 40vw, 90vw',
+                            alt: slide_alt_6
+                        }}
+                      </div>
+                    {%- endif -%}
+                  {%- else -%}
+                    <div class="swiper-slide">
+                      {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                    </div>
+                  {%- endif -%}
+                </div>
+
+                {%- if slide_count > 1 -%}
+                  <div
+                    class="lookbook-modal__pagination swiper-pagination"
+                    data-lookbook-pagination
+                  ></div>
+                {%- endif -%}
+              </div>
+            </div>
+
+            <div class="lookbook-modal__body">
+              <h3 class="lookbook-modal__heading">{{ products_heading | escape }}</h3>
+
+              <div class="lookbook-modal__products">
+                {%- if block.settings.product_list != blank -%}
+                  {%- for product in block.settings.product_list -%}
+                    {%- liquid
+                      if product.featured_media.alt != blank
+                        assign product_alt = product.featured_media.alt
+                      else
+                        assign product_alt = product.title
+                      endif
+                    -%}
+                    <a class="lookbook-modal__product" href="{{ product.url }}">
+                      <span class="lookbook-modal__thumb">
+                        {%- if product.featured_media -%}
+                          {{
+                            product.featured_media.preview_image
+                            | image_url: width: 160
+                            | image_tag:
+                              loading: 'lazy',
+                              widths: '80, 120, 160',
+                              sizes: '64px',
+                              alt: product_alt
+                          }}
+                        {%- else -%}
+                          {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                        {%- endif -%}
+                      </span>
+                      <span class="lookbook-modal__product-meta">
+                        <p class="lookbook-modal__product-title">{{ product.title | escape }}</p>
+                        <p class="lookbook-modal__product-price">
+                          {%- if product.price_varies -%}
+                            {{ product.price_min | money }}
+                          {%- else -%}
+                            {{ product.price | money }}
+                          {%- endif -%}
+                        </p>
+                      </span>
+                      <span class="lookbook-modal__shop-now">{{ shop_now_label | escape }}</span>
+                    </a>
+                  {%- endfor -%}
+                {%- else -%}
+                  <p class="lookbook-modal__empty">{{ empty_products_text | escape }}</p>
+                {%- endif -%}
+              </div>
+            </div>
+          </div>
+
+          <button
+            type="button"
+            class="lookbook-modal__close js-close-modal"
+            aria-label="{{ 'accessibility.close' | t }}"
+          >
+            {% render 'icon-close' %}
+            <span class="visually-hidden">{{ 'accessibility.close' | t }}</span>
+          </button>
+        </div>
+
+        <button
+          type="button"
+          class="lookbook-modal__look-nav lookbook-modal__look-nav--next"
+          data-lookbook-look-next
+          aria-label="Next look"
+        >
+          {% render 'icon-chevron-right', stroke_width: 1.3 %}
+        </button>
+      </modal-dialog>
+    {%- endif -%}
+  {%- endfor -%}
+</div>
+
+<script>
+  (function () {
+    var root = document.getElementById('section-id-{{ section.id }}');
+    if (!root || root.dataset.lookbookBound === '1') return;
+    root.dataset.lookbookBound = '1';
+
+    var grid = root.querySelector('[data-lookbook-grid]');
+    var filterWrap = root.querySelector('[data-lookbook-filters]');
+    var tagsMoreBtn = root.querySelector('[data-lookbook-tags-more]');
+    var tagsMoreItem = root.querySelector('[data-lookbook-tags-more-item]');
+    var filtersRow = root.querySelector('[data-lookbook-filters-row]');
+    var menuRow = root.querySelector('[data-lookbook-menu-row]');
+    var menuBtn = root.querySelector('[data-lookbook-menu]');
+    if (!grid || !menuBtn || !menuRow) return;
+
+    var items = Array.prototype.slice.call(root.querySelectorAll('[data-lookbook-item]'));
+    var pcCols = parseInt(root.dataset.pcCols, 10) || 3;
+    var mobCols = parseInt(root.dataset.mobCols, 10) || 2;
+    var initialRows = parseInt(root.dataset.initialRows, 10) || 2;
+    var rowsPerLoad = parseInt(root.dataset.rowsPerLoad, 10) || 2;
+    var mqDesktop = window.matchMedia('(min-width: 768px)');
+    var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    var hasGsap = typeof gsap !== 'undefined';
+    if (hasGsap) root.classList.add('lookbook-grid--gsap');
+
+    var state = {
+      activeTag: 'ALL',
+      visibleCount: 0,
+      tagsExpanded: false
+    };
+
+    var io = null;
+
+    function getTagItems(list) {
+      return Array.prototype.slice.call(
+        list.querySelectorAll('li:not(.lookbook-grid__tags-more-item)')
+      );
+    }
+
+    function getFirstRowMaxHeight(list) {
+      var lis = getTagItems(list);
+      if (!lis.length) return 0;
+
+      var listTop = list.getBoundingClientRect().top;
+      var firstTop = lis[0].getBoundingClientRect().top;
+      var bottom = 0;
+
+      // Include MORE button height if visible on first row
+      if (tagsMoreItem && !tagsMoreItem.hasAttribute('hidden')) {
+        var moreRect = tagsMoreItem.getBoundingClientRect();
+        bottom = Math.max(bottom, moreRect.bottom - listTop);
+      }
+
+      for (var i = 0; i < lis.length; i += 1) {
+        var rect = lis[i].getBoundingClientRect();
+        if (Math.abs(rect.top - firstTop) <= 2) {
+          bottom = Math.max(bottom, rect.bottom - listTop);
+        }
+      }
+
+      return Math.ceil(bottom);
+    }
+
+    function hasWrappedTags(list) {
+      var lis = getTagItems(list);
+      if (lis.length < 2) return false;
+
+      var firstTop = lis[0].getBoundingClientRect().top;
+      for (var i = 1; i < lis.length; i += 1) {
+        if (Math.abs(lis[i].getBoundingClientRect().top - firstTop) > 2) {
+          return true;
+        }
+      }
+      return false;
+    }
+
+    function syncTagsOverflow() {
+      if (!filterWrap || !tagsMoreBtn || !tagsMoreItem) return;
+
+      var labelMore = tagsMoreBtn.getAttribute('data-label-more') || 'MORE';
+      var labelLess = tagsMoreBtn.getAttribute('data-label-less') || 'LESS';
+
+      // Reset (measure without MORE first)
+      filterWrap.classList.remove('is-expanded');
+      filterWrap.style.maxHeight = 'none';
+      filterWrap.style.overflow = 'visible';
+      tagsMoreItem.setAttribute('hidden', '');
+      void filterWrap.offsetHeight;
+
+      var needsToggle = hasWrappedTags(filterWrap);
+
+      if (!needsToggle) {
+        state.tagsExpanded = false;
+        filterWrap.style.maxHeight = '';
+        filterWrap.style.overflow = '';
+        filterWrap.classList.remove('is-expanded');
+        tagsMoreItem.setAttribute('hidden', '');
+        tagsMoreBtn.setAttribute('aria-expanded', 'false');
+        tagsMoreBtn.textContent = labelMore;
+        return;
+      }
+
+      // Show MORE/LESS via float:right — no overlap, row 2+ still full width
+      tagsMoreItem.removeAttribute('hidden');
+      tagsMoreBtn.textContent = state.tagsExpanded ? labelLess : labelMore;
+      tagsMoreBtn.setAttribute('aria-expanded', state.tagsExpanded ? 'true' : 'false');
+      void filterWrap.offsetHeight;
+
+      if (state.tagsExpanded) {
+        filterWrap.classList.add('is-expanded');
+        filterWrap.style.maxHeight = '';
+        filterWrap.style.overflow = '';
+      } else {
+        var rowMax = getFirstRowMaxHeight(filterWrap);
+        filterWrap.classList.remove('is-expanded');
+        filterWrap.style.overflow = '';
+        filterWrap.style.maxHeight = rowMax > 0 ? rowMax + 'px' : '';
+      }
+    }
+
+    function scheduleTagsSync() {
+      window.requestAnimationFrame(function () {
+        window.requestAnimationFrame(syncTagsOverflow);
+      });
+    }
+
+    function onTagsMoreClick(e) {
+      e.preventDefault();
+      state.tagsExpanded = !state.tagsExpanded;
+      syncTagsOverflow();
+    }
+
+    function getCols() {
+      return mqDesktop.matches ? pcCols : mobCols;
+    }
+
+    function parseTags(str) {
+      if (!str) return [];
+      return String(str)
+        .split(',')
+        .map(function (t) {
+          return t.trim().toLowerCase();
+        })
+        .filter(Boolean);
+    }
+
+    function itemMatches(item, tag) {
+      if (!tag || tag === 'ALL') return true;
+      var tags = parseTags(item.getAttribute('data-tags'));
+      return tags.indexOf(tag.toLowerCase()) !== -1;
+    }
+
+    function getMatchedItems() {
+      return items.filter(function (item) {
+        return itemMatches(item, state.activeTag);
+      });
+    }
+
+    function promoteLazyImage(img) {
+      if (!img || img.dataset.lbPromoted === '1') return;
+      var fullSrc = img.getAttribute('data-src');
+      if (!fullSrc) {
+        img.dataset.lbPromoted = '1';
+        return;
+      }
+
+      var srcset = img.getAttribute('data-srcset');
+      var sizes = img.getAttribute('data-sizes');
+      if (srcset) img.setAttribute('srcset', srcset);
+      if (sizes) img.setAttribute('sizes', sizes);
+      img.setAttribute('src', fullSrc);
+      img.removeAttribute('data-src');
+      img.removeAttribute('data-srcset');
+      img.removeAttribute('data-sizes');
+      img.dataset.lbPromoted = '1';
+    }
+
+    function animateImage(img) {
+      if (!img || img.classList.contains('is-loaded')) return;
+
+      var reveal = function () {
+        if (reduceMotion) {
+          img.classList.add('is-loaded');
+          notifyCrossfadeFromImg(img);
+          return;
+        }
+        if (hasGsap) {
+          gsap.fromTo(
+            img,
+            { opacity: 0, scale: 1.04 },
+            {
+              opacity: 1,
+              scale: 1,
+              duration: 0.65,
+              ease: 'power2.out',
+              clearProps: 'transform',
+              onComplete: function () {
+                img.classList.add('is-loaded');
+                notifyCrossfadeFromImg(img);
+              }
+            }
+          );
+        } else {
+          img.classList.add('is-loaded');
+          notifyCrossfadeFromImg(img);
+        }
+      };
+
+      if (img.complete && img.naturalWidth > 0 && !img.getAttribute('data-src')) {
+        reveal();
+      } else {
+        img.addEventListener('load', reveal, { once: true });
+        img.addEventListener(
+          'error',
+          function () {
+            img.classList.add('is-loaded');
+            notifyCrossfadeFromImg(img);
+          },
+          { once: true }
+        );
+      }
+    }
+
+    function notifyCrossfadeFromImg(img) {
+      if (!crossfade || !img) return;
+      var item = img.closest('[data-lookbook-item]');
+      if (item) crossfade.onItemReady(item);
+    }
+
+    function animateItemEnter(item, delay) {
+      if (!item || item.hasAttribute('hidden')) return;
+
+      var img = item.querySelector('img.lookbook-grid__img:not(.lookbook-grid__img--alt)');
+      promoteLazyImage(img);
+
+      if (reduceMotion) {
+        item.classList.add('is-inview', 'is-animated');
+        if (img) img.classList.add('is-loaded');
+        return;
+      }
+
+      if (item.classList.contains('is-inview') && item.classList.contains('is-animated')) {
+        if (img) animateImage(img);
+        return;
+      }
+
+      if (hasGsap) {
+        gsap.killTweensOf(item);
+        gsap.fromTo(
+          item,
+          { opacity: 0, y: 18 },
+          {
+            opacity: 1,
+            y: 0,
+            duration: 0.55,
+            delay: delay || 0,
+            ease: 'power2.out',
+            clearProps: 'transform',
+            onStart: function () {
+              item.classList.add('is-inview');
+            },
+            onComplete: function () {
+              item.classList.add('is-animated');
+              if (crossfade) crossfade.onItemReady(item);
+            }
+          }
+        );
+      } else {
+        item.style.transitionDelay = (delay || 0) + 's';
+        item.classList.add('is-inview');
+        window.setTimeout(function () {
+          item.classList.add('is-animated');
+          item.style.transitionDelay = '';
+          if (crossfade) crossfade.onItemReady(item);
+        }, 550 + Math.round((delay || 0) * 1000));
+      }
+
+      if (img) animateImage(img);
+    }
+
+    function resetItemAnimation(item) {
+      if (!item) return;
+      if (crossfade) crossfade.pauseItem(item);
+      item.classList.remove('is-inview', 'is-animated');
+      if (hasGsap) gsap.killTweensOf(item);
+      if (!reduceMotion) {
+        item.style.opacity = '';
+        item.style.transform = '';
+      }
+      var img = item.querySelector('img.lookbook-grid__img:not(.lookbook-grid__img--alt)');
+      if (img && !img.classList.contains('is-loaded')) {
+        if (hasGsap) gsap.killTweensOf(img);
+      }
+    }
+
+    /* —— Dual-image crossfade controller (viewport + concurrency capped) —— */
+    var crossfade = null;
+
+    function createCrossfadeController() {
+      if (reduceMotion || !('IntersectionObserver' in window)) {
+        return {
+          onItemReady: function () {},
+          pauseItem: function () {},
+          refresh: function () {},
+          destroy: function () {}
+        };
+      }
+
+      var MAX_FADING = 4;
+      var fadingCount = 0;
+      var waiting = [];
+      var states = new WeakMap();
+      var pageHidden = document.visibilityState === 'hidden';
+
+      function rand(min, max) {
+        return min + Math.random() * (max - min);
+      }
+
+      function getState(media) {
+        var s = states.get(media);
+        if (!s) {
+          s = {
+            media: media,
+            item: media.closest('[data-lookbook-item]'),
+            inView: false,
+            ready: false,
+            timer: null,
+            fadeTimer: null,
+            fading: false,
+            queued: false
+          };
+          states.set(media, s);
+        }
+        return s;
+      }
+
+      function clearTimers(s) {
+        if (s.timer) {
+          window.clearTimeout(s.timer);
+          s.timer = null;
+        }
+        if (s.fadeTimer) {
+          window.clearTimeout(s.fadeTimer);
+          s.fadeTimer = null;
+        }
+      }
+
+      function dequeueWaiting(media) {
+        var idx = waiting.indexOf(media);
+        if (idx !== -1) waiting.splice(idx, 1);
+        var s = states.get(media);
+        if (s) s.queued = false;
+      }
+
+      function endFade(s) {
+        if (!s.fading) return;
+        s.fading = false;
+        s.media.classList.remove('is-fading');
+        fadingCount = Math.max(0, fadingCount - 1);
+        flushQueue();
+      }
+
+      function flushQueue() {
+        while (fadingCount < MAX_FADING && waiting.length) {
+          var media = waiting.shift();
+          var s = states.get(media);
+          if (!s) continue;
+          s.queued = false;
+          if (!s.inView || pageHidden || !s.ready) continue;
+          startFade(s);
+        }
+      }
+
+      function scheduleDwell(s) {
+        clearTimers(s);
+        if (!s.inView || pageHidden || !s.ready) return;
+        var dwell = Math.round(rand(3000, 6000));
+        s.timer = window.setTimeout(function () {
+          s.timer = null;
+          requestFade(s);
+        }, dwell);
+      }
+
+      function requestFade(s) {
+        if (!s.inView || pageHidden || !s.ready || s.fading) return;
+        if (fadingCount >= MAX_FADING) {
+          if (!s.queued) {
+            s.queued = true;
+            waiting.push(s.media);
+          }
+          return;
+        }
+        startFade(s);
+      }
+
+      function startFade(s) {
+        if (!s.inView || pageHidden || !s.ready || s.fading) return;
+
+        var imgs = s.media.querySelectorAll('img.lookbook-grid__img');
+        if (imgs.length < 2) return;
+
+        var duration = Math.round(rand(800, 1200));
+        s.media.style.setProperty('--cf-duration', duration + 'ms');
+        s.media.classList.add('is-fading');
+        s.fading = true;
+        fadingCount += 1;
+
+        var active = s.media.querySelector('img.lookbook-grid__img.is-active');
+        var next = null;
+        for (var i = 0; i < imgs.length; i += 1) {
+          if (imgs[i] !== active) {
+            next = imgs[i];
+            break;
+          }
+        }
+        if (!active || !next) {
+          endFade(s);
+          scheduleDwell(s);
+          return;
+        }
+
+        active.classList.remove('is-active');
+        next.classList.add('is-active');
+
+        var done = false;
+        var finish = function () {
+          if (done) return;
+          done = true;
+          next.removeEventListener('transitionend', onEnd);
+          clearTimers(s);
+          endFade(s);
+          scheduleDwell(s);
+        };
+
+        var onEnd = function (e) {
+          if (e.target !== next || e.propertyName !== 'opacity') return;
+          finish();
+        };
+
+        next.addEventListener('transitionend', onEnd);
+        s.fadeTimer = window.setTimeout(finish, duration + 80);
+      }
+
+      function ensureAltLoaded(s, cb) {
+        var alt = s.media.querySelector('img.lookbook-grid__img--alt');
+        if (!alt) {
+          cb(false);
+          return;
+        }
+        promoteLazyImage(alt);
+
+        var mark = function () {
+          alt.classList.add('is-loaded');
+          cb(true);
+        };
+
+        if (alt.complete && alt.naturalWidth > 0 && !alt.getAttribute('data-src')) {
+          mark();
+        } else {
+          alt.addEventListener('load', mark, { once: true });
+          alt.addEventListener(
+            'error',
+            function () {
+              cb(false);
+            },
+            { once: true }
+          );
+        }
+      }
+
+      function tryActivate(s) {
+        if (!s.inView || pageHidden) return;
+        if (!s.item || s.item.hasAttribute('hidden')) return;
+        if (!s.item.classList.contains('is-animated')) return;
+
+        var primary = s.media.querySelector('img.lookbook-grid__img:not(.lookbook-grid__img--alt)');
+        if (!primary || !primary.classList.contains('is-loaded')) {
+          if (primary) {
+            primary.addEventListener(
+              'transitionend',
+              function () {
+                tryActivate(s);
+              },
+              { once: true }
+            );
+            // Fallback if no transition
+            window.setTimeout(function () {
+              if (primary.classList.contains('is-loaded')) tryActivate(s);
+            }, 700);
+          }
+          return;
+        }
+
+        ensureAltLoaded(s, function (ok) {
+          if (!ok || !s.inView || pageHidden) return;
+          s.ready = true;
+          s.media.classList.add('is-cf-ready');
+          var startDelay = Math.round(rand(0, 1500));
+          clearTimers(s);
+          s.timer = window.setTimeout(function () {
+            s.timer = null;
+            requestFade(s);
+          }, startDelay);
+        });
+      }
+
+      function enter(media) {
+        var s = getState(media);
+        s.inView = true;
+        tryActivate(s);
+      }
+
+      function leave(media) {
+        var s = getState(media);
+        s.inView = false;
+        s.ready = false;
+        dequeueWaiting(media);
+        clearTimers(s);
+        if (s.fading) endFade(s);
+        s.media.classList.remove('is-cf-ready', 'is-fading');
+        s.media.style.removeProperty('--cf-duration');
+      }
+
+      var cfIo = new IntersectionObserver(
+        function (entries) {
+          entries.forEach(function (entry) {
+            if (entry.isIntersecting) enter(entry.target);
+            else leave(entry.target);
+          });
+        },
+        {
+          root: null,
+          rootMargin: '100px 0px',
+          threshold: 0.15
+        }
+      );
+
+      function observeAll() {
+        root.querySelectorAll('[data-lookbook-crossfade]').forEach(function (media) {
+          var item = media.closest('[data-lookbook-item]');
+          if (!item || item.hasAttribute('hidden')) {
+            leave(media);
+            cfIo.unobserve(media);
+            return;
+          }
+          cfIo.observe(media);
+        });
+      }
+
+      document.addEventListener('visibilitychange', function () {
+        pageHidden = document.visibilityState === 'hidden';
+        if (pageHidden) {
+          root.querySelectorAll('[data-lookbook-crossfade]').forEach(function (media) {
+            var s = states.get(media);
+            if (!s) return;
+            dequeueWaiting(media);
+            clearTimers(s);
+            if (s.fading) endFade(s);
+            s.media.classList.remove('is-fading');
+          });
+          waiting.length = 0;
+        } else {
+          root.querySelectorAll('[data-lookbook-crossfade]').forEach(function (media) {
+            var s = states.get(media);
+            if (s && s.inView) tryActivate(s);
+          });
+        }
+      });
+
+      observeAll();
+
+      return {
+        onItemReady: function (item) {
+          if (!item) return;
+          var media = item.querySelector('[data-lookbook-crossfade]');
+          if (!media) return;
+          var s = getState(media);
+          if (s.inView) tryActivate(s);
+        },
+        pauseItem: function (item) {
+          if (!item) return;
+          var media = item.querySelector('[data-lookbook-crossfade]');
+          if (!media) return;
+          leave(media);
+          cfIo.unobserve(media);
+        },
+        refresh: function () {
+          observeAll();
+        },
+        destroy: function () {
+          cfIo.disconnect();
+          waiting.length = 0;
+        }
+      };
+    }
+
+    crossfade = createCrossfadeController();
+
+    function observeVisibleItems() {
+      if (io) {
+        items.forEach(function (item) {
+          io.unobserve(item);
+          if (!item.hasAttribute('hidden')) {
+            io.observe(item);
+          }
+        });
+      }
+      if (crossfade) crossfade.refresh();
+    }
+
+    function setupObserver() {
+      if (!('IntersectionObserver' in window)) {
+        items.forEach(function (item, i) {
+          if (!item.hasAttribute('hidden')) {
+            animateItemEnter(item, Math.min(i, 8) * 0.05);
+          }
+        });
+        return;
+      }
+
+      io = new IntersectionObserver(
+        function (entries) {
+          var batch = entries
+            .filter(function (entry) {
+              return entry.isIntersecting;
+            })
+            .map(function (entry) {
+              return entry.target;
+            });
+
+          batch.forEach(function (item, i) {
+            io.unobserve(item);
+            animateItemEnter(item, Math.min(i, 10) * 0.06);
+          });
+        },
+        {
+          root: null,
+          rootMargin: '80px 0px',
+          threshold: 0.12
+        }
+      );
+
+      observeVisibleItems();
+    }
+
+    function placeMenu(matched) {
+      var hasMore = state.visibleCount < matched.length;
+      menuRow.hidden = !hasMore;
+    }
+
+    function render(options) {
+      options = options || {};
+      var matched = getMatchedItems();
+      var cols = getCols();
+      var minVisible = cols * initialRows;
+
+      if (state.visibleCount < minVisible) {
+        state.visibleCount = Math.min(minVisible, matched.length);
+      }
+      if (state.visibleCount > matched.length) {
+        state.visibleCount = matched.length;
+      }
+
+      var shownIndex = 0;
+      items.forEach(function (item) {
+        var wasHidden = item.hasAttribute('hidden');
+        if (!itemMatches(item, state.activeTag)) {
+          item.hidden = true;
+          resetItemAnimation(item);
+          return;
+        }
+        if (shownIndex < state.visibleCount) {
+          item.hidden = false;
+          // Re-animate when newly shown via filter / MENU
+          if (options.forceAnimate || wasHidden) {
+            resetItemAnimation(item);
+          }
+          shownIndex += 1;
+        } else {
+          item.hidden = true;
+          resetItemAnimation(item);
+        }
+      });
+
+      placeMenu(matched);
+      observeVisibleItems();
+
+      // Fallback if IO missing: animate immediately
+      if (!io) {
+        var delayIndex = 0;
+        items.forEach(function (item) {
+          if (item.hasAttribute('hidden')) return;
+          if (options.forceAnimate || !item.classList.contains('is-animated')) {
+            animateItemEnter(item, Math.min(delayIndex, 10) * 0.06);
+            delayIndex += 1;
+          }
+        });
+      }
+    }
+
+    function setActiveFilter(btn) {
+      if (!filterWrap) return;
+      var buttons = filterWrap.querySelectorAll('.lookbook-grid__filter-btn');
+      buttons.forEach(function (b) {
+        var active = b === btn;
+        b.classList.toggle('is-active', active);
+        b.setAttribute('aria-pressed', active ? 'true' : 'false');
+      });
+    }
+
+    function onFilterClick(e) {
+      var btn = e.target.closest('[data-tag]');
+      if (!btn || !filterWrap.contains(btn)) return;
+
+      var tag = btn.getAttribute('data-tag') || 'ALL';
+      if (tag === state.activeTag) return;
+
+      state.activeTag = tag;
+      state.visibleCount = getCols() * initialRows;
+      setActiveFilter(btn);
+      render({ forceAnimate: true });
+    }
+
+    function onMenuClick(e) {
+      e.preventDefault();
+
+      var matched = getMatchedItems();
+      var step = getCols() * rowsPerLoad;
+      state.visibleCount = Math.min(state.visibleCount + step, matched.length);
+      render();
+    }
+
+    function onResize() {
+      var minVisible = getCols() * initialRows;
+      if (state.visibleCount < minVisible) {
+        state.visibleCount = minVisible;
+      }
+      render();
+      scheduleTagsSync();
+    }
+
+    function initModalSwiper(modal) {
+      if (typeof Swiper === 'undefined') return;
+      var el = modal.querySelector('[data-lookbook-swiper]');
+      if (!el) return;
+
+      var slideCount = parseInt(modal.getAttribute('data-slide-count'), 10) || el.querySelectorAll('.swiper-slide').length;
+      var multi = slideCount > 1;
+      var paginationEl = el.querySelector('[data-lookbook-pagination]');
+
+      if (el.swiper) {
+        el.swiper.update();
+        el.swiper.slideTo(0, 0);
+        return;
+      }
+
+      new Swiper(el, {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        loop: multi && slideCount > 2,
+        speed: 450,
+        allowTouchMove: multi,
+        watchOverflow: true,
+        pagination:
+          multi && paginationEl
+            ? {
+                el: paginationEl,
+                clickable: true
+              }
+            : undefined,
+        on: {
+          init: function () {
+            this.update();
+          }
+        }
+      });
+    }
+
+    function getNavigableLooks() {
+      return getMatchedItems();
+    }
+
+    function updateLookNavVisibility(modal) {
+      if (!modal) return;
+      var show = getNavigableLooks().length > 1;
+      var buttons = modal.querySelectorAll('[data-lookbook-look-prev], [data-lookbook-look-next]');
+      buttons.forEach(function (btn) {
+        btn.hidden = !show;
+        btn.disabled = !show;
+      });
+    }
+
+    function goToAdjacentLook(currentModal, direction) {
+      var list = getNavigableLooks();
+      if (!currentModal || list.length < 2) return;
+
+      var blockId = currentModal.getAttribute('data-block-id');
+      var idx = -1;
+      for (var i = 0; i < list.length; i += 1) {
+        if (list[i].getAttribute('data-block-id') === blockId) {
+          idx = i;
+          break;
+        }
+      }
+      if (idx < 0) idx = 0;
+
+      var nextItem = list[(idx + direction + list.length) % list.length];
+      if (!nextItem) return;
+
+      var nextBlockId = nextItem.getAttribute('data-block-id');
+      var nextModal = root.querySelector(
+        '[data-lookbook-modal][data-block-id="' + nextBlockId + '"]'
+      );
+      if (!nextModal || nextModal === currentModal) return;
+
+      var opener = nextItem.querySelector('[data-lookbook-open]') || currentModal.openedBy;
+
+      if (typeof currentModal.close === 'function') {
+        currentModal.close();
+      }
+      if (typeof nextModal.open === 'function') {
+        nextModal.open(opener);
+      }
+    }
+
+    function setupLookNavigation() {
+      root.addEventListener('click', function (e) {
+        var prevBtn = e.target.closest('[data-lookbook-look-prev]');
+        var nextBtn = e.target.closest('[data-lookbook-look-next]');
+        if (!prevBtn && !nextBtn) return;
+
+        var navBtn = prevBtn || nextBtn;
+        if (navBtn.disabled || navBtn.hidden) return;
+
+        var modal = e.target.closest('[data-lookbook-modal]');
+        if (!modal || !root.contains(modal) || !modal.hasAttribute('open')) return;
+
+        e.preventDefault();
+        e.stopPropagation();
+        goToAdjacentLook(modal, prevBtn ? -1 : 1);
+      });
+    }
+
+    function setupModals() {
+      var modals = root.querySelectorAll('[data-lookbook-modal]');
+      if (!modals.length) return;
+
+      modals.forEach(function (modal) {
+        var observer = new MutationObserver(function (mutations) {
+          mutations.forEach(function (mutation) {
+            if (mutation.attributeName !== 'open') return;
+            if (modal.hasAttribute('open')) {
+              updateLookNavVisibility(modal);
+              // Wait a tick so modal layout is visible before Swiper measures
+              window.requestAnimationFrame(function () {
+                initModalSwiper(modal);
+              });
+            }
+          });
+        });
+        observer.observe(modal, { attributes: true, attributeFilter: ['open'] });
+      });
+    }
+
+    if (filterWrap) {
+      filterWrap.addEventListener('click', onFilterClick);
+    }
+    if (tagsMoreBtn) {
+      tagsMoreBtn.addEventListener('click', onTagsMoreClick);
+    }
+    menuBtn.addEventListener('click', onMenuClick);
+
+    var resizeTimer;
+    window.addEventListener('resize', function () {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(onResize, 150);
+    });
+
+    document.addEventListener('shopify:section:load', function (event) {
+      if (event.detail && event.detail.sectionId === root.dataset.sectionId) {
+        root.dataset.lookbookBound = '0';
+      }
+    });
+
+    state.visibleCount = getCols() * initialRows;
+    setupObserver();
+    render();
+    setupModals();
+    setupLookNavigation();
+    scheduleTagsSync();
+
+    if (document.fonts && document.fonts.ready) {
+      document.fonts.ready.then(scheduleTagsSync);
+    }
+    window.addEventListener('load', scheduleTagsSync);
+
+    var filtersPanel = root.querySelector('[data-lookbook-filters-panel]');
+    if (filtersPanel && typeof ResizeObserver !== 'undefined') {
+      var tagsRo = new ResizeObserver(function () {
+        scheduleTagsSync();
+      });
+      tagsRo.observe(filtersPanel);
+    }
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Lookbook Grid",
+  "tag": "section",
+  "class": "section-lookbook-grid",
+  "max_blocks": 50,
+  "disabled_on": {
+    "groups": ["aside"]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Title",
+      "default": "LOOKBOOK"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full page width",
+      "default": false,
+      "info": "Ignore max width and use the full page width"
+    },
+    {
+      "type": "range",
+      "id": "max_width",
+      "min": 800,
+      "max": 1920,
+      "step": 20,
+      "unit": "px",
+      "label": "Section max width",
+      "default": 1400,
+      "info": "Used when Full page width is off"
+    },
+    {
+      "type": "range",
+      "id": "side_padding",
+      "min": 0,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "label": "Side padding (desktop)",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "side_padding_mobile",
+      "min": 0,
+      "max": 48,
+      "step": 4,
+      "unit": "px",
+      "label": "Side padding (mobile)",
+      "default": 16
+    },
+    {
+      "type": "select",
+      "id": "title_alignment",
+      "label": "Title alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "tags_alignment",
+      "label": "Tag filter alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "text",
+      "id": "tags_more_label",
+      "label": "Tags more button text",
+      "default": "MORE"
+    },
+    {
+      "type": "text",
+      "id": "tags_less_label",
+      "label": "Tags less button text",
+      "default": "LESS"
+    },
+    {
+      "type": "header",
+      "content": "Modal"
+    },
+    {
+      "type": "text",
+      "id": "products_heading",
+      "label": "Products heading",
+      "default": "ITEMS FOR THIS STYLE"
+    },
+    {
+      "type": "text",
+      "id": "shop_now_label",
+      "label": "Shop Now label",
+      "default": "Shop Now"
+    },
+    {
+      "type": "text",
+      "id": "empty_products_text",
+      "label": "Empty products message",
+      "default": "No products selected"
+    },
+    {
+      "type": "color",
+      "id": "modal_background",
+      "label": "Modal background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "modal_text_color",
+      "label": "Modal text",
+      "default": "#222222"
+    },
+    {
+      "type": "color",
+      "id": "modal_muted_color",
+      "label": "Modal muted text",
+      "default": "#666666"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "min": 20,
+      "max": 90,
+      "step": 5,
+      "unit": "%",
+      "label": "Modal overlay opacity",
+      "default": 55
+    },
+    {
+      "type": "header",
+      "content": "Grid — Desktop"
+    },
+    {
+      "type": "select",
+      "id": "image_shape",
+      "label": "Image shape",
+      "options": [
+        {
+          "value": "natural",
+          "label": "Adapt to image"
+        },
+        {
+          "value": "shortest",
+          "label": "Automatic (shortest image)"
+        },
+        {
+          "value": "tallest",
+          "label": "Automatic (tallest image)"
+        },
+        {
+          "value": "landscape-32",
+          "label": "Landscape (3:2)"
+        },
+        {
+          "value": "landscape-54",
+          "label": "Landscape (5:4)"
+        },
+        {
+          "value": "square",
+          "label": "Square (1:1)"
+        },
+        {
+          "value": "portrait-45",
+          "label": "Portrait (4:5)"
+        },
+        {
+          "value": "portrait-34",
+          "label": "Portrait (3:4)"
+        },
+        {
+          "value": "portrait-23",
+          "label": "Portrait (2:3)"
+        }
+      ],
+      "default": "portrait-34",
+      "info": "Applies to grid thumbnails (Image 1). Does not affect the modal slider."
+    },
+    {
+      "type": "range",
+      "id": "pc_columns",
+      "min": 2,
+      "max": 5,
+      "step": 1,
+      "label": "Columns per row (PC)",
+      "default": 3
+    },
+    {
+      "type": "range",
+      "id": "pc_gap",
+      "min": 0,
+      "max": 100,
+      "step": 2,
+      "unit": "px",
+      "label": "Gap (PC)",
+      "default": 12
+    },
+    {
+      "type": "header",
+      "content": "Grid — Mobile"
+    },
+    {
+      "type": "select",
+      "id": "mobile_columns",
+      "label": "Columns per row (Mobile)",
+      "options": [
+        { "value": "1", "label": "1" },
+        { "value": "2", "label": "2" }
+      ],
+      "default": "2"
+    },
+    {
+      "type": "header",
+      "content": "Pagination (MENU)"
+    },
+    {
+      "type": "range",
+      "id": "initial_rows",
+      "min": 1,
+      "max": 8,
+      "step": 1,
+      "label": "Initial rows visible",
+      "default": 2,
+      "info": "Initial items = current columns × initial rows"
+    },
+    {
+      "type": "range",
+      "id": "rows_per_load",
+      "min": 1,
+      "max": 6,
+      "step": 1,
+      "label": "Rows loaded per MENU click",
+      "default": 2
+    },
+    {
+      "type": "text",
+      "id": "menu_label",
+      "label": "MENU button text",
+      "default": "MENU"
+    },
+    {
+      "type": "select",
+      "id": "menu_alignment",
+      "label": "MENU button alignment",
+      "options": [
+        { "value": "left", "label": "Left" },
+        { "value": "center", "label": "Center" },
+        { "value": "right", "label": "Right" }
+      ],
+      "default": "center"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "look",
+      "name": "Look",
+      "settings": [
+        {
+          "type": "header",
+          "content": "Images (for modal slider)"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_1",
+          "label": "Image 1",
+          "info": "Grid thumbnail + first slide. Required."
+        },
+        {
+          "type": "image_picker",
+          "id": "image_2",
+          "label": "Image 2"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_3",
+          "label": "Image 3"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_4",
+          "label": "Image 4"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_5",
+          "label": "Image 5"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_6",
+          "label": "Image 6"
+        },
+        {
+          "type": "text",
+          "id": "tags",
+          "label": "Tags",
+          "default": "SALE, T-SHIRTS",
+          "info": "Comma-separated. One look can have multiple tags."
+        },
+        {
+          "type": "product_list",
+          "id": "product_list",
+          "label": "Related products",
+          "limit": 12,
+          "info": "Shown in modal as ITEMS FOR THIS STYLE"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Lookbook Grid",
+      "blocks": [
+        { "type": "look" },
+        { "type": "look" },
+        { "type": "look" },
+        { "type": "look" },
+        { "type": "look" },
+        { "type": "look" }
+      ]
+    }
+  ]
+}
+{% endschema %}

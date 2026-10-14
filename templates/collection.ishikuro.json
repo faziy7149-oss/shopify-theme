@@ -1,0 +1,285 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_QUKa4w": {
+      "type": "slideshow",
+      "blocks": {
+        "image_gMxn9F": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20260106-175634.jpg",
+            "mobile_image": "shopify://shop_images/3_a196e19b-f15f-4bc5-ac11-2944c7c033dd.jpg",
+            "slide_link": "https://karakubuy.com/collections/karaku-ishiguroayako",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 33,
+            "title_size": 94,
+            "title_size_mobile": 34,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_gMxn9F"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 460,
+        "height_mobile": 620,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "rich_text_bebQTw": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_3AY8BA": {
+          "type": "heading",
+          "settings": {
+            "title": "KaraKuｘ365CAT.ART",
+            "use_h1": true
+          }
+        },
+        "text_HjFyVL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>5周年記念スペシャルコレクション本日より発売！<br/><br/>不思議で幻想的、それでいてどこかユーモラス──</p><p>絵描き・絵本作家の石黒亜矢子さんが描く独自の世界観と、KARAKUのアメカジスタイルが出会いました。</p><p> 纏うアート。着こなす怪しさ。<br/>日常に少しだけ“異世界”を連れてきてくれるような、<br/>不思議な存在感を放つ一着たちをぜひご覧ください。</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_3AY8BA",
+        "text_HjFyVL"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "collection_list_UMatkQ": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_dL3XUR": {
+          "type": "collection",
+          "settings": {
+            "collection": "casual",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_CnGAdF": {
+          "type": "collection",
+          "settings": {
+            "collection": "business",
+            "image": "shopify://shop_images/09b45cc61e451a48cc831f5c6eb891a0.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_CPWbCa": {
+          "type": "collection",
+          "settings": {
+            "collection": "urban-outdoor",
+            "image": "shopify://shop_images/e0b1bc00e2371c92c676cd7a426a4d4d.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_HyFAaP": {
+          "type": "collection",
+          "settings": {
+            "collection": "navy",
+            "image": "shopify://shop_images/85e3b13ed818a2cb62f8b53434edd859.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_dL3XUR",
+        "collection_CnGAdF",
+        "collection_CPWbCa",
+        "collection_HyFAaP"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "enable_carousel": true,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "gallery_4rXzJG": {
+      "type": "gallery",
+      "blocks": {
+        "media_M3kt6r": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/430_plus__pc_db6d142b-4b79-42e5-994e-0c11ae0e2754.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://karakubuy.com/collections/karaku%E2%85%B9ukiyo-e",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_GRttJT": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/426_plus__pc_2c6ed31f-b5e1-4c25-aea9-9f53abb4aa90.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://karakubuy.com/collections/karaku-plus-indigo",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_M3kt6r",
+        "media_GRttJT"
+      ],
+      "disabled": true,
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "adapt",
+        "desktop_image_height": 390,
+        "mobile_image_height": 140,
+        "title_size": 38,
+        "title_size_mobile": 18,
+        "enable_margin": true,
+        "enable_row_spacing": false,
+        "full_width": true,
+        "color_scheme": "default",
+        "enable_carousel": false,
+        "overlay_style": "full",
+        "overlay_padding": "standard",
+        "button_style": "primary"
+      }
+    },
+    "featured_collection_FAHRHc": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "在庫処分セール",
+        "collection": "stock-clearance-sale",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 5,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "text_editor_mdwGQi": {
+      "type": "text-editor",
+      "name": "Text editing",
+      "settings": {
+        "data_wrapper_1250": false,
+        "text1": "<p>{{ collection.metafields.commodity.productintroduction | metafield_tag }}</p>"
+      }
+    }
+  },
+  "order": [
+    "slideshow_QUKa4w",
+    "rich_text_bebQTw",
+    "main",
+    "1635765484031572a6",
+    "collection_list_UMatkQ",
+    "gallery_4rXzJG",
+    "featured_collection_FAHRHc",
+    "text_editor_mdwGQi"
+  ]
+}

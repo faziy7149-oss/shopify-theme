@@ -1,0 +1,1648 @@
+{% comment %}
+  Puzzle Product Showcase
+  左侧：每个拼图 Block = 一整页（上+中+下），多页自动错峰切换
+  右侧：Swiper 独立控制（穿搭组合页 / 主产品详情页）
+{% endcomment %}
+
+{%- liquid
+  assign section_id = 'puzzle-product-' | append: section.id
+  assign puzzle_blocks = section.blocks | where: 'type', 'puzzle_set'
+  assign accent = section.settings.accent_color | default: '#ff4d00'
+  assign slide_count = 0
+  for block in section.blocks
+    if block.type == 'slide' or block.type == 'slide_product'
+      assign slide_count = slide_count | plus: 1
+    endif
+  endfor
+-%}
+
+<style>
+  #{{ section_id }} {
+    --pps-accent: {{ accent }};
+    --pps-gap: {{ section.settings.column_gap }}px;
+    --pps-pad-y: {{ section.settings.padding_top }}px;
+    --pps-pad-b: {{ section.settings.padding_bottom }}px;
+    --pps-bg: {{ section.settings.background_color }};
+    --pps-radius: {{ section.settings.image_radius }}px;
+    --pps-puzzle-gap: {{ section.settings.puzzle_gap }}px;
+    --pps-puzzle-min-h: {{ section.settings.puzzle_min_height }}px;
+    --pps-look-h: {{ section.settings.look_height }}px;
+    --pps-look-fit: {{ section.settings.look_image_fit }};
+    --pps-puzzle-fit: {{ section.settings.puzzle_image_fit }};
+    padding: var(--pps-pad-y) 0 var(--pps-pad-b);
+    background: var(--pps-bg);
+    color: var(--pps-accent);
+  }
+
+  #{{ section_id }} .pps-wrap {
+    width: 100%;
+    max-width: {{ section.settings.max_width }}px;
+    margin: 0 auto;
+    padding: 0 {{ section.settings.side_padding }}px;
+    box-sizing: border-box;
+  }
+
+  #{{ section_id }} .pps__header {
+    text-align: center;
+    margin-bottom: clamp(28px, 4vw, 48px);
+  }
+
+  #{{ section_id }} .pps__eyebrow {
+    margin: 0 0 6px;
+    font-size: clamp(14px, 1.6vw, 18px);
+    font-weight: 600;
+    letter-spacing: 0.06em;
+    color: var(--pps-accent);
+  }
+
+  #{{ section_id }} .pps__title {
+    margin: 0;
+    font-size: clamp(28px, 4.2vw, 52px);
+    font-weight: 800;
+    letter-spacing: 0.04em;
+    line-height: 1.15;
+    text-transform: uppercase;
+    color: var(--pps-accent);
+  }
+
+  #{{ section_id }} .pps__subtitle {
+    margin: 10px 0 0;
+    font-size: clamp(13px, 1.4vw, 16px);
+    font-weight: 500;
+    line-height: 1.5;
+    color: var(--pps-accent);
+  }
+
+  #{{ section_id }} .pps {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: var(--pps-gap);
+    align-items: start;
+  }
+
+  @media (min-width: 990px) {
+    #{{ section_id }} .pps {
+      grid-template-columns: minmax(0, 1fr) minmax(0, 1.05fr);
+      align-items: stretch;
+      min-height: var(--pps-puzzle-min-h);
+    }
+  }
+
+  /* —— 左侧拼图 —— */
+  #{{ section_id }} .pps__puzzle {
+    display: flex;
+    flex-direction: column;
+    gap: var(--pps-puzzle-gap);
+    width: 100%;
+    max-width: 480px;
+    margin: 0 auto;
+    min-height: min(72vh, var(--pps-puzzle-min-h));
+    height: min(72vh, var(--pps-puzzle-min-h));
+  }
+
+  @media (min-width: 990px) {
+    #{{ section_id }} .pps__puzzle {
+      max-width: none;
+      height: 100%;
+      min-height: var(--pps-puzzle-min-h);
+    }
+  }
+
+  #{{ section_id }} .pps__band {
+    position: relative;
+    flex: 1;
+    min-height: 0;
+    overflow: hidden;
+    border-radius: 2px;
+    background: #f0f0f0;
+  }
+
+  #{{ section_id }} .pps__band-media {
+    position: absolute;
+    inset: -6%;
+    width: 112%;
+    height: 112%;
+    will-change: transform, opacity;
+    transform-origin: center center;
+  }
+
+  #{{ section_id }} .pps__band-media img,
+  #{{ section_id }} .pps__band-media .placeholder-svg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: var(--pps-puzzle-fit, cover);
+    object-position: center center;
+    pointer-events: none;
+    user-select: none;
+  }
+
+  /* contain 时去掉扩边，减少裁切感 */
+  #{{ section_id }}[data-puzzle-fit="contain"] .pps__band-media {
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  /* —— 右侧轮播 —— */
+  #{{ section_id }} .pps__carousel {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    height: 100%;
+  }
+
+  #{{ section_id }} .pps__carousel-body {
+    position: relative;
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    align-items: center;
+    gap: 8px;
+    flex: 1;
+  }
+
+  #{{ section_id }} .pps__nav-btn {
+    width: 36px;
+    height: 36px;
+    border: 1.5px solid var(--pps-accent);
+    border-radius: 50%;
+    background: transparent;
+    color: var(--pps-accent);
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0;
+    flex-shrink: 0;
+    transition: background 0.2s ease, color 0.2s ease;
+  }
+
+  #{{ section_id }} .pps__nav-btn:hover:not(:disabled) {
+    background: var(--pps-accent);
+    color: #fff;
+  }
+
+  #{{ section_id }} .pps__nav-btn:disabled {
+    opacity: 0.3;
+    cursor: default;
+  }
+
+  #{{ section_id }} .pps__nav-btn svg {
+    width: 14px;
+    height: 14px;
+    display: block;
+  }
+
+  #{{ section_id }} .pps__swiper-shell {
+    position: relative;
+    width: 100%;
+    min-width: 0;
+    height: 100%;
+  }
+
+  #{{ section_id }} .pps__swiper {
+    width: 100%;
+    min-width: 0;
+    overflow: hidden;
+  }
+
+  #{{ section_id }} .pps__swiper .swiper-slide {
+    height: auto;
+  }
+
+  /* 穿搭组合页：窄产品列 + 宽模特图 */
+  #{{ section_id }} .pps__slide--lookbook {
+    display: grid;
+    grid-template-columns: minmax(72px, 110px) minmax(0, 1fr);
+    grid-template-areas:
+      'products look'
+      'desc desc';
+    gap: 14px 16px;
+    align-items: start;
+  }
+
+  /* 主产品详情页 */
+  #{{ section_id }} .pps__slide--product {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 8px 12px 0;
+    max-width: 420px;
+    margin: 0 auto;
+  }
+
+  @media (max-width: 749px) {
+    #{{ section_id }} .pps__carousel-body {
+      grid-template-columns: 1fr;
+      gap: 0;
+      align-items: stretch;
+    }
+
+    #{{ section_id }} .pps__nav-btn {
+      position: absolute;
+      top: 42%;
+      z-index: 5;
+      width: 32px;
+      height: 32px;
+      background: #fff;
+      box-shadow: 0 1px 4px rgba(0, 0, 0, 0.12);
+    }
+
+    #{{ section_id }} .pps__nav-btn--prev { left: 2px; }
+    #{{ section_id }} .pps__nav-btn--next { right: 2px; }
+
+    /* 移动端穿搭组合：左产品列 + 右模特图并排（参考图） */
+    #{{ section_id }} .pps__slide--lookbook {
+      grid-template-columns: minmax(92px, 30%) minmax(0, 1fr);
+      grid-template-areas:
+        'products look'
+        'desc desc';
+      gap: 12px 10px;
+      padding: 0 4px;
+      align-items: stretch;
+      justify-items: stretch;
+    }
+
+    #{{ section_id }} .pps__slide--lookbook .pps__slide-products {
+      flex-direction: column;
+      flex-wrap: nowrap;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 6px;
+      width: 100%;
+      max-width: none;
+      align-self: start;
+    }
+
+    #{{ section_id }} .pps__slide--lookbook .pps__main-media {
+      max-width: 100%;
+      width: 100%;
+      border-radius: 10px;
+    }
+
+    #{{ section_id }} .pps__slide--lookbook .pps__plus {
+      font-size: 16px;
+      line-height: 1;
+      margin: 2px 0;
+    }
+
+    #{{ section_id }} .pps__slide--lookbook .pps__related {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: 6px;
+      width: 100%;
+      max-width: none;
+    }
+
+    #{{ section_id }} .pps__slide--lookbook .pps__related-item {
+      border-radius: 8px;
+    }
+
+
+
+    #{{ section_id }} .pps__slide--lookbook .pps__slide-look {
+      height: 100%;
+      min-height: 0;
+      display: flex;
+    }
+
+    #{{ section_id }} .pps__slide--lookbook .pps__look-media {
+      flex: 1 1 auto;
+      width: 100%;
+      height: auto;
+      min-height: 260px;
+      aspect-ratio: 3 / 4.35;
+      border-radius: 4px;
+    }
+
+    #{{ section_id }} .pps__slide--lookbook .pps__slide-desc {
+      margin-top: 4px;
+      text-align: center;
+      padding: 0 8px;
+    }
+
+    #{{ section_id }} .pps__slide--lookbook .pps__desc-text {
+      font-size: 12px;
+      line-height: 1.75;
+      text-align: center;
+    }
+
+    #{{ section_id }} .pps__fraction {
+      top: 6px;
+      right: 10px;
+      writing-mode: horizontal-tb;
+      text-orientation: mixed;
+      font-size: 12px;
+      letter-spacing: 0.06em;
+    }
+
+    #{{ section_id }} .pps__slide--product {
+      padding: 0 36px;
+    }
+
+    #{{ section_id }} .pps__bullets {
+      margin-top: 16px;
+    }
+  }
+
+  #{{ section_id }} .pps__slide-products {
+    grid-area: products;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8px;
+  }
+
+  #{{ section_id }} .pps__main-media {
+    width: 100%;
+    max-width: 96px;
+    aspect-ratio: 1 / 1;
+    border-radius: var(--pps-radius);
+    overflow: hidden;
+    background: #f5f5f5;
+  }
+
+  #{{ section_id }} .pps__main-media a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  #{{ section_id }} .pps__main-media img,
+  #{{ section_id }} .pps__main-media .placeholder-svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+  #{{ section_id }} .pps__plus {
+    font-size: 18px;
+    font-weight: 700;
+    line-height: 1;
+    color: var(--pps-accent);
+  }
+
+  #{{ section_id }} .pps__related {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 6px;
+    width: 100%;
+    max-width: 96px;
+  }
+
+  #{{ section_id }} .pps__related-item {
+    aspect-ratio: 1 / 1;
+    border-radius: 4px;
+    overflow: hidden;
+    background: #f0f0f0;
+    display: block;
+  }
+
+  #{{ section_id }} .pps__related-item img,
+  #{{ section_id }} .pps__related-item .placeholder-svg {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+  }
+
+
+
+  #{{ section_id }} .pps__slide-look {
+    grid-area: look;
+    position: relative;
+    min-width: 0;
+  }
+
+  #{{ section_id }} .pps__look-media {
+    width: 100%;
+    height: var(--pps-look-h);
+    max-height: none;
+    aspect-ratio: auto;
+    border-radius: 2px;
+    overflow: hidden;
+    background: #f0f0f0;
+  }
+
+  @media (max-width: 989px) {
+    #{{ section_id }} .pps__look-media {
+      height: auto;
+      min-height: min(56vh, var(--pps-look-h));
+      aspect-ratio: 3 / 4;
+    }
+  }
+
+  @media (min-width: 990px) {
+    #{{ section_id }} .pps__look-media {
+      height: var(--pps-look-h);
+      min-height: var(--pps-look-h);
+      max-height: var(--pps-look-h);
+      aspect-ratio: auto;
+    }
+  }
+
+  #{{ section_id }} .pps__look-media img,
+  #{{ section_id }} .pps__look-media .placeholder-svg {
+    width: 100%;
+    height: 100%;
+    object-fit: var(--pps-look-fit, cover);
+    object-position: center center;
+    display: block;
+  }
+
+  #{{ section_id }} .pps__fraction {
+    position: absolute;
+    top: 8px;
+    right: 8px;
+    z-index: 4;
+    writing-mode: vertical-rl;
+    text-orientation: mixed;
+    font-variant-numeric: tabular-nums;
+    font-size: 13px;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    color: var(--pps-accent);
+    pointer-events: none;
+  }
+
+  #{{ section_id }} .pps__slide-desc {
+    grid-area: desc;
+  }
+
+  #{{ section_id }} .pps__desc-text {
+    font-size: 13px;
+    line-height: 1.7;
+    color: var(--pps-accent);
+  }
+
+  #{{ section_id }} .pps__desc-text p {
+    margin: 0 0 0.6em;
+  }
+
+  #{{ section_id }} .pps__desc-text p:last-child {
+    margin-bottom: 0;
+  }
+
+  /* —— 主产品详情页样式 —— */
+  #{{ section_id }} .pps__product-hero {
+    width: 100%;
+    max-width: 320px;
+    aspect-ratio: 1 / 1;
+    margin: 0 auto 18px;
+    border-radius: var(--pps-radius);
+    overflow: hidden;
+    background: #f7f7f7;
+  }
+
+  #{{ section_id }} .pps__product-hero a {
+    display: block;
+    width: 100%;
+    height: 100%;
+  }
+
+  #{{ section_id }} .pps__product-hero img,
+  #{{ section_id }} .pps__product-hero .placeholder-svg {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    display: block;
+  }
+
+  #{{ section_id }} .pps__product-name {
+    margin: 0 0 6px;
+    font-size: clamp(16px, 2vw, 22px);
+    font-weight: 700;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--pps-accent);
+  }
+
+  #{{ section_id }} .pps__product-name a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  #{{ section_id }} .pps__product-meta {
+    margin: 0 0 12px;
+    font-size: 14px;
+    font-weight: 500;
+    color: var(--pps-accent);
+    opacity: 0.85;
+  }
+
+  #{{ section_id }} .pps__product-meta .pps__sep {
+    margin: 0 0.35em;
+    opacity: 0.5;
+  }
+
+  #{{ section_id }} .pps__slide--product .pps__desc-text {
+    text-align: left;
+    width: 100%;
+  }
+
+  #{{ section_id }} .pps__bullets {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    margin-top: 20px;
+    min-height: 12px;
+  }
+
+  #{{ section_id }} .pps__bullets .swiper-pagination-bullet {
+    width: 7px;
+    height: 7px;
+    margin: 0 !important;
+    background: #d0d0d0;
+    opacity: 1;
+    border-radius: 50%;
+  }
+
+  #{{ section_id }} .pps__bullets .swiper-pagination-bullet-active {
+    background: var(--pps-accent);
+    transform: scale(1.25);
+  }
+
+  #{{ section_id }} .pps__footer {
+    display: flex;
+    justify-content: center;
+    margin-top: clamp(28px, 4vw, 48px);
+  }
+
+  #{{ section_id }} .pps__all-items {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-width: min(420px, 88vw);
+    padding: 14px 32px;
+    border-radius: 999px;
+    background: var(--pps-accent);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    letter-spacing: 0.12em;
+    text-decoration: none;
+    text-transform: uppercase;
+    border: none;
+    cursor: pointer;
+  }
+
+  #{{ section_id }} .pps__empty {
+    padding: 40px 16px;
+    text-align: center;
+    color: #888;
+    font-size: 14px;
+  }
+</style>
+
+<div
+  id="{{ section_id }}"
+  class="puzzle-product-showcase"
+  data-pps
+  data-section-id="{{ section.id }}"
+  data-puzzle-fit="{{ section.settings.puzzle_image_fit }}"
+  data-look-fit="{{ section.settings.look_image_fit }}"
+>
+  <div class="pps-wrap">
+    {%- if section.settings.eyebrow != blank or section.settings.title != blank or section.settings.subtitle != blank -%}
+      <header class="pps__header">
+        {%- if section.settings.eyebrow != blank -%}
+          <p class="pps__eyebrow">{{ section.settings.eyebrow }}</p>
+        {%- endif -%}
+        {%- if section.settings.title != blank -%}
+          <h2 class="pps__title">{{ section.settings.title }}</h2>
+        {%- endif -%}
+        {%- if section.settings.subtitle != blank -%}
+          <p class="pps__subtitle">{{ section.settings.subtitle }}</p>
+        {%- endif -%}
+      </header>
+    {%- endif -%}
+
+    <div class="pps">
+      {%- liquid
+        assign first_set = puzzle_blocks | first
+        assign first_top = nil
+        assign first_mid = nil
+        assign first_bot = nil
+        if first_set != blank
+          assign first_top = first_set.settings.image_top
+          assign first_mid = first_set.settings.image_middle
+          assign first_bot = first_set.settings.image_bottom
+        endif
+      -%}
+
+      <div
+        class="pps__puzzle"
+        data-pps-puzzle
+        aria-label="拼图展示区"
+        data-puzzle-duration="{{ section.settings.puzzle_duration }}"
+        data-puzzle-stagger="{{ section.settings.puzzle_stagger }}"
+        data-puzzle-interval="{{ section.settings.puzzle_interval }}"
+        data-puzzle-offset="{{ section.settings.puzzle_offset }}"
+        data-puzzle-rotate="{{ section.settings.puzzle_rotate }}"
+      >
+        {%- liquid
+          assign band_positions = 'top,middle,bottom' | split: ','
+        -%}
+        {%- for band_pos in band_positions -%}
+          {%- liquid
+            case band_pos
+              when 'top'
+                assign band_img = first_top
+                assign band_index = 0
+              when 'middle'
+                assign band_img = first_mid
+                assign band_index = 1
+              else
+                assign band_img = first_bot
+                assign band_index = 2
+            endcase
+          -%}
+          <div
+            class="pps__band"
+            data-pps-band
+            data-band="{{ band_pos }}"
+            data-band-index="{{ band_index }}"
+          >
+            <div class="pps__band-media" data-pps-media>
+              {%- if band_img != blank -%}
+                {{
+                  band_img
+                  | image_url: width: 1200
+                  | image_tag:
+                    loading: 'eager',
+                    widths: '400,600,800,1200',
+                    sizes: '(min-width: 990px) 32vw, 90vw',
+                    alt: band_img.alt | default: shop.name
+                }}
+              {%- else -%}
+                {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
+              {%- endif -%}
+            </div>
+          </div>
+        {%- endfor -%}
+      </div>
+
+      {%- comment -%} 每页 = { top, middle, bottom } {%- endcomment -%}
+      <script type="application/json" data-pps-puzzle-json>
+        [
+          {%- for block in puzzle_blocks -%}
+            {
+              "id": {{ block.id | json }},
+              "top": {% if block.settings.image_top != blank %}{{ block.settings.image_top | image_url: width: 1200 | json }}{% else %}null{% endif %},
+              "middle": {% if block.settings.image_middle != blank %}{{ block.settings.image_middle | image_url: width: 1200 | json }}{% else %}null{% endif %},
+              "bottom": {% if block.settings.image_bottom != blank %}{{ block.settings.image_bottom | image_url: width: 1200 | json }}{% else %}null{% endif %}
+            }{%- unless forloop.last -%},{%- endunless -%}
+          {%- endfor -%}
+        ]
+      </script>
+
+      <div
+        class="pps__carousel"
+        data-pps-carousel
+        data-loop="{{ section.settings.enable_loop }}"
+        data-autoplay="{{ section.settings.enable_autoplay }}"
+        data-autoplay-delay="{{ section.settings.autoplay_delay }}"
+        data-speed="{{ section.settings.speed }}"
+      >
+        {%- if slide_count > 0 -%}
+          <div class="pps__carousel-body">
+            <button type="button" class="pps__nav-btn pps__nav-btn--prev" data-pps-prev aria-label="上一张">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M15 18l-6-6 6-6"/>
+              </svg>
+            </button>
+
+            <div class="pps__swiper-shell">
+              <div class="pps__fraction" data-pps-fraction aria-hidden="true">
+                <span data-pps-current>1</span>
+                <span> / </span>
+                <span data-pps-total>{{ slide_count }}</span>
+              </div>
+
+              <div class="swiper pps__swiper" data-pps-swiper>
+                <div class="swiper-wrapper">
+                  {%- for block in section.blocks -%}
+                    {%- if block.type == 'slide' -%}
+                      {%- liquid
+                        assign main_product = block.settings.main_product
+                        assign related_products = block.settings.related_products
+                        assign look_image = block.settings.look_image
+                        assign slide_desc = block.settings.description
+                      -%}
+                      <div class="swiper-slide" {{ block.shopify_attributes }} data-block-id="{{ block.id }}">
+                        <div class="pps__slide pps__slide--lookbook">
+                          <div class="pps__slide-products">
+                            <div class="pps__main-media">
+                              {%- if main_product != blank -%}
+                                <a href="{{ main_product.url }}" aria-label="{{ main_product.title | escape }}">
+                                  {%- if main_product.featured_media -%}
+                                    {{
+                                      main_product.featured_media.preview_image
+                                      | image_url: width: 400
+                                      | image_tag:
+                                        loading: 'lazy',
+                                        widths: '120,200,300,400',
+                                        sizes: '96px',
+                                        alt: main_product.title
+                                    }}
+                                  {%- else -%}
+                                    {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                                  {%- endif -%}
+                                </a>
+                              {%- else -%}
+                                {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                              {%- endif -%}
+                            </div>
+
+                            {%- if related_products != blank and related_products.size > 0 -%}
+                              <span class="pps__plus" aria-hidden="true">+</span>
+                              <div class="pps__related">
+                                {%- for related in related_products limit: 4 -%}
+                                  <a class="pps__related-item" href="{{ related.url }}" title="{{ related.title | escape }}">
+                                    {%- if related.featured_media -%}
+                                      {{
+                                        related.featured_media.preview_image
+                                        | image_url: width: 160
+                                        | image_tag:
+                                          loading: 'lazy',
+                                          widths: '60,90,160',
+                                          sizes: '44px',
+                                          alt: related.title
+                                      }}
+                                    {%- else -%}
+                                      {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                                    {%- endif -%}
+                                  </a>
+                                {%- endfor -%}
+                              </div>
+                            {%- endif -%}
+                          </div>
+
+                          <div class="pps__slide-look">
+                            <div class="pps__look-media">
+                              {%- if look_image != blank -%}
+                                {{
+                                  look_image
+                                  | image_url: width: 1400
+                                  | image_tag:
+                                    loading: 'lazy',
+                                    widths: '400,600,800,1200,1400',
+                                    sizes: '(min-width: 990px) 36vw, 80vw',
+                                    alt: look_image.alt | default: shop.name
+                                }}
+                              {%- elsif main_product != blank and main_product.featured_media -%}
+                                {{
+                                  main_product.featured_media.preview_image
+                                  | image_url: width: 1400
+                                  | image_tag:
+                                    loading: 'lazy',
+                                    widths: '400,600,800,1200,1400',
+                                    sizes: '(min-width: 990px) 36vw, 80vw',
+                                    alt: main_product.title
+                                }}
+                              {%- else -%}
+                                {{ 'lifestyle-2' | placeholder_svg_tag: 'placeholder-svg' }}
+                              {%- endif -%}
+                            </div>
+                          </div>
+
+                          <div class="pps__slide-desc">
+                            <div class="pps__desc-text rte">
+                              {%- if slide_desc != blank -%}
+                                {{ slide_desc }}
+                              {%- elsif section.settings.fallback_description != blank -%}
+                                {{ section.settings.fallback_description }}
+                              {%- endif -%}
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+
+                    {%- elsif block.type == 'slide_product' -%}
+                      {%- liquid
+                        assign main_product = block.settings.main_product
+                        assign product_image = block.settings.product_image
+                        assign slide_desc = block.settings.description
+                        assign display_title = block.settings.custom_title
+                        if display_title == blank and main_product != blank
+                          assign display_title = main_product.title
+                        endif
+                      -%}
+                      <div class="swiper-slide" {{ block.shopify_attributes }} data-block-id="{{ block.id }}">
+                        <div class="pps__slide pps__slide--product">
+                          <div class="pps__product-hero">
+                            {%- if main_product != blank -%}
+                              <a href="{{ main_product.url }}" aria-label="{{ main_product.title | escape }}">
+                                {%- if product_image != blank -%}
+                                  {{
+                                    product_image
+                                    | image_url: width: 900
+                                    | image_tag:
+                                      loading: 'lazy',
+                                      widths: '300,500,700,900',
+                                      sizes: '(min-width: 990px) 28vw, 70vw',
+                                      alt: display_title
+                                  }}
+                                {%- elsif main_product.featured_media -%}
+                                  {{
+                                    main_product.featured_media.preview_image
+                                    | image_url: width: 900
+                                    | image_tag:
+                                      loading: 'lazy',
+                                      widths: '300,500,700,900',
+                                      sizes: '(min-width: 990px) 28vw, 70vw',
+                                      alt: main_product.title
+                                  }}
+                                {%- else -%}
+                                  {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                                {%- endif -%}
+                              </a>
+                            {%- elsif product_image != blank -%}
+                              {{
+                                product_image
+                                | image_url: width: 900
+                                | image_tag:
+                                  loading: 'lazy',
+                                  widths: '300,500,700,900',
+                                  sizes: '(min-width: 990px) 28vw, 70vw',
+                                  alt: display_title | default: shop.name
+                              }}
+                            {%- else -%}
+                              {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                            {%- endif -%}
+                          </div>
+
+                          {%- if display_title != blank -%}
+                            <h3 class="pps__product-name">
+                              {%- if main_product != blank -%}
+                                <a href="{{ main_product.url }}">{{ display_title }}</a>
+                              {%- else -%}
+                                {{ display_title }}
+                              {%- endif -%}
+                            </h3>
+                          {%- endif -%}
+
+                          {%- if main_product != blank -%}
+                            <p class="pps__product-meta">
+                              {%- if main_product.vendor != blank -%}
+                                <span>{{ main_product.vendor }}</span>
+                                <span class="pps__sep">·</span>
+                              {%- endif -%}
+                              <span>{{ main_product.price | money }}</span>
+                            </p>
+                          {%- endif -%}
+
+                          <div class="pps__desc-text rte">
+                            {%- if slide_desc != blank -%}
+                              {{ slide_desc }}
+                            {%- elsif section.settings.fallback_description != blank -%}
+                              {{ section.settings.fallback_description }}
+                            {%- elsif main_product != blank and main_product.description != blank -%}
+                              {{ main_product.description | strip_html | truncate: 180 }}
+                            {%- endif -%}
+                          </div>
+                        </div>
+                      </div>
+                    {%- endif -%}
+                  {%- endfor -%}
+                </div>
+              </div>
+            </div>
+
+            <button type="button" class="pps__nav-btn pps__nav-btn--next" data-pps-next aria-label="下一张">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+                <path d="M9 18l6-6-6-6"/>
+              </svg>
+            </button>
+          </div>
+
+          <div class="pps__bullets" data-pps-bullets></div>
+        {%- else -%}
+          <div class="pps__empty">请添加「穿搭组合」或「主产品详情」滑块。</div>
+        {%- endif -%}
+      </div>
+    </div>
+
+    {%- if section.settings.all_items_label != blank -%}
+      <div class="pps__footer">
+        {%- if section.settings.all_items_link != blank -%}
+          <a class="pps__all-items" href="{{ section.settings.all_items_link }}">{{ section.settings.all_items_label }}</a>
+        {%- else -%}
+          <span class="pps__all-items">{{ section.settings.all_items_label }}</span>
+        {%- endif -%}
+      </div>
+    {%- endif -%}
+  </div>
+</div>
+
+<script>
+  (function () {
+    var sectionId = {{ section.id | json }};
+    var rootId = 'puzzle-product-' + sectionId;
+    var instanceKey = '__ppsPuzzle_' + sectionId;
+
+    /* 错峰序列：下→中→上 / 中→上→下 / 下→上→中 */
+    var BAND_SEQUENCES = [
+      [2, 1, 0],
+      [1, 0, 2],
+      [2, 0, 1]
+    ];
+    var BAND_KEYS = ['top', 'middle', 'bottom'];
+
+    function rand(min, max) {
+      return min + Math.random() * (max - min);
+    }
+
+    function prefersReducedMotion() {
+      return window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    }
+
+    function parseJson(root, sel) {
+      var node = root.querySelector(sel);
+      if (!node) return null;
+      try {
+        return JSON.parse(node.textContent || 'null');
+      } catch (e) {
+        return null;
+      }
+    }
+
+    function destroyInstance() {
+      var prev = window[instanceKey];
+      if (!prev) return;
+      if (prev.cleanup) prev.cleanup();
+      window[instanceKey] = null;
+    }
+
+    function initPuzzle(root) {
+      var puzzleEl = root.querySelector('[data-pps-puzzle]');
+      if (!puzzleEl) return { cleanup: function () {} };
+
+      var bands = Array.prototype.slice.call(puzzleEl.querySelectorAll('[data-pps-band]'));
+      var pages = parseJson(root, '[data-pps-puzzle-json]') || [];
+      var hasGsap = typeof gsap !== 'undefined';
+      var reduced = prefersReducedMotion();
+
+      var duration = (parseFloat(puzzleEl.getAttribute('data-puzzle-duration')) || 700) / 1000;
+      var stagger = (parseFloat(puzzleEl.getAttribute('data-puzzle-stagger')) || 180) / 1000;
+      var interval = parseFloat(puzzleEl.getAttribute('data-puzzle-interval')) || 3600;
+      var offsetMax = parseFloat(puzzleEl.getAttribute('data-puzzle-offset')) || 16;
+      var rotateMax = parseFloat(puzzleEl.getAttribute('data-puzzle-rotate')) || 4;
+
+      var pageIndex = 0;
+      var seqCursor = 0;
+      var timer = null;
+      var running = false;
+
+      function setMediaSource(media, src) {
+        if (!media) return;
+        var img = media.querySelector('img');
+        if (src) {
+          if (img) {
+            if (img.getAttribute('src') !== src) img.setAttribute('src', src);
+            img.removeAttribute('srcset');
+            return;
+          }
+          media.innerHTML = '';
+          img = document.createElement('img');
+          img.src = src;
+          img.alt = '';
+          img.decoding = 'async';
+          media.appendChild(img);
+          return;
+        }
+        if (!media.querySelector('.placeholder-svg') && !media.querySelector('svg')) {
+          media.innerHTML =
+            '<svg class="placeholder-svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 100 100" preserveAspectRatio="xMidYMid slice"><rect width="100" height="100" fill="#ececec"/></svg>';
+        }
+      }
+
+      function restPose(media, immediate) {
+        var pose = {
+          x: rand(-offsetMax * 0.45, offsetMax * 0.45),
+          y: rand(-offsetMax * 0.2, offsetMax * 0.2),
+          rotation: rand(-rotateMax, rotateMax),
+          scale: 1.02,
+          opacity: 1
+        };
+        if (!hasGsap || reduced || immediate) {
+          media.style.transform =
+            'translate(' + pose.x + 'px,' + pose.y + 'px) rotate(' + pose.rotation + 'deg) scale(' + pose.scale + ')';
+          media.style.opacity = '1';
+          return;
+        }
+        gsap.to(media, {
+          duration: duration * 0.5,
+          x: pose.x,
+          y: pose.y,
+          rotation: pose.rotation,
+          scale: pose.scale,
+          opacity: 1,
+          ease: 'power2.out',
+          overwrite: 'auto'
+        });
+      }
+
+      function applyInitialPose() {
+        bands.forEach(function (band) {
+          var media = band.querySelector('[data-pps-media]');
+          if (!media) return;
+          if (hasGsap && !reduced) {
+            gsap.set(media, {
+              x: rand(-offsetMax * 0.5, offsetMax * 0.5),
+              y: rand(-offsetMax * 0.25, offsetMax * 0.25),
+              rotation: rand(-rotateMax, rotateMax),
+              scale: 1.02,
+              opacity: 1
+            });
+          } else {
+            restPose(media, true);
+          }
+        });
+      }
+
+      function animateBandTo(bandIndex, src) {
+        var band = bands[bandIndex];
+        if (!band) return Promise.resolve();
+        var media = band.querySelector('[data-pps-media]');
+        if (!media) return Promise.resolve();
+
+        var outX = rand(offsetMax * 0.7, offsetMax * 1.2) * (Math.random() > 0.5 ? 1 : -1);
+        var outY = rand(offsetMax * 0.2, offsetMax * 0.6) * (Math.random() > 0.5 ? 1 : -1);
+        var outR = rand(rotateMax * 0.6, rotateMax * 1.2) * (Math.random() > 0.5 ? 1 : -1);
+
+        if (!hasGsap || reduced) {
+          setMediaSource(media, src);
+          restPose(media, true);
+          return Promise.resolve();
+        }
+
+        return new Promise(function (resolve) {
+          var half = duration * 0.42;
+          var tl = gsap.timeline({ onComplete: resolve });
+
+          tl.to(media, {
+            duration: half,
+            x: outX,
+            y: outY,
+            rotation: outR,
+            scale: 1.08,
+            opacity: 0.15,
+            ease: 'power2.in',
+            overwrite: 'auto'
+          });
+
+          tl.add(function () {
+            setMediaSource(media, src);
+          });
+
+          tl.fromTo(
+            media,
+            {
+              x: -outX * 0.65,
+              y: -outY * 0.65,
+              rotation: -outR * 0.65,
+              scale: 1.1,
+              opacity: 0.15
+            },
+            {
+              duration: duration * 0.58,
+              x: rand(-offsetMax * 0.45, offsetMax * 0.45),
+              y: rand(-offsetMax * 0.2, offsetMax * 0.2),
+              rotation: rand(-rotateMax, rotateMax),
+              scale: 1.02,
+              opacity: 1,
+              ease: 'power2.out'
+            }
+          );
+        });
+      }
+
+      function runCycle() {
+        if (running || pages.length < 2) return;
+        running = true;
+
+        pageIndex = (pageIndex + 1) % pages.length;
+        var page = pages[pageIndex] || {};
+        var sequence = BAND_SEQUENCES[seqCursor % BAND_SEQUENCES.length];
+        seqCursor += 1;
+
+        var jobs = sequence.map(function (bandIndex, step) {
+          return new Promise(function (resolve) {
+            window.setTimeout(function () {
+              var key = BAND_KEYS[bandIndex];
+              animateBandTo(bandIndex, page[key] || null).then(resolve);
+            }, step * stagger * 1000);
+          });
+        });
+
+        Promise.all(jobs).then(function () {
+          running = false;
+        });
+      }
+
+      function startAuto() {
+        stopAuto();
+        if (pages.length < 2 || reduced) return;
+        timer = window.setInterval(runCycle, Math.max(interval, (duration + stagger * 2) * 1000 + 500));
+      }
+
+      function stopAuto() {
+        if (timer) {
+          window.clearInterval(timer);
+          timer = null;
+        }
+      }
+
+      applyInitialPose();
+      startAuto();
+
+      return {
+        cleanup: function () {
+          stopAuto();
+          if (hasGsap) {
+            bands.forEach(function (band) {
+              var media = band.querySelector('[data-pps-media]');
+              if (media) gsap.killTweensOf(media);
+            });
+          }
+        }
+      };
+    }
+
+    function initSwiper(root) {
+      var carousel = root.querySelector('[data-pps-carousel]');
+      var el = root.querySelector('[data-pps-swiper]');
+      if (!carousel || !el || typeof Swiper === 'undefined') {
+        return { cleanup: function () {} };
+      }
+
+      var prevBtn = root.querySelector('[data-pps-prev]');
+      var nextBtn = root.querySelector('[data-pps-next]');
+      var bulletsEl = root.querySelector('[data-pps-bullets]');
+      var loop = carousel.getAttribute('data-loop') === 'true';
+      var autoplay = carousel.getAttribute('data-autoplay') === 'true';
+      var autoplayDelay = parseInt(carousel.getAttribute('data-autoplay-delay'), 10) || 4500;
+      var speed = parseInt(carousel.getAttribute('data-speed'), 10) || 500;
+      var slideCount = el.querySelectorAll('.swiper-slide').length;
+
+      function syncFraction(swiper) {
+        var current = (swiper.realIndex || 0) + 1;
+        root.querySelectorAll('[data-pps-current]').forEach(function (node) {
+          node.textContent = String(current);
+        });
+        root.querySelectorAll('[data-pps-total]').forEach(function (node) {
+          node.textContent = String(slideCount);
+        });
+      }
+
+      var options = {
+        slidesPerView: 1,
+        spaceBetween: 0,
+        speed: speed,
+        loop: loop && slideCount > 1,
+        allowTouchMove: true,
+        autoHeight: true,
+        navigation: {
+          prevEl: prevBtn,
+          nextEl: nextBtn
+        },
+        on: {
+          init: syncFraction,
+          slideChange: syncFraction
+        }
+      };
+
+      if (bulletsEl && slideCount > 1) {
+        options.pagination = {
+          el: bulletsEl,
+          clickable: true
+        };
+      }
+
+      if (autoplay && slideCount > 1) {
+        options.autoplay = {
+          delay: autoplayDelay,
+          disableOnInteraction: false
+        };
+      }
+
+      var swiper = new Swiper(el, options);
+
+      return {
+        cleanup: function () {
+          if (swiper && swiper.destroy) swiper.destroy(true, true);
+        }
+      };
+    }
+
+    function init() {
+      var root = document.getElementById(rootId);
+      if (!root) return;
+
+      destroyInstance();
+
+      var puzzle = initPuzzle(root);
+      var carousel = initSwiper(root);
+
+      window[instanceKey] = {
+        cleanup: function () {
+          if (puzzle && puzzle.cleanup) puzzle.cleanup();
+          if (carousel && carousel.cleanup) carousel.cleanup();
+        }
+      };
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+
+    document.addEventListener('shopify:section:load', function (event) {
+      if (event.detail && event.detail.sectionId === sectionId) init();
+    });
+
+    document.addEventListener('shopify:section:unload', function (event) {
+      if (event.detail && event.detail.sectionId === sectionId) destroyInstance();
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "拼图产品展示",
+  "tag": "section",
+  "class": "section-puzzle-product-showcase",
+  "settings": [
+    {
+      "type": "header",
+      "content": "标题"
+    },
+    {
+      "type": "text",
+      "id": "eyebrow",
+      "label": "眉题（可选）",
+      "default": "(ONE)"
+    },
+    {
+      "type": "text",
+      "id": "title",
+      "label": "主标题",
+      "default": "SEERSUCKER JACKET"
+    },
+    {
+      "type": "text",
+      "id": "subtitle",
+      "label": "副标题",
+      "default": "シアサッカー素材の軽やかなセットアップ。"
+    },
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "主题色",
+      "default": "#ff4d00"
+    },
+    {
+      "type": "header",
+      "content": "布局"
+    },
+    {
+      "type": "range",
+      "id": "max_width",
+      "min": 960,
+      "max": 1600,
+      "step": 20,
+      "unit": "px",
+      "label": "内容最大宽度",
+      "default": 1280
+    },
+    {
+      "type": "range",
+      "id": "side_padding",
+      "min": 0,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "label": "左右内边距",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "column_gap",
+      "min": 12,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "label": "左右栏间距",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "puzzle_gap",
+      "min": 2,
+      "max": 20,
+      "step": 2,
+      "unit": "px",
+      "label": "拼图条间隙",
+      "default": 6
+    },
+    {
+      "type": "range",
+      "id": "puzzle_min_height",
+      "min": 480,
+      "max": 1200,
+      "step": 20,
+      "unit": "px",
+      "label": "左侧拼图区高度",
+      "default": 720
+    },
+    {
+      "type": "select",
+      "id": "puzzle_image_fit",
+      "label": "拼图图片适配",
+      "options": [
+        { "value": "cover", "label": "裁切填满 (cover)" },
+        { "value": "contain", "label": "完整显示 (contain)" }
+      ],
+      "default": "cover",
+      "info": "选 contain 可减少裁切，可能留白"
+    },
+    {
+      "type": "range",
+      "id": "look_height",
+      "min": 360,
+      "max": 1200,
+      "step": 20,
+      "unit": "px",
+      "label": "右侧模特图高度",
+      "default": 720,
+      "info": "单独控制穿搭组合页中模特图区域高度"
+    },
+    {
+      "type": "select",
+      "id": "look_image_fit",
+      "label": "模特图适配",
+      "options": [
+        { "value": "cover", "label": "裁切填满 (cover)" },
+        { "value": "contain", "label": "完整显示 (contain)" }
+      ],
+      "default": "cover",
+      "info": "图片被裁切时请改用「完整显示」，或调高高度"
+    },
+    {
+      "type": "range",
+      "id": "image_radius",
+      "min": 0,
+      "max": 24,
+      "step": 2,
+      "unit": "px",
+      "label": "产品图圆角",
+      "default": 8
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "背景色",
+      "default": "#ffffff"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "上边距",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "下边距",
+      "default": 48
+    },
+    {
+      "type": "header",
+      "content": "左侧拼图自动切换 (GSAP)"
+    },
+    {
+      "type": "range",
+      "id": "puzzle_interval",
+      "min": 2000,
+      "max": 8000,
+      "step": 200,
+      "unit": "ms",
+      "label": "整页切换间隔",
+      "default": 3600
+    },
+    {
+      "type": "range",
+      "id": "puzzle_duration",
+      "min": 300,
+      "max": 1200,
+      "step": 50,
+      "unit": "ms",
+      "label": "单条动画时长",
+      "default": 700
+    },
+    {
+      "type": "range",
+      "id": "puzzle_stagger",
+      "min": 80,
+      "max": 400,
+      "step": 20,
+      "unit": "ms",
+      "label": "上中下错峰延迟",
+      "default": 180
+    },
+    {
+      "type": "range",
+      "id": "puzzle_offset",
+      "min": 4,
+      "max": 36,
+      "step": 2,
+      "unit": "px",
+      "label": "位移幅度",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "puzzle_rotate",
+      "min": 0,
+      "max": 10,
+      "step": 1,
+      "unit": "deg",
+      "label": "倾斜幅度",
+      "default": 4
+    },
+    {
+      "type": "header",
+      "content": "右侧轮播 (Swiper)"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_loop",
+      "label": "循环播放",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_autoplay",
+      "label": "自动播放",
+      "default": false
+    },
+    {
+      "type": "range",
+      "id": "autoplay_delay",
+      "min": 2000,
+      "max": 9000,
+      "step": 500,
+      "unit": "ms",
+      "label": "自动播放间隔",
+      "default": 4500
+    },
+    {
+      "type": "range",
+      "id": "speed",
+      "min": 200,
+      "max": 1200,
+      "step": 50,
+      "unit": "ms",
+      "label": "切换速度",
+      "default": 500
+    },
+    {
+      "type": "header",
+      "content": "底部按钮"
+    },
+    {
+      "type": "text",
+      "id": "all_items_label",
+      "label": "按钮文案",
+      "default": "ALL ITEMS"
+    },
+    {
+      "type": "url",
+      "id": "all_items_link",
+      "label": "按钮链接"
+    },
+    {
+      "type": "header",
+      "content": "文案"
+    },
+    {
+      "type": "richtext",
+      "id": "fallback_description",
+      "label": "默认说明文案",
+      "info": "当某个滑块未填写说明时使用"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "puzzle_set",
+      "name": "拼图页（上+中+下）",
+      "limit": 8,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "一个 Block = 一整页全身拼图。添加多个 Block 可自动翻页切换。"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_top",
+          "label": "上图"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_middle",
+          "label": "中图"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_bottom",
+          "label": "下图"
+        }
+      ]
+    },
+    {
+      "type": "slide",
+      "name": "穿搭组合",
+      "limit": 8,
+      "settings": [
+        {
+          "type": "product",
+          "id": "main_product",
+          "label": "主产品"
+        },
+        {
+          "type": "product_list",
+          "id": "related_products",
+          "label": "关联产品",
+          "limit": 4
+        },
+        {
+          "type": "image_picker",
+          "id": "look_image",
+          "label": "模特穿搭图"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "说明文案"
+        }
+      ]
+    },
+    {
+      "type": "slide_product",
+      "name": "主产品详情",
+      "limit": 8,
+      "settings": [
+        {
+          "type": "paragraph",
+          "content": "单独展示主产品大图、标题、价格与介绍（参考图 1 布局）。"
+        },
+        {
+          "type": "product",
+          "id": "main_product",
+          "label": "主产品"
+        },
+        {
+          "type": "image_picker",
+          "id": "product_image",
+          "label": "产品图（可选，默认用产品主图）"
+        },
+        {
+          "type": "text",
+          "id": "custom_title",
+          "label": "自定义标题（可选）"
+        },
+        {
+          "type": "richtext",
+          "id": "description",
+          "label": "产品介绍"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "拼图产品展示",
+      "category": "Products",
+      "blocks": [
+        { "type": "puzzle_set" },
+        { "type": "puzzle_set" },
+        { "type": "slide" },
+        { "type": "slide_product" }
+      ]
+    }
+  ]
+}
+{% endschema %}

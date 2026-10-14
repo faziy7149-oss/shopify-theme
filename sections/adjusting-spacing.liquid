@@ -1,0 +1,54 @@
+<style>
+  @media (min-width: 768px) {
+    .section-margin {
+      height: 1px;
+      display: block;
+    }
+    .section-margin-m {
+      display: none;
+    }
+  }
+  @media (max-width: 767px) {
+    .section-margin-m {
+      height: 1px;
+      display: block;
+    }
+    .section-margin {
+      display: none;
+    }
+  }
+
+</style>
+<div class="section-margin" style="margin-top: {{section.settings.margin_top}}em;"></div>
+<div class="section-margin-m" style="margin-top: {{section.settings.margin_top2}}em;"></div>
+{% schema %}
+{
+  "name": "Adjusting the spacing",
+  "settings":[
+  {
+  "type": "range",
+  "id": "margin_top",
+  "label": "左右拖动调节间距(pc端)",
+  "max": 30,
+  "min": -30,
+  "step": 1,
+  "default": 0
+  },
+  {
+  "type": "range",
+  "id": "margin_top2",
+  "label": "左右拖动调节间距(移动端端)",
+  "max": 30,
+  "min": -30,
+  "step": 1,
+  "default": 0
+  }
+  ],
+"presets":[
+  {
+  "name": "Adjusting the spacing",
+  "category": "Advanced"
+  }
+  ]
+}
+{% endschema %}

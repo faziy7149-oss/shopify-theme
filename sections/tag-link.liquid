@@ -1,0 +1,154 @@
+<div class="tag_package">
+        <div class="tag_list">
+{% unless collection.metafields.my_fields.tag_links1 == blank %} 
+          <a href="{{ section.settings.tag_link1}}" class="tags_a">{{ section.settings.tag_name1 }}</a>
+{% endunless %}
+          
+{% unless collection.metafields.my_fields.tag_links2 == blank %} 
+          <a href="{{ section.settings.tag_link2}}" class="tags_a">{{ section.settings.tag_name2 }}</a>
+{% endunless %}
+          
+{% unless collection.metafields.my_fields.tag_links3 == blank %} 
+          <a href="{{ section.settings.tag_link3}}" class="tags_a">{{ section.settings.tag_name3 }}</a>
+{% endunless %}
+          
+{% unless collection.metafields.my_fields.tag_links4 == blank %} 
+          <a href="{{ section.settings.tag_link4}}" class="tags_a">{{ section.settings.tag_name4 }}</a>
+{% endunless %}
+          
+{% unless collection.metafields.my_fields.tag_links5 == blank %} 
+          <a href="{{ section.settings.tag_link5}}" class="tags_a">{{ section.settings.tag_name5 }}</a>
+{% endunless %}
+          
+{% unless collection.metafields.my_fields.tag_links6 == blank %} 
+          <a href="{{ section.settings.tag_link6}}" class="tags_a">{{ section.settings.tag_name6 }}</a>
+{% endunless %}
+          
+{% unless collection.metafields.my_fields.tag_links7 == blank %} 
+          <a href="{{ section.settings.tag_link7}}" class="tags_a">{{ section.settings.tag_name7 }}</a>
+{% endunless %}
+          
+{% unless collection.metafields.my_fields.tag_links8 == blank %} 
+          <a href="{{ section.settings.tag_link8}}" class="tags_a">{{ section.settings.tag_name8 }}</a>
+{% endunless %}
+          
+         </div>
+  <div  class="tag_omit">
+    <span>{% render 'svg-omit' %}</span>
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "tagLink",
+    "settings": [
+		{
+			"type": "text",
+        	"id": "tag_name1",
+        	"label": "Tag Name1"
+		},
+		{
+			"type":"url",
+			"id":"tag_link1",
+			"label":"Tag Link1"
+		},
+		{
+			"type": "text",
+        	"id": "tag_name2",
+        	"label": "Tag Name2"
+		},
+		{
+			"type":"url",
+			"id":"tag_link2",
+			"label":"Tag Link2"
+		},
+		{
+			"type": "text",
+        	"id": "tag_name3",
+        	"label": "Tag Name3"
+		},
+		{
+			"type":"url",
+			"id":"tag_link3",
+			"label":"Tag Link3"
+		},
+		{
+			"type": "text",
+        	"id": "tag_name4",
+        	"label": "Tag Name4"
+		},
+		{
+			"type":"url",
+			"id":"tag_link4",
+			"label":"Tag Link4"
+		},
+		{
+			"type": "text",
+        	"id": "tag_name5",
+        	"label": "Tag Name5"
+		},
+		{
+			"type":"url",
+			"id":"tag_link5",
+			"label":"Tag Link5"
+		},
+		{
+			"type": "text",
+        	"id": "tag_name6",
+        	"label": "Tag Name6"
+		},
+		{
+			"type":"url",
+			"id":"tag_link6",
+			"label":"Tag Link6"
+		},
+		{
+			"type": "text",
+        	"id": "tag_name7",
+        	"label": "Tag Name7"
+		},
+		{
+			"type":"url",
+			"id":"tag_link7",
+			"label":"Tag Link7"
+		},
+		{
+			"type": "text",
+        	"id": "tag_name8",
+        	"label": "Tag Name8"
+		},
+		{
+			"type":"url",
+			"id":"tag_link8",
+			"label":"Tag Link8"
+		}
+	],
+	"presets":[
+		{
+			"name":"tagLink"
+		}
+	]
+  }
+{% endschema %}
+
+<script>
+	$(function(){
+      if($(window).width() < 767){
+      	if($(".tags_a").length >= 6){
+			$(".tags_a:gt(5)").hide();
+        }else{
+        	$(".tag_omit span").hide();
+        }
+      }
+      $('.tag_omit span').click(function(){
+      	$('.tags_a:gt(5)').toggle("fast","swing");
+      })
+	})
+</script>
+
+{% stylesheet %}
+
+{% endstylesheet %}
+
+{% javascript %}
+	
+{% endjavascript %}

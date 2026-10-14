@@ -1,0 +1,284 @@
+<image-text-expand
+  id="image-text-accordion-{{ section.id }}"
+  class="image-text-accordion{% if section.settings.open_by_default %} is-expanded{% endif %}"
+>
+  <div class="image-text-accordion__inner" style="max-width: {{ section.settings.max_width }}px;">
+    <div class="image-text-accordion__media">
+      {%- if section.settings.image == blank and section.settings.mobile_image == blank -%}
+        <div class="placeholder-image">
+          {{- 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' -}}
+        </div>
+      {%- else -%}
+        {%- liquid
+          assign desktop_image = section.settings.image
+          assign mobile_image = section.settings.mobile_image
+          if desktop_image == blank
+            assign desktop_image = mobile_image
+          endif
+          render 'image-desktop-and-mobile', desktop_image: desktop_image, mobile_image: mobile_image, loading: 'lazy'
+        -%}
+      {%- endif -%}
+    </div>
+
+    {%- if section.settings.content != blank -%}
+      {%- liquid
+        assign expand_label = section.settings.expand_label | default: 'もっと見る'
+        assign collapse_label = section.settings.collapse_label | default: '閉じる'
+      -%}
+      <div class="image-text-accordion__body">
+        <div class="image-text-accordion__clip" data-clip>
+          <div class="image-text-accordion__content rte" data-content>
+            {{ section.settings.content }}
+          </div>
+        </div>
+        <button
+          type="button"
+          class="image-text-accordion__trigger small-feature-link"
+          data-trigger
+          aria-expanded="{% if section.settings.open_by_default %}true{% else %}false{% endif %}"
+        >
+          <span class="image-text-accordion__label image-text-accordion__label--expand">{{ expand_label | escape }}</span>
+          <span class="image-text-accordion__label image-text-accordion__label--collapse">{{ collapse_label | escape }}</span>
+        </button>
+      </div>
+    {%- endif -%}
+  </div>
+</image-text-expand>
+
+{% schema %}
+{
+  "name": "Image text accordion",
+  "tag": "section",
+  "class": "section-image-text-accordion",
+  "disabled_on": {
+    "groups": ["aside"]
+  },
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "PC端图片"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "移动端图片",
+      "info": "未上传时使用 PC 端图片"
+    },
+    {
+      "type": "range",
+      "id": "max_width",
+      "min": 900,
+      "max": 2200,
+      "step": 20,
+      "unit": "px",
+      "label": "最大宽度",
+      "default": 1100
+    },
+    {
+      "type": "richtext",
+      "id": "content",
+      "label": "折叠内容",
+      "default": "<p>ここにテキストを入力してください。</p>"
+    },
+    {
+      "type": "text",
+      "id": "expand_label",
+      "label": "展开文案",
+      "default": "もっと見る"
+    },
+    {
+      "type": "text",
+      "id": "collapse_label",
+      "label": "收起文案",
+      "default": "閉じる"
+    },
+    {
+      "type": "checkbox",
+      "id": "open_by_default",
+      "label": "默认展开",
+      "default": false
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image text accordion"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+.image-text-accordion {
+  display: block;
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.image-text-accordion__inner {
+  width: 100%;
+  margin: 0 auto;
+}
+
+.image-text-accordion__media img,
+.image-text-accordion__media .placeholder-svg {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+.image-text-accordion__body {
+  margin-top: 12px;
+}
+
+.image-text-accordion__clip {
+  overflow: hidden;
+  transition: height 0.4s ease;
+}
+
+.image-text-accordion__content {
+  color: inherit;
+  text-align: left;
+}
+
+.image-text-accordion__content p:first-child {
+  margin-top: 0;
+}
+
+.image-text-accordion__content p:last-child {
+  margin-bottom: 0;
+}
+
+.image-text-accordion__trigger {
+  display: block;
+  width: 100%;
+  margin: 8px 0 0;
+  padding: 8px 0 12px;
+  border: 0;
+  background: none;
+  /* color: inherit; */
+  cursor: pointer;
+  text-align: center;
+  /* font: inherit; */
+  /* font-size: 1.4rem; */
+  line-height: 1.4;
+}
+
+.image-text-accordion__trigger[hidden] {
+  display: none;
+}
+
+.image-text-accordion__label--collapse {
+  display: none;
+}
+
+.image-text-accordion.is-expanded .image-text-accordion__label--expand {
+  display: none;
+}
+
+.image-text-accordion.is-expanded .image-text-accordion__label--collapse {
+  display: inline;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .image-text-accordion__clip {
+    transition: none;
+  }
+}
+{% endstylesheet %}
+
+{% javascript %}
+if (!customElements.get('image-text-expand')) {
+  class ImageTextExpand extends HTMLElement {
+    connectedCallback() {
+      this.clip = this.querySelector('[data-clip]');
+      this.content = this.querySelector('[data-content]');
+      this.trigger = this.querySelector('[data-trigger]');
+      if (!this.clip || !this.content || !this.trigger) return;
+
+      this.animating = false;
+      this.trigger.addEventListener('click', () => this.toggle());
+      this.clip.addEventListener('transitionend', (event) => this.onTransitionEnd(event));
+      this.syncHeight(true);
+      this.resizeObserver = new ResizeObserver(() => {
+        if (this.animating) return;
+        this.syncHeight();
+      });
+      this.resizeObserver.observe(this.content);
+    }
+
+    disconnectedCallback() {
+      if (this.resizeObserver) this.resizeObserver.disconnect();
+    }
+
+    getCollapsedHeight() {
+      const probe = this.content.querySelector('p, li, div, span') || this.content;
+      const styles = getComputedStyle(probe);
+      let lineHeight = parseFloat(styles.lineHeight);
+      if (Number.isNaN(lineHeight)) {
+        const fontSize = parseFloat(styles.fontSize) || 16;
+        lineHeight = fontSize * 1.6;
+      }
+      return lineHeight * 2;
+    }
+
+    isOverflowing() {
+      return this.content.scrollHeight > this.getCollapsedHeight() + 1;
+    }
+
+    syncHeight(immediate) {
+      const overflowing = this.isOverflowing();
+      this.trigger.hidden = !overflowing;
+
+      if (!overflowing || this.classList.contains('is-expanded')) {
+        this.clip.style.height = 'auto';
+        return;
+      }
+
+      if (immediate) this.clip.style.transition = 'none';
+      this.clip.style.height = `${this.getCollapsedHeight()}px`;
+      if (immediate) {
+        this.clip.offsetHeight;
+        this.clip.style.transition = '';
+      }
+    }
+
+    onTransitionEnd(event) {
+      if (event.propertyName !== 'height' || event.target !== this.clip) return;
+      this.animating = false;
+      if (this.classList.contains('is-expanded')) {
+        this.clip.style.height = 'auto';
+      }
+    }
+
+    expand() {
+      this.animating = true;
+      this.clip.style.height = `${this.clip.getBoundingClientRect().height}px`;
+      this.classList.add('is-expanded');
+      this.trigger.setAttribute('aria-expanded', 'true');
+      this.clip.offsetHeight;
+      this.clip.style.height = `${this.content.scrollHeight}px`;
+    }
+
+    collapse() {
+      this.animating = true;
+      this.clip.style.height = `${this.content.scrollHeight}px`;
+      this.classList.remove('is-expanded');
+      this.trigger.setAttribute('aria-expanded', 'false');
+      this.clip.offsetHeight;
+      this.clip.style.height = `${this.getCollapsedHeight()}px`;
+    }
+
+    toggle() {
+      if (this.animating) return;
+      if (this.classList.contains('is-expanded')) {
+        this.collapse();
+      } else {
+        this.expand();
+      }
+    }
+  }
+
+  customElements.define('image-text-expand', ImageTextExpand);
+}
+{% endjavascript %}

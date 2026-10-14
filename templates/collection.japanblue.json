@@ -1,0 +1,106 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "enable_sticky_filter": true,
+        "image_position": "center center"
+      }
+    },
+    "1635220294067ab8a1": {
+      "type": "collection-list",
+      "blocks": {
+        "22a68d2d-1230-4f98-96b2-5b4029b9dc36": {
+          "type": "collection",
+          "settings": {
+            "collection": "アクセサリー-小物",
+            "image": "shopify://shop_images/KRK-ZM-087-D1-1.webp"
+          }
+        },
+        "ba2cf3cc-2a86-4841-9a15-fa4bbb764def": {
+          "type": "collection",
+          "settings": {
+            "collection": "01-mon",
+            "image": "shopify://shop_images/KRK-LY064598-blue.jpg"
+          }
+        },
+        "49c96662-67c5-4c56-9250-6f0c709ac386": {
+          "type": "collection",
+          "settings": {
+            "collection": "urban-outdoor-1",
+            "image": "shopify://shop_images/KRK-ZM-DPTW6201035-2_54a356b8-5013-4bbf-bd35-548a782093cb.webp"
+          }
+        },
+        "af4a7225-283b-4758-ac0e-1ab105a5cbd5": {
+          "type": "collection",
+          "settings": {
+            "collection": "01-mon",
+            "image": "shopify://shop_images/fb0731cb1e598c293c4546736de8e1c7_a2ff1d89-5095-46ba-81a7-238fbc39164f.webp"
+          }
+        },
+        "9cb98d08-835e-40d0-a843-2bd588e6afba": {
+          "type": "collection",
+          "settings": {
+            "collection": "02-tue",
+            "image": "shopify://shop_images/KRK-ZM-301M-1.webp"
+          }
+        },
+        "f26aa3c0-dc1e-45a3-a53d-ff394dd0cdaa": {
+          "type": "collection",
+          "settings": {
+            "collection": "05-fri",
+            "image": "shopify://shop_images/1_ee4a0ec0-8477-4c6a-ab3b-015851a33b8e.webp"
+          }
+        },
+        "8c13f228-bf53-43ed-ab92-7204146d8f20": {
+          "type": "collection",
+          "settings": {
+            "collection": "07-sun",
+            "image": "shopify://shop_images/da6ded3e378b90339d671491b00a2682_0f37ef64-4a16-4bcf-91d0-f9b1478c661e.webp"
+          }
+        }
+      },
+      "block_order": [
+        "22a68d2d-1230-4f98-96b2-5b4029b9dc36",
+        "ba2cf3cc-2a86-4841-9a15-fa4bbb764def",
+        "49c96662-67c5-4c56-9250-6f0c709ac386",
+        "af4a7225-283b-4758-ac0e-1ab105a5cbd5",
+        "9cb98d08-835e-40d0-a843-2bd588e6afba",
+        "f26aa3c0-dc1e-45a3-a53d-ff394dd0cdaa",
+        "8c13f228-bf53-43ed-ab92-7204146d8f20"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "=",
+        "enable_carousel": false,
+        "grid": 5,
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1635220294067ab8a1"
+  ]
+}

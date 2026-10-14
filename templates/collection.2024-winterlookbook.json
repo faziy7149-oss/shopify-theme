@@ -1,0 +1,877 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "photo_banner_countdown_9YwmmF": {
+      "type": "photo-banner-countdown",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/393___1500_6f767e1e-87a7-473a-9ea4-78d875fdf478.jpg",
+        "mobile_image": "shopify://shop_images/20241018-103131_9e728ccb-0fbd-42c4-91b2-d7fb85948014.jpg",
+        "banner_link": "https://karakubuy.com/collections/all-products",
+        "photo_banner_col": "#e75b2a",
+        "end_date": "2024-10-20",
+        "end_time": "23:00",
+        "end_text": "",
+        "hide_on_end": false,
+        "number_size": 24,
+        "number_font": "base",
+        "divider_type": "colon",
+        "show_timer_labels": true,
+        "countdown_col": "#e65514",
+        "countdown_text_col": "#ffffff"
+      }
+    },
+    "photo_banner_HaELhz": {
+      "type": "photo-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/457___1500.jpg",
+        "mobile_image": "shopify://shop_images/457___800.jpg",
+        "banner_link": "https://karakubuy.com/collections/black-2024",
+        "photo_banner_col": "#aa171f"
+      }
+    },
+    "slideshow_anppW4": {
+      "type": "slideshow",
+      "blocks": {
+        "image_CNTQji": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1920_aad4544c-eca2-49eb-beb1-7943abf109bc.jpg",
+            "mobile_image": "shopify://shop_images/1080-2_1c502c37-438a-40f3-921d-e5ce9a11d2e5.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": false,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_CNTQji"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 700,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "image_jump_custom_8X4z9q": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_EXL8Nk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LOOK01_4.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_EXL8Nk"
+      ],
+      "settings": {}
+    },
+    "hotspots_qBYPfP": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_rXr8nA": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 15,
+            "hotspot_y": 71,
+            "hotspot_x_mobile": 37,
+            "hotspot_y_mobile": 30,
+            "heading": "コーデュロイ＆裏ボアライクジャケット",
+            "text": "",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/e1c95e9113bf5436f74106cf795fb8f2_906fdd90-7c97-4fd7-ad96-ffcf5db8ccab.png",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-fyn-dyq83866-1?variant=44366703788251",
+            "btn_text": "MORE"
+          }
+        },
+        "hotspot_AKMiwY": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 49,
+            "hotspot_y": 31,
+            "hotspot_x_mobile": 25,
+            "hotspot_y_mobile": 78,
+            "heading": "ヘンリーネックロンＴ",
+            "text": "",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/02-13.png",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-cf-057?variant=43857200218331",
+            "btn_text": "MORE"
+          }
+        },
+        "hotspot_dWQyKQ": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 85,
+            "hotspot_y": 85,
+            "hotspot_x_mobile": 85,
+            "hotspot_y_mobile": 85,
+            "heading": "バイバッグサイドポーチ",
+            "text": "",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/848fa294f3a8b9c62a556fe2e15ed8f7.png",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/collections/%E3%83%90%E3%83%83%E3%82%B0/products/mc-16960nd",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_rXr8nA",
+        "hotspot_AKMiwY",
+        "hotspot_dWQyKQ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1920-1.jpg",
+        "mobile_image": "shopify://shop_images/1080-1.jpg",
+        "hotspot_color": "#dd9a1a",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 13,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "link",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "link"
+      }
+    },
+    "image_jump_custom_nbrbBT": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_Q9re8h": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LOOK01_5.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Q9re8h"
+      ],
+      "settings": {}
+    },
+    "hotspots_tkJgmJ": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_fnbGzc": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 15,
+            "hotspot_y": 32,
+            "hotspot_x_mobile": 18,
+            "hotspot_y_mobile": 23,
+            "heading": "2wayキャンバスバッグ",
+            "text": "<p>Share useful information about your product features.</p>",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/848fa294f3a8b9c62a556fe2e15ed8f7.png",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/collections/%E3%83%90%E3%83%83%E3%82%B0/products/krk-gz-ss2022073",
+            "btn_text": "MORE"
+          }
+        },
+        "hotspot_XUGE8D": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 44,
+            "hotspot_y": 62,
+            "hotspot_x_mobile": 35,
+            "hotspot_y_mobile": 85,
+            "heading": "中綿入りキルティングジャケット",
+            "text": "",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/e1c95e9113bf5436f74106cf795fb8f2_906fdd90-7c97-4fd7-ad96-ffcf5db8ccab.png",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-tf-my220?_pos=2&_sid=07b86bb64&_ss=r&variant=43577437028571",
+            "btn_text": "MORE"
+          }
+        },
+        "hotspot_89MaDq": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 82,
+            "hotspot_y": 15,
+            "hotspot_x_mobile": 80,
+            "hotspot_y_mobile": 68,
+            "heading": "フリップキャップ",
+            "text": "",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/40-baseball_cap.png",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/collections/%E5%B8%BD%E5%AD%90/products/krk-md-ts2307249",
+            "btn_text": "MORE"
+          }
+        },
+        "hotspot_QQmJWK": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 55,
+            "hotspot_y": 50,
+            "hotspot_x_mobile": 70,
+            "hotspot_y_mobile": 36,
+            "heading": "ベースボールストライプシャツ",
+            "text": "",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/517e6523dc77d1102853d90bed8d4a18_b13daa7a-4385-4514-b107-051a589e5190.png",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-md-tsw2201006?_pos=8&_sid=5cf99a74d&_ss=r&variant=43078824460507",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_fnbGzc",
+        "hotspot_XUGE8D",
+        "hotspot_89MaDq",
+        "hotspot_QQmJWK"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1920-2.jpg",
+        "mobile_image": "shopify://shop_images/1080-2.jpg",
+        "hotspot_color": "#dd9a1a",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "image_jump_custom_9UnhkH": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_RjQCyC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LOOK01_6.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_RjQCyC"
+      ],
+      "settings": {}
+    },
+    "hotspots_6DGXmp": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_fM3xWa": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 15,
+            "hotspot_y": 38,
+            "hotspot_x_mobile": 34,
+            "hotspot_y_mobile": 32,
+            "heading": "M-65ライナージャケット",
+            "text": "",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/e1c95e9113bf5436f74106cf795fb8f2_956eff35-6c56-48b9-9040-5f91750c617d.png",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-cs-ok1703?variant=41155108110514",
+            "btn_text": "MORE"
+          }
+        },
+        "hotspot_ij3PKW": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 45,
+            "hotspot_y": 15,
+            "hotspot_x_mobile": 21,
+            "hotspot_y_mobile": 69,
+            "heading": "機能バケットハット",
+            "text": "",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/40-baseball_cap_4462a58d-6b89-45f1-b203-42161cd87db8.png",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/collections/%E5%B8%BD%E5%AD%90/products/krk-md-tw2107095",
+            "btn_text": "MORE"
+          }
+        },
+        "hotspot_efPnjG": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 70,
+            "hotspot_y": 85,
+            "hotspot_x_mobile": 68,
+            "hotspot_y_mobile": 20,
+            "heading": "キャンバスニュースペーパーバッグ",
+            "text": "",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/848fa294f3a8b9c62a556fe2e15ed8f7_591f5224-3ae1-4c19-a60e-54d06813f627.png",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/collections/%E3%83%90%E3%83%83%E3%82%B0/products/krk-md-tw2207657",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_fM3xWa",
+        "hotspot_ij3PKW",
+        "hotspot_efPnjG"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1920-3_5a14dbb6-65bd-4d23-821e-ed0e02854f06.jpg",
+        "mobile_image": "shopify://shop_images/1080-4.jpg",
+        "hotspot_color": "#dd9a1a",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "image_jump_custom_9MQpmd": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_gck994": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LOOK01_7.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_gck994"
+      ],
+      "settings": {}
+    },
+    "hotspots_fKg8PL": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_4AagH8": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 15,
+            "hotspot_y": 27,
+            "hotspot_x_mobile": 28,
+            "hotspot_y_mobile": 20,
+            "heading": "キルティングジャケット",
+            "text": "",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/e1c95e9113bf5436f74106cf795fb8f2_956eff35-6c56-48b9-9040-5f91750c617d.png",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-zyd-jsqbmf903?_pos=1&_sid=99a488821&_ss=r&variant=46075600142555",
+            "btn_text": "MORE"
+          }
+        },
+        "hotspot_EnEn7Y": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 43,
+            "hotspot_y": 15,
+            "hotspot_x_mobile": 15,
+            "hotspot_y_mobile": 65,
+            "heading": "デニムボールキャップ",
+            "text": "",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/40-baseball_cap_4462a58d-6b89-45f1-b203-42161cd87db8.png",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/collections/%E5%B8%BD%E5%AD%90/products/krk-zyd-zcmbybqm123",
+            "btn_text": "MORE"
+          }
+        },
+        "hotspot_GzDbb3": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 73,
+            "hotspot_y": 85,
+            "hotspot_x_mobile": 70,
+            "hotspot_y_mobile": 85,
+            "heading": "ショルダーデニムバッグ",
+            "text": "",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/848fa294f3a8b9c62a556fe2e15ed8f7_591f5224-3ae1-4c19-a60e-54d06813f627.png",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/collections/%E3%83%90%E3%83%83%E3%82%B0/products/krk-md-tw2307264",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_4AagH8",
+        "hotspot_EnEn7Y",
+        "hotspot_GzDbb3"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1920-5.jpg",
+        "mobile_image": "shopify://shop_images/1080-5.jpg",
+        "hotspot_color": "#dd9a1a",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "image_jump_custom_Q3n9HP": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_dAxjHU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LOOK01_8.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_dAxjHU"
+      ],
+      "settings": {}
+    },
+    "hotspots_Azq4YD": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_CmDQgd": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 42,
+            "hotspot_y": 51,
+            "hotspot_x_mobile": 30,
+            "hotspot_y_mobile": 20,
+            "heading": "ハーフジップニットセーター",
+            "text": "",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/add4982175e7dab39afe739f2dd56664_a6347537-efb7-4833-9102-658d48626db2.png",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-zyd-mlthwy0819?_pos=1&_sid=7c2929672&_ss=r&variant=45997995720923",
+            "btn_text": "MORE"
+          }
+        },
+        "hotspot_zgYGtw": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 16,
+            "hotspot_y": 71,
+            "hotspot_x_mobile": 21,
+            "hotspot_y_mobile": 85,
+            "heading": "サイドポケット付きデニムパンツ",
+            "text": "",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/a98b15892c2dcc1a5c68a9f3a3348d8f.png",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-rf-q205?_pos=1&_sid=928e0f44e&_ss=r",
+            "btn_text": "MORE"
+          }
+        },
+        "hotspot_xkrnjQ": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 26,
+            "hotspot_y": 15,
+            "hotspot_x_mobile": 50,
+            "hotspot_y_mobile": 50,
+            "heading": "キャスケット",
+            "text": "",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/40-baseball_cap_4462a58d-6b89-45f1-b203-42161cd87db8.png",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/collections/%E5%B8%BD%E5%AD%90/products/krk-md-tw2107093",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_CmDQgd",
+        "hotspot_zgYGtw",
+        "hotspot_xkrnjQ"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1920-7.jpg",
+        "mobile_image": "shopify://shop_images/1080-9.jpg",
+        "hotspot_color": "#dd9a1a",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "image_jump_custom_XMEMFr": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_VV88AV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LOOK01_9.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_VV88AV"
+      ],
+      "settings": {}
+    },
+    "hotspots_UjFWWg": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_bmGe67": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 56,
+            "hotspot_y": 61,
+            "hotspot_x_mobile": 85,
+            "hotspot_y_mobile": 85,
+            "heading": "柿染めストライプワイドパンツ",
+            "text": "",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/a98b15892c2dcc1a5c68a9f3a3348d8f.png",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-sz093001?_pos=4&_sid=d6bdc19f0&_ss=r",
+            "btn_text": "MORE"
+          }
+        },
+        "hotspot_7FBjML": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 26,
+            "hotspot_y": 41,
+            "hotspot_x_mobile": 29,
+            "hotspot_y_mobile": 26,
+            "heading": "テーラードジャケット",
+            "text": "",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/e1c95e9113bf5436f74106cf795fb8f2_956eff35-6c56-48b9-9040-5f91750c617d.png",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-zyd-dxrksjk1011?_pos=1&_sid=2e52a8e2f&_ss=r&variant=46123583865051",
+            "btn_text": "MORE"
+          }
+        },
+        "hotspot_LA9bmx": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 85,
+            "hotspot_y": 33,
+            "hotspot_x_mobile": 60,
+            "hotspot_y_mobile": 38,
+            "heading": "ウール混ベスト",
+            "text": "",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/019.png",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-ok2403?_pos=2&_sid=531cbb62e&_ss=r&variant=43424812499163",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_bmGe67",
+        "hotspot_7FBjML",
+        "hotspot_LA9bmx"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1920-6.jpg",
+        "mobile_image": "shopify://shop_images/1080-6.jpg",
+        "hotspot_color": "#dd9a1a",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "image_jump_custom_4PwAQL": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_mahzDh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LOOK01_10.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_mahzDh"
+      ],
+      "settings": {}
+    },
+    "hotspots_K7Wjpw": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_rHVcbH": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 58,
+            "hotspot_y": 32,
+            "hotspot_x_mobile": 62,
+            "hotspot_y_mobile": 21,
+            "heading": "コットン長袖シャツ",
+            "text": "",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/517e6523dc77d1102853d90bed8d4a18_b13daa7a-4385-4514-b107-051a589e5190.png",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-zyd-yghmys1117?_pos=1&_sid=b9fc25cca&_ss=r&variant=44451308503259",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_rHVcbH"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1920-8.jpg",
+        "mobile_image": "shopify://shop_images/1080-8.jpg",
+        "hotspot_color": "#dd9a1a",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "image_jump_custom_c7yrhL": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_4HxrP6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/LOOK01_11.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_4HxrP6"
+      ],
+      "settings": {}
+    },
+    "hotspots_N8bnnc": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_eLVECE": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 28,
+            "hotspot_y": 40,
+            "hotspot_x_mobile": 47,
+            "hotspot_y_mobile": 21,
+            "heading": "ニットカーディガン",
+            "text": "",
+            "icon": "",
+            "custom_icon": "shopify://shop_images/add4982175e7dab39afe739f2dd56664_a6347537-efb7-4833-9102-658d48626db2.png",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-515-mz83?_pos=1&_sid=5ceb2a28f&_ss=r&variant=46033262641371",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_eLVECE"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1920-10.jpg",
+        "mobile_image": "shopify://shop_images/1080-10.jpg",
+        "hotspot_color": "#dd9a1a",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "url_text_GTNGhn": {
+      "type": "url-text",
+      "settings": {
+        "url_text": "https://www.youtube.com/shorts/u1Gcv7AOKxg",
+        "text_url": "CHECK MORE",
+        "btn_color": "#dd9a1a",
+        "btn_color_hover": "#fffeee",
+        "btn_text_color": "#fffeee",
+        "btn_text_color_hover": "#dd9a1a",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 25,
+        "url_font_size_moble": 18
+      }
+    }
+  },
+  "order": [
+    "photo_banner_countdown_9YwmmF",
+    "photo_banner_HaELhz",
+    "slideshow_anppW4",
+    "main",
+    "image_jump_custom_8X4z9q",
+    "hotspots_qBYPfP",
+    "image_jump_custom_nbrbBT",
+    "hotspots_tkJgmJ",
+    "image_jump_custom_9UnhkH",
+    "hotspots_6DGXmp",
+    "image_jump_custom_9MQpmd",
+    "hotspots_fKg8PL",
+    "image_jump_custom_Q3n9HP",
+    "hotspots_Azq4YD",
+    "image_jump_custom_XMEMFr",
+    "hotspots_UjFWWg",
+    "image_jump_custom_4PwAQL",
+    "hotspots_K7Wjpw",
+    "image_jump_custom_c7yrhL",
+    "hotspots_N8bnnc",
+    "url_text_GTNGhn"
+  ]
+}

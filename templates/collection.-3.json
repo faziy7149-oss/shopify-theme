@@ -1,0 +1,328 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1646362273a5648621": {
+      "type": "rich-text",
+      "blocks": {
+        "164636227362d2bed9-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "注目製品"
+          }
+        },
+        "164636227362d2bed9-1": {
+          "type": "heading",
+          "settings": {
+            "title": "KARAKU RETRO",
+            "use_h1": false
+          }
+        },
+        "164636227362d2bed9-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DESIGN BY KARAKUBUY | 今の時代だからこそレトロファッションを楽しむ</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "164636227362d2bed9-0",
+        "164636227362d2bed9-1",
+        "164636227362d2bed9-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "16463084494d72b70c": {
+      "type": "slideshow",
+      "blocks": {
+        "1646308449d4d25ab9-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Karaku_Retro_308a56d9-98b7-4079-ada3-4b7fa8199ffa.jpg",
+            "mobile_image": "shopify://shop_images/Karaku_Retro_M_c750ab48-e155-4124-a101-5a425e362426.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1646308449d4d25ab9-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "16463624117ccd5f51": {
+      "type": "rich-text",
+      "blocks": {
+        "89ea6789-9b2c-41f4-86f3-efee6d27b323": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>INTRODUCTION</strong></p>",
+            "enlarge_text": false
+          }
+        },
+        "16463624115f0d1bbc-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>KARAKU RETROは、KARAKUがミリタリーや、ワーク、バイカー、民族などのようなアメカジレトロスタイルを中心に設計したファッションシリーズ。KARAKUは流行問わず長く着られる男服をご提供させていただくように頑張りたいと思っております。</p><p><strong>\"今の時代だからこそレトロファッションを楽しむ\"</strong><br/></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "89ea6789-9b2c-41f4-86f3-efee6d27b323",
+        "16463624115f0d1bbc-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 40,
+        "grid": 5,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "gallery_FmiCxK": {
+      "type": "gallery",
+      "blocks": {
+        "media_zUmqPF": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/NKFG-20190914-_-1.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_EVM39K": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/MD-1807108-green-_-1.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_aD9wiq": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/KRK-VIP-AK1766009-_-1.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_UtaiCJ": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/KRK-VIP-AK181117-_-1.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_zUmqPF",
+        "media_EVM39K",
+        "media_aD9wiq",
+        "media_UtaiCJ"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "full",
+        "button_style": "primary"
+      }
+    },
+    "164636686148bf3202": {
+      "type": "collection-list",
+      "blocks": {
+        "19872839-aab8-4741-befa-7b3050136cb4": {
+          "type": "collection",
+          "settings": {
+            "collection": "military-retro",
+            "image": "shopify://shop_images/Military_Retro_1_8d19efa3-c4c8-4910-bbb3-7a88f0c9a356.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "95e3457f-5c2d-4c96-ad5c-ab31063dbbbe": {
+          "type": "collection",
+          "settings": {
+            "collection": "navajo-style",
+            "image": "shopify://shop_images/Navajo_Style_1_58fffa62-189f-4dbb-abc7-15568d5ba920.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "165385df-4051-4f71-8137-588a9af2c13c": {
+          "type": "collection",
+          "settings": {
+            "collection": "2021年秋冬コレクション-藍染から浮かびあがる-自然とひとの-循環",
+            "image": "shopify://shop_images/Blue_Japan_1_09feb7e2-c04d-49b8-a2da-86dd6dc6f9c4.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "0aa15efc-001d-4082-8b98-9e7867a3386c": {
+          "type": "collection",
+          "settings": {
+            "collection": "flight-jacket",
+            "image": "shopify://shop_images/MA-1_Jackets_1_64ae1d73-34ea-47d1-aea1-abb1e3cbc600.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "9f21dd06-b6a9-47b5-a786-4d2c1a523ff5": {
+          "type": "collection",
+          "settings": {
+            "collection": "wabash-stripe",
+            "image": "shopify://shop_images/Wabash_Stripe_1_df85a21f-7c99-48bb-b0b9-04dcdbe9729a.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "19872839-aab8-4741-befa-7b3050136cb4",
+        "95e3457f-5c2d-4c96-ad5c-ab31063dbbbe",
+        "165385df-4051-4f71-8137-588a9af2c13c",
+        "0aa15efc-001d-4082-8b98-9e7867a3386c",
+        "9f21dd06-b6a9-47b5-a786-4d2c1a523ff5"
+      ],
+      "settings": {
+        "title": "Sort by style",
+        "enable_carousel": true,
+        "grid": 5,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "shortest",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "1646362273a5648621",
+    "16463084494d72b70c",
+    "16463624117ccd5f51",
+    "main",
+    "gallery_FmiCxK",
+    "164636686148bf3202",
+    "1635765484031572a6"
+  ]
+}

@@ -1,0 +1,588 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "slideshow_GJ9FJy": {
+      "type": "slideshow",
+      "blocks": {
+        "image_gkUft4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/VS-0112__1920.jpg",
+            "mobile_image": "shopify://shop_images/20260807-155653.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_gkUft4"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "background_image_ngAqTQ": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#e0d7ce",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_JQjdEa": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_cde113d5-81bf-4947-865d-f85439508452.png",
+        "mobile_image": "shopify://shop_images/720_7e068981-1696-4b91-9560-893796831f66.png",
+        "img_rul": ""
+      }
+    },
+    "url_text_rtgNfx": {
+      "type": "url-text",
+      "name": "URL Text",
+      "settings": {
+        "url_text": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C",
+        "text_url": "新着商品一覧",
+        "btn_color": "#53320d",
+        "btn_color_hover": "#986d31",
+        "btn_text_color": "#fffeee",
+        "btn_text_color_hover": "#fffeee",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 19,
+        "url_font_size_moble": 15,
+        "img_postion_size_pc": 55,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "image_jump_custom_a4Gr47": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_FzKkdM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_08cd8f90-3b9e-4a8b-9829-158186c928d8.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_FzKkdM"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_slider_DtBdhC": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_n7XjVG": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-1_6f1695ec-0a32-4e41-8c72-8e1e74f9d012.jpg"
+          }
+        },
+        "image_slider_B3xbyV": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-2_084b8ab9-db90-47ef-a7d5-d1598d53a6f2.jpg"
+          }
+        },
+        "image_slider_TLNC3y": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-3_e7dd6f64-1f57-4f71-a418-2ce9d60ae2a8.jpg"
+          }
+        },
+        "image_slider_Czf6dB": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-4_b7483e81-2483-42c4-bbeb-4f0d849b460c.jpg"
+          }
+        },
+        "main_diagram_JbBFge": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-1_032ab08f-3861-41cb-b5ae-224738609279.jpg",
+            "main_img2": "shopify://shop_images/600x720-2_d1b9c127-ded2-49f4-a3ad-99dbd5db5d11.jpg"
+          }
+        },
+        "image_info_qLALTB": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "落ち着いたオリーブグリーン地に、光の加減でうっすらと浮かび上がるペイズリー柄が高級感を醸し出す、こだわりぬいた長袖デニムシャツです。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-lrj-sh260505"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_n7XjVG",
+        "image_slider_B3xbyV",
+        "image_slider_TLNC3y",
+        "image_slider_Czf6dB",
+        "main_diagram_JbBFge",
+        "image_info_qLALTB"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "「Karaku」刺繡ロゴ入り　シャドーペイズリー長袖デニムシャツ",
+        "data_tit_col": "#53320d",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#fffeee",
+        "but_col": "#9b6b33",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_Mypazy": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_6HChNq": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-5_419b1e85-7dd3-401e-8878-c6119159e59d.jpg"
+          }
+        },
+        "image_slider_jxFg8z": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-6_7cfdef03-caf4-4dda-ae9e-ab331ea558f4.jpg"
+          }
+        },
+        "image_slider_WdJRnP": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-7_64f63a7a-a5c9-4a5b-959e-ad30594a20ea.jpg"
+          }
+        },
+        "image_slider_4PNzWD": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-8_4fb09d33-6529-480e-a3bb-a877beea21c0.jpg"
+          }
+        },
+        "main_diagram_gQbwep": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-3_3b62bb5c-6164-444d-bc70-d34512ff0de8.jpg",
+            "main_img2": "shopify://shop_images/600x720-4_dfe9a33d-6b2e-4ed5-9983-2bd69b264c44.jpg"
+          }
+        },
+        "image_info_qPVxpn": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ペイズリー柄をベースに、繊細なジャカード織りで表現した奥行きのある総柄が魅力のオープンカラー長袖シャツ。光の角度によって浮かび上がるペイズリーのアンダーパターンが、落ち着いた中にも華やかさと存在感を添え、上品なヴィンテージムードを演出します。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-zyd-sh260428"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_6HChNq",
+        "image_slider_jxFg8z",
+        "image_slider_WdJRnP",
+        "image_slider_4PNzWD",
+        "main_diagram_gQbwep",
+        "image_info_qPVxpn"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "ウール混　ペイズリー柄ジャカード織りオープンカラー長袖シャツ",
+        "data_tit_col": "#53320d",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#fffeee",
+        "but_col": "#9b6b33",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_43yLda": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_nWLra3": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-9_25d705cd-a01a-4b35-bd43-e2a6630d532a.jpg"
+          }
+        },
+        "image_slider_jJ7YzE": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-10_b3dedd59-8d58-4ce2-9c11-5be53cc36972.jpg"
+          }
+        },
+        "image_slider_R9pmYT": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-11_f86de8fa-82a6-46a1-a0b9-9f49884973e7.jpg"
+          }
+        },
+        "image_slider_4TqhDA": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-12_3c7bcbeb-613a-4dea-b626-ba63c218499a.jpg"
+          }
+        },
+        "main_diagram_6bKXQK": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-5_f3338ba4-34c1-4e5a-8dbd-72a555254897.jpg",
+            "main_img2": "shopify://shop_images/600x720-6_af3d3d72-ac5b-4138-bcef-b6bd79886014.jpg"
+          }
+        },
+        "image_info_zD8gtV": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "シックな深みのあるブラウン地に、温かみのある赤の糸で細やかな幾何学模様・小紋風モチーフを織り込んだ主役級ジャガードシャツです。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-lsx-260535"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_nWLra3",
+        "image_slider_jJ7YzE",
+        "image_slider_R9pmYT",
+        "image_slider_4TqhDA",
+        "main_diagram_6bKXQK",
+        "image_info_zD8gtV"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "紅白ヒモ付き　幾何学模様・小紋柄ジャガードコットン長袖シャツ",
+        "data_tit_col": "#53320d",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#fffeee",
+        "but_col": "#9b6b33",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_jump_custom_8M7zHQ": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_fdMrHP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_f66e6285-02ad-49ed-bd90-1b071cd3c8b3.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_fdMrHP"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_slider_QwaPzn": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_w3Ff49": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-13_b56c8199-746f-40a2-b52d-a8f7d15b226a.jpg"
+          }
+        },
+        "image_slider_dB4K86": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-14_b909bee7-e1a2-4131-b7c6-67360f69d1c0.jpg"
+          }
+        },
+        "image_slider_x7KWyz": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-15_9f36622f-720d-499b-bd25-1c7963adb281.jpg"
+          }
+        },
+        "image_slider_p86Lmd": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-16_2a750e1d-63af-4bcd-86be-e290aebb4869.jpg"
+          }
+        },
+        "main_diagram_HFyDJM": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-7_e4896a86-98cf-4ca4-aacc-813e0ce6bb58.jpg",
+            "main_img2": "shopify://shop_images/600x720-8_03b3bbff-a924-40a5-92ea-74bddf2e83ad.jpg"
+          }
+        },
+        "image_info_wfJAjc": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "迫力あふれる横須賀風刺繍で、力強いキジトラ猫を描いたコットンTシャツ。バックには、岩の上で雄々しく咆哮するキジトラ猫を大胆な総刺繍で表現。フロントの胸元には、キジトラ猫の顔をワンポイント刺繍で配置。シンプルなアクセントでありながら、バックデザインとの統一感を持たせ、さりげなく個性を演出しています。",
+            "price_discount": 11980,
+            "original_price": 11980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-zyd-26lttg768"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_w3Ff49",
+        "image_slider_dB4K86",
+        "image_slider_x7KWyz",
+        "image_slider_p86Lmd",
+        "main_diagram_HFyDJM",
+        "image_info_wfJAjc"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "【予約】「咆哮するキジトラ猫」横須賀風刺繍入りコットンロンT",
+        "data_tit_col": "#53320d",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#fffeee",
+        "but_col": "#9b6b33",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_VeC6EA": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_PJky8y": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/600x720-10_5773c8bb-5d88-4c8f-9aae-052b2894e817.jpg"
+          }
+        },
+        "image_slider_Gph4Py": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-18_8bca9e36-46a1-405b-b153-3ba34c7a423c.jpg"
+          }
+        },
+        "image_slider_4czUnA": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-19_193bfd44-4f96-4d24-a542-91bcf5c6f9c1.jpg"
+          }
+        },
+        "image_slider_B7ajtq": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-20_7df206d3-7b19-4112-8101-2cd93182ce0f.jpg"
+          }
+        },
+        "main_diagram_8exbkc": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-9_1dcc5f20-ab4b-447f-af8d-b2e5d1275adb.jpg",
+            "main_img2": "shopify://shop_images/600x720-10_5773c8bb-5d88-4c8f-9aae-052b2894e817.jpg"
+          }
+        },
+        "image_info_F7aaLV": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "さりげない織り柄が上品な表情を演出する、ヘリンボーンストライプ柄の長袖シャツ。生地にはクラシカルなヘリンボーン織りを採用し、ストライプ柄と組み合わせることで、シンプルながらも奥行きのあるデザインに仕上げました。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-gsh-lsh060495"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_PJky8y",
+        "image_slider_Gph4Py",
+        "image_slider_4czUnA",
+        "image_slider_B7ajtq",
+        "main_diagram_8exbkc",
+        "image_info_F7aaLV"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "【予約】赤ヒモ付き　ヘリンボーン織りストライプ柄長袖シャツ",
+        "data_tit_col": "#53320d",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#fffeee",
+        "but_col": "#9b6b33",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_KPrVKJ": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_nTYq4e": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-21_d0c492f4-e207-4f32-9e91-c46d7c788d44.jpg"
+          }
+        },
+        "image_slider_EVpCiJ": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-22_507efd65-b653-4904-ac10-bad4ca16753d.jpg"
+          }
+        },
+        "image_slider_c89p9e": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-23_55aef374-05c3-4b4c-bad3-270a3686bf0d.jpg"
+          }
+        },
+        "image_slider_LB68VE": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-24_466fa334-ac1d-4baa-9364-5c3e55a8cd64.jpg"
+          }
+        },
+        "main_diagram_QfGxGC": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-11_43cd4474-e81d-45ef-9ab0-a535ed73c539.jpg",
+            "main_img2": "shopify://shop_images/600x720-12_363dab5b-e0f2-4dd4-a4e5-6805163c6883.jpg"
+          }
+        },
+        "image_info_FnWdNm": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "伝統的なヘンリーネックをベースに、前立てをやや右寄りに配置したアシンメトリーなデザインを採用。さりげない個性を演出しながら、クラシカルな印象にモダンなエッセンスを添えています。前立てには、ブランドロゴ「KARAKU」と繊細なペイズリー柄の刺繍を施し、シンプルな無地のボディにアクセントをプラス。",
+            "price_discount": 10980,
+            "original_price": 10980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-zyd-lt260572"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_nTYq4e",
+        "image_slider_EVpCiJ",
+        "image_slider_c89p9e",
+        "image_slider_LB68VE",
+        "main_diagram_QfGxGC",
+        "image_info_FnWdNm"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "【予約】ペイズリー柄刺繍入り　蝋纈染めコットンワッフル改良型ヘンリーネックロングTee",
+        "data_tit_col": "#53320d",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#fffeee",
+        "but_col": "#9b6b33",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_GJ9FJy",
+    "background_image_ngAqTQ",
+    "image_JQjdEa",
+    "url_text_rtgNfx",
+    "image_jump_custom_a4Gr47",
+    "image_slider_DtBdhC",
+    "image_slider_Mypazy",
+    "image_slider_43yLda",
+    "image_jump_custom_8M7zHQ",
+    "image_slider_QwaPzn",
+    "image_slider_VeC6EA",
+    "image_slider_KPrVKJ"
+  ]
+}

@@ -1,0 +1,348 @@
+<style>
+  .section-id-{{ section.id }} {
+      position: relative;
+      margin: 50px 0;
+  }
+  .section-id-{{ section.id }} .item-inner {
+      display: flex;
+      justify-content: center;
+      align-items: flex-start;
+    }
+  .section-id-{{ section.id }}  .autoheight {
+      position: absolute;
+      top: 10px;
+    }
+   .section-id-{{ section.id }}  .autoheight  .item_current {
+      margin-left: 5px;
+    }
+    /* 修复重复选择器冲突！按需求保留奇偶项旋转规则 */
+    /* 奇数组（第1、3、5...个.item-area）- 5deg、10deg、15deg 三组循环 */
+    .section-id-{{ section.id }} .item-group .item-area:nth-child(6n-4) .item-img { /* 第1、7、13... */
+      transform: rotate(5deg);
+    }
+    .section-id-{{ section.id }} .item-group .item-area:nth-child(6n-2) .item-img { /* 第3、9、15... */
+      transform: rotate(10deg);
+    }
+    .section-id-{{ section.id }} .item-group .item-area:nth-child(6n) .item-img { /* 第5、11、17... */
+      transform: rotate(15deg);
+    }
+
+    /* 偶数组（第2、4、6...个.item-area）- -10deg、-3deg、0deg 三组循环 */
+    .section-id-{{ section.id }} .item-group .item-area:nth-child(6n-5) .item-img { /* 第2、8、14... */
+      transform: rotate(-10deg);
+    }
+    .section-id-{{ section.id }} .item-group .item-area:nth-child(6n-3) .item-img { /* 第4、10、16... */
+      transform: rotate(-3deg);
+    }
+    .section-id-{{ section.id }} .item-group .item-area:nth-child(6n-1) .item-img { /* 第6、12、18... */
+      transform: rotate(0deg);
+    }
+
+    /* 图片基础样式 */
+    .section-id-{{ section.id }} .item-group .item-area .item-img {
+      width: 350px;
+      margin-top: 115px;
+      margin-bottom: 280px;
+      transition: transform 0.3s ease;
+    }
+
+    /* 右侧固定图片样式 */
+    .section-id-{{ section.id }} .item-logo {
+      position: sticky;
+      top: 200px;
+      width: 350px;
+      height: 750px;
+      margin-left: 100px;
+      z-index: 10;
+    }
+    .section-id-{{ section.id }} .item-logo .item-logo-inner {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      width: 380px;
+    }
+    .section-id-{{ section.id }} .item-logo .item-logo-img {
+      max-width: 100%;
+      height: auto;
+    }
+
+    /* 图片sticky堆叠 + 标题样式 */
+    .section-id-{{ section.id }} .item-group .item-area {
+      position: sticky;
+      top: 330px;
+      z-index: 5;
+    }
+    .section-id-{{ section.id }} .item-group .autoheight {
+      position: sticky;
+      top: 200px;
+      text-align: center;
+      margin: 0 0 50px;
+    }
+      .section-id-{{ section.id }} .image_font_En {
+        font-size: calc(3 * var(--font-scale) + var(--base-text-size));
+        margin-bottom: 8px;
+      }
+      .section-id-{{ section.id }} .image_font_Jp {
+       font-size: 17px;
+      }
+      .section-id-{{ section.id }} .image_font_En,
+      .section-id-{{ section.id }} .image_font_Jp {
+        color: {{ section.settings.text_color }};
+      }
+    @media (max-width: 768px) {
+    .section-id-{{ section.id }} .item-group .autoheight {
+      top: 100px;
+    }
+     .section-id-{{ section.id }} .item-group .item-area {
+      top: 200px;
+    }
+      .section-id-{{ section.id }} .item-inner .item-pc {
+        display: none;
+      }
+      .section-id-{{ section.id }} .item-group .item-area .item-img {
+        width: 100%;
+        max-width: 290px;
+      }
+      .section-id-{{ section.id }} .image_font_En {
+        font-size: 12px;
+      }
+      .section-id-{{ section.id }} .image_font_Jp {
+       font-size: 14px;
+      }
+    }
+</style>
+
+<div class="section-id-{{ section.id }}">
+  <div class="container">
+    <div class="item-inner">
+      <div class="item-group">
+        <h4 class="autoheight active">
+          <div class="image_font_En">
+            {{ section.settings.text_title -}}
+            <span class="item_current">01</span> / <span class="item_total"></span>
+          </div>
+          <div class="image_font_Jp">{{ section.blocks.first.settings.title_text | default: 'Product Title' }}</div>
+        </h4>
+        {% for block in section.blocks %}
+          <div class="item-area" data-index="{{ forloop.index }}" data-title="{{ block.settings.title_text }}">
+            <div class="item-img item-mo">
+              {% if block.settings.image_url != blank %}
+                <a href="{{ block.settings.image_url }}">
+              {% endif %}
+
+              {% if block.settings.image == blank %}
+                <div class="placeholder-image dark">
+                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                </div>
+              {% else %}
+                {% render 'image' with block.settings.image, sizes: '1980px', loading: 'lazy' %}
+              {% endif %}
+
+              {% if block.settings.image_url != blank %}
+                </a>
+              {% endif %}
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+      <div class="item-logo item-pc">
+        <div class="item-logo-inner">
+          {% if section.settings.log_image == blank %}
+            <div class="placeholder-image dark">
+              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+            </div>
+          {% else %}
+            {% render 'image' with section.settings.log_image,
+              sizes: '800px',
+              loading: 'lazy',
+              class: 'item-logo-img'
+            %}
+          {% endif %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Image stacking",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "log_image",
+      "label": "右侧固定图片"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "标题文字颜色",
+      "default": "#000000"
+    },
+    {
+      "type": "text",
+      "id": "text_title",
+      "label": "默认标题文字",
+      "default": "Item"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image-block",
+      "name": "Image Block",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "图片"
+        },
+        {
+          "type": "text",
+          "id": "title_text",
+          "label": "标题",
+          "default": "Product Title"
+        },
+        {
+          "type": "url",
+          "id": "image_url",
+          "label": "图片链接"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image stacking",
+      "category": "Image",
+      "blocks": [
+        {
+          "type": "image-block"
+        },
+        {
+          "type": "image-block"
+        },
+        {
+          "type": "image-block"
+        },
+        {
+          "type": "image-block"
+        },
+        {
+          "type": "image-block"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+  $(function () {
+    // 1. 基础元素与参数定义
+    const $section = $(`.section-id-{{ section.id }}`);
+    const $itemAreas = $section.find('.item-group .item-area'); // 所有图片项
+    const $titleCurrent = $section.find('.item_current'); // 序号显示
+    const $titleTotal = $section.find('.item_total'); // 总数显示
+    const $titleJp = $section.find('.image_font_Jp'); // 标题显示
+    const totalItems = $itemAreas.length;
+    let lastActiveIndex = 0; // 记录上一个激活的图片索引（避免重复更新）
+
+    // 动态获取触发阈值：PC端(≥768px)为800，移动端(≤767px)为600
+    function getTriggerThreshold() {
+      return window.innerWidth >= 768 ? 800 : 600;
+    }
+
+    // 2. 初始化（总数+默认标题）
+    initTitle();
+
+    // 3. 监听滚动/窗口大小变化事件（节流优化，提升性能）
+    $(window).on('scroll resize', throttle(updateActiveTitle, 100));
+
+    // ================= 核心逻辑函数 =================
+    /**
+     * 初始化标题显示
+     */
+    function initTitle() {
+      if (totalItems === 0) {
+        $titleCurrent.text('00');
+        $titleTotal.text('00');
+        $titleJp.text('No Products');
+        return;
+      }
+      // 总数补0（1-9→01-09，10+→原数字）
+      $titleTotal.text(totalItems < 10 ? `0${totalItems}` : totalItems);
+      // 默认显示第一个图片的信息
+      const firstItem = $itemAreas.eq(0);
+      $titleCurrent.text(padZero(firstItem.data('index')));
+      $titleJp.text(firstItem.data('title') || 'Product Title');
+    }
+
+    /**
+     * 滚动/窗口变化时更新激活图片的标题
+     * 核心判断逻辑：检测图片距离页面顶部的距离，符合范围则激活
+     */
+    function updateActiveTitle() {
+      if (totalItems === 0) return;
+
+      const scrollTop = $(window).scrollTop(); // 当前滚动条位置（页面顶部到滚动条顶端）
+      const triggerThreshold = getTriggerThreshold(); // 实时获取当前屏幕对应的阈值
+      let currentActiveIndex = lastActiveIndex; // 默认保留上一个激活项
+
+      // 遍历所有图片，判断是否进入激活范围
+      $itemAreas.each(function (index) {
+        const $item = $(this);
+        const itemTop = $item.offset().top; // 图片顶部距离页面顶部的距离
+        const itemHeight = $item.outerHeight(); // 图片高度
+        const itemBottom = itemTop + itemHeight; // 图片底部距离页面顶部的距离
+
+        // 激活条件：
+        // 1. 图片顶部 ≤ 滚动条位置 + 动态阈值（PC800/移动端600）
+        // 2. 图片底部 ≥ 滚动条位置（图片未完全滚出视口）
+        const isInRange = itemTop <= scrollTop + triggerThreshold && itemBottom >= scrollTop;
+
+        if (isInRange) {
+          currentActiveIndex = index; // 更新为当前符合条件的图片索引
+        }
+      });
+
+      // 只有当激活项变化时，才更新标题（避免重复DOM操作）
+      if (currentActiveIndex !== lastActiveIndex) {
+        const $activeItem = $itemAreas.eq(currentActiveIndex);
+        const activeIndex = $activeItem.data('index');
+        const activeTitle = $activeItem.data('title') || 'Product Title';
+
+        // 更新标题和序号
+        $titleCurrent.text(padZero(activeIndex));
+        $titleJp.text(activeTitle);
+
+        // 更新记录的激活索引
+        lastActiveIndex = currentActiveIndex;
+      }
+    }
+
+    /**
+     * 序号补0函数（1→01，2→02，10→10）
+     */
+    function padZero(num) {
+      return num < 10 ? `0${num}` : num;
+    }
+
+    /**
+     * 节流函数（限制滚动事件触发频率）
+     */
+    function throttle(func, delay) {
+      let lastExecTime = 0;
+      return function (...args) {
+        const now = Date.now();
+        if (now - lastExecTime >= delay) {
+          lastExecTime = now;
+          func.apply(this, args);
+        }
+      };
+    }
+
+    // 4. 页面加载后触发一次，确保初始状态正确
+    $(window).trigger('scroll');
+  });
+</script>

@@ -1,0 +1,63 @@
+{% style %}
+  @media (max-width: 767px) {
+    .container .imgbox .mobile-none {
+      display: none;
+    }
+  }
+{% endstyle %}
+
+<div class="section-id-{{ section.id }} data-bg">
+  <div class="container">
+    <div class="imgbox">
+      {% if section.settings.img_rul != blank %}
+      <a href="{{ section.settings.img_rul }}" class="data-imgbox-link">
+      {% endif %}
+        {%- if section.settings.pc_image == blank -%}
+          <div class="placeholder-image">
+            {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+          </div>
+
+        {%- else -%}
+          {% comment %} PC端展示 {% endcomment %}
+          {% render 'image' with section.settings.pc_image, sizes: '2980px', loading: 'lazy', class: 'mobile-none' %}
+          {% comment %} 移动端展示 {% endcomment %}
+          {% render 'image' with section.settings.mobile_image, sizes: '2980px', loading: 'lazy', class: 'pc-none' %}
+        {%- endif -%}
+        {% if section.settings.img_rul != blank %}
+          </a>
+        {% endif %}
+
+    </div>
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Image",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "pc_image",
+      "label": "PC端图片",
+      "info": "1560 × 1440"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "移动端图片",
+      "info": "1280 × 720"
+    },
+    {
+      "type": "url",
+      "id": "img_rul",
+      "label": "Picture link"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image",
+      "settings": {}
+    }
+  ]
+}
+{% endschema %}
+

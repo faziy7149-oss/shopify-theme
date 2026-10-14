@@ -1,0 +1,50 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 2,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "enable_sticky_filter": true,
+        "image_position": "center center"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "カジュアルもキレイめも！シャツ12選",
+        "collection": "シャツ12選",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 4,
+        "show_view_all": true,
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1635765484031572a6"
+  ]
+}

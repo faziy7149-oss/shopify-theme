@@ -1,0 +1,788 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "5dbd174a-5db4-4e98-a86d-c8711f267854": {
+      "type": "photo-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/20230321-112509.jpg",
+        "mobile_image": "shopify://shop_images/20230321-112515.jpg",
+        "banner_link": "shopify://collections/new-life-support2",
+        "photo_banner_col": "#ff6501"
+      }
+    },
+    "faa1bc3c-f2ce-4fdf-8914-818a416c1e1f": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16726976495835__faa1bc3c-f2ce-4fdf-8914-818a416c1e1f-1681365245f1b3e927-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Karaku German trainer"
+          }
+        },
+        "template--16726976495835__faa1bc3c-f2ce-4fdf-8914-818a416c1e1f-1681365245f1b3e927-1": {
+          "type": "heading",
+          "settings": {
+            "title": "やっぱり欲しいジャーマントレーナー4選",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16726976495835__faa1bc3c-f2ce-4fdf-8914-818a416c1e1f-1681365245f1b3e927-0",
+        "template--16726976495835__faa1bc3c-f2ce-4fdf-8914-818a416c1e1f-1681365245f1b3e927-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "eeaedc3f-4bef-4e14-9073-e8566642d522": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16719631778011__eeaedc3f-4bef-4e14-9073-e8566642d522-1679905674fb3e239b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner_1_ac392239-e54a-41b5-ac80-4b0bf6bfff10.jpg",
+            "mobile_image": "shopify://shop_images/banner_2_b5934f60-68b0-42b6-b8ac-7f94f82edeff.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16719631778011__eeaedc3f-4bef-4e14-9073-e8566642d522-1679905674fb3e239b-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "0c916d8d-0ef7-4328-87e1-7037d7aeb002": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16719631778011__0c916d8d-0ef7-4328-87e1-7037d7aeb002-1679905674fb3e239b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner_3_2d74fd28-cd06-4410-8af4-925771b545c2.jpg",
+            "mobile_image": "shopify://shop_images/banner_4_b6b7de48-d2a4-44e0-97ef-3ae283a48b01.jpg",
+            "slide_link": "https://www.karakubuy.com/products/krk-glmz9021044?_pos=1&_sid=116dbb6f4&_ss=r",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16719631778011__0c916d8d-0ef7-4328-87e1-7037d7aeb002-1679905674fb3e239b-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "c55fd52d-c6fd-41d8-b9aa-88d3778ab260": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16726976495835__c55fd52d-c6fd-41d8-b9aa-88d3778ab260-1681365245f1b3e927-1": {
+          "type": "heading",
+          "settings": {
+            "title": "オリジナルに忠実なローカットタイプ",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16726976495835__c55fd52d-c6fd-41d8-b9aa-88d3778ab260-1681365245f1b3e927-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "1b64f29a-853f-475d-975f-8347481a9380": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16719631778011__1b64f29a-853f-475d-975f-8347481a9380-1679905674fb3e239b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PC_1_7e420f6a-d16c-41fc-8bd4-58038eff2cf8.png",
+            "mobile_image": "shopify://shop_images/M_1_0c98c7d5-49d0-4f0c-9bd1-031eee70935e.png",
+            "slide_link": "https://www.karakubuy.com/products/md-2001005?_pos=4&_sid=eb42012d4&_ss=r",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16719631778011__1b64f29a-853f-475d-975f-8347481a9380-1679905674fb3e239b-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "faaed7a7-00ee-4081-b350-40e914ba017e": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16726976495835__faaed7a7-00ee-4081-b350-40e914ba017e-1681365245f1b3e927-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>そもそもジャーマントレーナーとは1970年代にドイツ軍で正式採用されたトレーニングシューズのこと。スムースレザーのアッパーとつま先を保護するスウェードのシンプルな取り合わせは、半世紀の時を経ても色褪せないデザインです。<br/>今回は、その当时のオリジナルデザインを忠実に再現したクラシックのトレーニングシューズを入荷。「どうせ買うならやっぱりローカットのデザインが欲しい！」という方はこのチャンスをお見逃しなく。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16726976495835__faaed7a7-00ee-4081-b350-40e914ba017e-1681365245f1b3e927-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "793373f5-f2d7-49ac-84de-71e936d14b09": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16726976495835__793373f5-f2d7-49ac-84de-71e936d14b09-1681365245f1b3e927-1": {
+          "type": "heading",
+          "settings": {
+            "title": "野球風のジャーマントレーナー",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16726976495835__793373f5-f2d7-49ac-84de-71e936d14b09-1681365245f1b3e927-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "7504c5c1-4265-43b3-b753-e1495e60aadc": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16719631778011__7504c5c1-4265-43b3-b753-e1495e60aadc-1679905674fb3e239b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PC_3_2244389c-ead8-440f-8528-0fa4309fc335.png",
+            "mobile_image": "shopify://shop_images/M_3_36ca6a14-e92c-431f-a3dc-0c2086496421.png",
+            "slide_link": "https://www.karakubuy.com/products/krk-md2301008?_pos=2&_sid=eb42012d4&_ss=r",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16719631778011__7504c5c1-4265-43b3-b753-e1495e60aadc-1679905674fb3e239b-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "c73f6a18-95cb-4648-b120-b0ea87889d2c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16726976495835__c73f6a18-95cb-4648-b120-b0ea87889d2c-1681365245f1b3e927-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>野球ボールの定番配色がインパクト、レッド縫い目刺繍とブルーやホワイトアッパーを組み合わせ、スポーティーなデザインがトレンドライクな印象。<br/>アッパーの表面に凹凸感のある、ナチュラルな風合いを表現した剣道着の見た目はそのままに軽さを追求すべく、厚みをそぎ落とした刺し子を使用。<br/>ラバー素材を使用し、滑りにくく、適度な弾性があるアウトソール、ゴムの木から採れる「天然ゴム」は強度や弾性、耐摩耗性､耐老化性に優れる一点です。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16726976495835__c73f6a18-95cb-4648-b120-b0ea87889d2c-1681365245f1b3e927-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "08ca43cd-1118-43c0-81a3-634a77b69ec5": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16726976495835__08ca43cd-1118-43c0-81a3-634a77b69ec5-1681365245f1b3e927-1": {
+          "type": "heading",
+          "settings": {
+            "title": "夏の休日にお勧めのジャーマントレーナー",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16726976495835__08ca43cd-1118-43c0-81a3-634a77b69ec5-1681365245f1b3e927-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "ef09a0cb-cd8c-4bb6-8049-619cf4c43b47": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16719631778011__ef09a0cb-cd8c-4bb6-8049-619cf4c43b47-1679905674fb3e239b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PC_4_efce47fc-a119-49b5-9e35-16a6d0303fa6.png",
+            "mobile_image": "shopify://shop_images/M_4_e19d5a7b-c225-4785-9839-731420f40bbd.png",
+            "slide_link": "https://www.karakubuy.com/products/krk-md2201017?_pos=6&_sid=eb42012d4&_ss=r",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16719631778011__ef09a0cb-cd8c-4bb6-8049-619cf4c43b47-1679905674fb3e239b-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "889cc552-cb07-4fbb-b3bb-7f4ba95c246a": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16726976495835__889cc552-cb07-4fbb-b3bb-7f4ba95c246a-1681365245f1b3e927-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>夏のためにスペックで復刻を実施している、表面には森を思わせるのグリーンも夏に最適なカラーを使用、「リネン」にもしっかりとラインナップされ、麻かすが程よく生地面に現れ、ムラ感のある独特な色合いと相まって、味のある独創的な雰囲気を醸し出し、伝統的な染職人が、古くからの技術を現在の素材に施し、本来の味を生かした特別な加工法で一反一反丁寧に染めています。ブラウンスエードと組み合わせたり、カジュアルスタイルからきれい目スタイルまで幅広く対応できるデザインにも注目。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16726976495835__889cc552-cb07-4fbb-b3bb-7f4ba95c246a-1681365245f1b3e927-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "8fc986e9-6458-4e39-9f77-a91854063471": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16726976495835__8fc986e9-6458-4e39-9f77-a91854063471-1681365245f1b3e927-1": {
+          "type": "heading",
+          "settings": {
+            "title": "ハイカットにアレンジされたジャーマントレーナー",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16726976495835__8fc986e9-6458-4e39-9f77-a91854063471-1681365245f1b3e927-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "496595b0-83d9-4461-8e0e-116dbaa791aa": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16719631778011__496595b0-83d9-4461-8e0e-116dbaa791aa-1679905674fb3e239b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PC_2_2266585d-cb7e-487a-8216-7e0fdd04b4a5.png",
+            "mobile_image": "shopify://shop_images/M_2_f98aed09-aa6c-4d01-b324-68f421e5dea9.png",
+            "slide_link": "https://www.karakubuy.com/products/krk-md-md2007003?_pos=3&_sid=eb42012d4&_ss=r",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16719631778011__496595b0-83d9-4461-8e0e-116dbaa791aa-1679905674fb3e239b-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "21717ada-6956-4d42-a2a5-6346a22d74a0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16726976495835__21717ada-6956-4d42-a2a5-6346a22d74a0-1681365245f1b3e927-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ドイツ軍のトレーニングシューズとして正式採用されていた90'sオリジナルジャーマントレーナーのラストやディティールはそのままに、ハイカットモデルへとアップデートさせた。足元にボリュームが出るため、スキニーパンツやデニムなどすっきりしたボトムスによく合います。</p><p></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16726976495835__21717ada-6956-4d42-a2a5-6346a22d74a0-1681365245f1b3e927-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "gallery_VY86gr": {
+      "type": "gallery",
+      "blocks": {
+        "media_4TY9Nk": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/009_1.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_kKUjHQ": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/1_32f6466c-f943-4d63-bbc5-8cfd082833e6.jpg",
+            "enlarge_media": false,
+            "subheading": "Gallery",
+            "title": "Tell your story",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_jANLPq": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/1_06634ef8-1d93-41f8-9ed5-7c3847db803b.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_tcLNeK": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/1_817f51f9-1902-4679-ba77-8d0cef65c719_1.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_4TY9Nk",
+        "media_kKUjHQ",
+        "media_jANLPq",
+        "media_tcLNeK"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "no_background",
+        "button_style": "primary"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1652174971ed44938d": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "fa9dfc57-29d9-429a-ad78-f1c3b0e73d03": {
+      "type": "collection-list",
+      "blocks": {
+        "a1cfda4d-2e5f-4eef-844f-e0f5bb378673": {
+          "type": "collection",
+          "settings": {
+            "collection": "casual",
+            "image": "shopify://shop_images/c748b6fbc74a48b24d75e66f4ba7160b.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "9da0261c-e6c2-4a9a-bbfc-119356e53e8e": {
+          "type": "collection",
+          "settings": {
+            "collection": "business",
+            "image": "shopify://shop_images/09b45cc61e451a48cc831f5c6eb891a0.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "687282e0-14a4-4d42-8dcb-0babe002b96a": {
+          "type": "collection",
+          "settings": {
+            "collection": "outdoor-sports",
+            "image": "shopify://shop_images/e0b1bc00e2371c92c676cd7a426a4d4d.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "6185350f-3346-4610-8759-0a714c2e8490": {
+          "type": "collection",
+          "settings": {
+            "collection": "navy",
+            "image": "shopify://shop_images/85e3b13ed818a2cb62f8b53434edd859.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "a1cfda4d-2e5f-4eef-844f-e0f5bb378673",
+        "9da0261c-e6c2-4a9a-bbfc-119356e53e8e",
+        "687282e0-14a4-4d42-8dcb-0babe002b96a",
+        "6185350f-3346-4610-8759-0a714c2e8490"
+      ],
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "ce69577d-3e55-495b-a24c-03e36d11c77d": {
+      "type": "collection-list",
+      "blocks": {
+        "f9d68f41-aa7c-46ba-a94a-ece08145ec32": {
+          "type": "collection",
+          "settings": {
+            "collection": "ukiyo-e",
+            "image": "shopify://shop_images/1080x1440_19c2f9b9-aeb8-4b41-9141-a8e0c7e4040a.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "9778e4ca-0fdf-475d-b4fa-0017c173d83e": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-best-leather-jacket",
+            "image": "shopify://shop_images/banner_2_741d7734-7c47-40bd-984c-e5e6333b4baa.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "6c3f5ed5-f954-4aa0-9401-58cbf6765df1": {
+          "type": "collection",
+          "settings": {
+            "collection": "2021年秋冬コレクション-藍染から浮かびあがる-自然とひとの-循環",
+            "image": "shopify://shop_images/457-M_fcd61519-1060-42f2-b898-75687609fa6a.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "5149fc48-2e2a-457f-a67c-4ebcb0d0ddcb": {
+          "type": "collection",
+          "settings": {
+            "collection": "perfectoils",
+            "image": "shopify://shop_images/1080x1440_5.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "f9d68f41-aa7c-46ba-a94a-ece08145ec32",
+        "9778e4ca-0fdf-475d-b4fa-0017c173d83e",
+        "6c3f5ed5-f954-4aa0-9401-58cbf6765df1",
+        "5149fc48-2e2a-457f-a67c-4ebcb0d0ddcb"
+      ],
+      "settings": {
+        "title": "おすすめ特集",
+        "enable_carousel": true,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "1649757612ea7476eb": {
+      "type": "text-editor",
+      "settings": {
+        "data_wrapper_1250": false,
+        "text1": "<p>{{ collection.metafields.commodity.productintroduction | metafield_tag }}</p>"
+      }
+    },
+    "ac3f6eda-5daf-4a83-9259-76019dd0c875": {
+      "type": "photo-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/900.jpg",
+        "mobile_image": "shopify://shop_images/100.jpg",
+        "banner_link": "shopify://pages/新規会員限定-ポイント取得ページ",
+        "photo_banner_col": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "5dbd174a-5db4-4e98-a86d-c8711f267854",
+    "faa1bc3c-f2ce-4fdf-8914-818a416c1e1f",
+    "eeaedc3f-4bef-4e14-9073-e8566642d522",
+    "0c916d8d-0ef7-4328-87e1-7037d7aeb002",
+    "c55fd52d-c6fd-41d8-b9aa-88d3778ab260",
+    "1b64f29a-853f-475d-975f-8347481a9380",
+    "faaed7a7-00ee-4081-b350-40e914ba017e",
+    "793373f5-f2d7-49ac-84de-71e936d14b09",
+    "7504c5c1-4265-43b3-b753-e1495e60aadc",
+    "c73f6a18-95cb-4648-b120-b0ea87889d2c",
+    "08ca43cd-1118-43c0-81a3-634a77b69ec5",
+    "ef09a0cb-cd8c-4bb6-8049-619cf4c43b47",
+    "889cc552-cb07-4fbb-b3bb-7f4ba95c246a",
+    "8fc986e9-6458-4e39-9f77-a91854063471",
+    "496595b0-83d9-4461-8e0e-116dbaa791aa",
+    "21717ada-6956-4d42-a2a5-6346a22d74a0",
+    "gallery_VY86gr",
+    "main",
+    "1652174971ed44938d",
+    "1635765484031572a6",
+    "fa9dfc57-29d9-429a-ad78-f1c3b0e73d03",
+    "ce69577d-3e55-495b-a24c-03e36d11c77d",
+    "1649757612ea7476eb",
+    "ac3f6eda-5daf-4a83-9259-76019dd0c875"
+  ]
+}

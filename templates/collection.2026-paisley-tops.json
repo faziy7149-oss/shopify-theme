@@ -1,0 +1,485 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "slideshow_fHWfNG": {
+      "type": "slideshow",
+      "blocks": {
+        "image_EXwL83": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/214__1920.jpg",
+            "mobile_image": "shopify://shop_images/214__1080.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_EXwL83"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "scrolling_banner_w7XtTf": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "image_6hQaiz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_44b9efad-3779-4dc3-9005-f1762b5ca6d4.png",
+            "image_width": 400,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_6hQaiz"
+      ],
+      "name": "Scrolling banner",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 35,
+        "direction": "left",
+        "font": "heading",
+        "space": 0
+      }
+    },
+    "image_ncFh7C": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_3c2b5de7-1660-434c-b535-9b27e689edb0.png",
+        "mobile_image": "shopify://shop_images/720_989f2668-bd93-4b77-a593-83ec22f5af84.png",
+        "img_rul": ""
+      }
+    },
+    "image_jump_custom_ChykDr": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_cqBgtT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_5184af47-46a4-4848-9f23-8a1c30a82e2d.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_cqBgtT"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "slide_block_group_3TdMAh": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_m39yGD": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/01_a8d175e8-4405-498f-840f-45cce13b75b0.png",
+            "slide_img": "shopify://shop_images/20260508-173228.jpg",
+            "slide_title": "ウール混　ペイズリー柄ジャカード織りオープンカラーシャツ",
+            "slide_price": 0,
+            "slide_price_new": 12980,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lsx-sh260107?_pos=1&_sid=f6accda58&_ss=r&variant=48552712536283",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_KiLEMA": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/02_cab92b50-6333-45bb-a61f-062cee733d60.png",
+            "slide_img": "shopify://shop_images/1336x1604-2_14d4a8aa-6438-483c-856b-46e31c7e26f9.jpg",
+            "slide_title": "【予約】エンボス加工ペイズリー柄コットンワークシャツ",
+            "slide_price": 0,
+            "slide_price_new": 13980,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-zj-sh260315?_pos=1&_sid=cdfe58145&_ss=r&variant=48600463868123",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_EpJQNr": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/03_58924c84-b2d2-45bb-bd0c-fbc19dd66c8c.png",
+            "slide_img": "shopify://shop_images/1336x1604-3_f763500f-3075-4bc3-a8f5-aec98e0dc222.jpg",
+            "slide_title": "【予約】ペイズリー総柄ジャカード織りキューバカラーシャツ",
+            "slide_price": 0,
+            "slide_price_new": 12980,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lsx-sh260443?_pos=1&_sid=00b8ab8fc&_ss=r&variant=48748840222939",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_m39yGD",
+        "slide_block_KiLEMA",
+        "slide_block_EpJQNr"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#c8d7eb",
+        "slide_text_color": "#3f5160",
+        "slide_btn_hover_color": "#49548a",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_YfwMKg": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_M3b4Vg": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/04_7c7b8c9a-cc3e-437b-9c68-9f85bfc19395.png",
+            "slide_img": "shopify://shop_images/1336x1604-4_e87793e8-93da-43ef-82cb-2e14871c0657.jpg",
+            "slide_title": "【予約】Vガゼット入り　無地×ペイズリー柄ボンディング生地半袖Tシャツ",
+            "slide_price": 0,
+            "slide_price_new": 7990,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-zyd-ht260178?_pos=1&_sid=4253c5837&_ss=r&variant=48591238201563",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_KG8U3k": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/05_1b208b3c-3e92-4b9f-b636-a2bf5b8a5dbc.png",
+            "slide_img": "shopify://shop_images/1336x1604-5_14c385a1-2299-47bf-9c65-f7750cc1ea41.jpg",
+            "slide_title": "【予約】裏地ペイズリー総柄プリント入りキューバカラーシャツ",
+            "slide_price": 0,
+            "slide_price_new": 11980,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lsx-sh260180?_pos=1&_sid=2683410e0&_ss=r&variant=48575673368795",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_F6fkaq": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/06_0b2be62d-2e11-4aa2-9164-fad1575475dd.png",
+            "slide_img": "shopify://shop_images/1336x1604-6_1a1c0fb5-e98f-486e-8151-6890ebb3257a.jpg",
+            "slide_title": "【予約】ペイズリー柄ジャカード織り　赤ヒモ付きテンセル混紡キューバカラーシャツ",
+            "slide_price": 0,
+            "slide_price_new": 12980,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lsx-sh260150?_pos=1&_sid=89043481e&_ss=r&variant=48583256899803",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_M3b4Vg",
+        "slide_block_KG8U3k",
+        "slide_block_F6fkaq"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#c8d7eb",
+        "slide_text_color": "#3f5160",
+        "slide_btn_hover_color": "#49548a",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_baHiWD": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_FNMRiR": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/04_7c7b8c9a-cc3e-437b-9c68-9f85bfc19395.png",
+            "slide_img": "shopify://shop_images/1336x1604-7_0316760c-8a2f-4a85-9819-b03eddb50bab.jpg",
+            "slide_title": "【予約】ペイズリージャガードフェイクレイヤードデニムシャツ",
+            "slide_price": 0,
+            "slide_price_new": 11980,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lrj-ts260309?_pos=1&_sid=8df287783&_ss=r&variant=48712979775707",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_9i47Vg": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/08_ba017a93-c688-48fb-9e63-467618c18307.png",
+            "slide_img": "shopify://shop_images/1336x1604-8_914ed5d2-21f1-48b6-aaff-adc593df0cc5.jpg",
+            "slide_title": "襟ペイズリージャカード切替　「KaraKu」刺繡入り2ボタンポロシャツ",
+            "slide_price": 10980,
+            "slide_price_new": 9350,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-zyd-ht260124?_pos=1&_sid=38153f35e&_ss=r&variant=48619241242843",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_KdA8Et": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/09_41812877-86af-48b7-a84c-92d56fc41ef8.png",
+            "slide_img": "shopify://shop_images/1336x1604-9_4d8ad108-eb10-48a8-9bca-e58831f1cde0.jpg",
+            "slide_title": "「Karaku」ロゴ刺繡入り　裏ペイズリー柄デニム長袖シャツ",
+            "slide_price": 12980,
+            "slide_price_new": 10390,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-zyd-sh1015?_pos=1&_sid=557a0f62c&_ss=r&variant=47893850947803",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_FNMRiR",
+        "slide_block_9i47Vg",
+        "slide_block_KdA8Et"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#c8d7eb",
+        "slide_text_color": "#3f5160",
+        "slide_btn_hover_color": "#49548a",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "image_jump_custom_xKYQqd": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_HGkTfA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_70d699e6-ab7a-4adc-8239-43d51553e7da.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_HGkTfA"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "slide_block_group_XPGW8i": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_mBb6JL": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/10_25dc4e54-726d-4ff5-96be-e39fc9e93c5d.png",
+            "slide_img": "shopify://shop_images/1336x1604-10_095e6630-49ac-4a6e-9972-bcb3489d8da4.jpg",
+            "slide_title": "「Karaku」刺繍入り　赤ヒモ付きペイズリーバンダナ柄長袖シャツ",
+            "slide_price": 12980,
+            "slide_price_new": 11680,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-zyd-sh251182?_pos=1&_sid=39f8b3949&_ss=r&variant=48196563173595",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_gFR4dX": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/11_c6521e05-f0ee-462c-8dec-7982ebe137e3.png",
+            "slide_img": "shopify://shop_images/1336x1604-11_52b99a2d-bc35-4747-8782-2162d3e14168.jpg",
+            "slide_title": "「Karaku」刺繍入り　赤ヒモ付きペイズリーバンダナ柄半袖シャツ",
+            "slide_price": 0,
+            "slide_price_new": 10980,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lsx-sh260221?_pos=1&_sid=f493054af&_ss=r&variant=48547428663515",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_hLYBN3": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/12_d31e522d-3b43-4152-938c-0cc7cadd52fe.png",
+            "slide_img": "shopify://shop_images/1336x1604-12_78b917dc-3ee9-4d17-b425-0f613e8d7014.jpg",
+            "slide_title": "【予約】ペイズリー総柄テンセルリネン混紡アロハシャツ",
+            "slide_price": 0,
+            "slide_price_new": 12980,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-sh260433?_pos=1&_sid=a7a22b634&_ss=r&variant=48748139020507",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_mBb6JL",
+        "slide_block_gFR4dX",
+        "slide_block_hLYBN3"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#c8d7eb",
+        "slide_text_color": "#3f5160",
+        "slide_btn_hover_color": "#49548a",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_ELb4pP": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_8pAdzr": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/13_ccacea19-fff1-459c-80a9-78aee510badc.png",
+            "slide_img": "shopify://shop_images/1336x1604-13_a696563b-f86d-471b-8d74-eb39dca13470.jpg",
+            "slide_title": "赤ヒモ付き　「猫がペイズリー溶け込む」バンダナ柄半袖シャツ",
+            "slide_price": 0,
+            "slide_price_new": 11980,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-zyd-sh260213?_pos=1&_sid=8e1db0156&_ss=r&variant=48748826329307",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_rHKFRr": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/14_df32c56d-5f58-4b43-a182-f005b6cf731d.png",
+            "slide_img": "shopify://shop_images/1336x1604-14_cdeab71d-6592-486a-9170-a88c60ae306f.jpg",
+            "slide_title": "【予約】「海洋生物をあしらったペイズリー」総柄　ポップアート風アロハシャツ",
+            "slide_price": 0,
+            "slide_price_new": 10980,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-sh260412?_pos=1&_sid=ff359eba8&_ss=r&variant=48583246512347",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_bp9r7g": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/15_6ebf2e9c-77c8-45b9-a7c5-48c9cc2bb926.png",
+            "slide_img": "shopify://shop_images/1336x1604-15_92d9d601-79f1-4a7e-9ab2-1cadd4fda638.jpg",
+            "slide_title": "【予約】カラフルペイズリー総柄　コットンアロハシャツ",
+            "slide_price": 0,
+            "slide_price_new": 10980,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-sh260410?_pos=1&_sid=a0c6f21d7&_ss=r&variant=48653838516443",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_8pAdzr",
+        "slide_block_rHKFRr",
+        "slide_block_bp9r7g"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#c8d7eb",
+        "slide_text_color": "#3f5160",
+        "slide_btn_hover_color": "#49548a",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "background_image_hBjM6R": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#f1ede5",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "slideshow_fHWfNG",
+    "main",
+    "scrolling_banner_w7XtTf",
+    "image_ncFh7C",
+    "image_jump_custom_ChykDr",
+    "slide_block_group_3TdMAh",
+    "slide_block_group_YfwMKg",
+    "slide_block_group_baHiWD",
+    "image_jump_custom_xKYQqd",
+    "slide_block_group_XPGW8i",
+    "slide_block_group_ELb4pP",
+    "background_image_hBjM6R"
+  ]
+}

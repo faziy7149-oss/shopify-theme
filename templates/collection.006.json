@@ -1,0 +1,311 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1635736314e4e3d1c3": {
+      "type": "rich-text",
+      "blocks": {
+        "1635736314e4e3d1c3-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "注目製品"
+          }
+        },
+        "1635736314e4e3d1c3-1": {
+          "type": "heading",
+          "settings": {
+            "title": "ジャパン・ブルーと呼ばれた藍の色",
+            "use_h1": false
+          }
+        },
+        "1635736314e4e3d1c3-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DESIGN BY KARAKUBUY | 2021-2022AW COLLECTION</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1635736314e4e3d1c3-0",
+        "1635736314e4e3d1c3-1",
+        "1635736314e4e3d1c3-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "1635738036ae71c27f": {
+      "type": "slideshow",
+      "blocks": {
+        "1635738036ae71c27f-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/0607_katakura_01.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        },
+        "1635738036ae71c27f-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/KRK-LR011569-_3_720x_25739025-98ae-4e37-81f7-e388bece108e.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1635738036ae71c27f-1",
+        "1635738036ae71c27f-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 1000,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 2,
+        "accessibility_info": ""
+      }
+    },
+    "163573663356216c07": {
+      "type": "rich-text",
+      "blocks": {
+        "163573663356216c07-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "INTRODUCTION"
+          }
+        },
+        "163573663356216c07-1": {
+          "type": "heading",
+          "settings": {
+            "title": "「ジャパン・ブルー」",
+            "use_h1": false
+          }
+        },
+        "163573663356216c07-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ここに1枚の絵があります。誰もが知っている浮世絵の連作、「東海道五十三次」の品川宿です。日の出の空とともに道には大名行列が歩き、構図の左半分に穏やかな海の風景が描かれています。この海を染める藍色のグラデーションがとても印象的で、絵全体にしっとり豊かな情緒をもたらしています。</p><p>作者は江戸時代後期の浮世絵師を代表する歌川広重。この時代に描かれた浮世絵は海を渡り、ゴッホやモネなどヨーロッパの画家たちに大きな影響を与えました。なかでも浮世絵に頻繁に使われた藍色はよほど印象的だったらしく、日本を象徴する色あいとして「ジャパン・ブルー」、あるいは「ヒロシゲ・ブルー」と呼ばれました。</p><p>その藍染めが広く庶民に親しまれるようになるのは江戸時代からです。この時代、木綿が普及し、その木綿によく染まることから藍染めも広がりました。型染めや絞り、絣など染色技法も発達し、仕事着やのれん、浴衣、ふろしきなど、やがて日本人の暮らしは藍色に染まっていったのです。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "163573663356216c07-0",
+        "163573663356216c07-1",
+        "163573663356216c07-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 36,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "16357368049a586ae1": {
+      "type": "slideshow",
+      "blocks": {
+        "16357368049a586ae1-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg",
+            "mobile_image": "shopify://shop_images/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "おすすめの着回し術",
+            "heading_max_width": 15,
+            "title_size": 50,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "<p><strong>JAPAN BLUE</strong></p>",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16357368049a586ae1-1"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 200,
+        "height_mobile": 120,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": false,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "gallery_krw3rB": {
+      "type": "gallery",
+      "blocks": {
+        "media_Kjzt78": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/KRK-LR0930031-blue.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_9VALeb": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/KRK-PWR8765-blue.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_aabaRn": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/OK8309_4101175a-3f25-45a9-94a1-4ab2e50f613e.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_Kjzt78",
+        "media_9VALeb",
+        "media_aabaRn"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "full",
+        "button_style": "primary"
+      }
+    },
+    "1635736938ed084760": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "あなたにおすすめの商品",
+        "collection": "buy-with-japan-blue",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "1635736314e4e3d1c3",
+    "1635738036ae71c27f",
+    "163573663356216c07",
+    "main",
+    "16357368049a586ae1",
+    "gallery_krw3rB",
+    "1635736938ed084760"
+  ]
+}

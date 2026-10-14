@@ -1,0 +1,806 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "slideshow_6bpriB": {
+      "type": "slideshow",
+      "blocks": {
+        "image_eVT4Xt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/143__1920.jpg",
+            "mobile_image": "shopify://shop_images/143__1080.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_eVT4Xt"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_stacking_gxVLGQ": {
+      "type": "image-stacking",
+      "blocks": {
+        "image_block_9PeJrd": {
+          "type": "image-block",
+          "settings": {
+            "image": "shopify://shop_images/780x975-5_ce5a8a1d-62b7-4a61-bb4d-5ac8973ac3c1.jpg",
+            "title_text": "LOOK 01",
+            "image_url": ""
+          }
+        },
+        "image_block_wMhBAH": {
+          "type": "image-block",
+          "settings": {
+            "image": "shopify://shop_images/780x975-3_c5b6305e-c19b-48c1-9d2c-036e7b39a042.jpg",
+            "title_text": "look02",
+            "image_url": ""
+          }
+        },
+        "image_block_YMUNUe": {
+          "type": "image-block",
+          "settings": {
+            "image": "shopify://shop_images/780x975-11.jpg",
+            "title_text": "LOOK 03",
+            "image_url": ""
+          }
+        },
+        "image_block_VJ4KBh": {
+          "type": "image-block",
+          "settings": {
+            "image": "shopify://shop_images/780x975-9.jpg",
+            "title_text": "LOOK 04",
+            "image_url": ""
+          }
+        },
+        "image_block_yBd77L": {
+          "type": "image-block",
+          "settings": {
+            "image": "shopify://shop_images/780x975-4_d5c9d413-eff2-4917-9b9a-1fb9d4090186.jpg",
+            "title_text": "LOOK 05",
+            "image_url": ""
+          }
+        },
+        "image_block_VhDnyX": {
+          "type": "image-block",
+          "settings": {
+            "image": "shopify://shop_images/780x975-1_b2e29636-b49b-4f0f-8547-bf43fad1d493.jpg",
+            "title_text": "LOOK 06",
+            "image_url": ""
+          }
+        },
+        "image_block_UDEXBL": {
+          "type": "image-block",
+          "settings": {
+            "image": "shopify://shop_images/780x975-7.jpg",
+            "title_text": "LOOK 07",
+            "image_url": ""
+          }
+        },
+        "image_block_PRr6JK": {
+          "type": "image-block",
+          "settings": {
+            "image": "shopify://shop_images/780x975-6.jpg",
+            "title_text": "LOOK 08",
+            "image_url": ""
+          }
+        },
+        "image_block_eHTLFB": {
+          "type": "image-block",
+          "settings": {
+            "image": "shopify://shop_images/780x975-2_83d6dc0b-c311-4884-935c-99f2b1f20ba8.jpg",
+            "title_text": "LOOK 09",
+            "image_url": ""
+          }
+        },
+        "image_block_6Ljbq6": {
+          "type": "image-block",
+          "settings": {
+            "image": "shopify://shop_images/780x975-10.jpg",
+            "title_text": "LOOK 10",
+            "image_url": ""
+          }
+        },
+        "image_block_xEe8T8": {
+          "type": "image-block",
+          "settings": {
+            "image": "shopify://shop_images/780x975-12.jpg",
+            "title_text": "LOOK 11",
+            "image_url": ""
+          }
+        },
+        "image_block_PiYGbi": {
+          "type": "image-block",
+          "settings": {
+            "image": "shopify://shop_images/780x975-8.jpg",
+            "title_text": "LOOK 12",
+            "image_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_block_9PeJrd",
+        "image_block_wMhBAH",
+        "image_block_YMUNUe",
+        "image_block_VJ4KBh",
+        "image_block_yBd77L",
+        "image_block_VhDnyX",
+        "image_block_UDEXBL",
+        "image_block_PRr6JK",
+        "image_block_eHTLFB",
+        "image_block_6Ljbq6",
+        "image_block_xEe8T8",
+        "image_block_PiYGbi"
+      ],
+      "name": "Image stacking",
+      "settings": {
+        "log_image": "shopify://shop_images/20260320-180100.png",
+        "text_color": "#faf6ea",
+        "text_title": "LOOK"
+      }
+    },
+    "scrolling_image_iUmwaE": {
+      "type": "scrolling-image",
+      "blocks": {
+        "text_Di8dFQ": {
+          "type": "text",
+          "settings": {
+            "text": "KARAKU 2026 SS LOOKBOOK",
+            "color": "#faf6ea",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_Di8dFQ"
+      ],
+      "name": "Scrolling image",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 19,
+        "direction": "left",
+        "font": "heading",
+        "space": 35,
+        "color_bg": "",
+        "show_filter": false
+      }
+    },
+    "adjusting_spacing_3mzkDn": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": 0
+      }
+    },
+    "hotspots_bqEUNR": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_Uymy9D": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 79,
+            "hotspot_y": 62,
+            "hotspot_x_mobile": 39,
+            "hotspot_y_mobile": 40,
+            "heading": "ターコイズ風ボタン付き　ヘリンボーンジャガードヘンリーネックTee",
+            "text": "<p><strong>¥7,190</strong></p>",
+            "icon": "",
+            "icon_width": 20
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_Uymy9D"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/20260320-164305.jpg",
+        "mobile_image": "shopify://shop_images/20260320-164258.jpg",
+        "hotspot_color": "#f59133",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_6GAK4W": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_3h6myC": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 25,
+            "hotspot_y": 59,
+            "hotspot_x_mobile": 70,
+            "hotspot_y_mobile": 25,
+            "heading": "「Karaku」ワンポイント刺繍入り　赤ヒモ付きテクスチャー半袖シャツ",
+            "text": "<p><strong>¥9,980</strong></p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_3h6myC"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1920x780-2_2d403698-76df-43bf-8fff-9254cf93c0b7.jpg",
+        "mobile_image": "shopify://shop_images/1080x2285-2.jpg",
+        "hotspot_color": "#f59133",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_RJ4jAC": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_rUGAka": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 40,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 73,
+            "hotspot_y_mobile": 54,
+            "heading": "エスニック民族調ジャカード織り　ターコイズ調ボタンヘンリーネックTee",
+            "text": "<p><strong>¥7,990</strong></p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_rUGAka"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1920x780-3.jpg",
+        "mobile_image": "shopify://shop_images/1080x2285-3.jpg",
+        "hotspot_color": "#f59133",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_xky8JQ": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_drXUPV": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 26,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 73,
+            "hotspot_y_mobile": 54,
+            "heading": "「KaraKu」ロゴ刺繡　紅白ヒモ付き裏エスニック調柄デニムシャツ",
+            "text": "<p><strong>¥10,980</strong></p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_drXUPV"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1920x780-4.jpg",
+        "mobile_image": "shopify://shop_images/1080x2285-4.jpg",
+        "hotspot_color": "#f59133",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_bELDtA": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_qLUmfW": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 39,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 40,
+            "hotspot_y_mobile": 85,
+            "heading": "「モンステラ＆茶トラ 」総柄　キューバカラーアロハシャツ",
+            "text": "<p><strong>¥8,190</strong></p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_qLUmfW"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1920x780-5.jpg",
+        "mobile_image": "shopify://shop_images/1080x2285-5.jpg",
+        "hotspot_color": "#f59133",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_XiahbG": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_YMJJ9e": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 73,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 73,
+            "hotspot_y_mobile": 54,
+            "heading": "和柄・絞り染め風プリントアロハシャツ",
+            "text": "<p><strong>¥10,980</strong></p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_YMJJ9e"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1920x780-6.jpg",
+        "mobile_image": "shopify://shop_images/1080x2285-6.jpg",
+        "hotspot_color": "#f59133",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_mEhCmy": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_h9XGJX": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 23,
+            "hotspot_y": 68,
+            "hotspot_x_mobile": 73,
+            "hotspot_y_mobile": 54,
+            "heading": "「カラフルキャット」ポップアート風プリントアロハシャツ",
+            "text": "<p><strong>¥10,980</strong></p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_h9XGJX"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1920x780-7.jpg",
+        "mobile_image": "shopify://shop_images/1080x2285-7.jpg",
+        "hotspot_color": "#f59133",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_97dCiL": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_EDCayC": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 39,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 73,
+            "hotspot_y_mobile": 54,
+            "heading": "江戸時代・長崎派「虎図」総柄プリント入りアロハシャツ",
+            "text": "<p><strong>¥12,590</strong></p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_EDCayC"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1920x780-8.jpg",
+        "mobile_image": "shopify://shop_images/1080x2285-8.jpg",
+        "hotspot_color": "#f59133",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_KqGbF9": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_TTHaqa": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 73,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 61,
+            "hotspot_y_mobile": 54,
+            "heading": "ペルシャエスニック調パターン総柄アロハシャツ",
+            "text": "<p><strong>¥8,990</strong></p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_TTHaqa"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1920x780-9.jpg",
+        "mobile_image": "shopify://shop_images/1080x2285-9.jpg",
+        "hotspot_color": "#f59133",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_fqNG3E": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_RAWjtj": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 60,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 63,
+            "hotspot_y_mobile": 20,
+            "heading": "「山海経・百獣」総柄アロハシャツ",
+            "text": "<p><strong>¥12,590</strong></p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_RAWjtj"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1920x780-10.jpg",
+        "mobile_image": "shopify://shop_images/1080x2285-10.jpg",
+        "hotspot_color": "#f59133",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_Y6NhdU": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_HUmH3f": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 39,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 73,
+            "hotspot_y_mobile": 54,
+            "heading": "「招き猫着ぐるみをかぶった猫たち」総柄　浮世絵風アロハシャツ",
+            "text": "<p><strong>¥10,980</strong></p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_HUmH3f"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1920x780-11.jpg",
+        "mobile_image": "shopify://shop_images/1080x2285-11.jpg",
+        "hotspot_color": "#f59133",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_nE6rQi": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_dJVMPf": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 27,
+            "hotspot_y": 44,
+            "hotspot_x_mobile": 60,
+            "hotspot_y_mobile": 33,
+            "heading": "伊藤若冲「群魚図」プリント入りオープンカラーアロハシャツ",
+            "text": "<p><strong>¥12,590</strong></p>",
+            "icon": "",
+            "icon_width": 32
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_dJVMPf"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1920x780-12.jpg",
+        "mobile_image": "shopify://shop_images/1080x2285-12.jpg",
+        "hotspot_color": "#f59133",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "background_image_PemepA": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#f59133",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_6bpriB",
+    "image_stacking_gxVLGQ",
+    "scrolling_image_iUmwaE",
+    "adjusting_spacing_3mzkDn",
+    "hotspots_bqEUNR",
+    "hotspots_6GAK4W",
+    "hotspots_RJ4jAC",
+    "hotspots_xky8JQ",
+    "hotspots_bELDtA",
+    "hotspots_XiahbG",
+    "hotspots_mEhCmy",
+    "hotspots_97dCiL",
+    "hotspots_KqGbF9",
+    "hotspots_fqNG3E",
+    "hotspots_Y6NhdU",
+    "hotspots_nE6rQi",
+    "background_image_PemepA"
+  ]
+}

@@ -1,0 +1,586 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "slideshow_8qNtct": {
+      "type": "slideshow",
+      "blocks": {
+        "image_ikCAr7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/171__banner.1920psd.jpg",
+            "mobile_image": "shopify://shop_images/171___1080_dcf6ab00-c78d-4388-9fb0-88bb43f32b73.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_ikCAr7"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_9wa8e7": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920.png",
+        "mobile_image": "shopify://shop_images/720.png",
+        "img_rul": ""
+      }
+    },
+    "image_jump_inEwkn": {
+      "type": "image-jump",
+      "blocks": {
+        "image_aN8kCh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20240531-180907.jpg",
+            "image-id": "#data-01"
+          }
+        },
+        "image_kjGngi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/171____-2.jpg",
+            "image-id": "#data-02"
+          }
+        },
+        "image_NYFanE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/171____-5.jpg",
+            "image-id": "#data-03"
+          }
+        },
+        "image_xF4aPA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/171____-3.jpg",
+            "image-id": "#data-04"
+          }
+        },
+        "image_HkQnq3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/171____-4.jpg",
+            "image-id": "#data-05"
+          }
+        },
+        "image_x9TJPd": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/171____-6.jpg",
+            "image-id": "#data-06"
+          }
+        }
+      },
+      "block_order": [
+        "image_aN8kCh",
+        "image_kjGngi",
+        "image_NYFanE",
+        "image_xF4aPA",
+        "image_HkQnq3",
+        "image_x9TJPd"
+      ],
+      "settings": {
+        "background_color_overlay": "",
+        "background_color": "",
+        "grid": 26
+      }
+    },
+    "image_jump_custom_ctQiGX": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_3WyB49": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/720-1.png",
+            "image-id": "data-01",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_3WyB49"
+      ],
+      "settings": {}
+    },
+    "adjusting_spacing_Eyqpg6": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -1,
+        "margin_top2": 0
+      }
+    },
+    "slide_block_group_cRWPQL": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_WT8GBb": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/3-1_407cf516-bcef-443e-b36e-e628eac00367.jpg",
+            "slide_img2": "shopify://shop_images/3-2_151af25d-4a98-42d3-b39b-3f8bcc04e5b4.jpg",
+            "slide_title": "トリプルストライプ柄　オープンカラーワークシャツ",
+            "slide_price": 9590,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-ortwkssg403?_pos=1&_sid=ce0832007&_ss=r&variant=45190019317979",
+            "slide_intro": "大人の落ち着きを感じるキューバカラーシャツ。洗練された大人カジュアルカラーのベージュを基調として、モダンなトリプルストライプ柄と相まって程良いイタリアンテイストを演出してくれた一枚です。"
+          }
+        },
+        "slide_block_GbyTF8": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/2-2_c0531798-2a36-4053-b63c-e1b2b848dcac.jpg",
+            "slide_title": "藍染　ドロップショルダー綿麻キューバシャツ",
+            "slide_price": 9990,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-gllc5121003?_pos=2&_sid=c1105ee1f&_ss=r&variant=42839412277467",
+            "slide_intro": "本アイテムは藍染め工芸で仕上げられに加え、水洗い処理され、インディゴの絶妙の質感と自然の色落ちで表現してる古着感は特徴。"
+          }
+        },
+        "slide_block_gLaKPp": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1-1_ce186e24-b686-48b1-97f6-0d5a2dc2215e.jpg",
+            "slide_title": "ウォッシュド加工　ヘビーウェイト半袖ヘンリーTシャツ",
+            "slide_price": 5190,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-dc-858?_pos=6&_sid=a3240bdaa&_ss=r&variant=44095524503771",
+            "slide_intro": "ボタンの開閉によって自在にニュアンスを調整できるのも大きなメリットです。ウォッシュド加工でヴィンテージ感が引き立ち、いい具合に褪せた風合いがアメカジスタイルに呼ぶ。"
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_WT8GBb",
+        "slide_block_GbyTF8",
+        "slide_block_gLaKPp"
+      ],
+      "settings": {
+        "slide_btn_color": "#d03729",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#f7f1e7",
+        "slide_text_hover_color": "#d03729",
+        "slide_font_color": "#2a292e"
+      }
+    },
+    "image_jump_custom_f48xVd": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_jL89TY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/720-2.png",
+            "image-id": "data-02",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_jL89TY"
+      ],
+      "settings": {}
+    },
+    "slide_block_group_9EfaYx": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_HaTYCJ": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/4-1_8959d0d1-e4fd-449d-99b8-079a0736440a.jpg",
+            "slide_title": "アメリカンレトロ海軍デッキオーバーオール　デニム",
+            "slide_price": 13500,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/md-ts2101023?_pos=4&_sid=c2670abeb&_ss=r&variant=40084292796594",
+            "slide_intro": "仕事から遊びまで幅広くお使いいただけます。着こむほどにヴィンテージらしさの出る経年変化が楽しめます！！全体的にゆったりとしたシルエットになっております。"
+          }
+        },
+        "slide_block_WEbGim": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/6-2_64f3f41f-cb52-4349-9fba-f7d5ea41d89e.jpg",
+            "slide_title": "NAVAJO柄インターシャ編みショートパンツ",
+            "slide_price": 11890,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-md-tw2301242?_pos=3&_sid=0fa35dbc9&_ss=r&variant=44022094201051",
+            "slide_intro": "ボディーにナバホ族柄を施され、インターシャ糸を編んでいくので、裏側からみても表と同じ柄が見える。ナバホ柄の見え方がはっきりしながらも薄い仕上がりになる。"
+          }
+        },
+        "slide_block_dkw8Tt": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/5-1_bdd5101d-29d7-441d-ac91-ca0778f04d29.jpg",
+            "slide_img2": "shopify://shop_images/5-2_1f99f768-3443-468d-b9be-4c9b5f96e6b6.jpg",
+            "slide_title": "グルカパンツ　ミリタリー",
+            "slide_price": 13064,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/md-s2007085?_pos=2&_sid=00c6627d9&_ss=r&variant=41051447328946",
+            "slide_intro": "モダンシックな本格ミリタリーパンツコットン生地をウォッシュ加工して、自然な風合いにしました。定番のグルカパンツはウエスト調節が可能で、お好みに合わせて6段階に調節できます。"
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_HaTYCJ",
+        "slide_block_WEbGim",
+        "slide_block_dkw8Tt"
+      ],
+      "settings": {
+        "slide_btn_color": "#d03729",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#f7f1e7",
+        "slide_text_hover_color": "#d03729",
+        "slide_font_color": "#100f0f"
+      }
+    },
+    "adjusting_spacing_TfVTHf": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -3
+      }
+    },
+    "image_jump_custom_LrfD6X": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_TQU46F": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/720-3.png",
+            "image-id": "data-03",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_TQU46F"
+      ],
+      "settings": {}
+    },
+    "slide_block_group_rNbmiH": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_nndq4X": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/9-2_9c8cda98-fd12-4f66-a76e-bf7709115b3f.jpg",
+            "slide_title": "French Style　デニムセーラー・ハット",
+            "slide_price": 5000,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-md-1807236fx?_pos=1&_sid=a9813abf1&_ss=r",
+            "slide_intro": "本アイテムはセーラーハットにインスパイアされた、どんなコーディネートにも即時に視覚的な面白さをプラス、気まぐれなタッチでどんなスタイルにもエッジの効いた理想的なアクセントを加えることができます。"
+          }
+        },
+        "slide_block_NV6CRY": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/8-1_a070d5d2-6cca-4ec2-9a8c-f8d5ce89ffa0.jpg",
+            "slide_title": "レトロデニムボールキャップ",
+            "slide_price": 7000,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/md-w2007126?_pos=2&_sid=54fa197bb&_ss=r",
+            "slide_intro": "耐久性抜群のデニム生地を使用した、ボールキャップです。牛革ベルト付きなため、サイズ調整が可能です。日々のコーディネイトに簡単に取り入れられるアイテムであり、使い勝手がよく、1つ持っていればかなり重宝致します。"
+          }
+        },
+        "slide_block_ftaEgK": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/7-1_472de74a-8e5c-4854-8e4f-d3f91c0f663e.jpg",
+            "slide_img2": "shopify://shop_images/7-2_80d06bfe-25d9-467a-9400-4abeecd13380.jpg",
+            "slide_title": "三色展開　刺繍入り後ろ被り可能ハンチングキャップ",
+            "slide_price": 5990,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/collections/%E5%B8%BD%E5%AD%90/products/krk-im-208",
+            "slide_intro": "ハンチングキャップの被り方のバリエーションの1つとして前向きに被る以外に逆さ被りがありますが、本アイテムは刺繍入りデザインでその逆さ被りに特化したハンチングキャップを目指しました。"
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_nndq4X",
+        "slide_block_NV6CRY",
+        "slide_block_ftaEgK"
+      ],
+      "settings": {
+        "slide_btn_color": "#d03729",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#f7f1e7",
+        "slide_text_hover_color": "#d03729",
+        "slide_font_color": "#100f0f"
+      }
+    },
+    "image_jump_custom_Va98Nz": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_nd3B3t": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/720-4.png",
+            "image-id": "data-04",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_nd3B3t"
+      ],
+      "settings": {}
+    },
+    "slide_block_group_hAMJcK": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_FVqCDA": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/10-1_fb23ace6-4e9b-46cb-9d70-9faa00718713.jpg",
+            "slide_title": "M-43 サービスシューズ",
+            "slide_price": 14850,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/md-md2007031?_pos=1&_sid=550c322a0&_ss=r",
+            "slide_intro": "KARAKUBUYのU.S.ARMYサービスシューズ M-43「TYPE III」です。この「TYPE III」と呼ばれるブーツは厚手の牛革を裏使いにして作られています。"
+          }
+        },
+        "slide_block_Bgix3B": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/11-1_ea19408e-28f6-4dae-a796-6dfaf0d98c8c.jpg",
+            "slide_title": "ジャック・パーセル　スマイル　スニーカー",
+            "slide_price": 10980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/collections/%E9%9D%B4/products/md1803022",
+            "slide_intro": "本アイテムは靴の形をアジア人の足にもっと合わせるように、デザインを改善し続ける、ゴムソールを用いて、8万回の折る抵抗の試験も行われた。"
+          }
+        },
+        "slide_block_qbbcKW": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/12-1_f7527a86-d8eb-4507-ae9f-244eecd2c8e1.jpg",
+            "slide_title": "2way　コルクフットベッドビーチサンダル",
+            "slide_price": 10980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/collections/%E9%9D%B4/products/krk-ma2404028",
+            "slide_intro": "2wayを切り替えることが可能で、その日の気分で違ったコーディネートを楽しめる逸品です。"
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_FVqCDA",
+        "slide_block_Bgix3B",
+        "slide_block_qbbcKW"
+      ],
+      "settings": {
+        "slide_btn_color": "#d83a21",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#ece15c",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f"
+      }
+    },
+    "image_jump_custom_9m6XJy": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_Bx7hKB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/720-5.png",
+            "image-id": "data-05",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Bx7hKB"
+      ],
+      "settings": {}
+    },
+    "slide_block_group_QbbrdN": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_fXnTY8": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/13-1_df587968-70ce-4a71-9cb3-be18906ab6dc.jpg",
+            "slide_title": "コブラバックルベルト",
+            "slide_price": 3200,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/md-s2001059-1?_pos=7&_sid=6d0c4a542&_ss=r",
+            "slide_intro": "ワンタッチで脱着可能なミリタリーベルト見た目にシンプルですっきりとしたミリタリーベルトワンタッチで、長さの調整はもちろんんこと、脱着も可能な機能性◎"
+          }
+        },
+        "slide_block_eXGxqp": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/14-1_4d944557-54e4-4b58-8c8a-0f606ce6179d.jpg",
+            "slide_title": "植物タンニンなめし革トリック編みベルト",
+            "slide_price": 10980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-md-tw2407078?_pos=2&_sid=6d0c4a542&_ss=r",
+            "slide_intro": "ベルトのデザインにはトリック編みと呼ばれる編み方が使用されて、細いストラップ状の革を編んで作られる技法で、独特な模様やテクスチャが特徴。"
+          }
+        },
+        "slide_block_kFnNcr": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/2_638e7162-d35f-48c0-a71d-43abd4c9d2d1.png",
+            "slide_title": "ファイヤーマン・バックルベルト　牛革＆銅",
+            "slide_price": 11980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-md-s2001093?_pos=17&_sid=6d0c4a542&_ss=r",
+            "slide_intro": "素材には植物性のタンニンを使ってなめし、表面加工をほとんどせずに仕上げた牛革を使用。金具には経年変化する銅を使用、ビンテージ感が満載。"
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_fXnTY8",
+        "slide_block_eXGxqp",
+        "slide_block_kFnNcr"
+      ],
+      "settings": {
+        "slide_btn_color": "#d83a21",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#ece15c",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "background_image_TCkHMe": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-05-31_14-28-08.jpg",
+        "background_color_overlay": "",
+        "background_color": ""
+      }
+    },
+    "image_jump_custom_d8jczt": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_rHwACY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/720-6.png",
+            "image-id": "data-06",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_rHwACY"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "slide_block_group_xzGj7J": {
+      "type": "slide-block-group",
+      "disabled": true,
+      "settings": {
+        "slide_btn_color": "#d03729",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#f7f1e7",
+        "slide_text_hover_color": "#d03729",
+        "slide_font_color": "#2a292e"
+      }
+    }
+  },
+  "order": [
+    "slideshow_8qNtct",
+    "image_9wa8e7",
+    "image_jump_inEwkn",
+    "image_jump_custom_ctQiGX",
+    "adjusting_spacing_Eyqpg6",
+    "slide_block_group_cRWPQL",
+    "image_jump_custom_f48xVd",
+    "slide_block_group_9EfaYx",
+    "adjusting_spacing_TfVTHf",
+    "image_jump_custom_LrfD6X",
+    "slide_block_group_rNbmiH",
+    "image_jump_custom_Va98Nz",
+    "slide_block_group_hAMJcK",
+    "image_jump_custom_9m6XJy",
+    "slide_block_group_QbbrdN",
+    "main",
+    "background_image_TCkHMe",
+    "image_jump_custom_d8jczt",
+    "slide_block_group_xzGj7J"
+  ]
+}

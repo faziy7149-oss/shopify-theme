@@ -1,0 +1,541 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "slideshow_anppW4": {
+      "type": "slideshow",
+      "blocks": {
+        "image_CNTQji": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2024_Autumn_KARAKU_ONLINE_SHOP.jpg",
+            "mobile_image": "shopify://shop_images/2_cbce10bc-017a-49c1-9f23-2c241b064a85.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": false,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_CNTQji"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 800,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "adjusting_spacing_MVDjpA": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 2,
+        "margin_top2": 1
+      }
+    },
+    "image_hAa88b": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_209957b2-2aaa-4546-8d0e-c3ec1294c179.png",
+        "mobile_image": "shopify://shop_images/720_d8088d8b-de09-44a9-8a6c-bf86dd415a18.png",
+        "img_rul": ""
+      }
+    },
+    "image_76Vqid": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-1_3bd4683d-5e8a-4251-8828-e17095f035c6.png",
+        "mobile_image": "shopify://shop_images/720_1_b11765a9-bc3d-4446-a482-7d026f571a34.png",
+        "img_rul": ""
+      }
+    },
+    "image_g7ywx8": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-2_41b3f540-7e43-433a-b2fc-ef48068cad2c.png",
+        "mobile_image": "shopify://shop_images/720_2.png",
+        "img_rul": ""
+      }
+    },
+    "image_NDanAy": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-5_780bfb84-6686-4d3d-bbb7-f1eb448ce64b.png",
+        "mobile_image": "shopify://shop_images/720_5.png",
+        "img_rul": ""
+      }
+    },
+    "image_YeQ6ex": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-3_455fbed3-7be3-40cf-85a9-12199461b379.png",
+        "mobile_image": "shopify://shop_images/720_3_f9c5b8d8-4af7-4c1d-a20b-7a02c84da9ea.png",
+        "img_rul": ""
+      }
+    },
+    "image_i3QR3F": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-4_1b398d1a-9be3-4057-bbbd-58c96d14eb6c.png",
+        "mobile_image": "shopify://shop_images/720_4_48037267-9e24-40c7-9477-a893f48ad278.png",
+        "img_rul": ""
+      }
+    },
+    "rich_text_qjw9Pj": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_c96bTL": {
+          "type": "heading",
+          "settings": {
+            "title": "Recommended Checkshirts",
+            "use_h1": false
+          }
+        },
+        "text_UKYPkb": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>-  オールシーズン楽しめるアイテムをおススメ -</strong></p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_c96bTL",
+        "text_UKYPkb"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "image_slider_Lg8YzN": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_tA6ERm": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01___-01.png"
+          }
+        },
+        "image_slider_9Dz7ck": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01___-02.png"
+          }
+        },
+        "image_slider_NTUw9g": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01___-04.png"
+          }
+        },
+        "image_slider_qM47PM": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/01___-03.png"
+          }
+        },
+        "main_diagram_E9b9Di": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/01_-01.png",
+            "main_img2": "shopify://shop_images/01_-02.png"
+          }
+        },
+        "image_info_QxAqD6": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "大きなチェック柄が目を引き、シンプルなコーディネートにアクセントを加える。ネイビーは冷静さや安心感を与える色で、ビジネスカジュアルにも適応可能。",
+            "price_discount": 14980,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-018-jk387?_pos=1&_sid=d77b70d85&_ss=r&variant=45986700722395"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_tA6ERm",
+        "image_slider_9Dz7ck",
+        "image_slider_NTUw9g",
+        "image_slider_qM47PM",
+        "main_diagram_E9b9Di",
+        "image_info_QxAqD6"
+      ],
+      "settings": {
+        "data_title": "ネイビーチェック柄 薄手ウォッシュデニムジャケット",
+        "data_tit_col": "#e5d0b9",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#85776e",
+        "but_font_col": "#41271c",
+        "but_col": "#e5d0b9",
+        "but_font_col2": "#e5d0b9",
+        "but_col2": "#41271c"
+      }
+    },
+    "image_slider_twzAXh": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_E63Lde": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/02___-04.png"
+          }
+        },
+        "image_slider_BwGnGA": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/02___-02.png"
+          }
+        },
+        "image_slider_6wyrxV": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/02___-03.png"
+          }
+        },
+        "image_slider_Q7rXzb": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/02___-01.png"
+          }
+        },
+        "main_diagram_y3iQ79": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/02_-02.png",
+            "main_img2": "shopify://shop_images/02_-01.png"
+          }
+        },
+        "image_info_4UGcqr": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "縦横のブロック状の模様が繰り返されており、視覚的にリズム感があり、模様は伝統的なエスニックデザインを取り入れたもので、クラフト感や手作り感を感じさせる。",
+            "price_discount": 11980,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-018-cs1029?_pos=1&_sid=e56e161b7&_ss=r&variant=45948577284315"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_E63Lde",
+        "image_slider_BwGnGA",
+        "image_slider_6wyrxV",
+        "image_slider_Q7rXzb",
+        "main_diagram_y3iQ79",
+        "image_info_4UGcqr"
+      ],
+      "settings": {
+        "data_title": "エスニック調ブロック総柄コットン長袖シャツ",
+        "data_tit_col": "#e5d0b9",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#85776e",
+        "but_font_col": "#41271c",
+        "but_col": "#e5d0b9",
+        "but_font_col2": "#e5d0b9",
+        "but_col2": "#41271c"
+      }
+    },
+    "image_slider_DWK76R": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_RfNkzp": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/03___-04.png"
+          }
+        },
+        "image_slider_88wXyf": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/03___-02.png"
+          }
+        },
+        "image_slider_jijH3r": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/03___-01.png"
+          }
+        },
+        "image_slider_FFHY4t": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/03___-03.png"
+          }
+        },
+        "main_diagram_34nwTA": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/03_-02.png",
+            "main_img2": "shopify://shop_images/03_-01.png"
+          }
+        },
+        "image_info_neHPLh": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "70～80年代のレトロなオールドチェックをイメージし、サイズ感やカラー、シルエットにこだわり、スタンダードなレギュラーカラーシャツを現代的にアップデートした。",
+            "price_discount": 14990,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-rf-8102?_pos=1&_sid=0524112e3&_ss=r&variant=43523955327195"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_RfNkzp",
+        "image_slider_88wXyf",
+        "image_slider_jijH3r",
+        "image_slider_FFHY4t",
+        "main_diagram_34nwTA",
+        "image_info_neHPLh"
+      ],
+      "settings": {
+        "data_title": "ウォッシュド加工シャギーチェックシャツ",
+        "data_tit_col": "#e5d0b9",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#85776e",
+        "but_font_col": "#41271c",
+        "but_col": "#e5d0b9",
+        "but_font_col2": "#e5d0b9",
+        "but_col2": "#41271c"
+      }
+    },
+    "image_slider_xh4kER": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_gWeXQ8": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/04___-04.png"
+          }
+        },
+        "image_slider_eUXfR3": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/04___-02.png"
+          }
+        },
+        "image_slider_dPchxL": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/04___-01.png"
+          }
+        },
+        "image_slider_AawcPV": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/04___-03.png"
+          }
+        },
+        "main_diagram_V87m8P": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/04_-01.png",
+            "main_img2": "shopify://shop_images/04_-02.png"
+          }
+        },
+        "image_info_BEX9L8": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "クラシックなチェック柄を基調としつつも、ボロ風の現代的でユニークな要素を取り入れています。各色がランダムに交差するチェック柄に、異なる色のパッチが散りばめられており、ボロ風のテイストを強調しています。",
+            "price_discount": 14980,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-018-xp1013?_pos=1&_sid=0c7aaed1c&_ss=r&variant=45971994476763"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_gWeXQ8",
+        "image_slider_eUXfR3",
+        "image_slider_dPchxL",
+        "image_slider_AawcPV",
+        "main_diagram_V87m8P",
+        "image_info_BEX9L8"
+      ],
+      "settings": {
+        "data_title": "ボロ風　先染めチェック柄パッチワークコットン長袖シャツ",
+        "data_tit_col": "#e5d0b9",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#85776e",
+        "but_font_col": "#41271c",
+        "but_col": "#e5d0b9",
+        "but_font_col2": "#e5d0b9",
+        "but_col2": "#41271c"
+      }
+    },
+    "image_slider_FGnABY": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_yiWbf4": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/05___-04.png"
+          }
+        },
+        "image_slider_iTd94J": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/05___-03.png"
+          }
+        },
+        "image_slider_xUdbja": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/05___-02.png"
+          }
+        },
+        "image_slider_nQdBYa": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/05___-01.png"
+          }
+        },
+        "main_diagram_Wi4he8": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/05_-01.png",
+            "main_img2": "shopify://shop_images/05_-02.png"
+          }
+        },
+        "image_info_QdG9hW": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "チェック柄が不規則に切替デザインはアクセントとなったフェイクレイヤード長袖シャツです。前立て、胸元ポケットがダメージパッチを切り替えになった、フェイクレイヤードデザイン性をプラス。",
+            "price_discount": 11980,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-018-cs933?_pos=1&_sid=6d42dc525&_ss=r&variant=45986678341851"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_yiWbf4",
+        "image_slider_iTd94J",
+        "image_slider_xUdbja",
+        "image_slider_nQdBYa",
+        "main_diagram_Wi4he8",
+        "image_info_QdG9hW"
+      ],
+      "settings": {
+        "data_title": "微起毛　ダメージ加工チェック柄フェイクレイヤードロングスリーブシャツ",
+        "data_tit_col": "#e5d0b9",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#85776e",
+        "but_font_col": "#41271c",
+        "but_col": "#e5d0b9",
+        "but_font_col2": "#e5d0b9",
+        "but_col2": "#41271c"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "url_text_KENwaz": {
+      "type": "url-text",
+      "settings": {
+        "url_text": "https://karakubuy.com/collections/check-shirt",
+        "text_url": "おススメなチェックシャツはこちら  ＞",
+        "btn_color": "#e5d0b9",
+        "btn_color_hover": "#41271c",
+        "btn_text_color": "#41271c",
+        "btn_text_color_hover": "#e5d0b9",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 25,
+        "url_font_size_moble": 18
+      }
+    },
+    "background_image_7VQVhx": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-08-30_18-14-09.jpg"
+      }
+    }
+  },
+  "order": [
+    "slideshow_anppW4",
+    "adjusting_spacing_MVDjpA",
+    "image_hAa88b",
+    "image_76Vqid",
+    "image_g7ywx8",
+    "image_NDanAy",
+    "image_YeQ6ex",
+    "image_i3QR3F",
+    "rich_text_qjw9Pj",
+    "image_slider_Lg8YzN",
+    "image_slider_twzAXh",
+    "image_slider_DWK76R",
+    "image_slider_xh4kER",
+    "image_slider_FGnABY",
+    "main",
+    "url_text_KENwaz",
+    "background_image_7VQVhx"
+  ]
+}

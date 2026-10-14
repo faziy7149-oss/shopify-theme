@@ -1,0 +1,461 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "48b83a8e-af96-4a14-a5d0-612c31334713": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/5Th_Anniversary.jpg",
+        "mobile_image": "shopify://shop_images/1_1_8351b9c3-6944-424c-b51c-d7c4fa4def5c.jpg",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background"
+      }
+    },
+    "75086b5b-adba-4b20-9a16-0f3c6cd111a2": {
+      "type": "rich-text",
+      "blocks": {
+        "f66184b8-bd7d-4201-a1c7-13e028cc7022": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "KaraKu 5th anniversary"
+          }
+        },
+        "template--15421975888091__75086b5b-adba-4b20-9a16-0f3c6cd111a2-1682580732dd59d3ae-1": {
+          "type": "heading",
+          "settings": {
+            "title": "KARAKU 5周年記念キャンペーンのお知らせ",
+            "use_h1": false
+          }
+        },
+        "template--15421975888091__75086b5b-adba-4b20-9a16-0f3c6cd111a2-1682580732dd59d3ae-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>おかげさまで、KARAKUは今年5周年を迎えることができました。<br/><br/>これまで支えてくださったすべてのお客様に、心より感謝申し上げます。</p><p>日頃のご愛顧に感謝を込めて、5月1日（木）より5周年記念キャンペーンを開催いたします。<br/><br/>最大60％OFFのセールやポイントアップ、インスタライブ初配信、石黑亜矢子さんのコラボレーション企画、SNSキャンペーンなど、特別な企画をご用意しております。</p><p>これからも皆さまに寄り添い、より一層ご満足いただけるブランドを目指してまいります。<br/><br/>今後とも変わらぬご愛顧を賜りますようお願い申し上げます。<br/><br/>5周年の特別なひとときを、ぜひお楽しみください。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "f66184b8-bd7d-4201-a1c7-13e028cc7022",
+        "template--15421975888091__75086b5b-adba-4b20-9a16-0f3c6cd111a2-1682580732dd59d3ae-1",
+        "template--15421975888091__75086b5b-adba-4b20-9a16-0f3c6cd111a2-1682580732dd59d3ae-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "3a090d46-bb16-4261-9f35-4af0aaaabb5e": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_w3NhYe": {
+          "type": "heading",
+          "settings": {
+            "title": "対象品が最大60％OFF！",
+            "use_h1": false
+          }
+        },
+        "text_iMck3m": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>karaku 5周年記念企画第1弾</h4><p>対象品が最大<strong>60％OFF</strong>キャンペーン<br/></p><p>Tシャツから、トレンドのアロハシャツまで、幅広い人気アイテムがお得に手に入ります。</p><p>お得なチャンスをお見逃しなく！</p><p>キャンペーン期間：5/1(木)～5/18(日)</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_afFC8c": {
+          "type": "button",
+          "settings": {
+            "button_label": "対象アイテム一覧",
+            "button_link": "https://karakubuy.com/collections/karaku-5th-sale",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_w3NhYe",
+        "text_iMck3m",
+        "button_afFC8c"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/004_5__1200.jpg",
+        "image_width": 700,
+        "image_link": "https://karakubuy.com/collections/karaku-5th-sale",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "featured_collection_fQYdBC": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "KARAKU 5周年感謝祭「SALE」対象商品一覧",
+        "collection": "karaku-5th-sale",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "image_with_text_FTF37P": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_4E6VUg": {
+          "type": "heading",
+          "settings": {
+            "title": "5周年記念インスタライブ配信",
+            "use_h1": false
+          }
+        },
+        "text_gCtB8T": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>karaku 5周年記念企画第2弾</h4><p>このたび、KARAKUはオープン<strong>5周年</strong>を記念し、インスタでの初のライブ配信の実施が決定したことをお知らせいたします。</p><p><strong>【配信日時】</strong><br/>2025年5月1日（木） 20:30～22:00<br/><br/><strong>【配信アカウント】<br/></strong>・KARAKU公式Instagram（<a href=\"https://www.instagram.com/karaku_official/\" target=\"_blank\">@karaku_official</a>）<br/>・KARAKU原宿 Instagram（<a href=\"https://www.instagram.com/karaku_harajuku/\" target=\"_blank\">@karaku_harajuku</a>）<br/><br/></p>",
+            "enlarge_text": false
+          }
+        },
+        "button_8hVaaj": {
+          "type": "button",
+          "settings": {
+            "button_label": "公式アカウントへ",
+            "button_link": "https://www.instagram.com/karaku__official",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4E6VUg",
+        "text_gCtB8T",
+        "button_8hVaaj"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/20250417-172258_7a2dc0b7-8866-4360-b758-9d3a46063bf2.jpg",
+        "image_width": 700,
+        "image_link": "https://karakubuy.com/pages/karaku-live",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "174556914803d407b0": {
+      "type": "apps",
+      "settings": {
+        "full_width": false,
+        "show_space": true
+      }
+    },
+    "image_with_text_FGL4gQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KfRAz7": {
+          "type": "heading",
+          "settings": {
+            "title": "BLACK会員様に5周年記念セットをプレゼント",
+            "use_h1": false
+          }
+        },
+        "text_89hF6g": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>karaku 5周年記念企画第3弾</h5><p>KARAKUオンラインショップでは、日頃よりご愛顧いただいておりますBLACK会員様へ感謝の気持ちを込めて、「5周年記念セット」を贈呈させていただきます。<br/></p><p>長年ご愛顧いただいているお客様へ、心ばかりではございますが、お贈りさせていただきます。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_ykFPDR": {
+          "type": "button",
+          "settings": {
+            "button_label": "詳しくはこちらへ",
+            "button_link": "https://karakubuy.com/pages/karaku-commemorative-set",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_KfRAz7",
+        "text_89hF6g",
+        "button_ykFPDR"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/720_-news_57e411cf-f7b4-4798-b1cd-28cc872bf1ea.jpg",
+        "image_width": 700,
+        "image_link": "https://karakubuy.com/pages/karaku-commemorative-set",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "106c5c2a-c679-4663-bcb0-c664efc90e57": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_yijiqp": {
+          "type": "heading",
+          "settings": {
+            "title": "KARAKU × 石黒亜矢子",
+            "use_h1": false
+          }
+        },
+        "text_7QRbLe": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>karaku 5周年記念企画第4弾</h4><p>5周年を記念し、私たちは特別なアーティストとの夢のコラボレーションを実現いたしました。</p><p>独自の世界観と圧倒的な存在感で知られる絵本作家・石黒亜矢子さん。<br/><br/>動物たちに潜む“妖しさ”や“愛嬌”を鮮やかに描き出すその作品が、KARAKUのアロハシャツやTシャツなど全11アイテムに昇華されました。<br/></p>",
+            "enlarge_text": false
+          }
+        },
+        "button_7dzYGN": {
+          "type": "button",
+          "settings": {
+            "button_label": "コラボ特集へ",
+            "button_link": "https://karakubuy.com/collections/karaku-ishiguroayako",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_yijiqp",
+        "text_7QRbLe",
+        "button_7dzYGN"
+      ],
+      "custom_css": [
+        ".lightly-spaced-row-above {margin-top: 40px;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/20250428-141603.jpg",
+        "image_width": 700,
+        "image_link": "https://karakubuy.com/collections/karaku-ishiguroayako",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "video_GHnBFB": {
+      "type": "video",
+      "blocks": {
+        "heading_DnCf7J": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 32,
+            "use_h1": false
+          }
+        },
+        "text_Nai3fh": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "enlarge_text": true
+          }
+        },
+        "play_button_n4rkAz": {
+          "type": "play-button",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_DnCf7J",
+        "text_Nai3fh",
+        "play_button_n4rkAz"
+      ],
+      "name": "Video",
+      "settings": {
+        "video_shopify": "shopify://files/videos/横版.mp4",
+        "video_external": "https://www.youtube.com/watch?v=zsSGM7ovzY8",
+        "video_description": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "overlay_style": "shadow"
+      }
+    },
+    "featured_collection_JXK8nk": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "KARAKU×石黒亜矢子 コラボアイテム一覧",
+        "collection": "karaku-ishiguroayako",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "image_with_text_HHmYzM": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Qhmtem": {
+          "type": "heading",
+          "settings": {
+            "title": "ポイント10倍アップ ！",
+            "use_h1": false
+          }
+        },
+        "text_maF3NM": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>karaku 5周年記念企画第5弾</h4><p>会員限定・全商品ポイント<strong>10倍</strong>アップ ！</p><p>期間中、通常のポイント付与が通常の10倍にアップ！お買い物がさらにお得になります。</p><p>キャンペーン期間：5/1(木)～5/18(日)</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_kfTeVp": {
+          "type": "button",
+          "settings": {
+            "button_label": "会員登録はこちら",
+            "button_link": "https://www.karakubuy.com/account/login",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Qhmtem",
+        "text_maF3NM",
+        "button_kfTeVp"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/006_5_10_2_1200.jpg",
+        "image_width": 700,
+        "image_link": "https://www.karakubuy.com/account/login",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "f4b2ec00-ef9e-4625-aaf1-e3f5ff6a88a2": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_fC8gRT": {
+          "type": "heading",
+          "settings": {
+            "title": "Instagramフォロー＆投稿キャンペーン",
+            "use_h1": false
+          }
+        },
+        "text_MdpfaJ": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>karaku 5周年記念企画第6弾</h5><p>#Karakuライダー フォロー&投稿キャンペーンカラクのウェアを着て、バイクと一緒に写真を撮影&投稿！<br/><br/>豪華買品をGETするチャンス！</p><p>投稿期間：4/28(月)～5/12(月)</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_ttqdQt": {
+          "type": "button",
+          "settings": {
+            "button_label": "キャンペーン会場へ",
+            "button_link": "https://www.instagram.com/karaku__official",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fC8gRT",
+        "text_MdpfaJ",
+        "button_ttqdQt"
+      ],
+      "custom_css": [
+        ".lightly-spaced-row-above {margin-top: 40px;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/2048x2048_1.jpg",
+        "image_width": 700,
+        "image_link": "https://www.instagram.com/karaku__official",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "settings": {
+        "show_date": true,
+        "show_author": true,
+        "show_article_tags": true,
+        "show_sharing_icons": true,
+        "show_twitter": true,
+        "show_facebook": true,
+        "show_pinterest": true,
+        "show_featured_image": true,
+        "full_width_image": true,
+        "featured_image_height": "large",
+        "enable_title_overlay": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "video_9T48U3": {
+      "type": "video",
+      "blocks": {
+        "heading_h7EcbX": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 32,
+            "use_h1": false
+          }
+        },
+        "text_r9ixfy": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "enlarge_text": true
+          }
+        },
+        "play_button_3bQmiR": {
+          "type": "play-button",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_h7EcbX",
+        "text_r9ixfy",
+        "play_button_3bQmiR"
+      ],
+      "name": "Video",
+      "settings": {
+        "video_shopify": "shopify://files/videos/KARAKU 5周年.mp4",
+        "video_external": "",
+        "video_description": "",
+        "placeholder_image": "shopify://shop_images/04_KARAKU_5_1920.jpg",
+        "text_alignment": "center center",
+        "full_width": true,
+        "overlay_style": "shadow"
+      }
+    }
+  },
+  "order": [
+    "48b83a8e-af96-4a14-a5d0-612c31334713",
+    "75086b5b-adba-4b20-9a16-0f3c6cd111a2",
+    "3a090d46-bb16-4261-9f35-4af0aaaabb5e",
+    "featured_collection_fQYdBC",
+    "image_with_text_FTF37P",
+    "174556914803d407b0",
+    "image_with_text_FGL4gQ",
+    "106c5c2a-c679-4663-bcb0-c664efc90e57",
+    "video_GHnBFB",
+    "featured_collection_JXK8nk",
+    "image_with_text_HHmYzM",
+    "f4b2ec00-ef9e-4625-aaf1-e3f5ff6a88a2",
+    "main",
+    "video_9T48U3"
+  ]
+}

@@ -1,0 +1,607 @@
+{%- liquid
+  comment
+    分别计算 PC / 移动端图片比例
+  endcomment
+  for device in (1..2)
+    if device == 1
+      assign shape_key = section.settings.coll_grid_image_shape
+    else
+      assign shape_key = section.settings.coll_grid_image_shape_mobile
+    endif
+
+    if shape_key == 'portrait-23'
+      assign ar_value = 0.67
+    elsif shape_key == 'portrait-45'
+      assign ar_value = 0.8
+    elsif shape_key == 'square'
+      assign ar_value = 1.0
+    elsif shape_key == 'landscape-54'
+      assign ar_value = 1.25
+    elsif shape_key == 'landscape-32'
+      assign ar_value = 1.50
+    elsif shape_key == 'tallest'
+      assign ar_value = 999
+      if section.blocks.size > 0
+        for block in section.blocks
+          assign collection = collections[block.settings.collection]
+          if collection != blank
+            assign collection_image = block.settings.image | default: collection.featured_image
+            if collection_image != blank and collection_image.aspect_ratio < ar_value
+              assign ar_value = collection_image.aspect_ratio
+            endif
+          endif
+        endfor
+      endif
+      if ar_value == 999
+        assign ar_value = 1.0
+      endif
+    else
+      comment
+        shortest / automatic
+      endcomment
+      assign ar_value = 0
+      if section.blocks.size > 0
+        for block in section.blocks
+          assign collection = collections[block.settings.collection]
+          if collection != blank
+            assign collection_image = block.settings.image | default: collection.featured_image
+            if collection_image != blank and collection_image.aspect_ratio > ar_value
+              assign ar_value = collection_image.aspect_ratio
+            endif
+          endif
+        endfor
+      endif
+      if ar_value == 0
+        assign ar_value = 1.0
+      endif
+    endif
+
+    if device == 1
+      assign chosen_aspect_ratio = ar_value
+    else
+      assign chosen_aspect_ratio_mobile = ar_value
+    endif
+  endfor
+-%}
+<style>
+  {% comment %} 隐藏标题 {% endcomment %}
+ .section-id-{{ section.id }} .collection-title-show .product-block.collection-block .product-block__detail,
+ .section-id-{{ section.id }} .collection-title-show .product-block.collection-block .text-overlay__text {
+  display: none !important;
+ }
+ {% comment %} END隐藏标题 {% endcomment %}
+
+ {% comment %} PC / 移动端各一张裁切图，用 desktop-only / mobile-only 切换 {% endcomment %}
+ .section-id-{{ section.id }} .placeholder-image {
+  padding-top: calc(100% / {{ chosen_aspect_ratio }}) !important;
+ }
+ .section-id-{{ section.id }} .product-block__image .img-ar {
+  width: 100%;
+ }
+ @media (max-width: 767.98px) {
+  .section-id-{{ section.id }} .placeholder-image {
+    padding-top: calc(100% / {{ chosen_aspect_ratio_mobile }}) !important;
+  }
+ }
+
+ {% comment %} enable_carousel 仅控制 PC 轮播；移动端始终文档流网格 {% endcomment %}
+ {% if section.settings.enable_carousel %}
+ @media (max-width: 767.98px) {
+  .section-id-{{ section.id }} .slider-nav__btn {
+    display: none !important;
+  }
+  .section-id-{{ section.id }} .collection-listing.slider {
+    overflow: visible;
+    scroll-snap-type: none;
+    padding-bottom: 0;
+    width: auto;
+    margin-inline-start: 0;
+    padding-left: 0;
+    padding-right: 0;
+    scroll-padding: 0;
+  }
+  .section-id-{{ section.id }} .product-grid--carousel {
+    grid-auto-flow: unset;
+    grid-auto-columns: unset;
+    grid-template-columns: repeat(var(--product-columns-desktop), minmax(0, 1fr));
+    align-items: start;
+  }
+  .section-id-{{ section.id }} .product-grid--carousel .slider__item {
+    display: block;
+    min-width: 0;
+  }
+  .section-id-{{ section.id }} .slider--edge-peek .slider__grid::after {
+    display: none;
+  }
+ }
+ {% endif %}
+</style>
+<div class="section-id-{{ section.id }} collection-slider-row for-collections {% if section.settings.color_scheme != 'default' %}use-color-scheme use-color-scheme--{{ section.settings.color_scheme }}{% endif %}">
+  <div class="container{% if section.settings.full_width %} container--no-max{% endif %}{% if section.settings.collection_title_show %} collection-title-show {% endif %}">
+    {%- if section.settings.enable_carousel -%}
+      <carousel-slider class="carousel block collection-slider carousel--desktop-only">
+    {%- endif -%}
+
+    <div class="hometitle align-center has-paging{% if section.settings.enable_carousel %} slider-nav{% endif %}" {%- render 'animation-attrs', attrs: 'data-cc-animate data-cc-animate-delay="0.3s"' -%}>
+      {% if section.settings.enable_carousel %}
+        <button name="prev" class="slider-nav__btn has-ltr-icon">
+          <span class="visually-hidden">{{ 'general.slider.previous' | t }}</span>
+          {% render 'icon-chevron-left' %}
+        </button>
+      {% endif %}
+      <h2 class="has-paging__title h4 m-0">{{ section.settings.title | escape }}</h2>
+      {% if section.settings.enable_carousel %}
+        <button name="next" class="slider-nav__btn has-ltr-icon">
+          <span class="visually-hidden">{{ 'general.slider.next' | t }}</span>
+          {% render 'icon-chevron-right' %}
+        </button>
+      {% endif %}
+    </div>
+
+    <div class="collection-listing fade-in-up{% if section.settings.enable_carousel %} slider {% if section.settings.full_width %}slider--edge-peek{% endif %} slider--no-scrollbar{% endif %}" {%- render 'animation-attrs', attrs: 'data-cc-animate' -%}>
+      <div class="product-grid product-grid--per-row-{{ section.settings.grid }} product-grid--per-row-mob-{{ section.settings.coll_thumb_mob_per_row }} product-grid--image-shape-{{ section.settings.coll_grid_image_shape }} product-grid--image-shape-mob-{{ section.settings.coll_grid_image_shape_mobile }}{% if section.settings.enable_carousel %} slider__grid product-grid--carousel{% endif %}">
+        {%- if section.blocks.size > 0 -%}
+          {%- for block in section.blocks -%}
+            {%- assign collection = collections[block.settings.collection] -%}
+
+            {%- if section.settings.enable_carousel -%}
+              <div class="slider__item placeholder-wrapper">
+            {%- endif -%}
+
+            {%- if collection == blank -%}
+              {%- render 'onboarding-collection-block', forloop: forloop, settings_object: section.settings -%}
+            {%- else -%}
+              {%- liquid
+                if block.settings.image != blank
+                  assign collection_image = block.settings.image
+                else
+                  assign collection_image = collection.featured_image
+                endif
+                assign custom_crop = section.settings.coll_grid_image_position
+                assign subheading = block.settings.subheading
+                assign button_label = block.settings.button_label
+              -%}
+              <div class="product-block collection-block" data-collection-id="{{ collection.id }}" {{ block.shopify_attributes }}>
+                <div class="block-inner">
+                  <a class="product-link" href="{{ collection.url }}">
+                    <div class="image-cont
+                      {%- if section.settings.coll_text_position contains 'over' %}
+                        image-overlay
+                        image-overlay--bg-{{ section.settings.coll_text_position | remove_first: 'over-' }}
+                        {%- if section.settings.coll_text_position_under_mobile %} text-overlay-parent--mobile-stack{% endif %}
+                        image-overlay--edge-boxes
+                      {% endif %}">
+                      {%- if collection_image != blank -%}
+                        <div class="product-block__image image-overlay__image img-stretch product-block__image--primary product-block__image--active">
+                          {%- comment -%} PC 图：按 desktop 比例裁切 {% endcomment -%}
+                          <div class="desktop-only">
+                            {%- render 'image' with collection_image, loading: 'lazy', size_cols_mobile: 2, size_cols_desktop: section.settings.grid, custom_aspect_ratio: chosen_aspect_ratio, custom_crop: custom_crop -%}
+                          </div>
+                          {%- comment -%} 移动端图：按 mobile 比例裁切（基于原图，与 PC 互不影响） {% endcomment -%}
+                          <div class="mobile-only">
+                            {%- render 'image' with collection_image, loading: 'lazy', size_cols_mobile: 2, size_cols_desktop: section.settings.grid, custom_aspect_ratio: chosen_aspect_ratio_mobile, custom_crop: custom_crop -%}
+                          </div>
+                        </div>
+                      {%- else -%}
+                        <div class="image-overlay__image placeholder-image placeholder-image--shape-{{ section.settings.coll_grid_image_shape }}">{{ 'collection-1' | placeholder_svg_tag }}</div>
+                      {%- endif -%}
+
+                      {%- if section.settings.coll_text_position contains 'over' -%}
+                        <div class="text-overlay text-overlay--tight text-overlay--v-{{ section.settings.coll_thumb_text_align_y }} text-overlay--h-{{ section.settings.coll_thumb_text_align_x }} image-overlay__over{% if section.settings.coll_text_position_under_mobile %} desktop-only{% endif %}">
+                          <div class="text-overlay__inner">
+                            <div class="text-overlay__text">
+                              {%- if subheading != blank -%}
+                                <div class="text-overlay__subheading subheading subheading--over">{{ subheading | escape }}</div>
+                              {%- endif -%}
+                              <div class="text-overlay__title">
+                                <h2 class="h4">{{ collection.title }}</h2>
+                                {%- if section.settings.coll_grid_show_count and collection.all_products_count > 0 -%}
+                                  <div class="small-text">{{ 'sections.collection.product_count' | t: count: collection.all_products_count }}</div>
+                                {%- endif -%}
+                              </div>
+                              {%- if button_label != blank -%}
+                                <div class="text-overlay__button-row text-overlay__button-row--{{ section.settings.coll_button_style }}">
+                                  <span class="text-overlay__button {% if section.settings.coll_button_style != 'link' %}btn btn--{{ section.settings.coll_button_style }}{% else %}small-feature-link{% endif %}">{{ button_label | escape }}</span>
+                                </div>
+                              {%- endif -%}
+                            </div>
+                          </div>
+                        </div>
+                      {%- endif -%}
+                    </div>
+                    {%- if section.settings.coll_text_position == 'below' or section.settings.coll_text_position_under_mobile -%}
+                      <div class="product-block__detail align-{{ section.settings.coll_thumb_text_align_x }}{% if section.settings.coll_text_position != 'below' %} mobile-only{% endif %}">
+                        {%- if subheading != blank -%}
+                          <div class="subheading lightly-spaced-row">{{ subheading | escape }}</div>
+                        {%- endif -%}
+                        <div class="product-block__title">{{ collection.title }}</div>
+                        {%- if section.settings.coll_grid_show_count and collection.all_products_count > 0 -%}
+                          <div class="small">{{ 'sections.collection.product_count' | t: count: collection.all_products_count }}</div>
+                        {%- endif -%}
+                        {%- if button_label != blank -%}
+                          <div class="button-row">
+                            <span class="button-row__btn {% if section.settings.coll_button_style != 'link' %}btn btn--{{ section.settings.coll_button_style }}{% else %}small-feature-link{% endif %}">{{ button_label | escape }}</span>
+                          </div>
+                        {%- endif -%}
+                      </div>
+                    {%- endif -%}
+                  </a>
+                </div>
+              </div>
+            {%- endif -%}
+
+            {%- if section.settings.enable_carousel -%}
+              </div>
+            {%- endif -%}
+          {%- endfor -%}
+        {%- else -%}
+          {%- for i in (1..6) -%}
+            {%- if section.settings.enable_carousel -%}
+              <div class="slider__item product-block__image">
+            {%- endif -%}
+            {%- render 'onboarding-collection-block', forloop: forloop, settings_object: section.settings -%}
+            {%- if section.settings.enable_carousel -%}
+              </div>
+            {%- endif -%}
+          {%- endfor -%}
+        {%- endif -%}
+      </div>
+    </div>
+
+    {% comment %} 全部链接 {% endcomment %}
+      {% if section.settings.all_url != blank %}
+        <div class="view-all align-center" {%- render 'animation-attrs', attrs: 'data-cc-animate data-cc-animate-delay="0.5s"' -%} style="margin: 0px 0px 20px;">
+          <a class="small-feature-link" href="{{ section.settings.all_url }}">{{ 'sections.featured_collection.view_all' | t }}</a>
+        </div>
+      {% endif %}
+    {% comment %} END全部链接 {% endcomment %}
+
+    {%- if section.settings.enable_carousel -%}
+      </carousel-slider>
+    {%- endif -%}
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Collection list (PC)",
+  "class": "section-collection-list",
+  "disabled_on": {
+    "templates": [
+      "password"
+    ],
+    "groups": [
+      "aside"
+    ]
+  },
+  "max_blocks": 20,
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Collection list"
+    },    
+    {
+      "type": "checkbox",
+      "id": "collection_title_show",
+      "label": "隐藏文字",
+      "default": false
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_carousel",
+      "label": "Enable carousel (desktop)",
+      "info": "仅控制 PC 端轮播；移动端始终为文档流网格，不参与轮播",
+      "default": true
+    },
+    {
+      "type": "range",
+      "id": "grid",
+      "label": "Collections per row",
+      "min": 2,
+      "max": 5,
+      "step": 1,
+      "default": 4
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "default",
+      "options": [
+        {
+          "value": "default",
+          "label": "Default"
+        },
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ]
+    },
+    {
+      "id": "full_width",
+      "type": "checkbox",
+      "label": "Full page width",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Collection cards"
+    },
+    {
+      "type": "select",
+      "id": "coll_grid_image_shape",
+      "label": "Image shape - desktop",
+      "options": [
+        {
+          "value": "shortest",
+          "label": "Automatic (shortest image)"
+        },
+        {
+          "value": "tallest",
+          "label": "Automatic (tallest image)"
+        },
+        {
+          "value": "landscape-32",
+          "label": "Landscape (3:2)"
+        },
+        {
+          "value": "landscape-54",
+          "label": "Landscape (5:4)"
+        },
+        {
+          "value": "square",
+          "label": "Square (1:1)"
+        },
+        {
+          "value": "portrait-45",
+          "label": "Portrait (4:5)"
+        },
+        {
+          "value": "portrait-23",
+          "label": "Portrait (2:3)"
+        }
+      ],
+      "default": "square"
+    },
+    {
+      "type": "select",
+      "id": "coll_grid_image_shape_mobile",
+      "label": "Image shape - mobile",
+      "options": [
+        {
+          "value": "shortest",
+          "label": "Automatic (shortest image)"
+        },
+        {
+          "value": "tallest",
+          "label": "Automatic (tallest image)"
+        },
+        {
+          "value": "landscape-32",
+          "label": "Landscape (3:2)"
+        },
+        {
+          "value": "landscape-54",
+          "label": "Landscape (5:4)"
+        },
+        {
+          "value": "square",
+          "label": "Square (1:1)"
+        },
+        {
+          "value": "portrait-45",
+          "label": "Portrait (4:5)"
+        },
+        {
+          "value": "portrait-23",
+          "label": "Portrait (2:3)"
+        }
+      ],
+      "default": "square"
+    },
+    {
+      "type": "select",
+      "id": "coll_grid_image_position",
+      "label": "Image alignment",
+      "info": "Used to keep the subject of your image in view, when cropped to a fixed shape",
+      "default": "center center",
+      "options": [
+        {
+          "value": "top left",
+          "label": "Top left"
+        },
+        {
+          "value": "top center",
+          "label": "Top center"
+        },
+        {
+          "value": "top right",
+          "label": "Top right"
+        },
+        {
+          "value": "center left",
+          "label": "Middle left"
+        },
+        {
+          "value": "center center",
+          "label": "Middle center"
+        },
+        {
+          "value": "center right",
+          "label": "Middle right"
+        },
+        {
+          "value": "bottom left",
+          "label": "Bottom left"
+        },
+        {
+          "value": "bottom center",
+          "label": "Bottom center"
+        },
+        {
+          "value": "bottom right",
+          "label": "Bottom right"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "coll_thumb_mob_per_row",
+      "label": "Collections per row on mobile",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ],
+      "default": "2"
+    },
+    {
+      "type": "checkbox",
+      "id": "coll_grid_show_count",
+      "label": "Show product count",
+      "default": true
+    },
+    {
+      "id": "coll_text_position",
+      "type": "select",
+      "label": "Text position - desktop",
+      "default": "below",
+      "options": [
+        {
+          "value": "below",
+          "label": "Below"
+        },
+        {
+          "value": "over-full",
+          "label": "Over - Tint"
+        },
+        {
+          "value": "over-box",
+          "label": "Over - Box"
+        },
+        {
+          "value": "over-shadow",
+          "label": "Over - Text shadow"
+        },
+        {
+          "value": "over-full image-overlay--bg-shadow",
+          "label": "Over - Text shadow and tint"
+        },
+        {
+          "value": "over-no_background",
+          "label": "Over - No background"
+        }
+      ]
+    },
+    {
+      "id": "coll_text_position_under_mobile",
+      "type": "checkbox",
+      "label": "Show text below image on mobile",
+      "default": false
+    },
+    {
+      "type": "text_alignment",
+      "id": "coll_thumb_text_align_x",
+      "label": "Text alignment",
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "coll_thumb_text_align_y",
+      "label": "Text overlay alignment",
+      "options": [
+        {
+          "value": "top",
+          "label": "Top"
+        },
+        {
+          "value": "center",
+          "label": "Center"
+        },
+        {
+          "value": "bottom",
+          "label": "Bottom"
+        }
+      ],
+      "default": "center"
+    },
+    {
+      "type": "select",
+      "id": "coll_button_style",
+      "label": "Button style (where shown)",
+      "default": "primary",
+      "options": [
+        {
+          "label": "Primary",
+          "value": "primary"
+        },
+        {
+          "label": "Secondary",
+          "value": "secondary"
+        },
+        {
+          "label": "Link",
+          "value": "link"
+        }
+      ]
+    },
+    {
+      "type": "url",
+      "id": "all_url",
+      "label": "view more url"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "collection",
+      "name": "Collection",
+      "settings": [
+        {
+          "type": "collection",
+          "id": "collection",
+          "label": "Collection"
+        },
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "subheading",
+          "label": "Subheading"
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button label"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Collection list (PC)",
+      "category": "Collections",
+      "settings": {
+      },
+      "blocks": [
+
+      ]
+    }
+  ]
+}
+{% endschema %}

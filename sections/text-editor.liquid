@@ -1,0 +1,45 @@
+{% unless collection.metafields.commodity.productintroduction == blank %}
+<div class="textBox {% if section.settings.data_wrapper_1250 %} data-wrapper-1250 {% endif %}">
+ <div class="textContent">
+   {{section.settings.text1}}
+ </div>
+</div>
+{% endunless %}
+
+{% schema %}
+ {
+   "name": "Text editing",
+ "class":"index-section",
+   "settings": [
+       {
+         "type": "checkbox",
+         "id": "data_wrapper_1250",
+         "label": "页面居中",
+         "default": false
+       },
+   {
+     "type":"richtext",
+     "id":"text1",
+     "label":"Text",
+     "default":"<p>Write down the text here</p>"
+   }
+ ],
+ "presets":[
+   {
+     "name":"Text editing"
+   }	
+ ]
+ }
+{% endschema %}
+
+{% stylesheet %}
+
+{% endstylesheet %}
+
+{% javascript %}
+$(function(){
+ if($(window).width()<767){
+   $(".textBox").remove();
+ }
+})
+{% endjavascript %}

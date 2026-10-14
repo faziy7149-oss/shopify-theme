@@ -1,0 +1,59 @@
+{%- liquid
+  assign article_obj = article
+  assign read_more_label = read_more_text | default: 'Read more'
+-%}
+
+<div class="blog-listing__card-inner">
+  {%- if article_obj.image -%}
+    <a
+      href="{{ article_obj.url }}"
+      class="blog-listing__card-media"
+      aria-hidden="true"
+      tabindex="-1"
+    >
+      {{ article_obj.image
+        | image_url: width: 900
+        | image_tag:
+          loading: 'lazy',
+          class: 'blog-listing__card-image',
+          widths: '360, 540, 720, 900'
+      }}
+    </a>
+  {%- endif -%}
+
+  <div class="blog-listing__card-content">
+    <div class="blog-listing__card-meta">
+      <time
+        class="blog-listing__card-date"
+        datetime="{{ article_obj.published_at | date: '%Y-%m-%d' }}"
+      >
+        {{ article_obj.published_at | date: '%Y.%m.%d' }}
+      </time>
+    </div>
+
+    <h3 class="blog-listing__card-title">
+      <a href="{{ article_obj.url }}" class="blog-listing__card-title-link">
+        {{ article_obj.title | escape }}
+      </a>
+    </h3>
+
+    {%- if article_obj.excerpt_or_content != blank -%}
+      <div class="blog-listing__card-excerpt">
+        {{ article_obj.excerpt_or_content
+          | strip_html
+          | truncatewords: 40
+        }}
+      </div>
+    {%- endif -%}
+
+    <div class="blog-listing__card-footer">
+      <a
+        href="{{ article_obj.url }}"
+        class="blog-listing__card-button"
+      >
+        {{ read_more_label | escape }}
+      </a>
+    </div>
+  </div>
+</div>
+

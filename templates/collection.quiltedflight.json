@@ -1,0 +1,433 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "6deecddc-4846-48c0-bee0-53cfab0095a6": {
+      "type": "photo-banner",
+      "settings": {
+        "image": "shopify://shop_images/20231107-152008.jpg",
+        "mobile_image": "shopify://shop_images/20231107-152011.jpg",
+        "banner_link": "shopify://collections/black-friday-2023",
+        "photo_banner_col": "#ab1016"
+      }
+    },
+    "b3d69d4a-37a2-4f6f-81cc-a97e16ac47f5": {
+      "type": "web-celebrity",
+      "blocks": {
+        "template--17020660515035__b3d69d4a-37a2-4f6f-81cc-a97e16ac47f5-webcelebrity-1": {
+          "type": "webcelebrity",
+          "settings": {
+            "master_img": "shopify://shop_images/rachel1001_jacket-KARAKUinner-UNIQROpants-JOHNBULLshoes-BIRKENSTOCK_1.jpg"
+          }
+        },
+        "94d79503-eaeb-4aff-8d49-8e4dae37a997": {
+          "type": "webcelebrity",
+          "settings": {
+            "master_img": "shopify://shop_images/rachel1001_jacket-KARAKUinner-UNIQROpants-JOHNBULLshoes-BIRKENSTOCK.jpg"
+          }
+        },
+        "6076e92f-7a62-4c2e-be3c-c95ad05ada4d": {
+          "type": "webcelebrity",
+          "settings": {
+            "master_img": "shopify://shop_images/rachel1001_jacket-KARAKUinner-UNIQROpants-JOHNBULLshoes-BIRKENSTOCK_2.jpg"
+          }
+        },
+        "16f09433-0673-4619-b647-bb2cb75cdfec": {
+          "type": "webcelebrity",
+          "settings": {
+            "master_img": "shopify://shop_images/eced7b09b7d875f5249bd2e4cf73280a.jpg"
+          }
+        },
+        "d082642e-f794-4737-9dff-1f6106054e2a": {
+          "type": "webcelebrity",
+          "settings": {
+            "master_img": "shopify://shop_images/KRK-A051-22067-5_720x_6bc12c8e-020d-47a0-83f8-21b68962b0ac.jpg"
+          }
+        },
+        "5fb81a2f-a126-4599-960c-1f12959faa4e": {
+          "type": "webcelebrity",
+          "settings": {
+            "master_img": "shopify://shop_images/KRK-A051-22067-12_720x_ccb49ba5-843d-4e44-8a7c-0d5ddc2bf86a.jpg"
+          }
+        },
+        "5e61ab0d-86ab-4a6b-9cbd-c8019b67c74e": {
+          "type": "webcelebrity",
+          "settings": {
+            "master_img": "shopify://shop_images/KRK-A051-22067-14_720x_470b606c-c59e-4a1c-a3e3-7cdad39cb3d7.jpg"
+          }
+        },
+        "bed911aa-470a-4928-9f0f-5ff337a0c678": {
+          "type": "webcelebrityLeft",
+          "settings": {
+            "celebrity_img": "shopify://shop_images/302428058_605364824456336_4814151517759526458_n.jpg",
+            "title": "キルティング　中綿フライトジャケット",
+            "favourite_link": "",
+            "shop_name": "Karaku",
+            "store_name": "@kentaro_luce",
+            "stature": "176cm",
+            "dress_size": "【着用サイズ】L",
+            "clothes_size": "ジャケット: L",
+            "pants_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17020660515035__b3d69d4a-37a2-4f6f-81cc-a97e16ac47f5-webcelebrity-1",
+        "94d79503-eaeb-4aff-8d49-8e4dae37a997",
+        "6076e92f-7a62-4c2e-be3c-c95ad05ada4d",
+        "16f09433-0673-4619-b647-bb2cb75cdfec",
+        "d082642e-f794-4737-9dff-1f6106054e2a",
+        "5fb81a2f-a126-4599-960c-1f12959faa4e",
+        "5e61ab0d-86ab-4a6b-9cbd-c8019b67c74e",
+        "bed911aa-470a-4928-9f0f-5ff337a0c678"
+      ],
+      "settings": {}
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1652174971ed44938d": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    },
+    "d81e4cfa-bca6-4af4-a466-238d0c62248d": {
+      "type": "collection-list",
+      "blocks": {
+        "6fcdded1-882c-483b-a7cd-1e44edb7ac36": {
+          "type": "collection",
+          "settings": {
+            "collection": "2023-blackfriday-sale",
+            "image": "shopify://shop_images/20231110-100442_540x_14d4035f-e494-4ac4-9981-e15dec2d49f6.webp",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "3233e550-7b2e-4788-8432-836b4c4d1e8e": {
+          "type": "collection",
+          "settings": {
+            "collection": "2023-on-off-items",
+            "image": "shopify://shop_images/55.webp",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "857a675b-fc7a-4bde-9fcb-0bf4fce462cf": {
+          "type": "collection",
+          "settings": {
+            "collection": "autumn-sweatshirt",
+            "image": "shopify://shop_images/2_540x_c0c6e0fa-c9e1-424e-a2dd-130562f82eb6.webp",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "36e80eac-6889-4fd7-85e4-3d6fd1f829a9": {
+          "type": "collection",
+          "settings": {
+            "collection": "must-have-items-for-early-autumn",
+            "image": "shopify://shop_images/12_540x_ee49f765-18d5-4673-b823-f103390f8a8e.webp",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "6fcdded1-882c-483b-a7cd-1e44edb7ac36",
+        "3233e550-7b2e-4788-8432-836b4c4d1e8e",
+        "857a675b-fc7a-4bde-9fcb-0bf4fce462cf",
+        "36e80eac-6889-4fd7-85e4-3d6fd1f829a9"
+      ],
+      "settings": {
+        "title": "最新の特集",
+        "enable_carousel": true,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "fa9dfc57-29d9-429a-ad78-f1c3b0e73d03": {
+      "type": "collection-list",
+      "blocks": {
+        "a1cfda4d-2e5f-4eef-844f-e0f5bb378673": {
+          "type": "collection",
+          "settings": {
+            "collection": "casual",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "9da0261c-e6c2-4a9a-bbfc-119356e53e8e": {
+          "type": "collection",
+          "settings": {
+            "collection": "business",
+            "image": "shopify://shop_images/09b45cc61e451a48cc831f5c6eb891a0.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "687282e0-14a4-4d42-8dcb-0babe002b96a": {
+          "type": "collection",
+          "settings": {
+            "collection": "outdoor-sports",
+            "image": "shopify://shop_images/e0b1bc00e2371c92c676cd7a426a4d4d.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "6185350f-3346-4610-8759-0a714c2e8490": {
+          "type": "collection",
+          "settings": {
+            "collection": "navy",
+            "image": "shopify://shop_images/85e3b13ed818a2cb62f8b53434edd859.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "a1cfda4d-2e5f-4eef-844f-e0f5bb378673",
+        "9da0261c-e6c2-4a9a-bbfc-119356e53e8e",
+        "687282e0-14a4-4d42-8dcb-0babe002b96a",
+        "6185350f-3346-4610-8759-0a714c2e8490"
+      ],
+      "settings": {
+        "title": "シーンから探す",
+        "enable_carousel": false,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "af970221-4185-4216-b6ef-9091f211fc82": {
+      "type": "banner-background",
+      "blocks": {
+        "template--15421977362651__af970221-4185-4216-b6ef-9091f211fc82-bannerImg-1": {
+          "type": "bannerImg",
+          "settings": {
+            "banner_img": "shopify://shop_images/3_79068e7f-ae68-4259-9e01-19aaf2538089.jpg",
+            "banner_url": "shopify://collections/black-friday-2023",
+            "banner_text": "最大60％OFF‼　Black Friday Sale開催中！",
+            "banner_btn": "詳しくはこちら"
+          }
+        },
+        "template--15421977362651__af970221-4185-4216-b6ef-9091f211fc82-bannerImg-2": {
+          "type": "bannerImg",
+          "settings": {
+            "banner_img": "shopify://shop_images/4_8e489738-fc28-44e8-af2a-cea262807b37.jpg",
+            "banner_url": "shopify://collections/all-products",
+            "banner_text": "会員様対象！期間限定ポイント10倍アップキャンペーン実施中！",
+            "banner_btn": "詳しくはこちら"
+          }
+        }
+      },
+      "block_order": [
+        "template--15421977362651__af970221-4185-4216-b6ef-9091f211fc82-bannerImg-1",
+        "template--15421977362651__af970221-4185-4216-b6ef-9091f211fc82-bannerImg-2"
+      ],
+      "settings": {
+        "banner_bg": "#ffffff",
+        "text_color": "#000000",
+        "btn_color": "#de5511",
+        "btn_font_col": "#ffffff",
+        "banner_tit_col": "#000000",
+        "banner_title": "最新キャンペーン情報"
+      }
+    },
+    "1649757612ea7476eb": {
+      "type": "text-editor",
+      "settings": {
+        "data_wrapper_1250": false,
+        "text1": "<p>{{ collection.metafields.commodity.productintroduction | metafield_tag }}</p>"
+      }
+    },
+    "266e2ca8-a36e-407c-b861-0f10b85e80f2": {
+      "type": "style-list",
+      "blocks": {
+        "template--15421977362651__266e2ca8-a36e-407c-b861-0f10b85e80f2-stylelist-1": {
+          "type": "stylelist",
+          "settings": {
+            "master_img": "shopify://shop_images/400854574_1059965325017832_6147496611916142815_n.jpg",
+            "celebrity_img": "shopify://shop_images/401569503_359191359963473_7777322739704696151_n.jpg",
+            "favourite_link": "shopify://collections/b-15中綿ボンバージャケット",
+            "shop_name": "Karaku",
+            "staff_name": "@tnnt20001024",
+            "stature": "179cm"
+          }
+        },
+        "template--15421977362651__266e2ca8-a36e-407c-b861-0f10b85e80f2-stylelist-2": {
+          "type": "stylelist",
+          "settings": {
+            "favourite_link": "",
+            "shop_name": "Karaku",
+            "staff_name": "WUYANZU",
+            "stature": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15421977362651__266e2ca8-a36e-407c-b861-0f10b85e80f2-stylelist-1",
+        "template--15421977362651__266e2ca8-a36e-407c-b861-0f10b85e80f2-stylelist-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "STYLING",
+        "title2": "スタッフ スタイリング"
+      }
+    },
+    "1ea9d5d7-dc61-45b6-9da7-7b83ee6e17dd": {
+      "type": "web-celebrity",
+      "blocks": {
+        "template--15421977362651__1ea9d5d7-dc61-45b6-9da7-7b83ee6e17dd-webcelebrity-1": {
+          "type": "webcelebrity",
+          "settings": {
+            "master_img": "shopify://shop_images/1_720x_ce30079d-ab78-41db-a8f2-c2f04df8bc6e.jpg"
+          }
+        },
+        "cbaf0cf3-bf8c-4940-bc5c-e9aec378e37f": {
+          "type": "webcelebrity",
+          "settings": {
+            "master_img": "shopify://shop_images/2_720x_fb5a622f-dfc1-4948-8848-6d76e980b453.jpg"
+          }
+        },
+        "f60fb772-9929-4292-8912-ad049d3bf624": {
+          "type": "webcelebrity",
+          "settings": {
+            "master_img": "shopify://shop_images/12_720x_293d2775-c357-475e-97c2-aa3051449018.jpg"
+          }
+        },
+        "2467ac04-41bd-4d28-9223-813bf3aebc37": {
+          "type": "webcelebrity",
+          "settings": {
+            "master_img": "shopify://shop_images/13_720x_13fbfa9c-54d2-4e72-9f21-6e943585446c.jpg"
+          }
+        },
+        "f296fa73-6c7a-4e22-8244-957f22b90965": {
+          "type": "webcelebrityLeft",
+          "settings": {
+            "celebrity_img": "shopify://shop_images/401082450_1401556704101161_7229352561217319925_n_20245c9a-c7a9-403e-8bbb-4977846e4944.jpg",
+            "title": "B-15中綿ボンバージャケット",
+            "favourite_link": "",
+            "shop_name": "Karaku",
+            "store_name": "@tnnt20001024",
+            "stature": "",
+            "dress_size": "【着用サイズ】",
+            "clothes_size": "Lサイズ",
+            "pants_size": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--15421977362651__1ea9d5d7-dc61-45b6-9da7-7b83ee6e17dd-webcelebrity-1",
+        "cbaf0cf3-bf8c-4940-bc5c-e9aec378e37f",
+        "f60fb772-9929-4292-8912-ad049d3bf624",
+        "2467ac04-41bd-4d28-9223-813bf3aebc37",
+        "f296fa73-6c7a-4e22-8244-957f22b90965"
+      ],
+      "disabled": true,
+      "settings": {}
+    }
+  },
+  "order": [
+    "6deecddc-4846-48c0-bee0-53cfab0095a6",
+    "b3d69d4a-37a2-4f6f-81cc-a97e16ac47f5",
+    "main",
+    "1652174971ed44938d",
+    "d81e4cfa-bca6-4af4-a466-238d0c62248d",
+    "fa9dfc57-29d9-429a-ad78-f1c3b0e73d03",
+    "1635765484031572a6",
+    "af970221-4185-4216-b6ef-9091f211fc82",
+    "1649757612ea7476eb",
+    "266e2ca8-a36e-407c-b861-0f10b85e80f2",
+    "1ea9d5d7-dc61-45b6-9da7-7b83ee6e17dd"
+  ]
+}

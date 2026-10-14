@@ -1,0 +1,86 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 36,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "enable_sticky_filter": true,
+        "image_position": "center center"
+      }
+    },
+    "16387690747a66cb01": {
+      "type": "rich-text",
+      "blocks": {
+        "1638769074d24cf662-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "1638769074d24cf662-1": {
+          "type": "heading",
+          "settings": {
+            "title": "冬、ニットが似合う季節",
+            "use_h1": false
+          }
+        },
+        "1638769074d24cf662-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>朝起きて、天気や気温をチェックしてから服装を選ぶって人、実はかなり多いんです。</p><p>今月はニットをピックアップ！ いよいよ冬本番。</p><p>インナーに重ね着して防寒対策をしておくのがポイントですよ。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1638769074d24cf662-0",
+        "1638769074d24cf662-1",
+        "1638769074d24cf662-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": true
+      }
+    },
+    "1638768979eb0c599f": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ニット",
+        "collection": "ニット-セーター",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 5,
+        "rows": 5,
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16387690747a66cb01",
+    "1638768979eb0c599f"
+  ]
+}

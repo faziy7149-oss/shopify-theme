@@ -1,0 +1,533 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4bebc439-2bbb-4490-a66e-377a0a5a1c55": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16595040600283__4bebc439-2bbb-4490-a66e-377a0a5a1c55-1665556789daaa2e42-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_8c22c825-2d49-4dce-a6cf-d3c1c5901d00.jpg",
+            "mobile_image": "shopify://shop_images/20221123-143312.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16595040600283__4bebc439-2bbb-4490-a66e-377a0a5a1c55-1665556789daaa2e42-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "custom_content_HxtnP9": {
+      "type": "custom-content",
+      "blocks": {
+        "image_kKGqqm": {
+          "type": "image",
+          "settings": {
+            "width": "two-thirds",
+            "image": "shopify://shop_images/20221123-143343.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_kKGqqm"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_BxnFx9": {
+      "type": "custom-content",
+      "blocks": {
+        "image_7wyaJf": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/20221122-105659.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/winter-coat",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_7wyaJf"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_B3ymFw": {
+      "type": "custom-content",
+      "blocks": {
+        "image_R7ezKQ": {
+          "type": "image",
+          "settings": {
+            "width": "two-thirds",
+            "image": "shopify://shop_images/20221122-105708.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/winter-down-jacket",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_R7ezKQ"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_FUAVqy": {
+      "type": "custom-content",
+      "blocks": {
+        "image_PQBWEL": {
+          "type": "image",
+          "settings": {
+            "width": "two-thirds",
+            "image": "shopify://shop_images/5_640e355d-e87d-4f17-b79d-f652deb44b2f.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/winter-coat",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_PQBWEL"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_EjqXPh": {
+      "type": "custom-content",
+      "blocks": {
+        "image_PN7MBK": {
+          "type": "image",
+          "settings": {
+            "width": "two-thirds",
+            "image": "shopify://shop_images/5_2e2a1f20-dad3-4bf6-b18c-56844f7c5a16.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "<p>Pair text with an image to tell a story</p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/winter-down-jacket",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_PN7MBK"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "cf6a4244-28f8-4458-a0f4-0e0025558173": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16632979947739__cf6a4244-28f8-4458-a0f4-0e0025558173-166902076466bdc730-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_7df4e40e-bb8f-4cf6-aee9-d81ab7e3428d.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16632979947739__cf6a4244-28f8-4458-a0f4-0e0025558173-166902076466bdc730-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "gallery_7XNLzb": {
+      "type": "gallery",
+      "blocks": {
+        "media_LDyD3F": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/8_247ecfc2-5238-4dc8-8152-efa29633d44b.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/collections/winter-down-jacket",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_4mUp73": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/7_6eda2701-0d00-4a74-83ca-243413e8c73b.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/collections/winter-coat",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_PzkcXp": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20221123-133722.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/collections/%E3%83%8B%E3%83%83%E3%83%88-%E3%82%BB%E3%83%BC%E3%82%BF%E3%83%BC",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_4a9QB4": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20221123-133728.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/collections/long-sleeve-shirts",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_LDyD3F",
+        "media_4mUp73",
+        "media_PzkcXp",
+        "media_4a9QB4"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 360,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "no_background",
+        "button_style": "primary"
+      }
+    },
+    "gallery_8UkVWA": {
+      "type": "gallery",
+      "blocks": {
+        "media_EegFPi": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20221123-133800_24d69d01-248b-4dc0-927d-ac249af8d390.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/collections/short-sleeve-shirts",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_rFhW6E": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20221123-133808_1af213fd-84b5-414b-9f07-1968b9255cd7.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/collections/short-sleeve-shirts",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_EegFPi",
+        "media_rFhW6E"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 800,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "no_background",
+        "button_style": "primary"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "56654ea4-96cd-4bd1-a662-415458edc519": {
+      "type": "collection-list",
+      "blocks": {
+        "9e359adb-039b-4ca1-ba43-e64e847acc07": {
+          "type": "collection",
+          "settings": {
+            "collection": "ma-1-flight-jackets",
+            "image": "shopify://shop_images/20220902-145635.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "60f3164f-3e72-4f81-8368-37a67e9c832b": {
+          "type": "collection",
+          "settings": {
+            "collection": "accessory-feature",
+            "image": "shopify://shop_images/1_843107f3-a1ae-4c39-a0f4-0cac416a35f9.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "9e359adb-039b-4ca1-ba43-e64e847acc07",
+        "60f3164f-3e72-4f81-8368-37a67e9c832b"
+      ],
+      "settings": {
+        "title": "PICK UP",
+        "enable_carousel": false,
+        "grid": 2,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "gallery_JdpwdY": {
+      "type": "gallery",
+      "blocks": {
+        "media_TdjUxH": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20221010-223205.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://minipia.myshopify.com/collections/%E9%80%B1%E6%9B%BF%E3%82%8F%E3%82%8A%E3%81%A7%E3%81%8A%E8%B2%B7%E3%81%84%E5%BE%97%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_zQMDjR": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20221008-181643.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://minipia.myshopify.com/collections/%E4%BA%BA%E6%B0%97%E5%95%86%E5%93%81",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_TdjUxH",
+        "media_zQMDjR"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "no_background",
+        "button_style": "primary"
+      }
+    }
+  },
+  "order": [
+    "4bebc439-2bbb-4490-a66e-377a0a5a1c55",
+    "custom_content_HxtnP9",
+    "custom_content_BxnFx9",
+    "custom_content_B3ymFw",
+    "custom_content_FUAVqy",
+    "custom_content_EjqXPh",
+    "main",
+    "cf6a4244-28f8-4458-a0f4-0e0025558173",
+    "gallery_7XNLzb",
+    "gallery_8UkVWA",
+    "1635765484031572a6",
+    "56654ea4-96cd-4bd1-a662-415458edc519",
+    "gallery_JdpwdY"
+  ]
+}

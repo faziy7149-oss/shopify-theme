@@ -1,0 +1,545 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "slideshow_f3ULHE": {
+      "type": "slideshow",
+      "blocks": {
+        "image_PKdgTA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/037__1920_d8d8d50a-fa75-49aa-ade8-eb52fa724903.jpg",
+            "mobile_image": "shopify://shop_images/037__1080_ba30f7c9-dde7-4c48-8144-b64c458eb8e6.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_PKdgTA"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_9tNFLT": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_9b9b8e57-ebc9-4d1d-b392-6d0482e4046b.png",
+        "mobile_image": "shopify://shop_images/720_b13b0b80-405d-4b84-ad5c-6adc0b027095.png",
+        "img_rul": ""
+      }
+    },
+    "background_image_ewydQU": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#c5ced6",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_jump_custom_Bce4nr": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_UJFJhr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1720x800_ca1b2acf-1123-4f81-a4f1-2dc2738a6f2c.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_UJFJhr"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_slider_pJF7gP": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_xy4CeM": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-1_48e3a4b9-108f-4b24-99c9-d6c15f166fb5.jpg"
+          }
+        },
+        "image_slider_PN4tgK": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-2_d4007150-26a5-4be4-9966-477b7db5a26d.jpg"
+          }
+        },
+        "image_slider_qHRBFn": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-3_65ade0ab-b33e-4111-a2a5-2c01a0398cd7.jpg"
+          }
+        },
+        "image_slider_AcgGTh": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-4_4ace9217-2f37-4a1f-837d-733e7e990251.jpg"
+          }
+        },
+        "main_diagram_NtPtkq": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-2_e5aa7fd2-4177-4f80-a486-67c2de924946.jpg",
+            "main_img2": "shopify://shop_images/600x720-1_f3595fc6-9076-4302-bc8c-ce451bf2f02a.jpg"
+          }
+        },
+        "image_info_XbcwPL": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "本アイテムはペインターパンツのディテールを取り入れながら改良した、デザイン性だけでなく機能面も充実した一着です。特徴としては何といってもポケット使い！マルチポケットのデザインで用途に合わせた収納ができる機能性に優れた仕様になっている。",
+            "price_discount": 13980,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-md-tls2201827?_pos=3&_sid=2763c46f7&_ss=r"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_xy4CeM",
+        "image_slider_PN4tgK",
+        "image_slider_qHRBFn",
+        "image_slider_AcgGTh",
+        "main_diagram_NtPtkq",
+        "image_info_XbcwPL"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "マルチポケット　ストレートペインターパンツ",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_FFQ98N": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_9kmEnL": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-5_afb5130e-855f-43e5-a197-7011639d3d6f.jpg"
+          }
+        },
+        "image_slider_R9ictc": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-6_16db0f21-b35a-4fe2-9c41-31fe6c4dffbb.jpg"
+          }
+        },
+        "image_slider_8nqg4q": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-7_945c189b-1fe4-4d16-8279-9b31f95ab1a9.jpg"
+          }
+        },
+        "image_slider_KycJqp": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-8_758c89f9-faaa-4136-8870-c577d1acb4ac.jpg"
+          }
+        },
+        "main_diagram_PLWgbK": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/20260123-163952.jpg",
+            "main_img2": "shopify://shop_images/600x720-3_e9f15c49-a5bd-472f-9d29-af21d58aee41.jpg"
+          }
+        },
+        "image_info_6jJpGg": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "1930年代のモデルをイメージした独特なステッチワークが特徴的です。股上はやや深めにとり、シルエットもゆったりとしたストレートとなります。ヴィンテージが香る本格仕様の魅力が詰まったパンツは、落ち着いた雰囲気で上質な大人アメカジ・ワークスタイルを演出するアイテムです。",
+            "price_discount": 11200,
+            "original_price": 16000,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/md-s2007034?_pos=5&_sid=4042e0685&_ss=r"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_9kmEnL",
+        "image_slider_R9ictc",
+        "image_slider_8nqg4q",
+        "image_slider_KycJqp",
+        "main_diagram_PLWgbK",
+        "image_info_6jJpGg"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "ウォバッシュストライプワークパンツ",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_AMVmyz": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_dQATnW": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-9_05239e5c-f2dd-4cd8-9240-c90368a961a5.jpg"
+          }
+        },
+        "image_slider_mWVUg6": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-10_f1e599c4-564e-481d-9f87-7cc5281dfb3f.jpg"
+          }
+        },
+        "image_slider_pteqF9": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-11_b5083633-7b29-4fe0-9bf3-1cebd3f6aa5f.jpg"
+          }
+        },
+        "image_slider_QA3Ldi": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-12_6dfa4713-92cf-4e53-bd56-616f0bcd13ab.jpg"
+          }
+        },
+        "main_diagram_AqErRj": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-6_30f83acb-fae9-4ebb-839f-edfc64fb6df6.jpg",
+            "main_img2": "shopify://shop_images/600x720-5_be1e4c89-ce5b-4f3d-928f-2555b7aca35c.jpg"
+          }
+        },
+        "image_info_RfYUin": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "太畝と細畝が交互に繰り返されたヴィンテージ感のあるコーデュロイ素材を使用しています。上品な光沢感を持つ上品な生地感に仕上げられています。王道であり定番のブラック、深みのあるブラウン、ミリタリー感のあるオリーブカラーをセレクトしたスタイルに合わせてお選びいただけるカラーリングで展開します。",
+            "price_discount": 8400,
+            "original_price": 12000,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-s2007047?_pos=6&_sid=3b90fa38f&_ss=r&variant=40859730641074"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_dQATnW",
+        "image_slider_mWVUg6",
+        "image_slider_pteqF9",
+        "image_slider_QA3Ldi",
+        "main_diagram_AqErRj",
+        "image_info_RfYUin"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "コーデュロイワイドパンツ",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_HnaUxY": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_t9cC9p": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-13_25f4266d-e915-4539-9d6d-4f93322965a4.jpg"
+          }
+        },
+        "image_slider_R6bqnd": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-14_83892c9d-aa3e-4b5d-8848-d7a508e5c59c.jpg"
+          }
+        },
+        "image_slider_YQ6Q6r": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-15_604c92a5-6419-412b-842e-632a4bc00685.jpg"
+          }
+        },
+        "image_slider_3rBLcx": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-16_f05be720-a302-4511-b966-539e988be1be.jpg"
+          }
+        },
+        "main_diagram_6NhiT3": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-8_ea1965d1-fa9a-4e98-8797-c63624d975e2.jpg",
+            "main_img2": "shopify://shop_images/600x720-7_5268ce3e-00e5-4380-baf6-6f200f6ac092.jpg"
+          }
+        },
+        "image_info_HqhYWV": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "体を必要以上に締め付けない作りは、体型の気になり始めた大人はもちろん、休日らしいリラックス感を味わいたい人にとってうってつけ。細身なモノも主流ですがワイドなシルエットも多く、それがトレンドにも合致するとあって人気が定着。",
+            "price_discount": 11340,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/tw2101153?_pos=3&_sid=0fe55a5e9&_ss=r&variant=40902243287218"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_t9cC9p",
+        "image_slider_R6bqnd",
+        "image_slider_YQ6Q6r",
+        "image_slider_3rBLcx",
+        "main_diagram_6NhiT3",
+        "image_info_HqhYWV"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "レトロゆったりカジュアルイージーパンツ",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_Gd8LrA": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_YX4TkW": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-17_8c15a46f-2288-43fc-8175-1cdb5b7d6906.jpg"
+          }
+        },
+        "image_slider_xfmFPx": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-18_d3a87295-184a-479b-9e4a-040113c9eb50.jpg"
+          }
+        },
+        "image_slider_RBHi4Q": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-19_a35c0d54-9240-49ef-8dc3-8dfd525f73da.jpg"
+          }
+        },
+        "image_slider_6JkLqB": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-20_d86a5c32-7c6b-48db-a89b-fa8d6f5dbdab.jpg"
+          }
+        },
+        "main_diagram_6qMwDr": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-9_fde9f3a5-7d90-4ede-bb32-c8a3ff7ff800.jpg",
+            "main_img2": "shopify://shop_images/600x720-10_b8faea37-f2b6-4a2f-900d-8e92d498130e.jpg"
+          }
+        },
+        "image_info_cpCDnj": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "頑丈で破れにくい生地で太すぎず細すぎず合わせやすいシルエットです。立体的なデザイン性に加え、小物を入れたときの可動域もとれる機能面も充実。ビッグシルエットTシャツにバケットハットを合わせたストリートスタイルもおススメです。タウンユースのみならずアウトドアやスポーツなどコンディション問わないハイスペックなパンツです。",
+            "price_discount": 13200,
+            "original_price": 16500,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/md-w2001135?_pos=3&_sid=c9cf8c837&_ss=r"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_YX4TkW",
+        "image_slider_xfmFPx",
+        "image_slider_RBHi4Q",
+        "image_slider_6JkLqB",
+        "main_diagram_6qMwDr",
+        "image_info_cpCDnj"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "軍パン カーゴパンツ 特殊部隊",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_z6BMct": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_jKPPjk": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-21_107888e8-bd07-4462-a496-20bed9cbbc7a.jpg"
+          }
+        },
+        "image_slider_6bYgaw": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-22_fdd13571-0777-4f80-b2b1-f169b8d6906f.jpg"
+          }
+        },
+        "image_slider_x8Q6PN": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-23_47661bed-9acc-4051-b7ee-513dc16a18b9.jpg"
+          }
+        },
+        "image_slider_7y8BHM": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-24_bf442739-484b-47a4-aefa-bcd2ea6868bb.jpg"
+          }
+        },
+        "main_diagram_atcpHX": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-12_fe789b6e-1ae8-4c11-99e2-436d56f23ae2.jpg",
+            "main_img2": "shopify://shop_images/600x720-11_86a5d8cb-0002-41eb-86fb-eae974990b1d.jpg"
+          }
+        },
+        "image_info_VcqzA3": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "柔らかな風合い、しなやかな肌触りになる効果もあります。縫い上げた製品の状態で洗いをかける事により、独特の色落ち感（いわゆる”あたり”）が表現出来ます。20代・30代・40代・50代・60代の方まで年齢を問わずに着ていただけます。",
+            "price_discount": 12980,
+            "original_price": 15980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/md-w1901121?_pos=1&_sid=f0045e5e4&_ss=r"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_jKPPjk",
+        "image_slider_6bYgaw",
+        "image_slider_x8Q6PN",
+        "image_slider_7y8BHM",
+        "main_diagram_atcpHX",
+        "image_info_VcqzA3"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "アメリカンレトロスリムジーンズ",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_f3ULHE",
+    "image_9tNFLT",
+    "background_image_ewydQU",
+    "image_jump_custom_Bce4nr",
+    "image_slider_pJF7gP",
+    "image_slider_FFQ98N",
+    "image_slider_AMVmyz",
+    "image_slider_HnaUxY",
+    "image_slider_Gd8LrA",
+    "image_slider_z6BMct"
+  ]
+}

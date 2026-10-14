@@ -1,0 +1,402 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "seamless_scrolling_4Mrdbg": {
+      "type": "seamless-scrolling",
+      "blocks": {
+        "image_left_AByDAi": {
+          "type": "imageLeft",
+          "settings": {
+            "seamless_scrolling_image": "shopify://shop_images/20241029-183024.jpg",
+            "seamless_scrolling_image2": "shopify://shop_images/20241029-183006.jpg"
+          }
+        },
+        "image_right_EtXHdK": {
+          "type": "imageRight",
+          "settings": {
+            "seamless_scrolling_image_right": "shopify://shop_images/20241029-183017.jpg",
+            "seamless_scrolling_image_right2": "shopify://shop_images/20241029-183013.jpg"
+          }
+        },
+        "center_image_WeTiBt": {
+          "type": "centerImage",
+          "settings": {
+            "seamless_scrolling_image_center": "shopify://shop_images/20241030-102717.png",
+            "seamless_scrolling_image_center2": "shopify://shop_images/01__1080_cc33802f-5f44-418f-a1ad-b28c5234a542.png"
+          }
+        },
+        "advertising_tags_8cmpwa": {
+          "type": "AdvertisingTags",
+          "settings": {
+            "seamless_scrolling_tag": "shopify://shop_images/KARAKU_2024__1_-removebg-preview.png",
+            "top_location": 11,
+            "left_location": 29,
+            "top_location2": 36,
+            "left_location2": 53,
+            "img_animation": "rotation"
+          }
+        }
+      },
+      "block_order": [
+        "image_left_AByDAi",
+        "image_right_EtXHdK",
+        "center_image_WeTiBt",
+        "advertising_tags_8cmpwa"
+      ],
+      "settings": {
+        "light_img": "shopify://shop_images/light_e92ab4b6-ed50-4bf9-ba03-54bbb4aa7fca.svg"
+      }
+    },
+    "scrolling_banner_image_Qq97BB": {
+      "type": "scrolling-banner-image",
+      "blocks": {
+        "text_GEfcKA": {
+          "type": "text",
+          "settings": {
+            "text": "UKIYO-E STYLE ANIMAL SERIES SUKAJAN",
+            "color": "#a92535",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "image_kcEiKL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/KARAKU_2024__2_-removebg.png",
+            "image_width": 125,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_GEfcKA",
+        "image_kcEiKL"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 36,
+        "vertical_padding": 18,
+        "speed": 23,
+        "direction": "left",
+        "font": "heading",
+        "space": 45
+      }
+    },
+    "adjusting_spacing_dRHMpH": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -3,
+        "margin_top2": -4
+      }
+    },
+    "rich_text_e968XH": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_Kntn3W": {
+          "type": "heading",
+          "settings": {
+            "title": "「美と物語を纏う、唯一無二の存在」",
+            "use_h1": false
+          }
+        },
+        "subheading_9habQa": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Ukiyo-e Style Animal Series Sukajan"
+          }
+        },
+        "text_jnt9GD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>伝統的な美意識と現代的なエッジを兼ね備えたKARAKUの新作スカジャンコレクションは、背面に施された見事な刺繍が見る者を圧倒します。各デザインには、浮世絵の持つ深い物語性と、東洋の美学が込められた象徴的なモチーフが盛り込まれ、身に纏うことでそれぞれのストーリーを感じることができます。</p><p>今回の特集では、特に注目すべき4着のスカジャンにフォーカスし、その魅力とスタイリング提案をお届けします。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_Kntn3W",
+        "subheading_9habQa",
+        "text_jnt9GD"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "image_tWzCNi": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-1_3054f60c-41f2-4bf9-a23d-1f45835be1dc.png",
+        "mobile_image": "shopify://shop_images/720-1_98857c6c-91aa-4ea4-8cb4-d27f3de42232.png",
+        "img_rul": ""
+      }
+    },
+    "image_jump_custom_VRPiid": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_dbAaJM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_5bd04a7e-5e9f-4aac-8967-50620135f882.png",
+            "image-id": "",
+            "image_link": "https://karakubuy.com/products/krk-zyd-xhyhhxh627"
+          }
+        },
+        "image_dkWbyV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1920-2_63880ce8-9cd4-4d5a-9975-792d6fc68a5d.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        },
+        "image_EUwLnU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_582a53d2-c820-4025-9e53-ca7f9d9f4e15.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_dbAaJM",
+        "image_dkWbyV",
+        "image_EUwLnU"
+      ],
+      "settings": {}
+    },
+    "divider_riTUMR": {
+      "type": "divider",
+      "settings": {}
+    },
+    "image_K9hcDh": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-1_3054f60c-41f2-4bf9-a23d-1f45835be1dc.png",
+        "mobile_image": "shopify://shop_images/720-1_98857c6c-91aa-4ea4-8cb4-d27f3de42232.png",
+        "img_rul": ""
+      }
+    },
+    "image_jump_custom_47KjJf": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_EM3b97": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_5ca1d9f0-3827-4378-9565-fd6531cb0598.png",
+            "image-id": "",
+            "image_link": "https://karakubuy.com/products/krk-zyd-mlzdcxhxh624"
+          }
+        },
+        "image_cLDekp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1920-2_63880ce8-9cd4-4d5a-9975-792d6fc68a5d.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        },
+        "image_3i7h8m": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_3c9dba37-a537-4525-9feb-b343a83fa461.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_EM3b97",
+        "image_cLDekp",
+        "image_3i7h8m"
+      ],
+      "settings": {}
+    },
+    "divider_YaWEj9": {
+      "type": "divider",
+      "settings": {}
+    },
+    "image_VyRVpX": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-1_3054f60c-41f2-4bf9-a23d-1f45835be1dc.png",
+        "mobile_image": "shopify://shop_images/720-1_98857c6c-91aa-4ea4-8cb4-d27f3de42232.png",
+        "img_rul": ""
+      }
+    },
+    "image_jump_custom_yd37Dt": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_YBMQGG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_86a3e9b7-4d73-4295-8ff6-b94f44a20eb4.png",
+            "image-id": "",
+            "image_link": "https://karakubuy.com/products/krk-zyd-hsclhxh621"
+          }
+        },
+        "image_MBU8ri": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1920-2_63880ce8-9cd4-4d5a-9975-792d6fc68a5d.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        },
+        "image_FTHz3N": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_e425758b-6439-468e-87dc-b5996bc2a50f.png",
+            "image-id": "",
+            "image_link": "https://karakubuy.com/products/krk-zyd-hsclhxh621?_pos=4&_sid=055c98bab&_ss=r"
+          }
+        }
+      },
+      "block_order": [
+        "image_YBMQGG",
+        "image_MBU8ri",
+        "image_FTHz3N"
+      ],
+      "settings": {}
+    },
+    "divider_MTRAxy": {
+      "type": "divider",
+      "settings": {}
+    },
+    "image_a8nCtz": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-1_3054f60c-41f2-4bf9-a23d-1f45835be1dc.png",
+        "mobile_image": "shopify://shop_images/720-1_98857c6c-91aa-4ea4-8cb4-d27f3de42232.png",
+        "img_rul": ""
+      }
+    },
+    "image_jump_custom_w3cKc3": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_XUyTGJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_ca0a533f-c737-41ea-881d-eb34beaf73c0.png",
+            "image-id": "",
+            "image_link": "https://karakubuy.com/products/krk-zyd-hfwsnzhxh621?_pos=1&_sid=234e1a6d2&_ss=r&variant=45756270084315"
+          }
+        },
+        "image_rJDahe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1920-2_63880ce8-9cd4-4d5a-9975-792d6fc68a5d.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        },
+        "image_8Y3qzC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_f56c67a6-32a0-43e0-8f5e-e4459ffec0ed.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_XUyTGJ",
+        "image_rJDahe",
+        "image_8Y3qzC"
+      ],
+      "settings": {}
+    },
+    "background_image_XwHfmN": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-10-23_18-18-44.jpg"
+      }
+    },
+    "featured_collection_D8fERp": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "UKIYO-E STYLE ANIMAL SERIES SUKAJAN",
+        "collection": "2024-animalseries-sukajan",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "seamless_scrolling_4Mrdbg",
+    "scrolling_banner_image_Qq97BB",
+    "adjusting_spacing_dRHMpH",
+    "rich_text_e968XH",
+    "main",
+    "image_tWzCNi",
+    "image_jump_custom_VRPiid",
+    "divider_riTUMR",
+    "image_K9hcDh",
+    "image_jump_custom_47KjJf",
+    "divider_YaWEj9",
+    "image_VyRVpX",
+    "image_jump_custom_yd37Dt",
+    "divider_MTRAxy",
+    "image_a8nCtz",
+    "image_jump_custom_w3cKc3",
+    "background_image_XwHfmN",
+    "featured_collection_D8fERp"
+  ]
+}

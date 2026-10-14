@@ -1,0 +1,218 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_iyT8rx": {
+      "type": "slideshow",
+      "blocks": {
+        "image_zcjjNq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/281__1920.jpg",
+            "mobile_image": "shopify://shop_images/281__1080.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_zcjjNq"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_PH7R6n": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_9ccca684-d57d-41d7-8645-a4a57e3f4c9e.png",
+        "mobile_image": "shopify://shop_images/720_f5712725-4547-4960-9fc6-f44e684d8196.png",
+        "img_rul": ""
+      }
+    },
+    "scrolling_banner_KR7WNK": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_rV3tL8": {
+          "type": "text",
+          "settings": {
+            "text": "LONG SELLER SNEAKERS",
+            "color": "#dde842",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_rV3tL8"
+      ],
+      "name": "Scrolling banner",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 35,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "image_jump_custom_kfGLxB": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_DDnP6J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1080-1_f69493ab-cc69-44ff-ad4c-1f588527c7b6.jpg",
+            "image-id": "",
+            "image_link": "shopify://products/md-2001005"
+          }
+        },
+        "image_bWi6zB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1080-2_b10b60aa-4460-497e-919d-11729c8872ff.jpg",
+            "image-id": "",
+            "image_link": "shopify://products/krk-md-d2301002"
+          }
+        },
+        "image_r9xh9M": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1080-3_06dbefba-09e9-4c8e-9c8b-c197030f7792.jpg",
+            "image-id": "",
+            "image_link": "shopify://products/krk-md2301008"
+          }
+        },
+        "image_e9FCK3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1080-4_65ca1926-87de-4130-8b9d-7d674b03add5.jpg",
+            "image-id": "",
+            "image_link": "shopify://products/md1803022"
+          }
+        },
+        "image_GAak34": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1080-5_fe9bba67-8e64-48d9-827d-98036e03704d.jpg",
+            "image-id": "",
+            "image_link": "shopify://products/krk-md2201046"
+          }
+        },
+        "image_8zWgmL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1080-6_b6307f0a-ac4d-40f3-b556-cc6423aeedc2.jpg",
+            "image-id": "",
+            "image_link": "shopify://products/krk-ma2208100"
+          }
+        }
+      },
+      "block_order": [
+        "image_DDnP6J",
+        "image_bWi6zB",
+        "image_r9xh9M",
+        "image_e9FCK3",
+        "image_GAak34",
+        "image_8zWgmL"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "background_image_dTiAPW": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#dff1f1",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "slideshow_iyT8rx",
+    "image_PH7R6n",
+    "scrolling_banner_KR7WNK",
+    "image_jump_custom_kfGLxB",
+    "main",
+    "background_image_dTiAPW"
+  ]
+}

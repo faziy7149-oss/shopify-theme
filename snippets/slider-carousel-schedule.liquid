@@ -1,0 +1,90 @@
+{%- comment -%}
+  统一计算 Slider Carousel 单张 Slide 的排期状态（唯一维护点）。
+
+  参数:
+  - block {Block}
+  - now_stamp {String} - 'now' | date: '%Y-%m-%dT%H:%M%z'
+  - now_unix {String|Number} - 'now' | date: '%s'
+  - schedule_max_ahead_seconds {Number} - 开始时间最多可提前的秒数
+  - design_mode {Boolean} - 主题编辑器内全部视为可见
+
+  输出（单行，勿换行）:
+  state|has_schedule|start_stamp|end_stamp
+
+  state:
+  - skip     无 PC 图，忽略
+  - expired  已过结束时间（前台不输出）
+  - too_far  开始时间超出提前窗口（前台不输出，含 pool）
+  - pending  未到开始时间，但在窗口内（进 pool，首屏不进 wrapper）
+  - visible  当前应展示
+{%- endcomment -%}
+
+{%- if block.settings.advertising_pc_image == blank -%}
+  skip|0||
+{%- else -%}
+  {%- liquid
+    assign start_stamp = blank
+    assign end_stamp = blank
+    assign is_expired = false
+    assign is_too_far = false
+    assign is_visible_now = true
+    assign has_schedule_flag = false
+
+    if block.settings.schedule_start_date != blank
+      assign has_schedule_flag = true
+      assign start_raw = block.settings.schedule_start_date
+      if block.settings.schedule_start_time != blank
+        assign start_raw = start_raw | append: 'T' | append: block.settings.schedule_start_time
+      else
+        assign start_raw = start_raw | append: 'T00:00'
+      endif
+      assign start_stamp = start_raw | date: '%Y-%m-%dT%H:%M%z'
+      assign start_unix = start_raw | date: '%s'
+      assign start_ahead = start_unix | minus: now_unix
+      if start_ahead > schedule_max_ahead_seconds
+        assign is_too_far = true
+        assign is_visible_now = false
+      elsif start_stamp > now_stamp
+        assign is_visible_now = false
+      endif
+    endif
+
+    if block.settings.schedule_end_date != blank
+      assign has_schedule_flag = true
+      assign end_raw = block.settings.schedule_end_date
+      if block.settings.schedule_end_time != blank
+        assign end_raw = end_raw | append: 'T' | append: block.settings.schedule_end_time
+      else
+        assign end_raw = end_raw | append: 'T23:59'
+      endif
+      assign end_stamp = end_raw | date: '%Y-%m-%dT%H:%M%z'
+      if end_stamp <= now_stamp
+        assign is_expired = true
+        assign is_visible_now = false
+      endif
+    endif
+
+    if design_mode
+      assign is_expired = false
+      assign is_too_far = false
+      assign is_visible_now = true
+    endif
+
+    if is_expired
+      assign state = 'expired'
+    elsif is_too_far
+      assign state = 'too_far'
+    elsif is_visible_now
+      assign state = 'visible'
+    else
+      assign state = 'pending'
+    endif
+
+    if has_schedule_flag
+      assign has_schedule_out = '1'
+    else
+      assign has_schedule_out = '0'
+    endif
+  -%}
+  {{- state -}}|{{- has_schedule_out -}}|{{- start_stamp -}}|{{- end_stamp -}}
+{%- endif -%}

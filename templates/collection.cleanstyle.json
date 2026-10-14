@@ -1,0 +1,359 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 30,
+        "grid": 5,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "be5f5d65-29ad-4491-b567-3b1efb50b037": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16778309632219__be5f5d65-29ad-4491-b567-3b1efb50b037-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner_1_3.jpg",
+            "mobile_image": "shopify://shop_images/banner_2_3.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16778309632219__be5f5d65-29ad-4491-b567-3b1efb50b037-image-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "1646366127456fdab6": {
+      "type": "rich-text",
+      "blocks": {
+        "16463661273ca71f78-1": {
+          "type": "heading",
+          "settings": {
+            "title": "CLEAN STYLE",
+            "use_h1": false
+          }
+        },
+        "1436abf4-8c36-4a1e-992e-0c8bdcd84c54": {
+          "type": "text",
+          "settings": {
+            "text": "<p>今回の特集では、大人のメンズにとっての大正解、クリーンカジュアルをご紹介していきます！</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "16463661273ca71f78-1",
+        "1436abf4-8c36-4a1e-992e-0c8bdcd84c54"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "2cf1b619-b650-41b7-a5db-1196eaee7af3": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16778309632219__2cf1b619-b650-41b7-a5db-1196eaee7af3-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_62667543-0341-450d-a49d-81c354ad8202.png",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "Shop this",
+            "button_url_1": "",
+            "button_label_2": "Shop all",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16778309632219__2cf1b619-b650-41b7-a5db-1196eaee7af3-image-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "a03fc1b5-36ad-4082-8b78-b19c3a44e604": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "full_width": true,
+        "show_space": true,
+        "code": ""
+      }
+    },
+    "a8037706-b9db-4cb0-84c5-36ef0ddec3c6": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "template--16778309632219__a8037706-b9db-4cb0-84c5-36ef0ddec3c6-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_b1b6dd37-feef-49ad-8ef1-7ca1b63dfdb1.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        },
+        "template--16778309632219__a8037706-b9db-4cb0-84c5-36ef0ddec3c6-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_6b507015-dfcc-45a4-b6e7-37aa7cbcf4e0.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        },
+        "template--16778309632219__a8037706-b9db-4cb0-84c5-36ef0ddec3c6-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_62667543-0341-450d-a49d-81c354ad8202.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16778309632219__a8037706-b9db-4cb0-84c5-36ef0ddec3c6-image-2",
+        "template--16778309632219__a8037706-b9db-4cb0-84c5-36ef0ddec3c6-image-3",
+        "template--16778309632219__a8037706-b9db-4cb0-84c5-36ef0ddec3c6-image-1"
+      ],
+      "settings": {}
+    },
+    "9e50ab61-e51c-4938-b491-b4be3da03bc7": {
+      "type": "card-link",
+      "blocks": {
+        "e37180b8-2512-4e7c-916a-adb6e30dea2a": {
+          "type": "Card",
+          "settings": {
+            "image": "shopify://shop_images/43_dff02300-87b5-4483-903d-e236e9debc62.png",
+            "card_product_text1": "SHIRT | 無地シャツ",
+            "product_link1": "https://www.karakubuy.com/products/krk-ae272c",
+            "card_product_text2": "TSHIRT | コットンtee",
+            "product_link2": "https://www.karakubuy.com/products/krk-mbbt1168?_pos=16&_sid=9e8274d0c&_ss=r",
+            "card_product_text3": "PANTS |デニムパンツ",
+            "product_link3": "https://www.karakubuy.com/collections/%E3%83%87%E3%83%8B%E3%83%A0%E3%83%91%E3%83%B3%E3%83%84/products/md-s2007034",
+            "card_product_text4": "SHOES | ドイツ軍スニーカー",
+            "product_link4": "shopify://products/md-2001005"
+          }
+        },
+        "b2e36aac-f248-40ad-b4cc-baa96badf89c": {
+          "type": "Portrait",
+          "settings": {
+            "portrait_image": "shopify://shop_images/03_3691fdaa-4e34-4f10-8e26-dba78f2b23da.png"
+          }
+        },
+        "a7b87564-df4c-41be-8d47-667cb3532d3e": {
+          "type": "Card",
+          "settings": {
+            "image": "shopify://shop_images/42.png",
+            "card_product_text1": "TSHIRT | 無地Tシャツ",
+            "product_link1": "https://www.karakubuy.com/products/md-fxtw2101111?_pos=2&_sid=06a7f0f3f&_ss=r&variant=40319963889842",
+            "card_product_text2": "SWEAT |多色展開スウェット",
+            "product_link2": "https://www.karakubuy.com/collections/sweatshirt-hoodie-1/products/krk-zm-ld004?variant=43665246748891",
+            "card_product_text3": "",
+            "product_link3": "",
+            "card_product_text4": "",
+            "product_link4": ""
+          }
+        },
+        "02ffd7e0-3b4e-4972-912a-20b62ac710e4": {
+          "type": "Portrait",
+          "settings": {
+            "portrait_image": "shopify://shop_images/02_6b8930e5-fca4-4a21-bc46-551c9300b0cf.png"
+          }
+        },
+        "1d95af8d-0259-4808-a68b-bf0e1301bf55": {
+          "type": "Card",
+          "settings": {
+            "image": "shopify://shop_images/41_efc4fc0f-50fb-4b64-8372-8107134f056b.png",
+            "card_product_text1": "SHIRT | 無地ヘンリーシャツ",
+            "product_link1": "https://www.karakubuy.com/products/krk-jj-bv821?_pos=1&_sid=7798787ee&_ss=r&variant=44184799051995",
+            "card_product_text2": "TSHIRT | ボーダーコットンTee",
+            "product_link2": "https://www.karakubuy.com/products/krk-ok2133?_pos=9&_sid=05c9aced9&_ss=r",
+            "card_product_text3": "PANTS | ホワイトデニムパンツ",
+            "product_link3": "https://www.karakubuy.com/collections/%E3%83%91%E3%83%B3%E3%83%84/products/krk-md-tw2207201",
+            "card_product_text4": "SHOES | ボートシューズ",
+            "product_link4": "https://www.karakubuy.com/collections/%E3%82%B9%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%BC/products/krk-ma2206047"
+          }
+        },
+        "60d52e44-12d8-49ae-8678-97f723f010b7": {
+          "type": "Portrait",
+          "settings": {
+            "portrait_image": "shopify://shop_images/01_75aab159-6955-405a-ac39-c4cd6052ae5a.png"
+          }
+        },
+        "46d3fa3d-b89a-4e10-9b7f-0e50a678313d": {
+          "type": "Card",
+          "settings": {
+            "image": "shopify://shop_images/44.png",
+            "card_product_text1": "SHIRT |チェック柄ワークシャツ",
+            "product_link1": "https://www.karakubuy.com/products/krk-mhy-0729?_pos=2&_sid=f8a5c0e9a&_ss=r&variant=44037977309403",
+            "card_product_text2": "TSHIRT |蝋結染めTee",
+            "product_link2": "https://www.karakubuy.com/collections/t%E3%82%B7%E3%83%A3%E3%83%84-%E3%82%AB%E3%83%83%E3%83%88%E3%82%BD%E3%83%BC/products/krk-t1-0014",
+            "card_product_text3": "BAG |キャンバスバッグ",
+            "product_link3": "https://www.karakubuy.com/collections/%E3%83%90%E3%83%83%E3%82%B0/products/krk-md-tw2207657",
+            "card_product_text4": "PANTS |アメカジカーゴパンツ",
+            "product_link4": "https://www.karakubuy.com/collections/%E3%83%91%E3%83%B3%E3%83%84/products/krk-tlw2201842"
+          }
+        },
+        "bb1e0d6e-ed5f-49ca-a8d7-5a7054106923": {
+          "type": "Portrait",
+          "settings": {
+            "portrait_image": "shopify://shop_images/04_ea5468ed-e217-4f3f-8c89-ce7e1a2d6774.png"
+          }
+        }
+      },
+      "block_order": [
+        "e37180b8-2512-4e7c-916a-adb6e30dea2a",
+        "b2e36aac-f248-40ad-b4cc-baa96badf89c",
+        "a7b87564-df4c-41be-8d47-667cb3532d3e",
+        "02ffd7e0-3b4e-4972-912a-20b62ac710e4",
+        "1d95af8d-0259-4808-a68b-bf0e1301bf55",
+        "60d52e44-12d8-49ae-8678-97f723f010b7",
+        "46d3fa3d-b89a-4e10-9b7f-0e50a678313d",
+        "bb1e0d6e-ed5f-49ca-a8d7-5a7054106923"
+      ],
+      "settings": {}
+    },
+    "81418158-34b7-4228-9d81-dae4e02b14d2": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/20230727-174923.jpg",
+        "background_color_overlay": "",
+        "background_color": ""
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Clean Style Collection",
+        "collection": "cleanstyle",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "2aa0a9f5-dec1-4dbe-994f-c26307cfe6e6": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "be5f5d65-29ad-4491-b567-3b1efb50b037",
+    "1646366127456fdab6",
+    "2cf1b619-b650-41b7-a5db-1196eaee7af3",
+    "a03fc1b5-36ad-4082-8b78-b19c3a44e604",
+    "a8037706-b9db-4cb0-84c5-36ef0ddec3c6",
+    "9e50ab61-e51c-4938-b491-b4be3da03bc7",
+    "81418158-34b7-4228-9d81-dae4e02b14d2",
+    "1635765484031572a6",
+    "2aa0a9f5-dec1-4dbe-994f-c26307cfe6e6"
+  ]
+}

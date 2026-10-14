@@ -1,0 +1,303 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "163582397205207ecd": {
+      "type": "rich-text",
+      "blocks": {
+        "163582397205207ecd-1": {
+          "type": "heading",
+          "settings": {
+            "title": "ジーンズに象徴されるかつての“カウンターカルチャー”",
+            "use_h1": false
+          }
+        },
+        "163582397205207ecd-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DESINGN BY KARAKU| RETRO STYLE</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "163582397205207ecd-1",
+        "163582397205207ecd-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "16358239770de058d3": {
+      "type": "slideshow",
+      "blocks": {
+        "16358239770de058d3-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20220817-181205.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16358239770de058d3-1"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 800,
+        "height_mobile": 200,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 3,
+        "accessibility_info": ""
+      }
+    },
+    "1635827082bf87958e": {
+      "type": "rich-text",
+      "blocks": {
+        "1635827082bf87958e-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "introduction"
+          }
+        },
+        "1635827082bf87958e-1": {
+          "type": "heading",
+          "settings": {
+            "title": "ジーンズに象徴されるかつての“カウンターカルチャー”",
+            "use_h1": false
+          }
+        },
+        "1635827082bf87958e-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1960年代後半に巻き起こったフラワームーブメントは、カウンターカルチャーと呼ばれていました。<br/>それは大人たちが作り出した伝統や既存のメインカルチャーを押し付けられていた若者たちの、いわば反旗。つまり大人ではなく自分たち自身で作り、楽しむためのカルチャーだったのです。<br/>そんなカウンターカルチャーはアートや映画、音楽、ファッションなどに多大な影響を及ぼすのですが、デニムはそのシンボルのひとつでした。つまり当時のデニムはサブカルチャーであり、まだメインカルチャーではなかったのです。<br/> とはいえ、デニムは当時の若者たちに絶大な人気を博すようになったのはたしかなこと。<br/>ジーンズはファッションにおけるカウンターカルチャーの重要なアイテムだったのである。ジーンズを履きこなすことは、成熟した大人になることを拒否することであり、<br/>永遠の若さを希求することであり、自由と反権力の象徴だったのだ。<br/>ジーンズに象徴されるカウンターカルチャーは、1960年代から70年代にかけて全盛期を迎える。主体となったのはアメリカではベビーブーマー、日本では団塊の世代と呼ばれる戦後生まれの世代である。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1635827082bf87958e-0",
+        "1635827082bf87958e-1",
+        "1635827082bf87958e-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "1660206629dda00f4d": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_YeWe3x": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>『 ジーンズ誕生のきっかけ 』</strong></p><p>1873年に鉱山で働く鉱夫のために作られた<strong>ワークパンツ</strong>が501の歴史の始まりと言われています。</p><p>1853年に米国サンフランシスコにドイツからの移民としてやってきた、リーバイ・ストラウスは前身となる雑貨商を開業。鉱夫のためにキャンバス地を使ったワークパンツを考案しました。</p><p>その後、労働者たちの要望により、生地は<strong>デニム</strong>に変わり、耐久性のあるパンツの製作に試行錯誤を重ねていた彼は、仕立屋のヤコブ・デイビスから<strong>リベットでポケットを補強する</strong>という革新的なアドバイスをもらいました。</p><p>彼らは共同でそれらに関する特許を取得。この瞬間に『ジーンズ』は生まれ、1890年のロットナンバー採用により<strong>『501』</strong>が正式に誕生しました。</p><p>それから、1900年初頭までは労働者のための服としてジーンズは普及し、今では労働者の服だったとは考えられないくらい定番のファッションアイテムとして広く知られています。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_YeWe3x"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1_2be2eed3-1490-4d01-97c0-e1fa5b14a66b.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "16602072757861e3c0": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_cc7dbA": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "1950年代～Movie Starとジーンズ"
+          }
+        },
+        "heading_g3hrtc": {
+          "type": "heading",
+          "settings": {
+            "title": "ジェームズ・ディーン",
+            "use_h1": false
+          }
+        },
+        "text_DF7xRe": {
+          "type": "text",
+          "settings": {
+            "text": "<p>1950年代、日本の若者たちは映画館のスクリーンでジェームズ・ディーンがカッコよくジーンズを履きこなしているのに触れ、黒い革ジャンにブーツ、ジーンズの姿でバイクで暴れ回るマーロン・ブランドに痺れた。音楽ではジーンズの上下に身を包んだエルヴィス・プレスリーのカッコ良さに憧れた。</p><p>戦後の米国を代表する，リー・ライダースをクールに穿きこなして社会に反発、今なお語り継がれる俳優。映画『理由なき反抗』、『ジャイアンツ』で101ライダースを穿き、ドリズラージャケットもアイコンに。24歳の若さで亡くなったこともあり、青春を象徴するスターとなった。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_cc7dbA",
+        "heading_g3hrtc",
+        "text_DF7xRe"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/c_mono_1904_denimm_icon_01.jpg",
+        "image_width": 490,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "1660206925004d4849": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_FcxNN9": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "1950年代～Movie Starとジーンズ"
+          }
+        },
+        "heading_Q4G9eH": {
+          "type": "heading",
+          "settings": {
+            "title": "マーロン・ブランド",
+            "use_h1": false
+          }
+        },
+        "text_dzDWkx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>若者のジーンズ人気の火つけ役となったのが、マーロン・ブランド。501に革ジャンを着てバイクで暴れ回り、若者の衝動、反骨心に共感を生み、ジーンズがこぞって穿かれるようになります（大人は反対してた）。</p><p>またマリリン・モンローもジーンズを穿き、女性にもファッションとしてのジーンズが浸透していきました。</p><p></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_FcxNN9",
+        "heading_Q4G9eH",
+        "text_dzDWkx"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/c_mono_1904_denimm_icon_04-1.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "1660207462630ed346": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_nX7tJR": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "1960年代後半から70年代にかけて、ヒッピーファッションが登場。"
+          }
+        },
+        "heading_Vctizp": {
+          "type": "heading",
+          "settings": {
+            "title": "1960年代後半から70年代にかけて、",
+            "use_h1": false
+          }
+        },
+        "text_VmXHRz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>アメリカの若者たちによって生まれたヒッピーファッションが登場。その中で自由と反抗の象徴としてジーンズが愛用され、ワイドパンツやバギーパンツ、<strong>ベルボトム</strong>（ブーツカット）が流行しました。<br/>女性もジーンズを愛用し、男性は長髪によるユニセックスなファッションも若者文化の象徴となりました。</p><p>その後ヒッピーの終焉とともに、<strong>パンク</strong>ファッションが登場。</p><p>ジーンズをあえて引き裂くというファッションが生まれ、ダメージを与えても使用できるという特徴は、現代のダメージジーンズにも繋がっています。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_nX7tJR",
+        "heading_Vctizp",
+        "text_VmXHRz"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1_418818c4-8dad-43bc-b986-6f8306663992.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 50,
+        "grid": 5,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "163582397205207ecd",
+    "16358239770de058d3",
+    "1635827082bf87958e",
+    "1660206629dda00f4d",
+    "16602072757861e3c0",
+    "1660206925004d4849",
+    "1660207462630ed346",
+    "main"
+  ]
+}

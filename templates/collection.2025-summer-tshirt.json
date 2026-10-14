@@ -1,0 +1,217 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [
+          "shirts",
+          "スウェット",
+          "ジャケット-アウター",
+          "アクセサリー",
+          "short-sleeve-t-shirts",
+          "short-sleeve-shirts",
+          "カーゴパンツ",
+          "coat",
+          "デニムパンツ"
+        ],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "slideshow_kXCDGi": {
+      "type": "slideshow",
+      "blocks": {
+        "image_U6WgWg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_c5032e1e-cdf2-435e-902e-4f7b5a456adf.jpg",
+            "mobile_image": "shopify://shop_images/2_0963a722-5cf9-4a6d-814b-f019b93d3d7e.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_U6WgWg"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_list_fPzfXC": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_3E7YHK": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/7-1_d5467a96-78bf-4aff-b8be-29a8205baae9.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_3E7YHK"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "none"
+      }
+    },
+    "image_list_yawtJQ": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_dFmtne": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/7-2_615bf99d-800b-403e-b976-f8ba7ba37350.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_dFmtne"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "none"
+      }
+    },
+    "image_list_qBiafg": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_Vh78FR": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/6-1_46094db1-3985-417e-9b86-7a3e9c3e8474.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_Vh78FR"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "none"
+      }
+    },
+    "image_list_GFAGXU": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_ePxkyK": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/6-2_2514bee4-f043-4f4c-bd6b-217c2f073c02.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_ePxkyK"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "shake"
+      }
+    },
+    "image_list_cwP6Xd": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_kEXdrH": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/Snipaste_2025-06-24_17-48-39.jpg",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_kEXdrH"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "shake"
+      }
+    },
+    "adjusting_spacing_QNwn9r": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": 0
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_kXCDGi",
+    "image_list_fPzfXC",
+    "image_list_yawtJQ",
+    "image_list_qBiafg",
+    "image_list_GFAGXU",
+    "image_list_cwP6Xd",
+    "adjusting_spacing_QNwn9r"
+  ]
+}

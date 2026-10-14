@@ -1,0 +1,859 @@
+{% comment %}
+  Product Gallery
+  - 下层：完全静止的背景层
+  - 上层：散落图片组成的可拖拽精灵层（非居中半透明，居中不透明）
+  - 松手吸附距中心最近的图；任意边缘图都可拖/点到中心
+  - 移动端：左右滑动，一页一张（Swiper）
+{% endcomment %}
+
+{%- liquid
+  assign section_selector = 'section-id-' | append: section.id
+  assign block_count = 0
+  for block in section.blocks
+    if block.type == 'image-collection' and block.settings.image_collection != blank
+      assign block_count = block_count | plus: 1
+    endif
+  endfor
+  assign default_center = block_count | plus: 1 | divided_by: 2
+  if default_center < 1
+    assign default_center = 1
+  endif
+-%}
+
+<style>
+  .{{ section_selector }} .main-container {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+    overflow: hidden;
+    touch-action: none;
+    background: transparent;
+    user-select: none;
+    -webkit-user-select: none;
+  }
+
+  /* 完全静止的背景层：不随拖拽、不用 background-attachment:fixed */
+  .{{ section_selector }} .gallery-bg {
+    position: absolute;
+    inset: 0;
+    z-index: 0;
+    pointer-events: none;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center top;
+    {% if section.settings.bg_image != blank %}
+    background-image: url({{ section.settings.bg_image | image_url: width: 1920 }});
+    {% endif %}
+  }
+
+  .{{ section_selector }} .products-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    will-change: transform;
+    cursor: grab;
+    user-select: none;
+    -webkit-user-drag: none;
+  }
+  .{{ section_selector }} .products-wrapper.is-dragging,
+  .{{ section_selector }} .main-container.is-dragging,
+  .{{ section_selector }} .main-container.is-dragging * {
+    cursor: grabbing !important;
+  }
+
+  .{{ section_selector }} .product {
+    position: absolute;
+    width: 480px;
+    height: 540px;
+    opacity: 0.35;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    user-select: none;
+    -webkit-user-select: none;
+    -webkit-user-drag: none;
+    pointer-events: none; /* 避免浏览器把背景图当成可拖资源 */
+    backface-visibility: hidden;
+    transition: opacity 0.2s ease;
+  }
+  .{{ section_selector }} .product.is-near {
+    opacity: 0.55;
+  }
+  .{{ section_selector }} .product.active {
+    z-index: 20;
+    opacity: 1 !important;
+  }
+
+  .{{ section_selector }} .thumbnails {
+    position: absolute;
+    z-index: 3;
+    bottom: 20px;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    gap: 10px;
+    padding: 10px;
+    max-width: calc(100% - 40px);
+    overflow-x: auto;
+    scrollbar-width: none;
+    touch-action: pan-x;
+  }
+  .{{ section_selector }} .thumbnails::-webkit-scrollbar {
+    display: none;
+  }
+  .{{ section_selector }} .thumbnail {
+    flex: 0 0 47px;
+    width: 47px;
+    height: 47px;
+    padding: 0;
+    border: 2px solid transparent;
+    background-color: transparent;
+    background-size: cover;
+    background-position: center;
+    cursor: pointer;
+    opacity: 0.65;
+    transition: transform 0.2s ease, opacity 0.2s ease, border-color 0.2s ease;
+  }
+  .{{ section_selector }} .thumbnail:hover {
+    opacity: 1;
+    transform: scale(1.08);
+  }
+  .{{ section_selector }} .thumbnail.active {
+    opacity: 1;
+    transform: scale(1.18);
+    border-color: #fff;
+  }
+
+  .{{ section_selector }} .swiper-container,
+  .{{ section_selector }} .swiper-pagination {
+    display: none;
+  }
+
+  @media screen and (max-width: 767px) {
+    .{{ section_selector }} .main-container {
+      height: 54vh;
+      padding: 18px;
+      touch-action: pan-y;
+    }
+    .{{ section_selector }} .gallery-bg {
+      {% if section.settings.bg_image != blank %}
+      background-image: url({{ section.settings.bg_image | image_url: width: 900 }});
+      {% endif %}
+    }
+    .{{ section_selector }} .products-wrapper,
+    .{{ section_selector }} .thumbnails {
+      display: none;
+    }
+    .{{ section_selector }} .swiper-container {
+      display: block;
+      position: relative;
+      z-index: 1;
+      width: 100%;
+      height: 100%;
+    }
+    .{{ section_selector }} .swiper-slide {
+      width: 100%;
+      height: 400px;
+      background-size: cover;
+      background-position: center;
+    }
+    .{{ section_selector }} .swiper-pagination {
+      position: absolute;
+      bottom: 20px;
+      left: 0;
+      right: 0;
+      z-index: 3;
+      display: flex;
+      justify-content: center;
+      gap: 8px;
+    }
+    .{{ section_selector }} .swiper-pagination-bullet {
+      width: 8px;
+      height: 8px;
+      background: rgba(255, 255, 255, 0.5);
+      opacity: 1;
+      border-radius: 50%;
+      transition: width 0.3s ease, background-color 0.3s ease;
+    }
+    .{{ section_selector }} .swiper-pagination-bullet-active {
+      background: #fff;
+      width: 24px;
+      border-radius: 4px;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .{{ section_selector }} .product,
+    .{{ section_selector }} .thumbnail {
+      transition: none;
+    }
+  }
+</style>
+
+<div
+  class="{{ section_selector }}"
+  data-product-gallery
+  data-section-id="{{ section.id }}"
+  data-default-center="{{ default_center }}"
+>
+  <div class="main-container" data-gallery-stage>
+    <div class="gallery-bg" aria-hidden="true"></div>
+
+    <div class="products-wrapper" data-products-wrapper>
+      {% assign gallery_index = 0 %}
+      {% for block in section.blocks %}
+        {% if block.type == 'image-collection' and block.settings.image_collection != blank %}
+          {% assign gallery_index = gallery_index | plus: 1 %}
+          <div
+            class="product"
+            data-id="{{ gallery_index }}"
+            style="background-image: url({{ block.settings.image_collection | image_url: width: 1000 }})"
+            draggable="false"
+            role="img"
+            aria-label="Gallery image {{ gallery_index }}"
+            {{ block.shopify_attributes }}
+          ></div>
+        {% endif %}
+      {% endfor %}
+    </div>
+
+    <div class="swiper-container" data-mobile-swiper>
+      <div class="swiper-wrapper">
+        {% assign gallery_index = 0 %}
+        {% for block in section.blocks %}
+          {% if block.type == 'image-collection' and block.settings.image_collection != blank %}
+            {% assign gallery_index = gallery_index | plus: 1 %}
+            <div
+              class="swiper-slide"
+              style="background-image: url({{ block.settings.image_collection | image_url: width: 800 }})"
+              role="img"
+              aria-label="Gallery image {{ gallery_index }}"
+            ></div>
+          {% endif %}
+        {% endfor %}
+      </div>
+    </div>
+    <div class="swiper-pagination" data-mobile-pagination></div>
+
+    <div class="thumbnails" data-thumbnails>
+      {% assign gallery_index = 0 %}
+      {% for block in section.blocks %}
+        {% if block.type == 'image-collection' and block.settings.image_collection != blank %}
+          {% assign gallery_index = gallery_index | plus: 1 %}
+          <button
+            type="button"
+            class="thumbnail"
+            data-target="{{ gallery_index }}"
+            style="background-image: url({{ block.settings.image_collection | image_url: width: 96 }})"
+            aria-label="Show image {{ gallery_index }}"
+          ></button>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Product Gallery",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "bg_image",
+      "label": "Background Image"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "image-collection",
+      "name": "ImageCollection",
+      "limit": 15,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image_collection",
+          "label": "Image Collection"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Product Gallery",
+      "blocks": [
+        { "type": "image-collection" },
+        { "type": "image-collection" },
+        { "type": "image-collection" },
+        { "type": "image-collection" },
+        { "type": "image-collection" }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+  (function () {
+    const sectionId = {{ section.id | json }};
+    const root = document.querySelector('[data-section-id="' + sectionId + '"][data-product-gallery]');
+    if (!root) return;
+
+    const stage = root.querySelector('[data-gallery-stage]');
+    const wrapper = root.querySelector('[data-products-wrapper]');
+    const thumbsRoot = root.querySelector('[data-thumbnails]');
+    const swiperEl = root.querySelector('[data-mobile-swiper]');
+    const paginationEl = root.querySelector('[data-mobile-pagination]');
+    const defaultCenter = parseInt(root.dataset.defaultCenter, 10) || 1;
+    const hasGsap = typeof gsap !== 'undefined';
+
+    const ITEM_W = 480;
+    const ITEM_H = 540;
+    const RESISTANCE = 0.28;
+    const MAX_OVERFLOW = 160;
+    const NEAR_RANGE = { width: 520, height: 580 };
+
+    /* 更散落：列间距更大 + 按 index 稳定错落（不旋转） */
+    const LAYOUT = {
+      colsPerRow: 4,
+      colGap: 180,
+      rowGap: 220,
+      basePad: 80
+    };
+
+    let isDragging = false;
+    let pointerId = null;
+    let startX = 0;
+    let startY = 0;
+    let translateX = 0;
+    let translateY = 0;
+    let lastPosX = 0;
+    let lastPosY = 0;
+    let lastMoveTime = 0;
+    let velocityX = 0;
+    let velocityY = 0;
+    let minX = 0;
+    let maxX = 0;
+    let minY = 0;
+    let maxY = 0;
+    let currentCenterId = null;
+    let mobileSwiper = null;
+    let opacityRaf = 0;
+    let desktopBound = false;
+    let productMeta = []; /* { id, x, y, cx, cy } 本地坐标 */
+    const listeners = [];
+
+    function on(el, type, handler, options) {
+      if (!el) return;
+      el.addEventListener(type, handler, options);
+      listeners.push([el, type, handler, options]);
+    }
+
+    function prefersReducedMotion() {
+      return window.matchMedia && window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    }
+
+    function isMobile() {
+      return window.innerWidth <= 767;
+    }
+
+    function getProducts() {
+      return wrapper ? Array.from(wrapper.querySelectorAll('.product')) : [];
+    }
+
+    function getThumbnails() {
+      return thumbsRoot ? Array.from(thumbsRoot.querySelectorAll('.thumbnail')) : [];
+    }
+
+    /* 稳定伪随机：同一 index 永远同一偏移 */
+    function scatter(index, salt) {
+      var n = ((index + 1) * 9301 + salt * 49297) % 233280;
+      return n / 233280;
+    }
+
+    function killWrapperTween() {
+      if (hasGsap && wrapper) gsap.killTweensOf(wrapper);
+    }
+
+    function setWrapperXY(x, y, immediate) {
+      translateX = x;
+      translateY = y;
+      if (!wrapper) return;
+      if (hasGsap) {
+        gsap.set(wrapper, { x: translateX, y: translateY });
+      } else {
+        wrapper.style.transform = 'translate(' + translateX + 'px, ' + translateY + 'px)';
+      }
+      if (immediate) scheduleOpacityUpdate();
+    }
+
+    function animateWrapperTo(x, y, onComplete) {
+      translateX = x;
+      translateY = y;
+      if (!wrapper) {
+        if (onComplete) onComplete();
+        return;
+      }
+      if (hasGsap) {
+        gsap.to(wrapper, {
+          x: x,
+          y: y,
+          duration: prefersReducedMotion() ? 0 : 0.65,
+          ease: 'power3.out',
+          overwrite: true,
+          onUpdate: function () {
+            translateX = gsap.getProperty(wrapper, 'x');
+            translateY = gsap.getProperty(wrapper, 'y');
+            scheduleOpacityUpdate();
+          },
+          onComplete: function () {
+            translateX = x;
+            translateY = y;
+            scheduleOpacityUpdate();
+            if (onComplete) onComplete();
+          }
+        });
+      } else {
+        wrapper.style.transition = 'transform 0.65s ease-out';
+        wrapper.style.transform = 'translate(' + x + 'px, ' + y + 'px)';
+        window.setTimeout(function () {
+          if (onComplete) onComplete();
+        }, prefersReducedMotion() ? 0 : 650);
+      }
+    }
+
+    function positionProducts() {
+      const products = getProducts();
+      if (!wrapper || !products.length) return;
+
+      productMeta = [];
+      var maxRight = 0;
+      var maxBottom = 0;
+
+      products.forEach(function (product, index) {
+        var row = Math.floor(index / LAYOUT.colsPerRow);
+        var col = index % LAYOUT.colsPerRow;
+
+        /* 基础网格 + 稳定散落偏移（无旋转） */
+        var ox = (scatter(index, 1) - 0.5) * 220;
+        var oy = (scatter(index, 7) - 0.5) * 260;
+        var staggerY = (col % 2 === 0 ? -40 : 90) + (row % 2 === 0 ? 0 : 50);
+
+        var x = LAYOUT.basePad + col * (ITEM_W + LAYOUT.colGap) + ox;
+        var y = LAYOUT.basePad + row * (ITEM_H + LAYOUT.rowGap) + staggerY + oy;
+
+        product.style.left = Math.round(x) + 'px';
+        product.style.top = Math.round(y) + 'px';
+        product.style.width = ITEM_W + 'px';
+        product.style.height = ITEM_H + 'px';
+
+        productMeta.push({
+          id: product.dataset.id,
+          x: x,
+          y: y,
+          cx: x + ITEM_W / 2,
+          cy: y + ITEM_H / 2,
+          el: product
+        });
+
+        maxRight = Math.max(maxRight, x + ITEM_W);
+        maxBottom = Math.max(maxBottom, y + ITEM_H);
+      });
+
+      wrapper.style.width = Math.ceil(maxRight + LAYOUT.basePad) + 'px';
+      wrapper.style.height = Math.ceil(maxBottom + LAYOUT.basePad) + 'px';
+    }
+
+    /**
+     * 边界 =「每张图都能移到舞台中心」所需的 wrapper 位移范围
+     * 这样边缘图也可以被拖/吸附到正中
+     */
+    function calculateBoundaries() {
+      if (!stage || !productMeta.length) {
+        minX = maxX = minY = maxY = 0;
+        return;
+      }
+
+      var sw = stage.clientWidth;
+      var sh = stage.clientHeight;
+      var centerTargetsX = [];
+      var centerTargetsY = [];
+
+      productMeta.forEach(function (p) {
+        centerTargetsX.push(sw / 2 - p.cx);
+        centerTargetsY.push(sh / 2 - p.cy);
+      });
+
+      minX = Math.min.apply(null, centerTargetsX);
+      maxX = Math.max.apply(null, centerTargetsX);
+      minY = Math.min.apply(null, centerTargetsY);
+      maxY = Math.max.apply(null, centerTargetsY);
+
+      /* 轻微外扩，方便拖动手感 */
+      var pad = 40;
+      minX -= pad;
+      maxX += pad;
+      minY -= pad;
+      maxY += pad;
+    }
+
+    function getCenterTransformForId(id) {
+      var meta = null;
+      for (var i = 0; i < productMeta.length; i++) {
+        if (String(productMeta[i].id) === String(id)) {
+          meta = productMeta[i];
+          break;
+        }
+      }
+      if (!meta || !stage) return null;
+      return {
+        x: stage.clientWidth / 2 - meta.cx,
+        y: stage.clientHeight / 2 - meta.cy
+      };
+    }
+
+    function withResistance(value, minBound, maxBound) {
+      if (value < minBound) {
+        return minBound - Math.min((minBound - value) * RESISTANCE, MAX_OVERFLOW);
+      }
+      if (value > maxBound) {
+        return maxBound + Math.min((value - maxBound) * RESISTANCE, MAX_OVERFLOW);
+      }
+      return value;
+    }
+
+    function scheduleOpacityUpdate() {
+      if (opacityRaf) return;
+      opacityRaf = requestAnimationFrame(function () {
+        opacityRaf = 0;
+        updateOpacity();
+      });
+    }
+
+    function updateOpacity() {
+      if (!stage || isMobile()) return;
+      var rect = stage.getBoundingClientRect();
+      var centerX = rect.left + rect.width / 2;
+      var centerY = rect.top + rect.height / 2;
+
+      getProducts().forEach(function (product) {
+        if (!product || !product.classList) return;
+        if (product.classList.contains('active')) {
+          product.style.opacity = '1';
+          product.classList.remove('is-near');
+          return;
+        }
+        var pr = product.getBoundingClientRect();
+        var dx = Math.abs(centerX - (pr.left + pr.width / 2));
+        var dy = Math.abs(centerY - (pr.top + pr.height / 2));
+        var near = dx < NEAR_RANGE.width / 2 && dy < NEAR_RANGE.height / 2;
+        product.classList.toggle('is-near', near);
+        product.style.opacity = near ? '0.55' : '0.35';
+      });
+    }
+
+    function setActive(id) {
+      currentCenterId = String(id);
+      getProducts().forEach(function (el) {
+        if (!el || !el.classList) return;
+        el.classList.toggle('active', el.dataset.id === currentCenterId);
+      });
+      getThumbnails().forEach(function (el) {
+        if (!el || !el.classList) return;
+        el.classList.toggle('active', el.dataset.target === currentCenterId);
+      });
+      scheduleOpacityUpdate();
+    }
+
+    function centerProduct(id, instant) {
+      if (!stage || !wrapper || isMobile()) return;
+      var target = getCenterTransformForId(id);
+      if (!target) return;
+
+      killWrapperTween();
+      setActive(id);
+
+      if (instant) {
+        setWrapperXY(target.x, target.y, true);
+      } else {
+        animateWrapperTo(target.x, target.y);
+      }
+    }
+
+    function autoSnapToClosest() {
+      if (!stage || isMobile() || !productMeta.length) return;
+
+      /* 用本地坐标 + 当前 translate 算距舞台中心最近，避免 layout thrash */
+      var sw = stage.clientWidth;
+      var sh = stage.clientHeight;
+      var closestId = null;
+      var minDistance = Infinity;
+
+      productMeta.forEach(function (p) {
+        var screenCx = translateX + p.cx;
+        var screenCy = translateY + p.cy;
+        var distance = Math.hypot(sw / 2 - screenCx, sh / 2 - screenCy);
+        if (distance < minDistance) {
+          minDistance = distance;
+          closestId = p.id;
+        }
+      });
+
+      if (closestId) centerProduct(closestId);
+    }
+
+    function startInertia() {
+      if (!wrapper) {
+        autoSnapToClosest();
+        return;
+      }
+
+      var vx = velocityX;
+      var vy = velocityY;
+
+      if (Math.abs(vx) < 0.35 && Math.abs(vy) < 0.35) {
+        checkBounds(autoSnapToClosest);
+        return;
+      }
+
+      var duration = prefersReducedMotion()
+        ? 0
+        : Math.min(1.0, Math.max(0.3, Math.hypot(vx, vy) / 40));
+      var targetX = withResistance(translateX + vx * 16, minX, maxX);
+      var targetY = withResistance(translateY + vy * 16, minY, maxY);
+
+      if (hasGsap) {
+        gsap.to(wrapper, {
+          x: targetX,
+          y: targetY,
+          duration: duration,
+          ease: 'power2.out',
+          overwrite: true,
+          onUpdate: function () {
+            if (!wrapper) return;
+            translateX = gsap.getProperty(wrapper, 'x');
+            translateY = gsap.getProperty(wrapper, 'y');
+            scheduleOpacityUpdate();
+          },
+          onComplete: function () {
+            translateX = targetX;
+            translateY = targetY;
+            checkBounds(autoSnapToClosest);
+          }
+        });
+        return;
+      }
+
+      animateWrapperTo(targetX, targetY, function () {
+        checkBounds(autoSnapToClosest);
+      });
+    }
+
+    function checkBounds(callback) {
+      var targetX = Math.min(Math.max(translateX, minX), maxX);
+      var targetY = Math.min(Math.max(translateY, minY), maxY);
+      if (targetX !== translateX || targetY !== translateY) {
+        animateWrapperTo(targetX, targetY, callback);
+      } else if (callback) {
+        callback();
+      }
+    }
+
+    function onPointerDown(e) {
+      if (isMobile() || !wrapper || !wrapper.classList || !stage) return;
+      var targetEl = e.target;
+      if (targetEl && targetEl.nodeType !== 1) targetEl = targetEl.parentElement;
+      if (targetEl && typeof targetEl.closest === 'function' && targetEl.closest('[data-thumbnails]')) {
+        return;
+      }
+      if (e.pointerType === 'mouse' && e.button !== 0) return;
+
+      /* 阻止浏览器原生拖拽（背景图/选区），否则会出现禁止光标且拖不动 */
+      e.preventDefault();
+
+      killWrapperTween();
+      isDragging = true;
+      pointerId = e.pointerId;
+      wrapper.classList.add('is-dragging');
+      stage.classList.add('is-dragging');
+      if (typeof stage.setPointerCapture === 'function') {
+        try {
+          stage.setPointerCapture(e.pointerId);
+        } catch (err) {}
+      }
+
+      startX = e.clientX - translateX;
+      startY = e.clientY - translateY;
+      lastPosX = e.clientX;
+      lastPosY = e.clientY;
+      lastMoveTime = Date.now();
+      velocityX = 0;
+      velocityY = 0;
+    }
+
+    function onPointerMove(e) {
+      if (!isDragging || e.pointerId !== pointerId || !wrapper) return;
+      e.preventDefault();
+      var now = Date.now();
+      var deltaTime = Math.max(now - lastMoveTime, 1);
+      var deltaX = e.clientX - lastPosX;
+      var deltaY = e.clientY - lastPosY;
+
+      translateX = withResistance(e.clientX - startX, minX, maxX);
+      translateY = withResistance(e.clientY - startY, minY, maxY);
+      setWrapperXY(translateX, translateY, true);
+
+      velocityX = (deltaX / deltaTime) * 16;
+      velocityY = (deltaY / deltaTime) * 16;
+      lastPosX = e.clientX;
+      lastPosY = e.clientY;
+      lastMoveTime = now;
+    }
+
+    function onPointerUp(e) {
+      if (!isDragging) return;
+      if (pointerId !== null && e.pointerId !== pointerId) return;
+      isDragging = false;
+      pointerId = null;
+      if (wrapper && wrapper.classList) wrapper.classList.remove('is-dragging');
+      if (stage && stage.classList) stage.classList.remove('is-dragging');
+      startInertia();
+    }
+
+    function onNativeDragStart(e) {
+      e.preventDefault();
+      return false;
+    }
+
+    function bindDesktopDrag() {
+      if (desktopBound || !stage) return;
+      desktopBound = true;
+      on(stage, 'pointerdown', onPointerDown);
+      on(stage, 'pointermove', onPointerMove, { passive: false });
+      on(stage, 'pointerup', onPointerUp);
+      on(stage, 'pointercancel', onPointerUp);
+      on(stage, 'dragstart', onNativeDragStart);
+      on(stage, 'selectstart', onNativeDragStart);
+    }
+
+    function bindThumbnails() {
+      getThumbnails().forEach(function (thumb) {
+        if (!thumb) return;
+        on(thumb, 'click', function (e) {
+          e.stopPropagation();
+          var id = thumb.dataset && thumb.dataset.target;
+          if (!id) return;
+          killWrapperTween();
+          centerProduct(id);
+        });
+      });
+    }
+
+    function initMobileSwiper() {
+      if (!swiperEl || typeof Swiper === 'undefined') return;
+      if (mobileSwiper) return;
+      if (!swiperEl.querySelectorAll('.swiper-slide').length) return;
+
+      mobileSwiper = new Swiper(swiperEl, {
+        slidesPerView: 1,
+        centeredSlides: true,
+        spaceBetween: 12,
+        loop: false,
+        pagination: paginationEl
+          ? {
+              el: paginationEl,
+              clickable: true,
+              bulletClass: 'swiper-pagination-bullet',
+              bulletActiveClass: 'swiper-pagination-bullet-active'
+            }
+          : undefined
+      });
+
+      var startIndex = Math.max(0, Math.min(defaultCenter - 1, mobileSwiper.slides.length - 1));
+      mobileSwiper.slideTo(startIndex, 0);
+    }
+
+    function destroyMobileSwiper() {
+      if (!mobileSwiper) return;
+      mobileSwiper.destroy(true, true);
+      mobileSwiper = null;
+    }
+
+    function setupDesktop() {
+      if (!wrapper) return;
+      positionProducts();
+      calculateBoundaries();
+      bindDesktopDrag();
+
+      requestAnimationFrame(function () {
+        if (!wrapper) return;
+        var products = getProducts();
+        var target =
+          wrapper.querySelector('.product[data-id="' + defaultCenter + '"]') ||
+          products[Math.floor(products.length / 2)] ||
+          products[0];
+        if (target && target.dataset) centerProduct(target.dataset.id, true);
+      });
+    }
+
+    function onResize() {
+      if (isMobile()) {
+        killWrapperTween();
+        isDragging = false;
+        initMobileSwiper();
+        return;
+      }
+      destroyMobileSwiper();
+      positionProducts();
+      calculateBoundaries();
+      if (currentCenterId) {
+        centerProduct(currentCenterId, true);
+      } else {
+        translateX = Math.min(Math.max(translateX, minX), maxX);
+        translateY = Math.min(Math.max(translateY, minY), maxY);
+        setWrapperXY(translateX, translateY, true);
+      }
+    }
+
+    function cleanup() {
+      killWrapperTween();
+      isDragging = false;
+      destroyMobileSwiper();
+      if (opacityRaf) {
+        cancelAnimationFrame(opacityRaf);
+        opacityRaf = 0;
+      }
+      listeners.forEach(function (item) {
+        item[0].removeEventListener(item[1], item[2], item[3]);
+      });
+      listeners.length = 0;
+      desktopBound = false;
+      productMeta = [];
+    }
+
+    function boot() {
+      cleanup();
+      bindThumbnails();
+      on(window, 'resize', onResize);
+
+      if (isMobile()) {
+        initMobileSwiper();
+      } else {
+        setupDesktop();
+      }
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', boot, { once: true });
+    } else {
+      boot();
+    }
+
+    document.addEventListener('shopify:section:load', function (e) {
+      if (e.detail && e.detail.sectionId === sectionId) boot();
+    });
+    document.addEventListener('shopify:section:unload', function (e) {
+      if (e.detail && e.detail.sectionId === sectionId) cleanup();
+    });
+  })();
+</script>

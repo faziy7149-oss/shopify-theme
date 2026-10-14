@@ -1,0 +1,604 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "slideshow_FyhDAV": {
+      "type": "slideshow",
+      "blocks": {
+        "image_AAcpUh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/009__1920_699a2d87-0f1b-4674-b1b9-e475835ed22b.jpg",
+            "mobile_image": "shopify://shop_images/009__1080.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_AAcpUh"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_Pmpq7c": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_14712457-400f-4391-a983-abb507a186d8.png",
+        "mobile_image": "shopify://shop_images/720_04fb203f-728b-4fe4-8f82-b35c1e402ead.png",
+        "img_rul": ""
+      }
+    },
+    "image_jump_custom_rPMpXA": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_bPEd7T": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_a49088a6-da45-4a45-9c0c-b2e4419b88d8.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_bPEd7T"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "adjusting_spacing_J9xjCm": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -7,
+        "margin_top2": -5
+      }
+    },
+    "slide_block_group_JfmGnp": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_YHwd7q": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-1_4b07fecc-2a55-4b92-adac-115dd63e8334.jpg",
+            "slide_title": "【予約】赤ヒモ付き　先染めマルチストライプ柄オープンカラーシャツ",
+            "slide_price": 12980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-lrj-sh251178",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_pYCBq7": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-4_5f2ec303-f096-492f-bac9-6ef429ca4cbe.jpg",
+            "slide_title": "【予約】Karaku刺繍入り　赤ヒモ付き幾何学模様ジャカード織りデニムシャツ",
+            "slide_price": 13980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-gsh-sh250945",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_GPkYiw": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-5_1ae52299-b651-4139-b337-26688ce59d90.jpg",
+            "slide_title": "【予約】赤ヒモ付き　エスニック調プリント切り替えハーフボタンデニムシャツ",
+            "slide_price": 11980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-lsx-jk251276",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_YHwd7q",
+        "slide_block_pYCBq7",
+        "slide_block_GPkYiw"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#49548a",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#111d32",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_6jmgE8": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_jJGRPV": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-7_6994c8e9-e3fc-4b56-a1db-965062868004.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-8_af8995c3-2d58-43f9-9d31-8e60739fc06d.jpg",
+            "slide_title": "【予約】赤ヒモ付き　無地×ストライプ柄リバーシブル仕様長袖シャツ",
+            "slide_price": 14980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-lsx-sh251165",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_7RkLCm": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-9_70d9d04f-9409-4d14-9d9c-7a67ff9f6ea9.jpg",
+            "slide_title": "【予約】コーデュロイ襟切替　ヘリンボーンジャカード織りデニムワークシャツ",
+            "slide_price": 13980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-zyd-sh251289",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_YhiUbr": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-12_d794eef3-4051-416d-910c-063cf3c93ef4.jpg",
+            "slide_title": "【予約】紅白ヒモ付き　ジャカードストライプ綿麻デニムシャツ",
+            "slide_price": 12980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-lrj-sh251196",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_jJGRPV",
+        "slide_block_7RkLCm",
+        "slide_block_YhiUbr"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#49548a",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#111d32",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_dAN68a": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_kCTcHj": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-13_934e330a-26a4-4632-a835-855b4884fc53.jpg",
+            "slide_title": "【予約】襟・ポケットマルチストライプ切替コットン長袖シャツ",
+            "slide_price": 12980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-gsh-sh251285",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_qb9nNN": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-15_0e44b841-949d-464d-bccd-a8ef7cce4a9f.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-16_e8a92204-07c7-41d2-bf97-79020033600d.jpg",
+            "slide_title": "【予約】襟コーデュロイ　裏エスニック柄プリントデニムワークシャツ",
+            "slide_price": 12980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-zyd-sh251183",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_9Fe4Xn": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-17_19ba2c42-b422-4e65-ad08-2c39be4c290e.jpg",
+            "slide_title": "【予約】肘パッチ入り　ハーフボタン付きストライプ柄デニムプルオーバーシャツ",
+            "slide_price": 11980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-gsh-po251175",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_kCTcHj",
+        "slide_block_qb9nNN",
+        "slide_block_9Fe4Xn"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#49548a",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#111d32",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "image_jump_custom_hidRUn": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_EQJgGx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_66485d31-c098-427e-afe9-e527501b2479.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_EQJgGx"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "adjusting_spacing_7hipXE": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -7,
+        "margin_top2": -5
+      }
+    },
+    "slide_block_group_wA36te": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_xL8yaT": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-19_d9cb0c68-c898-49b6-af74-9b0e2d7f69e4.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-20.jpg",
+            "slide_title": "【予約】袖「KaraKu」刺繡ロゴ　ワッフルエアレイヤーVガゼットスウェット",
+            "slide_price": 12980,
+            "slide_price_new": 7800,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-zyd-hd251288",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_R7DLLw": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-21_c7b2da2f-d18a-40a2-bb46-d41c10381274.jpg",
+            "slide_title": "【予約】「KaraKu」ロゴ刺繡　裏ナバホ調柄・肘パッチハーフジップデニムスウェット",
+            "slide_price": 13980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-lsx-hd251281",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_qhinxf": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/20260109-164935.jpg",
+            "slide_title": "【予約】ペイズリー柄デニム切替＆ジップ入り　クルーネックプルオーバースウェット",
+            "slide_price": 12980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-zyd-hd251291",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_xL8yaT",
+        "slide_block_R7DLLw",
+        "slide_block_qhinxf"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#49548a",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#111d32",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_6HwQMH": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_7m4Byn": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-25_66862044-7867-4347-8c17-454409ddb7e5.jpg",
+            "slide_title": "【予約】異素材コンビ　ポケット・前立てデニム切替ヘンリーネックスウェット",
+            "slide_price": 12980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-lrj-hd251286",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_dwjzBW": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-28_1030f4d2-185b-4ce6-ae55-7ad0739dcb10.jpg",
+            "slide_title": "【予約】「KaraKu」刺繡ロゴ　ペイズリー総柄コットンフーディー",
+            "slide_price": 13980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-zyd-jk251294",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_c6N3Q8": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-29_23fa6953-e97c-4903-8166-8af57a5957c8.jpg",
+            "slide_title": "【予約】フェイクレイヤード仕様　ストライプシャツ＆ハーフジッププルオーバースウェット",
+            "slide_price": 12980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-gsh-lltww1215",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_7m4Byn",
+        "slide_block_dwjzBW",
+        "slide_block_c6N3Q8"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#49548a",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#111d32",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "image_jump_custom_cnrYwf": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_Qdr4DX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_93f6ccea-6913-45b1-9697-0fb6c8e604d1.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Qdr4DX"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "adjusting_spacing_9FKUzb": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -7,
+        "margin_top2": -5
+      }
+    },
+    "slide_block_group_mm4WcP": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_CLzqVE": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-31_d0091b72-1a82-4583-a5d7-37c96af9df17.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-32_078d0006-3552-43f0-9862-23157a30fb75.jpg",
+            "slide_title": "【予約】デニム＆エアーレイヤーコンビ　ターコイズ風ボタン切替フェイクレイヤードジャケット",
+            "slide_price": 15980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-zyd-jk251242",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_PBPmEA": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-34_ac87aee2-a3c5-4070-ae88-222879669675.jpg",
+            "slide_title": "【予約】袖異素材切替　マルチポケット付きデニムスタジャン",
+            "slide_price": 15980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-gsh-jk251184",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_De6atY": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-35_0ecb6f8f-0a5a-4c6d-a02f-672627375130.jpg",
+            "slide_title": "【予約】「KaraKu」刺繡ロゴ　裏メッシュ配色切替スタンドカラージャケット",
+            "slide_price": 13980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-lrj-jk251195",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_CLzqVE",
+        "slide_block_PBPmEA",
+        "slide_block_De6atY"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#49548a",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#111d32",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_i67a9W": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_ytfycD": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-37_4682011d-04d5-4c68-b5dd-fb91a020e387.jpg",
+            "slide_title": "【予約】コーデュロイ切替　ペイズリー総柄ジャカード織りデニムジャケット",
+            "slide_price": 13980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-zyd-jk251290",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_zNJxC8": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-39_1f3163af-a6cd-431b-8a56-b681b2516153.jpg",
+            "slide_title": "【予約】フックボタン付き斜め前立て　スタンドカラーデニムジャケット",
+            "slide_price": 18980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-gsh-dlrwje",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_Lm8qkG": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-41_3870a823-c4ac-4308-aa9a-bbe5db3ae075.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-42.jpg",
+            "slide_title": "【予約】石調＆花型ボタン付き　パイピング加工ノーカラージャケット",
+            "slide_price": 14980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-lsx-yltk0417",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_ytfycD",
+        "slide_block_zNJxC8",
+        "slide_block_Lm8qkG"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#49548a",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#111d32",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "background_image_w4hzj4": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#efebe0",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "slideshow_FyhDAV",
+    "image_Pmpq7c",
+    "image_jump_custom_rPMpXA",
+    "adjusting_spacing_J9xjCm",
+    "slide_block_group_JfmGnp",
+    "slide_block_group_6jmgE8",
+    "slide_block_group_dAN68a",
+    "image_jump_custom_hidRUn",
+    "adjusting_spacing_7hipXE",
+    "slide_block_group_wA36te",
+    "slide_block_group_6HwQMH",
+    "image_jump_custom_cnrYwf",
+    "adjusting_spacing_9FKUzb",
+    "slide_block_group_mm4WcP",
+    "slide_block_group_i67a9W",
+    "main",
+    "background_image_w4hzj4"
+  ]
+}

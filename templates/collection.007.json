@@ -1,0 +1,661 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "163582397205207ecd": {
+      "type": "rich-text",
+      "blocks": {
+        "163582397205207ecd-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Here Comes Winter!",
+            "use_h1": false
+          }
+        },
+        "163582397205207ecd-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DESINGN BY KARKUBUY| 2021-2022 WINTER COLLECTION</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "163582397205207ecd-1",
+        "163582397205207ecd-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "16358239770de058d3": {
+      "type": "slideshow",
+      "blocks": {
+        "16358239770de058d3-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20211102-114947.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        },
+        "16358239770de058d3-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20211102-113234.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        },
+        "d25e5463-60f4-4c5c-a0aa-3e74ab3971db": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20211102-122327.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16358239770de058d3-1",
+        "16358239770de058d3-0",
+        "d25e5463-60f4-4c5c-a0aa-3e74ab3971db"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 800,
+        "height_mobile": 200,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 3,
+        "accessibility_info": ""
+      }
+    },
+    "1635827082bf87958e": {
+      "type": "rich-text",
+      "blocks": {
+        "1635827082bf87958e-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "introduction"
+          }
+        },
+        "1635827082bf87958e-1": {
+          "type": "heading",
+          "settings": {
+            "title": "秋冬に大活躍「あったかアイテム」集めました",
+            "use_h1": false
+          }
+        },
+        "1635827082bf87958e-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>徐々に寒くなりアウターに手が伸び出すこの時期。</p><p>KARAKUロングセラーアイテムや、今年の新作アイテムまで、 あったかい肌感を感じられるアイテムをご用意しました！</p><p>今年は、冬の訪れが早いかもなので今から準備しておくのが吉ですよ。</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1635827082bf87958e-0",
+        "1635827082bf87958e-1",
+        "1635827082bf87958e-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "16358302053d518f30": {
+      "type": "slideshow",
+      "blocks": {
+        "16358302053d518f30-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg",
+            "slide_link": "shopify://collections/ニット-セーター",
+            "subheading": "PART 1",
+            "title": "ニット/セーター",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16358302053d518f30-0"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 200,
+        "height_mobile": 100,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "163583196237a56707": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "ニット-セーター",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "163583333542305022": {
+      "type": "slideshow",
+      "blocks": {
+        "163583333542305022-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg",
+            "slide_link": "shopify://collections/メンズシャツ",
+            "subheading": "PART 2",
+            "title": "メンズシャツ",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "163583333542305022-1"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 200,
+        "height_mobile": 100,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "1635834039b9c4e8df": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "メンズシャツ",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "1635833022cca6bcbe": {
+      "type": "slideshow",
+      "blocks": {
+        "1635833022cca6bcbe-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg",
+            "slide_link": "shopify://collections/スウェット",
+            "subheading": "PART 3",
+            "title": "スウェット/パーカー",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1635833022cca6bcbe-1"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 200,
+        "height_mobile": 100,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "16358330310e9b4d4e": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "スウェット",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "1635828947ee457858": {
+      "type": "slideshow",
+      "blocks": {
+        "1635828947ee457858-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg",
+            "slide_link": "shopify://collections/裏ボア-ジャケット",
+            "subheading": "PART 4",
+            "title": "裏ボア ジャケット",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1635828947ee457858-1"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 200,
+        "height_mobile": 100,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "1635828724d07adbf9": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "裏ボア-ジャケット",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "16358290927c4016a4": {
+      "type": "slideshow",
+      "blocks": {
+        "16358290927c4016a4-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg",
+            "slide_link": "shopify://collections/中綿ジャケット",
+            "subheading": "PART 5",
+            "title": "中綿ジャケット",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16358290927c4016a4-0"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 200,
+        "height_mobile": 100,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "1635832033a4daa5f2": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "中綿ジャケット-1",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 36,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "163583473285a634d7": {
+      "type": "slideshow",
+      "blocks": {
+        "163583473285a634d7-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg",
+            "slide_link": "shopify://collections/コート",
+            "subheading": "PART 6",
+            "title": "オーバーコート",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "163583473285a634d7-1"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 200,
+        "height_mobile": 100,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "16358353484331b966": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "コート",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "163583409651aab0ee": {
+      "type": "slideshow",
+      "blocks": {
+        "163583409651aab0ee-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg",
+            "slide_link": "shopify://collections/防寒ブーツ-メンズ",
+            "subheading": "PART 7",
+            "title": "防寒ブーツ",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "163583409651aab0ee-0"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 200,
+        "height_mobile": 100,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "1635834610c39d49da": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "防寒ブーツ-メンズ",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "16358353988e546d9f": {
+      "type": "slideshow",
+      "blocks": {
+        "16358353988e546d9f-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg",
+            "slide_link": "shopify://collections/アクセサリー-小物",
+            "subheading": "PART 8",
+            "title": "秋冬・小物",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16358353988e546d9f-1"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 200,
+        "height_mobile": 100,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "1635835928a14022ec": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "163582397205207ecd",
+    "16358239770de058d3",
+    "1635827082bf87958e",
+    "16358302053d518f30",
+    "163583196237a56707",
+    "163583333542305022",
+    "1635834039b9c4e8df",
+    "1635833022cca6bcbe",
+    "16358330310e9b4d4e",
+    "1635828947ee457858",
+    "1635828724d07adbf9",
+    "16358290927c4016a4",
+    "1635832033a4daa5f2",
+    "main",
+    "163583473285a634d7",
+    "16358353484331b966",
+    "163583409651aab0ee",
+    "1635834610c39d49da",
+    "16358353988e546d9f",
+    "1635835928a14022ec"
+  ]
+}

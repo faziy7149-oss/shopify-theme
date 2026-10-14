@@ -1,0 +1,891 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "16570081522c5796df": {
+      "type": "slideshow",
+      "blocks": {
+        "1657008152a237684b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20221028-114526.jpg",
+            "mobile_image": "shopify://shop_images/20221028-134731.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1657008152a237684b-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "1663751344f0143479": {
+      "type": "rich-text",
+      "blocks": {
+        "1663751344550ad394-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "1663751344550ad394-1": {
+          "type": "heading",
+          "settings": {
+            "title": "ミリタリーファッションを“街”に寄せる",
+            "use_h1": false
+          }
+        },
+        "1663751344550ad394-2": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "enlarge_text": false
+          }
+        },
+        "032bdea5-4cdf-423e-8120-ff2fa3b1f3d2": {
+          "type": "heading",
+          "settings": {
+            "title": "迫力十分のミリタリーアイテムは、1つコーデに取り入れるだけで男らしさを強調できる便利アイテム。ここでは注目アイテムの着こなしについて解説いたします。",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "1663751344550ad394-0",
+        "1663751344550ad394-1",
+        "1663751344550ad394-2",
+        "032bdea5-4cdf-423e-8120-ff2fa3b1f3d2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "1657247011ebcd16b6": {
+      "type": "rich-text",
+      "blocks": {
+        "ff33a3a6-6324-4217-ba46-c0b93fcd2486": {
+          "type": "icon",
+          "settings": {
+            "icon": "calendar",
+            "icon_color": "rgba(0,0,0,0)"
+          }
+        },
+        "64e13482-0efa-44e6-b3c0-655ddc61ab79": {
+          "type": "heading",
+          "settings": {
+            "title": "注目アイテム「米軍 40’s U.S.NAVY デッキパーカー」",
+            "use_h1": false
+          }
+        },
+        "165724701138abf1f6-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　",
+            "use_h1": true
+          }
+        },
+        "165724701138abf1f6-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>プルオーバータイプのミリタリーパーカーは近年のオーバーサイズ需要も相まってチェックすべきアイテムのひとつ。ウエストや首元をドローコードで調節することでさまざまなシルエットで着こなせます。</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "ff33a3a6-6324-4217-ba46-c0b93fcd2486",
+        "64e13482-0efa-44e6-b3c0-655ddc61ab79",
+        "165724701138abf1f6-1",
+        "165724701138abf1f6-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_kYkxrj": {
+      "type": "custom-content",
+      "blocks": {
+        "image_yp9K3K": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/1_5adccb7f-563a-4e3c-a53f-9e1163ddff2a.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/military-styling/products/md-1807108",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_8dL6QB": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/6391ace427ade714b70fb966024ae804_09c57a37-b667-4758-bb2c-566a2c00efdc_1.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/military-styling/products/md-1807108",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_Hc8C7C": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "center_on_mobile": true,
+            "icon": "",
+            "icon_color": "rgba(0,0,0,0)",
+            "subheading": "",
+            "title": "Item",
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "text": "<p>40年代に U.S. NAVY が使用したWET WEATHER PARKA。ネック部分のレースアップ仕様が、デザイン性と脱着のしやすさを高めています。身幅、袖幅にゆとりを持たせ、ゆったりと着用いただけるルーズフィットです。                       </p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "text_4PdHma": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "center_on_mobile": true,
+            "icon": "",
+            "icon_color": "rgba(0,0,0,0)",
+            "subheading": "",
+            "title": "",
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "text": "<p><strong>「米軍 40’s U.S.NAVY デッキパーカー」</strong></p><p><a href=\"https://www.karakubuy.com/collections/%E3%82%B9%E3%82%A6%E3%82%A7%E3%83%83%E3%83%88/products/md-1807108\" title=\"https://www.karakubuy.com/collections/%E3%82%B9%E3%82%A6%E3%82%A7%E3%83%83%E3%83%88/products/md-1807108\">¥13,500(inc.tax)┃...........Buy</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_yp9K3K",
+        "image_8dL6QB",
+        "text_Hc8C7C",
+        "text_4PdHma"
+      ],
+      "settings": {
+        "spacing": "medium",
+        "alignment": "middle",
+        "color_scheme": "default"
+      }
+    },
+    "832f81f8-f500-4adb-a30e-ad10995b120c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16611281830107__832f81f8-f500-4adb-a30e-ad10995b120c-1666944341a614efaa-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Styling 1",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16611281830107__832f81f8-f500-4adb-a30e-ad10995b120c-1666944341a614efaa-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_dQgNXD": {
+      "type": "custom-content",
+      "blocks": {
+        "image_8mrpHT": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/1021_5558.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "text_3Lk8Qz": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "center_on_mobile": true,
+            "icon": "",
+            "icon_color": "rgba(0,0,0,0)",
+            "subheading": "",
+            "title": "MA-1が主役のコーディネートですが、ブラウンカラーのパンツで上品にモディファイ。",
+            "title_size": 28,
+            "title_size_mobile": 20,
+            "text": "<p>同じくミリタリー系のジャケットを合わせた王道的なスタイルにします。<br/>せっかくならばさりげなく今っぽいムードの漂うコーディネートでワンランク上を目指したいものです。ポイントとなるのはボトムスとブーツです、ブラウンのグルカパンツとダークブラウンのブーツでちょっと上品で大人っぽい雰囲気にまとめたワンセットです。<br/></p><p></p><p>ITEM</p><p></p><p><a href=\"https://www.karakubuy.com/products/md-w2007119?_pos=1&_sid=5d47ff4c3&_ss=r\" title=\"https://www.karakubuy.com/products/md-w2007119?_pos=1&_sid=5d47ff4c3&_ss=r\">Jacket ¥15,160(inc.tax)┃...........Buy</a><br/><br/><a href=\"https://www.karakubuy.com/products/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%83%B3%E3%83%AC%E3%83%88%E3%83%AD%E3%82%B3%E3%83%83%E3%83%88%E3%83%B3100-%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88t%E3%82%B7%E3%83%A3%E3%83%84-%E5%8D%8A%E8%A2%96?_pos=1&_sid=722c308e0&_ss=r\" title=\"https://www.karakubuy.com/products/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%83%B3%E3%83%AC%E3%83%88%E3%83%AD%E3%82%B3%E3%83%83%E3%83%88%E3%83%B3100-%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88t%E3%82%B7%E3%83%A3%E3%83%84-%E5%8D%8A%E8%A2%96?_pos=1&_sid=722c308e0&_ss=r\">Inner2枚セット ¥7,560(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/md-s2007085?_pos=1&_sid=6f34c6eca&_ss=r\" title=\"https://www.karakubuy.com/products/md-s2007085?_pos=1&_sid=6f34c6eca&_ss=r\"><br/>Pants ¥13,064(inc.tax)┃...........Buy</a><br/><br/><a href=\"https://www.karakubuy.com/products/md2007032?_pos=1&_sid=886cf1163&_ss=r\" title=\"https://www.karakubuy.com/products/md2007032?_pos=1&_sid=886cf1163&_ss=r\">Shoes ¥14,850inc.tax)┃...........Buy</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_8mrpHT",
+        "text_3Lk8Qz"
+      ],
+      "settings": {
+        "spacing": "medium",
+        "alignment": "middle",
+        "color_scheme": "default"
+      }
+    },
+    "gallery_PTRkTx": {
+      "type": "gallery",
+      "blocks": {
+        "media_YL6JBF": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/8c15d41b9b829464843b5aa4449a28f3_5d0d0f03-620b-4709-947f-75ed3f0dd93d_3.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/products/md-w2007119?_pos=1&_sid=5d47ff4c3&_ss=r",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_ppwnPE": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/f6e6e9bd25c344b5c1fd5e9c73a56039_9149b983-6932-4bcb-9fe0-806e1e56136d.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/products/md-s2007085?_pos=1&_sid=6f34c6eca&_ss=r",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_hcG89d": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20265049a3b37be26f3f8cebe9035498_3.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/products/md2007032?_pos=1&_sid=886cf1163&_ss=r",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_waxyHC": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/MD-1801066-white_black-4_1.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/products/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%83%B3%E3%83%AC%E3%83%88%E3%83%AD%E3%82%B3%E3%83%83%E3%83%88%E3%83%B3100-%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88t%E3%82%B7%E3%83%A3%E3%83%84-%E5%8D%8A%E8%A2%96?_pos=1&_sid=722c308e0&_ss=r",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_YL6JBF",
+        "media_ppwnPE",
+        "media_hcG89d",
+        "media_waxyHC"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "no_background",
+        "overlay_padding": "standard",
+        "button_style": "primary"
+      }
+    },
+    "47412365-ff88-44e2-bcc5-722c46bc799d": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16611281830107__47412365-ff88-44e2-bcc5-722c46bc799d-1666944341a614efaa-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Styling 2",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16611281830107__47412365-ff88-44e2-bcc5-722c46bc799d-1666944341a614efaa-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_PBYCKK": {
+      "type": "custom-content",
+      "blocks": {
+        "image_cXaTDd": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/1021_5515.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "text_EhjtJ8": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "center_on_mobile": true,
+            "icon": "",
+            "icon_color": "rgba(0,0,0,0)",
+            "subheading": "",
+            "title": "個性を出しながらも、カジュアルな着こなしに",
+            "title_size": 28,
+            "title_size_mobile": 20,
+            "text": "<p>ミリタリーパーカーは男らしい雰囲気。グリーンの迷彩風軍パンで引き締めたバランスが白眉です。足首が覗くやや短めの丈感とスニーカーの組み合わせによって軽快なイメージにまとめています。顔周りの小物で個性をプラスしているのも見逃せないテクニック。<br/></p><p><strong>ITEM</strong></p><p><a href=\"https://www.karakubuy.com/products/md-s2001059-1?_pos=1&_sid=54f4b27e8&_ss=r\" title=\"https://www.karakubuy.com/products/md-s2001059-1?_pos=1&_sid=54f4b27e8&_ss=r\">Belt ¥5,200(inc.tax)┃...........Buy</a><br/><br/>I<a href=\"https://www.karakubuy.com/products/krk-rs-2112?_pos=1&_sid=5bc3403be&_ss=r\" title=\"https://www.karakubuy.com/products/krk-rs-2112?_pos=1&_sid=5bc3403be&_ss=r\">nner ¥5,724(inc.tax)┃...........Buy</a><br/><br/><a href=\"https://www.karakubuy.com/products/krk-pk65638?_pos=1&_sid=de89dd1bb&_ss=r\" title=\"https://www.karakubuy.com/products/krk-pk65638?_pos=1&_sid=de89dd1bb&_ss=r\">Pants ¥13,273(inc.tax)┃...........Buy<br/></a><br/><a href=\"https://www.karakubuy.com/products/%E6%96%B0%E5%93%81%E6%9C%9F%E9%96%93%E9%99%90%E5%AE%9A-%E5%A4%A7%E4%BA%BA%E6%B0%97-%E3%83%8F%E3%82%A4%E3%83%88%E3%83%83%E3%83%97%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%90%E3%82%B9%E3%82%B7%E3%83%A5%E3%83%BC%E3%82%BA-%E3%82%B8%E3%83%83%E3%83%91%E3%83%BC%E5%8F%A4%E3%81%84%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3?_pos=1&_sid=b90406888&_ss=r\" title=\"https://www.karakubuy.com/products/%E6%96%B0%E5%93%81%E6%9C%9F%E9%96%93%E9%99%90%E5%AE%9A-%E5%A4%A7%E4%BA%BA%E6%B0%97-%E3%83%8F%E3%82%A4%E3%83%88%E3%83%83%E3%83%97%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%90%E3%82%B9%E3%82%B7%E3%83%A5%E3%83%BC%E3%82%BA-%E3%82%B8%E3%83%83%E3%83%91%E3%83%BC%E5%8F%A4%E3%81%84%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3?_pos=1&_sid=b90406888&_ss=r\">Shoes ¥12,949inc.tax)┃...........Buy</a></p><p></p><p></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_cXaTDd",
+        "text_EhjtJ8"
+      ],
+      "settings": {
+        "spacing": "medium",
+        "alignment": "middle",
+        "color_scheme": "default"
+      }
+    },
+    "gallery_GV6dtP": {
+      "type": "gallery",
+      "blocks": {
+        "media_gM9pQ6": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/8c15d41b9b829464843b5aa4449a28f3_54f4f1fd-7cdb-4ac4-b607-6a4bbe7681e5.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/products/md-s2001059-1?_pos=1&_sid=54f4b27e8&_ss=r",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_6jCpaf": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/fb0731cb1e598c293c4546736de8e1c7_58138d45-ec90-4549-acfd-7ae5614745e2.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/products/krk-pk65638?_pos=1&_sid=de89dd1bb&_ss=r",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_rWL4Qh": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/output.lin_1_6dd28480-b9e0-41f5-8ff4-ecc984bca53a.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/products/%E6%96%B0%E5%93%81%E6%9C%9F%E9%96%93%E9%99%90%E5%AE%9A-%E5%A4%A7%E4%BA%BA%E6%B0%97-%E3%83%8F%E3%82%A4%E3%83%88%E3%83%83%E3%83%97%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%90%E3%82%B9%E3%82%B7%E3%83%A5%E3%83%BC%E3%82%BA-%E3%82%B8%E3%83%83%E3%83%91%E3%83%BC%E5%8F%A4%E3%81%84%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3?_pos=1&_sid=b90406888&_ss=r",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_MHiTkC": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/KRK-RS-2112-1_49db7d10-ac2d-44e3-83a1-d21c4d129524.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/products/krk-rs-2112?_pos=1&_sid=5bc3403be&_ss=r",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_gM9pQ6",
+        "media_6jCpaf",
+        "media_rWL4Qh",
+        "media_MHiTkC"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "no_background",
+        "overlay_padding": "standard",
+        "button_style": "primary"
+      }
+    },
+    "7dab794f-cb36-427b-9391-8c8b4888df96": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16611281830107__7dab794f-cb36-427b-9391-8c8b4888df96-1666944341a614efaa-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Styling 3",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16611281830107__7dab794f-cb36-427b-9391-8c8b4888df96-1666944341a614efaa-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_cD4ghg": {
+      "type": "custom-content",
+      "blocks": {
+        "image_CH8qDW": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/1021_5530.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "text_UYmXaY": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "center_on_mobile": true,
+            "icon": "",
+            "icon_color": "rgba(0,0,0,0)",
+            "subheading": "",
+            "title": "王道のミリタリースタイルにベストをプラスした、新鮮な表情を見せる",
+            "title_size": 28,
+            "title_size_mobile": 20,
+            "text": "<p>ジーンズを合わせたアメカジ調の着こなし。もちろんそんな王道的なスタイルも良いですが、せっかくならばさりげなく今っぽいムードの漂うコーディネートでワンランク上を目指したいものです。<br/>ポイントとなるのは、グリーンカラーのベストです。デイリーからアウトドアまで、様々なシーンで活躍する旬なコーデになります。</p><p><strong>ITEM</strong></p><p><a href=\"https://www.karakubuy.com/products/krk-mhy-mj1788?_pos=1&_sid=1da3da9fe&_ss=r\" title=\"https://www.karakubuy.com/products/krk-mhy-mj1788?_pos=1&_sid=1da3da9fe&_ss=r\">Vest ¥19,980(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%83%B3%E3%83%AC%E3%83%88%E3%83%AD%E3%82%B3%E3%83%83%E3%83%88%E3%83%B3100-%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88t%E3%82%B7%E3%83%A3%E3%83%84-%E5%8D%8A%E8%A2%96?_pos=1&_sid=6c7752d54&_ss=r\" title=\"https://www.karakubuy.com/products/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%83%B3%E3%83%AC%E3%83%88%E3%83%AD%E3%82%B3%E3%83%83%E3%83%88%E3%83%B3100-%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88t%E3%82%B7%E3%83%A3%E3%83%84-%E5%8D%8A%E8%A2%96?_pos=1&_sid=6c7752d54&_ss=r\">Inner2枚セット ¥7,560(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/%E3%83%89%E3%82%A4%E3%83%84%E8%BB%8D%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%BC?_pos=1&_sid=d197f8485&_ss=r\" title=\"https://www.karakubuy.com/products/%E3%83%89%E3%82%A4%E3%83%84%E8%BB%8D%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%BC?_pos=1&_sid=d197f8485&_ss=r\">Shoes ¥12,190inc.tax)┃...........Buy</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_CH8qDW",
+        "text_UYmXaY"
+      ],
+      "settings": {
+        "spacing": "medium",
+        "alignment": "middle",
+        "color_scheme": "default"
+      }
+    },
+    "gallery_RKqFPm": {
+      "type": "gallery",
+      "blocks": {
+        "media_Rz46n6": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/KRK-MHY-MJ1788-1_d867c7a5-384f-4740-b55b-899594162b21_3.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/products/krk-mhy-mj1788?_pos=1&_sid=1da3da9fe&_ss=r",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_apWWkw": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/009_1.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/products/%E3%83%89%E3%82%A4%E3%83%84%E8%BB%8D%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%BC?_pos=1&_sid=d197f8485&_ss=r",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_7YDVAj": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/MD-1801066-white_black-1_6.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/products/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%83%B3%E3%83%AC%E3%83%88%E3%83%AD%E3%82%B3%E3%83%83%E3%83%88%E3%83%B3100-%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88t%E3%82%B7%E3%83%A3%E3%83%84-%E5%8D%8A%E8%A2%96?_pos=1&_sid=6c7752d54&_ss=r",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_Rz46n6",
+        "media_apWWkw",
+        "media_7YDVAj"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "no_background",
+        "overlay_padding": "standard",
+        "button_style": "primary"
+      }
+    },
+    "cdb58a2c-0495-40e0-bcfa-eb2247ea5d27": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16611281830107__cdb58a2c-0495-40e0-bcfa-eb2247ea5d27-1666944341a614efaa-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Styling 4",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16611281830107__cdb58a2c-0495-40e0-bcfa-eb2247ea5d27-1666944341a614efaa-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_9ephFD": {
+      "type": "custom-content",
+      "blocks": {
+        "image_pgyYH7": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/1021_5491.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_zBWmrP": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "center_on_mobile": true,
+            "icon": "",
+            "icon_color": "rgba(0,0,0,0)",
+            "subheading": "",
+            "title": "ホワイトのカーゴパンツでクリーンにアレンジ",
+            "title_size": 28,
+            "title_size_mobile": 20,
+            "text": "<p>パンツに白いカーゴパンツをセットして清潔感をプラス。<br/>アウターは明るいブルーにして軽快感を醸成。<br/>ブーツのダークブラウンが軽快感をダメ押し。</p><p>Item</p><p><a href=\"https://www.karakubuy.com/products/krk-rf-8118?_pos=1&_sid=82f991abc&_ss=r\" title=\"https://www.karakubuy.com/products/krk-rf-8118?_pos=1&_sid=82f991abc&_ss=r\">Jacket ¥16,390(inc.tax)┃...........Buy</a><br/><br/><a href=\"https://www.karakubuy.com/products/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%83%B3%E3%83%AC%E3%83%88%E3%83%AD%E3%82%B3%E3%83%83%E3%83%88%E3%83%B3100-%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88t%E3%82%B7%E3%83%A3%E3%83%84-%E5%8D%8A%E8%A2%96?_pos=1&_sid=6c7752d54&_ss=r\" title=\"https://www.karakubuy.com/products/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%83%B3%E3%83%AC%E3%83%88%E3%83%AD%E3%82%B3%E3%83%83%E3%83%88%E3%83%B3100-%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88t%E3%82%B7%E3%83%A3%E3%83%84-%E5%8D%8A%E8%A2%96?_pos=1&_sid=6c7752d54&_ss=r\">Inner2枚セット ¥7,560(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/md2007032?_pos=1&_sid=0d73e26f9&_ss=r\" title=\"https://www.karakubuy.com/products/md2007032?_pos=1&_sid=0d73e26f9&_ss=r\"><br/>Shoes ¥14,850inc.tax)┃...........Buy</a><br/><br/><a href=\"https://www.karakubuy.com/products/krk-md-tls2201827?_pos=2&_sid=4de2a12f4&_ss=r\" title=\"https://www.karakubuy.com/products/krk-md-tls2201827?_pos=2&_sid=4de2a12f4&_ss=r\">Pants ¥11,895(inc.tax)┃...........Buy</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_pgyYH7",
+        "text_zBWmrP"
+      ],
+      "settings": {
+        "spacing": "medium",
+        "alignment": "middle",
+        "color_scheme": "default"
+      }
+    },
+    "gallery_pBxgGN": {
+      "type": "gallery",
+      "blocks": {
+        "media_L6XTK3": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/KRK-RF-8118-1.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/products/krk-rf-8118?_pos=1&_sid=82f991abc&_ss=r",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_U4Ntdm": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/KRK-MD-TLS2201827-1.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/products/krk-md-tls2201827?_pos=2&_sid=4de2a12f4&_ss=r",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_iQfYxe": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/MD-1801066-white_black-1_6.jpg",
+            "enlarge_media": false,
+            "subheading": "Gallery",
+            "title": "Tell your story",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/products/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%83%B3%E3%83%AC%E3%83%88%E3%83%AD%E3%82%B3%E3%83%83%E3%83%88%E3%83%B3100-%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88t%E3%82%B7%E3%83%A3%E3%83%84-%E5%8D%8A%E8%A2%96?_pos=1&_sid=6c7752d54&_ss=r",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_bE7DTz": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20265049a3b37be26f3f8cebe9035498_3.jpg",
+            "enlarge_media": true,
+            "subheading": "Gallery",
+            "title": "Tell your story",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/products/md2007032?_pos=1&_sid=0d73e26f9&_ss=r",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_L6XTK3",
+        "media_U4Ntdm",
+        "media_iQfYxe",
+        "media_bE7DTz"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "no_background",
+        "overlay_padding": "standard",
+        "button_style": "primary"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "16570081522c5796df",
+    "1663751344f0143479",
+    "1657247011ebcd16b6",
+    "custom_content_kYkxrj",
+    "832f81f8-f500-4adb-a30e-ad10995b120c",
+    "custom_content_dQgNXD",
+    "gallery_PTRkTx",
+    "47412365-ff88-44e2-bcc5-722c46bc799d",
+    "custom_content_PBYCKK",
+    "gallery_GV6dtP",
+    "7dab794f-cb36-427b-9391-8c8b4888df96",
+    "custom_content_cD4ghg",
+    "gallery_RKqFPm",
+    "cdb58a2c-0495-40e0-bcfa-eb2247ea5d27",
+    "custom_content_9ephFD",
+    "gallery_pBxgGN",
+    "main",
+    "1635765484031572a6"
+  ]
+}

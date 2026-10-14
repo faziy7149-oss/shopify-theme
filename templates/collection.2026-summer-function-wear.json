@@ -1,0 +1,336 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_xdjiRa": {
+      "type": "slideshow",
+      "blocks": {
+        "image_nPnUgw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/308__1920.jpg",
+            "mobile_image": "shopify://shop_images/308__1080_d86ec1f6-2dab-41da-9ba2-0dff6cd89e9c.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_nPnUgw"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_fHGwNf": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_330311e6-a755-4b8e-8d19-046666e2005b.png",
+        "mobile_image": "shopify://shop_images/720_6d970346-3f50-46c8-947a-9b471f1b118f.png",
+        "img_rul": ""
+      }
+    },
+    "image_jump_custom_nRNep3": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_Pa4d8k": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_a01321d7-a9cf-4d0f-b77c-bc3fabaeeb13.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Pa4d8k"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "beams_special_grid_HidHY8": {
+      "type": "beams-special-grid",
+      "blocks": {
+        "product_item_HaATJp": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-cf-3530",
+            "btn_text": "DETAIL +",
+            "btn_text2": "購入",
+            "custom_image_1": "shopify://shop_images/750-1.jpg",
+            "release_text": "",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_1_x": 10,
+            "sticker_1_y": 20,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-shake"
+          }
+        },
+        "product_item_7wkdET": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-lsx-ht260204",
+            "btn_text": "DETAIL +",
+            "btn_text2": "購入",
+            "custom_image_1": "shopify://shop_images/750-2-1.jpg",
+            "custom_image_2": "shopify://shop_images/750-2.jpg",
+            "release_text": "",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_1_x": 10,
+            "sticker_1_y": 20,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-shake"
+          }
+        },
+        "product_item_prMq8f": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-zyd-ht260380",
+            "btn_text": "DETAIL +",
+            "btn_text2": "購入",
+            "custom_image_1": "shopify://shop_images/750-3.jpg",
+            "release_text": "",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_1_x": 10,
+            "sticker_1_y": 20,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-shake"
+          }
+        },
+        "product_item_8Aaqjj": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-zyd-ht260127",
+            "btn_text": "DETAIL +",
+            "btn_text2": "購入",
+            "custom_image_1": "shopify://shop_images/750-4.gif",
+            "release_text": "",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_1_x": 10,
+            "sticker_1_y": 20,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-shake"
+          }
+        }
+      },
+      "block_order": [
+        "product_item_HaATJp",
+        "product_item_7wkdET",
+        "product_item_prMq8f",
+        "product_item_8Aaqjj"
+      ],
+      "name": "BEAMS Special Grid",
+      "settings": {
+        "max_block_width": 1480,
+        "scrolling_label_bg": "#fff",
+        "scrolling_label_txt": "#ec4111"
+      }
+    },
+    "image_jump_custom_a3cEJq": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_nrLejj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_30cc60af-36d9-419f-9e64-caac0249092b.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_nrLejj"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "beams_special_grid_F3pW4c": {
+      "type": "beams-special-grid",
+      "blocks": {
+        "product_item_3J7tpR": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-lsx-sh260107",
+            "btn_text": "DETAIL +",
+            "btn_text2": "購入",
+            "custom_image_1": "shopify://shop_images/750-5.jpg",
+            "release_text": "",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_1_x": 10,
+            "sticker_1_y": 20,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-shake"
+          }
+        },
+        "product_item_Ny3zKN": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-lrj-sh260492",
+            "btn_text": "DETAIL +",
+            "btn_text2": "購入",
+            "custom_image_1": "shopify://shop_images/750-6-1.jpg",
+            "release_text": "",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_1_x": 10,
+            "sticker_1_y": 20,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-shake"
+          }
+        },
+        "product_item_wmTLUP": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-zyd-ht260439",
+            "btn_text": "DETAIL +",
+            "btn_text2": "購入",
+            "custom_image_1": "shopify://shop_images/750-7.jpg",
+            "custom_image_2": "shopify://shop_images/750-7-1.jpg",
+            "release_text": "",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_1_x": 10,
+            "sticker_1_y": 20,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-shake"
+          }
+        },
+        "product_item_rBWh3r": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-lrj-sh260478",
+            "btn_text": "DETAIL +",
+            "btn_text2": "購入",
+            "custom_image_1": "shopify://shop_images/750-8.gif",
+            "release_text": "",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_1_x": 10,
+            "sticker_1_y": 20,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-shake"
+          }
+        }
+      },
+      "block_order": [
+        "product_item_3J7tpR",
+        "product_item_Ny3zKN",
+        "product_item_wmTLUP",
+        "product_item_rBWh3r"
+      ],
+      "name": "BEAMS Special Grid",
+      "settings": {
+        "max_block_width": 1480,
+        "scrolling_label_bg": "#fff",
+        "scrolling_label_txt": "#ec4111"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "background_image_wEAKUy": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "image": "shopify://shop_images/bg_7612d790-84fb-415a-8d08-ef79d9db2a58.png",
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "fixed",
+        "background_color_overlay": "#f5f5f5",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "slideshow_xdjiRa",
+    "image_fHGwNf",
+    "image_jump_custom_nRNep3",
+    "beams_special_grid_HidHY8",
+    "image_jump_custom_a3cEJq",
+    "beams_special_grid_F3pW4c",
+    "main",
+    "background_image_wEAKUy"
+  ]
+}

@@ -1,0 +1,434 @@
+{%- liquid
+  assign image_fit = section.settings.image_fit | default: 'cover'
+  assign desktop_bg = section.settings.background_image
+  assign mobile_bg = section.settings.mobile_background_image
+-%}
+{% style %}
+  #shopify-section-{{ section.id }} .section-signup--with-bg {
+    position: relative;
+    {% if image_fit == 'contain' %}
+      background-size: contain;
+    {% else %}
+      background-size: cover;
+    {% endif %}
+    background-position: center;
+    background-repeat: no-repeat;
+    {% if section.settings.background_color.alpha > 0 %}
+      background-color: {{ section.settings.background_color }};
+    {% endif %}
+    {% if image_fit == 'adapt' and desktop_bg != blank %}
+      aspect-ratio: {{ desktop_bg.aspect_ratio }};
+      display: flex;
+      align-items: center;
+    {% elsif section.settings.min_height != 'auto' %}
+      min-height: {{ section.settings.min_height }};
+      display: flex;
+      align-items: center;
+    {% endif %}
+    {% if desktop_bg != blank %}
+      background-image: url({{ desktop_bg | image_url: width: 2000 }});
+    {% endif %}
+  }
+
+  {% if mobile_bg != blank %}
+    @media (max-width: 767.98px) {
+      #shopify-section-{{ section.id }} .section-signup--with-bg {
+        background-image: url({{ mobile_bg | image_url: width: 1200 }});
+        {% if image_fit == 'adapt' %}
+          aspect-ratio: {{ mobile_bg.aspect_ratio }};
+        {% endif %}
+      }
+    }
+  {% endif %}
+
+  #shopify-section-{{ section.id }} .section-signup__overlay {
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, {{ section.settings.overlay_opacity | divided_by: 100.0 }});
+    pointer-events: none;
+  }
+
+  #shopify-section-{{ section.id }} .section-signup__content {
+    position: relative;
+    z-index: 1;
+    width: 100%;
+  }
+
+  /* Desktop alignment */
+  @media (min-width: 768px) {
+    #shopify-section-{{ section.id }} .section-signup__content--align-left {
+      text-align: start;
+    }
+    #shopify-section-{{ section.id }} .section-signup__content--align-center {
+      text-align: center;
+    }
+    #shopify-section-{{ section.id }} .section-signup__content--align-right {
+      text-align: end;
+    }
+  }
+
+  /* Mobile: always center, keep input + button on one row */
+  @media (max-width: 767.98px) {
+    #shopify-section-{{ section.id }} .section-signup__content {
+      text-align: center;
+    }
+
+    #shopify-section-{{ section.id }} .signup-form__inline-container {
+      display: inline-flex;
+      align-items: stretch;
+      width: 100%;
+      max-width: 100%;
+    }
+
+    #shopify-section-{{ section.id }} .signup-form__inline-container input {
+      width: auto;
+      flex: 1 1 auto;
+      min-width: 0;
+      margin-bottom: 0;
+    }
+
+    #shopify-section-{{ section.id }} .signup-form__inline-container button {
+      flex: 0 0 auto;
+      margin-inline-start: 10px;
+      white-space: nowrap;
+    }
+  }
+
+  /* Desktop text sizes */
+  @media (min-width: 768px) {
+    #shopify-section-{{ section.id }} .hometitle {
+      font-size: {{ section.settings.heading_size_desktop }}px;
+    }
+    #shopify-section-{{ section.id }} .rte,
+    #shopify-section-{{ section.id }} .signup-form__email,
+    #shopify-section-{{ section.id }} .signup-form__button {
+      font-size: {{ section.settings.text_size_desktop }}px;
+    }
+  }
+
+  /* Mobile text sizes */
+  @media (max-width: 767.98px) {
+    #shopify-section-{{ section.id }} .hometitle {
+      font-size: {{ section.settings.heading_size_mobile }}px;
+    }
+    #shopify-section-{{ section.id }} .rte,
+    #shopify-section-{{ section.id }} .signup-form__email,
+    #shopify-section-{{ section.id }} .signup-form__button {
+      font-size: {{ section.settings.text_size_mobile }}px;
+    }
+    #shopify-section-{{ section.id }} .signup-form__button {
+      padding: var(--input-btn-padding-top) 10px var(--input-btn-padding-bottom);
+    }
+  }
+
+  {% if section.settings.text_color.alpha > 0 %}
+    #shopify-section-{{ section.id }} .hometitle,
+    #shopify-section-{{ section.id }} .rte,
+    #shopify-section-{{ section.id }} .rte a,
+    #shopify-section-{{ section.id }} .signup-form__response {
+      color: {{ section.settings.text_color }};
+    }
+  {% endif %}
+
+  {% if section.settings.input_text_color.alpha > 0 %}
+    #shopify-section-{{ section.id }} .signup-form__email {
+      color: {{ section.settings.input_text_color }};
+    }
+  {% endif %}
+
+  {% if section.settings.input_background_color.alpha > 0 %}
+    #shopify-section-{{ section.id }} .signup-form__email {
+      background-color: {{ section.settings.input_background_color }};
+    }
+  {% endif %}
+
+  {% if section.settings.button_background_color.alpha > 0 %}
+    #shopify-section-{{ section.id }} .signup-form__button {
+      background-color: {{ section.settings.button_background_color }};
+      border-color: {{ section.settings.button_background_color }};
+    }
+  {% endif %}
+
+  {% if section.settings.button_text_color.alpha > 0 %}
+    #shopify-section-{{ section.id }} .signup-form__button {
+      color: {{ section.settings.button_text_color }};
+    }
+  {% endif %}
+{% endstyle %}
+
+{%- unless section.settings.full_width -%}
+  <div class="container fully-spaced-row">
+{%- endunless -%}
+
+<div class="section-signup section-signup--with-bg {% if section.settings.color_scheme != 'default' %}use-color-scheme use-color-scheme--{{ section.settings.color_scheme }}{% endif %}">
+  {% if section.settings.background_image != blank or section.settings.mobile_background_image != blank %}
+    <div class="section-signup__overlay" aria-hidden="true"></div>
+  {% endif %}
+
+  <div class="section-signup__content container strongly-padded-row section-signup__content--align-{{ section.settings.text_alignment }}" {%- render 'animation-attrs', attrs: 'data-cc-animate data-cc-animate-delay="0.3s"' -%}>
+
+    <h2 class="hometitle h4 in-content">{{ section.settings.title | escape }}</h2>
+
+    <div class="rte lightly-spaced-row">{{ section.settings.subheading }}</div>
+
+    <div class="signup-form">
+      {%- assign form_id = 'newsletter-' | append: section.id -%}
+      {% form 'customer', id: form_id %}
+        {% if form.posted_successfully? %}
+          <div class="signup-form__response signup-form__response--success">
+            <h4>{{ 'newsletter.success' | t }}</h4>
+          </div>
+        {% else %}
+          {%- assign form_errors_id = section.id | append: '-error' -%}
+          {%- render 'form-errors', form: form, id: form_errors_id, class: 'inline-block' -%}
+          <input type="hidden" name="contact[tags]" value="prospect,newsletter"/>
+          <div>
+            <div class="signup-form__inline-container">
+              <input type="email"
+                placeholder="{{ 'newsletter.placeholder' | t }}"
+                class="signup-form__email"
+                value=""
+                name="contact[email]"
+                aria-label="{{ 'newsletter.label' | t }}"
+                {% if form.errors %}
+                  autofocus
+                  aria-invalid="true"
+                  aria-describedby="{{ form_errors_id }}"
+                {%- endif %}
+                required />
+              <button class="btn signup-form__button" type="submit">
+                {{- 'newsletter.button_label' | t -}}
+              </button>
+            </div>
+          </div>
+        {% endif %}
+      {% endform %}
+    </div>
+  </div>
+</div>
+
+{%- unless section.settings.full_width -%}
+  </div>
+{%- endunless -%}
+
+{% schema %}
+{
+  "name": "Newsletter background",
+  "class": "section-newsletter-background",
+  "disabled_on": {
+    "groups": [
+      "aside"
+    ]
+  },
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "Subscribe to our newsletter"
+    },
+    {
+      "type": "richtext",
+      "id": "subheading",
+      "label": "Subheading",
+      "default": "<p>Promotions, new products and sales. Directly to your inbox.</p>"
+    },
+    {
+      "type": "text_alignment",
+      "id": "text_alignment",
+      "label": "Desktop content alignment",
+      "default": "center",
+      "info": "移动端始终居中显示。"
+    },
+    {
+      "type": "header",
+      "content": "Typography"
+    },
+    {
+      "type": "range",
+      "id": "heading_size_desktop",
+      "min": 14,
+      "max": 48,
+      "step": 1,
+      "unit": "px",
+      "label": "Heading size (desktop)",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "text_size_desktop",
+      "min": 12,
+      "max": 24,
+      "step": 1,
+      "unit": "px",
+      "label": "Text & form size (desktop)",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "heading_size_mobile",
+      "min": 14,
+      "max": 36,
+      "step": 1,
+      "unit": "px",
+      "label": "Heading size (mobile)",
+      "default": 20
+    },
+    {
+      "type": "range",
+      "id": "text_size_mobile",
+      "min": 12,
+      "max": 20,
+      "step": 1,
+      "unit": "px",
+      "label": "Text & form size (mobile)",
+      "default": 14
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Heading & text color"
+    },
+    {
+      "type": "color",
+      "id": "input_text_color",
+      "label": "Input text color"
+    },
+    {
+      "type": "color",
+      "id": "input_background_color",
+      "label": "Input background color"
+    },
+    {
+      "type": "color",
+      "id": "button_background_color",
+      "label": "Button background color"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text color"
+    },
+    {
+      "type": "header",
+      "content": "Background"
+    },
+    {
+      "type": "checkbox",
+      "id": "full_width",
+      "label": "Full width",
+      "default": true
+    },
+    {
+      "type": "image_picker",
+      "id": "background_image",
+      "label": "Background image",
+      "info": "建议尺寸：1920×600–800px（横图）。像素大小其次，更重要的是图片比例尽量接近区块展示区域。"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_background_image",
+      "label": "Mobile background image",
+      "info": "建议尺寸：750×900–1200px（偏竖图）。可选；不上传时沿用桌面背景图。"
+    },
+    {
+      "type": "select",
+      "id": "image_fit",
+      "label": "Image fit",
+      "default": "cover",
+      "options": [
+        {
+          "value": "cover",
+          "label": "Cover (fill area, may crop)"
+        },
+        {
+          "value": "contain",
+          "label": "Contain (show full image, no crop)"
+        },
+        {
+          "value": "adapt",
+          "label": "Adapt (height follows image, no crop)"
+        }
+      ],
+      "info": "Cover：铺满区域，可能裁切。Contain：完整显示图片，可能留白。Adapt：区块高度跟随图片比例，不裁切、不拉伸。"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background color",
+      "info": "当 Image fit 为 Contain，或未设置背景图时，用作留白/兜底底色。"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "min": 0,
+      "max": 90,
+      "step": 5,
+      "unit": "%",
+      "label": "Overlay opacity",
+      "default": 40
+    },
+    {
+      "type": "select",
+      "id": "min_height",
+      "label": "Minimum height",
+      "default": "auto",
+      "info": "当 Image fit 为 Adapt 时，此项不生效。",
+      "options": [
+        {
+          "value": "auto",
+          "label": "Auto"
+        },
+        {
+          "value": "280px",
+          "label": "Small"
+        },
+        {
+          "value": "400px",
+          "label": "Medium"
+        },
+        {
+          "value": "520px",
+          "label": "Large"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "default",
+      "options": [
+        {
+          "value": "default",
+          "label": "Default"
+        },
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ]
+    },
+    {
+      "type": "paragraph",
+      "content": "Customers who subscribe will have their email address added to the “accepts marketing” [customer list](/admin/customers?query=&accepts_marketing=1)"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Newsletter background",
+      "category": "Forms",
+      "settings": {
+      }
+    }
+  ]
+}
+{% endschema %}

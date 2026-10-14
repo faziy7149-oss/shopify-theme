@@ -1,0 +1,137 @@
+<div class="bar-bg-container">
+  {% comment %} 外层包裹 {% endcomment %}
+  <div class="banner-box-bg" style="background-color: {{ section.settings.banner_bg }};">
+    <h1>
+      <span class="has-paging__title" style="color: {{ section.settings.banner_tit_col }};">
+        {{- section.settings.banner_title -}}
+      </span>
+    </h1>
+    <div class="banner-img-row">
+      {% for block in section.blocks %}
+        <div class="banner-item">
+          {% comment %} 图片 {% endcomment %}
+          <a href="{{ block.settings.banner_url }}" class="banner-img-url">
+            {%- if block.settings.banner_img == blank -%}
+              <div class="aaa" style="width: 480px; height:350px">
+                <div class="placeholder-image">
+                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                </div>
+              </div>
+
+            {%- else -%}
+              <img
+                src="{{ block.settings.banner_img | image_url: width: 750, height: 540 }}"
+                alt=""
+                width="480"
+                height="350"
+                loading="lazy"
+              >
+            {%- endif -%}
+          </a>
+          {% comment %} 文本 {% endcomment %}
+          <p class="banner-text" style="color: {{ section.settings.text_color }};">{{ block.settings.banner_text }}</p>
+          <a href="{{ block.settings.banner_url }}">
+            <span
+              class="banner-btn"
+              style="background-color: {{ section.settings.btn_color }}; color: {{ section.settings.btn_font_col }};"
+            >
+              {{- block.settings.banner_btn -}}
+            </span>
+          </a>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Banner Bg",
+  "settings": [
+    {
+      "type": "color",
+      "id": "banner_bg",
+      "label": "banner background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "字体颜色",
+      "default": "#000000"
+    },
+    {
+      "type": "color",
+      "id": "btn_color",
+      "label": "button 颜色",
+      "default": "#de5511"
+    },
+    {
+      "type": "color",
+      "id": "btn_font_col",
+      "label": "按钮字体颜色",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "banner_tit_col",
+      "label": "title",
+      "default": "#000000"
+    },
+    {
+      "type": "text",
+      "id": "banner_title",
+      "label": "banner title",
+      "default": "Banner"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "bannerImg",
+      "name": "Image item",
+      "limit": 2,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "banner_img",
+          "label": "banner img",
+          "info": "图片尺寸 750 x 540"
+        },
+        {
+          "type": "url",
+          "id": "banner_url",
+          "label": "banner url"
+        },
+        {
+          "type": "text",
+          "id": "banner_text",
+          "label": "banner text",
+          "default": "输入文本"
+        },
+        {
+          "type": "text",
+          "id": "banner_btn",
+          "label": "button text",
+          "default": "詳しくはこちら"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Banner Bg",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "bannerImg",
+          "settings": {}
+        },
+        {
+          "type": "bannerImg",
+          "settings": {}
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

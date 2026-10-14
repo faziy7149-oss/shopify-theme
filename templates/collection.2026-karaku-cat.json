@@ -1,0 +1,767 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "slideshow_YhbY7Y": {
+      "type": "slideshow",
+      "blocks": {
+        "image_HHU4Dz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/350__1920.jpg",
+            "mobile_image": "shopify://shop_images/350__1080.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_HHU4Dz"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "scrolling_banner_cp3M8t": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "image_zfVPNk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20260626-154724.png",
+            "image_width": 400,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_zfVPNk"
+      ],
+      "name": "Scrolling banner",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 35,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "image_PFCBjM": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_97cfba6e-fcf1-4f2c-863e-c552925c7e1b.png",
+        "mobile_image": "shopify://shop_images/720_003994eb-30e7-4a7b-bcb8-08f29e753905.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_7LwFw7": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": 3,
+        "margin_top2": 2
+      }
+    },
+    "url_text_yqXW8L": {
+      "type": "url-text",
+      "name": "URL Text",
+      "settings": {
+        "style_image": "shopify://shop_images/20260626-170220.png",
+        "url_text": "https://karakubuy.com/collections/karaku-cat",
+        "text_url": "🐈アイテム一覧",
+        "btn_color": "#4f2009",
+        "btn_color_hover": "#f4e9dc",
+        "btn_text_color": "#fffeee",
+        "btn_text_color_hover": "#4f2009",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 25,
+        "url_font_size_moble": 12,
+        "img_postion_size_pc": 45,
+        "img_postion_size_moble": 21,
+        "img_postion_left_pc": 55,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 68,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "image_jump_custom_gxyJ8t": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_qt3NB8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_2b0869f0-a67a-476c-8015-0dce7eeff063.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_qt3NB8"
+      ],
+      "name": "01",
+      "settings": {}
+    },
+    "slide_block_group_CprceT": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_r4gmYe": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-1_8892ecf0-501c-4e0e-b4a1-3f292cca92b1.jpg",
+            "slide_title": "【予約】「SAMURAI BLUE CAT」ベンガルサッカー選手プリント＆刺繍入りコットンTee",
+            "slide_price": 0,
+            "slide_price_new": 7990,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-gsh-ht260646",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_fMzgnB": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-2_85919303-58a1-4f13-b6e8-f863666583fc.jpg",
+            "slide_title": "「和猫ライダー」プリントVガゼット入りコットンTシャツ",
+            "slide_price": 0,
+            "slide_price_new": 7990,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-zyd-ht260406",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_TWdnFr": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-3_5b3ffb71-d00f-4966-a164-9878b69497f9.jpg",
+            "slide_title": "「モンステラ＆茶トラ 」総柄　キューバカラーアロハシャツ",
+            "slide_price": 0,
+            "slide_price_new": 8190,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-gsh-sh260154",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_r4gmYe",
+        "slide_block_fMzgnB",
+        "slide_block_TWdnFr"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#e1ae83",
+        "slide_text_color": "#4f2009",
+        "slide_btn_hover_color": "#4f2009",
+        "slide_text_hover_color": "#f4e9dc",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "image_jump_custom_atmPqn": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_Tm6htE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_b4f81ab1-b36a-4efe-b2dc-b99e4d33172f.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Tm6htE"
+      ],
+      "name": "02",
+      "settings": {}
+    },
+    "slide_block_group_dP4bTk": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_NKbzLm": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-4_265aba99-cc58-4f7a-a4b7-f196b73717b3.jpg",
+            "slide_title": "「明治時代・猫」浮世絵風総柄プリント入りアロハシャツ",
+            "slide_price": 0,
+            "slide_price_new": 12590,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-zyd-mjnk60145",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_7J84PY": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-5_c7c31468-8ce7-4954-8ada-22111b51899a.jpg",
+            "slide_title": "「和猫百態」総柄　浮世絵風プリント入りアロハシャツ",
+            "slide_price": 0,
+            "slide_price_new": 12590,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-lsx-sh260147",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_xgKabz": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-6_a2ac7408-568b-4789-ac86-55967ef7c5c5.jpg",
+            "slide_title": "「山海経・百獣」総柄アロハシャツ",
+            "slide_price": 0,
+            "slide_price_new": 12590,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-zyd-sh-260135",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_NKbzLm",
+        "slide_block_7J84PY",
+        "slide_block_xgKabz"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#e1ae83",
+        "slide_text_color": "#4f2009",
+        "slide_btn_hover_color": "#4f2009",
+        "slide_text_hover_color": "#f4e9dc",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_DQgTpw": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_Kyn7bB": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-7_0e453917-7b7c-4107-b588-afb5837739c7.jpg",
+            "slide_title": "民間伝承「化け猫」浮世絵風オープンカラーシャツ",
+            "slide_price": 0,
+            "slide_price_new": 12590,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-lsx-ygm0324",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_mPLM8E": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-8_c7df9cd2-8c21-43e8-a176-964eb39d555f.jpg",
+            "slide_title": "明治時代の猫 総柄 浮世絵風アロハシャツ",
+            "slide_price": 12590,
+            "slide_price_new": 10070,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-fgmmmy23531",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_pXMnKw": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-9_5591e239-1f06-47ca-a229-61d52b4671e8.jpg",
+            "slide_title": "【予約】「猫の威嚇合戦」浮世絵風総柄レーヨンアロハシャツ",
+            "slide_price": 0,
+            "slide_price_new": 12980,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-lrj-sh260403",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_Kyn7bB",
+        "slide_block_mPLM8E",
+        "slide_block_pXMnKw"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#e1ae83",
+        "slide_text_color": "#4f2009",
+        "slide_btn_hover_color": "#4f2009",
+        "slide_text_hover_color": "#f4e9dc",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_HUxFJG": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_cA6c33": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-10_24907688-78f4-4038-beb0-0cadfb1367b0.jpg",
+            "slide_title": "「クロスジップの隙間から覗く化け猫」浮世絵風プリントコットンTee",
+            "slide_price": 0,
+            "slide_price_new": 7980,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-hsd251278?_pos=1&_sid=8fe63efdb&_ss=r",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_caaFFT": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-11_3637ad96-a419-465c-b798-c88d4a8837e4.jpg",
+            "slide_title": "「怪談・化け猫騒動」前後アシンメトリー浮世絵開襟シャツ",
+            "slide_price": 0,
+            "slide_price_new": 12590,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lsx-hmcs0405?_pos=1&_sid=648ce8383&_ss=r",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_NC3Xhk": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-12_d5cb8a5a-a636-462c-9221-3353c04756b8.jpg",
+            "slide_title": "『神奈川沖浪裏と波乗り猫』浮世絵風コットンTee",
+            "slide_price": 12190,
+            "slide_price_new": 6100,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-mcltx23320?_pos=1&_sid=f31860f66&_ss=r",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_cA6c33",
+        "slide_block_caaFFT",
+        "slide_block_NC3Xhk"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#e1ae83",
+        "slide_text_color": "#4f2009",
+        "slide_btn_hover_color": "#4f2009",
+        "slide_text_hover_color": "#f4e9dc",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "image_jump_custom_CALb4H": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_d8KTRr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_bf9cde84-384d-42a2-9887-3724acde8004.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_d8KTRr"
+      ],
+      "name": "03",
+      "settings": {}
+    },
+    "slide_block_group_4icAKt": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_XNykEk": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-13_4434984a-9ec9-4d12-b2fc-35efed3d4ccd.jpg",
+            "slide_title": "「猫ラッパー」クラックプリント＆ＫaraKu刺繡入りコットンTee",
+            "slide_price": 0,
+            "slide_price_new": 8990,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-gsh-ht260150",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_VaBPtB": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-14_8b9270f6-5037-4535-ada3-728e9b4cf2c3.jpg",
+            "slide_title": "「ヘルメットを被った猫」プリント＆KaraKuロゴ刺繡コットンTee",
+            "slide_price": 0,
+            "slide_price_new": 8980,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lrj-mmtkjct623?_pos=1&_sid=fe05253e6&_ss=r",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_U7mMPy": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-15_ffa88f26-4b39-4238-9735-4d2006586ecd.jpg",
+            "slide_title": "「ウエスタンハットをかぶったカウボーイ猫」エアーレイヤーラグランスリーブTee",
+            "slide_price": 0,
+            "slide_price_new": 9980,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-lrj-ht260134",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_XNykEk",
+        "slide_block_VaBPtB",
+        "slide_block_U7mMPy"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#e1ae83",
+        "slide_text_color": "#4f2009",
+        "slide_btn_hover_color": "#4f2009",
+        "slide_text_hover_color": "#f4e9dc",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_3yFPJN": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_bUrQDR": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-16_f8eea926-8969-4e84-9f66-ca1e82ad267b.jpg",
+            "slide_title": "「インディアン酋長猫」プリント＆karaku刺繍入りコットンTシャツ",
+            "slide_price": 0,
+            "slide_price_new": 7980,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-gsh-ydat0516",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_W8adUk": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-17_66e90a87-c1c8-48a1-ae8c-636f5e2764bc.jpg",
+            "slide_title": "「烈吼ノ幕府将軍猫」プリント＆karaku刺繍入りコットンTシャツ",
+            "slide_price": 0,
+            "slide_price_new": 7980,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-gsh-bfsgt0611",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_cfwaMY": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-18_d564726d-b5ff-4681-b567-9de0dbcfa910.jpg",
+            "slide_title": "「風を切る猫と相棒ライダー」プリント入り半袖コットンTee",
+            "slide_price": 0,
+            "slide_price_new": 7990,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-lrj-ht260401",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_bUrQDR",
+        "slide_block_W8adUk",
+        "slide_block_cfwaMY"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#e1ae83",
+        "slide_text_color": "#4f2009",
+        "slide_btn_hover_color": "#4f2009",
+        "slide_text_hover_color": "#f4e9dc",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_yifFRG": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_8Kktir": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-19_fc38e635-5f02-4170-a93e-7fa81992bb45.jpg",
+            "slide_title": "【予約】「Fly Cat」パイロット猫バックプリント入りコットンTee",
+            "slide_price": 0,
+            "slide_price_new": 8990,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-gsh-ht260571",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_zjAqk7": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-20_e1985da7-1c27-43a5-b51e-a0d8c1ccbb51.jpg",
+            "slide_title": "【予約】「Sailor Cat」バックプリント入りコットンTee",
+            "slide_price": 0,
+            "slide_price_new": 8990,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-gsh-ht260570",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_HXXYc7": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-21_4f4e9fb4-e5f2-4e39-bea4-a780de23efd8.jpg",
+            "slide_title": "KaraKu Art「サン・ベルナール峠のニャポレオン」プリント＆刺繍入りコットTee",
+            "slide_price": 0,
+            "slide_price_new": 8990,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-gsh-ht260434",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_8Kktir",
+        "slide_block_zjAqk7",
+        "slide_block_HXXYc7"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#e1ae83",
+        "slide_text_color": "#4f2009",
+        "slide_btn_hover_color": "#4f2009",
+        "slide_text_hover_color": "#f4e9dc",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "image_jump_custom_6Rj9k3": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_CMhfbi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_beb7485c-77a2-4431-9031-a2b1e39a9cbd.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_CMhfbi"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "slide_block_group_iFHdHd": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_AgXk6p": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-22_f418014a-1397-43fb-988f-0477dd42a074.jpg",
+            "slide_title": "「猫が迷彩に溶け込む」総柄　ミリタリー風オープンカラーシャツ",
+            "slide_price": 10980,
+            "slide_price_new": 7100,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-zyd-mcmcsd422",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_Ahi44x": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-23_92352f43-89db-45b7-a3ee-97668c395190.jpg",
+            "slide_title": "「ガイコツで遊ぶいたずらな猫」刺繡入り　コットン半袖Tee",
+            "slide_price": 8890,
+            "slide_price_new": 5334,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-gsh-klkmmxt325",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_nJnNVX": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-24_1f0547ef-3724-4216-bd6e-c205a0dce59a.jpg",
+            "slide_title": "赤ヒモ付き　「猫がペイズリー溶け込む」バンダナ柄半袖シャツ",
+            "slide_price": 0,
+            "slide_price_new": 11980,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-zyd-sh260213",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_AgXk6p",
+        "slide_block_Ahi44x",
+        "slide_block_nJnNVX"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#e1ae83",
+        "slide_text_color": "#4f2009",
+        "slide_btn_hover_color": "#4f2009",
+        "slide_text_hover_color": "#f4e9dc",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_PYQYWE": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_wmr4tw": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-25_d69a5011-5371-40ad-9248-e3526d218a82.jpg",
+            "slide_title": "赤ヒモ付き　「富士頂上の猫遊び 」刺繍入りオックスフォードシャツ",
+            "slide_price": 0,
+            "slide_price_new": 7990,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-lrj-sh260222",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_a6VjDB": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-26_94d7dafe-411c-47a2-a772-cec9e81f5267.jpg",
+            "slide_title": "「神奈川沖浪裏・波乗りの猫と犬」浮世絵風アロハシャツ",
+            "slide_price": 12590,
+            "slide_price_new": 8813,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-zyd-mgscclsg410",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_LhWh3i": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-27_aa28fe91-e312-4df6-9e8a-7d0a1dc09d22.jpg",
+            "slide_title": "「猫が葉の中に隠れている」版画風プリントアロハシャツ",
+            "slide_price": 0,
+            "slide_price_new": 10980,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-lsx-sh260365",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_wmr4tw",
+        "slide_block_a6VjDB",
+        "slide_block_LhWh3i"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#e1ae83",
+        "slide_text_color": "#4f2009",
+        "slide_btn_hover_color": "#4f2009",
+        "slide_text_hover_color": "#f4e9dc",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "background_image_EjgTk4": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-06-28_17-22-03_fd0ddfd5-26da-497f-ad44-3badc7299cb6.jpg",
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#f5f5f5",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_YhbY7Y",
+    "scrolling_banner_cp3M8t",
+    "image_PFCBjM",
+    "adjusting_spacing_7LwFw7",
+    "url_text_yqXW8L",
+    "image_jump_custom_gxyJ8t",
+    "slide_block_group_CprceT",
+    "image_jump_custom_atmPqn",
+    "slide_block_group_dP4bTk",
+    "slide_block_group_DQgTpw",
+    "slide_block_group_HUxFJG",
+    "image_jump_custom_CALb4H",
+    "slide_block_group_4icAKt",
+    "slide_block_group_3yFPJN",
+    "slide_block_group_yifFRG",
+    "image_jump_custom_6Rj9k3",
+    "slide_block_group_iFHdHd",
+    "slide_block_group_PYQYWE",
+    "background_image_EjgTk4"
+  ]
+}

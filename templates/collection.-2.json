@@ -1,0 +1,284 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1646285902057e5432": {
+      "type": "rich-text",
+      "blocks": {
+        "1646285902380ef763-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "注目製品"
+          }
+        },
+        "1646285902380ef763-1": {
+          "type": "heading",
+          "settings": {
+            "title": "KARAKU BOY",
+            "use_h1": false
+          }
+        },
+        "1646285902380ef763-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DESIGN BY KARAKUBUY | 心が湧きたつファッションアイテム</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1646285902380ef763-0",
+        "1646285902380ef763-1",
+        "1646285902380ef763-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "1646285624136a050a": {
+      "type": "slideshow",
+      "blocks": {
+        "164628562423dcc9e2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Karaku_Boy.jpg",
+            "mobile_image": "shopify://shop_images/20220303195301.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "164628562423dcc9e2-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "1646285704cfcfc61a": {
+      "type": "rich-text",
+      "blocks": {
+        "16462857042c463b74-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "INTRODUCTION"
+          }
+        },
+        "16462857042c463b74-1": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "use_h1": false
+          }
+        },
+        "16462857042c463b74-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Karaku Boyは、年齢を問わず、心が湧きたつファッションアイテムをコンセプトに、<br/>トラッドスタイルをベース、カジュアルスタイルをミックスさせた、アメカジテイストを楽しめるファッションシリーズ商品です。</p><p><strong>\"心が湧きたつファッションアイテム\"</strong></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "16462857042c463b74-0",
+        "16462857042c463b74-1",
+        "16462857042c463b74-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 30,
+        "grid": 5,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1646366127456fdab6": {
+      "type": "rich-text",
+      "blocks": {
+        "16463661273ca71f78-1": {
+          "type": "heading",
+          "settings": {
+            "title": "STYLING",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "16463661273ca71f78-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "gallery_LC9PaK": {
+      "type": "gallery",
+      "blocks": {
+        "media_Pbnj6k": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/KRK-R-0212-25_720x_352d7084-7820-4493-a998-e0c21848e268.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_tfdHjc": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/KRK-R-0215-19_720x_1c53bc15-de75-44f8-a7e0-80bf43cdf878.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_LCrV4N": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/KRK-R-0212-24_720x_a0f8afa3-7980-4beb-ac9a-8848d602be24.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_4gVmLc": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/KRK-R-0215-21_720x_8d575257-7f25-44cb-a571-7df1670e68e6.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_Pbnj6k",
+        "media_tfdHjc",
+        "media_LCrV4N",
+        "media_4gVmLc"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 660,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "full",
+        "button_style": "primary"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "1646285902057e5432",
+    "1646285624136a050a",
+    "1646285704cfcfc61a",
+    "main",
+    "1646366127456fdab6",
+    "gallery_LC9PaK",
+    "1635765484031572a6"
+  ]
+}

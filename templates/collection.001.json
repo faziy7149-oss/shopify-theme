@@ -1,0 +1,311 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1635736314e4e3d1c3": {
+      "type": "rich-text",
+      "blocks": {
+        "1635736314e4e3d1c3-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "注目製品"
+          }
+        },
+        "1635736314e4e3d1c3-1": {
+          "type": "heading",
+          "settings": {
+            "title": "大流行のフライトジャケット",
+            "use_h1": false
+          }
+        },
+        "1635736314e4e3d1c3-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DESIGN BY KARAKUBUY | 2022-2023AW COLLECTION</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1635736314e4e3d1c3-0",
+        "1635736314e4e3d1c3-1",
+        "1635736314e4e3d1c3-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "1635738036ae71c27f": {
+      "type": "slideshow",
+      "blocks": {
+        "1635738036ae71c27f-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/medium_56bdb4ddd5ac1b92.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        },
+        "1635738036ae71c27f-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/VIP-V21CJK012-blue.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1635738036ae71c27f-1",
+        "1635738036ae71c27f-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 1000,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 2,
+        "accessibility_info": ""
+      }
+    },
+    "163573663356216c07": {
+      "type": "rich-text",
+      "blocks": {
+        "163573663356216c07-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "INTRODUCTION"
+          }
+        },
+        "163573663356216c07-1": {
+          "type": "heading",
+          "settings": {
+            "title": "アメリカから誕生した空軍フライトジャケットは再流行し始まった！",
+            "use_h1": false
+          }
+        },
+        "163573663356216c07-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>今よく言われたフライトジャケットは1940年代のアメリカ空軍から使われ、ここ日本では1980年代ごろからカジュアルウェアとして愛用されるようになり、以降は不動の定番アウターとして君臨し続けてきました。<br/><br/>汎用性の高さに関してはもはや言わずもがなですが、ドがつくほどの定番服ゆえ着こなしが量産的になりやすいという問題も……。どう着てもある程度サマになる安定感に長けたアイテムではありますが。<br/><br/>“ミリタリーがルーツのタフなアイテム”という印象のMA-1ですが、今ではワードローブの定番としてすっかり市民権を獲得しています。</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "163573663356216c07-0",
+        "163573663356216c07-1",
+        "163573663356216c07-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 36,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "16357368049a586ae1": {
+      "type": "slideshow",
+      "blocks": {
+        "16357368049a586ae1-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg",
+            "mobile_image": "shopify://shop_images/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "おすすめの着回し術",
+            "heading_max_width": 15,
+            "title_size": 50,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "<p>FLIGHT JACKET</p>",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16357368049a586ae1-1"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 200,
+        "height_mobile": 120,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": false,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "gallery_4y7YzV": {
+      "type": "gallery",
+      "blocks": {
+        "media_BfHRUL": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/KRK-VIP-AK181117-yellow.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_EmqEEd": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/19AK181111-army-green.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_rgXwJV": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/19AK181111-army-blue.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_BfHRUL",
+        "media_EmqEEd",
+        "media_rgXwJV"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 560,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "full",
+        "button_style": "primary"
+      }
+    },
+    "1635736938ed084760": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "あなたにおすすめの商品",
+        "collection": "flight-jacket-also",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "1635736314e4e3d1c3",
+    "1635738036ae71c27f",
+    "163573663356216c07",
+    "main",
+    "16357368049a586ae1",
+    "gallery_4y7YzV",
+    "1635736938ed084760"
+  ]
+}

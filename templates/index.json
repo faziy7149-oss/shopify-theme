@@ -1,0 +1,1357 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "photo_banner_countdown_bHXkrp": {
+      "type": "photo-banner-countdown",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/1500_b254d6ff-944a-40c2-8e50-3c25ad15e49d.jpg",
+        "mobile_image": "shopify://shop_images/800_f34b8f98-8388-416a-a467-00387d7a2826.jpg",
+        "banner_link": "https://karakubuy.com/collections/karaku-5th-sale",
+        "photo_banner_col": "#fe5300",
+        "end_date": "2025-05-18",
+        "end_time": "23:00",
+        "end_text": "",
+        "hide_on_end": true,
+        "number_size": 24,
+        "number_font": "heading",
+        "divider_type": "colon",
+        "show_timer_labels": true,
+        "countdown_col": "#ffffff",
+        "countdown_text_col": "#333029"
+      }
+    },
+    "photo_banner_T4fxHk": {
+      "type": "photo-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/1500_523a3ac4-d1ec-4f5b-b0be-d1bed6744227.png",
+        "mobile_image": "shopify://shop_images/800_910a4226-1638-4825-b192-d102d644fc6c.png",
+        "banner_link": "https://karakubuy.com/collections/summer-sale-2025",
+        "photo_banner_col": "#f85400"
+      }
+    },
+    "slider_carousel_6VwNiW": {
+      "type": "slider-carousel",
+      "blocks": {
+        "slide_GVQU4c": {
+          "type": "Slide",
+          "disabled": true,
+          "settings": {
+            "advertising_pc_image": "shopify://shop_images/Br_PC_4653183a-a310-4119-959d-e76be195f7d6.png",
+            "advertising_mobile_image": "shopify://shop_images/Br_MB_ea493f69-cd4d-4988-905f-00fcae2bdded.png",
+            "advertising_url": "https://karakubuy.com/collections/summer-sale-2026",
+            "schedule_start_date": "",
+            "schedule_start_time": "",
+            "schedule_end_date": "",
+            "schedule_end_time": ""
+          }
+        },
+        "slide_763A7M": {
+          "type": "Slide",
+          "disabled": true,
+          "settings": {
+            "advertising_pc_image": "shopify://shop_images/20250922-133326.png",
+            "advertising_mobile_image": "shopify://shop_images/20250917180604_328_35.png",
+            "advertising_url": "https://karakubuy.com/pages/karakuvip",
+            "schedule_start_date": "",
+            "schedule_start_time": "",
+            "schedule_end_date": "",
+            "schedule_end_time": ""
+          }
+        },
+        "slide_pkrwET": {
+          "type": "Slide",
+          "settings": {
+            "advertising_pc_image": "shopify://shop_images/5-1_N.png",
+            "advertising_mobile_image": "shopify://shop_images/5-2_N.png",
+            "advertising_url": "https://karakubuy.com/collections/826",
+            "schedule_start_date": "",
+            "schedule_start_time": "",
+            "schedule_end_date": "",
+            "schedule_end_time": ""
+          }
+        },
+        "slide_Abc7Wh": {
+          "type": "Slide",
+          "settings": {
+            "advertising_pc_image": "shopify://shop_images/20260820-195807.png",
+            "advertising_mobile_image": "shopify://shop_images/20260820-195811.png",
+            "advertising_url": "https://karakubuy.com/collections/karaku-cat",
+            "schedule_start_date": "",
+            "schedule_start_time": "",
+            "schedule_end_date": "",
+            "schedule_end_time": ""
+          }
+        },
+        "slide_qKqB8x": {
+          "type": "Slide",
+          "settings": {
+            "advertising_pc_image": "shopify://shop_images/VS-0139_banner__1920.jpg",
+            "advertising_mobile_image": "shopify://shop_images/VS-0139_banner__1200.jpg",
+            "advertising_url": "https://karakubuy.com/collections/%E5%85%88%E8%A1%8C%E4%BA%88%E7%B4%84%E5%95%86%E5%93%81",
+            "schedule_start_date": "",
+            "schedule_start_time": "",
+            "schedule_end_date": "",
+            "schedule_end_time": ""
+          }
+        },
+        "slide_PAmxmA": {
+          "type": "Slide",
+          "settings": {
+            "advertising_pc_image": "shopify://shop_images/02-1_Br_PC_5ec4a088-6be9-408c-8ff5-e9ae227d94bd.png",
+            "advertising_mobile_image": "shopify://shop_images/02-2_Br_MB_e1f89d04-893e-4112-b271-0b41a08c556f.png",
+            "advertising_url": "https://karakubuy.com/collections/long-sleeve-shirts",
+            "schedule_start_date": "",
+            "schedule_start_time": "",
+            "schedule_end_date": "",
+            "schedule_end_time": ""
+          }
+        },
+        "slide_F6JAEz": {
+          "type": "Slide",
+          "settings": {
+            "advertising_pc_image": "shopify://shop_images/02-1_Br_PC.png",
+            "advertising_mobile_image": "shopify://shop_images/02-2_Br_MB.png",
+            "advertising_url": "https://karakubuy.com/collections/t%E3%82%B7%E3%83%A3%E3%83%84-%E3%82%AB%E3%83%83%E3%83%88%E3%82%BD%E3%83%BC",
+            "schedule_start_date": "",
+            "schedule_start_time": "",
+            "schedule_end_date": "",
+            "schedule_end_time": ""
+          }
+        },
+        "slide_kGFnJw": {
+          "type": "Slide",
+          "settings": {
+            "advertising_pc_image": "shopify://shop_images/20260802-221955.png",
+            "advertising_mobile_image": "shopify://shop_images/20260802-221904.png",
+            "advertising_url": "https://karakubuy.com/collections/hawaiian-shirts",
+            "schedule_start_date": "",
+            "schedule_start_time": "",
+            "schedule_end_date": "",
+            "schedule_end_time": ""
+          }
+        },
+        "slide_9fzhVt": {
+          "type": "Slide",
+          "disabled": true,
+          "settings": {
+            "advertising_pc_image": "shopify://shop_images/VS-0069_banner.jpg",
+            "advertising_mobile_image": "shopify://shop_images/VS-0069_banner__1200.jpg",
+            "advertising_url": "https://karakubuy.com/collections/karaku-raoutanaka",
+            "schedule_start_date": "",
+            "schedule_start_time": "",
+            "schedule_end_date": "",
+            "schedule_end_time": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_GVQU4c",
+        "slide_763A7M",
+        "slide_pkrwET",
+        "slide_Abc7Wh",
+        "slide_qKqB8x",
+        "slide_PAmxmA",
+        "slide_F6JAEz",
+        "slide_kGFnJw",
+        "slide_9fzhVt"
+      ],
+      "settings": {}
+    },
+    "popular_tags_list_qBXLTU": {
+      "type": "popular-tags-list",
+      "blocks": {
+        "popular_tag_6hrQbP": {
+          "type": "PopularTag",
+          "settings": {
+            "tag_title": "スカジャン",
+            "tag_url": "https://karakubuy.com/search?q=%E3%82%B9%E3%82%AB%E3%82%B8%E3%83%A3%E3%83%B3"
+          }
+        },
+        "popular_tag_8gi4iL": {
+          "type": "PopularTag",
+          "settings": {
+            "tag_title": "アロハシャツ",
+            "tag_url": "https://karakubuy.com/collections/hawaiian-shirts"
+          }
+        },
+        "popular_tag_JJjLxd": {
+          "type": "PopularTag",
+          "settings": {
+            "tag_title": "ペイズリー",
+            "tag_url": "https://karakubuy.com/collections/paisley"
+          }
+        },
+        "popular_tag_xrKUck": {
+          "type": "PopularTag",
+          "settings": {
+            "tag_title": "シャツ",
+            "tag_url": "https://karakubuy.com/collections/shirts"
+          }
+        },
+        "popular_tag_B6X6xL": {
+          "type": "PopularTag",
+          "settings": {
+            "tag_title": "パンツ",
+            "tag_url": "https://karakubuy.com/collections/pants-m"
+          }
+        },
+        "popular_tag_kTxbUA": {
+          "type": "PopularTag",
+          "settings": {
+            "tag_title": "ポロシャツ",
+            "tag_url": "https://karakubuy.com/collections/%E3%83%9D%E3%83%AD%E3%82%B7%E3%83%A3%E3%83%84"
+          }
+        },
+        "popular_tag_MHz34K": {
+          "type": "PopularTag",
+          "settings": {
+            "tag_title": "Tシャツ",
+            "tag_url": "https://karakubuy.com/collections/t%E3%82%B7%E3%83%A3%E3%83%84-%E3%82%AB%E3%83%83%E3%83%88%E3%82%BD%E3%83%BC"
+          }
+        },
+        "popular_tag_tM6JXw": {
+          "type": "PopularTag",
+          "settings": {
+            "tag_title": "デニム",
+            "tag_url": "https://karakubuy.com/collections/denim-collection"
+          }
+        },
+        "popular_tag_bN9B8V": {
+          "type": "PopularTag",
+          "settings": {
+            "tag_title": "ジャケット",
+            "tag_url": "https://karakubuy.com/collections/jacket"
+          }
+        },
+        "popular_tag_Ux4AFr": {
+          "type": "PopularTag",
+          "settings": {
+            "tag_title": "オーバーオール",
+            "tag_url": ""
+          }
+        }
+      },
+      "block_order": [
+        "popular_tag_6hrQbP",
+        "popular_tag_8gi4iL",
+        "popular_tag_JJjLxd",
+        "popular_tag_xrKUck",
+        "popular_tag_B6X6xL",
+        "popular_tag_kTxbUA",
+        "popular_tag_MHz34K",
+        "popular_tag_tM6JXw",
+        "popular_tag_bN9B8V",
+        "popular_tag_Ux4AFr"
+      ],
+      "settings": {
+        "title": "人気のアイテムタグ"
+      }
+    },
+    "lookbook_grid_jLdkkD": {
+      "type": "lookbook-grid",
+      "blocks": {
+        "look_UFiwBK": {
+          "type": "look",
+          "settings": {
+            "image_1": "shopify://shop_images/05_12eb6bcf-2dac-4b8a-9479-73b64e970f63.jpg",
+            "image_2": "shopify://shop_images/06_ee4fdec5-a9a7-4ee4-80ef-e86e04fa8e5a.jpg",
+            "image_3": "shopify://shop_images/01_8b8d8f93-5ef5-49f4-8f50-20e610a2ad12.jpg",
+            "tags": "SALE, T-SHIRTS,オッ,ジャケット,オーバーオール,スカジャンア,ロハシャツペイ,ズリ,ーシャツパ,ンツポロ,シャ,ツTシャ,ツデニム,ジャ,ケット,オーバ,ーオール,ツTシャ,ツデニム,ジャ",
+            "product_list": [
+              "krk-md-d2301002",
+              "krk-md-tw2207201",
+              "krk-gz-ss2022077",
+              "krk-md-1801026",
+              "krk-cs-ok5907",
+              "krk-dc-333b-1"
+            ]
+          }
+        },
+        "look_3tHyyN": {
+          "type": "look",
+          "settings": {
+            "image_1": "shopify://shop_images/02_5.jpg",
+            "image_2": "shopify://shop_images/02_4.jpg",
+            "image_3": "shopify://shop_images/02_2.jpg",
+            "image_4": "shopify://shop_images/07_ea0c2b94-2dfb-4681-beb8-100fd70f27f8.jpg",
+            "tags": "SALE, T-SHIRTS,马修,ジャケット,オーバーオール",
+            "product_list": [
+              "krk-md-d2301002",
+              "krk-gz-ss2022077",
+              "krk-md-1801026",
+              "krk-dc-333b-1"
+            ]
+          }
+        },
+        "look_TfULEa": {
+          "type": "look",
+          "settings": {
+            "image_1": "shopify://shop_images/04_60f1599e-c4a6-4785-9508-092d6c4e1c0c.jpg",
+            "image_2": "shopify://shop_images/KRK-GSH-JK260665-17.jpg",
+            "image_3": "shopify://shop_images/KRK-GSH-JK260665-16.jpg",
+            "image_4": "shopify://shop_images/KRK-GSH-JK260665-16.jpg",
+            "tags": "SALE, T-SHIRTS,オッ",
+            "product_list": [
+              "krk-gz-ss2022077",
+              "krk-cs-ok5907",
+              "krk-dc-333b-1",
+              "krk-md-1801026",
+              "krk-md2205057",
+              "krk-dc-559",
+              "krk-dc-228",
+              "krk-cs-ok5109",
+              "krk-cs-ok5127"
+            ]
+          }
+        },
+        "look_8wEQx3": {
+          "type": "look",
+          "settings": {
+            "image_1": "shopify://shop_images/05_a981d148-1bda-4355-9851-4c9f173c3fe3.jpg",
+            "image_2": "shopify://shop_images/KRK-GSH-JK260665-13.jpg",
+            "image_3": "shopify://shop_images/KRK-GSH-JK260665-14.jpg",
+            "image_4": "shopify://shop_images/KRK-GSH-JK260665-10.jpg",
+            "tags": "SALE, T-SHIRTS,马修,ジャケット,オーバーオール",
+            "product_list": [
+              "krk-md-d2301002",
+              "krk-md-tw2207201",
+              "krk-md-1801026",
+              "krk-gz-ss2022077"
+            ]
+          }
+        },
+        "look_CYHxgd": {
+          "type": "look",
+          "settings": {
+            "image_1": "shopify://shop_images/04_1_59292041-6cdc-4fc7-8b61-aa5574219929.jpg",
+            "image_2": "shopify://shop_images/KRK-GSH-JK260665-01.jpg",
+            "image_3": "shopify://shop_images/KRK-GSH-JK260665-11.jpg",
+            "image_4": "shopify://shop_images/KRK-GSH-JK260665-15.jpg",
+            "tags": "SALE, T-SHIRTS,马修,ジャケット,オーバーオール",
+            "product_list": [
+              "krk-md-d2301002",
+              "krk-md-tw2207201",
+              "krk-gz-ss2022077",
+              "krk-md-1801026",
+              "krk-cs-ok5907",
+              "krk-dc-333b-1"
+            ]
+          }
+        },
+        "look_wVa9yb": {
+          "type": "look",
+          "settings": {
+            "image_1": "shopify://shop_images/04_85d5c839-2afc-42fa-b1ef-909130804d22.jpg",
+            "image_2": "shopify://shop_images/07_cd8d878e-6a45-48af-a7ee-d396f173066d.jpg",
+            "image_3": "shopify://shop_images/KRK-LRJ-JK260639-16.jpg",
+            "image_4": "shopify://shop_images/KRK-LRJ-JK260639-09.jpg",
+            "tags": "SALE, T-SHIRTS",
+            "product_list": [
+              "krk-md-tw2207201",
+              "krk-md-1801026",
+              "krk-gz-ss2022077",
+              "krk-cs-ok5907",
+              "krk-dc-333b-1",
+              "krk-ok4904"
+            ]
+          }
+        },
+        "look_BFUVC6": {
+          "type": "look",
+          "settings": {
+            "image_1": "shopify://shop_images/01_25b995f4-939f-4964-b082-db6625ae999b.jpg",
+            "image_2": "shopify://shop_images/06_1_a7a4fc85-0512-477f-adf3-06fb539e9738.jpg",
+            "tags": "SALE, T-SHIRTS",
+            "product_list": [
+              "krk-md-tw2207201",
+              "krk-dc-333b-1",
+              "krk-ok4904",
+              "krk-cs-ok5907",
+              "krk-md2205057",
+              "krk-dc-559",
+              "krk-dc-228"
+            ]
+          }
+        },
+        "look_g4ndFz": {
+          "type": "look",
+          "settings": {
+            "image_1": "shopify://shop_images/06_01077977-26be-427d-988f-32f82e7b6a5b.jpg",
+            "tags": "SALE, T-SHIRTS",
+            "product_list": [
+              "krk-cs-ok5109",
+              "krk-cs-ok5127",
+              "krk-cf-054",
+              "krk-cf-201",
+              "krk-md-ts2301048"
+            ]
+          }
+        },
+        "look_hMKJgn": {
+          "type": "look",
+          "settings": {
+            "image_1": "shopify://shop_images/03_7556630e-4a9e-4e99-a75a-0ace97f58624.jpg",
+            "tags": "SALE, T-SHIRTS",
+            "product_list": [
+              "md-tw2101147",
+              "krk-ts2107064",
+              "krk-w2007122",
+              "krk-zyd-jcmmhjt418",
+              "krk-md-ts2201069"
+            ]
+          }
+        },
+        "look_K8fVzH": {
+          "type": "look",
+          "settings": {
+            "image_1": "shopify://shop_images/04_12927508-6bb7-44d0-9190-0c3e75cdf50d.jpg",
+            "tags": "SALE, T-SHIRTS",
+            "product_list": [
+              "krk-cf-054",
+              "krk-md-ts2301048",
+              "krk-cf-201",
+              "krk-cs-ok5127",
+              "krk-cs-ok5109",
+              "krk-dc-228"
+            ]
+          }
+        },
+        "look_b76WLM": {
+          "type": "look",
+          "settings": {
+            "image_1": "shopify://shop_images/07_595e2a2d-711c-4abd-aebf-2eabe478fe3f.jpg",
+            "tags": "SALE, T-SHIRTS",
+            "product_list": []
+          }
+        },
+        "look_hy6GyD": {
+          "type": "look",
+          "settings": {
+            "image_1": "shopify://shop_images/04-2_Br_MB.png",
+            "tags": "SALE, T-SHIRTS",
+            "product_list": []
+          }
+        },
+        "look_iL8fJg": {
+          "type": "look",
+          "settings": {
+            "image_1": "shopify://shop_images/05_12eb6bcf-2dac-4b8a-9479-73b64e970f63.jpg",
+            "tags": "SALE, T-SHIRTS",
+            "product_list": []
+          }
+        },
+        "look_KXtMEj": {
+          "type": "look",
+          "settings": {
+            "image_1": "shopify://shop_images/02_4.jpg",
+            "tags": "SALE, T-SHIRTS",
+            "product_list": []
+          }
+        },
+        "look_MMnMLb": {
+          "type": "look",
+          "settings": {
+            "image_1": "shopify://shop_images/02_2.jpg",
+            "tags": "SALE, T-SHIRTS",
+            "product_list": []
+          }
+        },
+        "look_BWgK7e": {
+          "type": "look",
+          "settings": {
+            "image_1": "shopify://shop_images/05_1_28a3bbec-6e7d-4cf7-a642-dc5d772d2524.jpg",
+            "tags": "SALE, T-SHIRTS",
+            "product_list": []
+          }
+        },
+        "look_8Lypne": {
+          "type": "look",
+          "settings": {
+            "image_1": "shopify://shop_images/07_cd8d878e-6a45-48af-a7ee-d396f173066d.jpg",
+            "tags": "SALE, T-SHIRTS",
+            "product_list": []
+          }
+        },
+        "look_zBC6fC": {
+          "type": "look",
+          "settings": {
+            "image_1": "shopify://shop_images/06_cf2ee350-03ca-4ba1-85a3-3cac4b50764e.jpg",
+            "tags": "SALE, T-SHIRTS",
+            "product_list": []
+          }
+        },
+        "look_AezDam": {
+          "type": "look",
+          "settings": {
+            "image_1": "shopify://shop_images/04_85d5c839-2afc-42fa-b1ef-909130804d22.jpg",
+            "tags": "SALE, T-SHIRTS",
+            "product_list": []
+          }
+        }
+      },
+      "block_order": [
+        "look_UFiwBK",
+        "look_3tHyyN",
+        "look_TfULEa",
+        "look_8wEQx3",
+        "look_CYHxgd",
+        "look_wVa9yb",
+        "look_BFUVC6",
+        "look_g4ndFz",
+        "look_hMKJgn",
+        "look_K8fVzH",
+        "look_b76WLM",
+        "look_hy6GyD",
+        "look_iL8fJg",
+        "look_KXtMEj",
+        "look_MMnMLb",
+        "look_BWgK7e",
+        "look_8Lypne",
+        "look_zBC6fC",
+        "look_AezDam"
+      ],
+      "name": "Lookbook Grid",
+      "settings": {
+        "title": "LOOKBOOK",
+        "full_width": false,
+        "max_width": 1400,
+        "side_padding": 24,
+        "side_padding_mobile": 16,
+        "title_alignment": "left",
+        "tags_alignment": "left",
+        "tags_more_label": "MORE",
+        "tags_less_label": "LESS",
+        "products_heading": "ITEMS FOR THIS STYLE",
+        "shop_now_label": "Shop Now",
+        "empty_products_text": "No products selected",
+        "modal_background": "#ffffff",
+        "modal_text_color": "#222222",
+        "modal_muted_color": "#666666",
+        "overlay_opacity": 55,
+        "image_shape": "portrait-34",
+        "pc_columns": 3,
+        "pc_gap": 58,
+        "mobile_columns": "2",
+        "initial_rows": 6,
+        "rows_per_load": 2,
+        "menu_label": "MENU",
+        "menu_alignment": "center"
+      }
+    },
+    "featured_collection_gL49nk": {
+      "type": "featured-collection",
+      "disabled": true,
+      "name": "Featured collection",
+      "settings": {
+        "title": "72時間限定！均一SALE開催中",
+        "collection": "6th-7999-sale",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "featured_collection_xEHDJ7": {
+      "type": "featured-collection",
+      "disabled": true,
+      "name": "Featured collection",
+      "settings": {
+        "title": "72時間限定｜7,999円均一SALE",
+        "collection": "final-sale-799926summer",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "featured_collection_r79w3r": {
+      "type": "featured-collection",
+      "disabled": true,
+      "name": "Featured collection",
+      "settings": {
+        "title": "SUMMER SALE |対象商品最大70%OFF！",
+        "collection": "summer-sale-2026",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "collection_list_FFCYtc": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_dFf3Ni": {
+          "type": "collection",
+          "settings": {
+            "collection": "karaku-raoutanaka",
+            "image": "shopify://shop_images/VS-0069_banner__1200.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_anAW8J": {
+          "type": "collection",
+          "settings": {
+            "collection": "karaku-365cat-art",
+            "image": "shopify://shop_images/093_365_banner_1200_54ddc7b9-fc70-4b1a-8209-e547113f0fc4.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_NwzKwc": {
+          "type": "collection",
+          "settings": {
+            "collection": "karaku-ishiguroayako",
+            "image": "shopify://shop_images/3_761f9df4-1f4f-4caf-ac09-a2826b1dd55f.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_6Nybwb": {
+          "type": "collection",
+          "settings": {
+            "collection": "karaku-satoshikawamata",
+            "image": "shopify://shop_images/259__banner_1200.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_QcEbdk": {
+          "type": "collection",
+          "settings": {
+            "collection": "karaku-koma",
+            "image": "shopify://shop_images/095__banner_1200.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_DQpwJy": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "karaku-alaya",
+            "image": "shopify://shop_images/094_alaya_banner_1200_b2f9a507-7423-4409-8c6b-c6afb3dd1178.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_KbwgDh": {
+          "type": "collection",
+          "settings": {
+            "collection": "karakuxkotanakatsubo",
+            "image": "shopify://shop_images/SHOP_kota_nakatsubo_3.webp",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_UycD76": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "karaku-鹿間麻衣",
+            "image": "shopify://shop_images/20250606-174719.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_HtLFcT": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "karaku-玉井伸弥",
+            "image": "shopify://shop_images/20250606-174704.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_9yHyAf": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "karakuｘminatoyayoshiki",
+            "image": "shopify://shop_images/20250606175912.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_dFf3Ni",
+        "collection_anAW8J",
+        "collection_NwzKwc",
+        "collection_6Nybwb",
+        "collection_QcEbdk",
+        "collection_DQpwJy",
+        "collection_KbwgDh",
+        "collection_UycD76",
+        "collection_HtLFcT",
+        "collection_9yHyAf"
+      ],
+      "custom_css": [
+        ".product-block.collection-block .product-block__detail {text-align: center;}"
+      ],
+      "name": "Collection list",
+      "settings": {
+        "title": "COLLABORATION",
+        "collection_title_show": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "left",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary",
+        "all_url": "shopify://collections/collaboration-1"
+      }
+    },
+    "featured_collection_eNGBYy": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "KARAKU×石黒亜矢子 Special Collection",
+        "collection": "karaku-ishiguroayako",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 5,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "1635332576c3664fab": {
+      "type": "featured-collection",
+      "custom_css": [
+        "@media (min-width: 768px) {.collection-slider-row {margin-top: 70px; margin-bottom: 70px; }}"
+      ],
+      "settings": {
+        "title": "RANKING",
+        "collection": "人気商品",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "featured-collection-1": {
+      "type": "featured-collection",
+      "custom_css": [
+        "@media (min-width: 768px) {.collection-slider-row {margin-top: 70px; margin-bottom: 70px; }}"
+      ],
+      "settings": {
+        "title": "NEW IN",
+        "collection": "新作",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "1635218737cca34d36": {
+      "type": "collection-list",
+      "blocks": {
+        "929856ea-9b22-4eb0-a314-e433cd27c8bd": {
+          "type": "collection",
+          "settings": {
+            "collection": "hawaiian-shirts",
+            "image": "shopify://shop_images/01_33fb6dca-fa72-419f-82f2-5718b4462ad1.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "bf1cfb82-8464-4696-a107-987064614e31": {
+          "type": "collection",
+          "settings": {
+            "collection": "tシャツ-カットソー",
+            "image": "shopify://shop_images/02_493123b5-0dfc-4585-a2d9-d8251fb2a5e0.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "8a3dda27-d0c2-4557-9ac0-4ec1bdaa150d": {
+          "type": "collection",
+          "settings": {
+            "collection": "パンツ",
+            "image": "shopify://shop_images/03_e7579449-bd94-4c5f-a2b3-7e6db2da1dd3.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_JN7qNA": {
+          "type": "collection",
+          "settings": {
+            "collection": "shirts",
+            "image": "shopify://shop_images/04_49b706de-4047-4177-86cd-b6ecac67e517.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "937eb7ed-ee17-41c0-a813-3fe46f6413ab": {
+          "type": "collection",
+          "settings": {
+            "collection": "sweatshirt-hoodie-1",
+            "image": "shopify://shop_images/05_f761d56c-abb6-4010-8a4a-1edd1f68d521.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "67a1a314-7ad4-43ea-9f25-ddd1694f3d64": {
+          "type": "collection",
+          "settings": {
+            "collection": "jacket",
+            "image": "shopify://shop_images/06_2c4aa50b-5a79-4617-8c57-aa39f121221f.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_7xYzFU": {
+          "type": "collection",
+          "settings": {
+            "collection": "knit-sweater",
+            "image": "shopify://shop_images/07_2f1ce2e1-c01d-4ca6-948d-277765a7ea41.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "a808d652-3cda-4ee4-b4c0-7ec50108c6da": {
+          "type": "collection",
+          "settings": {
+            "collection": "coat",
+            "image": "shopify://shop_images/08_a58264b0-ec31-4236-b1b7-c1b5f38a4687.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "43b1a346-691a-4a8e-973a-9dba03b155fb": {
+          "type": "collection",
+          "settings": {
+            "collection": "靴",
+            "image": "shopify://shop_images/20250411-152216.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "6288be79-187c-4a0f-928d-af247f889729": {
+          "type": "collection",
+          "settings": {
+            "collection": "アクセサリー-小物",
+            "image": "shopify://shop_images/007___10.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "929856ea-9b22-4eb0-a314-e433cd27c8bd",
+        "bf1cfb82-8464-4696-a107-987064614e31",
+        "8a3dda27-d0c2-4557-9ac0-4ec1bdaa150d",
+        "collection_JN7qNA",
+        "937eb7ed-ee17-41c0-a813-3fe46f6413ab",
+        "67a1a314-7ad4-43ea-9f25-ddd1694f3d64",
+        "collection_7xYzFU",
+        "a808d652-3cda-4ee4-b4c0-7ec50108c6da",
+        "43b1a346-691a-4a8e-973a-9dba03b155fb",
+        "6288be79-187c-4a0f-928d-af247f889729"
+      ],
+      "custom_css": [],
+      "settings": {
+        "title": "カテゴリーから探す",
+        "collection_title_show": true,
+        "enable_carousel": false,
+        "grid": 5,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "landscape-54",
+        "coll_grid_image_position": "top center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary",
+        "all_url": ""
+      }
+    },
+    "background_video_7BfhGB": {
+      "type": "background-video",
+      "blocks": {
+        "subheading_KA8t73": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "heading_hUiWkM": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": " <br>  <br>  <br>  <br>  <br>   KARAKU 2025 SS",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 32,
+            "use_h1": false
+          }
+        },
+        "text_tUAAQJ": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<h1><br/><br/><br/><br/><a href=\"https://karakubuy.com/collections/2025-spring\" target=\"_blank\" title=\"https://karakubuy.com/collections/2025-spring\"><br/><br/><br/></a></h1><h1></h1><h1></h1><h1></h1><h1></h1><h1></h1><h1></h1><h1><a href=\"https://karakubuy.com/collections/2025-spring\" target=\"_blank\" title=\"https://karakubuy.com/collections/2025-spring\">KARAKU 2025 Spring & Summer</a></h1>",
+            "enlarge_text": true
+          }
+        },
+        "button_qNdnJK": {
+          "type": "button",
+          "disabled": true,
+          "settings": {
+            "button_label": "check More",
+            "button_link": "https://karakubuy.com/collections/2025-spring",
+            "button_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_KA8t73",
+        "heading_hUiWkM",
+        "text_tUAAQJ",
+        "button_qNdnJK"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "@media (min-width: 768px) {.height--fixed {margin-top: 70px; margin-bottom: 70px; }}"
+      ],
+      "settings": {
+        "video_shopify": "shopify://files/videos/1_4d566263-8497-42d4-9140-907fe005b26a.mp4",
+        "video_external": "",
+        "video_description": "",
+        "text_alignment": "center center",
+        "height_desktop": 780,
+        "height_mobile": 400,
+        "full_width": true,
+        "overlay_style": "shadow"
+      }
+    },
+    "special_feature_blog_GfQwmV": {
+      "type": "special-feature-blog",
+      "name": "Special feature blog",
+      "settings": {
+        "title": "特集",
+        "title_url": "https://karakubuy.com/blogs/karaku-features",
+        "featured_articles": [
+          "karaku-features/2026-5-workdays-in-stripes",
+          "karaku-features/2026-karaku-best-10",
+          "karaku-features/2026-new-longsleeve-collection",
+          "karaku-features/summer-alohafit",
+          "karaku-features/2026-saleranking",
+          "karaku-features/stay-true",
+          "karaku-features/2026-skullcollection",
+          "karaku-features/2026-summer-sale",
+          "karaku-features/karakuandcat"
+        ],
+        "show_author": false,
+        "show_date": false,
+        "crop_ratio": "",
+        "color_scheme": "default"
+      }
+    },
+    "pickup_products_ncL7zQ": {
+      "type": "pickup-products",
+      "blocks": {
+        "product_block_fQj8GJ": {
+          "type": "product_block",
+          "settings": {
+            "sub_title": "他にはない！",
+            "title": "KARAKUこそのストライプ！",
+            "image_1": "shopify://shop_images/20260820-114321.jpg",
+            "price_1": 8990,
+            "link_1": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C/products/krk-zyd-26shtw0715",
+            "image_2": "shopify://shop_images/20260820-114317.jpg",
+            "price_2": 15980,
+            "link_2": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C/products/krk-lsx-sh260680",
+            "image_3": "shopify://shop_images/20260820-114314.jpg",
+            "price_3": 13980,
+            "link_3": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C/products/krk-gsh-lsh060495",
+            "price_4": 5280,
+            "link_4": "/collections/all",
+            "price_5": 11550,
+            "link_5": "/collections/all",
+            "price_6": 5390,
+            "link_6": "/collections/all",
+            "btn_link": ""
+          }
+        },
+        "product_block_jb9DCz": {
+          "type": "product_block",
+          "settings": {
+            "sub_title": "8/20更新！",
+            "title": "お気に入り登録多数の人気アイテム",
+            "image_1": "shopify://shop_images/MD-TS2101023-19.jpg",
+            "price_1": 13590,
+            "link_1": "https://karakubuy.com/collections/ranking/products/md-ts2101023",
+            "image_2": "shopify://shop_images/KRK-ZYD-26LTCF786-14_f7f38209-b639-4766-b969-9f6f1750e09d.jpg",
+            "price_2": 9980,
+            "link_2": "https://karakubuy.com/collections/ranking/products/krk-zyd-26ltcf786",
+            "image_3": "shopify://shop_images/20260820-112306.jpg",
+            "price_3": 13980,
+            "link_3": "https://karakubuy.com/collections/ranking/products/krk-gsh-sh251276",
+            "price_4": 12100,
+            "link_4": "/collections/all",
+            "price_5": 18700,
+            "link_5": "/collections/all",
+            "price_6": 5800,
+            "link_6": "/collections/all",
+            "btn_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "product_block_fQj8GJ",
+        "product_block_jb9DCz"
+      ],
+      "custom_css": [
+        "@media (min-width: 768px) {.collection-slider-row.for-collections {margin-top: 70px; margin-bottom: 70px; }}"
+      ],
+      "name": "特色产品展示 (Pickup)",
+      "settings": {
+        "title": "PICK UP",
+        "image_aspect_ratio": "portrait_23",
+        "image_object_fit": "cover",
+        "image_gap": 12,
+        "padding_top": 0,
+        "padding_bottom": 0,
+        "btn_text_desktop": "詳細を見る"
+      }
+    },
+    "adjusting_spacing_AixF6J": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -6,
+        "margin_top2": -4
+      }
+    },
+    "featured_collection_tabs_pMBazn": {
+      "type": "featured-collection-tabs",
+      "blocks": {
+        "collection_JyEtQx": {
+          "type": "collection",
+          "settings": {
+            "title": "アロハシャツ",
+            "collection": "hawaiian-shirts"
+          }
+        },
+        "collection_Y7Prwm": {
+          "type": "collection",
+          "settings": {
+            "title": "半袖 Tee",
+            "collection": "short-sleeve-t-shirts"
+          }
+        },
+        "collection_Y6jAWe": {
+          "type": "collection",
+          "settings": {
+            "title": "長袖 シャツ",
+            "collection": "long-sleeve-shirts"
+          }
+        },
+        "collection_37gJ9F": {
+          "type": "collection",
+          "settings": {
+            "title": "デニム",
+            "collection": "denim-collection"
+          }
+        }
+      },
+      "block_order": [
+        "collection_JyEtQx",
+        "collection_Y7Prwm",
+        "collection_Y6jAWe",
+        "collection_37gJ9F"
+      ],
+      "disabled": true,
+      "custom_css": [
+        "@media (min-width: 768px) {.collection-slider-row {margin-bottom: 70px; }}"
+      ],
+      "settings": {
+        "title": "",
+        "title_url": "",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "use_alt_bg": false,
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "news_list_DAJN6f": {
+      "type": "news-list",
+      "blocks": {
+        "newslist_XMpd7K": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/1080_c586add5-227e-482e-8385-764a3ba5b398.jpg",
+            "page": "cat-donation",
+            "news_info": "【ご報告】 皆さまのおかげで、第1回目の寄付金を届けました。"
+          }
+        },
+        "newslist_4PDzrt": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/20260701154814_4523_35_56275bb8-2a32-46c6-9c67-5507a632b63f.png",
+            "page": "cat-charity",
+            "news_info": "【お知らせ】CAT COLLECTION チャリティープロジェクト実施中！"
+          }
+        },
+        "newslist_qaCArF": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/9b541f8d01ea63a7a9701ad54473d87e.jpg",
+            "page": "7-2-live",
+            "news_info": "SUMMER SALE直前、 7.2（木）20:00 LIVE配信！"
+          }
+        },
+        "newslist_kTVMna": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/20260626-091932.jpg",
+            "page": "summer-sale2026",
+            "news_info": "SUMMER SALE開催のお知らせ"
+          }
+        },
+        "newslist_QTBnnw": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/20260525-165700.jpg",
+            "page": "recruit",
+            "news_info": "神戸三宮 スタッフ募集のお知らせ"
+          }
+        },
+        "newslist_gNAfFn": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/1080_X.png",
+            "page": "6th72-7999-sale",
+            "news_info": "72時間限定｜7999円均一 SALE開催中！"
+          }
+        },
+        "newslist_KzyeUr": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/210_banner1200_0e912ba5-9464-4f6f-9ff9-c5f38678d341.jpg",
+            "page": "karaku-2026-6-04",
+            "news_info": "KARAKU 6周年 アートコラボレーション 発売開始！"
+          }
+        },
+        "newslist_7VmAQ3": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/6__1200_4cabae79-d97d-4152-9add-37509ebbbc1f.jpg",
+            "page": "karaku-6th-preview",
+            "news_info": "KARAKU 6周年記念キャンペーン開催中！！"
+          }
+        },
+        "newslist_cbDTYY": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/179_sns__3.jpg",
+            "page": "6th-puzzle-gift",
+            "news_info": "【6周年記念】オリジナルパズルプレゼントキャンペーン開催！"
+          }
+        },
+        "newslist_93p6Ry": {
+          "type": "newslist",
+          "settings": {
+            "news_page": "shopify://shop_images/20260420-175206_852c09e5-adcf-4794-8939-67248445fb9c.jpg",
+            "page": "karaku-inslive",
+            "news_info": "4月27日（月）20:00〜 インスタライブ配信のご案内！"
+          }
+        }
+      },
+      "block_order": [
+        "newslist_XMpd7K",
+        "newslist_4PDzrt",
+        "newslist_qaCArF",
+        "newslist_kTVMna",
+        "newslist_QTBnnw",
+        "newslist_gNAfFn",
+        "newslist_KzyeUr",
+        "newslist_7VmAQ3",
+        "newslist_cbDTYY",
+        "newslist_93p6Ry"
+      ],
+      "custom_css": [
+        "@media (min-width: 768px) {.collection-slider-row.for-collections {margin-top: 70px; margin-bottom: 70px; }}"
+      ],
+      "settings": {
+        "news_title": "NEWS",
+        "more_url": "shopify://pages/karaku-news",
+        "view_all": "ニュースをもっと見る＞",
+        "full_width": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "coll_thumb_mob_per_row": "2",
+        "color_scheme": "default"
+      }
+    },
+    "blog_list_epTLCz": {
+      "type": "blog-list",
+      "custom_css": [
+        "@media (min-width: 768px) {.collection-slider-row.for-collections {margin-top: 70px; margin-bottom: 70px; }}"
+      ],
+      "settings": {
+        "blog_title": "BLOG",
+        "blog_item": "all",
+        "post_limit": 8,
+        "enable_carousel": true,
+        "blog_link": "ブログをもっと見る＞",
+        "blog_link_url": "https://karakubuy.com/blogs/karakublogs",
+        "crop_ratio": "1.0"
+      }
+    },
+    "image_with_text_slider_yUNY6n": {
+      "type": "image-with-text-slider",
+      "blocks": {
+        "text_slider_wa9bhy": {
+          "type": "TextSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/ChatGPT_Image_Jun_24_2026_07_50_56_PM_1.webp",
+            "title": "KARAKU原宿店",
+            "use_h1": false,
+            "text": "<p><br/>📍東京都渋谷区神宮前3丁目24番1号イン・ザ・ストリームビル1F</p>",
+            "enlarge_text": false,
+            "button_label": "もっと見る＞",
+            "button_link": "https://karakubuy.com/pages/karaku-shop",
+            "button_style": "primary"
+          }
+        },
+        "text_slider_LAEMQi": {
+          "type": "TextSlider",
+          "disabled": true,
+          "settings": {
+            "slider_img": "shopify://shop_images/06_dc4fd9dc-61bd-4526-9e0f-cdd9ad6d492d.jpg",
+            "title": "KARAKU Kuala Lampur",
+            "use_h1": false,
+            "text": "<p>GS.11.0 (Market Lane), Ground Floor, TRX, Kuala Lumpur</p>",
+            "enlarge_text": false,
+            "button_label": "もっと見る＞",
+            "button_link": "https://karakubuy.com/pages/karaku-shop",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "text_slider_wa9bhy",
+        "text_slider_LAEMQi"
+      ],
+      "settings": {
+        "color_scheme": "1",
+        "crop_ratio": "1.33",
+        "enable_arrows": true
+      }
+    },
+    "163522150962cf9e54": {
+      "type": "apps",
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "show_space": true
+      }
+    },
+    "9daf5c1c-a727-49a0-b46d-66cc0b6100c2": {
+      "type": "photo-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/206_home__1500.jpg",
+        "mobile_image": "shopify://shop_images/206_home__800.jpg",
+        "banner_link": "https://lin.ee/scJHjj1",
+        "photo_banner_col": "#64cd3c"
+      }
+    },
+    "1781603421d66b07ec": {
+      "type": "apps",
+      "blocks": {
+        "instafeed_app_block_feeds_yK9gqW": {
+          "type": "shopify://apps/instafeed/blocks/app-block-feeds/4169bff3-1d6b-44ad-9377-2ebc3d31f01c",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "instafeed_app_block_feeds_yK9gqW"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": false,
+        "show_space": true
+      }
+    },
+    "1778569489038b8997": {
+      "type": "apps",
+      "custom_css": [],
+      "settings": {
+        "full_width": false,
+        "show_space": true
+      }
+    }
+  },
+  "order": [
+    "photo_banner_countdown_bHXkrp",
+    "photo_banner_T4fxHk",
+    "slider_carousel_6VwNiW",
+    "popular_tags_list_qBXLTU",
+    "lookbook_grid_jLdkkD",
+    "featured_collection_gL49nk",
+    "featured_collection_xEHDJ7",
+    "featured_collection_r79w3r",
+    "collection_list_FFCYtc",
+    "featured_collection_eNGBYy",
+    "1635332576c3664fab",
+    "featured-collection-1",
+    "1635218737cca34d36",
+    "background_video_7BfhGB",
+    "special_feature_blog_GfQwmV",
+    "pickup_products_ncL7zQ",
+    "adjusting_spacing_AixF6J",
+    "featured_collection_tabs_pMBazn",
+    "news_list_DAJN6f",
+    "blog_list_epTLCz",
+    "image_with_text_slider_yUNY6n",
+    "163522150962cf9e54",
+    "9daf5c1c-a727-49a0-b46d-66cc0b6100c2",
+    "1781603421d66b07ec",
+    "1778569489038b8997"
+  ]
+}

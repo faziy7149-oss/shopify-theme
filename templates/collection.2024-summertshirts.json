@@ -1,0 +1,383 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "slideshow_8qNtct": {
+      "type": "slideshow",
+      "blocks": {
+        "image_ikCAr7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20240628-181219.jpg",
+            "mobile_image": "shopify://shop_images/20240628-181340.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_ikCAr7"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_9wa8e7": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/20240628-144250.png",
+        "mobile_image": "shopify://shop_images/20240628-144244.png",
+        "img_rul": ""
+      }
+    },
+    "image_hN86gj": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/01_9e5ba3d3-2fa0-452a-951d-255033e5ee8d.png",
+        "mobile_image": "shopify://shop_images/01_9e5ba3d3-2fa0-452a-951d-255033e5ee8d.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_txcMpb": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -2,
+        "margin_top2": -3
+      }
+    },
+    "slide_block_group_cRWPQL": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_46gA3H": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/3_a9d8e2ba-06f0-4ade-b79b-009d2493dde4.jpg",
+            "slide_title": "横須賀「龍」タタミ刺繍　270ｇヘビーウェイトコットンTee",
+            "slide_price": 8784,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-md-ts2401169?_pos=1&_sid=d8592071c&_ss=r&variant=45628091859163",
+            "slide_intro": "龍の周りで瑞祥を表す雲、青海波などがデザインに組み込まれて、力強さや神秘性を表現し、迫力と力強さを表現。"
+          }
+        },
+        "slide_block_cxEJhr": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/4_862fc9c4-acf6-4ae9-8165-f8b35d29f8d6.jpg",
+            "slide_title": "ヘビーウェイト　タタミステッチ刺繍Tシャツ",
+            "slide_price": 8826,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-md-tsw2201044?_pos=2&_sid=d14ddede9&_ss=r&variant=42706871910619",
+            "slide_intro": "バックにサーカステーマの人間と虎刺繍をあしらっていて、男らしさを出すのはもう一つの楽しみポイント、人間と動物との相互関係にも広がっているの象徴といった元来の要素に加え、その意味ではサーカスは，生命中心主義的世界絵図の一種のモデルとして呈示することができよう。"
+          }
+        },
+        "slide_block_zcWaXB": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/4_be2ed799-74c6-4fa1-8ba9-4262838aa9a8.jpg",
+            "slide_title": "アパッチ・ジェロニモヘビーウェイト刺繍Tシャツ",
+            "slide_price": 7192,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-md-tw2401459?_pos=1&_sid=6ba21ea99&_ss=r&variant=45366627336411",
+            "slide_intro": "バックにジェロニモ刺繡が施され、アパッチ族の偉大な指導者であるジェロニモの肖像を表現した。刺繡は細かく緻密に行われ、シンボルがリアルに描かれている。"
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_46gA3H",
+        "slide_block_cxEJhr",
+        "slide_block_zcWaXB"
+      ],
+      "settings": {
+        "slide_btn_color": "#0f57b5",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#dfe3e8",
+        "slide_text_hover_color": "#0f57b5",
+        "slide_font_color": "#100f0f"
+      }
+    },
+    "image_FMJwnD": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/02_7aea89e2-a701-4129-bb9a-69e52fbbde90.png",
+        "mobile_image": "shopify://shop_images/02_7aea89e2-a701-4129-bb9a-69e52fbbde90.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_cQp8Gi": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -2,
+        "margin_top2": -3
+      }
+    },
+    "slide_block_group_faEqXD": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_kErCXY": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/7_c907d27f-389a-4122-a45b-ddbeba49a944.jpg",
+            "slide_img2": "shopify://shop_images/1_5df20392-c284-4ce6-9e0a-d296d2a906e8.jpg",
+            "slide_title": "13色展開　大人気レトロヘビーウェイトコットンTシャツ",
+            "slide_price": 6980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-t1-0006?_pos=1&_sid=46c781a33&_ss=r&variant=45752951701723",
+            "slide_intro": "季節のデイリーユースに活躍してくれること間違いなしの万能なTシャツ。1枚着でもインナーでも大活躍するので、色違いで持っておくのも良い！Tシャツが主役になるこれからの季節におすすめです！"
+          }
+        },
+        "slide_block_jgEB9R": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1_8a6e2bc5-b5b4-40c7-89e4-3ca862294ab1.jpg",
+            "slide_img2": "shopify://shop_images/5_65ca29bf-1ead-46cb-aaff-3aeabb33bb31.jpg",
+            "slide_title": "脱構築　290ｇヘビーウェイトエアーレイヤーコットンTee",
+            "slide_price": 8982,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-mbbt1202?_pos=1&_sid=035ae1551&_ss=r&variant=45722938441947",
+            "slide_intro": "脱構築デザインが取り入れられて、独特な形状やディテールが特徴。肩部分、フロントとバックの両側には、弧度線デザインが施されて、通常のTeeにはない流れるようなラインや立体感が生まれる。"
+          }
+        },
+        "slide_block_FkTHzm": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/13_b4044fba-1278-45d8-9b93-d6c48b114410.jpg",
+            "slide_title": "260gヘビーウェイト　袖刺繍入りコーマコットンTee",
+            "slide_price": 5100,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-ex-126101?_pos=1&_sid=8c5b1c629&_ss=r&variant=45127562002651",
+            "slide_intro": "必要最小限のディテールのみを残したクリーンで現代的、何とでも合わせられる、洗練された無地デザインで、派手どころか品があり高級感さえ伝わってきる。"
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_kErCXY",
+        "slide_block_jgEB9R",
+        "slide_block_FkTHzm"
+      ],
+      "settings": {
+        "slide_btn_color": "#0f57b5",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#dfe3e8",
+        "slide_text_hover_color": "#0f57b5",
+        "slide_font_color": "#100f0f"
+      }
+    },
+    "image_eQTmUr": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/03_ad2c9c69-9284-4ec3-8807-04605e824820.png",
+        "mobile_image": "shopify://shop_images/03_ad2c9c69-9284-4ec3-8807-04605e824820.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_rRbeDa": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -2,
+        "margin_top2": -3
+      }
+    },
+    "slide_block_group_9EfaYx": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_DkTeq9": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/2_b7363cb6-de49-442f-b8cd-6b6ef06b6332.jpg",
+            "slide_title": "裾ドローコード　ヘンリーネックナイロン混半袖Tee",
+            "slide_price": 7192,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-ga-529?_pos=1&_sid=9e16d1255&_ss=r&variant=45474378678491",
+            "slide_intro": "裾に締め付け具合を調整できるドローコード付き、細部にまでこだわり抜いたディテールが特徴、合理性と機能性も追求する仕上がり。"
+          }
+        },
+        "slide_block_3zn8KB": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1_5455933f-3d77-4702-82cf-d4d28c07d014.jpg",
+            "slide_title": "刺繡＆プリントスポーティコットンTee",
+            "slide_price": 8982,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-mbbt1208?_pos=1&_sid=bf2d7bb42&_ss=r&variant=45593895796955",
+            "slide_intro": "襟部分には配色の切り替えが施されて、ボディーが異なる色でデザインされ、スタイリッシュで洗練された外観を演出。"
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_DkTeq9",
+        "slide_block_3zn8KB"
+      ],
+      "settings": {
+        "slide_btn_color": "#0f57b5",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#dfe3e8",
+        "slide_text_hover_color": "#0f57b5",
+        "slide_font_color": "#100f0f"
+      }
+    },
+    "image_DAd6fK": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/04_6eb14c35-a2a1-4992-97ac-3c918f2bed39.png",
+        "mobile_image": "shopify://shop_images/04_6eb14c35-a2a1-4992-97ac-3c918f2bed39.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_TfVTHf": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -2,
+        "margin_top2": -3
+      }
+    },
+    "slide_block_group_rNbmiH": {
+      "type": "slide-block-group",
+      "settings": {
+        "slide_btn_color": "#0f57b5",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#dfe3e8",
+        "slide_text_hover_color": "#0f57b5",
+        "slide_font_color": "#100f0f"
+      }
+    },
+    "featured_collection_AA7Rfh": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "ALOHA SHIRT",
+        "collection": "2024-pattern-alohashirt",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "background_image_TCkHMe": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-06-28_17-24-57.jpg",
+        "background_color_overlay": "",
+        "background_color": ""
+      }
+    },
+    "tag_link_JQfPfk": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    }
+  },
+  "order": [
+    "slideshow_8qNtct",
+    "image_9wa8e7",
+    "image_hN86gj",
+    "adjusting_spacing_txcMpb",
+    "slide_block_group_cRWPQL",
+    "image_FMJwnD",
+    "adjusting_spacing_cQp8Gi",
+    "slide_block_group_faEqXD",
+    "image_eQTmUr",
+    "adjusting_spacing_rRbeDa",
+    "slide_block_group_9EfaYx",
+    "image_DAd6fK",
+    "adjusting_spacing_TfVTHf",
+    "slide_block_group_rNbmiH",
+    "featured_collection_AA7Rfh",
+    "main",
+    "background_image_TCkHMe",
+    "tag_link_JQfPfk"
+  ]
+}

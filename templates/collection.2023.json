@@ -1,0 +1,133 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "782492be-bffc-4020-8e9c-87431ba7cb65": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16643975413979__782492be-bffc-4020-8e9c-87431ba7cb65-1670219542d3f0b657-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/img_v2_aae3bf2c-94fe-43ea-bc11-02f35b63db7g.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "title_size": 46,
+            "text": "",
+            "enlarge_text": true,
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16643975413979__782492be-bffc-4020-8e9c-87431ba7cb65-1670219542d3f0b657-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "autoplay": true,
+        "autoplay_speed": 7
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "enable_sticky_filter": true,
+        "image_position": "center center"
+      }
+    },
+    "a025c43d-b28f-4ee8-84ab-7b33fd3e1fae": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16643975413979__a025c43d-b28f-4ee8-84ab-7b33fd3e1fae-166969153992f23495-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "template--16643975413979__a025c43d-b28f-4ee8-84ab-7b33fd3e1fae-166969153992f23495-1": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "use_h1": false
+          }
+        },
+        "template--16643975413979__a025c43d-b28f-4ee8-84ab-7b33fd3e1fae-166969153992f23495-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>注意事項</strong><br/>【福袋予約会に関する注意事項】<br/>・ご予約いただいた福袋は2022年12月31日（土）までに順次発送に順次発送いたします。 なお、発送日の指定はお受けできません。<br/>・お客様のご都合によるご注文後のキャンセル・返品・交換は一切できません。<br/>・相当金額表記の商品は定価の合計価格となります。<br/>・クーポンなど割引券のご利用はできません。<br/>・クレジットカードの決済のみとなります。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16643975413979__a025c43d-b28f-4ee8-84ab-7b33fd3e1fae-166969153992f23495-0",
+        "template--16643975413979__a025c43d-b28f-4ee8-84ab-7b33fd3e1fae-166969153992f23495-1",
+        "template--16643975413979__a025c43d-b28f-4ee8-84ab-7b33fd3e1fae-166969153992f23495-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "left",
+        "full_width": false
+      }
+    },
+    "aa333ade-437b-4e2f-b0b5-7d9a0ce08732": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "2023福袋 中身一覧",
+        "collection": "2023-fukubukuro-nakami",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 5,
+        "rows": 5,
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "782492be-bffc-4020-8e9c-87431ba7cb65",
+    "main",
+    "a025c43d-b28f-4ee8-84ab-7b33fd3e1fae",
+    "aa333ade-437b-4e2f-b0b5-7d9a0ce08732",
+    "1635765484031572a6"
+  ]
+}

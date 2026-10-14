@@ -1,0 +1,87 @@
+<style>
+ .section-id-{{ section.id }} .product-list-box{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1480px;
+    justify-content: space-evenly;
+    margin-top: 5em;
+    margin-left: auto;
+    margin-right: auto;
+}
+.section-id-{{ section.id }} .product-list-outer {
+  margin-top: 10px;
+  margin-left: 10px;
+}
+@media(max-width: 767px) {
+   .section-id-{{ section.id }} .product-list-box{
+    max-width: 26em;
+    margin-top:0;
+    margin-left: 0;
+    justify-content: space-evenly;
+  }
+  .section-id-{{ section.id }} .product-list-outer {
+    width: 45%;
+    height: auto;
+  }
+}
+</style>
+<div class="section-id-{{ section.id }}">
+  <div class="product-list-box">
+    {%- for block in section.blocks -%}
+      <div class="product-list-outer">
+        <a class="product-list-a" href="{{ block.settings.image_link }}">
+          {% render 'image' with block.settings.image, sizes: '350px', loading: 'lazy'%}
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+{% schema %}
+  {
+    "name": "Picture List",
+    "settings": [],
+    "blocks":[
+     {
+     "type": "image",
+     "name": "Image",
+     "settings": [
+       {
+         "type": "image_picker",
+         "id": "image",
+         "label": "Image"
+       },
+       {
+           "type": "url",
+           "id": "image_link",
+           "label": "Image link"
+       }
+     ]
+     }
+   ],
+      "presets":[
+        {
+       "name":"Picture List",
+         "blocks": [
+       {
+         "type": "image"
+       },
+       {
+         "type": "image"
+       },
+       {
+         "type": "image"
+       },
+       {
+         "type": "image"
+       }
+     ]
+        }
+]
+  }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

@@ -1,0 +1,99 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "aside",
+  "name": "Overlay Group",
+  "sections": {
+    "cart-drawer": {
+      "type": "cart-drawer",
+      "settings": {
+        "show_order_note": true,
+        "show_tax_and_shipping": true,
+        "enable_direct_cart": true,
+        "cart_terms_page": "",
+        "show_backorder_text": false,
+        "show_inventory_notice": "low",
+        "show_inventory_count": "low",
+        "inventory_threshold": 10,
+        "show_announcement": false,
+        "announcement_position": "above-items",
+        "announcement_text": "<a href=\"https://karakubuy.com/collections/826\" target=\"_blank\" title=\"https://karakubuy.com/collections/826\">トレンドを軽やかにプラス。KARAKUのペイズリー。</a>",
+        "announcement_icon": "box",
+        "announcement_icon_size": "large",
+        "announcement_enable_box": true,
+        "announcement_box_color": "#4A382F",
+        "empty_icon": "cart",
+        "empty_heading": "カートに商品がありません",
+        "empty_text": "",
+        "empty_button_text": "お買い物を続ける",
+        "empty_button_link": "https://karakubuy.com/collections/ranking",
+        "empty_button_style": "primary",
+        "empty_enable_custom_colors": false,
+        "empty_color_background": "",
+        "empty_color_background_gradient": "",
+        "empty_color_text": "",
+        "enable_cross_sells": false,
+        "cross_sell_title": "このアイテムを見ている人が、買ったアイテム",
+        "cross_sell_products": [],
+        "enable_automatic_cross_sells": true,
+        "croll_sell_color_scheme": "2"
+      }
+    },
+    "pop-up": {
+      "type": "pop-up",
+      "blocks": {
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "heading": "Sign up and save",
+            "heading_size": "h4"
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Entice customers to sign up for your mailing list with discounts or exclusive offers.</p>",
+            "text_size": ""
+          }
+        },
+        "newsletter-signup": {
+          "type": "newsletter-signup",
+          "settings": {
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading",
+        "text",
+        "newsletter-signup"
+      ],
+      "disabled": true,
+      "settings": {
+        "trigger": "delay",
+        "delay": 5,
+        "show_to_guests_only": true,
+        "show_on_mobile": true,
+        "dismiss_days": 30,
+        "position": "justify-center items-center",
+        "text_align": "text-center",
+        "heading_color": "#070707",
+        "text_color": "#070707",
+        "bg_color": "#ffffff",
+        "bg_grad": "",
+        "tint_opacity": 0
+      }
+    }
+  },
+  "order": [
+    "cart-drawer",
+    "pop-up"
+  ]
+}

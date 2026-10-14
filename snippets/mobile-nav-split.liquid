@@ -1,0 +1,206 @@
+{%- comment -%}
+  Split mobile navigation (left: L1/L2, right: images + L3).
+  Uses mobile-nav-split__* classes so native MainNavigation slide/accordion
+  selectors in main.js do not attach to this markup.
+{%- endcomment -%}
+
+{%- liquid
+  assign split_menu = linklists[link_list]
+-%}
+
+<div class="mobile-nav-split" data-mobile-nav-split>
+  <div class="mobile-nav-split__header">
+    <a href="#" class="mobile-nav-toggle mobile-nav-split__dismiss" aria-label="{{ 'general.navigation.close' | t }}">
+      {%- render 'icon-close', stroke_width: 1.3 -%}
+    </a>
+  </div>
+
+  <div class="mobile-nav-split__body">
+    <nav class="mobile-nav-split__left" aria-label="{{ 'accessibility.main_navigation' | t }}">
+      <ul class="mobile-nav-split__l1">
+        {%- for link in split_menu.links -%}
+          {%- liquid
+            assign link_title_sanitised = link.title | downcase | strip
+            assign has_children = false
+            assign has_promo = false
+            if link.links != blank
+              assign has_children = true
+            endif
+            for block in section.blocks
+              assign dropdown_link_title_sanitised = block.settings.dropdown_link_title | downcase | strip
+              if dropdown_link_title_sanitised == link_title_sanitised
+                assign has_promo = true
+                assign has_children = true
+              endif
+            endfor
+          -%}
+          <li
+            class="mobile-nav-split__l1-item{% if has_children %} mobile-nav-split__l1-item--has-children{% endif %}{% if featured_links contains link.title %} mobile-nav-split__item--featured{% endif %}{% if link.active %} mobile-nav-split__item--active{% endif %}"
+            data-split-l1-index="{{ forloop.index0 }}"
+          >
+            <div class="mobile-nav-split__l1-row">
+              {%- if has_children -%}
+                <button
+                  type="button"
+                  class="mobile-nav-split__l1-toggle"
+                  data-split-l1-toggle
+                  aria-expanded="false"
+                  aria-controls="MobileNavSplitPanel-{{ forloop.index0 }}"
+                >
+                  <span class="mobile-nav-split__l1-label">{{ link.title | escape }}</span>
+                  <span class="mobile-nav-split__chevron" aria-hidden="true">{%- render 'icon-toggle-menu', stroke_width: 1.3 -%}</span>
+                </button>
+              {%- else -%}
+                <a href="{{ link.url }}" class="mobile-nav-split__l1-link">
+                  <span class="mobile-nav-split__l1-label">{{ link.title | escape }}</span>
+                </a>
+              {%- endif -%}
+            </div>
+
+            {%- if has_children and link.links != blank -%}
+              <ul class="mobile-nav-split__l2" hidden>
+                {%- for child_link in link.links -%}
+                  <li class="mobile-nav-split__l2-item{% if featured_links contains child_link.title %} mobile-nav-split__item--featured{% endif %}">
+                    <a href="{{ child_link.url }}" class="mobile-nav-split__l2-link">{{ child_link.title | escape }}</a>
+                  </li>
+                {%- endfor -%}
+              </ul>
+            {%- endif -%}
+          </li>
+        {%- endfor -%}
+      </ul>
+    </nav>
+
+    <div class="mobile-nav-split__right" data-split-right>
+      {%- for link in split_menu.links -%}
+        {%- liquid
+          assign link_title_sanitised = link.title | downcase | strip
+          assign panel_has_content = false
+          if link.links != blank
+            assign panel_has_content = true
+          endif
+          for block in section.blocks
+            assign dropdown_link_title_sanitised = block.settings.dropdown_link_title | downcase | strip
+            if dropdown_link_title_sanitised == link_title_sanitised
+              assign panel_has_content = true
+            endif
+          endfor
+        -%}
+        <div
+          id="MobileNavSplitPanel-{{ forloop.index0 }}"
+          class="mobile-nav-split__panel"
+          data-split-panel="{{ forloop.index0 }}"
+          hidden
+        >
+          {%- unless panel_has_content -%}
+            <a href="{{ link.url }}" class="mobile-nav-split__plain-link">{{ link.title | escape }}</a>
+          {%- endunless -%}
+
+          {%- comment -%} Wide promotions for this L1 {%- endcomment -%}
+          {%- for block in section.blocks -%}
+            {%- assign dropdown_link_title_sanitised = block.settings.dropdown_link_title | downcase | strip -%}
+            {%- if dropdown_link_title_sanitised == link_title_sanitised and block.type == 'menu-promotion-large' -%}
+              {%- assign promo_image = block.settings.mobile_image | default: block.settings.desktop_image -%}
+              {%- if promo_image != blank or block.settings.title != blank -%}
+                <div class="mobile-nav-split__promo mobile-nav-split__promo--wide" {{ block.shopify_attributes }}>
+                  {%- if block.settings.button_1_link != blank -%}
+                    <a class="mobile-nav-split__promo-link" href="{{ block.settings.button_1_link }}">
+                  {%- elsif block.settings.button_2_link != blank -%}
+                    <a class="mobile-nav-split__promo-link" href="{{ block.settings.button_2_link }}">
+                  {%- endif -%}
+                  {%- if promo_image != blank -%}
+                    <div class="mobile-nav-split__promo-image">
+                      {%- render 'image' with promo_image, size_cols_desktop: 2, loading: 'manual' -%}
+                    </div>
+                  {%- endif -%}
+                  {%- if block.settings.title != blank -%}
+                    <div class="mobile-nav-split__promo-title">{{ block.settings.title | escape }} </div>
+                  {%- endif -%}
+                  {%- if block.settings.button_1_link != blank or block.settings.button_2_link != blank -%}
+                    </a>
+                  {%- endif -%}
+                </div>
+              {%- endif -%}
+            {%- endif -%}
+          {%- endfor -%}
+
+          {%- comment -%} Small promotions for this L1 {%- endcomment -%}
+          {%- for block in section.blocks -%}
+            {%- assign dropdown_link_title_sanitised = block.settings.dropdown_link_title | downcase | strip -%}
+            {%- if dropdown_link_title_sanitised == link_title_sanitised and block.type == 'menu-promotion-small' -%}
+              <div class="mobile-nav-split__promo" {{ block.shopify_attributes }}>
+                {%- if block.settings.link_url != blank -%}
+                  <a class="mobile-nav-split__promo-link" href="{{ block.settings.link_url }}">
+                {%- endif -%}
+                {%- if block.settings.title != blank -%}
+                  <div class="mobile-nav-split__promo-title">{{ block.settings.title | escape }}</div>
+                {%- endif -%}
+                {%- if block.settings.image != blank -%}
+                  <div class="mobile-nav-split__promo-image">
+                    {%- render 'image' with block.settings.image, size_cols_desktop: 2, loading: 'manual' -%}
+                  </div>
+                {%- endif -%}
+                {%- if block.settings.link_url != blank -%}
+                  </a>
+                {%- endif -%}
+              </div>
+            {%- endif -%}
+          {%- endfor -%}
+
+          {%- comment -%} L2 cards / plain links / L3 lists {%- endcomment -%}
+          {%- for child_link in link.links -%}
+            {%- liquid
+              assign has_grandchildren = false
+              if child_link.links != blank
+                assign has_grandchildren = true
+              endif
+            -%}
+            {%- capture child_image_html -%}
+              {%- render 'nav-l2-image', link: child_link, size_cols_desktop: 2 -%}
+            {%- endcapture -%}
+            {%- assign child_image_html = child_image_html | strip -%}
+
+            {%- if child_image_html != blank -%}
+              <div class="mobile-nav-split__card">
+                <a class="mobile-nav-split__card-link" href="{{ child_link.url }}">
+                  <div class="mobile-nav-split__card-title">{{ child_link.title | escape }}</div>
+                  <div class="mobile-nav-split__card-image">
+                    {{ child_image_html }}
+                  </div>
+                </a>
+                {%- if has_grandchildren -%}
+                  <ul class="mobile-nav-split__l3">
+                    {%- for grandchild_link in child_link.links -%}
+                      <li>
+                        <a href="{{ grandchild_link.url }}" class="mobile-nav-split__l3-link">{{ grandchild_link.title | escape }}</a>
+                      </li>
+                    {%- endfor -%}
+                  </ul>
+                {%- endif -%}
+              </div>
+            {%- elsif has_grandchildren -%}
+              <div class="mobile-nav-split__group">
+                <a href="{{ child_link.url }}" class="mobile-nav-split__group-title">{{ child_link.title | escape }}</a>
+                <ul class="mobile-nav-split__l3">
+                  {%- for grandchild_link in child_link.links -%}
+                    <li>
+                      <a href="{{ grandchild_link.url }}" class="mobile-nav-split__l3-link">{{ grandchild_link.title | escape }}</a>
+                    </li>
+                  {%- endfor -%}
+                </ul>
+              </div>
+            {%- else -%}
+              <a href="{{ child_link.url }}" class="mobile-nav-split__plain-link">{{ child_link.title | escape }}</a>
+            {%- endif -%}
+          {%- endfor -%}
+        </div>
+      {%- endfor -%}
+
+      <div class="mobile-nav-split__panel mobile-nav-split__panel--empty" data-split-panel-empty hidden>
+        <p class="mobile-nav-split__empty-text">{{ 'general.navigation.menu' | t }}</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="mobile-navigation-drawer__footer"></div>
+</div>

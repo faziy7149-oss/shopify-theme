@@ -1,0 +1,879 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "16570081522c5796df": {
+      "type": "slideshow",
+      "blocks": {
+        "1657008152a237684b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20220921-165908.jpg",
+            "mobile_image": "shopify://shop_images/20220921-165917.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        },
+        "a224042d-71f4-4d0a-8c9d-b11e9e529a67": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20220921-171337.jpg",
+            "mobile_image": "shopify://shop_images/20220921-171330.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1657008152a237684b-0",
+        "a224042d-71f4-4d0a-8c9d-b11e9e529a67"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "1663751344f0143479": {
+      "type": "rich-text",
+      "blocks": {
+        "1663751344550ad394-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "1663751344550ad394-1": {
+          "type": "heading",
+          "settings": {
+            "title": "悩まない！2022 AUTUMN 秋最旬コーデのおすすめ特集",
+            "use_h1": false
+          }
+        },
+        "1663751344550ad394-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>　Military/Indigo Dye/Sports/NAVAJO/WORK</p>",
+            "enlarge_text": false
+          }
+        },
+        "032bdea5-4cdf-423e-8120-ff2fa3b1f3d2": {
+          "type": "heading",
+          "settings": {
+            "title": "藍染・ナバホ・ミリタリー・スポーティー・ワーク",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "1663751344550ad394-0",
+        "1663751344550ad394-1",
+        "1663751344550ad394-2",
+        "032bdea5-4cdf-423e-8120-ff2fa3b1f3d2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "1657247011ebcd16b6": {
+      "type": "rich-text",
+      "blocks": {
+        "ff33a3a6-6324-4217-ba46-c0b93fcd2486": {
+          "type": "icon",
+          "settings": {
+            "icon": "label"
+          }
+        },
+        "64e13482-0efa-44e6-b3c0-655ddc61ab79": {
+          "type": "heading",
+          "settings": {
+            "title": "藍染系アイテム/「ジャパン・ブルー」と呼ばれる伝統美の藍染めスタイル　",
+            "use_h1": false
+          }
+        },
+        "165724701138abf1f6-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　　",
+            "use_h1": true
+          }
+        },
+        "165724701138abf1f6-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>藍は、植物からつくられる天然の染料です。その植物の葉を乾燥させ、その葉を100日以上発酵・熟成させて作った「蒅（すくも）」を用いて染色を行います。蒅（すくも）とは藍染めの染料のもとになるものですが、そのままでは水に溶けず染料にはならないため、さらに灰汁・石灰・酒などを混ぜて発酵させて染め液を作ります。その染め液に布を漬けては取り出し、空気に触れさせるという作業を何度も繰り返して、少しずつ好みの色に近づけていきます。</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "ff33a3a6-6324-4217-ba46-c0b93fcd2486",
+        "64e13482-0efa-44e6-b3c0-655ddc61ab79",
+        "165724701138abf1f6-1",
+        "165724701138abf1f6-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_WRMA3G": {
+      "type": "custom-content",
+      "blocks": {
+        "image_z7JFdB": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/3_KRK-ZM-075B.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_kBbqyw": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "left",
+            "subheading": "",
+            "title": "和洋折衷コーデ",
+            "text": "<p>裏バンダナ柄の植物藍染刺し子半纏が和の雰囲気が詰まったスペシャルな一点。裏返せばバンダナ柄を用いてサーファーが好きな西海岸風の印象にアレンジ。ゆっくり時間をかけて丁寧に織られた刺し子織り生地は、平織には無い高級感のある美しい陰影を作り出す。ボトムスはデニム素材とワークパンツのディテールを組み合わせたヘビーウェイトのデニムパンツです。更に、高品質の「デニム×刺子」をアッパーに採用した、ウォッシュ加工が施さて自然で独特な色落ち感を演出するスニーカーを合わせれば、和の雰囲気を楽しみながら、カジュアル感がプラスされこなれた印象を与えてくれるコーデとなっております。</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "text_EyTtAj": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "ITEM",
+            "text": "<p><a href=\"https://www.karakubuy.com/products/krk-zm-075b?_pos=1&_sid=a134ca286&_ss=r&variant=42471699644635\" title=\"https://www.karakubuy.com/products/krk-zm-075b?_pos=1&_sid=a134ca286&_ss=r&variant=42471699644635\">Jacket ¥16,549(inc.tax)┃...........Buy</a></p><p><a href=\"/products/krk-rfct9089\" title=\"ワンポイント　ベーシック型ロンT\">Inner ¥8,964(inc.tax)┃...........Buy</a></p><p><a href=\"/products/krk-rf-3380\" title=\"アメカジヘビーウェイトワークデニムパンツ\">Pants ¥11,340(inc.tax)┃...........Buy</a></p><p><a href=\"https://www.karakubuy.com/products/krk-md2201031?_pos=1&_sid=75e7c7f6e&_ss=r&variant=42711436984539\" title=\"https://www.karakubuy.com/products/krk-md2201031?_pos=1&_sid=75e7c7f6e&_ss=r&variant=42711436984539\">Shoes ¥16,929inc.tax)┃...........Buy</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_z7JFdB",
+        "text_kBbqyw",
+        "text_EyTtAj"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_M7fqar": {
+      "type": "custom-content",
+      "blocks": {
+        "image_f6AUcD": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/4_KRK-ZM-087-D1.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_r7NNpK": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "旬のフレンチが薫る上品カジュアル",
+            "text": "<p>フレンチプロレタリアの作業着として、フレンチワークは19世紀頃に初めて登場しました。<br/>一から手作業で完成された藍染フレンチワークジャケットを使ったスタイリングです。<br/>ボトムスのジーンズと、エレガンスな雰囲気を出しながらもカジュアルなスタイルを演出。</p><p></p><p>ITEM</p><p></p><p><a href=\"https://www.karakubuy.com/products/%E3%82%B3%E3%83%BC%E3%83%87%E3%83%A5%E3%83%AD%E3%82%A4-%E8%97%8D%E6%9F%93%E3%83%93%E3%83%B3%E3%83%86%E3%83%BC%E3%82%B8%E3%83%95%E3%83%AC%E3%83%B3%E3%83%81%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88?_pos=1&_sid=1a2475066&_ss=r&variant=42507690213595\" title=\"https://www.karakubuy.com/products/%E3%82%B3%E3%83%BC%E3%83%87%E3%83%A5%E3%83%AD%E3%82%A4-%E8%97%8D%E6%9F%93%E3%83%93%E3%83%B3%E3%83%86%E3%83%BC%E3%82%B8%E3%83%95%E3%83%AC%E3%83%B3%E3%83%81%E3%83%AF%E3%83%BC%E3%82%AF%E3%82%B8%E3%83%A3%E3%82%B1%E3%83%83%E3%83%88?_pos=1&_sid=1a2475066&_ss=r&variant=42507690213595\">Jacket ¥21,480(inc.tax)┃...........Buy  </a></p><p></p><p><a href=\"https://www.karakubuy.com/products/krk-md-ts2207202?_pos=1&_sid=8bf2ff33b&_ss=r&variant=43237210751195\" title=\"https://www.karakubuy.com/products/krk-md-ts2207202?_pos=1&_sid=8bf2ff33b&_ss=r&variant=43237210751195\">Inner ¥7,190(inc.tax)┃...........Buy</a></p><p></p><p><a href=\"https://www.karakubuy.com/products/krk-dh-091002?_pos=1&_sid=9420cb2bc&_ss=r&variant=40923365605554\" title=\"https://www.karakubuy.com/products/krk-dh-091002?_pos=1&_sid=9420cb2bc&_ss=r&variant=40923365605554\">Pants ¥8,779(inc.tax)┃...........Buy</a></p><p></p><p><a href=\"https://www.karakubuy.com/products/krk-zm-x04?_pos=1&_sid=94e7bded1&_ss=r&variant=42295272833243\" title=\"https://www.karakubuy.com/products/krk-zm-x04?_pos=1&_sid=94e7bded1&_ss=r&variant=42295272833243\">Shoes ¥14,719inc.tax)┃...........Buy</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_f6AUcD",
+        "text_r7NNpK"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "1663832148023bb471": {
+      "type": "rich-text",
+      "blocks": {
+        "e1353896-5110-438c-86f8-1ba95624f43e": {
+          "type": "icon",
+          "settings": {
+            "icon": "star"
+          }
+        },
+        "1663832148dfad5f8f-1": {
+          "type": "heading",
+          "settings": {
+            "title": "世界の民族衣装—NAVAJO STYLE",
+            "use_h1": false
+          }
+        },
+        "1663832148dfad5f8f-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ナバホ族は、アメリカの南西部に先住するインディアン部族。いつもアメリカンビンテージスタイルには欠かせないエレメントトなる。ナバホ織りに使われる羊毛は美しい光沢があり、織物、厚手のセーターなどに使われ、また、独自の織機をつかって織られます。その模様はそれぞれ意味があり、非常に高価なものです。</p><p>ナバホ族の伝統工芸のひとつ『ナバホ織り』は、300年の歴史を誇る彼らの先祖が育んできた文化の指標であり、その模様の多くが抽象的で、大変装飾効果がある物ばかり。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "e1353896-5110-438c-86f8-1ba95624f43e",
+        "1663832148dfad5f8f-1",
+        "1663832148dfad5f8f-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_QQpeNx": {
+      "type": "custom-content",
+      "blocks": {
+        "image_6Kfm6N": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/7_KRK-GLDP9021104_530cef64-3670-4b5f-aa77-77ce68d35680.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_8bbHBV": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "エスニックエッセンスをあなたに",
+            "text": "<p>半纏をモチーフとした襟元、デニムを使用し、現代ファッショナブルに変化させる。<br/>柿染めで完成された特別がストライプ柄のテーパードワイドパンツ。<br/>絶妙な柿染め色とブラックのストライプの色合いはさりげなくオシャレ感を演出。<br/>エスニック調を演出した半纏と合わせると、スペシャルのワンセットになるに違いないです。<br/></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "text_Rqwebe": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "ITEM",
+            "text": "<p><a href=\"https://www.karakubuy.com/products/krk-gldp9021104?_pos=1&_sid=fc1f75771&_ss=r\" title=\"https://www.karakubuy.com/products/krk-gldp9021104?_pos=1&_sid=fc1f75771&_ss=r\">Jacket ¥17,980(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/tw2107135?_pos=2&_sid=52b570ddd&_ss=r&variant=40877928415410\" title=\"https://www.karakubuy.com/products/tw2107135?_pos=2&_sid=52b570ddd&_ss=r&variant=40877928415410\">Inner ¥8,748(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/krk-sz093001?_pos=1&_sid=8c5494ce0&_ss=r&variant=41127046217906\" title=\"https://www.karakubuy.com/products/krk-sz093001?_pos=1&_sid=8c5494ce0&_ss=r&variant=41127046217906\">Pants ¥15,746(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/md2007032?_pos=1&_sid=02d7a11bd&_ss=r&variant=40833361739954\" title=\"https://www.karakubuy.com/products/md2007032?_pos=1&_sid=02d7a11bd&_ss=r&variant=40833361739954\">Shoes ¥14,850inc.tax)┃...........Buy</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_6Kfm6N",
+        "text_8bbHBV",
+        "text_Rqwebe"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_TXKWKA": {
+      "type": "custom-content",
+      "blocks": {
+        "image_P7tkCa": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/6_KRK-HP-SJ49.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_wdxD7f": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "個性を出しながらも、クリーン着こなしに",
+            "text": "<p>民族調柄は無地の部分とのコンビデザインは特徴と楽しみポイントになり、<br/>背中とポケットの部分にある大胆な民族風柄はインパクトはあり、主役級のアイテムです。<br/>ボトムスはスタイリッシュな大定番のカーキで、無地のイージーパンツなのでコーデすると着こなしやすいボディバランスです。<br/><br/><br/></p><p><strong>ITEM</strong></p><p><a href=\"https://www.karakubuy.com/products/krk-hp-sj49?_pos=1&_sid=bf33dd62c&_ss=r&variant=42232470733019\" title=\"https://www.karakubuy.com/products/krk-hp-sj49?_pos=1&_sid=bf33dd62c&_ss=r&variant=42232470733019\">Jacket ¥15,278(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%83%97%E3%83%A1%E3%83%B3%E3%82%BA%E3%82%B7%E3%83%A3%E3%83%84%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%83%B3%E9%95%B7%E8%A2%96%E3%82%B7%E3%83%A3%E3%83%84?_pos=2&_sid=296066f9b&_ss=r&variant=40042428661938\" title=\"https://www.karakubuy.com/products/%E3%82%B9%E3%83%88%E3%83%A9%E3%82%A4%E3%83%97%E3%83%A1%E3%83%B3%E3%82%BA%E3%82%B7%E3%83%A3%E3%83%84%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%83%B3%E9%95%B7%E8%A2%96%E3%82%B7%E3%83%A3%E3%83%84?_pos=2&_sid=296066f9b&_ss=r&variant=40042428661938\">Inner ¥8,865(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/tw2101153?_pos=1&_sid=63a43b7f8&_ss=r&variant=40902243287218\" title=\"https://www.karakubuy.com/products/tw2101153?_pos=1&_sid=63a43b7f8&_ss=r&variant=40902243287218\">Pants ¥11,340(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/krk-md-ma2204014?_pos=1&_sid=7f4cbbfbd&_ss=r&variant=42800282960091\" title=\"https://www.karakubuy.com/products/krk-md-ma2204014?_pos=1&_sid=7f4cbbfbd&_ss=r&variant=42800282960091\">Shoes ¥17,809inc.tax)┃...........Buy</a></p><p></p><p></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_P7tkCa",
+        "text_wdxD7f"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_HLL6jH": {
+      "type": "custom-content",
+      "blocks": {
+        "image_tW8iKF": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/5_KRK-LY515-JK54_70004207-3693-47fc-95fd-874bb8b4627e.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "text_e39kp3": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "見た目から優雅さを感じさせる",
+            "text": "<p>長い時間と工程をかけて作り上げた独特なデザインは民族調が魅力。民族的な模様を乗せた独創的なニットジャケット。まるで表と裏を反対にしているような、凹凸感のあるテクスチャーがこだわりのポイントのジャケット。<br/>ボトムスは清潔感を出すオフホワイトで仕上げた、カーゴパンツの定番人気に推されるペインターパンツです。マルチポケットのデザインで用途に合わせた収納ができる機能性に優れた仕様もポイントです。全体的にきれいめに合わせるのが大人らしくこなすコツです。<br/></p><p><strong>ITEM</strong></p><p><a href=\"https://www.karakubuy.com/products/krk-ly515-jk54?_pos=1&_sid=93fdc8ada&_ss=r&variant=43318500950235\" title=\"https://www.karakubuy.com/products/krk-ly515-jk54?_pos=1&_sid=93fdc8ada&_ss=r&variant=43318500950235\">Jacket ¥16,980(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/krk-mbbt1137?_pos=1&_sid=f447fd1f0&_ss=r&variant=42844073230555\" title=\"https://www.karakubuy.com/products/krk-mbbt1137?_pos=1&_sid=f447fd1f0&_ss=r&variant=42844073230555\">Inner ¥8,100(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/krk-md-tls2201827?_pos=2&_sid=3d7cf9103&_ss=r&variant=42351253913819\" title=\"https://www.karakubuy.com/products/krk-md-tls2201827?_pos=2&_sid=3d7cf9103&_ss=r&variant=42351253913819\">Pants ¥11,895(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/krk-md2201004?_pos=1&_sid=aa9c2f8d9&_ss=r&variant=42343491403995\" title=\"https://www.karakubuy.com/products/krk-md2201004?_pos=1&_sid=aa9c2f8d9&_ss=r&variant=42343491403995\">Shoes ¥17,820inc.tax)┃...........Buy</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_tW8iKF",
+        "text_e39kp3"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "16638320272a683518": {
+      "type": "rich-text",
+      "blocks": {
+        "d7cc4b54-0af1-43b9-90a8-fbe19ea2d552": {
+          "type": "icon",
+          "settings": {
+            "icon": "leaf"
+          }
+        },
+        "1663832027633dacc7-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "1663832027633dacc7-1": {
+          "type": "heading",
+          "settings": {
+            "title": "ミリタリーはいつもトレンドの中心にある",
+            "use_h1": false
+          }
+        },
+        "1663832027633dacc7-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>毎年浮上するキーワード「ミリタリー」ですが、今年は本気。でも、ミリタリーって若い人向けでしょ……という敬遠する人も。けど、実は大人の強い味方だって知ってました？なぜ、男はそれに惹かれるか。ミリタリーファッションの魅力とは？</p><p>ミリタリーはいつもトレンドの中心にある。<br/>戦中や戦前にその原型が作られながらも、今なお多くのブランドのデザインソースとされている永遠の定番、ミリタリーウェア。多くのデザイナーやファッショニスタの心を掴むその魅力は、「おしゃれ」を目的に作られていないことにあります。例えば、多様な「カモフラージュ柄」はそれぞれが森林や雪山などの環境に馴染み、「MA-1」の蛍光オレンジの裏地は遭難時に目を惹いてくれるなど、一見華美に見える造りは実のところ、合理的に考え抜かれた機能の一つ。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "d7cc4b54-0af1-43b9-90a8-fbe19ea2d552",
+        "1663832027633dacc7-0",
+        "1663832027633dacc7-1",
+        "1663832027633dacc7-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_mcAdBF": {
+      "type": "custom-content",
+      "blocks": {
+        "image_R4xjNg": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/8_MD-W2007119_ffb9d6bb-beea-4c02-9ec9-7fa656408337.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_A9FGFq": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "洗練でシンプルなミリタリースタイル",
+            "text": "<p>無骨すぎると思われがちの人気の高いMA-1のフライトジャケットを洗練でシンプルなデザインに改良した一着。<br/>ミリタリーの雰囲気を感じさせながらも、幅広い場面に着用できるので汎用性が高いのが魅力。<br/>重圧感あるアウターなので、ジーンズと合わせればカジュアルな雰囲気を演出でき、軽さを出したのがポイントです。</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "text_YHyRrx": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "ITEM",
+            "text": "<p><a href=\"https://www.karakubuy.com/products/md-w2007119?_pos=1&_sid=526b1667d&_ss=r&variant=40680247099570\" title=\"https://www.karakubuy.com/products/md-w2007119?_pos=1&_sid=526b1667d&_ss=r&variant=40680247099570\">Jacket ¥15,160(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/dh090703?_pos=1&_sid=e2e94aec6&_ss=r&variant=40903246151858\" title=\"https://www.karakubuy.com/products/dh090703?_pos=1&_sid=e2e94aec6&_ss=r&variant=40903246151858\">Inner ¥10,692(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/krk-rf-3380?_pos=1&_sid=cdc8a8984&_ss=r&variant=42133171667163\" title=\"https://www.karakubuy.com/products/krk-rf-3380?_pos=1&_sid=cdc8a8984&_ss=r&variant=42133171667163\">Pants ¥11,340(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/%E6%96%B0%E5%93%81%E6%9C%9F%E9%96%93%E9%99%90%E5%AE%9A-%E5%A4%A7%E4%BA%BA%E6%B0%97-%E3%83%8F%E3%82%A4%E3%83%88%E3%83%83%E3%83%97%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%90%E3%82%B9%E3%82%B7%E3%83%A5%E3%83%BC%E3%82%BA-%E3%82%B8%E3%83%83%E3%83%91%E3%83%BC%E5%8F%A4%E3%81%84%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3?_pos=1&_sid=97adf6840&_ss=r&variant=39831032791218\" title=\"https://www.karakubuy.com/products/%E6%96%B0%E5%93%81%E6%9C%9F%E9%96%93%E9%99%90%E5%AE%9A-%E5%A4%A7%E4%BA%BA%E6%B0%97-%E3%83%8F%E3%82%A4%E3%83%88%E3%83%83%E3%83%97%E3%82%AD%E3%83%A3%E3%83%B3%E3%83%90%E3%82%B9%E3%82%B7%E3%83%A5%E3%83%BC%E3%82%BA-%E3%82%B8%E3%83%83%E3%83%91%E3%83%BC%E5%8F%A4%E3%81%84%E3%83%87%E3%82%B6%E3%82%A4%E3%83%B3?_pos=1&_sid=97adf6840&_ss=r&variant=39831032791218\">Shoes ¥12,949inc.tax)┃...........Buy</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_R4xjNg",
+        "text_A9FGFq",
+        "text_YHyRrx"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_bqzYEJ": {
+      "type": "custom-content",
+      "blocks": {
+        "image_3yDpPy": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/9_KRK-VIP-AK181117_a58b8054-c577-4e59-8269-dbcf649543a9.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_HhJWVP": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "ミリタリーの雰囲気が満載",
+            "text": "<p>男らしさ満点の人気アイテム\"フライトジャケット\"。個性が出るフライングタイガース刺繍と、バックにもフライングタイガース柄付き、目立つのポイントとなります。<br/>インナーにパーカーで上品さを加えつつ、デニムシャツをちら見えさせると収まりがよくなります。<br/>全体をグリーン基調のコーディネートにすれば、より統一感が生まれて洒脱にまとまります。<br/></p><p><strong>ITEM</strong></p><p><a href=\"https://www.karakubuy.com/products/ak201119?_pos=1&_sid=1ebc481d5&_ss=r&variant=40869909823666\" title=\"https://www.karakubuy.com/products/ak201119?_pos=1&_sid=1ebc481d5&_ss=r&variant=40869909823666\">Jacket ¥17,930(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/krk-md-tww2201213?_pos=1&_sid=d6db81560&_ss=r&variant=42256757162203\" title=\"https://www.karakubuy.com/products/krk-md-tww2201213?_pos=1&_sid=d6db81560&_ss=r&variant=42256757162203\">Inner ¥10,590(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/krk-md-tw2201219?_pos=1&_sid=1fd1c5cb1&_ss=r&variant=42340749181147\" title=\"https://www.karakubuy.com/products/krk-md-tw2201219?_pos=1&_sid=1fd1c5cb1&_ss=r&variant=42340749181147\">Inner（パーカー） ¥7,990(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/krk-s2007047?_pos=2&_sid=78aad151d&_ss=r&variant=40859730641074\" title=\"https://www.karakubuy.com/products/krk-s2007047?_pos=2&_sid=78aad151d&_ss=r&variant=40859730641074\">Pants ¥7,990(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/md2007047?_pos=1&_sid=ae1fe0ab7&_ss=r&variant=40795324186802\" title=\"https://www.karakubuy.com/products/md2007047?_pos=1&_sid=ae1fe0ab7&_ss=r&variant=40795324186802\">Shoes ¥13,980inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/krk-mt-112901?_pos=1&_sid=5ba021a2a&_ss=r&variant=42119170654427\" title=\"https://www.karakubuy.com/products/krk-mt-112901?_pos=1&_sid=5ba021a2a&_ss=r&variant=42119170654427\">Gloves ¥9,439inc.tax)┃...........Buy</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_3yDpPy",
+        "text_HhJWVP"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "16639120813df3bcd1": {
+      "type": "rich-text",
+      "blocks": {
+        "712c7218-d37b-4f0d-8102-60a9d327dcd8": {
+          "type": "icon",
+          "settings": {
+            "icon": "label"
+          }
+        },
+        "1663912081448f518a-1": {
+          "type": "heading",
+          "settings": {
+            "title": "アメカジ・ワークスタイルの定番であるカバーオールを現代的に",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "712c7218-d37b-4f0d-8102-60a9d327dcd8",
+        "1663912081448f518a-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_pbwJMB": {
+      "type": "custom-content",
+      "blocks": {
+        "image_rxeTHB": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/10_KRK-MD-W1907104.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_MekAJL": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "",
+            "text": "<p>ラッドなイメージのカバーオールを現代の気分を味わえるシルエットに再構築し、羽織るだけで洗練された綺麗なラインとなり、大人のエレガントさを演出してくれる。<br/>オールド感漂うウォバッシュストライプのワークパンツと合わせれば、ヴィンテージが香る本格仕様の魅力が詰まった、落ち着いた雰囲気で上質な大人アメカジ・ワークスタイルを演出してくれます。<br/></p><p><strong>ITEM</strong></p><p><a href=\"https://www.karakubuy.com/products/krk-md-w1907104?_pos=2&_sid=2c98d0b17&_ss=r&variant=42448771809499\" title=\"https://www.karakubuy.com/products/krk-md-w1907104?_pos=2&_sid=2c98d0b17&_ss=r&variant=42448771809499\">Jacket ¥13,500(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/krk-mf-094117?_pos=1&_sid=510420a40&_ss=r&variant=42315979751643\" title=\"https://www.karakubuy.com/products/krk-mf-094117?_pos=1&_sid=510420a40&_ss=r&variant=42315979751643\">Inner ¥7,190(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/md-s2007034?_pos=1&_sid=476fa2b35&_ss=r&variant=43079042859227\" title=\"https://www.karakubuy.com/products/md-s2007034?_pos=1&_sid=476fa2b35&_ss=r&variant=43079042859227\">Pants ¥11,000(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/md-md2007031?_pos=1&_sid=5b661a2f3&_ss=r&variant=40779068506290\" title=\"https://www.karakubuy.com/products/md-md2007031?_pos=1&_sid=5b661a2f3&_ss=r&variant=40779068506290\">Shoes ¥12,980inc.tax)┃...........Buy</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_rxeTHB",
+        "text_MekAJL"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "1663832124ce73b064": {
+      "type": "rich-text",
+      "blocks": {
+        "002ffcff-765d-42bc-9679-dbba8ef13302": {
+          "type": "icon",
+          "settings": {
+            "icon": "star"
+          }
+        },
+        "16638321244a47a9b3-1": {
+          "type": "heading",
+          "settings": {
+            "title": "スポーティー",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "002ffcff-765d-42bc-9679-dbba8ef13302",
+        "16638321244a47a9b3-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_zPzJaE": {
+      "type": "custom-content",
+      "blocks": {
+        "image_rMQtEm": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/1_KRK-MD-TW2101168.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_KdEh8V": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "Urban Sports",
+            "text": "<p>スタイリングの主役となるカラーコントラスト、アーバンスポーツ、アーバンカジュアルなテイストを兼ね備えたジャケットをリリースしたジャケットです。<br/>スポーティになりすぎないのが魅力であり、カーゴパンツやスニーカーなどのカジュアルアイテムと合わせても、都会的かつモダンに着こなせます。<br/></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "text_ipBVBz": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "ITEM",
+            "text": "<p><a href=\"https://www.karakubuy.com/products/krk-md-tw2101168?_pos=1&_sid=0b4bbee1c&_ss=r&variant=42600143782107\" title=\"https://www.karakubuy.com/products/krk-md-tw2101168?_pos=1&_sid=0b4bbee1c&_ss=r&variant=42600143782107\">Jacket ¥9,590(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%83%B3%E3%83%AC%E3%83%88%E3%83%AD%E3%82%B3%E3%83%83%E3%83%88%E3%83%B3100-%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88t%E3%82%B7%E3%83%A3%E3%83%84-%E5%8D%8A%E8%A2%96?_pos=1&_sid=685b234cb&_ss=r&variant=40106786685106\" title=\"https://www.karakubuy.com/products/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%83%B3%E3%83%AC%E3%83%88%E3%83%AD%E3%82%B3%E3%83%83%E3%83%88%E3%83%B3100-%E3%83%9B%E3%83%AF%E3%82%A4%E3%83%88t%E3%82%B7%E3%83%A3%E3%83%84-%E5%8D%8A%E8%A2%96?_pos=1&_sid=685b234cb&_ss=r&variant=40106786685106\">Inner ¥7,560(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/md-w2001135?_pos=2&_sid=017d2acca&_ss=r&variant=40369574969522\" title=\"https://www.karakubuy.com/products/md-w2001135?_pos=2&_sid=017d2acca&_ss=r&variant=40369574969522\">Pants ¥12,990(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/md2001033?_pos=1&_sid=50eaa269f&_ss=r&variant=40389971280050\" title=\"https://www.karakubuy.com/products/md2001033?_pos=1&_sid=50eaa269f&_ss=r&variant=40389971280050\">Shoes ¥15,919inc.tax)┃...........Buy</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_rMQtEm",
+        "text_KdEh8V",
+        "text_ipBVBz"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_n8mM8r": {
+      "type": "custom-content",
+      "blocks": {
+        "image_U9XRGb": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/2_TW2101167.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_t6ifBg": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "スポーティの雰囲気を出したU.S.ARMYトレーニングジャケット",
+            "text": "<p>ジャケットは昔から人気がありよく着られていましたが、最近の古着ブームの影響で若者ファンが急に増加しSNS効果もあり、話題になっています。街中でも年齢性別問わず着られているのをよく見かけた<br/>米陸軍、空軍のトレーニング時に着用する実物放出品のトレーニングジャケットになります。<br/>ボトムはジーンズなののカジュアルなアイテムをチョイスして、全体的にスポーティになりすぎないようにするのがポイントです。<br/></p><p><strong>ITEM</strong></p><p><a href=\"https://www.karakubuy.com/products/tw2101167?_pos=1&_sid=6adb04c7e&_ss=r&variant=40918121316530\" title=\"https://www.karakubuy.com/products/tw2101167?_pos=1&_sid=6adb04c7e&_ss=r&variant=40918121316530\">Jacket ¥12,830(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/krk-md-tww2201231?_pos=1&_sid=60f093e68&_ss=r&variant=42609906122971\" title=\"https://www.karakubuy.com/products/krk-md-tww2201231?_pos=1&_sid=60f093e68&_ss=r&variant=42609906122971\">Inner ¥6,890(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%83%B3%E3%83%AC%E3%83%88%E3%83%AD%E3%82%B9%E3%83%AA%E3%83%A0-%E3%82%B8%E3%83%BC%E3%83%B3%E3%82%BA?_pos=1&_sid=f103eca89&_ss=r&variant=40128373424306\" title=\"https://www.karakubuy.com/products/%E3%82%A2%E3%83%A1%E3%83%AA%E3%82%AB%E3%83%B3%E3%83%AC%E3%83%88%E3%83%AD%E3%82%B9%E3%83%AA%E3%83%A0-%E3%82%B8%E3%83%BC%E3%83%B3%E3%82%BA?_pos=1&_sid=f103eca89&_ss=r&variant=40128373424306\">Pants ¥11,124(inc.tax)┃...........Buy</a><br/><a href=\"https://www.karakubuy.com/products/%E3%83%89%E3%82%A4%E3%83%84%E8%BB%8D%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%BC?_pos=1&_sid=c735ed31e&_ss=r&variant=40107777261746\" title=\"https://www.karakubuy.com/products/%E3%83%89%E3%82%A4%E3%83%84%E8%BB%8D%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E3%83%8B%E3%83%BC%E3%82%AB%E3%83%BC?_pos=1&_sid=c735ed31e&_ss=r&variant=40107777261746\">Shoes ¥12,190inc.tax)┃...........Buy</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_U9XRGb",
+        "text_t6ifBg"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "16570081522c5796df",
+    "1663751344f0143479",
+    "1657247011ebcd16b6",
+    "custom_content_WRMA3G",
+    "custom_content_M7fqar",
+    "1663832148023bb471",
+    "custom_content_QQpeNx",
+    "custom_content_TXKWKA",
+    "custom_content_HLL6jH",
+    "16638320272a683518",
+    "custom_content_mcAdBF",
+    "custom_content_bqzYEJ",
+    "16639120813df3bcd1",
+    "custom_content_pbwJMB",
+    "1663832124ce73b064",
+    "custom_content_zPzJaE",
+    "custom_content_n8mM8r",
+    "main",
+    "1635765484031572a6"
+  ]
+}

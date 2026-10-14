@@ -1,0 +1,442 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "header",
+  "name": "Header Group",
+  "sections": {
+    "scrolling_banner_aKwPdh": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_VCjtXQ": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "5月1日20:30より初のインスタライブ配信決定！",
+            "color": "#ffffff",
+            "link": "https://karakubuy.com/pages/karaku-live",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "text_PgGFd7": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "常設店舗丨東京都渋谷区神宮前3丁目24番1号イン・ザ・ストリームビル1F",
+            "color": "#ffffff",
+            "link": "https://karakubuy.com/pages/open",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "text_axYMBT": {
+          "type": "text",
+          "settings": {
+            "text": "Kuala Lumpur Store: GS.11.0 Ground Floor, The Exchange TRX",
+            "color": "#ffffff",
+            "link": "https://karakubuy.com/pages/2025-malaysia-open",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_VCjtXQ",
+        "text_PgGFd7",
+        "text_axYMBT"
+      ],
+      "disabled": true,
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "1",
+        "text_size": 18,
+        "vertical_padding": 5,
+        "speed": 3,
+        "direction": "left",
+        "font": "base",
+        "space": 140
+      }
+    },
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "announcement-2": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "<a href=\"https://karakubuy.com/collections/ranking\" title=\"https://karakubuy.com/collections/ranking\">2点購入で10％OFF，クーポンコード：MO10</a>",
+            "show_countdown": false,
+            "hide_on_end": false,
+            "end_date": "",
+            "end_time": "",
+            "number_font": "base",
+            "countdown_separator": "box",
+            "use_custom_colors": false,
+            "bg_color": "#4a4a4a",
+            "bg_gradient": "",
+            "text_color": "#ffffff"
+          }
+        },
+        "announcement_rqemnN": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "<a href=\"https://www.karakubuy.com/account/login\" title=\"ログイン\"><strong>【会員限定】每月7、17、27日のお買い物でポイント3倍アップ</strong></a>",
+            "show_countdown": false,
+            "hide_on_end": false,
+            "end_date": "",
+            "end_time": "",
+            "number_font": "base",
+            "countdown_separator": "box",
+            "use_custom_colors": false,
+            "bg_color": "#4a4a4a",
+            "bg_gradient": "",
+            "text_color": "#ffffff"
+          }
+        },
+        "announcement_RmjPnM": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "<a href=\"https://karakubuy.com/collections/karaku-mens-lucky-bag-2026\" title=\"https://karakubuy.com/collections/karaku-mens-lucky-bag-2026\">KARAKU 2026新春福袋 販売スタート！</a>",
+            "show_countdown": false,
+            "hide_on_end": false,
+            "end_date": "",
+            "end_time": "",
+            "number_font": "base",
+            "countdown_separator": "box",
+            "use_custom_colors": false,
+            "bg_color": "#4a4a4a",
+            "bg_gradient": "",
+            "text_color": "#ffffff"
+          }
+        },
+        "announcement_NLDM9D": {
+          "type": "announcement",
+          "settings": {
+            "text": "<a href=\"/pages/officialwebsite-20250901\" target=\"_blank\" title=\"偽サイトに関する重要なお知らせとご注意のお願い\">【注意喚起】偽サイトにご注意ください</a>",
+            "show_countdown": false,
+            "hide_on_end": false,
+            "end_date": "",
+            "end_time": "",
+            "number_font": "base",
+            "countdown_separator": "box",
+            "use_custom_colors": false,
+            "bg_color": "#4a4a4a",
+            "bg_gradient": "",
+            "text_color": "#ffffff"
+          }
+        },
+        "announcement_AeGrCH": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "<a href=\"https://karakubuy.com/collections/ranking\" title=\"https://karakubuy.com/collections/ranking\">2点購入で10％OFF，クーポンコード：</a>BLK10",
+            "show_countdown": false,
+            "hide_on_end": false,
+            "end_date": "",
+            "end_time": "",
+            "number_font": "base",
+            "countdown_separator": "box",
+            "use_custom_colors": false,
+            "bg_color": "#4a4a4a",
+            "bg_gradient": "",
+            "text_color": "#ffffff"
+          }
+        },
+        "announcement_wVCg3t": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "3点以上<a href=\"https://karakubuy.com/collections/ranking\" title=\"https://karakubuy.com/collections/ranking\">ご購入で20％OFF，クーポンコード：</a>BLK20",
+            "show_countdown": false,
+            "hide_on_end": false,
+            "end_date": "",
+            "end_time": "",
+            "number_font": "base",
+            "countdown_separator": "box",
+            "use_custom_colors": false,
+            "bg_color": "#4a4a4a",
+            "bg_gradient": "",
+            "text_color": "#ffffff"
+          }
+        },
+        "announcement_mTjwdV": {
+          "type": "announcement",
+          "disabled": true,
+          "settings": {
+            "text": "<a href=\"https://karakubuy.com/collections/ranking\" title=\"https://karakubuy.com/collections/ranking\">5点以上のご購入で25% OFFクーポンコード：BLK25</a>",
+            "show_countdown": false,
+            "hide_on_end": false,
+            "end_date": "",
+            "end_time": "",
+            "number_font": "base",
+            "countdown_separator": "box",
+            "use_custom_colors": false,
+            "bg_color": "#4a4a4a",
+            "bg_gradient": "",
+            "text_color": "#ffffff"
+          }
+        },
+        "announcement-1": {
+          "type": "announcement",
+          "settings": {
+            "text": "<a href=\"https://karakubuy.com/collections/all-products\" target=\"_blank\" title=\"https://karakubuy.com/collections/all-products\">11,999円以上の購入で送料無料！ ※北海道・沖縄は別送料 </a>",
+            "show_countdown": false,
+            "hide_on_end": false,
+            "end_date": "",
+            "end_time": "",
+            "number_font": "base",
+            "countdown_separator": "box",
+            "use_custom_colors": false,
+            "bg_color": "#4a4a4a",
+            "bg_gradient": "",
+            "text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "announcement-2",
+        "announcement_rqemnN",
+        "announcement_RmjPnM",
+        "announcement_NLDM9D",
+        "announcement_AeGrCH",
+        "announcement_wVCg3t",
+        "announcement_mTjwdV",
+        "announcement-1"
+      ],
+      "custom_css": [
+        ".announcement__text a {text-decoration: none;}"
+      ],
+      "settings": {
+        "message_font_size": 14,
+        "announcement_bar_col": "#000000",
+        "announcement_bar_gradient": "",
+        "announcement_text_col": "#ffffff",
+        "show_social_icons": true,
+        "menu": "",
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    },
+    "photo_banner_MArrLL": {
+      "type": "photo-banner",
+      "disabled": true,
+      "name": "Photo Banner",
+      "settings": {
+        "image": "shopify://shop_images/20260820-195831.png",
+        "mobile_image": "shopify://shop_images/20260820-195831.png",
+        "banner_link": "",
+        "photo_banner_col": "#7d6d57"
+      }
+    },
+    "photo_banner_countdown_LpMyDF": {
+      "type": "photo-banner-countdown",
+      "disabled": true,
+      "name": "Photo Banner Countdown",
+      "settings": {
+        "image": "shopify://shop_images/PC_ccc4f56b-5424-4d0c-ad02-dab11a15b3c1.png",
+        "mobile_image": "shopify://shop_images/MB_34b52986-c7ac-4218-93b2-2978a2839d12.png",
+        "banner_link": "https://karakubuy.com/collections/summer-sale-2026",
+        "photo_banner_col": "#fc7806",
+        "end_date": "2026-08-02",
+        "end_time": "23:00",
+        "end_text": "",
+        "hide_on_end": false,
+        "number_size": 24,
+        "number_font": "base",
+        "divider_type": "colon",
+        "show_timer_labels": true,
+        "countdown_col": "#000000",
+        "countdown_text_col": "#ffffff"
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "menu_promotion_small_qiwnEX": {
+          "type": "menu-promotion-small",
+          "disabled": true,
+          "settings": {
+            "dropdown_link_title": "全商品",
+            "image": "shopify://shop_images/7a7c7c10328f016f20f10ea93308c6b6.png",
+            "title": "全商品",
+            "link_url": "https://karakubuy.com/collections/all-products"
+          }
+        },
+        "menu_promotion_small_wP9PB4": {
+          "type": "menu-promotion-small",
+          "settings": {
+            "dropdown_link_title": "ランキングから探す",
+            "image": "shopify://shop_images/980x657-ranking.jpg",
+            "title": "ランキングから探す",
+            "link_url": "https://karakubuy.com/collections/ranking"
+          }
+        },
+        "menu_promotion_small_AKafif": {
+          "type": "menu-promotion-small",
+          "settings": {
+            "dropdown_link_title": "新着商品",
+            "image": "shopify://shop_images/a44fc39f6ffba76a49cc0cd9b333d322.png",
+            "title": "新着商品",
+            "link_url": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C"
+          }
+        },
+        "menu_promotion_small_4LWJmx": {
+          "type": "menu-promotion-small",
+          "disabled": true,
+          "settings": {
+            "dropdown_link_title": "新着商品",
+            "image": "shopify://shop_images/6699988.jpg",
+            "title": "2026 秋冬新作",
+            "link_url": "shopify://collections/2026aw"
+          }
+        },
+        "menu_promotion_small_f6LMDB": {
+          "type": "menu-promotion-small",
+          "disabled": true,
+          "settings": {
+            "dropdown_link_title": "新着商品",
+            "image": "shopify://shop_images/2_bf3064bb-ace9-4b8c-9309-974210d1d39e.png",
+            "title": "ALOHA SHIRTS",
+            "link_url": "https://karakubuy.com/collections/hawaiian-shirts"
+          }
+        },
+        "menu_promotion_small_jdLNwC": {
+          "type": "menu-promotion-small",
+          "settings": {
+            "dropdown_link_title": "特集",
+            "image": "shopify://shop_images/ChatGPT_Image_2026_8_18_19_57_32_1.png",
+            "title": "KARAKU×石黒亜矢子",
+            "link_url": "https://karakubuy.com/collections/karaku-ishiguroayako"
+          }
+        },
+        "menu_promotion_small_BYGXDT": {
+          "type": "menu-promotion-small",
+          "disabled": true,
+          "settings": {
+            "dropdown_link_title": "新着商品",
+            "image": "shopify://shop_images/3_dda692c8-75b4-4f74-8331-6b9a79ad5f23.png",
+            "title": "2026SS PRE ORDER",
+            "link_url": "https://karakubuy.com/collections/%E5%85%88%E8%A1%8C%E4%BA%88%E7%B4%84%E5%95%86%E5%93%81"
+          }
+        },
+        "menu_promotion_small_7NmKx6": {
+          "type": "menu-promotion-small",
+          "settings": {
+            "dropdown_link_title": "もっと見る",
+            "image": "shopify://shop_images/ChatGPT_Image_Jun_24_2026_08_06_05_PM.png",
+            "title": "KARAKU SHOP",
+            "link_url": "https://karakubuy.com/pages/karaku-shop"
+          }
+        },
+        "menu_promotion_small_AXcnHf": {
+          "type": "menu-promotion-small",
+          "settings": {
+            "dropdown_link_title": "特集",
+            "image": "shopify://shop_images/Br_PC_A_1.png",
+            "title": "特集",
+            "link_url": "https://karakubuy.com/collections/karaku-cat"
+          }
+        },
+        "menu_promotion_small_KeMGU6": {
+          "type": "menu-promotion-small",
+          "disabled": true,
+          "settings": {
+            "dropdown_link_title": "特集",
+            "image": "shopify://shop_images/6_1af66bde-d913-44b7-90ce-a45f3701a3f6.jpg",
+            "title": "SALEで売れてる！",
+            "link_url": "https://karakubuy.com/collections/2026-summersale-ranking"
+          }
+        }
+      },
+      "block_order": [
+        "menu_promotion_small_qiwnEX",
+        "menu_promotion_small_wP9PB4",
+        "menu_promotion_small_AKafif",
+        "menu_promotion_small_4LWJmx",
+        "menu_promotion_small_f6LMDB",
+        "menu_promotion_small_jdLNwC",
+        "menu_promotion_small_BYGXDT",
+        "menu_promotion_small_7NmKx6",
+        "menu_promotion_small_AXcnHf",
+        "menu_promotion_small_KeMGU6"
+      ],
+      "custom_css": [
+        ".logo-area .logo {padding: 0px 0;}"
+      ],
+      "settings": {
+        "logo": "shopify://shop_images/LOGO_520x200_60a35cd6-d180-4731-9d88-bf1ae00046fb.png",
+        "logo_img_width_int": 125,
+        "mobile_logo_img_width_int": 100,
+        "logo_h1": true,
+        "enable_sticky": true,
+        "enable_transparent": false,
+        "transparent_color": "#ffffff",
+        "transparent_fade": "#000000",
+        "transparent_fade_strength": 0,
+        "menu_linklist": "main-menu",
+        "menu_layout": "inline-menu-center",
+        "nav_featured_link": "セール商品",
+        "enable_legacy_customer_account_link": false,
+        "customer_account_menu": "customer-account-main-menu",
+        "enable_mobile_split_nav": true,
+        "menu_linklist_mobile": "",
+        "mobile_expand_with_entire_link": true,
+        "enable_mobile_promo_carousel": true,
+        "enable_nav_mob_products": true,
+        "nav_mob_products_title": "KaraKu 人気アロハ",
+        "nav_mob_products_collection": "hawaiian-shirts",
+        "enable_search": true,
+        "search_recommendations_title": "",
+        "search_recommendations_menu": "",
+        "icon_strategy": "icons_only",
+        "cart_icon": "cart"
+      }
+    },
+    "store-messages": {
+      "type": "store-messages",
+      "blocks": {
+        "message_yq6xRL": {
+          "type": "message",
+          "settings": {
+            "heading": "ようこそKaraKuへ   初回会員登録で50,000ptが貯まる、使える。詳しくはこちら»",
+            "subheading": "",
+            "link_url": "https://www.karakubuy.com/#smile-home"
+          }
+        }
+      },
+      "block_order": [
+        "message_yq6xRL"
+      ],
+      "settings": {
+        "head_not_home_only": false,
+        "head_not_col_bg": "#f6f6f6",
+        "head_not_col_txt1": "#bf0000",
+        "head_not_col_txt2": "#4c4c4b",
+        "head_not_mob_show": true,
+        "head_not_mob_text": "ようこそKaraKuへ   初回会員登録で50,000ptが貯まる、使える。詳しくはこちら»",
+        "head_not_mob_url": "https://karakubuy.com/pages/karakuvip"
+      }
+    }
+  },
+  "order": [
+    "scrolling_banner_aKwPdh",
+    "announcement-bar",
+    "photo_banner_MArrLL",
+    "photo_banner_countdown_LpMyDF",
+    "header",
+    "store-messages"
+  ]
+}

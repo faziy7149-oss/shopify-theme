@@ -1,0 +1,552 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "slideshow_U8eaUR": {
+      "type": "slideshow",
+      "blocks": {
+        "image_6MzYqj": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/091__1920x780_a37c5c9c-1e56-4380-b021-569565b8c3bf.jpg",
+            "mobile_image": "shopify://shop_images/091__1080x1440_df319a11-d926-486d-9724-d8950330877f.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_6MzYqj"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 780,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [
+          "shirts",
+          "スウェット",
+          "ジャケット-アウター",
+          "アクセサリー",
+          "short-sleeve-t-shirts",
+          "short-sleeve-shirts",
+          "カーゴパンツ",
+          "coat",
+          "デニムパンツ"
+        ],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "image_4fDtcH": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_d47e93cc-d110-4593-8432-e1fed73f9ecb.png",
+        "mobile_image": "shopify://shop_images/720_e75f7afd-49ab-465c-8561-8c004560d347.png",
+        "img_rul": ""
+      }
+    },
+    "image_slider_8XCYQD": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_UWAG3j": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-1_1380727f-65b3-4e3c-9cae-558b579165fc.jpg"
+          }
+        },
+        "image_slider_WhtETY": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-2_149411f3-f270-4259-b470-5eb04939cec7.jpg"
+          }
+        },
+        "image_slider_PhdHzn": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-3_941bde98-382b-4ede-b501-309b49e1604c.jpg"
+          }
+        },
+        "image_slider_3fht4X": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-4_c2c920b4-8c04-4521-a46c-2b70ae1bf61f.jpg"
+          }
+        },
+        "main_diagram_ykRrVY": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-2_1525e373-61bc-4df5-8f37-a2b44108b90c.jpg",
+            "main_img2": "shopify://shop_images/600x720-1_ffea3edd-6942-4b14-a5e7-a5a5a3f5fd55.jpg"
+          }
+        },
+        "image_info_97tprP": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ターコイズ風のストーンが中央にはめ込まれたメタルボタン、ボタンの周囲はアンティークゴールドやシルバー調のフレームで囲まれている。フロントの中央ライン、袖口、襟元のすべてに同じデザインのボタンを採用し、統一感を演出。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lsx-tsk0320?_pos=2&_sid=3cceaef99&_ss=r&variant=46643990528219"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_UWAG3j",
+        "image_slider_WhtETY",
+        "image_slider_PhdHzn",
+        "image_slider_3fht4X",
+        "main_diagram_ykRrVY",
+        "image_info_97tprP"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "ワンポイント刺繍　ターコイズ風ボタン付き長袖シャツ",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#d4d4d4",
+        "but_font_col": "#1c7e86",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#60c4ce"
+      }
+    },
+    "image_slider_tqbbEL": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_HbjJ49": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-5_fa531cb5-fb4e-4915-bbb1-5f2fe13f2617.jpg"
+          }
+        },
+        "image_slider_g3dWiq": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-6_77341cb5-428c-4f2e-913e-0889253e801c.jpg"
+          }
+        },
+        "image_slider_Gb6XYL": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-7_6730a348-6c2e-40b5-a1c3-840067dc06db.jpg"
+          }
+        },
+        "image_slider_UXdqUx": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-8_ec147f39-343e-49a3-b141-4b4f7be2efdb.jpg"
+          }
+        },
+        "main_diagram_jUUtrY": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-3_9038879b-62f5-445d-add4-4e8390df0bdd.jpg",
+            "main_img2": "shopify://shop_images/600x720-4_92aa0e1f-bce9-4f1a-a483-95a298efde2d.jpg"
+          }
+        },
+        "image_info_hcC6nz": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ターコイズ風のストーンが中央にはめ込まれたメタルボタン、ボタンの周囲はアンティークゴールドやシルバー調のフレームで囲まれている。フロントの中央ライン、袖口、襟元のすべてに同じデザインのボタンを採用し、統一感を演出。",
+            "price_discount": 11980,
+            "original_price": 11980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lsx-dxnwcxsg423?_pos=1&_sid=ec4d936ba&_ss=r&variant=46724417585371"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_HbjJ49",
+        "image_slider_g3dWiq",
+        "image_slider_Gb6XYL",
+        "image_slider_UXdqUx",
+        "main_diagram_jUUtrY",
+        "image_info_hcC6nz"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "ワンポイント刺繍　ターコイズ風ボタン付き半袖シャツ",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#d4d4d4",
+        "but_font_col": "#1c7e86",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#60c4ce"
+      }
+    },
+    "image_slider_7gtApm": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_fjbDRN": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-13_6a564c00-76ba-4cbc-a39c-ecead44f5f3e.jpg"
+          }
+        },
+        "image_slider_EyzqUB": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-14_18c55d1d-6f19-4dc6-93ab-259841d53804.jpg"
+          }
+        },
+        "image_slider_rycTFp": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-15_12f4c86b-ec96-43eb-9ef7-381954efd076.jpg"
+          }
+        },
+        "image_slider_fKpUEG": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-16_ac06ca1a-4e90-4c09-9fc9-e7b135ae9aba.jpg"
+          }
+        },
+        "main_diagram_GHxKUk": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-8_c5ffac8e-1750-4d50-9e5c-0865a257c6c8.jpg",
+            "main_img2": "shopify://shop_images/600x720-7_b72eaec3-aa69-419a-bc33-556da309f749.jpg"
+          }
+        },
+        "image_info_jARHeU": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "襟の内側には小さなエスニックプリント、細かいディテールが丁寧に仕込まれている。左胸部分にはポケットが配置されて、そのポケットの上部や中にエスニック調のジャカード模様があしらわれて、シンプルなシャツのアクセントとなり、控えめながらも目を引く。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lsx-wlcmbsks407?_pos=1&_sid=e7803f582&_ss=r&variant=46676894318811"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_fjbDRN",
+        "image_slider_EyzqUB",
+        "image_slider_rycTFp",
+        "image_slider_fKpUEG",
+        "main_diagram_GHxKUk",
+        "image_info_jARHeU"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "エスニック調ジャカード　ターコイズ風ボタン付き長袖シャツ",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#d4d4d4",
+        "but_font_col": "#1c7e86",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#60c4ce"
+      }
+    },
+    "image_slider_XBqRt9": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_gJGAMW": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-17_84fd9ead-960b-4d10-810a-bc0db77b93c2.jpg"
+          }
+        },
+        "image_slider_Xki4FM": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-18_806097a8-902c-48fe-aa49-658cafc320b4.jpg"
+          }
+        },
+        "image_slider_tCUeEb": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-19_b21df1f5-7f8d-4bdd-8b6c-b536c7138467.jpg"
+          }
+        },
+        "image_slider_4HWDpp": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-20_20ac2532-175f-4072-a95d-6eadcea3a9a2.jpg"
+          }
+        },
+        "main_diagram_PEX3mx": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-10_6f90479f-4db6-42b9-8b56-4de51b29d572.jpg",
+            "main_img2": "shopify://shop_images/600x720-9_7f54a3c4-c964-4e66-b5b5-5908d9f917ab.jpg"
+          }
+        },
+        "image_info_P3t3k9": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "おしゃれなキューバ襟で、コーデの立体感をアップ、袖口の所はスペースを空いてるカットなので、もっと動きやすい。左胸元にポケット付き、小物を落とさないように同時に拘るポイント。",
+            "price_discount": 7500,
+            "original_price": 14980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lsx-kcbt0407?_pos=1&_sid=2554c9b49&_ss=r&variant=46681026658523"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_gJGAMW",
+        "image_slider_Xki4FM",
+        "image_slider_tCUeEb",
+        "image_slider_4HWDpp",
+        "main_diagram_PEX3mx",
+        "image_info_P3t3k9"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "ターコイズ風ボタン付き ピーチスキンシャツ　新色追加！",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#d4d4d4",
+        "but_font_col": "#1c7e86",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#60c4ce"
+      }
+    },
+    "image_slider_P6rdtF": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_8zhJpz": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-21_c90d3e6c-666a-4f7f-9849-6afabad5713e.jpg"
+          }
+        },
+        "image_slider_ekfFE8": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-22_c36b6d38-7c0c-40cf-a0fe-ab2b1240e18f.jpg"
+          }
+        },
+        "image_slider_hUX8m6": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-23_393748d8-a4cb-4c9c-8d06-78bdd34f608a.jpg"
+          }
+        },
+        "image_slider_EjFVCk": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-24_db46fa39-7eda-4cb0-8390-27589b6551b7.jpg"
+          }
+        },
+        "main_diagram_fQRXrC": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-11_3407e467-e13e-4f3a-889b-9c6d1c74fb21.jpg",
+            "main_img2": "shopify://shop_images/600x720-12_dbe882b1-43b2-4262-8556-fbb02b604fa5.jpg"
+          }
+        },
+        "image_info_BdbbXH": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "コットンとリネン2種類の天然素材を混ぜて織り上げた生地を採用し、耐久性・吸湿性・吸水性に優れているのが特徴。コットンの柔らかさとリネンのサラリとした肌触りが程よくブレンドされた軽やかで優しい風合いが特徴。",
+            "price_discount": 11980,
+            "original_price": 11980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lsx-bskmmcs409?_pos=1&_sid=add4d7185&_ss=r&variant=46684794061019"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_8zhJpz",
+        "image_slider_ekfFE8",
+        "image_slider_hUX8m6",
+        "image_slider_EjFVCk",
+        "main_diagram_fQRXrC",
+        "image_info_BdbbXH"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "ターコイズ風ボタン付き　綿麻オープンカラーシャツ",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#d4d4d4",
+        "but_font_col": "#1c7e86",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#60c4ce"
+      }
+    },
+    "image_slider_wpd6Y6": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_LJbWEQ": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-25_5c21c2f5-05eb-47b9-9cd4-aae6d3996504.jpg"
+          }
+        },
+        "image_slider_HtVfLG": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-26_254593cf-5f54-41c7-8335-26c3fc950372.jpg"
+          }
+        },
+        "image_slider_npWiX8": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-27_94409f0e-2ba5-4d48-9fe2-36ab9175300e.jpg"
+          }
+        },
+        "image_slider_kr8qdY": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-28_dbd3b8b7-9f80-4081-a2b4-acd0baeecdfc.jpg"
+          }
+        },
+        "main_diagram_bWh83H": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-13_a2aaac17-a4f3-4475-b271-9753acd38869.jpg",
+            "main_img2": "shopify://shop_images/600x720-14_7f92421c-59c5-412d-8f24-c404f50b35c0.jpg"
+          }
+        },
+        "image_info_6XaCxB": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "織る前に糸を染める「先染め」技術により、色落ちしにくく、耐久性が高い。ジャガード織り特有の凹凸感があり、平面的なプリント柄に比べて高級感がある。白とブルーの組み合わせで、清涼感があり、夏のリゾートやカジュアルシーンにマッチ。",
+            "price_discount": 11980,
+            "original_price": 11980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-gsh-twnk0410?_pos=1&_sid=5b5d6e972&_ss=r&variant=46743330324699"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_LJbWEQ",
+        "image_slider_HtVfLG",
+        "image_slider_npWiX8",
+        "image_slider_kr8qdY",
+        "main_diagram_bWh83H",
+        "image_info_6XaCxB"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "【予約】ターコイズ風ボタン付き　ジャガードストライプ開襟シャツ",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#d4d4d4",
+        "but_font_col": "#1c7e86",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#60c4ce"
+      }
+    },
+    "background_image_ip9z77": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "image": "shopify://shop_images/20250528-184154.jpg",
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#147e87",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "featured_collection_hTe6jQ": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "ターコイズ風ボタンアイテム",
+        "collection": "2025-turquoise-style-button-item",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "slideshow_U8eaUR",
+    "main",
+    "image_4fDtcH",
+    "image_slider_8XCYQD",
+    "image_slider_tqbbEL",
+    "image_slider_7gtApm",
+    "image_slider_XBqRt9",
+    "image_slider_P6rdtF",
+    "image_slider_wpd6Y6",
+    "background_image_ip9z77",
+    "featured_collection_hTe6jQ"
+  ]
+}

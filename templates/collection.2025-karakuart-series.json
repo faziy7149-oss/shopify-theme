@@ -1,0 +1,574 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_ep8JWN": {
+      "type": "slideshow",
+      "blocks": {
+        "image_xJzQcA": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20250718-171727.jpg",
+            "mobile_image": "shopify://shop_images/20250718-171722.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_xJzQcA"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_6bRt4Y": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_216220b8-3698-496f-a731-8ab13f619b27.png",
+        "mobile_image": "shopify://shop_images/720_ff3f130b-97b7-4581-b50c-3a5b107b6cba.png",
+        "img_rul": ""
+      }
+    },
+    "image_jump_custom_QhbHYX": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_racYee": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20250718-172851.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_racYee"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_frosted_glass_4XkL6W": {
+      "type": "image-frosted-glass",
+      "name": "交互式毛玻璃图片",
+      "settings": {
+        "image": "shopify://shop_images/1200x1800-1-1.png",
+        "alt": "毛玻璃图片",
+        "blur_strength": 6,
+        "clear_diameter": 320,
+        "blur_opacity": 0.4,
+        "blur_bg_color": "#333029"
+      }
+    },
+    "url_text_RWTqP6": {
+      "type": "url-text",
+      "name": "URL Text",
+      "settings": {
+        "url_text": "shopify://products/krk-gsh-wnsmt711",
+        "text_url": "VIEW MORE",
+        "btn_color": "#ceb16b",
+        "btn_color_hover": "#f3efe1",
+        "btn_text_color": "#fffeee",
+        "btn_text_color_hover": "#ceb16b",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 12,
+        "url_font_size_moble": 12,
+        "img_postion_size_pc": 55,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "image_jump_custom_BEDwDG": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_PWEVHP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20250718-172847.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_PWEVHP"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_frosted_glass_wxqgqY": {
+      "type": "image-frosted-glass",
+      "name": "交互式毛玻璃图片",
+      "settings": {
+        "image": "shopify://shop_images/1200x1800-2-2_f1e839d8-f830-4861-a3a8-becebc7ae373.png",
+        "alt": "毛玻璃图片",
+        "blur_strength": 6,
+        "clear_diameter": 320,
+        "blur_opacity": 0.4,
+        "blur_bg_color": "#333029"
+      }
+    },
+    "url_text_an36Li": {
+      "type": "url-text",
+      "name": "URL Text",
+      "settings": {
+        "url_text": "shopify://products/krk-zyd-mnlsmt527",
+        "text_url": "VIEW MORE",
+        "btn_color": "#ceb16b",
+        "btn_color_hover": "#f3efe1",
+        "btn_text_color": "#fffeee",
+        "btn_text_color_hover": "#ceb16b",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 12,
+        "url_font_size_moble": 12,
+        "img_postion_size_pc": 55,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "image_jump_custom_8X6HQq": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_Uxighf": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1200x1800-3_10733b73-33dc-40f7-9210-819baa22674d.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Uxighf"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_frosted_glass_PLLir7": {
+      "type": "image-frosted-glass",
+      "name": "交互式毛玻璃图片",
+      "settings": {
+        "image": "shopify://shop_images/1200x1800-3-1.png",
+        "alt": "毛玻璃图片",
+        "blur_strength": 6,
+        "clear_diameter": 320,
+        "blur_opacity": 0.4,
+        "blur_bg_color": "#333029"
+      }
+    },
+    "url_text_TPkrY9": {
+      "type": "url-text",
+      "name": "URL Text",
+      "settings": {
+        "url_text": "shopify://products/krk-gsh-vgct0626",
+        "text_url": "VIEW MORE",
+        "btn_color": "#ceb16b",
+        "btn_color_hover": "#f3efe1",
+        "btn_text_color": "#fffeee",
+        "btn_text_color_hover": "#ceb16b",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 12,
+        "url_font_size_moble": 12,
+        "img_postion_size_pc": 66,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 6,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "image_jump_custom_ffGa4E": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_DcXJAm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1200x1800-4.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_DcXJAm"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_frosted_glass_GFHNYF": {
+      "type": "image-frosted-glass",
+      "name": "交互式毛玻璃图片",
+      "settings": {
+        "image": "shopify://shop_images/1200x1800-4-1.png",
+        "alt": "毛玻璃图片",
+        "blur_strength": 6,
+        "clear_diameter": 320,
+        "blur_opacity": 0.4,
+        "blur_bg_color": "#333029"
+      }
+    },
+    "url_text_igJjte": {
+      "type": "url-text",
+      "name": "URL Text",
+      "settings": {
+        "url_text": "shopify://products/krk-zyd-yrbt0627",
+        "text_url": "VIEW MORE",
+        "btn_color": "#ceb16b",
+        "btn_color_hover": "#f3efe1",
+        "btn_text_color": "#fffeee",
+        "btn_text_color_hover": "#ceb16b",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 12,
+        "url_font_size_moble": 12,
+        "img_postion_size_pc": 66,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 6,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "image_jump_custom_hLLtLD": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_G8rJhK": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1200x1800-5.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_G8rJhK"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_frosted_glass_itq4Bk": {
+      "type": "image-frosted-glass",
+      "name": "交互式毛玻璃图片",
+      "settings": {
+        "image": "shopify://shop_images/1200x1800-5-1.png",
+        "alt": "毛玻璃图片",
+        "blur_strength": 6,
+        "clear_diameter": 320,
+        "blur_opacity": 0.4,
+        "blur_bg_color": "#333029"
+      }
+    },
+    "url_text_PPXX8J": {
+      "type": "url-text",
+      "name": "URL Text",
+      "settings": {
+        "url_text": "shopify://products/krk-gsh-rtclmt0612",
+        "text_url": "VIEW MORE",
+        "btn_color": "#ceb16b",
+        "btn_color_hover": "#f3efe1",
+        "btn_text_color": "#fffeee",
+        "btn_text_color_hover": "#ceb16b",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 12,
+        "url_font_size_moble": 12,
+        "img_postion_size_pc": 66,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 6,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "image_jump_custom_NjigQq": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_n8YyBe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1200x1800-6.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_n8YyBe"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "adjusting_spacing_FUYgTY": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -14,
+        "margin_top2": 0
+      }
+    },
+    "image_frosted_glass_hpGYkk": {
+      "type": "image-frosted-glass",
+      "name": "交互式毛玻璃图片",
+      "settings": {
+        "image": "shopify://shop_images/1200x1800-6-1.png",
+        "alt": "毛玻璃图片",
+        "blur_strength": 6,
+        "clear_diameter": 320,
+        "blur_opacity": 0.4,
+        "blur_bg_color": "#333029"
+      }
+    },
+    "url_text_jKxGxR": {
+      "type": "url-text",
+      "name": "URL Text",
+      "settings": {
+        "url_text": "shopify://products/krk-gsh-mqwdyst620",
+        "text_url": "VIEW MORE",
+        "btn_color": "#ceb16b",
+        "btn_color_hover": "#f3efe1",
+        "btn_text_color": "#fffeee",
+        "btn_text_color_hover": "#ceb16b",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 12,
+        "url_font_size_moble": 12,
+        "img_postion_size_pc": 66,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 6,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [
+          "shirts",
+          "スウェット",
+          "ジャケット-アウター",
+          "アクセサリー",
+          "short-sleeve-t-shirts",
+          "short-sleeve-shirts",
+          "カーゴパンツ",
+          "coat",
+          "デニムパンツ"
+        ],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "background_image_9rbVWa": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "image": "shopify://shop_images/20250718-164347.jpg",
+        "bg_size": "cover",
+        "bg_repeat": "repeat-y",
+        "bg_position": "center",
+        "bg_attachment": "fixed",
+        "background_color_overlay": "#000000",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "scrolling_banner_image_J3ipyY": {
+      "type": "scrolling-banner-image",
+      "blocks": {
+        "text_7wEEee": {
+          "type": "text",
+          "settings": {
+            "text": "KARAKU ART MUSEUM",
+            "color": "#ceb16b",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "carousel_image_7nN9tw": {
+          "type": "carouselImage",
+          "settings": {
+            "scrolling_banner_image_pc": "shopify://shop_images/20250718-153125.png",
+            "scrolling_banner_image_mobile": "shopify://shop_images/20250718-153125.png",
+            "scrolling_image_link": ""
+          }
+        },
+        "carousel_image_TUtNna": {
+          "type": "carouselImage",
+          "settings": {
+            "scrolling_banner_image_pc": "shopify://shop_images/1200x1800-4-1.png",
+            "scrolling_banner_image_mobile": "shopify://shop_images/1200x1800-4-1.png",
+            "scrolling_image_link": ""
+          }
+        },
+        "carousel_image_6cBQG4": {
+          "type": "carouselImage",
+          "settings": {
+            "scrolling_banner_image_pc": "shopify://shop_images/1200x1800-1-1.png",
+            "scrolling_banner_image_mobile": "shopify://shop_images/1200x1800-1-1.png",
+            "scrolling_image_link": ""
+          }
+        },
+        "carousel_image_fbgabr": {
+          "type": "carouselImage",
+          "settings": {
+            "scrolling_banner_image_pc": "shopify://shop_images/1200x1800-6-1.png",
+            "scrolling_banner_image_mobile": "shopify://shop_images/1200x1800-6-1.png",
+            "scrolling_image_link": ""
+          }
+        },
+        "carousel_image_TK3X9V": {
+          "type": "carouselImage",
+          "settings": {
+            "scrolling_banner_image_pc": "shopify://shop_images/1200x1800-5-1.png",
+            "scrolling_banner_image_mobile": "shopify://shop_images/1200x1800-5-1.png",
+            "scrolling_image_link": ""
+          }
+        },
+        "carousel_image_qYFYwy": {
+          "type": "carouselImage",
+          "settings": {
+            "scrolling_banner_image_pc": "shopify://shop_images/1200x1800-3-1.png",
+            "scrolling_banner_image_mobile": "shopify://shop_images/1200x1800-3-1.png",
+            "scrolling_image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_7wEEee",
+        "carousel_image_7nN9tw",
+        "carousel_image_TUtNna",
+        "carousel_image_6cBQG4",
+        "carousel_image_fbgabr",
+        "carousel_image_TK3X9V",
+        "carousel_image_qYFYwy"
+      ],
+      "name": "Scrolling banner image",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 35,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "adjusting_spacing_rgzHTb": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -10,
+        "margin_top2": -5
+      }
+    }
+  },
+  "order": [
+    "slideshow_ep8JWN",
+    "image_6bRt4Y",
+    "image_jump_custom_QhbHYX",
+    "image_frosted_glass_4XkL6W",
+    "url_text_RWTqP6",
+    "image_jump_custom_BEDwDG",
+    "image_frosted_glass_wxqgqY",
+    "url_text_an36Li",
+    "image_jump_custom_8X6HQq",
+    "image_frosted_glass_PLLir7",
+    "url_text_TPkrY9",
+    "image_jump_custom_ffGa4E",
+    "image_frosted_glass_GFHNYF",
+    "url_text_igJjte",
+    "image_jump_custom_hLLtLD",
+    "image_frosted_glass_itq4Bk",
+    "url_text_PPXX8J",
+    "image_jump_custom_NjigQq",
+    "adjusting_spacing_FUYgTY",
+    "image_frosted_glass_hpGYkk",
+    "url_text_jKxGxR",
+    "main",
+    "background_image_9rbVWa",
+    "scrolling_banner_image_J3ipyY",
+    "adjusting_spacing_rgzHTb"
+  ]
+}

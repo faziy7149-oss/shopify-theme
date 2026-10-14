@@ -1,0 +1,395 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1649757612ea7476eb": {
+      "type": "text-editor",
+      "settings": {
+        "data_wrapper_1250": false,
+        "text1": "<p>{{ collection.metafields.commodity.productintroduction | metafield_tag }}</p>"
+      }
+    },
+    "42224b5d-734a-445e-b76f-37ad7858a65c": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2023-08-16_18-13-33.jpg"
+      }
+    },
+    "66b03909-488e-496f-bb68-c216a3cfe6a3": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16666470908123__66b03909-488e-496f-bb68-c216a3cfe6a3-16728189824a2f48c7-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_10a51996-9d4b-4347-aa39-459cc05c6a6e.jpg",
+            "mobile_image": "shopify://shop_images/12_7139f833-a6a9-475e-b15f-c0504680b57d.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16666470908123__66b03909-488e-496f-bb68-c216a3cfe6a3-16728189824a2f48c7-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "fb627df1-f738-4bb0-8422-f9b221b943b3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16787334987995__fb627df1-f738-4bb0-8422-f9b221b943b3-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "-EARLY AUTUMN OF 2023-"
+          }
+        },
+        "template--16787334987995__fb627df1-f738-4bb0-8422-f9b221b943b3-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "MUST HAVE ITEMS",
+            "use_h1": false
+          }
+        },
+        "template--16787334987995__fb627df1-f738-4bb0-8422-f9b221b943b3-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>秋は、こっくりとした暖色やダークカラーのアイテムを使った、シックなファッションが映えますね。</p><p>この特集では、Karakuのトレンドを押さえた人気アイテムを展開、大人っぽくて好感度大なファッションのポイントを紹介します。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16787334987995__fb627df1-f738-4bb0-8422-f9b221b943b3-subheading-1",
+        "template--16787334987995__fb627df1-f738-4bb0-8422-f9b221b943b3-heading-1",
+        "template--16787334987995__fb627df1-f738-4bb0-8422-f9b221b943b3-text-1"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "b14fe564-86c5-4441-ae46-f801c412535c": {
+      "type": "image-jump",
+      "blocks": {
+        "template--16666470908123__b14fe564-86c5-4441-ae46-f801c412535c-16766258767e215993-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_ffb2ad05-64b3-4a03-8c8f-9d46068c8b14.png",
+            "image-id": "#date-1"
+          }
+        },
+        "template--16666470908123__b14fe564-86c5-4441-ae46-f801c412535c-16766258767e215993-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_6117ea39-557c-4068-98dd-c7c36594f45c.png",
+            "image-id": "#date-2"
+          }
+        },
+        "template--16666470908123__b14fe564-86c5-4441-ae46-f801c412535c-16766258767e215993-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_c88f32cd-0c44-4540-b120-59706f8a1182.png",
+            "image-id": "#date-3"
+          }
+        }
+      },
+      "block_order": [
+        "template--16666470908123__b14fe564-86c5-4441-ae46-f801c412535c-16766258767e215993-0",
+        "template--16666470908123__b14fe564-86c5-4441-ae46-f801c412535c-16766258767e215993-1",
+        "template--16666470908123__b14fe564-86c5-4441-ae46-f801c412535c-16766258767e215993-2"
+      ],
+      "settings": {
+        "background-image": "",
+        "grid": 19
+      }
+    },
+    "b34c9a16-aeae-43ca-839f-c38f6a486426": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "template--16797399089371__b34c9a16-aeae-43ca-839f-c38f6a486426-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_b72d9905-975c-4f23-868f-7426c50c5e62.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        },
+        "template--16797399089371__b34c9a16-aeae-43ca-839f-c38f6a486426-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_b72d9905-975c-4f23-868f-7426c50c5e62.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        },
+        "template--16797399089371__b34c9a16-aeae-43ca-839f-c38f6a486426-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_b72d9905-975c-4f23-868f-7426c50c5e62.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16797399089371__b34c9a16-aeae-43ca-839f-c38f6a486426-image-1",
+        "template--16797399089371__b34c9a16-aeae-43ca-839f-c38f6a486426-image-2",
+        "template--16797399089371__b34c9a16-aeae-43ca-839f-c38f6a486426-image-3"
+      ],
+      "settings": {}
+    },
+    "90e43e98-7664-4c20-ac5c-064ea7ec8cdc": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "template--16666470908123__90e43e98-7664-4c20-ac5c-064ea7ec8cdc-16728192441c5138ba-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_7c520bb6-634d-460a-bab0-d21b862f306c.png",
+            "image-id": "date-1",
+            "image_link": "shopify://products/krk-bqcstrx23703"
+          }
+        },
+        "b3219aa7-2d37-4122-95ee-dc1b56f7eb47": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/10_bd4a6f0f-ede6-439d-84f5-56a470cc04b9.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16666470908123__90e43e98-7664-4c20-ac5c-064ea7ec8cdc-16728192441c5138ba-0",
+        "b3219aa7-2d37-4122-95ee-dc1b56f7eb47"
+      ],
+      "settings": {}
+    },
+    "689fcd24-d778-499f-a568-080d9b99272e": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "60042d72-7401-452c-b546-10ef611f4b9f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_b72d9905-975c-4f23-868f-7426c50c5e62.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        },
+        "7a0f1816-caf7-4765-9b25-65e912129b4f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_b72d9905-975c-4f23-868f-7426c50c5e62.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        },
+        "650cd388-d069-409a-bd47-373732f4ca65": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_b72d9905-975c-4f23-868f-7426c50c5e62.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "60042d72-7401-452c-b546-10ef611f4b9f",
+        "7a0f1816-caf7-4765-9b25-65e912129b4f",
+        "650cd388-d069-409a-bd47-373732f4ca65"
+      ],
+      "settings": {}
+    },
+    "51e37811-f92e-491b-9321-c2cddd25a923": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "template--16666470908123__51e37811-f92e-491b-9321-c2cddd25a923-16728192441c5138ba-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7_89d82889-a7b8-4133-8d35-7c4a33da5575.png",
+            "image-id": "date-2",
+            "image_link": "shopify://products/krk-zyd-mmblsg801"
+          }
+        },
+        "237fba9c-ed5a-4a6b-81a1-09c318908ae1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9_1db092dc-645a-4ec1-9ae5-febfa3d36699.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16666470908123__51e37811-f92e-491b-9321-c2cddd25a923-16728192441c5138ba-0",
+        "237fba9c-ed5a-4a6b-81a1-09c318908ae1"
+      ],
+      "settings": {}
+    },
+    "7092021b-cb6f-4e53-8bf0-3be04c5a5c61": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "51bc7cb1-6e15-48d0-a392-51036680bb76": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_b72d9905-975c-4f23-868f-7426c50c5e62.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        },
+        "65863124-492d-4712-afd2-499f5b9904c6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_b72d9905-975c-4f23-868f-7426c50c5e62.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        },
+        "43127d6b-3456-4819-830c-f82a5ede61d0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_b72d9905-975c-4f23-868f-7426c50c5e62.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "51bc7cb1-6e15-48d0-a392-51036680bb76",
+        "65863124-492d-4712-afd2-499f5b9904c6",
+        "43127d6b-3456-4819-830c-f82a5ede61d0"
+      ],
+      "settings": {}
+    },
+    "bc5592a1-0e65-4ae3-a563-36eadd33db9f": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "template--16666470908123__bc5592a1-0e65-4ae3-a563-36eadd33db9f-16728192441c5138ba-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/8_78fbb6c8-d8af-48e6-9ba2-46e6495342fc.png",
+            "image-id": "date-3",
+            "image_link": "shopify://products/krk-rf-q006"
+          }
+        },
+        "106223f1-20c7-4653-9b04-a83aa6051987": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/11_e7e7c061-18d7-4f82-9ef5-e3c3bda3a229.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16666470908123__bc5592a1-0e65-4ae3-a563-36eadd33db9f-16728192441c5138ba-0",
+        "106223f1-20c7-4653-9b04-a83aa6051987"
+      ],
+      "settings": {}
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 3,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "0f73fe8f-3afc-4a71-a4b2-2ff476120e52": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    }
+  },
+  "order": [
+    "1649757612ea7476eb",
+    "42224b5d-734a-445e-b76f-37ad7858a65c",
+    "66b03909-488e-496f-bb68-c216a3cfe6a3",
+    "fb627df1-f738-4bb0-8422-f9b221b943b3",
+    "b14fe564-86c5-4441-ae46-f801c412535c",
+    "b34c9a16-aeae-43ca-839f-c38f6a486426",
+    "90e43e98-7664-4c20-ac5c-064ea7ec8cdc",
+    "689fcd24-d778-499f-a568-080d9b99272e",
+    "51e37811-f92e-491b-9321-c2cddd25a923",
+    "7092021b-cb6f-4e53-8bf0-3be04c5a5c61",
+    "bc5592a1-0e65-4ae3-a563-36eadd33db9f",
+    "main",
+    "0f73fe8f-3afc-4a71-a4b2-2ff476120e52"
+  ]
+}

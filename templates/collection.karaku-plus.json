@@ -1,0 +1,594 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "163573663356216c07": {
+      "type": "rich-text",
+      "blocks": {
+        "163573663356216c07-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "INTRODUCTION"
+          }
+        },
+        "163573663356216c07-1": {
+          "type": "heading",
+          "settings": {
+            "title": "【KARAKU PLUS】",
+            "use_h1": false
+          }
+        },
+        "163573663356216c07-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>こちらはオリジナル商品の中心が販売で、中心価格帯はKARAKUブランドより少し高い設定。\"優れた職人の技によって産み出された逸品\"をコンセプトに<br/></p><p><strong>\"永年着られる飽きのこない男服を追求しています\"</strong></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "163573663356216c07-0",
+        "163573663356216c07-1",
+        "163573663356216c07-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "scrolling_banner_image_DYGK7B": {
+      "type": "scrolling-banner-image",
+      "blocks": {
+        "text_KyzbbH": {
+          "type": "text",
+          "settings": {
+            "text": "KARAKU PLUS+",
+            "color": "#c20000",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "image_8BzEhi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_bdec0390-9d12-44a5-823c-0a12ce45ee9c.png",
+            "image_width": 65,
+            "link": ""
+          }
+        },
+        "carousel_image_jzAGD7": {
+          "type": "carouselImage",
+          "settings": {
+            "scrolling_banner_image_pc": "shopify://shop_images/20251211-175423.jpg",
+            "scrolling_banner_image_mobile": "shopify://shop_images/1080x1440_2cd16f66-a981-4ed7-b6ca-53a08516c3a8.jpg",
+            "scrolling_image_link": "https://karakubuy.com/collections/karaku%E2%85%B9ukiyo-e"
+          }
+        },
+        "carousel_image_KTcqzn": {
+          "type": "carouselImage",
+          "settings": {
+            "scrolling_banner_image_pc": "shopify://shop_images/602_plus.jpg",
+            "scrolling_banner_image_mobile": "shopify://shop_images/1080x1440_a1899d23-95de-453e-bd45-cf3fd8199897.jpg",
+            "scrolling_image_link": "https://karakubuy.com/collections/karaku-plus-indigo"
+          }
+        }
+      },
+      "block_order": [
+        "text_KyzbbH",
+        "image_8BzEhi",
+        "carousel_image_jzAGD7",
+        "carousel_image_KTcqzn"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 74,
+        "vertical_padding": 20,
+        "speed": 35,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "1635736314e4e3d1c3": {
+      "type": "rich-text",
+      "blocks": {
+        "1635736314e4e3d1c3-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "注目製品"
+          }
+        },
+        "1635736314e4e3d1c3-1": {
+          "type": "heading",
+          "settings": {
+            "title": "KARAKU PLUS",
+            "use_h1": false
+          }
+        },
+        "1635736314e4e3d1c3-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DESIGN BY KARAKUBUY | こちらはオリジナル商品の中心が販売で</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1635736314e4e3d1c3-0",
+        "1635736314e4e3d1c3-1",
+        "1635736314e4e3d1c3-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "1635738036ae71c27f": {
+      "type": "slideshow",
+      "blocks": {
+        "1635738036ae71c27f-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/88.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1635738036ae71c27f-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 700,
+        "height_mobile": 260,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 2,
+        "accessibility_info": ""
+      }
+    },
+    "collection_list_NDK3HE": {
+      "type": "collection-list",
+      "blocks": {
+        "collection_6A6kct": {
+          "type": "collection",
+          "settings": {
+            "collection": "plus-tshirts",
+            "image": "shopify://shop_images/556_plus-1_bb8971bf-a02b-43c5-8863-72e939a0b7e4.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_fYcrYM": {
+          "type": "collection",
+          "settings": {
+            "collection": "plus-shirts",
+            "image": "shopify://shop_images/556_plus-4.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_xHVNRA": {
+          "type": "collection",
+          "settings": {
+            "collection": "アロハシャツ",
+            "image": "shopify://shop_images/556_plus-2.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_rRQQyH": {
+          "type": "collection",
+          "settings": {
+            "collection": "plus-jackets",
+            "image": "shopify://shop_images/3_b0836782-050a-4868-a113-b9cf7b8d6d9c.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_9FkYAn": {
+          "type": "collection",
+          "settings": {
+            "collection": "中綿ジャケット-2",
+            "image": "shopify://shop_images/556_plus-1.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_aP9hmE": {
+          "type": "collection",
+          "settings": {
+            "collection": "plus-sweat",
+            "image": "shopify://shop_images/556_plus-2_442754f3-6641-48bb-9b50-675878a4c378.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_XNHh7c": {
+          "type": "collection",
+          "settings": {
+            "collection": "plus-knit",
+            "image": "shopify://shop_images/556_plus-3.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_ainBRK": {
+          "type": "collection",
+          "settings": {
+            "collection": "plus-vest",
+            "image": "shopify://shop_images/7_dc050462-4775-4540-8e69-bee6db362f51.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_VPpnJN": {
+          "type": "collection",
+          "settings": {
+            "collection": "plus-hanten",
+            "image": "shopify://shop_images/6_983acf18-8871-49ab-a792-af632aecc033.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_qq6q6n": {
+          "type": "collection",
+          "settings": {
+            "collection": "plus-bottoms",
+            "image": "shopify://shop_images/8_173d0d64-77ba-4c37-be28-17aa209b69c8.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "collection_ajECgB": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "plus-accessories",
+            "image": "shopify://shop_images/9_ab328b8f-2e27-4052-a30c-ce0666782aff.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_6A6kct",
+        "collection_fYcrYM",
+        "collection_xHVNRA",
+        "collection_rRQQyH",
+        "collection_9FkYAn",
+        "collection_aP9hmE",
+        "collection_XNHh7c",
+        "collection_ainBRK",
+        "collection_VPpnJN",
+        "collection_qq6q6n",
+        "collection_ajECgB"
+      ],
+      "settings": {
+        "title": "カテゴリーから探す",
+        "enable_carousel": false,
+        "grid": 5,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "landscape-32",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": true,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "featured_collection_tabs_bKJGmm": {
+      "type": "featured-collection-tabs",
+      "blocks": {
+        "collection_t4ADWg": {
+          "type": "collection",
+          "settings": {
+            "title": "シャツ",
+            "collection": "plus-shirts"
+          }
+        },
+        "collection_j6N9AP": {
+          "type": "collection",
+          "settings": {
+            "title": "Tシャツ/カットソー",
+            "collection": "plus-tshirts"
+          }
+        },
+        "collection_xU6Cfr": {
+          "type": "collection",
+          "settings": {
+            "title": "スウェット/パーカー",
+            "collection": "plus-sweat"
+          }
+        },
+        "collection_33z69C": {
+          "type": "collection",
+          "settings": {
+            "title": "ジャケット",
+            "collection": "plus-jackets"
+          }
+        }
+      },
+      "block_order": [
+        "collection_t4ADWg",
+        "collection_j6N9AP",
+        "collection_xU6Cfr",
+        "collection_33z69C"
+      ],
+      "settings": {
+        "title": "",
+        "title_url": "https://karakubuy.com/collections/plus-shirts",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 5,
+        "color_scheme": "default",
+        "use_alt_bg": false,
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "custom_content_aNwVjm": {
+      "type": "custom-content",
+      "blocks": {
+        "image_Rrhef3": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/1080_693a2945-0a2a-467b-a3da-f8a4100d480c.jpg",
+            "mobile_image": "shopify://shop_images/1080_693a2945-0a2a-467b-a3da-f8a4100d480c.jpg",
+            "height": "fixed",
+            "height_desktop": 600,
+            "height_mobile": 280,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_wwXtBG": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "left",
+            "center_on_mobile": true,
+            "icon": "",
+            "icon_color": "rgba(0,0,0,0)",
+            "subheading": "KARAKU ⅹ UKIYO-E",
+            "title": "時代を纏う、伝統を超える",
+            "title_size": 26,
+            "title_size_mobile": 20,
+            "text": "<p>江戸時代からの美を現代に響かせる「Karaku」。浮世絵にインスパイアされた斬新なデザインが、日本文化への敬意と現代のスタイルを一つに結びます。<br/>あなたの日常に、アートを纏う贅沢を。</p>",
+            "button_label": "more",
+            "button_link": "shopify://collections/karakuⅹukiyo-e",
+            "button_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "image_Rrhef3",
+        "text_wwXtBG"
+      ],
+      "settings": {
+        "spacing": "small",
+        "alignment": "middle",
+        "color_scheme": "default"
+      }
+    },
+    "featured_collection_VJqfcc": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "karakuⅹukiyo-e",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "custom_content_LBJVbN": {
+      "type": "custom-content",
+      "blocks": {
+        "image_qiQUi4": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/1080_b1c7aec2-5d86-426a-a22e-3f7ef42a44a4.jpg",
+            "mobile_image": "shopify://shop_images/1080_b1c7aec2-5d86-426a-a22e-3f7ef42a44a4.jpg",
+            "height": "fixed",
+            "height_desktop": 600,
+            "height_mobile": 280,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://minipia.myshopify.com/collections/japan-blue-%E6%97%A5%E6%9C%AC%E3%81%AE%E5%9B%BD%E5%9C%9F%E3%82%92%E8%B1%A1%E5%BE%B4%E3%81%99%E3%82%8B%E6%B5%B7%E3%81%A8%E7%A9%BA%E3%81%AE%E9%9D%92",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_imeWtx": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "left",
+            "center_on_mobile": true,
+            "icon": "",
+            "icon_color": "rgba(0,0,0,0)",
+            "subheading": "KARAKU ⅹ JAPAN BLUE",
+            "title": "日本の国土を象徴する海と空の青",
+            "title_size": 26,
+            "title_size_mobile": 20,
+            "text": "<p>KARAKUでは、古くから伝わる染色技法を用いたTシャツや、普段使いしやすいジャケットなど、幅広いアイテムが揃っています。日本の伝統を受け継ぐ藍染の魅力を存分に感じられるラインナップで、日常に取り入れやすいスタイルを提供します。藍の美しさと技術が融合したアイテムを通じて、日本の伝統文化を身近に体験できる特別な機会です。</p>",
+            "button_label": "more",
+            "button_link": "",
+            "button_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "image_qiQUi4",
+        "text_imeWtx"
+      ],
+      "settings": {
+        "spacing": "medium",
+        "alignment": "middle",
+        "color_scheme": "default"
+      }
+    },
+    "featured_collection_aWPabV": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "karaku-plus-indigo",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "gallery_7ifUe4": {
+      "type": "gallery",
+      "blocks": {
+        "media_ew6P34": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/1_1_c8d680bb-6727-4f5b-bb19-af3a9c3484f4.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "shopify://collections/sukajan",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_ew6P34"
+      ],
+      "disabled": true,
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "no_background",
+        "overlay_padding": "standard",
+        "button_style": "primary"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "small",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 50,
+        "grid": 5,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "163573663356216c07",
+    "scrolling_banner_image_DYGK7B",
+    "1635736314e4e3d1c3",
+    "1635738036ae71c27f",
+    "collection_list_NDK3HE",
+    "featured_collection_tabs_bKJGmm",
+    "custom_content_aNwVjm",
+    "featured_collection_VJqfcc",
+    "custom_content_LBJVbN",
+    "featured_collection_aWPabV",
+    "gallery_7ifUe4",
+    "main"
+  ]
+}

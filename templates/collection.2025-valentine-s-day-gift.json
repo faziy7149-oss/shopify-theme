@@ -1,0 +1,312 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "slideshow_TX98aM": {
+      "type": "slideshow",
+      "blocks": {
+        "image_eE3t4m": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/641__1920x780_7b4c0c37-5766-49d3-af02-c229ff152ddd.jpg",
+            "mobile_image": "shopify://shop_images/641__1080x1440_81b61c4f-ab5b-4458-b34b-9351556ddfba.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_eE3t4m"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_GzHjEj": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_a11d64d9-133f-4919-a6b5-8137582cfa26.png",
+        "mobile_image": "shopify://shop_images/720_2cb95d4f-a5dc-43f3-8992-0f4e205ee376.png",
+        "img_rul": ""
+      }
+    },
+    "slide_block_group_QHwYa4": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_PYfqbG": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-1.jpg",
+            "slide_title": "改良型 60‘s キャンバスニュースペーパーバッグ",
+            "slide_price": 10980,
+            "slide_price_new": 8190,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-md-tw2207657?_pos=2&_sid=a8af076b7&_ss=r",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_8tkKiN": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-2.jpg",
+            "slide_title": "「ジェントルマンパピー」刺繍入り　デニム切替ストライプベースボールカラーシャツ",
+            "slide_price": 13980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-zyd-bqthsg116?_pos=1&_sid=79b66c0d5&_ss=r&variant=46425139839195",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_HQX7bL": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-3.jpg",
+            "slide_title": "「Karaku」 タグ入り　ストラップ外し可能レザートリムデニムブリーフケース",
+            "slide_price": 10980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-zyd-nzdnb1223?_pos=1&_sid=648c231cd&_ss=r",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_PYfqbG",
+        "slide_block_8tkKiN",
+        "slide_block_HQX7bL"
+      ],
+      "settings": {
+        "slide_btn_color": "#fec73e",
+        "slide_text_color": "#251e49",
+        "slide_btn_hover_color": "#49548a",
+        "slide_text_hover_color": "#fec73e",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_8UnTAY": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_dGTtgL": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-4.jpg",
+            "slide_title": "ジャガードペイズリー切替　デニムウエスタンシャツ",
+            "slide_price": 13980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-ljx-yghpjcs1218?_pos=1&_sid=866824919&_ss=r&variant=46358244032731",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_jxgfX3": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-5.jpg",
+            "slide_title": "肘パッチ　イカリ刺繍ショールカラージャケット",
+            "slide_price": 13980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-zyd-nzfxjk0108?_pos=1&_sid=0812fde26&_ss=r&variant=46443492737243",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_jGiFxn": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-6.jpg",
+            "slide_title": "「karaku」刺繍入り　無地×ワッフル切替ラグランスリーブヘビーウェイトロングT",
+            "slide_price": 12980,
+            "slide_price_new": 8390,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-hfgcjxtx1227?_pos=1&_sid=3547f3b4b&_ss=r&variant=46381464879323",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_dGTtgL",
+        "slide_block_jxgfX3",
+        "slide_block_jGiFxn"
+      ],
+      "settings": {
+        "slide_btn_color": "#fec73e",
+        "slide_text_color": "#251e49",
+        "slide_btn_hover_color": "#49548a",
+        "slide_text_hover_color": "#fec73e",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_crPCbd": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_3yqQVD": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-7.jpg",
+            "slide_title": "先染めペイズリー総柄ネクタイ　ジッパー式",
+            "slide_price": 5980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-kdh259?_pos=1&_sid=416122b04&_ss=r&variant=44754457493723",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_Uw7LGb": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-8.jpg",
+            "slide_title": "アメカジコットンレトロバンダナ",
+            "slide_price": 3980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-cj-hhj318?_pos=1&_sid=01d40ef36&_ss=r&variant=45063672627419",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_JNUNab": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-10.jpg",
+            "slide_title": "カラーブロック太糸ソックス 2足セット",
+            "slide_price": 6980,
+            "slide_price_new": 3990,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-md-ts2301059?_pos=2&_sid=42139352f&_ss=r",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_3yqQVD",
+        "slide_block_Uw7LGb",
+        "slide_block_JNUNab"
+      ],
+      "settings": {
+        "slide_btn_color": "#fec73e",
+        "slide_text_color": "#251e49",
+        "slide_btn_hover_color": "#49548a",
+        "slide_text_hover_color": "#fec73e",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_4RdzdK": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_ixTJKj": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/9_94c78934-63d9-4387-b981-fffee3fcdaf0.png",
+            "slide_title": "レトロパイナップルパイルマフラー",
+            "slide_price": 9190,
+            "slide_price_new": 5200,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-md-tw2007200?_pos=3&_sid=36ddd5c14&_ss=r",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_ixTJKj"
+      ],
+      "settings": {
+        "slide_btn_color": "#fec73e",
+        "slide_text_color": "#251e49",
+        "slide_btn_hover_color": "#49548a",
+        "slide_text_hover_color": "#fec73e",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "background_image_LVLbhh": {
+      "type": "background-image",
+      "settings": {
+        "background_color_overlay": "#f2ece7",
+        "background_color": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "divider_jMFUMj": {
+      "type": "divider",
+      "settings": {}
+    }
+  },
+  "order": [
+    "slideshow_TX98aM",
+    "image_GzHjEj",
+    "slide_block_group_QHwYa4",
+    "slide_block_group_8UnTAY",
+    "slide_block_group_crPCbd",
+    "slide_block_group_4RdzdK",
+    "background_image_LVLbhh",
+    "main",
+    "divider_jMFUMj"
+  ]
+}

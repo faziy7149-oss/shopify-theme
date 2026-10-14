@@ -1,0 +1,235 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1652869072251fa0bf": {
+      "type": "slideshow",
+      "blocks": {
+        "235ccd36-9bd6-489e-936d-9cd50722c2d4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/8_PC_2_1.jpg",
+            "mobile_image": "shopify://shop_images/8_M_1_1.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "235ccd36-9bd6-489e-936d-9cd50722c2d4"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "1659687541a168b118": {
+      "type": "rich-text",
+      "blocks": {
+        "165968754119438507-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "165968754119438507-1": {
+          "type": "heading",
+          "settings": {
+            "title": "KARAKU、の8月に何着る？",
+            "use_h1": false
+          }
+        },
+        "165968754119438507-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>夏真っ盛りの8月は気温も湿度も高くなるため、じめっとした蒸し暑さに悩まされるでしょう。毎日快適に過ごせるよう、服装選びのポイントをしっかりチェックしておきましょう。今回は、真夏のワードローブの主役「Tシャツ」と「シャツ」にフォーカスした特集をお届けしています。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "165968754119438507-0",
+        "165968754119438507-1",
+        "165968754119438507-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "1635220294067ab8a1": {
+      "type": "collection-list",
+      "blocks": {
+        "234704da-9463-40a4-897f-0e7748ae97bb": {
+          "type": "collection",
+          "settings": {
+            "collection": "tシャツ-カットソー",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "7e5ba499-b7f1-4af0-b4ea-10a29f11f7a0": {
+          "type": "collection",
+          "settings": {
+            "collection": "shirts",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "234704da-9463-40a4-897f-0e7748ae97bb",
+        "7e5ba499-b7f1-4af0-b4ea-10a29f11f7a0"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 2,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "16474156937f4a31bc": {
+      "type": "collection-list",
+      "blocks": {
+        "86e1fd4d-782d-49d6-b810-d20f2ed676f8": {
+          "type": "collection",
+          "settings": {
+            "collection": "ranking",
+            "image": "shopify://shop_images/6179f0b1b19b03c3d07cba04cd18767f.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "06215b97-1e3d-40d3-bc0b-bf34714a4992": {
+          "type": "collection",
+          "settings": {
+            "collection": "勝色-男らしさと勇気を象徴する-日本でなくてはならないコンセプト",
+            "image": "shopify://shop_images/20220316-153524.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "86e1fd4d-782d-49d6-b810-d20f2ed676f8",
+        "06215b97-1e3d-40d3-bc0b-bf34714a4992"
+      ],
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 2,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    }
+  },
+  "order": [
+    "1652869072251fa0bf",
+    "1659687541a168b118",
+    "1635220294067ab8a1",
+    "main",
+    "1635765484031572a6",
+    "16474156937f4a31bc"
+  ]
+}

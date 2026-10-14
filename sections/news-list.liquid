@@ -1,0 +1,249 @@
+{%  style  %} 
+ .section-id-{{ section.id }} .data-time-size {
+   font-size: 12px;
+   color: #100f0f;
+   text-align: center;
+ }
+ .section-id-{{ section.id }} .data-time-cor {
+  color: #100f0f;
+  overflow:hidden; 
+  text-overflow:ellipsis;
+  display:-webkit-box; 
+  -webkit-box-orient:vertical;
+  -webkit-line-clamp:2; 
+  line-height: 1.5
+ }
+ @media (min-width: 768px) {
+  .section-id-{{ section.id }} .news-box .news-list .news-list-img .news-bg {
+    position: relative;
+  }
+  .section-id-{{ section.id }} .news-box .news-list .news-list-img .news-bg .product-block__image:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: rgba(49, 49, 49, 0.2);
+    transition: all 0.3s linear;
+  }
+  .section-id-{{ section.id }} .news-box .news-list .news-list-img .news-bg .product-block__image:hover::after{
+    opacity: 1;
+  }
+ }
+ .section-id-{{ section.id }} .data-top{
+  margin-top: 26px;
+ }
+   .section-id-{{ section.id }} .product-grid .product-block__detail {
+    margin-bottom: 20px;
+  }
+{% endstyle %} 
+
+<div class="section-id-{{ section.id }} collection-slider-row for-collections {% if section.settings.color_scheme != 'default' %}use-color-scheme use-color-scheme--{{ section.settings.color_scheme }}{% endif %}">
+<div class="container {% if section.settings.full_width %} container--no-max news-container{% endif %} data-padding">
+  {%- if section.settings.enable_carousel -%}
+    <carousel-slider class="carousel block collection-slider">
+  {%- endif -%}
+  
+  <h2 class="hometitle h4 align-center has-paging{% if section.settings.enable_carousel %} slider-nav{% endif %}" {%- render 'animation-attrs', attrs: 'data-cc-animate data-cc-animate-delay="0.3s"' -%}>
+    {% if section.settings.enable_carousel %}
+      <button name="prev" class="slider-nav__btn has-ltr-icon">
+        <span class="visually-hidden">{{ 'general.slider.previous' | t }}</span>
+        {% render 'icon-chevron-left' %}
+      </button>
+    {% endif %}
+    <span class="has-paging__title align-centre">{{ section.settings.news_title }}</span>
+    {% if section.settings.enable_carousel %}
+      <button name="next" class="slider-nav__btn has-ltr-icon">
+        <span class="visually-hidden">{{ 'general.slider.next' | t }}</span>
+        {% render 'icon-chevron-right' %}
+      </button>
+    {% endif %}
+  </h2>
+
+  <div class="collection-listing fade-in-up{% if section.settings.enable_carousel %} slider {% if section.settings.full_width %}slider--edge-peek{% endif %} slider--mobile-container-pad slider--no-scrollbar{% endif %}" {%- render 'animation-attrs', attrs: 'data-cc-animate' -%}>
+    <div class="news-box {% if section.settings.enable_carousel %}show-hid{% endif %}">
+      {% comment %} 新闻列表 {% endcomment %}
+      <div class="news-list">
+        <ul class="news-list-img {% if section.settings.enable_carousel %}sowl-carousel{% endif %}">
+          <div class="product-grid product-grid--per-row-{{ section.settings.grid }} product-grid--per-row-mob-{{ section.settings.coll_thumb_mob_per_row }} {% if section.settings.enable_carousel %} slider__grid product-grid--carousel{% endif %}">
+          {% for block in section.blocks %}
+            {% comment %} 轮播测试 {% endcomment %}
+            {% if section.settings.enable_carousel %} {% echo '<div class="slider__item">'  %} {% endif %}
+            <li class="news-item">
+              <a class="product-link" href="{{ pages[block.settings.page].url }}">
+                <div class="news-bg">
+                  <div class="product-block__image image-overlay__image img-stretch product-block__image--primary product-block__image--active">
+                    {%- if block.settings.news_page == blank -%}
+                      <div class="placeholder-image">
+                        {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                      </div>
+                    {%- else -%}
+                      {%- render 'image' with block.settings.news_page, size_cols_mobile: section.settings.grid_mobile -%}
+                    {%- endif -%}
+                  </div>
+                </div>
+                <div class="product-block__detail align-center">
+                  <div class="product-block__title data-time-cor">
+                    {{ block.settings.news_info }}
+                  </div>
+                </div>
+
+                {% assign pagetime = pages[block.settings.page].published_at %}
+                <div class="date data-time-size">{{ pagetime | time_tag: format: 'date' }}</div>
+              </a>
+            </li>         
+            {% if section.settings.enable_carousel %} {% echo '</div>' %}  {% endif %}
+            {% comment %} 轮播测试 {% endcomment %}
+          
+          {% endfor %}
+          </div>
+        </ul>
+      </div>
+    </div>
+  </div>
+
+  <div class="data-view-all view-all align-center data-top" {%- render 'animation-attrs', attrs: 'data-cc-animate data-cc-animate-delay="0.5s"' -%}>
+    <a class="small-feature-link" href="{{ section.settings.more_url }}">{{ section.settings.view_all }}</a>
+  </div>
+
+  {%- if section.settings.enable_carousel -%}
+    </carousel-slider>
+  {%- endif -%}
+</div>
+</div>
+
+{% schema %}
+{
+"name": "news list",
+"settings": [
+  {
+    "type": "text",
+    "id": "news_title",
+    "label": "Title",
+    "default": "NEWS"
+  },
+  {
+    "type": "url",
+    "id": "more_url",
+    "label": "url"
+  },
+  {
+    "type": "text",
+    "id": "view_all",
+    "label": "查看更多",
+    "default": "View all"
+  },
+  {
+    "id": "full_width",
+    "type": "checkbox",
+    "label": "Full page width",
+    "default": true
+  },
+  {
+    "type": "checkbox",
+    "id": "enable_carousel",
+    "label": "Enable carousel",
+    "default": false
+  },
+  {
+    "type": "range",
+    "id": "grid",
+    "label": "Collections per row",
+    "min": 2,
+    "max": 5,
+    "step": 1,
+    "default": 4
+  },
+  {
+      "type": "select",
+      "id": "coll_thumb_mob_per_row",
+      "label": "Collections per row on mobile",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ],
+      "default": "2"
+   },
+   {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "default",
+      "options": [
+        {
+          "value": "default",
+          "label": "Default"
+        },
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ]
+    }
+],
+"blocks": [
+  {
+    "type": "newslist",
+    "name": "News info",
+    "settings": [
+      {
+        "type": "image_picker",
+        "id": "news_page",
+        "label": "新闻",
+        "info": "size: 1440*1440"
+      },
+      {
+        "type": "page",
+        "id": "page",
+        "label": "page"
+      },
+      {
+        "type": "text",
+        "id": "news_info",
+        "label": "news info"
+      }
+    ]
+  }
+],
+"presets": [
+  {
+    "name": "news list",
+    "settings": {},
+    "blocks": [
+      {
+        "type": "newslist",
+        "settings": {}
+      },
+      {
+        "type": "newslist",
+        "settings": {}
+      },
+      {
+        "type": "newslist",
+        "settings": {}
+      },
+      {
+        "type": "newslist",
+        "settings": {}
+      },
+      {
+        "type": "newslist",
+        "settings": {}
+      }
+    ]
+  }
+]
+}
+{% endschema %}

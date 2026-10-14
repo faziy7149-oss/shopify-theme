@@ -1,0 +1,711 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1635768914f23d82e2": {
+      "type": "rich-text",
+      "blocks": {
+        "1635768914f23d82e2-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "SINCE 2015"
+          }
+        },
+        "1635768914f23d82e2-1": {
+          "type": "heading",
+          "settings": {
+            "title": "KARAKUについて",
+            "use_h1": true
+          }
+        },
+        "1635768914f23d82e2-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>私たちは復刻で過去に敬意を表し  </p><p>革新で未来を創造します</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1635768914f23d82e2-0",
+        "1635768914f23d82e2-1",
+        "1635768914f23d82e2-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "1635768740ccaa3a39": {
+      "type": "slideshow",
+      "blocks": {
+        "1635768740ccaa3a39-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20211009113626_464c4620-927b-4519-9934-60d34ff37ac1.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        },
+        "6e684fdc-d4af-4f31-8b4a-77abaa2ee5f8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20241016115225.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        },
+        "1635768740ccaa3a39-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner-PC.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        },
+        "299b131f-3851-4691-b539-ca3243f6a7af": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/668_a244b978-148b-4aab-ba6b-329035d42220.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "Shop this",
+            "button_url_1": "",
+            "button_label_2": "Shop all",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1635768740ccaa3a39-0",
+        "6e684fdc-d4af-4f31-8b4a-77abaa2ee5f8",
+        "1635768740ccaa3a39-1",
+        "299b131f-3851-4691-b539-ca3243f6a7af"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 800,
+        "height_mobile": 220,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 3,
+        "accessibility_info": ""
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_page_title": true,
+        "full_width": true
+      }
+    },
+    "163576891906140710": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_XkiVFF": {
+          "type": "heading",
+          "settings": {
+            "title": "HOW WE STARTED",
+            "use_h1": false
+          }
+        },
+        "text_DYpYim": {
+          "type": "text",
+          "settings": {
+            "text": "<p>KARAKUは2015年に設立されました。私たちはクラシックファッションに焦点を当て、長期にわたってきちんと着用できる高品質の服を作ることに取り組んでいます。これは私たちのブランドの本来の意図でもあります。<br/></p><p>私たちの創設チームは、経験豊富なレトロな服の愛好家とプロの服のデザインの専門家で構成されています。レトロカルチャーやミリタリーウェアへの長年の愛情から、オリジナルの服スタイルを数多く生み出し、製品の細部や服の品質に重要な役割を果たしてきました。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_XkiVFF",
+        "text_DYpYim"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/2_3e223f90-043c-435e-917f-6e6e5b6017af.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "1635769205e079269e": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_zbyqfi": {
+          "type": "heading",
+          "settings": {
+            "title": "HOW WE WORK",
+            "use_h1": false
+          }
+        },
+        "text_axG3kA": {
+          "type": "text",
+          "settings": {
+            "text": "<p>高品質を確保しながらクラシックファッションを上手く再現し、可能な限り価格を下げるためには、世界中から高品質の原材料を購入してカスタマイズするだけでなく、高品質の原材料と協力する必要があります。 -質の高い工場ですが、これは私たちの小さなチームにとっては難しいことですが、工場の勤勉でプロの職人は私たちに大きな自信を与えてくれました。彼らは製造工程のすべての工程に注意を払い、この職人技と彼らが作る「アートワーク」を称賛する必要があります。<br/><br/>また、古着の技法や機械を使ってクラシカル的な服を再現することも試みています。可能な限り修復するために、私たちはすべての縫製と仕立ての方法を研究および模倣し、生産リンクの継続的な最適化を通じてコストを削減してきました</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_zbyqfi",
+        "text_axG3kA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1_1_5c6ec4ad-0039-4d9d-bd52-ab6058c17df1.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "1635769584ce7061f5": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KTNfce": {
+          "type": "heading",
+          "settings": {
+            "title": "WHAT WE WANT",
+            "use_h1": false
+          }
+        },
+        "text_W3jzif": {
+          "type": "text",
+          "settings": {
+            "text": "<p>より良いアメカジレトロウェアを作ることがKaraKuの理想です。</p><p>KaraKu の価値観：アメリカンカジュアルなライフスタイルのためにより良いサービスの提供に努めます。</p><p>みんな様を満足させる服飾がたくさんあるかもしれませんが、KARAKUがもっと持ってきたいのはみんな様を驚かせる服です。KARAKUは常により良いワークウェアを作る方法を模索しています。Blog、Facebook、Instagram、その他を介して ワークウェアの文化をみんなと共有します。みんな様に幸せをもたらすことが何より先にすべきだと思います。これはまさにKARAKU全員スタッフの目的です。<br/><br/>長期的なご理解とご支援に感謝いたします。<br/>将来的には、より良いワークウェアを作るために精一杯努力します！</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_KTNfce",
+        "text_W3jzif"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/10_b47b262e-a741-4e8e-8bea-d8aab88e7eb3.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "16371477004894b2b1": {
+      "type": "rich-text",
+      "blocks": {
+        "7e485db3-bb4b-4705-8827-8755da1979b8": {
+          "type": "heading",
+          "settings": {
+            "title": "KARAKU株式会社",
+            "use_h1": false
+          }
+        },
+        "9aeb83b1-c818-44c3-97c3-caac42b98b09": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "TEl: 050-5050-7960"
+          }
+        },
+        "0bbe1a09-d0b3-41b4-a711-d18c7db7d36b": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Japan: 東京都渋谷区神宮前三丁目24番1号イン・ザ・ストリームビル1F</p>",
+            "enlarge_text": false
+          }
+        },
+        "163714770044333a31-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Hong Kong: RM 1702 17/F,  Trade centre NOS. 161-167 Des Voeux Road Central</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "7e485db3-bb4b-4705-8827-8755da1979b8",
+        "9aeb83b1-c818-44c3-97c3-caac42b98b09",
+        "0bbe1a09-d0b3-41b4-a711-d18c7db7d36b",
+        "163714770044333a31-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "2"
+      }
+    },
+    "164500793235c7ad3d": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/35_6d8cbde1-e6c7-4325-b725-67dbbda70606.jpg",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "full"
+      }
+    },
+    "1635770019dde0d8c6": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/banner_PC_01_f0ee3a86-8489-4a5f-b0fc-a9076733539f.jpg",
+        "height": "fixed",
+        "height_desktop": 540,
+        "height_mobile": 140,
+        "image_link": "shopify://pages/faqs",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "full"
+      }
+    },
+    "new_time_line_aJhAta": {
+      "type": "new-time-line",
+      "blocks": {
+        "time_line_title_jWHP4m": {
+          "type": "time_line_title",
+          "settings": {
+            "title": "- 2020",
+            "text": "#data-2020-05"
+          }
+        },
+        "time_line_title_XPnTVj": {
+          "type": "time_line_title",
+          "settings": {
+            "title": "- 2021",
+            "text": "#data-2021-07"
+          }
+        },
+        "time_line_title_RqKMe6": {
+          "type": "time_line_title",
+          "settings": {
+            "title": "- 2022",
+            "text": "#data-2022-02"
+          }
+        },
+        "time_line_title_Fqmcn9": {
+          "type": "time_line_title",
+          "settings": {
+            "title": "- 2023",
+            "text": "#data-2023-02"
+          }
+        },
+        "time_line_title_TQpntV": {
+          "type": "time_line_title",
+          "settings": {
+            "title": "- 2024",
+            "text": "#data-2024-02"
+          }
+        },
+        "time_line_item_zYFW77": {
+          "type": "time_line_item",
+          "settings": {
+            "time_title": "2020.05",
+            "timeline_text": "<p>karakubuyオンラインストアが誕生。<br/>常に「世界に幸せを作る」大きな夢を持った7名だけの小さなチームからスタート。</p>",
+            "time_image": "shopify://shop_images/2020.5.jpg",
+            "time_anchor": "data-2020-05"
+          }
+        },
+        "time_line_item_33r4DV": {
+          "type": "time_line_item",
+          "settings": {
+            "time_title": "2020.12",
+            "timeline_text": "<p>ヴィンテージクローズを中心とした優良サプライヤと工場を探索。<br/>品質マネジメントシステムを確立し、商品の設計から、製造、販売、アフターサービスに至るすべてのプロセスにおいて、商品の高品質確保のための取り組みを実行。</p>",
+            "time_image": "shopify://shop_images/2020.12.jpg",
+            "time_anchor": ""
+          }
+        },
+        "time_line_item_CX4YHp": {
+          "type": "time_line_item",
+          "settings": {
+            "time_title": "2021.07",
+            "timeline_text": "<p>「日本の伝統が受け継ぐ」藍染アイテムをスタート、オリジナルアロハシャツ、一点物のヴィンテージクローズ、小物などを展開。 </p>",
+            "time_image": "shopify://shop_images/2021.7.jpg",
+            "time_anchor": "data-2021-07"
+          }
+        },
+        "time_line_item_yRmGd7": {
+          "type": "time_line_item",
+          "settings": {
+            "time_title": "2022.02",
+            "timeline_text": "<p>会員ステージ制度を設定。</p>",
+            "time_image": "shopify://shop_images/2022.2.jpg",
+            "time_anchor": "data-2022-02"
+          }
+        },
+        "time_line_item_eH8ddg": {
+          "type": "time_line_item",
+          "settings": {
+            "time_title": "2022.05",
+            "timeline_text": "<p>無事に2歳の誕生日を迎えることができた。</p>",
+            "time_image": "shopify://shop_images/2022.5.jpg",
+            "time_anchor": ""
+          }
+        },
+        "time_line_item_ReFe9e": {
+          "type": "time_line_item",
+          "settings": {
+            "time_title": "2022.09",
+            "timeline_text": "<p>会員数10万人突破。</p>",
+            "time_image": "shopify://shop_images/2022.9.jpg",
+            "time_anchor": ""
+          }
+        },
+        "time_line_item_y4BW9B": {
+          "type": "time_line_item",
+          "settings": {
+            "time_title": "2022.12",
+            "timeline_text": "<p>2022年12月、注文数が前年比3倍に増加。</p>",
+            "time_image": "shopify://shop_images/2022.12.jpg",
+            "time_anchor": ""
+          }
+        },
+        "time_line_item_rL33Ut": {
+          "type": "time_line_item",
+          "settings": {
+            "time_title": "2023.02",
+            "timeline_text": "<p>BAJと協力し寄付プロジェクトをスタート、私たちの義務と価値を感じた。</p>",
+            "time_image": "shopify://shop_images/2023.2.jpg",
+            "time_anchor": "data-2023-02"
+          }
+        },
+        "time_line_item_k6PKXe": {
+          "type": "time_line_item",
+          "settings": {
+            "time_title": "2023.05",
+            "timeline_text": "<p>3歳誕生日を迎え、500名以上のVIP客に専用VIPカードを贈った。</p>",
+            "time_image": "shopify://shop_images/2023.5.jpg",
+            "time_anchor": ""
+          }
+        },
+        "time_line_item_HTBBwt": {
+          "type": "time_line_item",
+          "settings": {
+            "time_title": "2023.11",
+            "timeline_text": "<p>韓国オンラインショップを開設。</p>",
+            "time_image": "shopify://shop_images/166_about-us.jpg",
+            "time_anchor": ""
+          }
+        },
+        "time_line_item_EtpPi8": {
+          "type": "time_line_item",
+          "settings": {
+            "time_title": "2024.02",
+            "timeline_text": "<p>Begin 雑誌4月号に掲載。</p>",
+            "time_image": "shopify://shop_images/777.jpg",
+            "time_anchor": "data-2024-02"
+          }
+        },
+        "time_line_item_9xLFmL": {
+          "type": "time_line_item",
+          "settings": {
+            "time_title": "2024.09",
+            "timeline_text": "<p>KARAKU 原宿店舗 NEW OPEN<br/>📍住所：東京都渋谷区神宮前三丁目24番1号 イン・ザ・ストリームビル1F</p>",
+            "time_image": "shopify://shop_images/442_about-us.jpg",
+            "time_anchor": ""
+          }
+        },
+        "time_line_item_c6xpbT": {
+          "type": "time_line_item",
+          "settings": {
+            "time_title": "2025.02",
+            "timeline_text": "<p>2025年2月17日にマレーシアThe Exchange TRXショッピングモールにてオープンすることを決定致しました。</p>",
+            "time_image": "shopify://shop_images/about-us_-2.jpg",
+            "time_anchor": ""
+          }
+        },
+        "time_line_item_EFYQnB": {
+          "type": "time_line_item",
+          "settings": {
+            "time_title": "2025.05",
+            "timeline_text": "<p>⚫︎KARAKU×石黒亜矢子 限定アイテムの発売<br/>5周年を記念して、コラボレーションによる限定アイテムが発表されました。これらのアイテムは、アーティストの独自のスタイルとKARAKUの独自の配色が融合した作品で、非常に高い注目を集めました。</p>",
+            "time_image": "shopify://shop_images/about-us.jpg",
+            "time_anchor": ""
+          }
+        },
+        "time_line_item_tBrpEy": {
+          "type": "time_line_item",
+          "settings": {
+            "time_title": "2026.08",
+            "timeline_text": "<p><br/>⚫︎保護猫支援活動をスタート</p><p>猫アイテム1点のご購入につき10円を、保護猫支援活動へ。ファッションを楽しむことが、猫たちへの支援につながる取り組みを始めました。<br/><br/><br/><br/></p>",
+            "time_image": "shopify://shop_images/20260820-195751.png",
+            "time_anchor": ""
+          }
+        }
+      },
+      "block_order": [
+        "time_line_title_jWHP4m",
+        "time_line_title_XPnTVj",
+        "time_line_title_RqKMe6",
+        "time_line_title_Fqmcn9",
+        "time_line_title_TQpntV",
+        "time_line_item_zYFW77",
+        "time_line_item_33r4DV",
+        "time_line_item_CX4YHp",
+        "time_line_item_yRmGd7",
+        "time_line_item_eH8ddg",
+        "time_line_item_ReFe9e",
+        "time_line_item_y4BW9B",
+        "time_line_item_rL33Ut",
+        "time_line_item_k6PKXe",
+        "time_line_item_HTBBwt",
+        "time_line_item_EtpPi8",
+        "time_line_item_9xLFmL",
+        "time_line_item_c6xpbT",
+        "time_line_item_EFYQnB",
+        "time_line_item_tBrpEy"
+      ],
+      "settings": {}
+    },
+    "video_QGpx94": {
+      "type": "video",
+      "blocks": {
+        "heading_x3mq3B": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 32,
+            "use_h1": false
+          }
+        },
+        "text_p4qeGg": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "enlarge_text": true
+          }
+        },
+        "play_button_CwxXb3": {
+          "type": "play-button",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_x3mq3B",
+        "text_p4qeGg",
+        "play_button_CwxXb3"
+      ],
+      "name": "Video",
+      "settings": {
+        "video_shopify": "shopify://files/videos/横版_03b5e95c-36c3-433e-95cd-78f9966de4ae.mp4",
+        "video_external": "",
+        "video_description": "",
+        "text_alignment": "center center",
+        "full_width": true,
+        "overlay_style": "shadow"
+      }
+    },
+    "image_with_text_overlay_XckeCh": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_7GjXez": {
+          "type": "heading",
+          "settings": {
+            "title": "CUSTOMER SUPPORT",
+            "heading_max_width": 15,
+            "title_size": 42,
+            "title_size_mobile": 32,
+            "use_h1": false
+          }
+        },
+        "button_Tr7RUD": {
+          "type": "button",
+          "settings": {
+            "button_label": "よくあるご質問",
+            "button_link": "https://minipia.myshopify.com/pages/faqs",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_7GjXez",
+        "button_Tr7RUD"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/banner_PC_01_f0ee3a86-8489-4a5f-b0fc-a9076733539f.jpg",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "image_link": "https://minipia.myshopify.com/pages/faqs",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "image_with_text_WbRfgG": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Wn9j3B": {
+          "type": "heading",
+          "settings": {
+            "title": "衣料品寄付プロジェクト",
+            "use_h1": false
+          }
+        },
+        "text_3nx3bj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>衣類の廃棄を減らすとともに、限られた資源の有効活用に貢献しています。</p><p>2023年2月〜継続中</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_n6dfC8": {
+          "type": "button",
+          "settings": {
+            "button_label": "詳細を見る",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Wn9j3B",
+        "text_3nx3bj",
+        "button_n6dfC8"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/35_91ed6c0c-b69b-40a0-ae33-35851ff34227.jpg",
+        "image_width": 700,
+        "image_link": "https://karakubuy.com/pages/karaku-donation-project",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_LLajmD": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_4LkWXg": {
+          "type": "heading",
+          "settings": {
+            "title": "自閉症応援寄付イベント",
+            "use_h1": false
+          }
+        },
+        "text_NwfWFR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>4月2日は<a href=\"https://www.instagram.com/explore/tags/%E4%B8%96%E7%95%8C%E8%87%AA%E9%96%89%E7%97%87%E5%95%93%E7%99%BA%E3%83%87%E3%83%BC/\">#世界自閉症啓発デー</a>です。</p><p>「癒し」や「希望」を意味するブルーBlueがシンボルカラー💙<br/></p>",
+            "enlarge_text": false
+          }
+        },
+        "button_DND3wP": {
+          "type": "button",
+          "settings": {
+            "button_label": "詳細を見る",
+            "button_link": "https://karakubuy.com/collections/warm-blue-karaku-2024",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4LkWXg",
+        "text_NwfWFR",
+        "button_DND3wP"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/2_a3651a82-1aa0-4d6c-8512-722e889c58fc.jpg",
+        "image_width": 700,
+        "image_link": "https://karakubuy.com/collections/warm-blue-karaku-2024",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "16357706308f4b62e6": {
+      "type": "newsletter",
+      "settings": {
+        "title": "新規会員登録で 10000ポイントをプレゼント!",
+        "subheading": "<p><strong>ポイントを集めて、お買い物時に使える［割引クーポン］をゲットしましょう‼</strong><br/><br/></p>",
+        "color_scheme": "2"
+      }
+    }
+  },
+  "order": [
+    "1635768914f23d82e2",
+    "1635768740ccaa3a39",
+    "main",
+    "163576891906140710",
+    "1635769205e079269e",
+    "1635769584ce7061f5",
+    "16371477004894b2b1",
+    "164500793235c7ad3d",
+    "1635770019dde0d8c6",
+    "new_time_line_aJhAta",
+    "video_QGpx94",
+    "image_with_text_overlay_XckeCh",
+    "image_with_text_WbRfgG",
+    "image_with_text_LLajmD",
+    "16357706308f4b62e6"
+  ]
+}

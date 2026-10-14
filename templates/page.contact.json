@@ -1,0 +1,89 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-contact",
+      "blocks": {
+        "name": {
+          "type": "name_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "email": {
+          "type": "email_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "message": {
+          "type": "message_input",
+          "settings": {
+            "half_width": false
+          }
+        }
+      },
+      "block_order": [
+        "name",
+        "email",
+        "message"
+      ],
+      "settings": {
+        "show_page_title": true,
+        "use_columns": false,
+        "contact_title": "Contact us",
+        "contact_text": ""
+      }
+    },
+    "rich_text_bGefwz": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_AJEwYJ": {
+          "type": "heading",
+          "settings": {
+            "title": "KARAKU株式会社",
+            "use_h1": false
+          }
+        },
+        "text_3bEfz6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Japan: 東京都渋谷区神宮前三丁目24番1号イン・ザ・ストリームビル1F</p><p>Hong Kong: RM 1702 17/F,  Trade centre NOS. 161-167 Des Voeux Road Central,HongHong</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_Gn6Dyq": {
+          "type": "button",
+          "settings": {
+            "button_label": "よくあるご質問（FAQ）",
+            "button_link": "https://www.karakubuy.com/pages/faqs",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_AJEwYJ",
+        "text_3bEfz6",
+        "button_Gn6Dyq"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "1"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "rich_text_bGefwz"
+  ]
+}

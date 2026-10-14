@@ -1,0 +1,67 @@
+<style>
+  .image_block_wrapper {
+    margin: 0 auto;
+    text-align: center;
+  }
+  @media (min-width: 768px) {
+    .image_block_image_m {
+      display: none;
+    }
+  }
+  @media (max-width: 767px) {
+    .image_block_image_pc {
+      display: none;
+    }
+  }
+</style>
+<div class="section-id-{{ section.id }} {% if section.settings.data_wrapper_1250 %} data-wrapper-1250 {% endif %}">
+  <div class="container">
+    <div class="image_block_wrapper">
+      {% if section.settings.image_block_image == blank %}
+        <div class="placeholder-image">
+          {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+        </div>
+      {% else %}
+      {% if section.settings.image_link != blank %}
+        <a href="{{ section.settings.image_link }}">
+      {% endif %}
+          {% render 'image' with section.settings.image_block_image, size: '1600px', loading: 'lazy' class: 'image_block_image_pc' %}
+          {% render 'image' with section.settings.image_block_image_m, size: '1600px', loading: 'lazy' class: 'image_block_image_m' %}
+      {% if section.settings.image_link != blank %}
+        </a>
+      {% endif %}
+      {% endif %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Single image",
+  "settings": [
+      {
+        "type": "image_picker",
+        "id": "image_block_image",
+        "label": "PC端图片",
+        "info": "Upload an image"
+      },
+      {
+        "type": "image_picker",
+        "id": "image_block_image_m",
+        "label": "移动端图片",
+        "info": "Upload an image"
+      },
+     {
+       "type": "url",
+       "id": "image_link",
+       "label": "Image link"
+     }
+    ],
+  "presets": [
+    {
+      "name": "Single image",
+      "category": "Single image"
+    }
+  ]
+}
+{% endschema %}

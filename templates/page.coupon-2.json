@@ -1,0 +1,119 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "0a43c83d-67aa-4252-a170-5f0c40263884": {
+      "type": "photo-banner",
+      "settings": {
+        "image": "shopify://shop_images/PC_f4e4c362-cdd5-4b69-8bad-ac1c29c810f0.jpg",
+        "mobile_image": "shopify://shop_images/M_1ed36808-560d-47c3-a499-7167e6012fc6.jpg",
+        "banner_link": "",
+        "photo_banner_col": "#fe6d2d"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "full_width": false
+      }
+    },
+    "5ab8c7dd-103b-4319-a494-6e271d1adb6c": {
+      "type": "custom-liquid",
+      "settings": {
+        "full_width": false,
+        "code": "<p>KARAKU公式オンラインショップでは、すぐに使える「<strong>最大<span style=\"color: #ff2a00;\">15％OFF</span>クーポン</strong>」をプレゼントしております！ぜひ、この機会にKARAKUでのお買い物をお楽しみください。</p>\n<strong>クーポン詳細：</strong><br />①2点購入で10%OFF！<br /><strong>クーポンコード：<span style=\"color: #ff2a00;\">KSP10</span></strong><br />②3点以上のご購入で 15% OFF\n<p><strong>クーポンコード：<span style=\"color: #ff2a00;\">KSP15</span></strong></p>\n<strong>対象商品</strong>\n<p><a href=\"/collections/all-products\" target=\"_blank\" title=\"全商品\" rel=\"noopener noreferrer\">店内全商品</a></p>\n<strong>ご利用方法</strong>\n<p>お支払いページ「クーポン利用」欄に、クーポンコードをご入力ください。</p>\n<strong>注意事項</strong><br />・お直し代、ギフトカード、配送料など商品以外のサービスは対象外となります。<br />・商品の返品や注文のキャンセルをされた場合、クーポンの再発行はできません。<br />・クーポンの換金、転売、複数クーポンの併用はできません。\n<p>・公式オンラインショップでのご購入において、クーポンコードを入力されずに注文確定された場合は、割引は適用されません。</p>"
+      }
+    },
+    "49a52346-0d45-4125-8032-46de87224a1c": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16684707971291__49a52346-0d45-4125-8032-46de87224a1c-16752298767ee71723-1": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "use_h1": false
+          }
+        },
+        "template--16684707971291__49a52346-0d45-4125-8032-46de87224a1c-16752298767ee71723-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>KARAKU公式オンラインショップでは、すぐに使える「<strong>最大15％OFFクーポン</strong>」をプレゼントしております！ぜひ、この機会にKARAKUでのお買い物をお楽しみください。</p><p><strong>クーポン詳細：</strong></p><p>①2点購入で10%OFF！</p><p><strong>クーポンコード：KSP10</strong></p><p>②3点以上のご購入で 15% OFF</p><p><strong>クーポンコード：KSP15</strong></p><p><strong>対象商品</strong></p><p><a href=\"/collections/all-products\" target=\"_blank\" title=\"全商品\">店内全商品</a></p><p><strong>ご利用方法</strong></p><p>お支払いページ「クーポン利用」欄に、クーポンコードをご入力ください。</p><p><strong>注意事項</strong></p><p>・お直し代、ギフトカード、配送料など商品以外のサービスは対象外となります。</p><p>・商品の返品や注文のキャンセルをされた場合、クーポンの再発行はできません。</p><p>・クーポンの換金、転売、複数クーポンの併用はできません。</p><p>・公式オンラインショップでのご購入において、クーポンコードを入力されずに注文確定された場合は、割引は適用されません。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16684707971291__49a52346-0d45-4125-8032-46de87224a1c-16752298767ee71723-1",
+        "template--16684707971291__49a52346-0d45-4125-8032-46de87224a1c-16752298767ee71723-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "medium",
+        "text_alignment": "left",
+        "full_width": false
+      }
+    },
+    "da442835-44ec-452f-a1d7-fd3256d618e3": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "新着商品を見る",
+        "collection": "新作",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "0e91fdc1-44a3-4221-9f33-3969b082dcdd": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "今週人気商品を見る",
+        "collection": "人気商品",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "ba3f1b83-7c18-46b3-9905-edbcfde90651": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "セール商品を見る",
+        "collection": "sale",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "c9df5102-ef7b-43ad-9379-29f2a8723a00": {
+      "type": "text-editor",
+      "settings": {
+        "text1": "<p>Write down the text here</p>"
+      }
+    }
+  },
+  "order": [
+    "0a43c83d-67aa-4252-a170-5f0c40263884",
+    "main",
+    "5ab8c7dd-103b-4319-a494-6e271d1adb6c",
+    "49a52346-0d45-4125-8032-46de87224a1c",
+    "da442835-44ec-452f-a1d7-fd3256d618e3",
+    "0e91fdc1-44a3-4221-9f33-3969b082dcdd",
+    "ba3f1b83-7c18-46b3-9905-edbcfde90651",
+    "c9df5102-ef7b-43ad-9379-29f2a8723a00"
+  ]
+}

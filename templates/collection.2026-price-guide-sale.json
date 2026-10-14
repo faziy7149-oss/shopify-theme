@@ -1,0 +1,483 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "slideshow_gcCmQy": {
+      "type": "slideshow",
+      "blocks": {
+        "image_GmpKL7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20260206-172750.jpg",
+            "mobile_image": "shopify://shop_images/20260206-172743.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_GmpKL7"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "scrolling_banner_W4dbzN": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_7z64wM": {
+          "type": "text",
+          "settings": {
+            "text": "SEARCH BY PRICE!",
+            "color": "#023a5c",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_7z64wM"
+      ],
+      "name": "Scrolling banner",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 35,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "image_CJ7Jaj": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_cf9f1a2b-6d80-41fd-bca1-bf1114f20a66.png",
+        "mobile_image": "shopify://shop_images/720_0c377ccd-c548-4d22-83d7-e42e0afc5cc4.png",
+        "img_rul": ""
+      }
+    },
+    "url_text_dBT73f": {
+      "type": "url-text",
+      "name": "URL Text",
+      "settings": {
+        "style_image": "shopify://shop_images/SALE.png",
+        "url_text": "https://karakubuy.com/collections/%E3%82%BB%E3%83%BC%E3%83%AB%E5%95%86%E5%93%81-1",
+        "text_url": "セール商品一覧",
+        "btn_color": "#023a5c",
+        "btn_color_hover": "#023a5c",
+        "btn_text_color": "#f7f1e7",
+        "btn_text_color_hover": "#f7f1e7",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 25,
+        "url_font_size_moble": 13,
+        "img_postion_size_pc": 100,
+        "img_postion_size_moble": 72,
+        "img_postion_left_pc": 55,
+        "img_postion_top_pc": 30,
+        "img_postion_left_moble": 68,
+        "img_postion_top_moble": 16,
+        "img_postion_rotation_pc": 5,
+        "img_postion_rotation_moble": 5
+      }
+    },
+    "image_jump_custom_gtd9rk": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_xLWadp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_002d32eb-ade3-4337-9886-8d76473293af.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_xLWadp"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "slide_block_group_3y7bPB": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_Gz8QkY": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/01_1fbb8a74-1dd9-4aac-a3af-d80364168daf.png",
+            "slide_img": "shopify://shop_images/1336x1604-1_59e9a50e-2039-4073-ac8b-c44c4be4a15a.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-2_45b9a754-2a41-4519-9ede-f28785185a10.jpg",
+            "slide_img3": "shopify://shop_images/1336x1604-3_c84373c5-f1fb-4d2d-8906-fb0823848fa7.jpg",
+            "slide_title": "ストレッチ　微起毛ハイネックスウェット",
+            "slide_price": 7990,
+            "slide_price_new": 5590,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-cf-061?_pos=2&_sid=a89c689b6&_ss=r&variant=43484105015515",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_Lqtxmb": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/02_c5e648b1-0305-4cd1-9db6-4697d274bfef.png",
+            "slide_img": "shopify://shop_images/1336x1604-4_ffb1190a-c95c-4680-bad9-77652f0e047a.jpg",
+            "slide_title": "無地7色　ウォッシュド加工起毛感コットンTee",
+            "slide_price": 7980,
+            "slide_price_new": 5190,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-sd-hk6188?_pos=1&_sid=7497717ac&_ss=r&variant=44881419337947",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_BbWqhf": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/03_bf037964-8c65-4a60-ae0b-da4c60a1914e.png",
+            "slide_img": "shopify://shop_images/1336x1604-5_74a62c93-1ceb-4c9d-b968-ac35fa23c2c6.jpg",
+            "slide_title": "「STAY TRUE」刺繍ワッペン　裾ドローコード付きチェック織りニットロングT",
+            "slide_price": 9980,
+            "slide_price_new": 5990,
+            "slide_btn": "CHECK",
+            "slide_url": "shopify://products/krk-lsx-ts250919",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_Gz8QkY",
+        "slide_block_Lqtxmb",
+        "slide_block_BbWqhf"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#698b9c",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#023a5c",
+        "slide_text_hover_color": "#eed444",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "image_jump_custom_rUG8Gz": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_8W6An8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_d5d4914e-3857-4131-9afe-24fce8fcb0d3.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_8W6An8"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "slide_block_group_cRYKNr": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_haFe7W": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/04_6ead67e0-b59b-4a22-b630-39c0df6205e6.png",
+            "slide_img": "shopify://shop_images/1336x1604-8_a781cf91-ae56-4137-8624-a39a3e75fa57.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-6_0e14c13a-9c98-41a5-a763-e5d66f689973.jpg",
+            "slide_img3": "shopify://shop_images/1336x1604-7_e153f22d-a015-435f-b2cc-6ef1d58135da.jpg",
+            "slide_title": "「和猫ライダー」プリントVガゼット入りコットンプルオーバースウェット",
+            "slide_price": 12980,
+            "slide_price_new": 7790,
+            "slide_btn": "CHECK",
+            "slide_url": "shopify://products/krk-zyd-hd251060",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_iwQ7zA": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/05_a8001043-5232-4766-bae4-98ae0d92f1fe.png",
+            "slide_img": "shopify://shop_images/1336x1604-9_5534c2a7-5b8a-4cfb-a641-feb987588211.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-10_5410f52e-e54e-4339-9080-65ed161e7ac7.jpg",
+            "slide_title": "「STAY TRUE」刺繍ワッペン　カシミヤライクハーフジップハイネックスウェット",
+            "slide_price": 12590,
+            "slide_price_new": 7550,
+            "slide_btn": "CHECK",
+            "slide_url": "shopify://products/krk-zyd-sztiki",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_qHpYkr": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/06_d47a2328-ddf5-4be2-bbbe-98e4539b6ede.png",
+            "slide_img": "shopify://shop_images/1336x1604-11_f9cf4de0-8c8f-4ecf-bed9-0f3ccb5d8492.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-12_534c5c4d-bdee-4f3d-892d-702470e845d9.jpg",
+            "slide_img3": "shopify://shop_images/1336x1604-13_b4dee0f1-d151-4919-b1f4-1ad48efd847a.jpg",
+            "slide_title": "Cleanfit　赤ヒモ付き　刺繍入りオックスフォード長袖シャツ",
+            "slide_price": 10980,
+            "slide_price_new": 7140,
+            "slide_btn": "CHECK",
+            "slide_url": "shopify://products/krk-gpd-gs1344",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_haFe7W",
+        "slide_block_iwQ7zA",
+        "slide_block_qHpYkr"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#698b9c",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#023a5c",
+        "slide_text_hover_color": "#eed444",
+        "slide_font_color": "#000000",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_rr7TK6": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_miwN6w": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/07_2c69866f-f643-4719-9344-6af12bb6ef66.png",
+            "slide_img": "shopify://shop_images/1336x1604-14_74972360-6c33-4e8e-aae4-8020f375aabf.jpg",
+            "slide_title": "ナバホ柄コンビ　ハーフジップポーラーフリースプルオーバースウェット",
+            "slide_price": 13980,
+            "slide_price_new": 8990,
+            "slide_btn": "CHECK",
+            "slide_url": "shopify://products/krk-zyd-nwhglwy809",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_QFHnQz": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/08_c2a54328-3c4e-4caa-ba77-708ad4ad71f0.png",
+            "slide_img": "shopify://shop_images/1336x1604-15_71902da1-d84a-4960-b382-e5f6badd26a5.jpg",
+            "slide_title": "袖口オレンジ切替　ジャガード織り猫の顔ポケットニットセーター",
+            "slide_price": 12980,
+            "slide_price_new": 8430,
+            "slide_btn": "CHECK",
+            "slide_url": "shopify://products/krk-zyd-sw251105",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_VgeDgg": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/09_7e150ddf-d1db-4f21-b444-04737f4a796e.png",
+            "slide_img": "shopify://shop_images/1336x1604-16_bc6b7d56-3e02-48b3-af63-567c2ada3eb9.jpg",
+            "slide_title": "「猫が迷彩に溶け込む」総柄　ミリタリー風ワークシャツ",
+            "slide_price": 15390,
+            "slide_price_new": 8460,
+            "slide_btn": "CHECK",
+            "slide_url": "shopify://products/krk-zyd-mmmcsg714",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_miwN6w",
+        "slide_block_QFHnQz",
+        "slide_block_VgeDgg"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#698b9c",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#023a5c",
+        "slide_text_hover_color": "#eed444",
+        "slide_font_color": "#000000",
+        "price_new_color": "#c20000"
+      }
+    },
+    "image_jump_custom_F43MHr": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_VG6xr8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_706e2027-284f-4735-8af2-8c5c7603ec0b.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_VG6xr8"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "slide_block_group_6JTpra": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_hq3iRt": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/10_52b9d80a-55c9-4531-950a-d6ab5165542b.png",
+            "slide_img": "shopify://shop_images/1336x1604-17_50d33844-7090-4e63-afd6-7b19fb1d98d7.jpg",
+            "slide_title": "「ナバホ＆サンダーバード」柄ジャガード織りニットVネックカーディガン",
+            "slide_price": 14980,
+            "slide_price_new": 9000,
+            "slide_btn": "CHECK",
+            "slide_url": "shopify://products/krk-zyd-tkbkji0731",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_3HcEfw": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/11_30278bcd-7755-4100-a664-b79abc0f38ba.png",
+            "slide_img": "shopify://shop_images/1336x1604-18_569f540e-f022-47a5-bdf8-e46fdb3de517.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-19_f9ea7e20-0d40-43ca-b439-8bbaf350a7e6.jpg",
+            "slide_img3": "shopify://shop_images/1336x1604-20_3be20f59-0dcd-497d-ab59-7380852862e7.jpg",
+            "slide_title": "MA-1袖ポケット　薄手Ⅴネックフライトジャケット",
+            "slide_price": 13980,
+            "slide_price_new": 9090,
+            "slide_btn": "CHECK",
+            "slide_url": "shopify://products/krk-061-urwt25",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_Cfatny": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/12_547115bb-1a06-4879-8a32-d2c002bcc0e0.png",
+            "slide_img": "shopify://shop_images/1336x1604-21_eeda933c-3667-4efa-9a8e-7f33c6cc86ac.jpg",
+            "slide_title": "肘スエードパッチ　「KaraKu」刺繡入り裏起毛コットンスウェット",
+            "slide_price": 12980,
+            "slide_price_new": 9690,
+            "slide_btn": "CHECK",
+            "slide_url": "shopify://products/krk-ljp-jppjxwy726",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_hq3iRt",
+        "slide_block_3HcEfw",
+        "slide_block_Cfatny"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#698b9c",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#023a5c",
+        "slide_text_hover_color": "#eed444",
+        "slide_font_color": "#000000",
+        "price_new_color": "#c20000"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "background_image_tbntJ7": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "image": "shopify://shop_images/bg_7c47ec90-bfbe-458a-9843-b42369f73c22.png",
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#f5f5f5",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "slideshow_gcCmQy",
+    "scrolling_banner_W4dbzN",
+    "image_CJ7Jaj",
+    "url_text_dBT73f",
+    "image_jump_custom_gtd9rk",
+    "slide_block_group_3y7bPB",
+    "image_jump_custom_rUG8Gz",
+    "slide_block_group_cRYKNr",
+    "slide_block_group_rr7TK6",
+    "image_jump_custom_F43MHr",
+    "slide_block_group_6JTpra",
+    "main",
+    "background_image_tbntJ7"
+  ]
+}

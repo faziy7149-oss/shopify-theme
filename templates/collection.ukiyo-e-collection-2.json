@@ -1,0 +1,358 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "5dbd174a-5db4-4e98-a86d-c8711f267854": {
+      "type": "photo-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/2_d8a81ccf-7879-43aa-828d-4283db162a62.jpg",
+        "mobile_image": "shopify://shop_images/4_2f4d3c74-dcba-48c1-aad3-623449cbbca3.jpg",
+        "banner_link": "shopify://collections/early-spring-fair-2024",
+        "photo_banner_col": "#012875"
+      }
+    },
+    "99f189b4-745a-4729-8f17-2eea235f260a": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16696504418523__99f189b4-745a-4729-8f17-2eea235f260a-1676629878990c60f8-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20230919-141027.jpg",
+            "mobile_image": "shopify://shop_images/20230919-141518.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16696504418523__99f189b4-745a-4729-8f17-2eea235f260a-1676629878990c60f8-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 560,
+        "height_mobile": 540,
+        "full_width": false,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "f2db8f17-254f-473a-88b2-f5f0e3e14335": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16696504418523__f2db8f17-254f-473a-88b2-f5f0e3e14335-1676630696ed8232ca-1": {
+          "type": "heading",
+          "settings": {
+            "title": "浮世絵とは、江戸時代に成立した絵画様式のひとつです。",
+            "use_h1": false
+          }
+        },
+        "template--16696504418523__f2db8f17-254f-473a-88b2-f5f0e3e14335-1676630696ed8232ca-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>「浮世」とは「憂世」に由来し、江戸の世を謳歌しようとする風潮の中で、浮かれて暮らすことを好んだ人々が「浮世」の字を当てたとされています。</p><p>江戸時代から現代まで受け継がれてきた浮世絵、奇抜な構図、鮮烈な色彩で、世界の芸術家達にも大きな影響を与えた。</p><p>日本の伝統文化を追求してきたKaraKuと、新たな和モダンを創造する身に纏う芸術が合わさった一歩先行く。</p><p>日本の伝統文化への敬意を払いながらも、現代的ファッション感覚を失わず。</p><p>得意とする技法、デザイン、オリジナル生地を用いて、想像力に溢れた江戸の姿を服に中に閉じ込めて、「和」のアイデンティティを残しつつも現代ファッションに昇華させた。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16696504418523__f2db8f17-254f-473a-88b2-f5f0e3e14335-1676630696ed8232ca-1",
+        "template--16696504418523__f2db8f17-254f-473a-88b2-f5f0e3e14335-1676630696ed8232ca-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "gallery_TW4khf": {
+      "type": "gallery",
+      "blocks": {
+        "media_ymkmCR": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20230919114607.png",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/collections/ukiyo-e-prints/products/krk-zyd-klgfja915",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_h8PJ6x": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20230919114602.png",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/collections/ukiyo-e-prints/products/krk-zyd-shzfgfja915",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_ymkmCR",
+        "media_h8PJ6x"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 260,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "full",
+        "button_style": "primary"
+      }
+    },
+    "de399897-2f3b-42ad-b715-ef6e08f8e8c9": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16696504418523__de399897-2f3b-42ad-b715-ef6e08f8e8c9-1676629878990c60f8-0": {
+          "type": "image",
+          "settings": {
+            "slide_link": "",
+            "subheading": "Subheading",
+            "title": "Tell your story",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "<p>Pair text with an image to tell a story</p>",
+            "enlarge_text": true,
+            "button_label_1": "Shop this",
+            "button_url_1": "",
+            "button_label_2": "Shop all",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16696504418523__de399897-2f3b-42ad-b715-ef6e08f8e8c9-1676629878990c60f8-0"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "a2dce3a1-06f0-42e1-9160-2a43209e96eb": {
+      "type": "text-editor",
+      "settings": {
+        "data_wrapper_1250": false,
+        "text1": "<p>浮世絵とは、江戸時代に成立した絵画様式のひとつです。<br/>「浮世」とは「憂世」に由来し、江戸の世を謳歌しようとする風潮の中で、浮かれて暮らすことを好んだ人々が「浮世」の字を当てたとされています。<br/>江戸時代から現代まで受け継がれてきた浮世絵、奇抜な構図、鮮烈な色彩で、世界の芸術家達にも大きな影響を与えた。<br/>日本の伝統文化を追求してきたKaraKuと、新たな和モダンを創造する身に纏う芸術が合わさった一歩先行く。<br/>日本の伝統文化への敬意を払いながらも、現代的ファッション感覚を失わず。<br/>得意とする技法、デザイン、オリジナル生地を用いて、想像力に溢れた江戸の姿を服に中に閉じ込めて、「和」のアイデンティティを残しつつも現代ファッションに昇華させた。</p>"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1652174971ed44938d": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "fa9dfc57-29d9-429a-ad78-f1c3b0e73d03": {
+      "type": "collection-list",
+      "blocks": {
+        "a1cfda4d-2e5f-4eef-844f-e0f5bb378673": {
+          "type": "collection",
+          "settings": {
+            "collection": "casual",
+            "image": "shopify://shop_images/c748b6fbc74a48b24d75e66f4ba7160b.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "9da0261c-e6c2-4a9a-bbfc-119356e53e8e": {
+          "type": "collection",
+          "settings": {
+            "collection": "business",
+            "image": "shopify://shop_images/09b45cc61e451a48cc831f5c6eb891a0.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "687282e0-14a4-4d42-8dcb-0babe002b96a": {
+          "type": "collection",
+          "settings": {
+            "collection": "outdoor-sports",
+            "image": "shopify://shop_images/e0b1bc00e2371c92c676cd7a426a4d4d.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "6185350f-3346-4610-8759-0a714c2e8490": {
+          "type": "collection",
+          "settings": {
+            "collection": "navy",
+            "image": "shopify://shop_images/85e3b13ed818a2cb62f8b53434edd859.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "a1cfda4d-2e5f-4eef-844f-e0f5bb378673",
+        "9da0261c-e6c2-4a9a-bbfc-119356e53e8e",
+        "687282e0-14a4-4d42-8dcb-0babe002b96a",
+        "6185350f-3346-4610-8759-0a714c2e8490"
+      ],
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "1649757612ea7476eb": {
+      "type": "text-editor",
+      "settings": {
+        "data_wrapper_1250": false,
+        "text1": "<p>{{ collection.metafields.commodity.productintroduction | metafield_tag }}</p>"
+      }
+    },
+    "ac3f6eda-5daf-4a83-9259-76019dd0c875": {
+      "type": "photo-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/900.jpg",
+        "mobile_image": "shopify://shop_images/100.jpg",
+        "banner_link": "shopify://pages/新規会員限定-ポイント取得ページ",
+        "photo_banner_col": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "5dbd174a-5db4-4e98-a86d-c8711f267854",
+    "99f189b4-745a-4729-8f17-2eea235f260a",
+    "f2db8f17-254f-473a-88b2-f5f0e3e14335",
+    "gallery_TW4khf",
+    "de399897-2f3b-42ad-b715-ef6e08f8e8c9",
+    "a2dce3a1-06f0-42e1-9160-2a43209e96eb",
+    "main",
+    "1652174971ed44938d",
+    "1635765484031572a6",
+    "fa9dfc57-29d9-429a-ad78-f1c3b0e73d03",
+    "1649757612ea7476eb",
+    "ac3f6eda-5daf-4a83-9259-76019dd0c875"
+  ]
+}

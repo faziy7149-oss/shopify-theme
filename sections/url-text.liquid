@@ -1,0 +1,256 @@
+<style>
+  .section-class-{{ section.id }} .box-url-text {
+    position: relative;
+    height: 7em;
+    cursor: pointer;
+  }
+  .section-class-{{ section.id }} .box-url-text .url-text {
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%);
+    margin-top: 1em;
+    display: inline-block;
+    color: {{ section.settings.btn_text_color }};
+    font-size: {{ section.settings.url_font_size_pc }}px;
+    padding: 15px 35px;
+    line-height: 1;
+    background-color: {{ section.settings.btn_color }};
+    font-weight: {{ section.settings.url_font_weight }};
+    border-radius: {{ section.settings.btn_radius }}px;
+    transition: all 0.6s ease-in-out;
+  }
+  .section-class-{{ section.id }} .box-url-text .url-text:hover {
+    background-color: {{ section.settings.btn_color_hover }};
+    color: {{ section.settings.btn_text_color_hover }};
+  }
+  .section-class-{{ section.id }} .btn_style-image {
+    position: absolute;
+    top: {{ section.settings.img_postion_top_pc }}px;
+    left: {{ section.settings.img_postion_left_pc }}%;
+    /* transform: translate(-{{ section.settings.img_postion_left_pc }}%); */
+    transform: rotate({{ section.settings.img_postion_rotation_pc | times: 6 }}deg);
+    z-index: 1;
+    width: {{ section.settings.img_postion_size_pc }}px;
+  }
+  @media (max-width: 768px) {
+    .section-class-{{ section.id }} .box-url-text .url-text {
+      font-size: {{ section.settings.url_font_size_moble }}px;
+    }
+    .section-class-{{ section.id }} .btn_style-image {
+      top: {{ section.settings.img_postion_top_moble }}px;
+      left: {{ section.settings.img_postion_left_moble }}%;
+      /* transform: translate(-{{ section.settings.img_postion_left_moble }}%); */
+      transform: rotate({{ section.settings.img_postion_rotation_moble | times: 6 }}deg);
+      z-index: 1;
+      width: {{ section.settings.img_postion_size_moble }}px;
+    }
+  }
+
+</style>
+<div class="section-class-{{ section.id }}">
+  <div class="container">
+    <div class="wrap-url-text">
+      {% unless section.settings.text_url == blank %}
+        <div class="box-url-text">
+          {% if section.settings.url_text != blank%}
+            <a href="{{ section.settings.url_text }}">
+          {% endif %}
+            {% comment %} 图片 {% endcomment %}
+             {% if section.settings.style_image != blank %}
+              {% render 'image' with section.settings.style_image, sizes: '1980px', loading: 'lazy', class:"btn_style-image" %}
+            {% endif %}
+            <div class="url-text">
+              {{ section.settings.text_url }}
+            </div>
+
+          {% if section.settings.url_text != blank%}
+            </a>
+          {% endif %} 
+
+        </div>
+      {% endunless %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "URL Text",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "style_image",
+      "label": "图片"
+    },
+    {
+      "type": "url",
+      "id": "url_text",
+      "label": "Text URL"
+    },
+    {
+      "type": "text",
+      "id": "text_url",
+      "label": " URL Text"
+    },
+    {
+      "type": "color",
+      "id": "btn_color",
+      "label": "按钮背景颜色",
+      "default": "#01847e"
+    },
+    {
+      "type": "color",
+      "id": "btn_color_hover",
+      "label": "按钮背景颜色(hover)",
+      "default": "#53589a"
+    },
+    {
+      "type": "color",
+      "id": "btn_text_color",
+      "label": "按钮文字颜色",
+      "default": "#fffeee"
+    },
+    {
+      "type": "color",
+      "id": "btn_text_color_hover",
+      "label": "按钮文字颜色(hover)",
+      "default": "#e5eb15"
+    },
+    {
+      "type": "range",
+      "id": "btn_radius",
+      "label": "按钮圆角",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "default": 10
+    },
+    {
+      "type": "select",
+      "id": "url_font_weight",
+      "label": "字体粗细",
+      "options": [
+        {
+          "value": "normal",
+          "label": "Normal"
+        },
+        {
+          "value": "bold",
+          "label": "Bold"
+        },
+        {
+          "value": "bolder",
+          "label": "Bolder"
+        }
+      ],
+      "default": "bolder"
+    },
+    {
+      "type": "range",
+      "id": "url_font_size_pc",
+      "min": 12,
+      "max": 35,
+      "step": 1,
+      "unit": "px",
+      "label": "PC端字体大小",
+      "default": 25
+    },
+    {
+      "type": "range",
+      "id": "url_font_size_moble",
+      "min": 12,
+      "max": 35,
+      "step": 1,
+      "unit": "px",
+      "label": "移动端字体大小",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "img_postion_size_pc",
+      "min": 12,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "PC端图片大小",
+      "default": 55
+    },
+    {
+      "type": "range",
+      "id": "img_postion_size_moble",
+      "min": 12,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "移动端图片大小",
+      "default": 55
+    },
+    {
+      "type": "range",
+      "id": "img_postion_left_pc",
+      "min": 12,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "PC端图片左右位置",
+      "default": 46
+    },
+    {
+      "type": "range",
+      "id": "img_postion_top_pc",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "PC端图片上下位置",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "img_postion_left_moble",
+      "min": 12,
+      "max": 100,
+      "step": 1,
+      "unit": "%",
+      "label": "移动端图片左右位置",
+      "default": 18
+    },
+    {
+      "type": "range",
+      "id": "img_postion_top_moble",
+      "min": 0,
+      "max": 100,
+      "step": 1,
+      "unit": "px",
+      "label": "移动端图片上下位置",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "img_postion_rotation_pc",
+      "min": 0,
+      "max": 60,
+      "step": 1,
+      "unit": "deg",
+      "label": "pc端图片旋转角度",
+      "default": 0
+    },
+    {
+      "type": "range",
+      "id": "img_postion_rotation_moble",
+      "min": 0,
+      "max": 60,
+      "step": 1,
+      "unit": "deg",
+      "label": "移动端图片旋转角度",
+      "default": 0
+    }
+  ],
+  "presets": [
+    {
+      "name": "URL Text"
+    }
+  ]
+}
+{% endschema %}

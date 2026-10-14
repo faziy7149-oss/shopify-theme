@@ -1,0 +1,479 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1652869072251fa0bf": {
+      "type": "slideshow",
+      "blocks": {
+        "16528690727e0bd824-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2122bd33c74623340e00435297d764fe.jpg",
+            "mobile_image": "shopify://shop_images/M_dd41ee8d-2ac1-474e-b51b-ed1cd4b4149a.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16528690727e0bd824-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "1635220294067ab8a1": {
+      "type": "collection-list",
+      "blocks": {
+        "22a68d2d-1230-4f98-96b2-5b4029b9dc36": {
+          "type": "collection",
+          "settings": {
+            "collection": "アクセサリー-小物",
+            "image": "shopify://shop_images/QQ_20211029184022.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "ba2cf3cc-2a86-4841-9a15-fa4bbb764def": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "セールから探す",
+            "image": "shopify://shop_images/QQ_20211029184109.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "22a68d2d-1230-4f98-96b2-5b4029b9dc36",
+        "ba2cf3cc-2a86-4841-9a15-fa4bbb764def"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 2,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "16551139064dd52b4a": {
+      "type": "rich-text",
+      "blocks": {
+        "1655113906511ba273-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "1655113906511ba273-1": {
+          "type": "heading",
+          "settings": {
+            "title": "おしゃれ心に火がつく！2022春夏 タイガーモチーフに視線集中。",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "1655113906511ba273-0",
+        "1655113906511ba273-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "165537174885b23a38": {
+      "type": "rich-text",
+      "blocks": {
+        "16553717481c694877-1": {
+          "type": "heading",
+          "settings": {
+            "title": "浮世絵風　虎柄",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "16553717481c694877-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "1655112759c6f145ee": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_fB8hcP": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://www.karakubuy.com/collections/tiger-2022-summer/products/%E5%A4%8F%E9%99%90%E5%AE%9A-%E6%B5%AE%E4%B8%96%E7%B5%B5%E9%A2%A8-%E8%99%8E%E6%9F%84%E3%82%A2%E3%83%AD%E3%83%8F%E3%82%B7%E3%83%A3%E3%83%84\" title=\"https://www.karakubuy.com/collections/tiger-2022-summer/products/%E5%A4%8F%E9%99%90%E5%AE%9A-%E6%B5%AE%E4%B8%96%E7%B5%B5%E9%A2%A8-%E8%99%8E%E6%9F%84%E3%82%A2%E3%83%AD%E3%83%8F%E3%82%B7%E3%83%A3%E3%83%84\">ブラックシャツ │ 浮世絵風 虎柄アロハシャツ │¥8,910 Buy</a></p><p></p><p><a href=\"https://www.karakubuy.com/collections/tiger-2022-summer/products/krk-glht414834\" title=\"https://www.karakubuy.com/collections/tiger-2022-summer/products/krk-glht414834\">ネイビーシャツ │ 百虎柄　和モダン半袖シャツ │¥9,980 Buy</a></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_fB8hcP"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/KRK-GLHT414834-2_720x_df5cf1a4-cb1c-4c0c-918a-9ac30d0ba6d1.webp",
+        "image_2": "shopify://shop_images/20220601-184347_720x_340ea92c-f87d-428c-9b3a-eb6fde52e5df.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "gallery_68wE8H": {
+      "type": "gallery",
+      "blocks": {
+        "media_6ziUJy": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/3_9c5ab0c2-2665-4c71-b545-642334de5d6b.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_Rdnc6f": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/2_c9c944bd-0601-4468-b4ce-d8e2db87fddd.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_RVUQm9": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/7_3f03381b-1621-428b-b31e-c264b60ea422.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_6ziUJy",
+        "media_Rdnc6f",
+        "media_RVUQm9"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 670,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "full",
+        "button_style": "primary"
+      }
+    },
+    "165537148447da99b8": {
+      "type": "rich-text",
+      "blocks": {
+        "1655371484d5bee726-1": {
+          "type": "heading",
+          "settings": {
+            "title": "バックタイガーデザインが魅力",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "1655371484d5bee726-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_7qGNP7": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_fEFzkA": {
+          "type": "text",
+          "settings": {
+            "text": "<p><a href=\"https://www.karakubuy.com/collections/tiger-2022-summer/products/krk-md-tsw2201035\" title=\"https://www.karakubuy.com/collections/tiger-2022-summer/products/krk-md-tsw2201035\">Tシャツ │ ヘビーウェイト　虎の刺繡入りＴシャツ │¥9,190 Buy</a></p><p><a href=\"https://www.karakubuy.com/collections/tiger-2022-summer/products/krk-mbbt1132\" title=\"https://www.karakubuy.com/collections/tiger-2022-summer/products/krk-mbbt1132\">Tシャツ │ 虎柄刺繍入り　半袖Tシャツ │¥9,180 Buy</a></p><p><a href=\"https://www.karakubuy.com/collections/tiger-2022-summer/products/krk-md-tsw2201044\" title=\"https://www.karakubuy.com/collections/tiger-2022-summer/products/krk-md-tsw2201044\">Tシャツ │ ヘビーウェイト　タタミステッチ刺繍Tシャツ │¥9,290 Buy</a></p><p></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_fEFzkA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/jpg2022.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "gallery_7VwFRA": {
+      "type": "gallery",
+      "blocks": {
+        "media_DD3jxG": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/5_720x_1cc326c9-02ee-434c-9cea-dea7f2f4fc0c.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_yaHTYB": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/KRK-Mbbt1132-12_720x_1.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_EGe9tz": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/11_720x_e253f00c-e0b7-474b-b88c-807c072e0673.webp",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_DD3jxG",
+        "media_yaHTYB",
+        "media_EGe9tz"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 710,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "full",
+        "button_style": "primary"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1655432278f0adbbd8": {
+      "type": "testimonials",
+      "blocks": {
+        "165543227816191db3-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "虎柄のアロハ、夏っぽくてカッコいいです⭐︎生地もしっかりしてます！何を着ても似合う旦那ですが、虎柄アロハは他の人とも被らないし、とってもお気に入りです",
+            "author": "森下",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "165543227816191db3-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "サイズ感もぴったり。そして到着まで早いです。",
+            "author": "中村",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "17ab6ca3-436c-45aa-860f-d10d4d414a85": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "友達にカッコいい服だね！と言ってもらえた。",
+            "author": "大輔",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "467cc604-24fd-4b84-b14a-087903937d70": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "商品はこのお値段とは思えないほどの高いクオリティの刺繍で、大満足です。\nまた機会がありましたら、購入したいです。",
+            "author": "石岡",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "d2dc3f89-81b4-42c5-aed0-041f81f6ae01": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "何よりびっくりしたのは、刺繍の丁寧さです。とても綺麗に仕上がっていてこの値段でこのクオリティーなら、大満足です。このショップの質の高さを実感しました。間違いなくオススメです。",
+            "author": "清野",
+            "image_caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165543227816191db3-0",
+        "165543227816191db3-1",
+        "17ab6ca3-436c-45aa-860f-d10d4d414a85",
+        "467cc604-24fd-4b84-b14a-087903937d70",
+        "d2dc3f89-81b4-42c5-aed0-041f81f6ae01"
+      ],
+      "settings": {
+        "title": "Customer reviews",
+        "layout": "no-image",
+        "text_caps": false,
+        "quote_text_size": 30,
+        "quote_text_size_mobile": 20,
+        "image_shape": "natural",
+        "color_scheme": "default",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "1652869072251fa0bf",
+    "1635220294067ab8a1",
+    "16551139064dd52b4a",
+    "165537174885b23a38",
+    "1655112759c6f145ee",
+    "gallery_68wE8H",
+    "165537148447da99b8",
+    "image_with_text_7qGNP7",
+    "gallery_7VwFRA",
+    "main",
+    "1655432278f0adbbd8",
+    "1635765484031572a6"
+  ]
+}

@@ -1,0 +1,600 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "photo_banner_countdown_iHJbap": {
+      "type": "photo-banner-countdown",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/20250110-154628-1_dd7fbece-d26b-4d2e-8aae-739c8ff8967d.jpg",
+        "mobile_image": "shopify://shop_images/20250110-155027-2_bab468b0-be08-4e89-acbc-9e32c582c368.jpg",
+        "banner_link": "https://karakubuy.com/collections/end-of-the-year2024-sale",
+        "photo_banner_col": "#e80013",
+        "end_date": "2025-1-12",
+        "end_time": "22:59",
+        "end_text": "",
+        "hide_on_end": false,
+        "number_size": 24,
+        "number_font": "base",
+        "divider_type": "colon",
+        "show_timer_labels": true,
+        "countdown_col": "#ffffff",
+        "countdown_text_col": "#100f0f"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "disabled": true,
+      "settings": {
+        "title": "You may also like",
+        "show_vendor": false,
+        "grid": 4
+      }
+    },
+    "photo_banner_NQ6j6R": {
+      "type": "photo-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/644___1500.jpg",
+        "mobile_image": "shopify://shop_images/644___800.jpg",
+        "banner_link": "https://karakubuy.com/collections/new-life-campaign-1",
+        "photo_banner_col": "#007f22"
+      }
+    },
+    "photo_banner_GFLKkr": {
+      "type": "photo-banner",
+      "disabled": true,
+      "name": "Photo Banner",
+      "settings": {
+        "image": "shopify://shop_images/004_5__1500.jpg",
+        "mobile_image": "shopify://shop_images/004_5__800.jpg",
+        "banner_link": "https://karakubuy.com/collections/karaku-5th-sale",
+        "photo_banner_col": "#fe5300"
+      }
+    },
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "loox_reviews_loox_rating_Fh8rzB": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 14,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "cc4df171-a23d-4628-bd35-cfa52ac306be": {
+          "type": "sku",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_installments": false,
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": true
+          }
+        },
+        "intro_r8883a": {
+          "type": "intro",
+          "settings": {
+            "intro_image": "{{ product.metafields.custom.intro_avatar.value }}",
+            "intro_title": "{{ product.metafields.custom.intro_name.value }}",
+            "intro_content": "{{ product.metafields.custom.intro_content.value }}",
+            "intro_view": "関連アイテムをもっと見る>",
+            "intro_url": "{{ product.metafields.custom.intro_url.value }}"
+          }
+        },
+        "divider": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "king_linked_options_app_block_LB44aV": {
+          "type": "shopify://apps/linkedoption/blocks/app-block/564f3d71-fe5e-48d7-a0de-284b76666f1e",
+          "settings": {}
+        },
+        "variant_picker_8aERUw": {
+          "type": "variant-picker",
+          "settings": {
+            "show_single": true,
+            "selector_style": "listed",
+            "dynamic_availability": "show",
+            "enable_size_chart": false,
+            "size_chart_label": "Size guide",
+            "size_chart_variant": "Size",
+            "size_chart_source": "page",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons_EbXAAp": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_quantity_selector": false,
+            "enable_payment_button": true,
+            "show_backorder_text": true,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "selleasy_lb_upsell_addon_block_3PrLcy": {
+          "type": "shopify://apps/selleasy/blocks/lb-upsell-addon-block/790c1a03-a71f-4bc1-9869-00dad526d3c2",
+          "settings": {}
+        },
+        "slide_xyA4AV": {
+          "type": "slide",
+          "settings": {
+            "model_size": "スタッフ着用サイズ：{{ product.metafields.custom.model_size.value }}",
+            "model_height": "身長：{{ product.metafields.custom.model_height.value }}",
+            "model_weight": "体重：{{ product.metafields.custom.model_weight.value }}",
+            "model_bust": "バスト：{{ product.metafields.custom.model_bust.value }}",
+            "model_waist": "用着感：{{ product.metafields.custom.model_waist.value }}"
+          }
+        },
+        "quinn_shoppable_reel_app_cards_block_zndCw4": {
+          "type": "shopify://apps/quinn-shoppable-reel/blocks/app-cards-block/483fa771-9c4d-49e4-8c0d-0155f4b872d6",
+          "settings": {
+            "custom_metaobject_handle": "null",
+            "background_color": "#ffffff",
+            "margin_desktop": "10px 0px 0px 0px",
+            "margin_mobile": "5px 0px 0px 0px",
+            "padding_desktop": "10px 10px 10px 10px",
+            "padding_mobile": "10px 5px 10px 5px"
+          }
+        },
+        "6d9ec805-1674-4feb-b004-e30a7fffa900": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/55998b7857984097ea84371b197dc534_ffdc7078-d7ba-43a8-9b3a-7715dc20a07e.jpg",
+            "image_width": 700,
+            "url": "https://karakubuy.com/collections/all-products",
+            "open_in_new_tab": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "show_in_tab": true,
+            "open_tab": true,
+            "icon": "briefcase",
+            "show_in_quickbuy": false
+          }
+        },
+        "473c525d-79c9-4591-8647-7b98222e872d": {
+          "type": "accordion",
+          "settings": {
+            "title": "配送・送料に",
+            "icon": "plane",
+            "content": "",
+            "page": "配送-送料に",
+            "custom_liquid": "",
+            "open": false,
+            "variant_content": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "a9c8818a-2b70-46f2-ac43-1d511d519567": {
+          "type": "accordion",
+          "settings": {
+            "title": "返品・交換について",
+            "icon": "return",
+            "content": "<p>商品のお届けより必ず7日以内にご連絡願います。<br/>ご連絡の無い返品・交換はお受けできませんのでご了承ください。返品・交換をお受けした場合、お届け日より10日以内にご返送ください。（10日以上経過し、ご返送が無い場合はお受けできませんのでご了承くださいませ。）<br/>サイズが合わない、イメージと違う等はお客様都合の返品または交換となります。<a href=\"/pages/交換-返品について\" target=\"_blank\" title=\"返品・交換について\"><strong>詳細</strong></a><br/><br/></p>",
+            "page": "",
+            "custom_liquid": "",
+            "open": false,
+            "variant_content": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "de838a5c-6624-4742-803b-3221451014d0": {
+          "type": "sharing",
+          "settings": {
+            "show_twitter": true,
+            "show_facebook": true,
+            "show_pinterest": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "loox_reviews_loox_rating_Fh8rzB",
+        "cc4df171-a23d-4628-bd35-cfa52ac306be",
+        "price",
+        "intro_r8883a",
+        "divider",
+        "king_linked_options_app_block_LB44aV",
+        "variant_picker_8aERUw",
+        "buy_buttons_EbXAAp",
+        "selleasy_lb_upsell_addon_block_3PrLcy",
+        "slide_xyA4AV",
+        "quinn_shoppable_reel_app_cards_block_zndCw4",
+        "6d9ec805-1674-4feb-b004-e30a7fffa900",
+        "description",
+        "473c525d-79c9-4591-8647-7b98222e872d",
+        "a9c8818a-2b70-46f2-ac43-1d511d519567",
+        "de838a5c-6624-4742-803b-3221451014d0"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "select_first_variant": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": false,
+        "enable_sticky_columns": true,
+        "enable_sticky_atc": false,
+        "sticky_atc_position": "end",
+        "sticky_atc_mobile": true,
+        "sticky_atc_behavior": "add_to_cart",
+        "sticky_atc_button_style": "secondary",
+        "gallery_size": "large",
+        "gallery_layout": "collage-1",
+        "collage_highlight_on_variant_change": true,
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "show_variant_media_label": true,
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe",
+        "model_info_card": false,
+        "model_text": "",
+        "model_bg_color": "#f6f6f6",
+        "model_font_color": "#000000",
+        "model_range": 0,
+        "model_range_bottom": 3
+      }
+    },
+    "1635239608a98e4f95": {
+      "type": "apps",
+      "blocks": {
+        "a590a1cc-3b56-4f93-8f7d-e889212bc7a4": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "reviews_to_display": "",
+            "default_tab": "automatic",
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 6,
+            "hide_thumbnails": false,
+            "maxwidth": 1680,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "a590a1cc-3b56-4f93-8f7d-e889212bc7a4"
+      ],
+      "custom_css": [],
+      "settings": {
+        "full_width": true,
+        "show_space": true
+      }
+    },
+    "adjusting_spacing_9rkcPg": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -4,
+        "margin_top2": -4
+      }
+    },
+    "shop_the_look_ibqma9": {
+      "type": "shop-the-look",
+      "blocks": {
+        "subheading_qfJjPr": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "heading_kHRVkw": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "heading_max_width": 10,
+            "title_size": 56,
+            "title_size_mobile": 26,
+            "use_h1": false
+          }
+        },
+        "text_xFz3eb": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "subheading_qfJjPr",
+        "heading_kHRVkw",
+        "text_xFz3eb"
+      ],
+      "name": "Shop the look",
+      "settings": {
+        "image": "shopify://shop_images/005__banner_1_1920.jpg",
+        "mobile_image": "shopify://shop_images/005__banner_1_1200.jpg",
+        "video_external": "",
+        "video_description": "",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "product_list": [
+          "krk-zyd-lmtg0311",
+          "krk-zyd-lmhwc0219",
+          "krk-gsh-lmdt0309",
+          "krk-gsh-lmcs0308",
+          "krk-gsh-lmdk0308",
+          "krk-gsh-mmyxcs0217",
+          "krk-zyd-qsmmcs0217",
+          "krk-zyd-bbtyc0226",
+          "krk-zyd-lmhw0310",
+          "krk-gsh-mmmycs0217",
+          "krk-rym-dwtby0314"
+        ],
+        "products_alignment": "bottom right",
+        "product_card_layout": "landscape",
+        "show_swatches": true,
+        "full_width": true,
+        "text_alignment": "top left",
+        "mobile_overlay_over": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "rich_text_xU9wpW": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JtFRkN": {
+          "type": "heading",
+          "settings": {
+            "title": "石黒亜矢子",
+            "use_h1": false
+          }
+        },
+        "text_mtDb3M": {
+          "type": "text",
+          "settings": {
+            "text": "<p>石黒亜矢子（Ishiguro Ayako）は、日本のイラストレーターであり、妖怪や幻想的な動物、神秘的なテーマを描くことで知られています。彼女の作風は独特で、伝統的な日本の妖怪文化と現代的なアート感覚を融合させています。主な作品には、書籍の挿絵や絵本、展覧会用の作品などがあります。</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_JtFRkN",
+        "text_mtDb3M"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "image_list_yiNe9w": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_7HJPJy": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/3_6d8a9d70-cd0c-44a2-a47f-bbd27a93eea3.jpg",
+            "image_list_link": "https://karakubuy.com/collections/karaku-ishiguroayako/products/krk-zyd-lmtg0311"
+          }
+        },
+        "imagelist_8wcpip": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/5_42b7ddf2-b916-41af-92df-e20b5d5497e0.jpg",
+            "image_list_link": "https://karakubuy.com/collections/karaku-ishiguroayako/products/krk-zyd-lmhw0310"
+          }
+        },
+        "imagelist_q6VDyx": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/2_e422f361-fb46-4207-bd68-7c5f397ba0fb.jpg",
+            "image_list_link": "https://karakubuy.com/collections/karaku-ishiguroayako/products/krk-zyd-qsmmcs0217"
+          }
+        },
+        "imagelist_ajEVwE": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/6_492da124-9191-4e1f-b4ab-964072c3ca88.jpg",
+            "image_list_link": "https://karakubuy.com/collections/karaku-ishiguroayako/products/krk-gsh-mmyxcs0217"
+          }
+        },
+        "imagelist_zetDE7": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/4_c2fc5a00-6a3e-44a3-9890-38a3cc5167bf.jpg",
+            "image_list_link": "https://karakubuy.com/collections/karaku-ishiguroayako/products/krk-gsh-lmcs0308"
+          }
+        },
+        "imagelist_XHUcFe": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/5_9b0c3cff-4ca3-4024-bf1a-217cbbef6979.jpg",
+            "image_list_link": "https://karakubuy.com/collections/karaku-ishiguroayako/products/krk-zyd-bbtyc0226"
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_7HJPJy",
+        "imagelist_8wcpip",
+        "imagelist_q6VDyx",
+        "imagelist_ajEVwE",
+        "imagelist_zetDE7",
+        "imagelist_XHUcFe"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "whirling"
+      }
+    },
+    "custom_content_7hDH7j": {
+      "type": "custom-content",
+      "blocks": {
+        "image_xM389Y": {
+          "type": "image",
+          "settings": {
+            "width": "full",
+            "image": "shopify://shop_images/034__1920x780_aaac3a46-3abf-4c93-9575-5ed1dc344b6b.jpg",
+            "mobile_image": "shopify://shop_images/20250428-141603.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 640,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "secondary",
+            "image_link": "https://karakubuy.com/pages/karaku-shop",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "text_jjRFQ4": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "center_on_mobile": true,
+            "icon": "",
+            "icon_color": "rgba(0,0,0,0)",
+            "subheading": "",
+            "title": "KARAKU原宿店",
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "text": "<p>東京都渋谷区神宮前3丁目24番1号イン・ザ・ストリームビル1F<br/>11:00〜20:00（定休日なし）</p>",
+            "button_label": "もっと見る>",
+            "button_link": "https://karakubuy.com/pages/karaku-shop",
+            "button_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "image_xM389Y",
+        "text_jjRFQ4"
+      ],
+      "disabled": true,
+      "settings": {
+        "spacing": "medium",
+        "alignment": "middle",
+        "color_scheme": "default"
+      }
+    },
+    "8b8fdee9-1ee7-4918-be21-7aea9f4765b7": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15421978542299__8b8fdee9-1ee7-4918-be21-7aea9f4765b7-1687162798ce48a611-1": {
+          "type": "heading",
+          "settings": {
+            "title": "About KARAKU",
+            "use_h1": true
+          }
+        },
+        "template--15421978542299__8b8fdee9-1ee7-4918-be21-7aea9f4765b7-1687162798ce48a611-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "\"永年着られる飽きのこない男服を追求しています\""
+          }
+        },
+        "text_qHAdqN": {
+          "type": "text",
+          "settings": {
+            "text": "<p>\"永年着られる飽きのこない男服を追求しています\"</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "template--15421978542299__8b8fdee9-1ee7-4918-be21-7aea9f4765b7-1687162798ce48a611-1",
+        "template--15421978542299__8b8fdee9-1ee7-4918-be21-7aea9f4765b7-1687162798ce48a611-0",
+        "text_qHAdqN"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "16352209356783fc5a": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "KARAKU×石黒亜矢子",
+        "collection": "karaku-ishiguroayako",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 5,
+        "rows": 3,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "7ad1ffe6-f2dd-439a-a4e7-1fd6182b7c35": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "Weekly Sale商品一覧",
+        "collection": "週替わりでお買い得アイテム",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 5,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "recently_viewed_gpyEeK": {
+      "type": "recently-viewed",
+      "settings": {
+        "heading": "最近チェックしたアイテム",
+        "product_limit": 8
+      }
+    }
+  },
+  "order": [
+    "photo_banner_countdown_iHJbap",
+    "related-products",
+    "photo_banner_NQ6j6R",
+    "photo_banner_GFLKkr",
+    "main",
+    "1635239608a98e4f95",
+    "adjusting_spacing_9rkcPg",
+    "shop_the_look_ibqma9",
+    "rich_text_xU9wpW",
+    "image_list_yiNe9w",
+    "custom_content_7hDH7j",
+    "8b8fdee9-1ee7-4918-be21-7aea9f4765b7",
+    "16352209356783fc5a",
+    "7ad1ffe6-f2dd-439a-a4e7-1fd6182b7c35",
+    "recently_viewed_gpyEeK"
+  ]
+}

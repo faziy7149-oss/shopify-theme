@@ -1,0 +1,475 @@
+{% comment %}
+  Horizontal Scroll Image
+  固定 60vh 高度的横版长图模块：纵向滚轮/手势优先转为横向平移，到达左右边界后交还页面滚动。
+{% endcomment %}
+
+{%- liquid
+  assign section_id = 'horizontal-scroll-image-' | append: section.id
+  assign image = section.settings.image
+  assign link = section.settings.link
+  assign alt_text = section.settings.alt_text | default: image.alt | default: shop.name
+
+  comment
+    Shopify CDN 单边最大约 5760px。横版长图的实际展示宽度 ≈ 60vh × 宽高比，
+    不能用 sizes:100vw（那会按视口宽选图，导致清晰度不足）。
+  endcomment
+  assign img_max_width = image.width | default: 5760 | at_most: 5760
+  if img_max_width < 1200
+    assign img_max_width = 1200
+  endif
+  assign img_sizes = 'calc(60vh * ' | append: image.aspect_ratio | append: ')'
+-%}
+
+<style>
+  #{{ section_id }} {
+    --hsi-height: 60vh;
+  }
+
+  #{{ section_id }} .hsi {
+    width: 100%;
+    height: var(--hsi-height);
+    overflow: hidden;
+  }
+
+  #{{ section_id }} .hsi__track {
+    width: 100%;
+    height: 100%;
+    overflow-x: auto;
+    overflow-y: hidden;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior-x: contain;
+    scrollbar-width: none; /* Firefox */
+    -ms-overflow-style: none; /* IE/Edge legacy */
+    cursor: grab;
+    will-change: scroll-position;
+  }
+
+  #{{ section_id }} .hsi__track::-webkit-scrollbar {
+    display: none; /* Chrome / Safari / Edge */
+    width: 0;
+    height: 0;
+  }
+
+  #{{ section_id }} .hsi__track.is-dragging {
+    cursor: grabbing;
+    user-select: none;
+  }
+
+  #{{ section_id }} .hsi__media,
+  #{{ section_id }} .hsi__link {
+    display: block;
+    height: 100%;
+    width: max-content;
+    max-width: none;
+    line-height: 0;
+    text-decoration: none;
+    color: inherit;
+  }
+
+  #{{ section_id }} .hsi__image,
+  #{{ section_id }} .hsi__placeholder {
+    display: block;
+    height: 100%;
+    width: auto;
+    max-width: none;
+    object-fit: contain;
+    object-position: left center;
+    pointer-events: none;
+    image-rendering: auto;
+  }
+
+  #{{ section_id }} .hsi__placeholder {
+    width: 200vw;
+    background: #f3f3f3;
+  }
+
+  #{{ section_id }} .hsi__placeholder svg {
+    width: 100%;
+    height: 100%;
+  }
+</style>
+
+<div id="{{ section_id }}" class="horizontal-scroll-image section-id-{{ section.id }}">
+  <div class="hsi" data-hsi>
+    <div class="hsi__track" data-hsi-track tabindex="0" role="region" aria-label="{{ alt_text | escape }}">
+      {%- if link != blank -%}
+        <a class="hsi__link" href="{{ link }}" data-hsi-link>
+          {%- if image != blank -%}
+            {{
+              image
+              | image_url: width: img_max_width
+              | image_tag:
+                class: 'hsi__image',
+                loading: 'lazy',
+                widths: '2000, 3000, 4000, 5000, 5760',
+                sizes: img_sizes,
+                alt: alt_text
+            }}
+          {%- else -%}
+            <div class="hsi__placeholder" aria-hidden="true">
+              {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
+            </div>
+          {%- endif -%}
+        </a>
+      {%- else -%}
+        <div class="hsi__media" data-hsi-media>
+          {%- if image != blank -%}
+            {{
+              image
+              | image_url: width: img_max_width
+              | image_tag:
+                class: 'hsi__image',
+                loading: 'lazy',
+                widths: '2000, 3000, 4000, 5000, 5760',
+                sizes: img_sizes,
+                alt: alt_text
+            }}
+          {%- else -%}
+            <div class="hsi__placeholder" aria-hidden="true">
+              {{ 'lifestyle-1' | placeholder_svg_tag: 'placeholder-svg' }}
+            </div>
+          {%- endif -%}
+        </div>
+      {%- endif -%}
+    </div>
+  </div>
+</div>
+
+<script>
+  (function () {
+    var root = document.getElementById({{ section_id | json }});
+    if (!root) return;
+
+    var track = root.querySelector('[data-hsi-track]');
+    if (!track) return;
+
+    var EDGE = 1.5;
+    var WHEEL_GAIN = 1.05;
+    var LERP = 0.165;
+    var STOP_EPS = 0.35;
+    var FRICTION = 0.945;
+    var MIN_VELOCITY = 0.08;
+
+    var current = track.scrollLeft;
+    var target = track.scrollLeft;
+    var velocity = 0;
+    var rafId = 0;
+    var preferReducedMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+    var touchStartX = 0;
+    var touchStartY = 0;
+    var touchLock = null;
+    var touchLastX = 0;
+    var touchLastY = 0;
+    var touchLastTime = 0;
+    var touchVelocity = 0;
+
+    var dragActive = false;
+    var dragStartX = 0;
+    var dragScrollLeft = 0;
+    var dragMoved = false;
+    var dragLastX = 0;
+    var dragLastTime = 0;
+    var dragVelocity = 0;
+
+    function maxScrollLeft() {
+      return Math.max(0, track.scrollWidth - track.clientWidth);
+    }
+
+    function clamp(value) {
+      return Math.max(0, Math.min(maxScrollLeft(), value));
+    }
+
+    function atLeftEdge(pos) {
+      return (pos == null ? current : pos) <= EDGE;
+    }
+
+    function atRightEdge(pos) {
+      return (pos == null ? current : pos) >= maxScrollLeft() - EDGE;
+    }
+
+    function canScrollHorizontally() {
+      return maxScrollLeft() > EDGE;
+    }
+
+    function syncFromDom() {
+      current = track.scrollLeft;
+      target = current;
+    }
+
+    function startRaf() {
+      if (rafId || preferReducedMotion) return;
+      rafId = requestAnimationFrame(tick);
+    }
+
+    function stopRaf() {
+      if (!rafId) return;
+      cancelAnimationFrame(rafId);
+      rafId = 0;
+    }
+
+    function setScrollImmediate(value) {
+      current = clamp(value);
+      target = current;
+      velocity = 0;
+      track.scrollLeft = current;
+      stopRaf();
+    }
+
+    function tick() {
+      rafId = 0;
+
+      if (Math.abs(velocity) > MIN_VELOCITY) {
+        target = clamp(target + velocity);
+        velocity *= FRICTION;
+        if (
+          (velocity < 0 && atLeftEdge(target)) ||
+          (velocity > 0 && atRightEdge(target))
+        ) {
+          velocity = 0;
+          target = clamp(target);
+        }
+      } else {
+        velocity = 0;
+      }
+
+      var diff = target - current;
+      if (Math.abs(diff) < STOP_EPS && Math.abs(velocity) <= MIN_VELOCITY) {
+        current = target;
+        track.scrollLeft = current;
+        return;
+      }
+
+      current += diff * (preferReducedMotion ? 1 : LERP);
+      track.scrollLeft = current;
+      rafId = requestAnimationFrame(tick);
+    }
+
+    /**
+     * 将滚轮/手势增量并入平滑目标位。
+     * 到达边界且继续朝外时返回 false，交还页面滚动。
+     */
+    function applyDelta(deltaX, deltaY, options) {
+      options = options || {};
+      if (!canScrollHorizontally()) return false;
+
+      var primary = Math.abs(deltaX) > Math.abs(deltaY) ? deltaX : deltaY;
+      if (primary === 0) return false;
+
+      if (primary < 0 && atLeftEdge(target) && atLeftEdge(current)) {
+        velocity = 0;
+        return false;
+      }
+      if (primary > 0 && atRightEdge(target) && atRightEdge(current)) {
+        velocity = 0;
+        return false;
+      }
+
+      if (preferReducedMotion || options.immediate) {
+        setScrollImmediate(current + primary);
+        return true;
+      }
+
+      target = clamp(target + primary);
+      velocity *= 0.65;
+      startRaf();
+      return true;
+    }
+
+    function onWheel(event) {
+      if (!canScrollHorizontally()) return;
+
+      var deltaX = event.deltaX;
+      var deltaY = event.deltaY;
+
+      if (event.deltaMode === 1) {
+        deltaX *= 16;
+        deltaY *= 16;
+      } else if (event.deltaMode === 2) {
+        deltaX *= track.clientWidth;
+        deltaY *= track.clientHeight;
+      }
+
+      deltaX *= WHEEL_GAIN;
+      deltaY *= WHEEL_GAIN;
+
+      if (applyDelta(deltaX, deltaY)) {
+        event.preventDefault();
+      }
+    }
+
+    function onTouchStart(event) {
+      if (!event.touches || event.touches.length !== 1) return;
+      syncFromDom();
+      velocity = 0;
+      stopRaf();
+
+      touchStartX = event.touches[0].clientX;
+      touchStartY = event.touches[0].clientY;
+      touchLastX = touchStartX;
+      touchLastY = touchStartY;
+      touchLastTime = performance.now();
+      touchVelocity = 0;
+      touchLock = null;
+    }
+
+    function onTouchMove(event) {
+      if (!event.touches || event.touches.length !== 1) return;
+      if (!canScrollHorizontally()) return;
+
+      var x = event.touches[0].clientX;
+      var y = event.touches[0].clientY;
+      var dx = touchLastX - x;
+      var dy = touchLastY - y;
+      var now = performance.now();
+      var dt = Math.max(1, now - touchLastTime);
+
+      if (!touchLock) {
+        var fromStartX = touchStartX - x;
+        var fromStartY = touchStartY - y;
+        if (Math.abs(fromStartX) < 4 && Math.abs(fromStartY) < 4) return;
+        touchLock = Math.abs(fromStartX) > Math.abs(fromStartY) ? 'x' : 'y';
+      }
+
+      if (touchLock === 'y') {
+        if (applyDelta(0, dy, { immediate: true })) {
+          event.preventDefault();
+          touchVelocity = dy / dt;
+        } else {
+          return;
+        }
+      } else if (touchLock === 'x') {
+        if ((dx < 0 && atLeftEdge()) || (dx > 0 && atRightEdge())) {
+          return;
+        }
+        setScrollImmediate(current + dx);
+        touchVelocity = dx / dt;
+        event.preventDefault();
+      }
+
+      touchLastX = x;
+      touchLastY = y;
+      touchLastTime = now;
+    }
+
+    function onTouchEnd() {
+      touchLock = null;
+      if (preferReducedMotion) return;
+
+      var inertia = touchVelocity * 16 * 14;
+      touchVelocity = 0;
+      if (Math.abs(inertia) < 1.2) return;
+
+      velocity = inertia;
+      target = clamp(current + inertia * 0.35);
+      startRaf();
+    }
+
+    function onPointerDown(event) {
+      if (event.pointerType === 'touch') return;
+      if (event.button !== 0) return;
+
+      syncFromDom();
+      velocity = 0;
+      stopRaf();
+
+      dragActive = true;
+      dragMoved = false;
+      dragStartX = event.clientX;
+      dragScrollLeft = current;
+      dragLastX = event.clientX;
+      dragLastTime = performance.now();
+      dragVelocity = 0;
+      track.classList.add('is-dragging');
+      try {
+        track.setPointerCapture(event.pointerId);
+      } catch (e) {}
+    }
+
+    function onPointerMove(event) {
+      if (!dragActive) return;
+      var now = performance.now();
+      var dt = Math.max(1, now - dragLastTime);
+      var dx = event.clientX - dragStartX;
+      var frameDx = dragLastX - event.clientX;
+
+      if (Math.abs(dx) > 3) dragMoved = true;
+      setScrollImmediate(dragScrollLeft - dx);
+      dragVelocity = frameDx / dt;
+      dragLastX = event.clientX;
+      dragLastTime = now;
+    }
+
+    function onPointerUp(event) {
+      if (!dragActive) return;
+      dragActive = false;
+      track.classList.remove('is-dragging');
+      try {
+        track.releasePointerCapture(event.pointerId);
+      } catch (e) {}
+
+      if (preferReducedMotion) return;
+      var inertia = dragVelocity * 16 * 14;
+      dragVelocity = 0;
+      if (Math.abs(inertia) < 1.2) return;
+
+      velocity = inertia;
+      target = clamp(current + inertia * 0.35);
+      startRaf();
+    }
+
+    var linkEl = root.querySelector('[data-hsi-link]');
+    if (linkEl) {
+      linkEl.addEventListener('click', function (event) {
+        if (dragMoved) {
+          event.preventDefault();
+          dragMoved = false;
+        }
+      });
+    }
+
+    track.addEventListener('wheel', onWheel, { passive: false });
+    track.addEventListener('touchstart', onTouchStart, { passive: true });
+    track.addEventListener('touchmove', onTouchMove, { passive: false });
+    track.addEventListener('touchend', onTouchEnd, { passive: true });
+    track.addEventListener('touchcancel', onTouchEnd, { passive: true });
+    track.addEventListener('pointerdown', onPointerDown);
+    track.addEventListener('pointermove', onPointerMove);
+    track.addEventListener('pointerup', onPointerUp);
+    track.addEventListener('pointercancel', onPointerUp);
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "Horizontal Scroll Image",
+  "tag": "section",
+  "class": "section-horizontal-scroll-image",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "横版长图",
+      "info": "建议上传宽幅横图。模块高度固定为 60vh，图片按高度等比展开。"
+    },
+    {
+      "type": "url",
+      "id": "link",
+      "label": "跳转链接",
+      "info": "可选。留空则点击图片不跳转。"
+    },
+    {
+      "type": "text",
+      "id": "alt_text",
+      "label": "图片 Alt 文本",
+      "info": "用于 SEO 与无障碍。留空时优先使用图片自带 alt。"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Horizontal Scroll Image",
+      "category": "Image"
+    }
+  ]
+}
+{% endschema %}

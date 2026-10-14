@@ -1,0 +1,572 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ad578b5d-cec0-46d9-963a-928416405d65": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16719631778011__ad578b5d-cec0-46d9-963a-928416405d65-1679905957b14a5076-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "NO スウェット, NO LIFE"
+          }
+        },
+        "template--16719631778011__ad578b5d-cec0-46d9-963a-928416405d65-1679905957b14a5076-1": {
+          "type": "heading",
+          "settings": {
+            "title": "結局、毎日着るのはこれだった",
+            "use_h1": false
+          }
+        },
+        "template--16719631778011__ad578b5d-cec0-46d9-963a-928416405d65-1679905957b14a5076-2": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16719631778011__ad578b5d-cec0-46d9-963a-928416405d65-1679905957b14a5076-0",
+        "template--16719631778011__ad578b5d-cec0-46d9-963a-928416405d65-1679905957b14a5076-1",
+        "template--16719631778011__ad578b5d-cec0-46d9-963a-928416405d65-1679905957b14a5076-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "eeaedc3f-4bef-4e14-9073-e8566642d522": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16719631778011__eeaedc3f-4bef-4e14-9073-e8566642d522-1679905674fb3e239b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_bff36134-2572-43f6-a248-be2e9a4e0080.jpg",
+            "mobile_image": "shopify://shop_images/2_9cb8a7ad-7f4b-44cf-9a3b-48fba0103ba1.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16719631778011__eeaedc3f-4bef-4e14-9073-e8566642d522-1679905674fb3e239b-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "b8a6d951-03b6-4025-b406-660eb0f752f0": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16719631778011__b8a6d951-03b6-4025-b406-660eb0f752f0-1679905957b14a5076-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "スタイリングに欠かせない"
+          }
+        },
+        "template--16719631778011__b8a6d951-03b6-4025-b406-660eb0f752f0-1679905957b14a5076-1": {
+          "type": "heading",
+          "settings": {
+            "title": "こだわりのスウェットコーディネイト企画",
+            "use_h1": false
+          }
+        },
+        "template--16719631778011__b8a6d951-03b6-4025-b406-660eb0f752f0-1679905957b14a5076-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>春らしい天気になりお出かけにぴったりの季節になりましたね。<br/>それぞれのスタイルでお洒落してお出かけくださいね。</p><p>より気持ち良く、格好良く。新しいスウェットは、気分を、ライフスタイルを、自然と変えてくれる。<br/>NO スウェット, NO LIFE。それは変わらないようで、変わるために大切なこと。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16719631778011__b8a6d951-03b6-4025-b406-660eb0f752f0-1679905957b14a5076-0",
+        "template--16719631778011__b8a6d951-03b6-4025-b406-660eb0f752f0-1679905957b14a5076-1",
+        "template--16719631778011__b8a6d951-03b6-4025-b406-660eb0f752f0-1679905957b14a5076-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "0c916d8d-0ef7-4328-87e1-7037d7aeb002": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16719631778011__0c916d8d-0ef7-4328-87e1-7037d7aeb002-1679905674fb3e239b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/KRK-GLMZ9021044.jpg",
+            "mobile_image": "shopify://shop_images/3_da86c320-7744-4afa-8ee5-7351f6e2c635.jpg",
+            "slide_link": "https://www.karakubuy.com/products/krk-glmz9021044?_pos=1&_sid=116dbb6f4&_ss=r",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16719631778011__0c916d8d-0ef7-4328-87e1-7037d7aeb002-1679905674fb3e239b-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "1b64f29a-853f-475d-975f-8347481a9380": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16719631778011__1b64f29a-853f-475d-975f-8347481a9380-1679905674fb3e239b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/KRK-RF-9039.jpg",
+            "mobile_image": "shopify://shop_images/4_02826fd4-e1e5-46b9-90cc-6e13ede265d0.jpg",
+            "slide_link": "shopify://products/krk-rf-9039",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16719631778011__1b64f29a-853f-475d-975f-8347481a9380-1679905674fb3e239b-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "496595b0-83d9-4461-8e0e-116dbaa791aa": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16719631778011__496595b0-83d9-4461-8e0e-116dbaa791aa-1679905674fb3e239b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/KRK-MD-TW2107050.jpg",
+            "mobile_image": "shopify://shop_images/3_0b18e40f-7e8a-4835-947d-a0db6e417b26.jpg",
+            "slide_link": "shopify://products/krk-md-tw2107050",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16719631778011__496595b0-83d9-4461-8e0e-116dbaa791aa-1679905674fb3e239b-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "7504c5c1-4265-43b3-b753-e1495e60aadc": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16719631778011__7504c5c1-4265-43b3-b753-e1495e60aadc-1679905674fb3e239b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/KRK-JL-5108_035d22df-ecdd-4d39-8758-f50339df3587.jpg",
+            "mobile_image": "shopify://shop_images/4_2_64ae2660-6b3b-4327-b0d1-a59eb1a95437.jpg",
+            "slide_link": "shopify://products/krk-jl-5108",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16719631778011__7504c5c1-4265-43b3-b753-e1495e60aadc-1679905674fb3e239b-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "ef09a0cb-cd8c-4bb6-8049-619cf4c43b47": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16719631778011__ef09a0cb-cd8c-4bb6-8049-619cf4c43b47-1679905674fb3e239b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/DH090802.jpg",
+            "mobile_image": "shopify://shop_images/3_2_3cacb32e-5239-4b05-9c75-1794357be2e0.jpg",
+            "slide_link": "shopify://products/dh090802",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16719631778011__ef09a0cb-cd8c-4bb6-8049-619cf4c43b47-1679905674fb3e239b-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "545e9b26-a99f-428d-9eaa-2adb00f1910f": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16719631778011__545e9b26-a99f-428d-9eaa-2adb00f1910f-1679905674fb3e239b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/MD-1807108_df32b7af-2b6a-4777-beff-aa8f9a05e6af.jpg",
+            "mobile_image": "shopify://shop_images/4_eb3819aa-9a87-4f8a-99e4-f0203943b294.jpg",
+            "slide_link": "shopify://products/md-1807108",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16719631778011__545e9b26-a99f-428d-9eaa-2adb00f1910f-1679905674fb3e239b-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "fa9dfc57-29d9-429a-ad78-f1c3b0e73d03": {
+      "type": "collection-list",
+      "blocks": {
+        "a1cfda4d-2e5f-4eef-844f-e0f5bb378673": {
+          "type": "collection",
+          "settings": {
+            "collection": "casual",
+            "image": "shopify://shop_images/c748b6fbc74a48b24d75e66f4ba7160b.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "9da0261c-e6c2-4a9a-bbfc-119356e53e8e": {
+          "type": "collection",
+          "settings": {
+            "collection": "business",
+            "image": "shopify://shop_images/09b45cc61e451a48cc831f5c6eb891a0.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "687282e0-14a4-4d42-8dcb-0babe002b96a": {
+          "type": "collection",
+          "settings": {
+            "collection": "outdoor-sports",
+            "image": "shopify://shop_images/e0b1bc00e2371c92c676cd7a426a4d4d.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "6185350f-3346-4610-8759-0a714c2e8490": {
+          "type": "collection",
+          "settings": {
+            "collection": "navy",
+            "image": "shopify://shop_images/85e3b13ed818a2cb62f8b53434edd859.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "a1cfda4d-2e5f-4eef-844f-e0f5bb378673",
+        "9da0261c-e6c2-4a9a-bbfc-119356e53e8e",
+        "687282e0-14a4-4d42-8dcb-0babe002b96a",
+        "6185350f-3346-4610-8759-0a714c2e8490"
+      ],
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "ce69577d-3e55-495b-a24c-03e36d11c77d": {
+      "type": "collection-list",
+      "blocks": {
+        "9778e4ca-0fdf-475d-b4fa-0017c173d83e": {
+          "type": "collection",
+          "settings": {
+            "collection": "the-best-leather-jacket",
+            "image": "shopify://shop_images/banner_2_741d7734-7c47-40bd-984c-e5e6333b4baa.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "6c3f5ed5-f954-4aa0-9401-58cbf6765df1": {
+          "type": "collection",
+          "settings": {
+            "collection": "2021年秋冬コレクション-藍染から浮かびあがる-自然とひとの-循環",
+            "image": "shopify://shop_images/457-M_fcd61519-1060-42f2-b898-75687609fa6a.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "f9d68f41-aa7c-46ba-a94a-ece08145ec32": {
+          "type": "collection",
+          "settings": {
+            "collection": "ukiyo-e",
+            "image": "shopify://shop_images/1080x1440_19c2f9b9-aeb8-4b41-9141-a8e0c7e4040a.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "5149fc48-2e2a-457f-a67c-4ebcb0d0ddcb": {
+          "type": "collection",
+          "settings": {
+            "collection": "perfectoils",
+            "image": "shopify://shop_images/1080x1440_5.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "9778e4ca-0fdf-475d-b4fa-0017c173d83e",
+        "6c3f5ed5-f954-4aa0-9401-58cbf6765df1",
+        "f9d68f41-aa7c-46ba-a94a-ece08145ec32",
+        "5149fc48-2e2a-457f-a67c-4ebcb0d0ddcb"
+      ],
+      "settings": {
+        "title": "Collection list",
+        "enable_carousel": true,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    }
+  },
+  "order": [
+    "ad578b5d-cec0-46d9-963a-928416405d65",
+    "eeaedc3f-4bef-4e14-9073-e8566642d522",
+    "b8a6d951-03b6-4025-b406-660eb0f752f0",
+    "0c916d8d-0ef7-4328-87e1-7037d7aeb002",
+    "1b64f29a-853f-475d-975f-8347481a9380",
+    "496595b0-83d9-4461-8e0e-116dbaa791aa",
+    "7504c5c1-4265-43b3-b753-e1495e60aadc",
+    "ef09a0cb-cd8c-4bb6-8049-619cf4c43b47",
+    "545e9b26-a99f-428d-9eaa-2adb00f1910f",
+    "main",
+    "1635765484031572a6",
+    "fa9dfc57-29d9-429a-ad78-f1c3b0e73d03",
+    "ce69577d-3e55-495b-a24c-03e36d11c77d"
+  ]
+}

@@ -1,0 +1,752 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "slideshow_yYyR9E": {
+      "type": "slideshow",
+      "blocks": {
+        "image_BJfcte": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/621__1920.jpg",
+            "mobile_image": "shopify://shop_images/621__1080.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_BJfcte"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_WdrQH4": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_f2c69ba7-5e2f-4fd3-936e-0d9cf74bff52.png",
+        "mobile_image": "shopify://shop_images/720_8d7b343e-0177-4d02-bd21-2919c379e32c.png",
+        "img_rul": ""
+      }
+    },
+    "image_jump_custom_xRb7Pi": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_TFrVbc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/c966629849165c0ebe1f4561bca5fae4.png",
+            "image-id": "#data-1",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_TFrVbc"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "image_list_XYgXeU": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_eqHcgq": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/1_21f874ed-3a40-4e9b-82e0-fa5703118dd5.png",
+            "image_list_link": "#data-1"
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_eqHcgq"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "shake"
+      }
+    },
+    "image_list_TGRkWi": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_azxy6U": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/2_a346507b-1422-40e4-a011-255fe0089638.png",
+            "image_list_link": "#data-2"
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_azxy6U"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "shake"
+      }
+    },
+    "image_list_geghJg": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_CnErt7": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/3_6b916256-1a6a-45d0-9d75-319373d4937b.png",
+            "image_list_link": "#data-3"
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_CnErt7"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "shake"
+      }
+    },
+    "image_list_GKbBMt": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_wCrwbN": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/4_f51aa4dc-90ec-420c-8125-d8ecb5bae685.png",
+            "image_list_link": "#data-4"
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_wCrwbN"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "shake"
+      }
+    },
+    "image_jump_custom_MChbdH": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_B4pLD4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_697d0d30-6047-44f2-9faa-f6f8a82dddac.png",
+            "image-id": "data-1",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_B4pLD4"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "slide_block_group_9EjCeB": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_qBUeca": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-1_ed6811c6-d21c-4ba5-aec6-36bb9fad0f48.jpg",
+            "slide_title": "4色展開　襟コーデュロイ切替シガレットポケット付きダウンジャケット",
+            "slide_price": 25980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-gpd-gs1449",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_9RxdmY": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-3_42f9a3f9-9615-4c29-9e2d-ec0526579f57.jpg",
+            "slide_title": "無地3色　スナップボタンダウンジャケット",
+            "slide_price": 39999,
+            "slide_price_new": 17980,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gpd-gs1365?_pos=1&_sid=fa02869a0&_ss=r&variant=46299632500955",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_7PNean": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/1336x1604-5_127292f4-6723-42d5-bd02-93ecf0610bf2.jpg",
+            "slide_title": "アウトドア機能　大容量ダブルポケット付きダウンジャケット",
+            "slide_price": 27980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gpd-gs1452?_pos=1&_sid=f46ac3484&_ss=r&variant=48039545831643",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_qBUeca",
+        "slide_block_9RxdmY",
+        "slide_block_7PNean"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#df6d45",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#49548a",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_ATaRka": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_PGVGzh": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-8_afb3a6c5-fe02-4c04-8314-d96bd75d2cd1.jpg",
+            "slide_title": "スエード異素材切替　襟ボアフリースナイロンダウンジャケット",
+            "slide_price": 28990,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-md-th2507642",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_PJpMxG": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-9_55b6b2ee-bbf5-440d-854e-03201d67d906.jpg",
+            "slide_title": "レトロECWCS ダックダウンジャケット",
+            "slide_price": 35990,
+            "slide_price_new": 30590,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-md-ts2107078?_pos=3&_sid=9a1f7c2c4&_ss=r&variant=41300797554866",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_QAcQD8": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/20251212-171718.jpg",
+            "slide_title": "（U.S. Air Force）MA-1フライトジャケットダウンジャケット",
+            "slide_price": 36690,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-vip-ak191110y?_pos=1&_sid=0230667b2&_ss=r&variant=42157740163291",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_PGVGzh",
+        "slide_block_PJpMxG",
+        "slide_block_QAcQD8"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#df6d45",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#49548a",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "image_jump_custom_6t8R73": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_xaEi38": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_1061df32-614c-4138-a673-51a77a7c8ede.png",
+            "image-id": "data-2",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_xaEi38"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "slide_block_group_xjz99Y": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_y43i8n": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-13_a6f318a0-2841-4132-803a-04334bcda89d.jpg",
+            "slide_title": "ファー取り外し可能　B-15裏キルト中綿ボンバージャケット",
+            "slide_price": 16980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "shopify://products/krk-xd-lzt-1962",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_cLXGXM": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-15_3bf8b969-ec3a-47ea-8c50-31d011eaa606.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-16_bc9cc9ec-2433-4cef-8844-d5b76d91446e.jpg",
+            "slide_title": "A-1中綿ボンバージャケット",
+            "slide_price": 17890,
+            "slide_price_new": 16100,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-md-ts2107063?_pos=2&_sid=be1fc15a4&_ss=r&variant=41155791225010",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_DYGeF9": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-17_002c3ed2-a7c6-480f-9351-54c0eee72b34.jpg",
+            "slide_title": "B-15中綿ボンバージャケット",
+            "slide_price": 21980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-md-tw2007165?_pos=3&_sid=45ddcb406&_ss=r&variant=42056919253211",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_y43i8n",
+        "slide_block_cLXGXM",
+        "slide_block_DYGeF9"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#df6d45",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#49548a",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_RVUUFM": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_Cjzq38": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-19_a862aeaa-92a6-4891-a168-3c0ad1b50436.jpg",
+            "slide_title": "厚手　ボアワークジャケット",
+            "slide_price": 21980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-vip-ak1766009?_pos=1&_sid=640d87c64&_ss=r&variant=41200309960882",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_FDwVaA": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-21_9285c157-f953-4d5b-9d4a-983c316ba279.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-22_aa71ab8b-846c-43e3-90ec-e4110ebae286.jpg",
+            "slide_title": "キルティング　中綿フライトジャケット",
+            "slide_price": 23980,
+            "slide_price_new": 17990,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-a051-22067?_pos=3&_sid=532292d9d&_ss=r&variant=47929232949467",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_yPchAB": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-23_772795ed-f2ff-4578-b0af-af49dcea139a.jpg",
+            "slide_title": "裏キルト中綿　MA-1フライトジャケット",
+            "slide_price": 23590,
+            "slide_price_new": 20050,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-md-w1901185?_pos=1&_sid=02805b86a&_ss=r&variant=43671925817563",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_Cjzq38",
+        "slide_block_FDwVaA",
+        "slide_block_yPchAB"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#df6d45",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#49548a",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "image_jump_custom_kbQgeU": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_H6fkXD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_8153b88a-18c4-43e3-954a-21b483411696.png",
+            "image-id": "data-3",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_H6fkXD"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "slide_block_group_hjcLxy": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_KdnnHb": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-26_6ed9a347-6a2b-4005-8598-69d062ca76d9.jpg",
+            "slide_title": "コーデュロイパッチ切替　ひょうたんキルティングピーチスキン中綿ジャケット",
+            "slide_price": 15980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-nkrkrt0607?_pos=1&_sid=53367edd7&_ss=r&variant=47680084312283",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_9QmkqD": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-28_a2166dae-4e0e-449d-83d5-4bb4de32af83.jpg",
+            "slide_title": "裏キルティング　中綿ライナージャケット",
+            "slide_price": 15990,
+            "slide_price_new": 12000,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-nx392-jk2104?_pos=1&_sid=69a587a5a&_ss=r&variant=43588734550235",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_FDF7wj": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-29_369975cf-ae24-4b77-8d99-f6e7a16d9fc9.jpg",
+            "slide_title": "ヴィンテージ風　キルティング中綿ジャケット",
+            "slide_price": 15990,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-nxtg-tgs-028?_pos=1&_sid=353598680&_ss=r&variant=43671386947803",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_KdnnHb",
+        "slide_block_9QmkqD",
+        "slide_block_FDF7wj"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#df6d45",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#49548a",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_DiieYR": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_Ptz8Qw": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-31_d4059b4c-de99-4086-8c2f-d863bc4aab87.jpg",
+            "slide_title": "【予約】「KaraKu」ロゴ刺繡　デニム切替ひょうたんキルト中綿ジャケット",
+            "slide_price": 29980,
+            "slide_price_new": 16500,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lsx-jk251158?_pos=1&_sid=68590ddb8&_ss=r&variant=47944900837595",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_TMyABF": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-33_d3bfa24e-6148-41a6-92c2-3dc5c3a1c0fc.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-34_b1be3574-0cf7-48be-8ffa-2b36b5d0ac52.jpg",
+            "slide_title": "古布ボロパーチワーク風　裏キルト中綿入り半纏",
+            "slide_price": 15980,
+            "slide_price_new": 14390,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-ae5317m?_pos=1&_sid=428e2b889&_ss=r&variant=44421025267931",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_xjMpyh": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-35_8ca38508-7070-487b-893f-6d90c5c6eabe.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-36_63e325f4-71ce-49cd-9656-f2a394ed593d.jpg",
+            "slide_title": "「インディアン酋長猫」バック刺繍入り　エポレット付きフライトジャケット",
+            "slide_price": 18980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-ydamjk0613?_pos=1&_sid=5ef169db8&_ss=r&variant=47491477536987",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_Ptz8Qw",
+        "slide_block_TMyABF",
+        "slide_block_xjMpyh"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#df6d45",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#49548a",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "image_jump_custom_CJEkRJ": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_zHJYnJ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_59b18015-5e42-47bb-ad62-020641bffd38.png",
+            "image-id": "data-4",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_zHJYnJ"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "slide_block_group_kmDLcX": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_bHNE4n": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-37.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-38.jpg",
+            "slide_title": "【予約】「KaraKu」ロゴ刺繡　デニム切替ひょうたんキルト中綿ジャケット",
+            "slide_price": 17199,
+            "slide_price_new": 15480,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/md-w2007119?_pos=4&_sid=9a86b2bd6&_ss=r&variant=40680247099570",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_YxqpRG": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-39.jpg",
+            "slide_title": "ウール混紡　ヘリンボーン織りツイードテーラードジャケット",
+            "slide_price": 23980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-zyd-jk1028?_pos=1&_sid=03c38ce90&_ss=r&variant=47860942340315",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_8FWAWD": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-41.jpg",
+            "slide_title": "配色ボタン　ノーカラーデニムジャケット",
+            "slide_price": 10980,
+            "slide_price_new": 8240,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-jk139?_pos=1&_sid=10fc5783b&_ss=r&variant=44266130473179",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_bHNE4n",
+        "slide_block_YxqpRG",
+        "slide_block_8FWAWD"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#df6d45",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#49548a",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_3rUrDx": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_J8G4qw": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-43.jpg",
+            "slide_title": "裏花葉柄 デニムブレザージャケット",
+            "slide_price": 15590,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-xf-zjy31619?_pos=2&_sid=3b401b439&_ss=r&variant=43951534145755",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_zhpVJG": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-46.jpg",
+            "slide_title": "13ozデニム　スウェーデン軍モーターサイクルジャケット",
+            "slide_price": 25980,
+            "slide_price_new": 19490,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gz-ss2022077?_pos=2&_sid=0ae286a8b&_ss=r&variant=44723096846555",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_jrcEXJ": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-48.jpg",
+            "slide_title": "アメカジ定番　襟コーデュロイキャンバスサンタフェジャケット",
+            "slide_price": 16980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-md-ts2401205?_pos=1&_sid=389f2abb1&_ss=r&variant=46031179579611",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_J8G4qw",
+        "slide_block_zhpVJG",
+        "slide_block_jrcEXJ"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#df6d45",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#49548a",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "background_image_mB9Ptd": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#8cb4c7",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "slideshow_yYyR9E",
+    "image_WdrQH4",
+    "image_jump_custom_xRb7Pi",
+    "image_list_XYgXeU",
+    "image_list_TGRkWi",
+    "image_list_geghJg",
+    "image_list_GKbBMt",
+    "image_jump_custom_MChbdH",
+    "slide_block_group_9EjCeB",
+    "slide_block_group_ATaRka",
+    "image_jump_custom_6t8R73",
+    "slide_block_group_xjz99Y",
+    "slide_block_group_RVUUFM",
+    "image_jump_custom_kbQgeU",
+    "slide_block_group_hjcLxy",
+    "slide_block_group_DiieYR",
+    "image_jump_custom_CJEkRJ",
+    "slide_block_group_kmDLcX",
+    "slide_block_group_3rUrDx",
+    "main",
+    "background_image_mB9Ptd"
+  ]
+}

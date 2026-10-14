@@ -1,0 +1,220 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_anppW4": {
+      "type": "slideshow",
+      "blocks": {
+        "image_CNTQji": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1920_c6124a62-b515-4657-8d91-8f7f4dd5572d.jpg",
+            "mobile_image": "shopify://shop_images/20241031-180754.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": false,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_CNTQji"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 800,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_zWxE98": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_b22c5ca1-3d20-48dc-97b0-b0b5578557f1.png",
+        "mobile_image": "shopify://shop_images/720_2902fa8d-3379-4aee-bb2f-191dd84d1535.png",
+        "img_rul": ""
+      }
+    },
+    "image_jump_custom_m44BCX": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_LLRQQD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1920_b22c5ca1-3d20-48dc-97b0-b0b5578557f1.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_LLRQQD"
+      ],
+      "disabled": true,
+      "settings": {}
+    },
+    "adjusting_spacing_HHTCwE": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -5,
+        "margin_top2": 0
+      }
+    },
+    "image_jump_iEkpY9": {
+      "type": "image-jump",
+      "blocks": {
+        "image_EJBLYe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_eabc84ba-d1d0-46ab-82b9-37791df8c523.png",
+            "image-id": "#data-01"
+          }
+        },
+        "image_Bmi96y": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_26db2f49-3fd9-4f5d-8913-43ce1a9dc370.png",
+            "image-id": "#data-02"
+          }
+        },
+        "image_dNnQLr": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_b20f2ccd-87c6-42b4-b132-a7415efd996c.png",
+            "image-id": "#data-03"
+          }
+        }
+      },
+      "block_order": [
+        "image_EJBLYe",
+        "image_Bmi96y",
+        "image_dNnQLr"
+      ],
+      "settings": {
+        "background-image": "",
+        "grid": 19
+      }
+    },
+    "adjusting_spacing_ptBbFf": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 2,
+        "margin_top2": 0
+      }
+    },
+    "background_image_cPhqDL": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-09-18_17-42-11_6bb676b9-7d25-4384-87c4-1355b66e13ef.jpg"
+      }
+    },
+    "image_jump_custom_wti3mm": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_btywN7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/01_c5e5a833-029b-456c-b35a-88a6c755717f.png",
+            "image-id": "data-01",
+            "image_link": "https://karakubuy.com/products/krk-zyd-ygtjcxcs0913?_pos=1&_sid=6ef56d5a2&_ss=r&variant=46038279225563"
+          }
+        },
+        "image_banwBg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/02_d619509b-fa02-48ab-a838-8e8414224419.png",
+            "image-id": "data-02",
+            "image_link": ""
+          }
+        },
+        "image_zqpr4p": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/03_58a4d142-c2fb-488f-9caf-ef470945df10.png",
+            "image-id": "data-03",
+            "image_link": "https://karakubuy.com/products/krk-zyd-nwhglwy809?_pos=1&_sid=f4ba4f690&_ss=r&variant=45996704989403"
+          }
+        }
+      },
+      "block_order": [
+        "image_btywN7",
+        "image_banwBg",
+        "image_zqpr4p"
+      ],
+      "settings": {}
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "slideshow_anppW4",
+    "image_zWxE98",
+    "image_jump_custom_m44BCX",
+    "adjusting_spacing_HHTCwE",
+    "image_jump_iEkpY9",
+    "adjusting_spacing_ptBbFf",
+    "background_image_cPhqDL",
+    "image_jump_custom_wti3mm",
+    "main"
+  ]
+}

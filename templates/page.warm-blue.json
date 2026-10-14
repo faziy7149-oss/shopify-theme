@@ -1,0 +1,71 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "full_width": false
+      }
+    },
+    "71fce4ca-16b7-40bb-817f-1a14c7000111": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/image_processing20230413-1-vvhfp6.jpg",
+        "image_width": 700,
+        "image_position": "left",
+        "text_alignment": "left"
+      }
+    },
+    "27d120e5-513a-44a7-8fe8-0d719d657597": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/image_processing20230413-1-gxv2ti.jpg",
+        "image_width": 700,
+        "image_position": "left",
+        "text_alignment": "left"
+      }
+    },
+    "d275aecc-1981-4a25-b8be-96b51e94be58": {
+      "type": "background-video",
+      "disabled": true,
+      "settings": {
+        "placeholder_image": "shopify://shop_images/mqdefault_524df8b3-a8d2-4ba5-8081-210b028aa318.jpg",
+        "text_alignment": "center center",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "overlay_style": "full"
+      }
+    },
+    "featured_collection_aggL73": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "商品リスト",
+        "collection": "2021年秋冬コレクション-藍染から浮かびあがる-自然とひとの-循環",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "71fce4ca-16b7-40bb-817f-1a14c7000111",
+    "27d120e5-513a-44a7-8fe8-0d719d657597",
+    "d275aecc-1981-4a25-b8be-96b51e94be58",
+    "featured_collection_aggL73"
+  ]
+}

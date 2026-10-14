@@ -1,0 +1,432 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1652869072251fa0bf": {
+      "type": "slideshow",
+      "blocks": {
+        "16528690727e0bd824-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/13_52050ba6-0dc0-4257-9f52-97791415e3b9.jpg",
+            "mobile_image": "shopify://shop_images/3_cb5a7029-c803-486b-b24e-8c3ad3ca3f0a.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16528690727e0bd824-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "16551139064dd52b4a": {
+      "type": "rich-text",
+      "blocks": {
+        "1655113906511ba273-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": ""
+          }
+        },
+        "1655113906511ba273-1": {
+          "type": "heading",
+          "settings": {
+            "title": "夏から秋へ、「シーズンレス」なストライプシャツが大活躍！",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "1655113906511ba273-0",
+        "1655113906511ba273-1"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_ymprLE": {
+      "type": "custom-content",
+      "blocks": {
+        "image_QGX4fb": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/20220908-162211.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/products/%E3%83%94%E3%83%BC%E3%83%81%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B7%E3%83%A3%E3%83%84?_pos=1&_sid=2cfd68d32&_ss=r&variant=40332082610354",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_r9wGY6": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "left",
+            "center_on_mobile": true,
+            "icon": "",
+            "icon_color": "rgba(0,0,0,0)",
+            "subheading": "",
+            "title": "アメカジストライプ柄デニムシャツ",
+            "title_size": 28,
+            "title_size_mobile": 20,
+            "text": "<p>アメカジ中古感水洗長袖デニムシャツです。春・秋のアウターと冬のインナーとしても着用できます。アメカジでも、日系のカジュアル風でも相性が抜群です。ストライプの柄は立体感を出来上がられます。普通の無地のシャツもしくはボーダー柄より、ストライプ柄は洗練された大人っぽさを醸し出すことができるので、カジュアルなファッションコーディネートにぴったりです。年齢を問わずにファッションコーデをお楽しみください！コーディネートで着痩せしたい方にもおすすめ！</p><p><br/><a href=\"https://www.karakubuy.com/collections/striped-shirt/products/dh-072201\" title=\"https://www.karakubuy.com/collections/striped-shirt/products/dh-072201\">アメカジストライプ柄デニムシャツ　│  ¥12,600 </a></p>",
+            "button_label": "Buy",
+            "button_link": "https://www.karakubuy.com/collections/striped-shirt/products/dh-072201",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_QGX4fb",
+        "text_r9wGY6"
+      ],
+      "settings": {
+        "spacing": "medium",
+        "alignment": "middle",
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_BKbkYL": {
+      "type": "custom-content",
+      "blocks": {
+        "image_hnMVGf": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/20220908-162220.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/products/krk-sj-6061613?_pos=1&_sid=64b21cf0a&_ss=r&variant=42933106737371",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_TNtTY8": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "left",
+            "center_on_mobile": true,
+            "icon": "",
+            "icon_color": "rgba(0,0,0,0)",
+            "subheading": "",
+            "title": "ベースボールストライプシャツ",
+            "title_size": 28,
+            "title_size_mobile": 20,
+            "text": "<p>フロント左胸元に英字「stay true」刺繍バッジをさりげなく配置、キャッチーであり、そこにレトロ感のあるベースボールシャツの雰囲気が加わることで、トレンドのストリートとヴィンテージテイストを感じる仕上りになっています。また全体がストライプ仕様により古着テイストのあるオールドスクール感も王道でありつつ、サイズ感は様々な着こなしに対応できる適度なビッグシルエット、新鮮なスタイルを表現出来るデザインに。</p><p></p><p><a href=\"https://www.karakubuy.com/collections/striped-shirt/products/krk-md-tsw2201006\" title=\"https://www.karakubuy.com/collections/striped-shirt/products/krk-md-tsw2201006\">ベースボールストライプシャツ　│  ¥13,250 </a></p>",
+            "button_label": "Buy",
+            "button_link": "https://www.karakubuy.com/collections/striped-shirt/products/krk-md-tsw2201006",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_hnMVGf",
+        "text_TNtTY8"
+      ],
+      "settings": {
+        "spacing": "medium",
+        "alignment": "middle",
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_jDq9tR": {
+      "type": "custom-content",
+      "blocks": {
+        "image_9MiFen": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/KRK-NS-ST122201-4_540x_40b14a18-ab50-498a-9181-9db897400a20.webp",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/products/krk-gz8009?_pos=2&_sid=ce9c2ac85&_ss=r&variant=42939981856987",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_xzHJhi": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "left",
+            "center_on_mobile": true,
+            "icon": "",
+            "icon_color": "rgba(0,0,0,0)",
+            "subheading": "",
+            "title": "アメカジWABASH　ウォッシュ加工ウォバッシュストライプワークシャツ",
+            "title_size": 28,
+            "title_size_mobile": 20,
+            "text": "<p>ヴィンテージな雰囲気を醸し出す絶妙なウォッシュ加減がポイントで、トレンドのスタイリングにぴったりな一本です。ワークシャツとの合わせは無論で、カジュアルのジーンズとの着こなしも違和感がなくて、簡単に洗練された大人着こなしを完成。オールシーズンで活躍可能な一点です。</p><p></p><p><a href=\"https://www.karakubuy.com/collections/striped-shirt/products/krk-ns-st122201\" title=\"https://www.karakubuy.com/collections/striped-shirt/products/krk-ns-st122201\">アメカジWABASH　ウォッシュ加工ウォバッシュストライプワークシャツ　│  ¥12,307 </a></p><p></p>",
+            "button_label": "Buy",
+            "button_link": "https://www.karakubuy.com/collections/striped-shirt/products/krk-ns-st122201",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_9MiFen",
+        "text_xzHJhi"
+      ],
+      "settings": {
+        "spacing": "medium",
+        "alignment": "middle",
+        "color_scheme": "default"
+      }
+    },
+    "1655432278f0adbbd8": {
+      "type": "testimonials",
+      "blocks": {
+        "165543227816191db3-0": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "Mサイズを選んで買ったところ、理想通りのシルエット！\nボタンは1番上まで留めると少しだけ窮屈さを感じますが、許容範囲だしシルエット的には満足！",
+            "author": "坂.",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "165543227816191db3-1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "サイズ感もぴったり。そして到着まで早いです。",
+            "author": "中村",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "17ab6ca3-436c-45aa-860f-d10d4d414a85": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "友達にカッコいい服だね！と言ってもらえた。",
+            "author": "大輔",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "467cc604-24fd-4b84-b14a-087903937d70": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "生地に厚みがあり、作りは丁寧。\n\n長い間愛用できそうです。\n\n着る前に要洗濯。白い下着の上から着ると色移りします。\nアイテムのタイプ:\nダークブルー / M",
+            "author": "知. 板.",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "d2dc3f89-81b4-42c5-aed0-041f81f6ae01": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "とにかく商品には満足しています。デザイン、クオリティーが素晴らしくコストパフォーマンスが高いと思います。普通はこの様な商品は2万円近くします。色味、ディテールについても意識が高く、良くできていると感じます。たまに眺めてしまう程、お気に入りのシャツになりました。サイズ感は表示通りです。\n包装も丁寧で好...\nアイテムのタイプ:\nダークブルー / XL",
+            "author": "久. 橋.",
+            "image_caption": "",
+            "link": ""
+          }
+        },
+        "2639b3db-5b15-4d1d-9621-91b6fe746fc1": {
+          "type": "testimonial",
+          "settings": {
+            "star_rating": 5,
+            "testimonial": "いつもこちらで購入してます。\nまた宜しくお願いします。",
+            "author": "八木",
+            "image_caption": "",
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "165543227816191db3-0",
+        "165543227816191db3-1",
+        "17ab6ca3-436c-45aa-860f-d10d4d414a85",
+        "467cc604-24fd-4b84-b14a-087903937d70",
+        "d2dc3f89-81b4-42c5-aed0-041f81f6ae01",
+        "2639b3db-5b15-4d1d-9621-91b6fe746fc1"
+      ],
+      "settings": {
+        "title": "Customer reviews",
+        "layout": "no-image",
+        "text_caps": false,
+        "quote_text_size": 30,
+        "quote_text_size_mobile": 20,
+        "image_shape": "natural",
+        "color_scheme": "default",
+        "use_custom_star_rating_color": false,
+        "star_rating_color": "#e9a80a",
+        "autoplay": true,
+        "autoplay_speed": 5
+      }
+    },
+    "1635220294067ab8a1": {
+      "type": "collection-list",
+      "blocks": {
+        "22a68d2d-1230-4f98-96b2-5b4029b9dc36": {
+          "type": "collection",
+          "settings": {
+            "collection": "アクセサリー-小物",
+            "image": "shopify://shop_images/QQ_20211029184022.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "ba2cf3cc-2a86-4841-9a15-fa4bbb764def": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "セールから探す",
+            "image": "shopify://shop_images/QQ_20211029184109.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "22a68d2d-1230-4f98-96b2-5b4029b9dc36",
+        "ba2cf3cc-2a86-4841-9a15-fa4bbb764def"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 2,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "1652869072251fa0bf",
+    "16551139064dd52b4a",
+    "custom_content_ymprLE",
+    "custom_content_BKbkYL",
+    "custom_content_jDq9tR",
+    "1655432278f0adbbd8",
+    "1635220294067ab8a1",
+    "main",
+    "1635765484031572a6"
+  ]
+}

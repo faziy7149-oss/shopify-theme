@@ -1,0 +1,1046 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "slideshow_irApqW": {
+      "type": "slideshow",
+      "blocks": {
+        "image_JMaUMx": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20250815-163657.png",
+            "mobile_image": "shopify://shop_images/1080x1440-2.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_JMaUMx"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "adjusting_spacing_mHLNFD": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -4,
+        "margin_top2": 2
+      }
+    },
+    "image_7yPznR": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_c566844c-fd13-4416-a0ef-f8f125a8a861.gif",
+        "mobile_image": "shopify://shop_images/720_c96c8cb0-3a1d-4fa2-9a60-6dd797b5c846.gif",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_DJ4Cjz": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -8,
+        "margin_top2": -12
+      }
+    },
+    "background_image_MM8FBa": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-08-30_16-46-44_de3963dc-f86e-480e-a9c1-b1d60c3ec42f.jpg",
+        "bg_size": "cover",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#f5f5f5",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "reel_module_a3yYBt": {
+      "type": "reel-module",
+      "blocks": {
+        "slide_hbkWhq": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/01-1.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "了解更多",
+            "reel_link": "",
+            "reel_image_width": 20,
+            "reel_image_left": 0,
+            "reel_image_top": 0,
+            "reel_text_left": 0,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_VyqX9f": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/01-2_64e271dc-2071-4d1e-8ba2-f94385ec31db.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "",
+            "reel_link": "",
+            "reel_image_width": 26,
+            "reel_image_left": -10,
+            "reel_image_top": -3,
+            "reel_text_left": 0,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_EmYFAd": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/20250815-160424.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "",
+            "reel_link": "https://karakubuy.com/products/krk-xj-6628?_pos=1&_sid=75f5edf12&_ss=r&variant=44180074791131",
+            "reel_image_width": 20,
+            "reel_image_left": -6,
+            "reel_image_top": 7,
+            "reel_text_left": 0,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_fAjY8x": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/01-4.png",
+            "reel_title": "ダメージ加工　配色ポケットコンビオーバーオール",
+            "reel_text": "<p>ガレージでオートバイの状態をチェックする際、マルチポケット仕様のデニムオーバーオールは、手元の工具を収納するのに便利です。</p>",
+            "reel_button_text": "MORE",
+            "reel_link": "https://karakubuy.com/products/krk-xj-6628?_pos=1&_sid=75f5edf12&_ss=r&variant=44180074791131",
+            "reel_image_width": 20,
+            "reel_image_left": -1,
+            "reel_image_top": 7,
+            "reel_text_left": 20,
+            "reel_text_top": -16,
+            "reel_text_font_size": 14
+          }
+        },
+        "slide_mcAgz4": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/01-5.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "",
+            "reel_link": "",
+            "reel_image_width": 16,
+            "reel_image_left": 23,
+            "reel_image_top": -1,
+            "reel_text_left": 0,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_7rDBrJ": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/01-6.png",
+            "reel_title": "アイアンレンジャー・ワークブーツ #8111改良 本革",
+            "reel_text": "<p>アッパーにはクレイジーホースレザーを使用したため、100％天然の牛革の高品質が輝きを放ち、凹凸や傷が、靴の美しさを引き立てる様々な色調を生み出していること。<br/><br/></p>",
+            "reel_button_text": "MORE",
+            "reel_link": "https://karakubuy.com/products/krk-md-md2205016?_pos=1&_sid=357f647c2&_ss=r&variant=43332828201179",
+            "reel_image_width": 22,
+            "reel_image_left": 2,
+            "reel_image_top": 22,
+            "reel_text_left": 26,
+            "reel_text_top": -10,
+            "reel_text_font_size": 14
+          }
+        },
+        "slide_ikVWhT": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/01-7.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "",
+            "reel_link": "",
+            "reel_image_width": 15,
+            "reel_image_left": 12,
+            "reel_image_top": 26,
+            "reel_text_left": 0,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_HbxzPG": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/01-8.png",
+            "reel_title": "無地リブタンクトップ",
+            "reel_text": "<p>リブの魅力はその風合いの柔らかさ、伸縮性と高級感です。リブの柔らかい風合いは魅力。直接肌に触れることもあるので、柔らかい風合いだと違和感を与えません。<br/><br/></p>",
+            "reel_button_text": "MORE",
+            "reel_link": "https://karakubuy.com/products/krk-md-ts2201069?_pos=1&_sid=f7a27d4aa&_ss=r&variant=42990615625947",
+            "reel_image_width": 18,
+            "reel_image_left": 14,
+            "reel_image_top": 6,
+            "reel_text_left": 33,
+            "reel_text_top": -10,
+            "reel_text_font_size": 14
+          }
+        }
+      },
+      "block_order": [
+        "slide_hbkWhq",
+        "slide_VyqX9f",
+        "slide_EmYFAd",
+        "slide_fAjY8x",
+        "slide_mcAgz4",
+        "slide_7rDBrJ",
+        "slide_ikVWhT",
+        "slide_HbxzPG"
+      ],
+      "name": "Rell Module",
+      "settings": {
+        "bg_image": "shopify://shop_images/bg.png",
+        "bg_color": "#1c284d",
+        "button_hover_color": "#555555",
+        "button_text_color": "#ffffff",
+        "text_color": "#1c284d",
+        "title_color": "#1c284d"
+      }
+    },
+    "adjusting_spacing_zcz4te": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -12,
+        "margin_top2": -12
+      }
+    },
+    "reel_module_mDjtVH": {
+      "type": "reel-module",
+      "blocks": {
+        "slide_333Gfb": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/02-1.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "了解更多",
+            "reel_link": "",
+            "reel_image_width": 14,
+            "reel_image_left": 0,
+            "reel_image_top": -2,
+            "reel_text_left": 0,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_NggtEP": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/02-2_f10cc62e-3c15-4c98-9e43-031b360831f4.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "",
+            "reel_link": "",
+            "reel_image_width": 20,
+            "reel_image_left": 1,
+            "reel_image_top": 2,
+            "reel_text_left": 0,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_Pamnzw": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/02-3.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "",
+            "reel_link": "https://karakubuy.com/products/krk-xj-6628?_pos=1&_sid=75f5edf12&_ss=r&variant=44180074791131",
+            "reel_image_width": 24,
+            "reel_image_left": 3,
+            "reel_image_top": 13,
+            "reel_text_left": 0,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_KMDwRW": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/02-4.png",
+            "reel_title": "J001複刻　キャンバスデトロイトジャケット",
+            "reel_text": "<p>乾いた風や砂埃を受け止めるタフなキャンバス生地は、長旅にも耐える相棒のような存在。</p>",
+            "reel_button_text": "MORE",
+            "reel_link": "https://karakubuy.com/products/krk-md-ts2307257?_pos=1&_sid=1e83c932f&_ss=r&variant=44310323822811",
+            "reel_image_width": 20,
+            "reel_image_left": 9,
+            "reel_image_top": 13,
+            "reel_text_left": 6,
+            "reel_text_top": -16,
+            "reel_text_font_size": 13
+          }
+        },
+        "slide_NEknGd": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/02-7.png",
+            "reel_title": "アメカジ定番ウォッシュド加工ワークシャツ",
+            "reel_text": "<p>無骨な魅力と実用性を兼ね備えた、アメカジスタイルの定番ワークシャツ。<br/><br/></p>",
+            "reel_button_text": "MORE",
+            "reel_link": "https://karakubuy.com/products/krk-tywf-0229?_pos=1&_sid=07dbfca25&_ss=r&variant=46556755198171",
+            "reel_image_width": 18,
+            "reel_image_left": 9,
+            "reel_image_top": 3,
+            "reel_text_left": 10,
+            "reel_text_top": 5,
+            "reel_text_font_size": 13
+          }
+        },
+        "slide_UyaJd7": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/02-9.png",
+            "reel_title": "ヴィンテージ・コーデュロイワイドパンツ",
+            "reel_text": "<p>ヴィンテージライクな表情の太畝コーデュロイ生地を採用し、凸凹が空気を蓄えることができ、保湿性や吸湿性に優れている。</p>",
+            "reel_button_text": "MORE",
+            "reel_link": "https://karakubuy.com/products/krk-md-ts2107034?_pos=1&_sid=124f747d8&_ss=r&variant=43643870019803",
+            "reel_image_width": 18,
+            "reel_image_left": 9,
+            "reel_image_top": -3,
+            "reel_text_left": 28,
+            "reel_text_top": -13,
+            "reel_text_font_size": 13
+          }
+        },
+        "slide_r3dE6B": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/02-11.png",
+            "reel_title": "スエード牛革パンク系オードバイグローブ",
+            "reel_text": "<p>荒々しい質感と堅牢なつくりが、砂塵舞う道を走る手元をしっかりと守り、同時にライダーの個性を際立たせます。使い込むほどに馴染み、旅の痕跡を刻み込んでいく――まさに砂漠の走りにふさわしい相棒です。</p>",
+            "reel_button_text": "MORE",
+            "reel_link": "https://karakubuy.com/products/krk-mt-112901?_pos=3&_sid=c939ff513&_ss=r&variant=42119170654427",
+            "reel_image_width": 15,
+            "reel_image_left": -10,
+            "reel_image_top": 17,
+            "reel_text_left": 7,
+            "reel_text_top": 1,
+            "reel_text_font_size": 13
+          }
+        },
+        "slide_rexAPk": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/02-10.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "",
+            "reel_link": "",
+            "reel_image_width": 59,
+            "reel_image_left": -27,
+            "reel_image_top": 13,
+            "reel_text_left": 11,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        }
+      },
+      "block_order": [
+        "slide_333Gfb",
+        "slide_NggtEP",
+        "slide_Pamnzw",
+        "slide_KMDwRW",
+        "slide_NEknGd",
+        "slide_UyaJd7",
+        "slide_r3dE6B",
+        "slide_rexAPk"
+      ],
+      "name": "Rell Module",
+      "settings": {
+        "bg_image": "shopify://shop_images/bg.png",
+        "bg_color": "#1c284d",
+        "button_hover_color": "#555555",
+        "button_text_color": "#ffffff",
+        "text_color": "#1c284d",
+        "title_color": "#1c284d"
+      }
+    },
+    "adjusting_spacing_hUt9XE": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -12,
+        "margin_top2": -12
+      }
+    },
+    "reel_module_98RcVi": {
+      "type": "reel-module",
+      "blocks": {
+        "slide_UDFidn": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/03-1.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "了解更多",
+            "reel_link": "",
+            "reel_image_width": 18,
+            "reel_image_left": -1,
+            "reel_image_top": 10,
+            "reel_text_left": 0,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_kB689b": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/03-2_58ab5b72-ad0d-41e8-ae20-e4913f7c7db5.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "",
+            "reel_link": "",
+            "reel_image_width": 23,
+            "reel_image_left": -2,
+            "reel_image_top": -1,
+            "reel_text_left": 0,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_tdFh6M": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/03-3.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "",
+            "reel_link": "https://karakubuy.com/products/krk-xj-6628?_pos=1&_sid=75f5edf12&_ss=r&variant=44180074791131",
+            "reel_image_width": 24,
+            "reel_image_left": 3,
+            "reel_image_top": 13,
+            "reel_text_left": 0,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_MHr7L3": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/03-4.png",
+            "reel_title": "レザーMA-1フライトジャケット",
+            "reel_text": "<p>冷たい山風を遮る厚手のレザーと、MA-1特有の無骨なシルエットが、ライダーの背中に頼もしさを与える。曲がりくねる峠道を抜けるたび、ジャケットに刻まれるシワや傷が、旅の物語を静かに語りはじめる。</p>",
+            "reel_button_text": "MORE",
+            "reel_link": "https://karakubuy.com/products/v21ajk007?_pos=2&_sid=10942b07a&_ss=r&variant=40867534635186",
+            "reel_image_width": 20,
+            "reel_image_left": 9,
+            "reel_image_top": 13,
+            "reel_text_left": 6,
+            "reel_text_top": -16,
+            "reel_text_font_size": 13
+          }
+        },
+        "slide_rmij4t": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/03-5.png",
+            "reel_title": "首掛け　レザーメガネホルダー",
+            "reel_text": "<p>軽量でずれ落ち防止のホルダーとしてだけではなく、おしゃれなアクセサリー小物としてメンズやレディースにも人気です。</p>",
+            "reel_button_text": "MORE",
+            "reel_link": "https://karakubuy.com/products/krk-md-tw2107082?_pos=1&_sid=a800af9b6&_ss=r",
+            "reel_image_width": 18,
+            "reel_image_left": 9,
+            "reel_image_top": 3,
+            "reel_text_left": 10,
+            "reel_text_top": 5,
+            "reel_text_font_size": 13
+          }
+        },
+        "slide_CVKWRE": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/03-6.png",
+            "reel_title": "アメカジバンダナ・スカーフ",
+            "reel_text": "<p>無骨なライダースタイルに、さりげない色と柄がアクセントを添え、旅の景色をより鮮やかに彩る。</p>",
+            "reel_button_text": "MORE",
+            "reel_link": "https://karakubuy.com/products/md-s2001018?_pos=3&_sid=f63de087b&_ss=r&variant=40310772400306",
+            "reel_image_width": 38,
+            "reel_image_left": 9,
+            "reel_image_top": -3,
+            "reel_text_left": 15,
+            "reel_text_top": -3,
+            "reel_text_font_size": 13
+          }
+        },
+        "slide_jRXGpV": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/03-7.png",
+            "reel_title": "14oz 赤耳　ワンウォッシュデニムパンツ",
+            "reel_text": "<p>厚みのある14オンスデニムが、山風や小石の跳ねをしっかりと受け止め、旅路を力強く支える。ワンウォッシュならではの柔らかさと、赤耳のさりげない存在感が、走りとともに味わいを増していく。</p>",
+            "reel_button_text": "MORE",
+            "reel_link": "https://karakubuy.com/products/krk-dc-333b-1?_pos=1&_sid=3801349ca&_ss=r",
+            "reel_image_width": 21,
+            "reel_image_left": 23,
+            "reel_image_top": 14,
+            "reel_text_left": 18,
+            "reel_text_top": -18,
+            "reel_text_font_size": 13
+          }
+        },
+        "slide_JLBWYB": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/03-8.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "",
+            "reel_link": "",
+            "reel_image_width": 12,
+            "reel_image_left": -50,
+            "reel_image_top": 21,
+            "reel_text_left": 11,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        }
+      },
+      "block_order": [
+        "slide_UDFidn",
+        "slide_kB689b",
+        "slide_tdFh6M",
+        "slide_MHr7L3",
+        "slide_rmij4t",
+        "slide_CVKWRE",
+        "slide_jRXGpV",
+        "slide_JLBWYB"
+      ],
+      "name": "Rell Module",
+      "settings": {
+        "bg_image": "shopify://shop_images/bg.png",
+        "bg_color": "#1c284d",
+        "button_hover_color": "#555555",
+        "button_text_color": "#ffffff",
+        "text_color": "#1c284d",
+        "title_color": "#1c284d"
+      }
+    },
+    "adjusting_spacing_nEmDng": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -12,
+        "margin_top2": -12
+      }
+    },
+    "reel_module_TfKikV": {
+      "type": "reel-module",
+      "blocks": {
+        "slide_qiVbgN": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/04-1.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "了解更多",
+            "reel_link": "",
+            "reel_image_width": 18,
+            "reel_image_left": -1,
+            "reel_image_top": 2,
+            "reel_text_left": 0,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_xLz3pW": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/04-2_18dc778c-4ba1-4d0d-941a-6361ad49241c.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "",
+            "reel_link": "",
+            "reel_image_width": 32,
+            "reel_image_left": -8,
+            "reel_image_top": -1,
+            "reel_text_left": 0,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_LC3FYg": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/04-3.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "",
+            "reel_link": "https://karakubuy.com/products/krk-xj-6628?_pos=1&_sid=75f5edf12&_ss=r&variant=44180074791131",
+            "reel_image_width": 22,
+            "reel_image_left": -5,
+            "reel_image_top": 8,
+            "reel_text_left": 0,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_ryqD7m": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/04-4.png",
+            "reel_title": "米軍 40’s U.S.NAVY デッキパーカー",
+            "reel_text": "<p>防風性・防寒性に優れたデッキパーカーが、湖畔の冷たい風や朝夕の寒さからライダーを守る。ミリタリーテイストの無骨なシルエットとディテールが、アウトドアのワイルドな雰囲気と絶妙にマッチし、旅の一瞬一瞬を力強く演出する。</p>",
+            "reel_button_text": "MORE",
+            "reel_link": "https://karakubuy.com/products/md-1807108?_pos=2&_sid=430ab8ef2&_ss=r&variant=44689517969627",
+            "reel_image_width": 20,
+            "reel_image_left": 6,
+            "reel_image_top": 13,
+            "reel_text_left": 6,
+            "reel_text_top": -18,
+            "reel_text_font_size": 13
+          }
+        },
+        "slide_DVV97b": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/04-5.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "",
+            "reel_link": "",
+            "reel_image_width": 11,
+            "reel_image_left": 2,
+            "reel_image_top": 21,
+            "reel_text_left": 11,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_7tfxpX": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/04-7.png",
+            "reel_title": "2wayタクティカルベスト・バッグ",
+            "reel_text": "<p>多機能ポケットを備えたタクティカルベスト・バッグは、地図や小物、キャンプ道具を手元に整理でき、ライディング中もすぐに取り出せる便利さが魅力。</p>",
+            "reel_button_text": "MORE",
+            "reel_link": "https://karakubuy.com/products/md-tw2101147?_pos=2&_sid=9cf049177&_ss=r",
+            "reel_image_width": 18,
+            "reel_image_left": 9,
+            "reel_image_top": 3,
+            "reel_text_left": 10,
+            "reel_text_top": 4,
+            "reel_text_font_size": 13
+          }
+        },
+        "slide_4jpFVF": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/04-6.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "",
+            "reel_link": "",
+            "reel_image_width": 11,
+            "reel_image_left": -1,
+            "reel_image_top": 1,
+            "reel_text_left": 11,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_fW8npK": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/04-8.png",
+            "reel_title": "イギリス海軍カーゴパンツ",
+            "reel_text": "<p><br/>耐久性の高いミリタリーパンツは、岩場や林道などの悪路でも安心のタフさを発揮。カーゴポケットには地図やツールを収納でき、ライディング中も手元に必要なものを確保できる。<br/><br/></p>",
+            "reel_button_text": "MORE",
+            "reel_link": "https://karakubuy.com/products/md-ts2107028?_pos=2&_sid=13fe4dbbc&_ss=r",
+            "reel_image_width": 13,
+            "reel_image_left": 3,
+            "reel_image_top": 7,
+            "reel_text_left": 18,
+            "reel_text_top": -18,
+            "reel_text_font_size": 13
+          }
+        },
+        "slide_z9wEPx": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/04-9.png",
+            "reel_title": "モヘアタートルネックセーター",
+            "reel_text": "<p>ふんわりと柔らかいモヘア素材が、冷たい湖畔の風から体を優しく包み込み、保温性も抜群。タートルネックが首元をしっかり守り、ライディング中の快適さと上品な雰囲気を両立。</p>",
+            "reel_button_text": "MORE",
+            "reel_link": "https://karakubuy.com/products/krk-md-s1901294?_pos=2&_sid=0dfdfa0c7&_ss=r&variant=41265478172850",
+            "reel_image_width": 14,
+            "reel_image_left": -1,
+            "reel_image_top": 18,
+            "reel_text_left": 16,
+            "reel_text_top": 4,
+            "reel_text_font_size": 13
+          }
+        },
+        "slide_6qGmaa": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/04-10.png",
+            "reel_title": "選べる2柄　ナバホ＆星空 ネックウォーマー",
+            "reel_text": "<p>首元をしっかりと保護するネックウォーマーは、冷たい湖畔の風や朝夕の冷え込みから体を守り、快適なライディングをサポート。コンパクトながら防寒性に優れ、アウトドアやツーリングの必須アイテムとして活躍する。</p>",
+            "reel_button_text": "MORE",
+            "reel_link": "https://karakubuy.com/products/krk-md-tw2207651?_pos=1&_sid=69fe7b3df&_ss=r",
+            "reel_image_width": 11,
+            "reel_image_left": -3,
+            "reel_image_top": -1,
+            "reel_text_left": 12,
+            "reel_text_top": -10,
+            "reel_text_font_size": 13
+          }
+        },
+        "slide_cMrYyp": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/04-11.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "",
+            "reel_link": "",
+            "reel_image_width": 10,
+            "reel_image_left": -23,
+            "reel_image_top": 17,
+            "reel_text_left": 0,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_fbGKBA": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/04-12.png",
+            "reel_title": "バラクラバニットキャップ",
+            "reel_text": "<p>頭部と耳を包み込むバラクラバ仕様で、冷たい湖畔の風や朝夕の寒さからしっかりと守る。ニット素材の柔らかさが快適な着用感を生み、タイトなフィット感でヘルメットとの相性も抜群。<br/></p>",
+            "reel_button_text": "MORE",
+            "reel_link": "https://karakubuy.com/products/krk-md-tw2107069?_pos=2&_sid=d5829f6c4&_ss=r",
+            "reel_image_width": 15,
+            "reel_image_left": -11,
+            "reel_image_top": 15,
+            "reel_text_left": 9,
+            "reel_text_top": 3,
+            "reel_text_font_size": 13
+          }
+        },
+        "slide_gWXQfJ": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/04-13.png",
+            "reel_title": "ブリティッシュワークブーツ",
+            "reel_text": "<p>頑丈なレザーと堅牢なソールが、湖畔の湿った地面や岩場でもしっかりとグリップ。防水性と耐久性に優れ、ライディング時も歩行時も安心感を提供する。<br/></p>",
+            "reel_button_text": "MORE",
+            "reel_link": "https://karakubuy.com/products/krk-md1703010?_pos=1&_sid=bd13da85d&_ss=r&variant=42471658979547",
+            "reel_image_width": 18,
+            "reel_image_left": -11,
+            "reel_image_top": 3,
+            "reel_text_left": 10,
+            "reel_text_top": -6,
+            "reel_text_font_size": 13
+          }
+        }
+      },
+      "block_order": [
+        "slide_qiVbgN",
+        "slide_xLz3pW",
+        "slide_LC3FYg",
+        "slide_ryqD7m",
+        "slide_DVV97b",
+        "slide_7tfxpX",
+        "slide_4jpFVF",
+        "slide_fW8npK",
+        "slide_z9wEPx",
+        "slide_6qGmaa",
+        "slide_cMrYyp",
+        "slide_fbGKBA",
+        "slide_gWXQfJ"
+      ],
+      "name": "Rell Module",
+      "settings": {
+        "bg_image": "shopify://shop_images/bg.png",
+        "bg_color": "#1c284d",
+        "button_hover_color": "#555555",
+        "button_text_color": "#ffffff",
+        "text_color": "#1c284d",
+        "title_color": "#1c284d"
+      }
+    },
+    "adjusting_spacing_7wYVeU": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -12,
+        "margin_top2": -12
+      }
+    },
+    "reel_module_xxRrMM": {
+      "type": "reel-module",
+      "blocks": {
+        "slide_aFed4W": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/05-1.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "了解更多",
+            "reel_link": "",
+            "reel_image_width": 14,
+            "reel_image_left": -1,
+            "reel_image_top": -2,
+            "reel_text_left": 0,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_AghLtQ": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/05-2.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "",
+            "reel_link": "",
+            "reel_image_width": 28,
+            "reel_image_left": 1,
+            "reel_image_top": -1,
+            "reel_text_left": 0,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_dgJPUc": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/05-3.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "",
+            "reel_link": "https://karakubuy.com/products/krk-xj-6628?_pos=1&_sid=75f5edf12&_ss=r&variant=44180074791131",
+            "reel_image_width": 22,
+            "reel_image_left": 6,
+            "reel_image_top": 8,
+            "reel_text_left": 0,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_nkCHXM": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/05-4.png",
+            "reel_title": "ウォッシュドデニムテーラードジャケット",
+            "reel_text": "<p>柔らかく味わい深いウォッシュドデニムが、街の風景に自然に溶け込み、ライディング中も快適な着心地を提供。テーラードジャケットのきちんと感とデニムのカジュアルさが絶妙に混ざり合い、下町のカフェでのひとときにもぴったりなスタイルを演出する。<br/></p>",
+            "reel_button_text": "MORE",
+            "reel_link": "https://karakubuy.com/products/krk-lrj-zsnkdnm0613?_pos=1&_sid=69d795811&_ss=r",
+            "reel_image_width": 14,
+            "reel_image_left": 13,
+            "reel_image_top": 0,
+            "reel_text_left": 9,
+            "reel_text_top": 0,
+            "reel_text_font_size": 13
+          }
+        },
+        "slide_B9Q4Kk": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/05-6.png",
+            "reel_title": "ヘンリーネック長袖Tシャツ",
+            "reel_text": "<p>長袖仕様でライディング中の風を防ぎつつ、街の景色やカフェの空気に馴染む一着。動きやすさとデザイン性を兼ね備えた、下町でのライディングスタイルにぴったりのアイテムです。</p>",
+            "reel_button_text": "MORE",
+            "reel_link": "https://karakubuy.com/products/krk-zyd-tqist0704?_pos=1&_sid=ae3bbb16c&_ss=r&variant=47304375828699",
+            "reel_image_width": 15,
+            "reel_image_left": 11,
+            "reel_image_top": 12,
+            "reel_text_left": 14,
+            "reel_text_top": -23,
+            "reel_text_font_size": 13
+          }
+        },
+        "slide_RHFwBp": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/05-8.png",
+            "reel_title": "先染めデニム＆ウール混 キャスケット",
+            "reel_text": "<p>デニムとウールの素材感が絶妙に混ざり合い、街の雰囲気に自然に溶け込むキャスケット。ライディング中もフィット感がよく、風から頭部を守りつつ、下町カフェでのくつろぎの時間にもぴったりなアクセントを添える。<br/><br/></p>",
+            "reel_button_text": "MORE",
+            "reel_link": "https://karakubuy.com/products/krk-ns-bl12061000?_pos=1&_sid=1c33ed0aa&_ss=r&variant=43768832393435",
+            "reel_image_width": 15,
+            "reel_image_left": 30,
+            "reel_image_top": 0,
+            "reel_text_left": 15,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_AJyCxp": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/05-9.png",
+            "reel_title": "",
+            "reel_text": "",
+            "reel_button_text": "",
+            "reel_link": "",
+            "reel_image_width": 20,
+            "reel_image_left": 0,
+            "reel_image_top": 25,
+            "reel_text_left": 0,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_FCUNq8": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/05-10.png",
+            "reel_title": "先染めデニム＆ウール混 キャスケット",
+            "reel_text": "<p>ワンウォッシュ加工による柔らかな履き心地と赤耳のさりげないアクセントが、下町の街並みに自然に馴染むスタイルを演出する。</p>",
+            "reel_button_text": "MORE",
+            "reel_link": "https://karakubuy.com/products/krk-dc-333b-1?_pos=1&_sid=a199e7035&_ss=r",
+            "reel_image_width": 15,
+            "reel_image_left": 21,
+            "reel_image_top": 0,
+            "reel_text_left": 9,
+            "reel_text_top": 0,
+            "reel_text_font_size": 16
+          }
+        },
+        "slide_7w6MeP": {
+          "type": "slide",
+          "settings": {
+            "reel_image": "shopify://shop_images/05-11.png",
+            "reel_title": "多機能キャンバスオートバイバッグサイドポーチ",
+            "reel_text": "<p>タフなキャンバス素材が街中のライディングやカフェ巡りにも馴染み、機能性とスタイルを両立させる相棒のようなアイテムです。<br/></p>",
+            "reel_button_text": "MORE",
+            "reel_link": "https://karakubuy.com/products/mc-16960nd?_pos=1&_sid=e78d47427&_ss=r&variant=40234036297906",
+            "reel_image_width": 18,
+            "reel_image_left": 25,
+            "reel_image_top": 19,
+            "reel_text_left": 18,
+            "reel_text_top": -10,
+            "reel_text_font_size": 16
+          }
+        }
+      },
+      "block_order": [
+        "slide_aFed4W",
+        "slide_AghLtQ",
+        "slide_dgJPUc",
+        "slide_nkCHXM",
+        "slide_B9Q4Kk",
+        "slide_RHFwBp",
+        "slide_AJyCxp",
+        "slide_FCUNq8",
+        "slide_7w6MeP"
+      ],
+      "name": "Rell Module",
+      "settings": {
+        "bg_image": "shopify://shop_images/bg.png",
+        "bg_color": "#1c284d",
+        "button_hover_color": "#555555",
+        "button_text_color": "#ffffff",
+        "text_color": "#1c284d",
+        "title_color": "#1c284d"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_irApqW",
+    "adjusting_spacing_mHLNFD",
+    "image_7yPznR",
+    "adjusting_spacing_DJ4Cjz",
+    "background_image_MM8FBa",
+    "reel_module_a3yYBt",
+    "adjusting_spacing_zcz4te",
+    "reel_module_mDjtVH",
+    "adjusting_spacing_hUt9XE",
+    "reel_module_98RcVi",
+    "adjusting_spacing_nEmDng",
+    "reel_module_TfKikV",
+    "adjusting_spacing_7wYVeU",
+    "reel_module_xxRrMM"
+  ]
+}

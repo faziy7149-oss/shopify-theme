@@ -1,0 +1,241 @@
+<div class="container data-cont">
+  <div class="top-contents">
+    <div class="slide-wrapper">
+      <div class="slider-pro celebrity-slider">
+        <div class="sp-slides">
+          <!-- Slide 1 -->
+          {% for block in section.blocks %}
+            {% case block.type %}
+              {% when 'webcelebrity' %}
+                <div class="sp-slide">
+                  {%- if block.settings.master_img == blank -%}
+                    <div class="placeholder-image">
+                      {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                    </div>
+                  {%- else -%}
+                    <img
+                      class="sp-image"
+                      src="{{ block.settings.master_img |  image_url: width: 600, height: 720 }}"
+                      width="400"
+                      height="500"
+                      loading="lazy"
+                    >
+                  {%- endif -%}
+                </div>
+            {% endcase %}
+          {% endfor %}
+        </div>
+        {% comment %} 下方图片 {% endcomment %}
+
+        <div class="sp-thumbnails">
+          {% for block in section.blocks %}
+            {% case block.type %}
+              {% when 'webcelebrity' %}
+                {%- if block.settings.master_img == blank -%}
+                  <div class="sp-thumbnail" style="width: 70px; height:80px">
+                    <div class="placeholder-image">
+                      {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                    </div>
+                  </div>
+                {%- else -%}
+                  <img
+                    class="sp-thumbnail"
+                    src="{{ block.settings.master_img |  image_url: width: 600, height: 720 }}"
+                    width="70"
+                    height="70"
+                    loading="lazy"
+                  >
+                {%- endif -%}
+            {% endcase %}
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+
+    {% comment %} 右侧模特信息 {% endcomment %}
+    <div class="text">
+      <div class="styling-detail">
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when 'webcelebrityLeft' %}
+              <div class="text-detail">
+                <div class="small_img">
+                  {%- if block.settings.celebrity_img == blank -%}
+                    <div class="placeholder-image" style="border-radius: 50%;">
+                      {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                    </div>
+                  {%- else -%}
+                    <img
+                      src="{{  block.settings.celebrity_img |  image_url: width: 100, height: 100 }}"
+                      alt=""
+                      width="100"
+                      height="100"
+                      loading="lazy"
+                    >
+                  {%- endif -%}
+                </div>
+                <div class="text-box1">
+                  <h2>{{ block.settings.title }}</h2>
+                  {%- if block.settings.shop_name != blank -%}
+                    <p class="shop-name">
+                      <span>{{ block.settings.shop_name }}</span>
+                    </p>
+                  {%- endif -%}
+                  <p class="store-info">
+                    <a href="{{ block.settings.favourite_link }}" class="staff-link">
+                      {{ block.settings.store_name }}
+                    </a>
+                    <span class="stature">{{- block.settings.stature -}}</span>
+                  </p>
+                </div>
+              </div>
+              <div class="staff-comment">
+                {%- if block.settings.dress_size != blank -%}
+                  <p>{{ block.settings.dress_size }}</p>
+                  <p class="sub">{{ block.settings.clothes_size }}</p>
+                  <p class="sub2">{{ block.settings.pants_size }}</p>
+                {%- endif -%}
+              </div>
+          {% endcase %}
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "web celebrity",
+  "settings": [],
+  "blocks": [
+    {
+      "type": "webcelebrity",
+      "name": "web celebrity img",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "master_img",
+          "label": "Image",
+          "info": "图片推荐尺寸 600 x 720"
+        }
+      ]
+    },
+    {
+      "type": "webcelebrityLeft",
+      "name": "celebrity info",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "celebrity_img",
+          "label": "celebrity image",
+          "info": "图片推荐尺寸 400 x 400"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "title",
+          "info": "潮流新品",
+          "default": "New style"
+        },
+        {
+          "type": "url",
+          "id": "favourite_link",
+          "label": "红人列表链接"
+        },
+        {
+          "type": "text",
+          "id": "shop_name",
+          "label": "店铺名称",
+          "default": "Karaku"
+        },
+        {
+          "type": "text",
+          "id": "store_name",
+          "label": "红人名字",
+          "default": "WUYANZU"
+        },
+        {
+          "type": "text",
+          "id": "stature",
+          "label": "红人身高",
+          "info": "188cm"
+        },
+        {
+          "type": "text",
+          "id": "dress_size",
+          "label": "【着用サイズ】",
+          "default": "【着用サイズ】"
+        },
+        {
+          "type": "text",
+          "id": "clothes_size",
+          "label": "衣服尺码",
+          "default": "ジャケット…"
+        },
+        {
+          "type": "text",
+          "id": "pants_size",
+          "label": "裤子尺码",
+          "default": "パンツ…"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "web celebrity",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "webcelebrity",
+          "settings": {}
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+  jQuery(document).ready(function ($) {
+    let celebrityDev = function () {
+      $('.top-contents .celebrity-slider').sliderPro({
+        width: 400,
+        height: 500,
+        autoHeight: false,
+        buttons: false,
+        shuffle: false,
+        autoplay: false,
+        heightAnimationDuration: 0,
+        loop: false,
+        fadeArrows: false,
+        arrows: true,
+        aspectRatio: 0.83,
+        thumbnailWidth: 70,
+        thumbnailHeight: 70,
+        slideDistance: 0,
+        breakpoints: {
+          769: {
+            touchSwipe: true,
+            thumbnailTouchSwipe: true,
+            init: function (event) {
+              $('.sp-thumbnails').css('transform', 'translate3d(0px, 0px, 0px)');
+            },
+          },
+          480: {
+            touchSwipe: true,
+            thumbnailTouchSwipe: true,
+            init: function (event) {
+              $('.sp-thumbnails').css('transform', 'translate3d(0px, 0px, 0px)');
+            },
+          },
+        },
+      });
+    };
+
+    celebrityDev();
+    $(document).on('shopify:section:load', function (event) {
+      celebrityDev();
+    });
+  });
+</script>

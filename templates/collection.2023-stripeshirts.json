@@ -1,0 +1,566 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "ad9f1d3d-0aad-4a9a-89a2-c50b3568d1c7": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16763124154587__ad9f1d3d-0aad-4a9a-89a2-c50b3568d1c7-1687772855e9c17030-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_8bb08785-d4a9-4dee-9746-5738ea86ca0b.jpg",
+            "mobile_image": "shopify://shop_images/2_1114b8f1-5e3f-441d-82bf-1d98baa37312.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16763124154587__ad9f1d3d-0aad-4a9a-89a2-c50b3568d1c7-1687772855e9c17030-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "44d6dad2-d242-489d-9e80-6eb207cf87ed": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16763124154587__44d6dad2-d242-489d-9e80-6eb207cf87ed-168812109967407d21-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "STRIPE SHIRTS"
+          }
+        },
+        "template--16763124154587__44d6dad2-d242-489d-9e80-6eb207cf87ed-168812109967407d21-1": {
+          "type": "heading",
+          "settings": {
+            "title": "大人カジュアルの”縦”役者",
+            "use_h1": false
+          }
+        },
+        "template--16763124154587__44d6dad2-d242-489d-9e80-6eb207cf87ed-168812109967407d21-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>大人カジュアルといえば、ストライプシャツは定番の存在だ。しかし、ストライプの柄も幅広い！そこで今回は、シャツによく使われる定番柄をピックアップ紹介！</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16763124154587__44d6dad2-d242-489d-9e80-6eb207cf87ed-168812109967407d21-0",
+        "template--16763124154587__44d6dad2-d242-489d-9e80-6eb207cf87ed-168812109967407d21-1",
+        "template--16763124154587__44d6dad2-d242-489d-9e80-6eb207cf87ed-168812109967407d21-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_LWemyt": {
+      "type": "custom-content",
+      "blocks": {
+        "image_Fw7Ufn": {
+          "type": "image",
+          "settings": {
+            "width": "quarter",
+            "image": "shopify://shop_images/img_v2_9e3ecdb3-e360-40f7-a8b6-6af04d2d996g.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "<p><strong>ヒッコリーストライプ</strong></p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_DFDyEL": {
+          "type": "image",
+          "settings": {
+            "width": "quarter",
+            "image": "shopify://shop_images/img_v2_32f64514-bca8-47b9-be73-513686cdfafg_9e3fde6a-83b7-4cfc-a83b-0b70061b024c.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "<p><strong>ペンシルストライプ</strong></p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_tWPJhC": {
+          "type": "image",
+          "settings": {
+            "width": "quarter",
+            "image": "shopify://shop_images/6_e306c8ec-0527-45c7-896f-a3c9f20457de.webp",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "<p><strong>マルチストライプ</strong></p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_UkFUDJ": {
+          "type": "image",
+          "settings": {
+            "width": "quarter",
+            "image": "shopify://shop_images/12_860a6381-6aaf-4c6c-97af-88ff0b241db0.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "<p><strong>ロンドンストライプ</strong></p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_Fw7Ufn",
+        "image_DFDyEL",
+        "image_tWPJhC",
+        "image_UkFUDJ"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_JcyMpA": {
+      "type": "custom-content",
+      "blocks": {
+        "image_HbqPBE": {
+          "type": "image",
+          "settings": {
+            "width": "quarter",
+            "image": "shopify://shop_images/Snipaste_2023-06-30_17-49-11.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "<p><strong>ダブルストライプ</strong></p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_EExKaf": {
+          "type": "image",
+          "settings": {
+            "width": "quarter",
+            "image": "shopify://shop_images/Snipaste_2023-06-30_17-58-46.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "<p><strong>キャンディストライプ</strong></p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_xdVikx": {
+          "type": "image",
+          "settings": {
+            "width": "quarter",
+            "image": "shopify://shop_images/Snipaste_2023-06-30_18-07-10.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "<p><strong>オルタネイトストライプ</strong></p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "image_xy9aFB": {
+          "type": "image",
+          "settings": {
+            "width": "quarter",
+            "image": "shopify://shop_images/Snipaste_2023-06-30_18-09-42.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "<p><strong>シックシンストライプ</strong></p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_HbqPBE",
+        "image_EExKaf",
+        "image_xdVikx",
+        "image_xy9aFB"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "297b9d9a-e6c6-4a89-b24f-8732b4525ae9": {
+      "type": "rich-text",
+      "blocks": {
+        "295a67ab-bdb4-4af4-8cf6-7b58171c2f74": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "STRIPE SHIRTS"
+          }
+        },
+        "fd489bcc-c148-459c-af78-3b60bc78c760": {
+          "type": "heading",
+          "settings": {
+            "title": "大人カジュアルの”縦”役者",
+            "use_h1": false
+          }
+        },
+        "bf1a88a0-8bc6-41d7-b5b8-7018873c2ce5": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ストライプシャツをコーディネートに落とし込もう！</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "295a67ab-bdb4-4af4-8cf6-7b58171c2f74",
+        "fd489bcc-c148-459c-af78-3b60bc78c760",
+        "bf1a88a0-8bc6-41d7-b5b8-7018873c2ce5"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "0a04b563-5b47-4b77-98b0-e881b84873b5": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_8FxdcP": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "coordinate-01"
+          }
+        },
+        "heading_cpPjbK": {
+          "type": "heading",
+          "settings": {
+            "title": "ストライプコットンワークシャツ",
+            "use_h1": false
+          }
+        },
+        "text_PdUz7g": {
+          "type": "text",
+          "settings": {
+            "text": "<p>シックシンストライプは繊細な凹凸感があり、スウッエトショーツとのコーディネートでシンプルな中に上品なカジュアルスタイルに。メリハリのある個性を主役に、アウトドア感のある帽子との合わせを楽しんでいただくのがオススメ！</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_ThnWYA": {
+          "type": "button",
+          "settings": {
+            "button_label": "read more",
+            "button_link": "https://www.karakubuy.com/products/krk-mhy-0683?variant=44034016444635",
+            "button_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_8FxdcP",
+        "heading_cpPjbK",
+        "text_PdUz7g",
+        "button_ThnWYA"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/KRK-MHY-0683.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "012fd7f5-0df9-46a3-b3b5-a245d14d67f5": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_VCx7pj": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "coordinate-02"
+          }
+        },
+        "heading_QUaBQQ": {
+          "type": "heading",
+          "settings": {
+            "title": "ベースボールストライプシャツ",
+            "use_h1": false
+          }
+        },
+        "text_i9ARi4": {
+          "type": "text",
+          "settings": {
+            "text": "<p>全体がストライプ仕様により古着テイストのあるオールドスクール感も王道でありつつ、サイズ感は様々な着こなしに対応できる適度なビッグシルエット、新鮮なスタイルを表現出来るデザインに。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_gVJcpa": {
+          "type": "button",
+          "settings": {
+            "button_label": "read more",
+            "button_link": "https://www.karakubuy.com/products/krk-md-tsw2201006?_pos=4&_sid=22f0e48cf&_ss=r&variant=43078824460507",
+            "button_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_VCx7pj",
+        "heading_QUaBQQ",
+        "text_i9ARi4",
+        "button_gVJcpa"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/KRK-MD-TSW2201006.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "4c2c6c6c-d11b-4472-99cb-38efa7e8aade": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_dbgPnK": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "coordinate-03"
+          }
+        },
+        "heading_d6MPQC": {
+          "type": "heading",
+          "settings": {
+            "title": "ストライプメンズシャツアメリカン長袖シャツ",
+            "use_h1": false
+          }
+        },
+        "text_4Ad7Pz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>スタンドカラーの衿は、白の配色にしたクレリックデザインにして、さわやかさときちんと感を出しています。ボタンも白にしてすっきりとした印象。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_pgDrey": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read more",
+            "button_link": "https://www.karakubuy.com/products/ok8309?_pos=2&_sid=601ae9489&_ss=r",
+            "button_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_dbgPnK",
+        "heading_d6MPQC",
+        "text_4Ad7Pz",
+        "button_pgDrey"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/OK8309_250a768c-6bb8-492c-93f8-133e8509e72b.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "9fcd6ce7-434d-4cbd-bc9f-cd6d41bf16bf": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Stripeshirts Collection",
+        "collection": "2023-stripeshirts",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "6c657e9a-6380-4d41-abe5-6d6c4a2ca4ed": {
+      "type": "background-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/img_v2_9e3ecdb3-e360-40f7-a8b6-6af04d2d996g.jpg"
+      }
+    },
+    "85073aea-441a-42b5-86dd-503369694f34": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    }
+  },
+  "order": [
+    "ad9f1d3d-0aad-4a9a-89a2-c50b3568d1c7",
+    "44d6dad2-d242-489d-9e80-6eb207cf87ed",
+    "custom_content_LWemyt",
+    "custom_content_JcyMpA",
+    "297b9d9a-e6c6-4a89-b24f-8732b4525ae9",
+    "main",
+    "1635765484031572a6",
+    "0a04b563-5b47-4b77-98b0-e881b84873b5",
+    "012fd7f5-0df9-46a3-b3b5-a245d14d67f5",
+    "4c2c6c6c-d11b-4472-99cb-38efa7e8aade",
+    "9fcd6ce7-434d-4cbd-bc9f-cd6d41bf16bf",
+    "6c657e9a-6380-4d41-abe5-6d6c4a2ca4ed",
+    "85073aea-441a-42b5-86dd-503369694f34"
+  ]
+}

@@ -1,0 +1,182 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1635736314e4e3d1c3": {
+      "type": "rich-text",
+      "blocks": {
+        "1635736314e4e3d1c3-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "注目製品"
+          }
+        },
+        "1635736314e4e3d1c3-1": {
+          "type": "heading",
+          "settings": {
+            "title": "リジッドデニムはメンズスタイルの基本！",
+            "use_h1": false
+          }
+        },
+        "1635736314e4e3d1c3-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DESIGN BY KARAKUBUY | KARAKU 2022 </p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1635736314e4e3d1c3-0",
+        "1635736314e4e3d1c3-1",
+        "1635736314e4e3d1c3-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "gallery_4Fzmp8": {
+      "type": "gallery",
+      "blocks": {
+        "media_MqhdGM": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20220318114217.png",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_pGe8Lf": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20220318114208.png",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_93jMyy": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20220318114143.png",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_MqhdGM",
+        "media_pGe8Lf",
+        "media_93jMyy"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "no_background",
+        "button_style": "primary"
+      }
+    },
+    "163573663356216c07": {
+      "type": "rich-text",
+      "blocks": {
+        "163573663356216c07-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "INTRODUCTION"
+          }
+        },
+        "163573663356216c07-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>デニムがメンズファッションからなくなる事は皆無です。そしてデニムがメンズトレンドから外れる事も絶対にありません。モードスタイルやDCブランド全盛期の時代でもデニムは勿論トレンドitem。テーラードジャケットにデニムを合わせるテンプレートスタイルもリジッドデニムをチョイスすれば、スマートカジュアルで問題ありません。ここで今回はオトナメンズがチョイスするべきデニムを展開するアイテムをご紹介！媚びないモテスタイルにも最適です。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "163573663356216c07-0",
+        "163573663356216c07-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 50,
+        "grid": 5,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "1635736314e4e3d1c3",
+    "gallery_4Fzmp8",
+    "163573663356216c07",
+    "main"
+  ]
+}

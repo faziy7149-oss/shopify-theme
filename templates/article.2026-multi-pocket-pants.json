@@ -1,0 +1,599 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+    "sections": {
+      "main": {
+        "type": "main-article",
+        "disabled": true,
+        "settings": {
+          "show_date": true,
+          "show_author": true,
+          "show_article_tags": true,
+          "show_sharing_icons": true,
+          "show_twitter": true,
+          "show_facebook": true,
+          "show_pinterest": true,
+          "show_featured_image": false,
+          "full_width_image": true,
+          "featured_image_height": "huge",
+          "enable_title_overlay": false,
+          "overlay_style": "shadow"
+        }
+      },
+      "slideshow_RMteQA": {
+        "type": "slideshow",
+        "blocks": {
+          "image_8LTz89": {
+            "type": "image",
+            "settings": {
+              "image": "shopify://shop_images/VS-0181__1920.jpg",
+              "mobile_image": "shopify://shop_images/VS-0181__1080.jpg",
+              "slide_link": "",
+              "subheading": "",
+              "title": "",
+              "heading_max_width": 15,
+              "title_size": 84,
+              "title_size_mobile": 46,
+              "use_h1": false,
+              "text": "",
+              "enlarge_text": true,
+              "button_label_1": "",
+              "button_url_1": "",
+              "button_label_2": "",
+              "button_url_2": "",
+              "text_alignment": "center center"
+            }
+          }
+        },
+        "block_order": [
+          "image_8LTz89"
+        ],
+        "name": "Slideshow",
+        "settings": {
+          "height": "adapt",
+          "height_desktop": 600,
+          "height_mobile": 460,
+          "full_width": true,
+          "mobile_overlay_under": false,
+          "overlay_style": "shadow",
+          "transition": "fade",
+          "navigation": "arrows",
+          "autoplay": true,
+          "autoplay_speed": 7,
+          "accessibility_info": ""
+        }
+      },
+      "adjusting_spacing_LEpnYF": {
+        "type": "adjusting-spacing",
+        "name": "Adjusting the spacing",
+        "settings": {
+          "margin_top": 3,
+          "margin_top2": 0
+        }
+      },
+      "image_Ygx8Xg": {
+        "type": "image",
+        "name": "Image",
+        "settings": {
+          "pc_image": "shopify://shop_images/1920_7af80bbc-d9bb-4030-b329-9fe32e1651e7.png",
+          "mobile_image": "shopify://shop_images/720_9e335cab-cde0-44f5-88db-8575c1c338dc.png",
+          "img_rul": ""
+        }
+      },
+      "background_image_Y3LK6E": {
+        "type": "background-image",
+        "name": "Background image",
+        "settings": {
+          "bg_size": "contain",
+          "bg_repeat": "repeat",
+          "bg_position": "center",
+          "bg_attachment": "scroll",
+          "background_color_overlay": "#f5f5f5",
+          "background_color": "",
+          "show_overlay": false,
+          "overlay_color": "#000000",
+          "overlay_opacity": 30
+        }
+      },
+      "image_slider_gJiHdr": {
+        "type": "image-slider",
+        "blocks": {
+          "image_slider_rhgErd": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-1_8330bcb2-5517-4ac5-b8da-d9bebaa9b16a.jpg"
+            }
+          },
+          "image_slider_fPngWB": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-2_4e8f2a22-0811-4968-9b3a-18549ab3b9cc.jpg"
+            }
+          },
+          "image_slider_gdEQdE": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-3_f49b75d8-ecdb-4d4a-8b34-7bad2a41acb3.jpg"
+            }
+          },
+          "image_slider_X8URAq": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-4_e15703d8-baf3-46a0-a9ef-5611324aa5bc.jpg"
+            }
+          },
+          "main_diagram_3NJTEi": {
+            "type": "mainDiagram",
+            "settings": {
+              "main_img": "shopify://shop_images/600x720-1_48b1103a-9922-4dbc-ba08-8cd106563039.jpg",
+              "main_img2": "shopify://shop_images/600x720-2_0982892f-2075-404a-9b4c-fb1a16727f97.jpg"
+            }
+          },
+          "image_info_dDBwCG": {
+            "type": "imageInfo",
+            "settings": {
+              "info_text": "本アイテムはペインターパンツのディテールを取り入れながら改良した、デザイン性だけでなく機能面も充実した一着です。特徴としては何といってもポケット使い！マルチポケットのデザインで用途に合わせた収納ができる機能性に優れた仕様になっている。",
+              "price_discount": 0,
+              "original_price": 13980,
+              "but_tex": "VIEW MORE",
+              "btn_url": "shopify://products/krk-md-tls2201827"
+            }
+          }
+        },
+        "block_order": [
+          "image_slider_rhgErd",
+          "image_slider_fPngWB",
+          "image_slider_gdEQdE",
+          "image_slider_X8URAq",
+          "main_diagram_3NJTEi",
+          "image_info_dDBwCG"
+        ],
+        "name": "1",
+        "settings": {
+          "data_title": "マルチポケット　ストレートペインターパンツ",
+          "data_tit_col": "#7D2A1E",
+          "info_text_col": "#FFFFFF",
+          "price_col": "#BC0808",
+          "og_price_col": "#BC0808",
+          "but_font_col": "#FFFFFF",
+          "but_col": "#A73A2A",
+          "but_font_col2": "#ffffff",
+          "but_col2": "#623D15"
+        }
+      },
+      "image_slider_wRwHDm": {
+        "type": "image-slider",
+        "blocks": {
+          "image_slider_HGqArc": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-5_e7966632-06fb-4623-a110-7ef9ffabf8dd.jpg"
+            }
+          },
+          "image_slider_NeXnb9": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-6_60177860-344d-4895-9594-76413389cb87.jpg"
+            }
+          },
+          "image_slider_yaJdKr": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-7_1b8b3831-d6d0-44cd-bd64-8f74f64b54ae.jpg"
+            }
+          },
+          "image_slider_CH4apq": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-8_242f5122-2d5a-41b8-b039-631cc10f92e9.jpg"
+            }
+          },
+          "main_diagram_NinyrD": {
+            "type": "mainDiagram",
+            "settings": {
+              "main_img": "shopify://shop_images/600x720-3_563452c5-0121-44bc-990a-23a44b9236a3.jpg",
+              "main_img2": "shopify://shop_images/600x720-4_ef72e1e1-4f9f-467c-b74b-525071134277.jpg"
+            }
+          },
+          "image_info_CEfHXb": {
+            "type": "imageInfo",
+            "settings": {
+              "info_text": "アウトドアや鉄道などの作業員向けのワークパンツで、素材は生デニムとストライプデニムの2種類があります。厚さは春、夏、秋、冬の着用に適しており、屋外での作業時の耐摩耗性が優れています。サイドに吊り下げツールベルトを備えたマルチポケットデザインがワークテイスト満載！",
+              "price_discount": 0,
+              "original_price": 12980,
+              "but_tex": "VIEW MORE",
+              "btn_url": "shopify://products/krk-ok3903"
+            }
+          }
+        },
+        "block_order": [
+          "image_slider_HGqArc",
+          "image_slider_NeXnb9",
+          "image_slider_yaJdKr",
+          "image_slider_CH4apq",
+          "main_diagram_NinyrD",
+          "image_info_CEfHXb"
+        ],
+        "name": "2",
+        "settings": {
+          "data_title": "生デニム＆ストライプデニム2型選べる　マルチポケットワークパンツ",
+          "data_tit_col": "#7D2A1E",
+          "info_text_col": "#FFFFFF",
+          "price_col": "#BC0808",
+          "og_price_col": "#BC0808",
+          "but_font_col": "#FFFFFF",
+          "but_col": "#A73A2A",
+          "but_font_col2": "#ffffff",
+          "but_col2": "#623D15"
+        }
+      },
+      "image_slider_pVXUEV": {
+        "type": "image-slider",
+        "blocks": {
+          "image_slider_q7GgUh": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-10_c54d1a6c-09b7-40b8-85cf-9a54e3b58679.jpg"
+            }
+          },
+          "image_slider_TWYwTD": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-11_1485b8eb-2a25-4276-a4f7-1cd5791c0794.jpg"
+            }
+          },
+          "image_slider_Vb3Gqz": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-12_53914fa5-7e8b-4a2b-801e-2297e4eeed17.jpg"
+            }
+          },
+          "image_slider_diY9BG": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-9_f7578bfa-58d4-4983-89a4-b24e337c2b5a.jpg"
+            }
+          },
+          "main_diagram_rU6Xq9": {
+            "type": "mainDiagram",
+            "settings": {
+              "main_img": "shopify://shop_images/600x720-5_80d99e89-2cfc-4f66-9aea-b0d2d7d9457d.jpg",
+              "main_img2": "shopify://shop_images/600x720-6_ef5c3137-b878-429b-b497-3f3eb3af9d99.jpg"
+            }
+          },
+          "image_info_6YdFJj": {
+            "type": "imageInfo",
+            "settings": {
+              "info_text": "USMCの不朽の名作P44型モンキーパンツをベースに、現代的なシルエットへ昇華させた王道ワイドカーゴパンツです。見た目の最大の特徴であるヒップ部分のポンチョポケットやサイドの大型ポケットを忠実に再現し、ミリタリー本来の無骨な存在感を放ちます。",
+              "price_discount": 10000,
+              "original_price": 12500,
+              "but_tex": "VIEW MORE",
+              "btn_url": "shopify://products/krk-pk97658"
+            }
+          }
+        },
+        "block_order": [
+          "image_slider_q7GgUh",
+          "image_slider_TWYwTD",
+          "image_slider_Vb3Gqz",
+          "image_slider_diY9BG",
+          "main_diagram_rU6Xq9",
+          "image_info_6YdFJj"
+        ],
+        "name": "3",
+        "settings": {
+          "data_title": "P44タイプミリタリーワイドカーゴパンツ",
+          "data_tit_col": "#7D2A1E",
+          "info_text_col": "#FFFFFF",
+          "price_col": "#BC0808",
+          "og_price_col": "#BC0808",
+          "but_font_col": "#FFFFFF",
+          "but_col": "#A73A2A",
+          "but_font_col2": "#ffffff",
+          "but_col2": "#623D15"
+        }
+      },
+      "image_slider_KeY3xT": {
+        "type": "image-slider",
+        "blocks": {
+          "image_slider_tY6ndB": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-13_dee7823a-be56-4547-8240-f80a4f2feb8a.jpg"
+            }
+          },
+          "image_slider_WwWH6w": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-14_7e913953-8d7d-416c-9673-f0eb9c888e62.jpg"
+            }
+          },
+          "image_slider_ECLehV": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-15_cdc3a098-6c1e-4336-8a96-08cbe64986a4.jpg"
+            }
+          },
+          "image_slider_fUK7Dq": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-16_49266a81-4a06-405a-a831-416685f411f3.jpg"
+            }
+          },
+          "main_diagram_CJyRKD": {
+            "type": "mainDiagram",
+            "settings": {
+              "main_img": "shopify://shop_images/600x720-7_56b0cfdf-70a2-472c-bc4c-710061ed6390.jpg",
+              "main_img2": "shopify://shop_images/600x720-8_4517a69f-4c9d-4acf-8fca-cd5bd66a58ed.jpg"
+            }
+          },
+          "image_info_nW9dHi": {
+            "type": "imageInfo",
+            "settings": {
+              "info_text": "本アイテムはヴィンテージな雰囲気を醸し出す絶妙なウォッシュ加減がポイントで、4色展開で色豊富も一つの魅力、マルチポケットのデザインで全部で7個のポケットを配置し用途に合わせた収納ができる機能性に優れた仕様、様々な雰囲気が楽しめる。",
+              "price_discount": 16990,
+              "original_price": 0,
+              "but_tex": "VIEW MORE",
+              "btn_url": "shopify://products/krk-vip-ak211638-1"
+            }
+          }
+        },
+        "block_order": [
+          "image_slider_tY6ndB",
+          "image_slider_WwWH6w",
+          "image_slider_ECLehV",
+          "image_slider_fUK7Dq",
+          "main_diagram_CJyRKD",
+          "image_info_nW9dHi"
+        ],
+        "name": "4",
+        "settings": {
+          "data_title": "マルチポケット　裾絞りカーゴパンツ",
+          "data_tit_col": "#7D2A1E",
+          "info_text_col": "#FFFFFF",
+          "price_col": "#BC0808",
+          "og_price_col": "#BC0808",
+          "but_font_col": "#FFFFFF",
+          "but_col": "#A73A2A",
+          "but_font_col2": "#ffffff",
+          "but_col2": "#623D15"
+        }
+      },
+      "image_slider_GiYVD3": {
+        "type": "image-slider",
+        "blocks": {
+          "image_slider_WXtDgB": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-17_7eceac09-f88d-4d6b-9442-e0e6eec22f65.jpg"
+            }
+          },
+          "image_slider_m3knmA": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-18_da74849d-d616-4e76-9c3d-b232d3e50bc2.jpg"
+            }
+          },
+          "image_slider_BVM7b3": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-19_1ae3615d-fc15-4e73-aee1-5e5767e552e7.jpg"
+            }
+          },
+          "image_slider_KhthqP": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-20_b6828e71-0b6a-4c1a-9a1d-430a41a68f3b.jpg"
+            }
+          },
+          "main_diagram_BEbQgJ": {
+            "type": "mainDiagram",
+            "settings": {
+              "main_img": "shopify://shop_images/600x720-9_74b034fe-4fb5-4b9a-aeff-7959e5a028fe.jpg",
+              "main_img2": "shopify://shop_images/600x720-10_a2ab159b-cf9e-43b0-8edb-841bdbe8ecab.jpg"
+            }
+          },
+          "image_info_PRHfQt": {
+            "type": "imageInfo",
+            "settings": {
+              "info_text": "ヴィンテージワークウェアに由来する袋状ポケットを採用し、作業中の激しい動きでも収納物が飛び出しにくい配慮を施しました。全体的にゆったりとしたリラックスシルエットで締め付け感がなく、履き疲れしないストレスフリーな着用感を実現しています。",
+              "price_discount": 13300,
+              "original_price": 19000,
+              "but_tex": "VIEW MORE",
+              "btn_url": "https://karakubuy.com/products/dh-083001?_pos=3&_sid=2980a14c6&_ss=r&variant=40845554221234"
+            }
+          }
+        },
+        "block_order": [
+          "image_slider_WXtDgB",
+          "image_slider_m3knmA",
+          "image_slider_BVM7b3",
+          "image_slider_KhthqP",
+          "main_diagram_BEbQgJ",
+          "image_info_PRHfQt"
+        ],
+        "name": "5",
+        "settings": {
+          "data_title": "ワーク オーバーオール",
+          "data_tit_col": "#7D2A1E",
+          "info_text_col": "#FFFFFF",
+          "price_col": "#BC0808",
+          "og_price_col": "#BC0808",
+          "but_font_col": "#FFFFFF",
+          "but_col": "#A73A2A",
+          "but_font_col2": "#ffffff",
+          "but_col2": "#623D15"
+        }
+      },
+      "image_slider_CkjQda": {
+        "type": "image-slider",
+        "blocks": {
+          "image_slider_cr9Lfn": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-21_d710914f-ffb7-4801-bb16-ab654724fcfe.jpg"
+            }
+          },
+          "image_slider_Nhh34q": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-22_10861e97-c9f6-43a8-9a33-924aa21ae89f.jpg"
+            }
+          },
+          "image_slider_PNrWXL": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-23_41481364-340d-4705-918f-f3d7d022cd8d.jpg"
+            }
+          },
+          "image_slider_MrGikX": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-24_35b27e2b-c954-4f7e-8ad6-43a409f003dc.jpg"
+            }
+          },
+          "main_diagram_t8Yhkt": {
+            "type": "mainDiagram",
+            "settings": {
+              "main_img": "shopify://shop_images/600x720-11_ba8eef62-d53f-43a8-9a45-5354ec3fe557.jpg",
+              "main_img2": "shopify://shop_images/600x720-12_5ed9040d-1716-49de-a052-80f4d6ff734d.jpg"
+            }
+          },
+          "image_info_yprrYk": {
+            "type": "imageInfo",
+            "settings": {
+              "info_text": "本アイテムはヴィンテージな雰囲気を醸し出す絶妙な配色デザインとウォッシュ加減がポイントで、ウエストにはアジャストで調整可能で裾口はドローコードで絞れる仕様に太さ調節機能付きで着脱が簡単になるので、体型を選ばない。",
+              "price_discount": 14801,
+              "original_price": 0,
+              "but_tex": "VIEW MORE",
+              "btn_url": "https://karakubuy.com/products/krk-dh-1807?_pos=1&_sid=55cb4310a&_ss=r"
+            }
+          }
+        },
+        "block_order": [
+          "image_slider_cr9Lfn",
+          "image_slider_Nhh34q",
+          "image_slider_PNrWXL",
+          "image_slider_MrGikX",
+          "main_diagram_t8Yhkt",
+          "image_info_yprrYk"
+        ],
+        "name": "6",
+        "settings": {
+          "data_title": "ヘビーウェイト　配色デザインカーゴパンツ",
+          "data_tit_col": "#7D2A1E",
+          "info_text_col": "#FFFFFF",
+          "price_col": "#BC0808",
+          "og_price_col": "#BC0808",
+          "but_font_col": "#FFFFFF",
+          "but_col": "#A73A2A",
+          "but_font_col2": "#ffffff",
+          "but_col2": "#623D15"
+        }
+      },
+      "image_slider_WfYqnK": {
+        "type": "image-slider",
+        "blocks": {
+          "image_slider_WnqYGC": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-29_b1b41331-c45b-42ae-8c6d-cdbdaa73b490.jpg"
+            }
+          },
+          "image_slider_zDwMma": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-30_1889842b-653d-4fb5-affb-f22fdbab5012.jpg"
+            }
+          },
+          "image_slider_LzdEnL": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-31_c220b12f-2b99-47f7-abc5-48d7038e3e22.jpg"
+            }
+          },
+          "image_slider_wwndxm": {
+            "type": "imageSlider",
+            "settings": {
+              "slider_img": "shopify://shop_images/370-32_1abc35a4-910e-4bf2-9661-6a65ed8e8408.jpg"
+            }
+          },
+          "main_diagram_tKtEDV": {
+            "type": "mainDiagram",
+            "settings": {
+              "main_img": "shopify://shop_images/600x720-15_9d462967-4b68-4c69-878d-7e84bb6fdc9c.jpg",
+              "main_img2": "shopify://shop_images/600x720-16_4cd7167e-0737-4e9d-b31a-1bf9834cc6ad.jpg"
+            }
+          },
+          "image_info_ie3MGy": {
+            "type": "imageInfo",
+            "settings": {
+              "info_text": "膝下から裾にかけてゆるやかにテーパードを利かせたきれいなシルエットが特徴です。裾にはシルエットの変化を楽しめるドローコードを装備し、サイドポケットにはスマートフォンや二つ折り財布がすっぽり収まる実用的な収納力を確保しています。",
+              "price_discount": 11700,
+              "original_price": 13000,
+              "but_tex": "VIEW MORE",
+              "btn_url": "https://karakubuy.com/products/md-ts2107028?_pos=2&_sid=044e176a1&_ss=r"
+            }
+          }
+        },
+        "block_order": [
+          "image_slider_WnqYGC",
+          "image_slider_zDwMma",
+          "image_slider_LzdEnL",
+          "image_slider_wwndxm",
+          "main_diagram_tKtEDV",
+          "image_info_ie3MGy"
+        ],
+        "name": "7",
+        "settings": {
+          "data_title": "イギリス海軍カーゴパンツ",
+          "data_tit_col": "#7D2A1E",
+          "info_text_col": "#FFFFFF",
+          "price_col": "#BC0808",
+          "og_price_col": "#BC0808",
+          "but_font_col": "#FFFFFF",
+          "but_col": "#A73A2A",
+          "but_font_col2": "#ffffff",
+          "but_col2": "#623D15"
+        }
+      },
+      "background_image_Yhhqcy": {
+        "type": "background-image",
+        "name": "Background image",
+        "settings": {
+          "bg_size": "contain",
+          "bg_repeat": "repeat",
+          "bg_position": "center",
+          "bg_attachment": "scroll",
+          "background_color_overlay": "#A89076",
+          "background_color": "",
+          "show_overlay": false,
+          "overlay_color": "#000000",
+          "overlay_opacity": 30
+        }
+      }
+    },
+    "order": [
+      "main",
+      "slideshow_RMteQA",
+      "adjusting_spacing_LEpnYF",
+      "image_Ygx8Xg",
+      "background_image_Y3LK6E",
+      "image_slider_gJiHdr",
+      "image_slider_wRwHDm",
+      "image_slider_pVXUEV",
+      "image_slider_KeY3xT",
+      "image_slider_GiYVD3",
+      "image_slider_CkjQda",
+      "image_slider_WfYqnK",
+      "background_image_Yhhqcy"
+    ]
+  }
+  

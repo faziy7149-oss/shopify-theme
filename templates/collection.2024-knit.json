@@ -1,0 +1,417 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "slideshow_8qNtct": {
+      "type": "slideshow",
+      "blocks": {
+        "image_ikCAr7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/429-__1920.jpg",
+            "mobile_image": "shopify://shop_images/429-__1080.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_ikCAr7"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_9wa8e7": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-2_da0718c8-7676-4633-b670-6407b66c8319.png",
+        "mobile_image": "shopify://shop_images/720-2_7b6bafe1-c2e2-43ca-9446-2db0549a6892.png",
+        "img_rul": ""
+      }
+    },
+    "image_hN86gj": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/01-2.png",
+        "mobile_image": "shopify://shop_images/01-2.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_txcMpb": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -2,
+        "margin_top2": -3
+      }
+    },
+    "slide_block_group_cRWPQL": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_dLmpxc": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1-1_c74286d4-4c98-439f-a664-3543c40b52b1.png",
+            "slide_title": "ヘビーウェイト　ワッフル編みクールネックニットセーター",
+            "slide_price": 13990,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-mhy-0796?_pos=2&_sid=abfa17f4c&_ss=r&variant=43503381184731",
+            "slide_intro": "お菓子のワッフルのように格子状に編まれたアクリルとコットンのブレンドで作られたニット。定番のカラーからトレンドのくすみカラー、落ち着きのある色味まで6色展開で、色違いで持っておきたくなるカラーリングです。袖口と裾はリブで絞り、ボリューム感が強調した仕様になっております。"
+          }
+        },
+        "slide_block_jDBzRR": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/2-1_94508388-6be1-4cfd-aae5-16475be31d01.png",
+            "slide_title": "「CREW」レタージャガード　オーダーメイドスラブセーター",
+            "slide_price": 12331,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-md-tw2307660?_pos=1&_sid=c4fe76816&_ss=r&variant=44500463419611",
+            "slide_intro": "オーダーメイドのスラブ糸をレタージャガードで杢に組み合わせた、独特の風合いが魅力のニットセーター。胸元に生地から糸が浮いているような加工「中空ジャガード」を採用。普通のジャガードよりも立体感があるので、ワンポイントになります。"
+          }
+        },
+        "slide_block_7Bd8mw": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/3-1_62c7057b-8763-4cd4-a7ac-d9f9e3b44c79.png",
+            "slide_title": "ウォッシュ加工　ドロップショルダーニットプルオーバー",
+            "slide_price": 15990,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-xp1093?_pos=1&_sid=99e14502f&_ss=r&variant=44263397097691",
+            "slide_intro": "プルオーバースタイルはカジュアルでありながらも、スタイリッシュな印象を与える。ドロップショルダーのデザインを持って、肩の縫い目が肩先より下に位置し、ゆったりとしたシルエットを作り出す。リラックス感とカジュアルさを強調し、着心地の良さを提供。特殊な洗い方や染色処理によって、ニットには独特の風合いや質感が生まれ、程よいヴィンテージ感や洗練された。"
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_dLmpxc",
+        "slide_block_jDBzRR",
+        "slide_block_7Bd8mw"
+      ],
+      "settings": {
+        "slide_btn_color": "#ffffff",
+        "slide_text_color": "#752d22",
+        "slide_btn_hover_color": "#8f5115",
+        "slide_text_hover_color": "#ffffff",
+        "slide_font_color": "#ffffff"
+      }
+    },
+    "image_FMJwnD": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/02-2_44fed113-676e-4514-a0cb-92635a2c56b6.png",
+        "mobile_image": "shopify://shop_images/02-2_44fed113-676e-4514-a0cb-92635a2c56b6.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_cQp8Gi": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -2,
+        "margin_top2": -3
+      }
+    },
+    "slide_block_group_faEqXD": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_k8EmA8": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/4-1_b1eb1c06-b001-4fba-b0ff-5c520961b465.png",
+            "slide_title": "3色展開　ケーブルニットセーター",
+            "slide_price": 10980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-my1021?_pos=2&_sid=deaedc90c&_ss=r&variant=44283097252059",
+            "slide_intro": "手編みのようなふっくらとしたボリュームがあり、ウールが入ったかのような風合いと手触りのニット。表面感があるケーブルニットは秋冬のスタイリングを格上げしてくれます。立体的でデザイン性の高い360度どこから見ても映えるアイテムです。"
+          }
+        },
+        "slide_block_hr6Qzd": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/5-1_88c7c8c4-cbad-4556-bc75-76f48d5f1d48.png",
+            "slide_title": "アイビールック　Vネックケーブルニットベスト",
+            "slide_price": 9980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-md-tw2401259?_pos=1&_sid=7aaf97b3c&_ss=r&variant=46056366112987",
+            "slide_intro": "トラッドな印象が魅力のケーブルニットベストは、スタイリングの最後にニュアンスをプラスする一着です。Vネック部分に施されたラインがプレッピームードを一層引き立て、定番のチルデンデザインをベースに、ワイドな身幅やアームホール、ドロップショルダーといったディテールで抜け感のあるシルエットに仕上げています。"
+          }
+        },
+        "slide_block_TkWRYb": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/6-1_70972365-ca31-47ee-bfee-7a220c00ea16.png",
+            "slide_title": "MIX カラー×ケーブル編み　タートルネックニット",
+            "slide_price": 13390,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-nxb312-my3121?_pos=1&_sid=df4078bd1&_ss=r&variant=43604173226203",
+            "slide_intro": "ケーブルとプレートケーブル編みを組み合わせた編み方。陰影のはっきりした深みのある編みパターンで暖かみのある雰囲気に。柔らかな肌触りと、保温性の高さが魅力のアクリル素材を使用し、着心地と保温性が優れた。"
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_k8EmA8",
+        "slide_block_hr6Qzd",
+        "slide_block_TkWRYb"
+      ],
+      "settings": {
+        "slide_btn_color": "#ffffff",
+        "slide_text_color": "#752d22",
+        "slide_btn_hover_color": "#8f5115",
+        "slide_text_hover_color": "#ffffff",
+        "slide_font_color": "#ffffff"
+      }
+    },
+    "image_eQTmUr": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/03-2.png",
+        "mobile_image": "shopify://shop_images/03-2.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_rRbeDa": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -2,
+        "margin_top2": -3
+      }
+    },
+    "slide_block_group_9EfaYx": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_67Lk8i": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/7-1_21434ddb-b51a-486b-b249-421832d80c5f.png",
+            "slide_img2": "shopify://shop_images/7-2_c41b0f66-13e5-4e02-8529-da72ca27e7e2.png",
+            "slide_title": "レトロインディアンNAVAJOカーディガンニットジャケット",
+            "slide_price": 13390,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-md-tw2007103?_pos=3&_sid=21a63f5dc&_ss=r&variant=41033854025906",
+            "slide_intro": "ビンテージにあったナバホ族の特徴的な模様柄から柄パターンを踏襲し、複雑な柄が織り込んでト明るい色合いの対称で、見た目からナバホ文化を体験。かなり厚手があるしっかりとしてるニットジャケットなので、これからの季節に着こなしが楽しくなる一点です。"
+          }
+        },
+        "slide_block_itqGeb": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/3_7d2bc475-9a62-4ef1-ab7c-6a6b82dc343d.jpg",
+            "slide_title": "蝋結染め パイナップルパイルニットカーディガン",
+            "slide_price": 20980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-xp1094?_pos=1&_sid=eefd8529b&_ss=r&variant=44269828702427",
+            "slide_intro": "ボタンで留める前開きのデザインで、襟元にはVネックがあり、スタイリッシュな印象を与える。袖口や裾にはリブ編みの仕上げが施されており、程よいフィット感とシルエットを作り出す。"
+          }
+        },
+        "slide_block_4Nedtq": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1_3cd877e8-6f0a-4caf-a128-5529bd11ae14.jpg",
+            "slide_title": "サガラ刺繍入り　ショールカラーニットカーディガン",
+            "slide_price": 13482,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-md-ts2307029?_pos=1&_sid=9334c774f&_ss=r&variant=44549525766363",
+            "slide_intro": "袖にはサガラバッジが付いて、デザインのアクセントとなり、カーディガンに個性的な要素を追加。ボタンダウンスタイルで、前面にボタンが並んでいる。リブ編みの袖口や裾部分があり、フィット感を調整することができる。"
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_67Lk8i",
+        "slide_block_itqGeb",
+        "slide_block_4Nedtq"
+      ],
+      "settings": {
+        "slide_btn_color": "#ffffff",
+        "slide_text_color": "#752d22",
+        "slide_btn_hover_color": "#8f5115",
+        "slide_text_hover_color": "#ffffff",
+        "slide_font_color": "#ffffff"
+      }
+    },
+    "image_DAd6fK": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/04-2.png",
+        "mobile_image": "shopify://shop_images/04-2.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_TfVTHf": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -2,
+        "margin_top2": -3
+      }
+    },
+    "slide_block_group_rNbmiH": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_RzNdPP": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/13_d1f13ac8-e696-40a5-a214-d6ae4cdbabd8.jpg",
+            "slide_title": "【予約】ジャガード織フェアアイル柄　ハーフジップニットセーター",
+            "slide_price": 12980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-zyd-mlthwy0819?_pos=1&_sid=0b9fd9e88&_ss=r&variant=45997995720923",
+            "slide_intro": "胸周り、袖や裾部分には、フェアアイル柄と呼ばれる独特な模様が細やかに編み込まれている。北欧の伝統的なデザインを反映したフェアアイル柄は、幾何学模様や鹿モチーフを取り入れて、冬の風景を思わせるデザインが特徴。"
+          }
+        },
+        "slide_block_hbRybx": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/11-1_e6cfaec2-4747-4fdd-a273-9e08501c28bb.png",
+            "slide_img2": "shopify://shop_images/11-2_280468d2-e1e7-473f-9ab9-524d3229ca6d.png",
+            "slide_title": "フェアアイル柄クルーネックニットセーター　全3色",
+            "slide_price": 10980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-my9007?_pos=1&_sid=530486f5c&_ss=r&variant=44283126186203",
+            "slide_intro": "フロント、裾や袖部分には、フェアアイル柄と呼ばれる独特な模様が細やかに編み込まれています。フェアアイル柄はスコットランドの伝統的な柄であり、複数の色を使って編まれることが特徴。リラックスしたフィット感を持って、身体に程よくフィットするため、快適な着心地を提供。"
+          }
+        },
+        "slide_block_bn7kGk": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/12-1_cd4ca3a2-ea0c-480b-b9bd-b25b93595109.png",
+            "slide_img2": "shopify://shop_images/12-2_db2e8d06-107c-4274-9326-5f2f280f1988.png",
+            "slide_title": "フェアアイル柄クルーネックニットセーター　全3色",
+            "slide_price": 10980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-m08?_pos=1&_sid=fc2c03a79&_ss=r&variant=44434112184539",
+            "slide_intro": "フェアアイル柄はスコットランドの伝統的な柄であり、複数の色を使って編まれることが特徴。リラックスしたフィット感を持って、身体に程よくフィットするため、快適な着心地を提供。クルーネックは首周りをすっきりと見せるデザインで、首元を暖かく包み込みながら、シプルでクラシックなスタイルを演出。"
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_RzNdPP",
+        "slide_block_hbRybx",
+        "slide_block_bn7kGk"
+      ],
+      "settings": {
+        "slide_btn_color": "#ffffff",
+        "slide_text_color": "#752d22",
+        "slide_btn_hover_color": "#8f5115",
+        "slide_text_hover_color": "#ffffff",
+        "slide_font_color": "#ffffff"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "background_image_TCkHMe": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/20240930-161925.jpg",
+        "background_color_overlay": "",
+        "background_color": ""
+      }
+    },
+    "featured_collection_6Qzr7h": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "",
+        "collection": "ニット-セーター",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    }
+  },
+  "order": [
+    "slideshow_8qNtct",
+    "image_9wa8e7",
+    "image_hN86gj",
+    "adjusting_spacing_txcMpb",
+    "slide_block_group_cRWPQL",
+    "image_FMJwnD",
+    "adjusting_spacing_cQp8Gi",
+    "slide_block_group_faEqXD",
+    "image_eQTmUr",
+    "adjusting_spacing_rRbeDa",
+    "slide_block_group_9EfaYx",
+    "image_DAd6fK",
+    "adjusting_spacing_TfVTHf",
+    "slide_block_group_rNbmiH",
+    "main",
+    "background_image_TCkHMe",
+    "featured_collection_6Qzr7h"
+  ]
+}

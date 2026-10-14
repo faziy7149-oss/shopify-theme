@@ -1,0 +1,494 @@
+{% comment %}
+  sections/masterpiece-showcase.liquid
+{% endcomment %}
+<style>
+  .masterpiece-showcase-image {
+    width: 100%;
+    height: auto;
+    display: block;
+    object-fit: cover;
+    position: relative; /* 新增定位 */
+  }
+  @media (min-width: 768px) {
+    /* 新增hover效果 */
+    .masterpiece-img-box1,
+    .masterpiece-img-box2,
+    .masterpiece-img-box3,
+    .masterpiece-right-img-box1,
+    .masterpiece-right-img-box2,
+    .masterpiece-right-img-box3,
+    .masterpiece-right-img-box4,
+    .masterpiece-bottom-img-box {
+      position: relative;
+      overflow: hidden;
+    }
+
+    /* 遮罩效果 */
+    .masterpiece-img-box1:hover::after,
+    .masterpiece-img-box2:hover::after,
+    .masterpiece-img-box3:hover::after,
+    .masterpiece-right-img-box1:hover::after,
+    .masterpiece-right-img-box2:hover::after,
+    .masterpiece-right-img-box3:hover::after,
+    .masterpiece-right-img-box4:hover::after,
+    .masterpiece-bottom-img-box:hover::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background-color: {{ section.settings.masterpiece_color }}30; /* #a1250c 90%透明度 */
+      z-index: 1;
+      pointer-events: none; /* 确保点击穿透 */
+      transition: opacity 0.3s ease;
+    }
+
+
+
+    #section-id-{{ section.id }} .masterpiece-list .pc_show {
+      display: none !important;
+    }
+    #section-id-{{ section.id }} .masterpiece-list, #section-id-{{ section.id }} .masterpiece-list .mItem-1 ,#section-id-{{ section.id }} .masterpiece-list .mItem-2,#section-id-{{ section.id }} .masterpiece-list .mItem-2 .masterpiece-right-left,#section-id-{{ section.id }} .masterpiece-list .masterpiece-right-box, #section-id-{{ section.id }} .masterpiece-list .masterpiece-right-r {
+      display: flex;
+      gap: 5px;
+    }
+    .mItem-1 {
+      flex-wrap: wrap;
+      flex: 0.7;
+    } 
+    .mItem-2 {
+      flex-wrap: wrap;
+      flex: 1.3;
+    }
+
+    .mItem-2 .masterpiece-right-left {
+      flex-wrap: wrap;
+    }
+    .masterpiece-right-left {
+      flex: 1;
+    }
+    .masterpiece-right-r {
+      flex-wrap: wrap;
+      flex: 0.852;
+    }
+    .masterpiece-item {
+      overflow: hidden;
+    }
+
+    .masterpiece-item a {
+      display: block;
+    }
+  }
+  @media (max-width: 767px) {
+    #section-id-{{ section.id }} .masterpiece-list .mb_show {
+      display: none !important;
+    }
+    #section-id-{{ section.id }} .masterpiece-list, #section-id-{{ section.id }} .masterpiece-list .mItem-1 ,#section-id-{{ section.id }} .masterpiece-list .mItem-2,#section-id-{{ section.id }} .masterpiece-list .masterpiece-right-box,#section-id-{{ section.id }} .masterpiece-list .mItem-2 .masterpiece-right-left {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 5px;
+    }
+     #section-id-{{ section.id }} .masterpiece-list .mItem-1 {
+      flex: 1.069;
+     }
+     #section-id-{{ section.id }} .masterpiece-list .mItem-2 {
+      flex: 1;
+     }
+  }
+</style>
+
+<div id="section-id-{{ section.id }}">
+  <div class="masterpiece-showcase">
+    <div class="container">
+      <ul class="masterpiece-list">
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when 'LeftImage' %}
+              {% comment %} PC端显示 {% endcomment %}
+              <li class="masterpiece-item mItem-1 mb_show">
+                {% if block.settings.link != blank %}
+                  <a href="{{ block.settings.link }}">
+                {% endif %}
+                  
+                    <div class="masterpiece-img-box1">
+                    {% render 'image' with block.settings.masterpiece_image, sizes: '3000px', loading: 'lazy', class: 'masterpiece-showcase-image' %}
+                    </div>
+                {% if block.settings.link != blank %}
+                  </a>
+                {% endif %}
+           
+                
+                {% if block.settings.link2 != blank %}
+                  <a href="{{ block.settings.link2 }}">
+                {% endif %}
+                  <div class="masterpiece-img-box2">
+                  {% render 'image' with block.settings.masterpiece_image2, sizes: '3000px', loading: 'lazy', class: 'masterpiece-showcase-image' %}
+                  </div>
+                {% if block.settings.link2 != blank %}
+                  </a>
+                {% endif %}
+              </li>
+              {% comment %} 移动端显示 {% endcomment %}
+              <li class="masterpiece-item mItem-1 pc_show">
+                {% if block.settings.mobile_link != blank %}
+                  <a href="{{ block.settings.mobile_link }}">
+                {% endif %}
+                  
+                    <div class="masterpiece-img-box1">
+                    {% render 'image' with block.settings.mobile_masterpiece_image, sizes: '3000px', loading: 'lazy', class: 'masterpiece-showcase-image' %}
+                    </div>
+                {% if block.settings.mobile_link != blank %}
+                  </a>
+                {% endif %}
+                  
+                 {%  if block.settings.mobile_link2 != blank %} 
+                  <a href="{{ block.settings.mobile_link2 }}">
+                 {% endif %}
+                  
+                    <div class="masterpiece-img-box2">
+                    {% render 'image' with block.settings.mobile_masterpiece_image2, sizes: '3000px', loading: 'lazy', class: 'masterpiece-showcase-image' %}
+                    </div>
+                {%  if block.settings.mobile_link2 != blank %} 
+                  </a>
+                 {% endif %}
+
+                 {%  if block.settings.mobile_link3 != blank %} 
+                  <a href="{{ block.settings.mobile_link3 }}">
+                 {% endif %}
+                  
+                    <div class="masterpiece-img-box3">
+                    {% render 'image' with block.settings.mobile_masterpiece_image3, sizes: '3000px', loading: 'lazy', class: 'masterpiece-showcase-image' %}
+                    </div>
+                 {%  if block.settings.mobile_link3 != blank %} 
+                  </a>
+                 {% endif %}
+                  
+              </li>
+            {% when 'TopRight' %}
+              {% comment %} PC端显示 {% endcomment %}
+              <li class="masterpiece-item mItem-2 mb_show">
+                <div class="masterpiece-right-box">
+                  <div class="masterpiece-right-left">
+                   
+                    {% if block.settings.link_top_right != blank %}
+                      <a href="{{ block.settings.link_top_right }}">
+                    {% endif %}
+                    
+                       <div class="masterpiece-rightTop masterpiece-right-img-box1">
+                      {% render 'image' with block.settings.masterpiece_image_top_right, sizes: '3000px', loading: 'lazy', class: 'masterpiece-showcase-image' %}
+                      </div>
+                    {% if block.settings.link_top_right != blank %}
+                      </a>
+                    {% endif %}
+                    
+                    {% if block.settings.link_top_right2 != blank %}
+                      <a href="{{ block.settings.link_top_right2 }}">
+                    {% endif %}
+                    
+                      <div class="masterpiece-rightTop masterpiece-right-img-box2">
+                      {% render 'image' with block.settings.masterpiece_image_top_right2, sizes: '3000px', loading: 'lazy', class: 'masterpiece-showcase-image' %}
+                      </div>
+                    {% if block.settings.link_top_right2 != blank %}
+                      </a>
+                    {% endif %}
+                  </div>
+
+                  <div class="masterpiece-right-r">
+                  {% if block.settings.link_top_right3 != blank %}
+                    <a href="{{ block.settings.link_top_right3 }}">
+                  {% endif %}
+                    
+                      <div class="masterpiece-rightTop masterpiece-right-img-box3">
+                      {% render 'image' with block.settings.masterpiece_image_top_right3, sizes: '3000px', loading: 'lazy', class: 'masterpiece-showcase-image' %}
+                      </div>
+                  {% if block.settings.link_top_right3 != blank %}
+                    </a>
+                  {% endif %}
+                    
+                  {% if block.settings.link_top_right4 != blank %}
+                    <a href="{{ block.settings.link_top_right4 }}">
+                  {% endif %}
+                    
+                      <div class="masterpiece-rightTop masterpiece-right-img-box4">
+                      {% render 'image' with block.settings.masterpiece_image_top_right4, sizes: '3000px', loading: 'lazy', class: 'masterpiece-showcase-image' %}
+                      </div>
+                  {% if block.settings.link_top_right4 != blank %}
+                    </a>
+                  {% endif %}
+                  </div>
+
+                </div>
+                
+                {% if block.settings.link_bottom_right != blank %}
+                  <a href="{{ block.settings.link_bottom_right }}" class="full-width">
+                {% endif %}
+                
+                  <div class="masterpiece-bottom-img-box">
+                  {% render 'image' with block.settings.masterpiece_image_bottom_right, sizes: '3000px', loading: 'lazy', class: 'masterpiece-showcase-image' %}
+                  </div>
+                {% if block.settings.link_bottom_right != blank %}
+                  </a>
+                {% endif %}
+              </li>
+              {% comment %} 移动端显示 {% endcomment %}
+              <li class="masterpiece-item mItem-2 pc_show">
+                <div class="masterpiece-right-box">
+                  <div class="masterpiece-right-left">
+                    {% if block.settings.mobile_link_top_right != blank %}
+                      <a href="{{ block.settings.mobile_link_top_right }}">
+                    {% endif %}
+                    
+                      <div class="masterpiece-rightTop masterpiece-right-img-box1">
+                      {% render 'image' with block.settings.mobile_masterpiece_image_top_right, sizes: '3000px', loading: 'lazy', class: 'masterpiece-showcase-image' %}
+                      </div>
+                    {% if block.settings.mobile_link_top_right != blank %}
+                      </a>
+                    {% endif %}
+                    
+                    {% if block.settings.mobile_link_top_right2 != blank %}
+                      <a href="{{ block.settings.mobile_link_top_right2 }}">
+                    {% endif %}
+                    
+                      <div class="masterpiece-rightTop masterpiece-right-img-box2">
+                      {% render 'image' with block.settings.mobile_masterpiece_image_top_right2, sizes: '3000px', loading: 'lazy', class: 'masterpiece-showcase-image' %}
+                      </div>
+                    {% if block.settings.mobile_link_top_right2 != blank %}
+                      </a>
+                    {% endif %}
+                  </div>
+
+                  <div class="masterpiece-right-r">
+                  {% if block.settings.mobile_link_top_right3 != blank %}
+                    <a href="{{ block.settings.mobile_link_top_right3 }}">
+                  {% endif %}
+                    
+                      <div class="masterpiece-rightTop masterpiece-right-img-box3">
+                      {% render 'image' with block.settings.mobile_masterpiece_image_top_right3, sizes: '3000px', loading: 'lazy', class: 'masterpiece-showcase-image' %}
+                      </div>
+                  {% if block.settings.mobile_link_top_right3 != blank %}
+                    </a>
+                  {% endif %}
+                    
+                  {% if block.settings.mobile_link_top_right4 != blank %}
+                     <a href="{{ block.settings.mobile_link_top_right4 }}">
+                  {% endif %}
+                   
+                      <div class="masterpiece-rightTop masterpiece-right-img-box4">
+                      {% render 'image' with block.settings.mobile_masterpiece_image_top_right4, sizes: '3000px', loading: 'lazy', class: 'masterpiece-showcase-image' %}
+                      </div>
+                  {% if block.settings.mobile_link_top_right4 != blank %}
+                     </a>
+                  {% endif %}
+                  </div>
+
+                </div>
+               
+                {% if block.settings.mobile_link_bottom_right != blank %}
+                  <a href="{{ block.settings.mobile_link_bottom_right }}" class="full-width">
+                {% endif %}
+                
+                   <div class="masterpiece-bottom-img-box">
+                  {% render 'image' with block.settings.mobile_masterpiece_image_bottom_right, sizes: '3000px', loading: 'lazy', class: 'masterpiece-showcase-image' %}
+                  </div>
+                {% if block.settings.mobile_link_bottom_right != blank %}
+                  </a>
+                {% endif %}
+              </li>
+          {% endcase %}
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+
+
+{% schema %}
+{
+  "name": "Masterpiece Showcase",
+  "settings": [
+    {
+      "type": "color",
+      "id": "masterpiece_color",
+      "label": "遮罩颜色",
+      "default": "#f9b917"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "LeftImage",
+      "name": "Left image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "masterpiece_image",
+          "label": "image",
+          "info": "电脑端左侧第一张图片,推荐尺寸：942x1200"
+        },
+        {
+          "type": "url",
+          "id": "link",
+          "label": "link"
+        },
+        {
+          "type": "image_picker",
+          "id": "masterpiece_image2",
+          "label": "image",
+          "info": "电脑端左侧第二张图片,推荐尺寸：942x584"
+        },
+        {
+          "type": "url",
+          "id": "link2",
+          "label": "link"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_masterpiece_image",
+          "label": "image",
+          "info": "移动端左侧第一张图片,推荐尺寸：720x960"
+        },
+        {
+          "type": "url",
+          "id": "mobile_link",
+          "label": "link"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_masterpiece_image2",
+          "label": "image",
+          "info": "移动端左侧第二张图片,推荐尺寸：720x608"
+        },
+        {
+          "type": "url",
+          "id": "mobile_link2",
+          "label": "link"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_masterpiece_image3",
+          "label": "image",
+          "info": "移动端左侧第三张图片,推荐尺寸：520x360"
+        },
+        {
+          "type": "url",
+          "id": "mobile_link3",
+          "label": "link"
+        }
+      ]
+    },
+    {
+      "type": "TopRight",
+      "name": "Top right image",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "masterpiece_image_top_right",
+          "label": "image",
+          "info": "电脑端右端右上方图片,推荐尺寸：942x720"
+        },
+        {
+          "type": "url",
+          "id": "link_top_right",
+          "label": "link"
+        },
+        {
+          "type": "image_picker",
+          "id": "masterpiece_image_top_right2",
+          "label": "image",
+          "info": "电脑端右侧右下方图片,推荐尺寸：942x656"
+        },
+        {
+          "type": "url",
+          "id": "link_top_right2",
+          "label": "link"
+        },
+        {
+          "type": "image_picker",
+          "id": "masterpiece_image_top_right3",
+          "label": "image",
+          "info": "电脑端右侧右上方图片,推荐尺寸：804x400"
+        },
+        {
+          "type": "url",
+          "id": "link_top_right3",
+          "label": "link"
+        },
+        {
+          "type": "image_picker",
+          "id": "masterpiece_image_top_right4",
+          "label": "image",
+          "info": "电脑端右侧右下方图片,推荐尺寸：804x976"
+        },
+        {
+          "type": "url",
+          "id": "link_top_right4",
+          "label": "link"
+        },
+        {
+          "type": "image_picker",
+          "id": "masterpiece_image_bottom_right",
+          "label": "image",
+          "info": "电脑端右侧底部图片,推荐尺寸：1762x392"
+        },
+        {
+          "type": "url",
+          "id": "link_bottom_right",
+          "label": "link"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_masterpiece_image_top_right",
+          "label": "image",
+          "info": "移动端右侧第一张图,推荐尺寸：600x720"
+        },
+        {
+          "type": "url",
+          "id": "mobile_link_top_right",
+          "label": "link"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_masterpiece_image_top_right2",
+          "label": "image",
+          "info": "移动端右侧第二张图,推荐尺寸：600x480"
+        },
+        {
+          "type": "url",
+          "id": "mobile_link_top_right2",
+          "label": "link"
+        },
+        {
+          "type": "image_picker",
+          "id": "mobile_masterpiece_image_top_right3",
+          "label": "image",
+          "info": "移动端右侧第三张图,推荐尺寸：600x348"
+        },
+        {
+          "type": "url",
+          "id": "mobile_link_top_right3",
+          "label": "link"
+        },
+                {
+          "type": "image_picker",
+          "id": "mobile_masterpiece_image_bottom_right",
+          "label": "image",
+          "info": "移动端右侧底部图片,推荐尺寸：800x360"
+        },
+        {
+          "type": "url",
+          "id": "mobile_link_bottom_right",
+          "label": "link"
+        }
+      ]
+    }
+  ],
+  "max_blocks": 2,
+  "presets": [
+    {
+      "name": "Masterpiece Showcase",
+      "category": "Custom"
+    }
+  ]
+}
+{% endschema %}

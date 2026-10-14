@@ -1,0 +1,487 @@
+{%- liquid
+  assign section_selector = 'section-id-' | append: section.id
+  assign anim_stagger = section.index | default: 1 | minus: 1 | times: 0.9
+-%}
+
+<style>
+  .{{ section_selector }} {
+    --slide-anim-delay: {{ anim_stagger }}s;
+    --slide--img--transform: translate(0px);
+  }
+  .{{ section_selector }} .item-group {
+    position: relative;
+    overflow-x: hidden;
+  }
+  .{{ section_selector }} .wrap-group {
+    margin-top: 1em;
+    margin-bottom: 5em;
+  }
+  .{{ section_selector }} .item-group .tag-group-img {
+    position: absolute;
+    top: 0;
+    left: 10px;
+    width: 25px;
+    z-index: 2;
+  }
+  .{{ section_selector }} .item-group .tag-group-img .theme-img,
+  .{{ section_selector }} .item-group .tag-group-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+  .{{ section_selector }} .data-box-group {
+    position: relative;
+    margin-top: 4em;
+  }
+  .{{ section_selector }} .item-group .item-link-img {
+    display: flex;
+  }
+  .{{ section_selector }} .item-group .item-link-img .theme-img,
+  .{{ section_selector }} .item-group .item-link-img img {
+    width: 100%;
+    height: auto;
+    display: block;
+    flex-shrink: 0;
+  }
+  .{{ section_selector }} .info-group {
+    margin-top: 10px;
+    color: {{ section.settings.slide_font_color }};
+  }
+  .{{ section_selector }} .item-group .item-link-img .off-slide-img {
+    animation: imageSliding-{{ section.id | replace: 'template--', '' | replace: '__', '-' }} 10s calc(1s + var(--slide-anim-delay, 0s)) linear infinite alternate;
+    animation-play-state: paused;
+  }
+  .{{ section_selector }}.is-inview .item-group .item-link-img .off-slide-img {
+    animation-play-state: running;
+  }
+  .{{ section_selector }} .info-group .info-group-item {
+    display: flex;
+    align-items: center;
+    font-weight: 500;
+    font-size: 13px;
+    text-align: left;
+    border-bottom: 1px solid #222222;
+    height: 32px;
+    line-height: 0.9;
+  }
+  .{{ section_selector }} .info-group .checkBtn {
+    display: block;
+    color: {{ section.settings.slide_text_color }};
+    background: {{ section.settings.slide_btn_color }};
+    font-weight: 700;
+    letter-spacing: 0.05em;
+    border-radius: 5px;
+    margin: 15px auto;
+    text-decoration: none;
+    transition: background-color 0.6s linear, color 0.6s linear;
+  }
+  .{{ section_selector }} .info-group .checkBtn:hover {
+    background: {{ section.settings.slide_btn_hover_color }};
+    color: {{ section.settings.slide_text_hover_color }};
+  }
+  .{{ section_selector }} .info-group .checkBtn .info-check-btn {
+    padding: 10px;
+    text-align: center;
+  }
+  .{{ section_selector }} .info-group .info-group-intro {
+    font-size: 13px;
+    text-align: left;
+    letter-spacing: 0.05em;
+  }
+  .{{ section_selector }} .info-group-price-discount {
+    margin-left: 20px;
+    display: inline-block;
+    padding: 0.6em 0.3em;
+    font-size: 13px;
+    border-radius: 50%;
+    color: #fff;
+    background-color: #c20000;
+  }
+  .{{ section_selector }} .info-group-price-new {
+    color: {{ section.settings.price_new_color }};
+    margin: 0 10px;
+  }
+
+  @keyframes imageSliding-{{ section.id | replace: 'template--', '' | replace: '__', '-' }} {
+    from { transform: translate(0); }
+    to { transform: var(--slide--img--transform); }
+  }
+
+  @media (max-width: 767px) {
+    .{{ section_selector }} .data-box-group {
+      width: 100%;
+    }
+  }
+  @media (min-width: 768px) {
+    .{{ section_selector }} .wrap-group {
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .{{ section_selector }} .data-box-group {
+      width: 30%;
+    }
+  }
+
+  @media (prefers-reduced-motion: reduce) {
+    .{{ section_selector }} .item-group .item-link-img .off-slide-img {
+      animation: none !important;
+    }
+  }
+</style>
+
+<div
+  class="{{ section_selector }}"
+  data-slide-block-group
+  data-section-id="{{ section.id }}"
+>
+  <div class="container">
+    <div class="wrap-group">
+      {% for block in section.blocks %}
+        {%- liquid
+          assign has_slide_images = false
+          if block.settings.slide_img != blank or block.settings.slide_img2 != blank or block.settings.slide_img3 != blank or block.settings.slide_img4 != blank
+            assign has_slide_images = true
+          endif
+
+          assign slide_price_formatted = blank
+          assign slide_price_new_formatted = blank
+          assign discount_label = blank
+
+          if block.settings.slide_price != blank and block.settings.slide_price > 0
+            assign price_digits = block.settings.slide_price | replace: ',', '' | replace: '，', '' | replace: '¥', '' | replace: '￥', '' | replace: '円', '' | strip
+            assign slide_price_cents = price_digits | times: 100
+            assign slide_price_formatted = slide_price_cents | money
+          endif
+
+          if block.settings.slide_price_new != blank and block.settings.slide_price_new > 0
+            assign price_new_digits = block.settings.slide_price_new | replace: ',', '' | replace: '，', '' | replace: '¥', '' | replace: '￥', '' | replace: '円', '' | strip
+            assign slide_price_new_cents = price_new_digits | times: 100
+            assign slide_price_new_formatted = slide_price_new_cents | money
+          endif
+
+          if block.settings.slide_price != blank and block.settings.slide_price > 0 and block.settings.slide_price_new != blank and block.settings.slide_price_new > 0
+            assign original_price = price_digits | times: 1.0
+            assign new_price = price_new_digits | times: 1.0
+            if original_price > 0 and new_price > 0 and original_price > new_price
+              assign discount_pct = original_price | minus: new_price | times: 100.0 | divided_by: original_price | round
+              assign discount_label = discount_pct | append: '%OFF'
+            endif
+          endif
+        -%}
+        <div class="data-box-group" {{ block.shopify_attributes }}>
+          <div class="item-group">
+            {% if has_slide_images %}
+              {% if block.settings.slide_url != blank %}
+                <a
+                  class="item-link-img"
+                  href="{{ block.settings.slide_url }}"
+                  {% if block.settings.slide_title != blank %}
+                    aria-label="{{ block.settings.slide_title | escape }}"
+                  {% endif %}
+                >
+              {% else %}
+                <div class="item-link-img">
+              {% endif %}
+
+                {% if block.settings.slide_img != blank %}
+                  {% render 'image' with block.settings.slide_img, sizes: '(max-width: 767px) 100vw, 30vw', loading: 'lazy' %}
+                {% endif %}
+                {% if block.settings.slide_img2 != blank %}
+                  {% render 'image' with block.settings.slide_img2, sizes: '(max-width: 767px) 100vw, 30vw', loading: 'lazy' %}
+                {% endif %}
+                {% if block.settings.slide_img3 != blank %}
+                  {% render 'image' with block.settings.slide_img3, sizes: '(max-width: 767px) 100vw, 30vw', loading: 'lazy' %}
+                {% endif %}
+                {% if block.settings.slide_img4 != blank %}
+                  {% render 'image' with block.settings.slide_img4, sizes: '(max-width: 767px) 100vw, 30vw', loading: 'lazy' %}
+                {% endif %}
+
+              {% if block.settings.slide_url != blank %}
+                </a>
+              {% else %}
+                </div>
+              {% endif %}
+            {% else %}
+              <div class="item-link-img">
+                <div class="placeholder-image">{{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+              </div>
+            {% endif %}
+
+            {% if block.settings.slide_tag_img != blank %}
+              {% render 'image' with block.settings.slide_tag_img, class: 'tag-group-img', sizes: '50px', loading: 'lazy' %}
+            {% endif %}
+          </div>
+
+          <div class="info-group">
+            {% if block.settings.slide_title != blank %}
+              <div class="info-group-item">{{ block.settings.slide_title }}</div>
+            {% endif %}
+            {% if slide_price_formatted != blank or slide_price_new_formatted != blank %}
+              <div class="info-group-item">
+                {% if slide_price_formatted != blank %}
+                  <span>{{ slide_price_formatted }}</span>
+                {% endif %}
+                {% if slide_price_new_formatted != blank %}
+                  <div class="info-group-price-new">{{ slide_price_new_formatted }}</div>
+                {% endif %}
+                {% if discount_label != blank %}
+                  <div class="info-group-price-discount">{{ discount_label }}</div>
+                {% endif %}
+              </div>
+            {% endif %}
+
+            {% if block.settings.slide_btn != blank %}
+              {% if block.settings.slide_url != blank %}
+                <a class="checkBtn" href="{{ block.settings.slide_url }}">
+                  <div class="info-check-btn">{{ block.settings.slide_btn }}</div>
+                </a>
+              {% else %}
+                <div class="checkBtn">
+                  <div class="info-check-btn">{{ block.settings.slide_btn }}</div>
+                </div>
+              {% endif %}
+            {% endif %}
+
+            {% if block.settings.slide_intro != blank %}
+              <div class="info-group-intro">{{ block.settings.slide_intro }}</div>
+            {% endif %}
+          </div>
+        </div>
+      {% endfor %}
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Slide block group",
+  "settings": [
+    {
+      "type": "color",
+      "id": "slide_btn_color",
+      "label": "按钮背景色",
+      "default": "#d83a21"
+    },
+    {
+      "type": "color",
+      "id": "slide_text_color",
+      "label": "按钮文字颜色",
+      "default": "#f7f1e7"
+    },
+    {
+      "type": "color",
+      "id": "slide_btn_hover_color",
+      "label": "按钮背景色(hover)",
+      "default": "#49548a"
+    },
+    {
+      "type": "color",
+      "id": "slide_text_hover_color",
+      "label": "按钮文字颜色(hover)",
+      "default": "#f7f1e7"
+    },
+    {
+      "type": "color",
+      "id": "slide_font_color",
+      "label": "文字颜色",
+      "default": "#100f0f"
+    },
+    {
+      "type": "color",
+      "id": "price_new_color",
+      "label": "折扣价格颜色",
+      "default": "#c20000"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "slide_block",
+      "name": "Slide block",
+      "limit": 3,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "slide_tag_img",
+          "label": "竖条幅图片"
+        },
+        {
+          "type": "image_picker",
+          "id": "slide_img",
+          "label": "产品图片"
+        },
+        {
+          "type": "image_picker",
+          "id": "slide_img2",
+          "label": "产品图片2"
+        },
+        {
+          "type": "image_picker",
+          "id": "slide_img3",
+          "label": "产品图片3"
+        },
+        {
+          "type": "image_picker",
+          "id": "slide_img4",
+          "label": "产品图片4"
+        },
+        {
+          "type": "text",
+          "id": "slide_title",
+          "label": "产品标题"
+        },
+        {
+          "type": "number",
+          "id": "slide_price",
+          "label": "产品原价格（仅输入数字，自动显示货币符号）"
+        },
+        {
+          "type": "number",
+          "id": "slide_price_new",
+          "label": "产品折扣价格（仅输入数字，自动显示货币符号）"
+        },
+        {
+          "type": "text",
+          "id": "slide_btn",
+          "label": "按钮",
+          "default": "查看详情"
+        },
+        {
+          "type": "url",
+          "id": "slide_url",
+          "label": "跳转链接"
+        },
+        {
+          "type": "text",
+          "id": "slide_intro",
+          "label": "产品简介"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Slide block group",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "slide_block",
+          "settings": {}
+        },
+        {
+          "type": "slide_block",
+          "settings": {}
+        },
+        {
+          "type": "slide_block",
+          "settings": {}
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<script>
+  (function () {
+    const sectionId = {{ section.id | json }};
+    const root = document.querySelector('[data-section-id="' + sectionId + '"][data-slide-block-group]');
+    if (!root) return;
+
+    function cleanup() {
+      if (root._slideBlockCleanup) {
+        root._slideBlockCleanup();
+        root._slideBlockCleanup = null;
+      }
+    }
+
+    function initSlideBlockGroup() {
+      cleanup();
+
+      let resizeTimer = 0;
+      let io = null;
+
+      function updateBox(box) {
+        const itemGroup = box.querySelector('.item-group');
+        const link = box.querySelector('.item-link-img');
+        if (!itemGroup || !link) return;
+
+        const imgs = link.querySelectorAll('img');
+        imgs.forEach(function (img) {
+          img.classList.remove('off-slide-img');
+        });
+
+        if (imgs.length <= 1) {
+          itemGroup.style.setProperty('--slide--img--transform', 'translate(0px)');
+          return;
+        }
+
+        imgs.forEach(function (img) {
+          img.classList.add('off-slide-img');
+        });
+
+        const imgWidth = imgs[0].getBoundingClientRect().width || imgs[0].offsetWidth;
+        if (!imgWidth) return;
+
+        const widthSum = imgWidth * (imgs.length - 1);
+        itemGroup.style.setProperty('--slide--img--transform', 'translate(-' + widthSum + 'px)');
+      }
+
+      function updateAll() {
+        root.querySelectorAll('.data-box-group').forEach(updateBox);
+      }
+
+      function onResize() {
+        clearTimeout(resizeTimer);
+        resizeTimer = setTimeout(updateAll, 150);
+      }
+
+      root.querySelectorAll('.item-link-img img').forEach(function (img) {
+        if (img.complete) return;
+        img.addEventListener('load', updateAll, { once: true });
+      });
+
+      updateAll();
+      window.addEventListener('resize', onResize);
+
+      if ('IntersectionObserver' in window) {
+        io = new IntersectionObserver(
+          function (entries) {
+            entries.forEach(function (entry) {
+              root.classList.toggle('is-inview', entry.isIntersecting);
+            });
+          },
+          { rootMargin: '80px', threshold: 0.15 }
+        );
+        io.observe(root);
+      } else {
+        root.classList.add('is-inview');
+      }
+
+      root._slideBlockCleanup = function () {
+        window.removeEventListener('resize', onResize);
+        clearTimeout(resizeTimer);
+        if (io) {
+          io.disconnect();
+          io = null;
+        }
+      };
+    }
+
+    function boot() {
+      initSlideBlockGroup();
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', boot, { once: true });
+    } else {
+      boot();
+    }
+
+    document.addEventListener('shopify:section:load', function (e) {
+      if (e.detail && e.detail.sectionId === sectionId) boot();
+    });
+    document.addEventListener('shopify:section:unload', function (e) {
+      if (e.detail && e.detail.sectionId === sectionId) cleanup();
+    });
+  })();
+</script>

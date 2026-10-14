@@ -1,0 +1,879 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "photo_banner_RpRYKV": {
+      "type": "photo-banner",
+      "disabled": true,
+      "name": "Photo Banner",
+      "settings": {
+        "image": "shopify://shop_images/1500_523a3ac4-d1ec-4f5b-b0be-d1bed6744227.png",
+        "mobile_image": "shopify://shop_images/800_910a4226-1638-4825-b192-d102d644fc6c.png",
+        "banner_link": "https://karakubuy.com/collections/summer-sale-2025",
+        "photo_banner_col": "#f85400"
+      }
+    },
+    "slideshow_w3EMQi": {
+      "type": "slideshow",
+      "blocks": {
+        "image_fiFVqi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/378__1920x780_b6fc381c-6b84-4a45-8458-72ea28630b07.jpg",
+            "mobile_image": "shopify://shop_images/378__1080x1440_764b0fb1-29a8-479e-b2ce-9a8c66351297.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_fiFVqi"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_8jQy9b": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_1e05cdd5-192d-4baa-b350-630c55b7599a.png",
+        "mobile_image": "shopify://shop_images/720_2cb4a8eb-bb23-4df2-a923-1ef685b97098.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_n4Kgn9": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -6,
+        "margin_top2": 0
+      }
+    },
+    "image_jump_custom_Ak44xi": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_BRiwmU": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_0ed109f1-195a-4188-86b5-b0dca7824a17.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_BRiwmU"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "adjusting_spacing_bYzbqe": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -6,
+        "margin_top2": 0
+      }
+    },
+    "image_slider_ryjrA8": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_weTXmp": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-1_81faf0da-c564-4e38-acc4-3ac712c4e913.jpg"
+          }
+        },
+        "image_slider_Pzhydx": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-3_67f74cee-5f9b-41b8-8ee5-72b4776ee9d1.jpg"
+          }
+        },
+        "image_slider_UVtpBi": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-3_67f74cee-5f9b-41b8-8ee5-72b4776ee9d1.jpg"
+          }
+        },
+        "image_slider_jjPaBL": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-4_d4d4371a-0613-4ae8-a6d2-e1c17fe24d32.jpg"
+          }
+        },
+        "main_diagram_RQwqeH": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-1_67d087eb-15d2-4860-990c-4b270c34f38b.jpg",
+            "main_img2": "shopify://shop_images/600x720-2_ba221a03-856f-4854-ac21-19ac72038b47.jpg"
+          }
+        },
+        "image_info_FLK6kx": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "生地には適度な厚みのあるコットンデニムを採用。着込むほどに味わいが増し、経年変化を楽しめるのも魅力。",
+            "price_discount": 12980,
+            "original_price": 12980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lsx-hszscxc0504?_pos=1&_sid=71e82ea3c&_ss=r&variant=47223348789467"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_weTXmp",
+        "image_slider_Pzhydx",
+        "image_slider_UVtpBi",
+        "image_slider_jjPaBL",
+        "main_diagram_RQwqeH",
+        "image_info_FLK6kx"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#df7023",
+        "but_font_col2": "#df7023",
+        "but_col2": "#5c3529"
+      }
+    },
+    "image_slider_HUR6VH": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_iqTwXj": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-5_cbeb78a3-fd33-439a-9b0a-894a9eddd2bc.jpg"
+          }
+        },
+        "image_slider_TnpJWA": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-6_dc30c8f9-87ba-4245-b7a1-5f748819e70f.jpg"
+          }
+        },
+        "image_slider_MrYjdf": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-7_97103f86-0811-4817-a0a8-cb28ca8d50fd.jpg"
+          }
+        },
+        "image_slider_AXtdLq": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-8_3b2baaca-89a8-4f0c-89e2-9785dfc8b8cd.jpg"
+          }
+        },
+        "main_diagram_FRGHkq": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-3_a49d1505-f7c9-439c-9760-4ad18302aa04.jpg",
+            "main_img2": "shopify://shop_images/600x720-4_10d211d2-296c-48fd-9d31-0c427922ef01.jpg"
+          }
+        },
+        "image_info_TptR6L": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "グラデーションは上下で色の濃淡を切り替えた仕上がりで、胸から腰にかけては深みのある濃色、襟元や裾にかけてはやや淡い色合いに。染めではなく織りで魅せるこの風合いは、デニムシャツとしての新たな個性を演出します。",
+            "price_discount": 14980,
+            "original_price": 14980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lsx-yghthcx0529?_pos=1&_sid=e25c9e8c7&_ss=r&variant=47266043953371"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_iqTwXj",
+        "image_slider_TnpJWA",
+        "image_slider_MrYjdf",
+        "image_slider_AXtdLq",
+        "main_diagram_FRGHkq",
+        "image_info_TptR6L"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#df7023",
+        "but_font_col2": "#df7023",
+        "but_col2": "#5c3529"
+      }
+    },
+    "image_slider_8Y9LnU": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_tWeRnT": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-9_41a1e83c-4733-4533-a676-b59e347b8d34.jpg"
+          }
+        },
+        "image_slider_enV9Wh": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-10_1e18ca3e-6e60-442d-9a91-a72c8e41a91f.jpg"
+          }
+        },
+        "image_slider_WDE3RP": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-11_14d82fe2-b754-4c7a-81e2-67380bbcc4ff.jpg"
+          }
+        },
+        "image_slider_rPJabq": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-12_22e5e74e-2701-487b-8043-8a56280b1745.jpg"
+          }
+        },
+        "main_diagram_KcHrTn": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-5_82665977-8f6c-4e0c-878a-04967959698e.jpg",
+            "main_img2": "shopify://shop_images/600x720-6_81e6b5a0-8d7b-4c7f-969e-a6db7868ca3c.jpg"
+          }
+        },
+        "image_info_EGYjcP": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "パール調のボタンが上品なアクセントとなり、カジュアルになりすぎず、大人の着こなしにマッチします。グラデーションは上下で色の濃淡を切り替えた仕上がりで、胸から腰にかけては深みのある濃色、襟元や裾にかけてはやや淡い色合いに。",
+            "price_discount": 14980,
+            "original_price": 14980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lsx-anygh0620?_pos=1&_sid=b77440897&_ss=r&variant=47377267917019"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_tWeRnT",
+        "image_slider_enV9Wh",
+        "image_slider_WDE3RP",
+        "image_slider_rPJabq",
+        "main_diagram_KcHrTn",
+        "image_info_EGYjcP"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#df7023",
+        "but_font_col2": "#df7023",
+        "but_col2": "#5c3529"
+      }
+    },
+    "image_slider_RtMQN9": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_PC69kF": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-13_cb0ca225-7cd4-410f-a26c-8676bc8d5be9.jpg"
+          }
+        },
+        "image_slider_xPUgTt": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-14_ff09b4e6-f2d0-42fa-9ef5-7242f98c075e.jpg"
+          }
+        },
+        "image_slider_cjpEmk": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-15_9e04bd2a-a8ec-46bf-b23e-23af69ba2b94.jpg"
+          }
+        },
+        "image_slider_pUd3Hb": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-16_d1d2e3e7-adbb-4df6-a987-a15422000b8b.jpg"
+          }
+        },
+        "main_diagram_hUX8WN": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-7_56de320a-2114-4f8e-a660-137dd5b8f291.jpg",
+            "main_img2": "shopify://shop_images/600x720-8_6d4b1fc6-2606-44a4-99e3-1e501b7db882.jpg"
+          }
+        },
+        "image_info_PGThDk": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ライトブルーのデニム色で、ウォッシュ加工により柔らかくフェードした色味が特徴。コットンデニム素材を使用し、厚すぎず薄すぎない適度なハリがあり、年間を通じて着用可能。",
+            "price_discount": 11980,
+            "original_price": 11980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lsx-tlsxnzs808?_pos=1&_sid=b411d8c93&_ss=r&variant=47402507927771"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_PC69kF",
+        "image_slider_xPUgTt",
+        "image_slider_cjpEmk",
+        "image_slider_pUd3Hb",
+        "main_diagram_hUX8WN",
+        "image_info_PGThDk"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#df7023",
+        "but_font_col2": "#df7023",
+        "but_col2": "#5c3529"
+      }
+    },
+    "image_slider_xKwUK7": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_ywmg7K": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-21_aa18c626-37b5-48df-996d-358690b4421b.jpg"
+          }
+        },
+        "image_slider_AGgAUA": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-22_a6d895be-ce66-4fcf-baa4-90f05bfa37e3.jpg"
+          }
+        },
+        "image_slider_ceRiHJ": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-23_d2e0d927-d6b5-461d-bc85-6f0926f66cd8.jpg"
+          }
+        },
+        "image_slider_TP83AQ": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-24_2e9493a6-0bdf-4dfa-bbe4-f7320da2244a.jpg"
+          }
+        },
+        "main_diagram_NRytTm": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-11_b123515f-4530-48af-a396-44bb924b9cca.jpg",
+            "main_img2": "shopify://shop_images/600x720-12_23603830-2d9f-4781-ba59-bc775ef6bc13.jpg"
+          }
+        },
+        "image_info_xmyyAd": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "襟部分には、風合いの異なるコーデュロイ生地を使用し、デニムとのコントラストが印象的。コーデュロイの温かみとデニムの丈夫さが絶妙に融合し、クラシックでありながらも現代的な雰囲気を感じさせます。",
+            "price_discount": 10980,
+            "original_price": 12980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lsx-ijegpv0807?_pos=1&_sid=fecc312e7&_ss=r&variant=47439936323803"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_ywmg7K",
+        "image_slider_AGgAUA",
+        "image_slider_ceRiHJ",
+        "image_slider_TP83AQ",
+        "main_diagram_NRytTm",
+        "image_info_xmyyAd"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#df7023",
+        "but_font_col2": "#df7023",
+        "but_col2": "#5c3529"
+      }
+    },
+    "image_slider_fdKN4N": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_4HkbqH": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-17_f40f93f2-83f5-42d6-8479-e036784d7181.jpg"
+          }
+        },
+        "image_slider_HPcB3g": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-18_2ec81959-4bf5-4b0a-a913-9f360fd4706f.jpg"
+          }
+        },
+        "image_slider_gK7MiE": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-19_64be28a7-b2ae-4dd7-bc15-ca5f9b79bd0d.jpg"
+          }
+        },
+        "image_slider_fmbzj6": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-20_458a246d-0876-44b6-93b6-f0853b662b56.jpg"
+          }
+        },
+        "main_diagram_wthTTA": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-10_28c50202-9776-4f6d-90df-427889a02260.jpg",
+            "main_img2": "shopify://shop_images/600x720-9_6e9eef61-576e-4342-ad0f-8856a2f0d85a.jpg"
+          }
+        },
+        "image_info_6gwr8A": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "クラシックなダブルポケットワークシャツのシルエットに、11ウェールのコーデュロイデニム生地を使用。ヴィンテージ感あふれるウォッシュ加工を施し、味わい深い風合いに仕上げました。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lsx-ccnkyz0806?_pos=1&_sid=27f0aa482&_ss=r&variant=47414543515867"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_4HkbqH",
+        "image_slider_HPcB3g",
+        "image_slider_gK7MiE",
+        "image_slider_fmbzj6",
+        "main_diagram_wthTTA",
+        "image_info_6gwr8A"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#df7023",
+        "but_font_col2": "#df7023",
+        "but_col2": "#5c3529"
+      }
+    },
+    "adjusting_spacing_KYpUHz": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -9,
+        "margin_top2": 0
+      }
+    },
+    "image_jump_custom_dXPTek": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_gTP3tX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_9d61dfd3-f090-46b2-b164-1f159b0881a8.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_gTP3tX"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "adjusting_spacing_xhFbkd": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -6,
+        "margin_top2": 0
+      }
+    },
+    "image_slider_iamia4": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_6q9pXn": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-5_e88545e2-b9cf-40a4-a84b-2ed484dfeaf6.jpg"
+          }
+        },
+        "image_slider_aqwYUW": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-6_91675ded-b0d2-43c1-ab83-61dc8824edf3.jpg"
+          }
+        },
+        "image_slider_KyULk4": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-7_21852ad1-09d4-4836-999b-164b5a12198b.jpg"
+          }
+        },
+        "image_slider_L4FTMf": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-8_be731d0f-8d5a-46d6-9418-ca2605b399e4.jpg"
+          }
+        },
+        "main_diagram_ULFQzh": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-3_85f49268-c530-4a67-a770-d61d8480a1b6.jpg",
+            "main_img2": "shopify://shop_images/600x720-4_3fe06c13-3c02-4046-8e70-832598bcca1a.jpg"
+          }
+        },
+        "image_info_BCpKL8": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "しっかりとしたコットンデニムをウォッシュ加工で柔らかく仕上げ、こなれた風合いを引き出したテーラードジャケット。きちんと感のある構築的なシルエットながら、デニムならではのラフな表情が絶妙なバランスを演出します。",
+            "price_discount": 17980,
+            "original_price": 17980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lrj-zsnkdnm0613?_pos=2&_sid=5a45385ca&_ss=r"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_6q9pXn",
+        "image_slider_aqwYUW",
+        "image_slider_KyULk4",
+        "image_slider_L4FTMf",
+        "main_diagram_ULFQzh",
+        "image_info_BCpKL8"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#df7023",
+        "but_font_col2": "#df7023",
+        "but_col2": "#5c3529"
+      }
+    },
+    "image_slider_NBLQgk": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_rfVkHD": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-9_9bb8720e-914b-4efd-8635-a0e5fc720068.jpg"
+          }
+        },
+        "image_slider_gMmrDy": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-10_af40fe58-a334-4cec-b712-aa57c726a4e7.jpg"
+          }
+        },
+        "image_slider_9VC8a9": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-11_7e9e9214-a197-45c9-8584-42a125cc46e8.jpg"
+          }
+        },
+        "image_slider_bNwNtA": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-12_c735b6c5-fce2-4c3a-bf91-bb85edd188e9.jpg"
+          }
+        },
+        "main_diagram_wPAttm": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-5_f6581311-84e6-4be8-a7ae-79763c0dad35.jpg",
+            "main_img2": "shopify://shop_images/600x720-6_f9317cce-fb21-428f-bbbb-0120742ff811.jpg"
+          }
+        },
+        "image_info_qTcpyy": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "襟の裏側に迷彩柄を配置することで、ジャケットを開けたときや動きの中で柄が見え隠れする仕掛けが施されています。  袖口を折り返すと迷彩柄が見えるデザインは、ロールアップ時にアクセントとして機能します。  ",
+            "price_discount": 18980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-zyd-mcmxz0517?_pos=1&_sid=7a115cb95&_ss=r"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_rfVkHD",
+        "image_slider_gMmrDy",
+        "image_slider_9VC8a9",
+        "image_slider_bNwNtA",
+        "main_diagram_wPAttm",
+        "image_info_qTcpyy"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#df7023",
+        "but_font_col2": "#df7023",
+        "but_col2": "#5c3529"
+      }
+    },
+    "image_slider_EzaGyH": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_TCBtxy": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-13_659a7f80-82e2-46d8-8999-19db89fd9f45.jpg"
+          }
+        },
+        "image_slider_eyfYji": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-14_92314ab4-c003-4a69-9145-91ac21b6f184.jpg"
+          }
+        },
+        "image_slider_BaWxyk": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-15_973b77bd-bf6b-453c-bba7-1af345b7d508.jpg"
+          }
+        },
+        "image_slider_q3Cr9d": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-16_38392642-3f5e-4005-a47b-b315a2a940c3.jpg"
+          }
+        },
+        "main_diagram_GBmfzL": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-8_5d8f9426-fd93-432a-b850-85a042b8050f.jpg",
+            "main_img2": "shopify://shop_images/600x720-7_dc1d8209-f004-42b2-9ef9-de3ae8920102.jpg"
+          }
+        },
+        "image_info_7GYDBj": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ボディ部分にフェード加工デニムが施されていますが、自然な色落ちを再現して、長年使い込んだようなヴィンテージ感を演出。",
+            "price_discount": 16980,
+            "original_price": 16980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-lrj-dnmkr0607?_pos=1&_sid=fb5237af0&_ss=r&variant=47477634302171"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_TCBtxy",
+        "image_slider_eyfYji",
+        "image_slider_BaWxyk",
+        "image_slider_q3Cr9d",
+        "main_diagram_GBmfzL",
+        "image_info_7GYDBj"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#df7023",
+        "but_font_col2": "#df7023",
+        "but_col2": "#5c3529"
+      }
+    },
+    "image_slider_r98JCT": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_rbYC8m": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-17_94332969-5c57-453f-8e30-109e0be4e241.jpg"
+          }
+        },
+        "image_slider_N6ez9q": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-18_0f4313a1-bb5c-41ef-88ed-e25c2fc4b4ac.jpg"
+          }
+        },
+        "image_slider_rU6Egj": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-19_f57f1c42-2d18-4609-b14d-8e6274ed5ada.jpg"
+          }
+        },
+        "image_slider_RXGmFK": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-20_ad822703-5866-4b42-82e1-34ecfab8a019.jpg"
+          }
+        },
+        "main_diagram_8FtbLC": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-10_ff29ca9c-481b-4271-adfa-e6bd3f4b74b1.jpg",
+            "main_img2": "shopify://shop_images/600x720-9_e9c73fa0-85d8-49fa-97bd-372abcef57db.jpg"
+          }
+        },
+        "image_info_FLrGGR": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "デニムの硬さとリブの柔らかさが対比的で、視覚的にも触覚的にも異素材のコントラストを楽しめます。襟と袖口、裾にリブ素材を使用し、スポーティな印象を与えます。リブ部分にはダークカラーとライトグレーのストライプが入って、アクセントになっています。",
+            "price_discount": 15980,
+            "original_price": 15980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-zyd-bsbjk0809?_pos=1&_sid=1568665bb&_ss=r"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_rbYC8m",
+        "image_slider_N6ez9q",
+        "image_slider_rU6Egj",
+        "image_slider_RXGmFK",
+        "main_diagram_8FtbLC",
+        "image_info_FLrGGR"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#000000",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#df7023",
+        "but_font_col2": "#df7023",
+        "but_col2": "#5c3529"
+      }
+    },
+    "background_image_6MTgtz": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-08-30_16-44-12_7540ca72-6ffe-4a19-8117-c23ce8934d5e.jpg",
+        "bg_size": "auto",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#f5f5f5",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "photo_banner_RpRYKV",
+    "slideshow_w3EMQi",
+    "image_8jQy9b",
+    "adjusting_spacing_n4Kgn9",
+    "image_jump_custom_Ak44xi",
+    "adjusting_spacing_bYzbqe",
+    "image_slider_ryjrA8",
+    "image_slider_HUR6VH",
+    "image_slider_8Y9LnU",
+    "image_slider_RtMQN9",
+    "image_slider_xKwUK7",
+    "image_slider_fdKN4N",
+    "adjusting_spacing_KYpUHz",
+    "image_jump_custom_dXPTek",
+    "adjusting_spacing_xhFbkd",
+    "image_slider_iamia4",
+    "image_slider_NBLQgk",
+    "image_slider_EzaGyH",
+    "image_slider_r98JCT",
+    "background_image_6MTgtz",
+    "main"
+  ]
+}

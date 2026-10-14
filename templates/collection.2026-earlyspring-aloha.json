@@ -1,0 +1,750 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "slideshow_Fnf86E": {
+      "type": "slideshow",
+      "blocks": {
+        "image_LbcbVg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20260313-174124.jpg",
+            "mobile_image": "shopify://shop_images/123__1080_18b30941-0150-4ad6-b603-58d7112813ad.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_LbcbVg"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "scrolling_banner_Mq7mGT": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_wtELCh": {
+          "type": "text",
+          "settings": {
+            "text": "KARAKU ALOHA SHIRTS",
+            "color": "#004e9b",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_wtELCh"
+      ],
+      "name": "Scrolling banner",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 35,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "image_EaVjqY": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/20260313-174541.png",
+        "mobile_image": "shopify://shop_images/20260313-174537.png",
+        "img_rul": ""
+      }
+    },
+    "image_list_DhtbzJ": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_TLdJpM": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/1_29c40e1d-66d0-4064-9646-d7683ed74514.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_TLdJpM"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "shake"
+      }
+    },
+    "adjusting_spacing_FYNUYY": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -2
+      }
+    },
+    "image_slider_qPXpEY": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_4ykBgg": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-1_31731fa4-dbaf-4d11-8193-faf3c2a16a4a.jpg"
+          }
+        },
+        "image_slider_AJUtKx": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-2_39adf527-e765-4789-9dbd-d748e44a3c17.jpg"
+          }
+        },
+        "image_slider_jpfR9Q": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-3_878a59e0-5173-4cd8-86e3-49dfb4f2c3c1.jpg"
+          }
+        },
+        "image_slider_njVcgK": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-4_40821bea-15ca-400c-9699-5dcd8bfe5ab7.jpg"
+          }
+        },
+        "main_diagram_RhACge": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-1_dfc45264-0e9a-4859-b4e4-fcb4964cea1a.jpg",
+            "main_img2": "shopify://shop_images/600x720-2_7213fb39-1837-4776-bd3d-052b1f845d80.jpg"
+          }
+        },
+        "image_info_PcmeRz": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "柄には、海の中を悠々と泳ぐ16種類の魚を細密に描写。若冲ならではの観察眼とユーモアが感じられる、物語性のある一図です。",
+            "price_discount": 12590,
+            "original_price": 12590,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-lsx-sh260139"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_4ykBgg",
+        "image_slider_AJUtKx",
+        "image_slider_jpfR9Q",
+        "image_slider_njVcgK",
+        "main_diagram_RhACge",
+        "image_info_PcmeRz"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "【予約】伊藤若冲「群魚図」プリント入りオープンカラーアロハシャツ",
+        "data_tit_col": "#000000",
+        "info_text_col": "#000000",
+        "price_col": "#dc0000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#fbf52c",
+        "but_col": "#013568",
+        "but_font_col2": "#fbf52c",
+        "but_col2": "#013568"
+      }
+    },
+    "image_slider_W9aJzU": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_CcjKwR": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-5_5d7586e8-e3fc-4332-9479-c9dde74366fb.jpg"
+          }
+        },
+        "image_slider_VKBUhU": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-6_67794974-7435-45b3-b359-b00f87d5d371.jpg"
+          }
+        },
+        "image_slider_87dgrn": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-7_fbed7d8f-e853-44ba-a6d5-f4eeb64babd0.jpg"
+          }
+        },
+        "image_slider_8cP3Mq": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-8_025c4c8f-4af4-4ea9-ba45-e5159b1e8d64.jpg"
+          }
+        },
+        "main_diagram_9rGkyq": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-3_3e73f974-5e34-43ca-997b-ddb5a4262a45.jpg",
+            "main_img2": "shopify://shop_images/600x720-4_cd6a9631-3845-4c13-b15b-0b93d8e63ed0.jpg"
+          }
+        },
+        "image_info_4Dw9fw": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "遊び心あふれる個性的な猫たちが画面いっぱいに広がり、見ているだけで楽しい物語性を感じさせます。浮世絵の伝統的な表現と、ポップで愛らしい猫のモチーフが絶妙に融合した一枚です。",
+            "price_discount": 10980,
+            "original_price": 10980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-zyd-sh260121"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_CcjKwR",
+        "image_slider_VKBUhU",
+        "image_slider_87dgrn",
+        "image_slider_8cP3Mq",
+        "main_diagram_9rGkyq",
+        "image_info_4Dw9fw"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "「招き猫着ぐるみをかぶった猫たち」総柄　浮世絵風アロハシャツ",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#dc0000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#fbf52c",
+        "but_col": "#013568",
+        "but_font_col2": "#fbf52c",
+        "but_col2": "#013568"
+      }
+    },
+    "image_slider_jM4UN4": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_QViETY": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-10_4ffd8fd9-e010-47fe-a7d1-f6456cfb0b59.jpg"
+          }
+        },
+        "image_slider_HwCWxW": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-11_bbd0f226-793e-4e14-91fc-e3a824e05967.jpg"
+          }
+        },
+        "image_slider_UjBbz4": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-9_ba52f856-859b-4bdd-9a21-ac7bacb13f00.jpg"
+          }
+        },
+        "image_slider_affUPB": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-12_c277ec76-efd7-4d9c-8fa5-c69fcdfeec78.jpg"
+          }
+        },
+        "main_diagram_KK7dkD": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-5_3ea91234-ec93-4430-8c23-9f0c0dcd43ca.jpg",
+            "main_img2": "shopify://shop_images/600x720-6_c49de140-cc16-4fe4-a7d5-55462c7a15fa.jpg"
+          }
+        },
+        "image_info_GMdJrN": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "馬の足の動きには非常に動きがあり、浮世絵特有の躍動感が感じられます。馬の模様や鞍、衣装などは非常に細かく描かれており、伝統的な装飾が強調されています。",
+            "price_discount": 10980,
+            "original_price": 10980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-gsh-alh260101"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_QViETY",
+        "image_slider_HwCWxW",
+        "image_slider_UjBbz4",
+        "image_slider_affUPB",
+        "main_diagram_KK7dkD",
+        "image_info_GMdJrN"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "【予約】「武将の馬」総柄　浮世絵風アロハシャツ",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#dc0000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#fbf52c",
+        "but_col": "#013568",
+        "but_font_col2": "#fbf52c",
+        "but_col2": "#013568"
+      }
+    },
+    "image_slider_TyehQi": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_UxhQKQ": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-13_5424c7b0-4a78-4ea0-a3be-18e5677af475.jpg"
+          }
+        },
+        "image_slider_Ggz4AQ": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-14_fb474a41-011f-453a-9d94-a08b285ad642.jpg"
+          }
+        },
+        "image_slider_UdndKX": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-15_5dbc53c0-28ad-4951-ba80-6620d3ede7fa.jpg"
+          }
+        },
+        "image_slider_VgbQaq": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-16_0cb0044e-6a25-4605-ad26-66c4e5f8279e.jpg"
+          }
+        },
+        "main_diagram_LXe9ye": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-7_be6716fd-ae86-44a8-8e7c-d0d65f8d3923.jpg",
+            "main_img2": "shopify://shop_images/600x720-8_92491ead-01fd-4310-9d00-996828e65701.jpg"
+          }
+        },
+        "image_info_PfXPwn": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "江戸時代、異国文化の玄関口として栄えた長崎。その地で独自の発展を遂げた長崎派の絵画様式をモチーフに、「虎図」を大胆に総柄プリントで表現した一着です。力強くもどこか愛嬌を感じさせる虎の姿は、当時の絵師たちが中国画の影響を受けながら描いた独特の筆致を再現。躍動感あふれる構図と繊細な線描が、シャツ全体に物語性と迫力を与えます。",
+            "price_discount": 12590,
+            "original_price": 12590,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-lsx-sh260140"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_UxhQKQ",
+        "image_slider_Ggz4AQ",
+        "image_slider_UdndKX",
+        "image_slider_VgbQaq",
+        "main_diagram_LXe9ye",
+        "image_info_PfXPwn"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "【予約】江戸時代・長崎派「虎図」総柄プリント入りアロハシャツ",
+        "data_tit_col": "#000000",
+        "info_text_col": "#000000",
+        "price_col": "#dc0000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#fbf52c",
+        "but_col": "#013568",
+        "but_font_col2": "#fbf52c",
+        "but_col2": "#013568"
+      }
+    },
+    "image_list_qDDeXh": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_XrKxmV": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/2_400d265d-aa0a-4c48-9239-2ce5d61dac14.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_XrKxmV"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "shake"
+      }
+    },
+    "adjusting_spacing_LDjAj4": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -2
+      }
+    },
+    "image_slider_rJgDDH": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_VMeD86": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-17_27fa368a-4ee6-4288-949a-a0606ad1e1a4.jpg"
+          }
+        },
+        "image_slider_mXaQiP": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-18_c73df249-7016-408a-a91e-a0ddfa36c680.jpg"
+          }
+        },
+        "image_slider_WJV3FN": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-19_7bee1cd7-390f-4344-a68a-64292fd94d09.jpg"
+          }
+        },
+        "image_slider_Dbihx3": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-20_a9698481-5c7b-40c3-9d76-a5e91695e507.jpg"
+          }
+        },
+        "main_diagram_MGBn9n": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-9_71ad005a-9a92-4d35-a64c-02f1f0a7e532.jpg",
+            "main_img2": "shopify://shop_images/600x720-10_a87b4f92-c270-4f5a-b4db-1a84bfe8aa79.jpg"
+          }
+        },
+        "image_info_3wk3EK": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "夏のリゾート気分をそのまま楽しめる、遊び心あふれる総柄アロハシャツ。鮮やかなブルーグリーンのモンステラや熱帯植物の合間で、オレンジ色の茶トラ猫がゆったりとくつろぐデザインは、目を惹く補色の配色で仕上げました。",
+            "price_discount": 8190,
+            "original_price": 8190,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-gsh-sh260154"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_VMeD86",
+        "image_slider_mXaQiP",
+        "image_slider_WJV3FN",
+        "image_slider_Dbihx3",
+        "main_diagram_MGBn9n",
+        "image_info_3wk3EK"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "【予約】「モンステラ＆茶トラ 」総柄　キューバカラーアロハシャツ",
+        "data_tit_col": "#000000",
+        "info_text_col": "#000000",
+        "price_col": "#dc0000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#fbf52c",
+        "but_col": "#013568",
+        "but_font_col2": "#fbf52c",
+        "but_col2": "#013568"
+      }
+    },
+    "image_slider_HPzCDM": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_Lhxg7q": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-21_8e58d7b3-a35d-4c92-bfd6-428c8424e745.jpg"
+          }
+        },
+        "image_slider_Am6jXG": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-22_1ad1e4eb-6555-4d10-bfdf-f6b1fcb9ec9e.jpg"
+          }
+        },
+        "image_slider_x7zkEV": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-23_13a3545e-b904-4832-b6a4-823d559c2d61.jpg"
+          }
+        },
+        "image_slider_gX8nJr": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-24_37a3c3af-1a5a-412e-9fc1-3d9a68f93846.jpg"
+          }
+        },
+        "main_diagram_EpY3yF": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-11_3753e339-760f-4a99-93d0-4f6d11a52015.jpg",
+            "main_img2": "shopify://shop_images/600x720-12_23345680-1520-4eee-aeac-a665af73d64c.jpg"
+          }
+        },
+        "image_info_EhVfgB": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "シャツ全体に、猫たちがさまざまな色彩で描かれており、ポップアートのスタイルを忠実に再現しています。猫が座ったり、寝転がったりするさまざまなポーズが取り入れられており、動きや表情の違いが楽しいデザインとなっています。",
+            "price_discount": 10980,
+            "original_price": 10980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-lrj-sh260168"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_Lhxg7q",
+        "image_slider_Am6jXG",
+        "image_slider_x7zkEV",
+        "image_slider_gX8nJr",
+        "main_diagram_EpY3yF",
+        "image_info_EhVfgB"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "【予約】「カラフルキャット」ポップアート風プリントアロハシャツ",
+        "data_tit_col": "#000000",
+        "info_text_col": "#000000",
+        "price_col": "#dc0000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#fbf52c",
+        "but_col": "#013568",
+        "but_font_col2": "#fbf52c",
+        "but_col2": "#013568"
+      }
+    },
+    "image_slider_GDpQEV": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_TraU7F": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-25_b1e5c9b1-325d-4ed4-a2f6-c505f6f17b20.jpg"
+          }
+        },
+        "image_slider_kafJdd": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-26_dbe71ca9-c2de-4160-934a-c904dba3ef25.jpg"
+          }
+        },
+        "image_slider_kU67xT": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-27_0be41183-aa5a-4966-b1d2-9a8ec0443735.jpg"
+          }
+        },
+        "image_slider_FwEd9W": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-28_7fb594ed-e395-43f1-b124-64396588445a.jpg"
+          }
+        },
+        "main_diagram_WmMzaV": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-14_e74bec32-4388-4551-83d2-22444c7eb3dd.jpg",
+            "main_img2": "shopify://shop_images/600x720-13_3f299f17-8f06-43f7-ad7f-718dfa154692.jpg"
+          }
+        },
+        "image_info_jNitwa": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ペルシャエスニック調の伝統的な幾何学模様が、総柄として使用されています。模様はシンメトリックで、細部まで非常に緻密なデザインが施されています。中央に円形モチーフが配され、それを囲むように花や植物のような装飾が見られます。",
+            "price_discount": 8990,
+            "original_price": 8990,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-gsh-sh260251?_pos=1&_sid=002571d62&_ss=r&variant=48334351958235"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_TraU7F",
+        "image_slider_kafJdd",
+        "image_slider_kU67xT",
+        "image_slider_FwEd9W",
+        "main_diagram_WmMzaV",
+        "image_info_jNitwa"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "【予約】ペルシャエスニック調パターン総柄アロハシャツ",
+        "data_tit_col": "#000000",
+        "info_text_col": "#000000",
+        "price_col": "#dc0000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#fbf52c",
+        "but_col": "#013568",
+        "but_font_col2": "#fbf52c",
+        "but_col2": "#013568"
+      }
+    },
+    "image_slider_p68DwW": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_Am8AiH": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-29_e660eafd-3321-4a2c-8cca-2f598a0cc362.jpg"
+          }
+        },
+        "image_slider_HbCyy6": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-30_d73c0603-482c-4bc1-b2db-03435e31004b.jpg"
+          }
+        },
+        "image_slider_nCXeJW": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-31_0b9f6d51-e123-48e8-aeac-5558465f593c.jpg"
+          }
+        },
+        "image_slider_e89TQi": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-32_5f02539a-73c9-4fd1-a242-f05d026ae26b.jpg"
+          }
+        },
+        "main_diagram_yYitr3": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-15_ac81be6f-2d41-4b7f-bb26-3e44ada85498.jpg",
+            "main_img2": "shopify://shop_images/600x720-16_e5b6ad19-926a-4257-8fd5-69e84f838c2e.jpg"
+          }
+        },
+        "image_info_ypd8iK": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ブルーオレンジのコントラストラインで描かれたクジラやマグロ、サンゴ、貝殻などの海洋生物が、まるで海中を行進するパレードのようにリズミカルに広がる総柄デザインです。ベースには、涼やかな浅ミントグリーンを採用。そこに白い水波紋のような模様を重ねることで、海底に差し込む光の揺らめきを思わせる、透明感のある表情を演出しました。",
+            "price_discount": 10980,
+            "original_price": 10980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-zyd-sh260119?_pos=1&_sid=2d51c99cb&_ss=r&variant=48338904416475"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_Am8AiH",
+        "image_slider_HbCyy6",
+        "image_slider_nCXeJW",
+        "image_slider_e89TQi",
+        "main_diagram_yYitr3",
+        "image_info_ypd8iK"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "【予約】「夏の海底パレード」海洋生物総柄プリント入り　パール調ボタン付きアロハシャツ",
+        "data_tit_col": "#000000",
+        "info_text_col": "#000000",
+        "price_col": "#dc0000",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#fbf52c",
+        "but_col": "#013568",
+        "but_font_col2": "#fbf52c",
+        "but_col2": "#013568"
+      }
+    },
+    "background_image_4BhzfG": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2026-03-13_17-26-51.png",
+        "bg_size": "auto",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "rgba(0,0,0,0)",
+        "background_color": "linear-gradient(180deg, rgba(NaN, NaN, NaN, 1), rgba(66, 132, 219, 1) 100%, rgba(66, 132, 219, 1) 100%)",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_Fnf86E",
+    "scrolling_banner_Mq7mGT",
+    "image_EaVjqY",
+    "image_list_DhtbzJ",
+    "adjusting_spacing_FYNUYY",
+    "image_slider_qPXpEY",
+    "image_slider_W9aJzU",
+    "image_slider_jM4UN4",
+    "image_slider_TyehQi",
+    "image_list_qDDeXh",
+    "adjusting_spacing_LDjAj4",
+    "image_slider_rJgDDH",
+    "image_slider_HPzCDM",
+    "image_slider_GDpQEV",
+    "image_slider_p68DwW",
+    "background_image_4BhzfG"
+  ]
+}

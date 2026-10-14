@@ -1,0 +1,680 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4de5ffdf-527f-4fd5-998a-14b64e9ecf78": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16894097031387__4de5ffdf-527f-4fd5-998a-14b64e9ecf78-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/565-__1920.jpg",
+            "mobile_image": "shopify://shop_images/565-__1080.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16894097031387__4de5ffdf-527f-4fd5-998a-14b64e9ecf78-image-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_AW3Bpe": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_0d1d14cd-c0ae-4e1e-98cb-e7ae53c9abc6.png",
+        "mobile_image": "shopify://shop_images/720_ade17ace-2c81-4046-bf60-ded083a41b02.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_Vm3HJk": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -6,
+        "margin_top2": 0
+      }
+    },
+    "image_jump_KdxyYM": {
+      "type": "image-jump",
+      "blocks": {
+        "image_6aAY46": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_69dce4ad-f637-4c33-bb74-4183f61bedd9.png",
+            "image-id": "#data-01"
+          }
+        },
+        "image_6w79VR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_63dd7471-97e9-4169-a154-bff987f4bafe.png",
+            "image-id": "#data-02"
+          }
+        },
+        "image_bBnBwR": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_dee48cfb-05d8-41c2-8a89-c7635346d600.png",
+            "image-id": "#data-03"
+          }
+        },
+        "image_geqPMX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_068ce36f-c3b6-45fc-b04f-635eef297fed.png",
+            "image-id": "#data-04"
+          }
+        },
+        "image_TQkUhG": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/be54d57227659415e8b2ac6c16495122.png",
+            "image-id": "#data-05"
+          }
+        },
+        "image_UYanjm": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_26a14b5b-99df-43fb-b0a9-91f2ae33f2b5.png",
+            "image-id": "#data-06"
+          }
+        }
+      },
+      "block_order": [
+        "image_6aAY46",
+        "image_6w79VR",
+        "image_bBnBwR",
+        "image_geqPMX",
+        "image_TQkUhG",
+        "image_UYanjm"
+      ],
+      "settings": {
+        "background-image": "",
+        "grid": 16
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "single_image_7ezC7f": {
+      "type": "single-image",
+      "settings": {
+        "image_block_image": "shopify://shop_images/Snipaste_2024-12-17_15-57-43.jpg",
+        "image_block_image_m": "shopify://shop_images/72d383cb3945077d3c4c8600aab74b1f_8b59548f-9245-4857-9343-d90283c07d63.jpg",
+        "image_link": ""
+      }
+    },
+    "image_jump_custom_tfkNx6": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_YtG8QM": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_986b2b7e-56fb-4499-9eec-10631fdf5f95.png",
+            "image-id": "data-01",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_YtG8QM"
+      ],
+      "settings": {}
+    },
+    "ec0b544a-f4b7-4186-a6ca-71d9442af367": {
+      "type": "image-block",
+      "blocks": {
+        "template--16894097031387__ec0b544a-f4b7-4186-a6ca-71d9442af367-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_85af2243-4ec9-40af-9852-b4ea30002b16.png",
+            "image_link": "https://karakubuy.com/products/krk-515-jk91?_pos=1&_sid=7e3b367d6&_ss=r&variant=45997413826779",
+            "title_big": "セット対応　エスニック調ナバホ総柄デニムデーラードジャケット　",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "template--16894097031387__ec0b544a-f4b7-4186-a6ca-71d9442af367-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_09ec9c0b-9e77-4625-989d-a63d722de88c.png",
+            "image_link": "https://karakubuy.com/products/krk-gsh-dxrgzjk1023?_pos=1&_sid=0a876db91&_ss=r&variant=46170475921627",
+            "title_big": "ナバホ裏ボア　コーデュロイブレザージャケット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "55996599-7ad5-46c4-bf8a-14e81a08440e": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_96f54c1a-3378-4e42-9912-ea70ec254e43.png",
+            "image_link": "https://karakubuy.com/products/krk-b061-urma31?_pos=1&_sid=31fecf2ee&_ss=r&variant=46251923636443",
+            "title_big": "エスニック総柄　スタンドカラーボア中綿ジャケット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "4f3a6b27-2996-4f27-bb90-ae1b43ef3b26": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_c4ea0eb8-f2bd-4716-8262-4c853c29967d.png",
+            "image_link": "https://karakubuy.com/products/krk-ydgz-yr4272?_pos=1&_sid=7ac37db06&_ss=r&variant=46220855443675",
+            "title_big": "ツイードナバホ柄切替　スタンドカラーキルティングダウンジャケット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        }
+      },
+      "block_order": [
+        "template--16894097031387__ec0b544a-f4b7-4186-a6ca-71d9442af367-image-1",
+        "template--16894097031387__ec0b544a-f4b7-4186-a6ca-71d9442af367-image-2",
+        "55996599-7ad5-46c4-bf8a-14e81a08440e",
+        "4f3a6b27-2996-4f27-bb90-ae1b43ef3b26"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#633e35"
+      }
+    },
+    "single_image_RrYVBr": {
+      "type": "single-image",
+      "settings": {
+        "image_block_image": "shopify://shop_images/Snipaste_2024-12-17_15-57-43.jpg",
+        "image_block_image_m": "shopify://shop_images/72d383cb3945077d3c4c8600aab74b1f_8b59548f-9245-4857-9343-d90283c07d63.jpg",
+        "image_link": ""
+      }
+    },
+    "image_jump_custom_FWYDbf": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_3bepxX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_e865c1ba-488e-4869-9666-d08c22afd587.png",
+            "image-id": "data-02",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_3bepxX"
+      ],
+      "settings": {}
+    },
+    "image_block_UYzU6B": {
+      "type": "image-block",
+      "blocks": {
+        "image_at8ibD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/13_80af953f-2458-4638-b928-af44452cfd5c.png",
+            "image_link": "https://karakubuy.com/products/krk-olnwhxzpjw725?_pos=1&_sid=3afe1540b&_ss=r&variant=45907905970395",
+            "title_big": "ナバホ民族調　袖パッチワークスウェット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_WgfQkN": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/14_0914287e-fd0a-4f3b-a882-0bf8b7ffd98f.png",
+            "image_link": "https://karakubuy.com/products/krk-gsh-jdvlnwhwy809?_pos=1&_sid=6df79f935&_ss=r&variant=45938632917211",
+            "title_big": "ナバホ刺繍肘パッチ　Vガゼットプルオーバースウェット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_4tyqQY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/15_f8e8aa6f-cbec-4fb1-96cb-9dc4be15fbd4.png",
+            "image_link": "https://karakubuy.com/products/krk-zyd-nwhglwy809?_pos=1&_sid=5eee34a1c&_ss=r&variant=45996704989403",
+            "title_big": "【再入荷】ナバホ柄コンビ　ハーフジップポーラーフリースプルオーバースウェット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_cGzG4q": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/16_cea9c4cd-e44e-4034-a5c5-faba1b09be26.png",
+            "image_link": "https://karakubuy.com/products/krk-gsh-pslpjwy1111?_pos=1&_sid=0bbad5bbe&_ss=r&variant=46245703549147",
+            "title_big": "ペイズリー柄異素材コンビ　ウエスタンハーフジップフリースプルオーバー",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        }
+      },
+      "block_order": [
+        "image_at8ibD",
+        "image_WgfQkN",
+        "image_4tyqQY",
+        "image_cGzG4q"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#633e35"
+      }
+    },
+    "single_image_WgGFXR": {
+      "type": "single-image",
+      "settings": {
+        "image_block_image": "shopify://shop_images/Snipaste_2024-12-17_15-57-43.jpg",
+        "image_block_image_m": "shopify://shop_images/72d383cb3945077d3c4c8600aab74b1f_8b59548f-9245-4857-9343-d90283c07d63.jpg",
+        "image_link": ""
+      }
+    },
+    "image_jump_custom_Xzewwy": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_FHakbE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_de311687-b75e-4e3d-925d-53797c35197b.png",
+            "image-id": "data-03",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_FHakbE"
+      ],
+      "settings": {}
+    },
+    "image_block_M9BdCL": {
+      "type": "image-block",
+      "blocks": {
+        "image_UA7rhp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_e466e987-77fb-4985-b30a-ccd0e5dd619d.png",
+            "image_link": "https://karakubuy.com/products/krk-gl-1304?_pos=1&_sid=4df4e5043&_ss=r&variant=46155035869403",
+            "title_big": "ナバホ柄＆チェック柄パッチワーク　ユーズドライクプリントハーフボタンシャツ",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_Dtwhfi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_15ab2f01-6b98-4948-852d-65cd94fbeb3f.png",
+            "image_link": "https://karakubuy.com/products/krk-zyd-nzrcs1202?_pos=1&_sid=ac8636a51&_ss=r",
+            "title_big": "オーダーメイドコンチョボタン　エスニック柄パッチツイードチェックシャツ",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_t8xCVF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7_0731011e-b12e-4986-821b-995e89254262.png",
+            "image_link": "https://karakubuy.com/products/krk-gs1286?_pos=1&_sid=0964998ea&_ss=r&variant=44259900358875",
+            "title_big": "ワントーン　NAVAJO総柄ウール混ツイードオーバーシャツ",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_4dUT7x": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/8_877a541c-3af9-4e30-a6ea-90d47076d0d4.png",
+            "image_link": "https://karakubuy.com/products/krk-jd-cs7370?_pos=1&_sid=4fb6f5316&_ss=r",
+            "title_big": "ペイズリー総柄ウール混ツイードシャツ",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        }
+      },
+      "block_order": [
+        "image_UA7rhp",
+        "image_Dtwhfi",
+        "image_t8xCVF",
+        "image_4dUT7x"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#633e35"
+      }
+    },
+    "single_image_gTcATK": {
+      "type": "single-image",
+      "settings": {
+        "image_block_image": "shopify://shop_images/Snipaste_2024-12-17_15-57-43.jpg",
+        "image_block_image_m": "shopify://shop_images/72d383cb3945077d3c4c8600aab74b1f_8b59548f-9245-4857-9343-d90283c07d63.jpg",
+        "image_link": ""
+      }
+    },
+    "image_jump_custom_qnRRfn": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_YXJXLE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_64dc979d-20dd-4f0a-b0f4-7e427d095114.png",
+            "image-id": "data-04",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_YXJXLE"
+      ],
+      "settings": {}
+    },
+    "image_block_e9FQUV": {
+      "type": "image-block",
+      "blocks": {
+        "image_fQFYEb": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/17_339769dc-53fb-43af-bf16-1afee9158096.png",
+            "image_link": "https://karakubuy.com/products/krk-ly-8888?_pos=1&_sid=29b2e941b&_ss=r",
+            "title_big": "ヘビーウェイトウール製　エスニック柄ジャカード織りショールカラーカーディガン",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_HiKzHF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/18_88350744-ad2b-4357-ab7e-46f49afb2623.png",
+            "image_link": "https://karakubuy.com/products/krk-ly-02?_pos=4&_sid=8d2c0a76a&_ss=r&variant=46278347817179",
+            "title_big": "ウール混　ナバホ織りショールカラーニットカーディガン",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_QkiLdg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/19_91f9a855-d2f4-40c6-9bf0-d1c9a9e710a7.png",
+            "image_link": "https://karakubuy.com/products/krk-zyd-yghmy1120?_pos=1&_sid=b253d611e&_ss=r&variant=46285272809691",
+            "title_big": "ペイズリー総柄ジャカード織りニットセーター",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_9GApGY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20_a7a27117-da11-47ed-a651-691720f286fd.png",
+            "image_link": "https://karakubuy.com/products/krk-515-mz87?_pos=1&_sid=87fa65e20&_ss=r&variant=46229864972507",
+            "title_big": "エスニック調ナバホ柄ジャカード織りショールカラーカーディガン",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        }
+      },
+      "block_order": [
+        "image_fQFYEb",
+        "image_HiKzHF",
+        "image_QkiLdg",
+        "image_9GApGY"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#633e35"
+      }
+    },
+    "single_image_dY6drm": {
+      "type": "single-image",
+      "settings": {
+        "image_block_image": "shopify://shop_images/Snipaste_2024-12-17_15-57-43.jpg",
+        "image_block_image_m": "shopify://shop_images/72d383cb3945077d3c4c8600aab74b1f_8b59548f-9245-4857-9343-d90283c07d63.jpg",
+        "image_link": ""
+      }
+    },
+    "image_jump_custom_87NyzQ": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_Ak6AR7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/7_75899758-980b-4d87-928d-e6b0e7f66e0b.png",
+            "image-id": "data-05",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_Ak6AR7"
+      ],
+      "settings": {}
+    },
+    "image_block_Etbn3d": {
+      "type": "image-block",
+      "blocks": {
+        "image_JDV3fT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/9_d74c620b-1174-4042-84e4-64d5341e2758.png",
+            "image_link": "https://karakubuy.com/products/krk-lg-mj5389?_pos=1&_sid=8f97b1a49&_ss=r&variant=45990596182235",
+            "title_big": "エジプトシンボル ジャガード総柄ベスト",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_AhEPTe": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/10_7976f42a-11cf-4708-82e1-79d2e806b236.png",
+            "image_link": "https://karakubuy.com/products/krk-a098-mj077?_pos=1&_sid=5e9f9a69a&_ss=r&variant=46330659832027",
+            "title_big": "民族調フリースｘダイヤキルト　リバーシブル中綿ベスト",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_RYKJVW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/11_6b35fdfa-5f2f-430a-a6d3-c58b54cb5681.png",
+            "image_link": "https://karakubuy.com/products/krk-ae5321m?_pos=1&_sid=4aa09c7f1&_ss=r&variant=44465855365339",
+            "title_big": "ナバホｘひょうたんキルト　リバーシブル中綿ベスト",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_kYqpJc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/12_cb521dbe-f9c0-4d00-b0d9-bf74279502d9.png",
+            "image_link": "https://karakubuy.com/products/krk-lg-mj5385?_pos=1&_sid=a039089c8&_ss=r&variant=45968310337755",
+            "title_big": "裏エスニック調柄デニムベスト",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        }
+      },
+      "block_order": [
+        "image_JDV3fT",
+        "image_AhEPTe",
+        "image_RYKJVW",
+        "image_kYqpJc"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#633e35"
+      }
+    },
+    "single_image_UXFkgA": {
+      "type": "single-image",
+      "settings": {
+        "image_block_image": "shopify://shop_images/Snipaste_2024-12-17_15-57-43.jpg",
+        "image_block_image_m": "shopify://shop_images/72d383cb3945077d3c4c8600aab74b1f_8b59548f-9245-4857-9343-d90283c07d63.jpg",
+        "image_link": ""
+      }
+    },
+    "image_jump_custom_9cKRD6": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_hHkHTp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_ced68c6b-9c01-43bc-a963-02a974a5e6df.png",
+            "image-id": "data-06",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_hHkHTp"
+      ],
+      "settings": {}
+    },
+    "image_block_kTfEYw": {
+      "type": "image-block",
+      "blocks": {
+        "image_g9kjpk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/21_9b78b9cd-d13c-4988-9299-29d7691e1391.png",
+            "image_link": "https://karakubuy.com/products/krk-mc6007k?_pos=1&_sid=650ca99ae&_ss=r&variant=42551450370267",
+            "title_big": "レトロエスニック柄　キャンバスコンビ　ショルダーバッグ",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_hmMnU3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/22_307cba8b-f3f9-4df2-b4fd-04fe8182a0ab.png",
+            "image_link": "https://karakubuy.com/products/krk-md-tw2207651?_pos=1&_sid=ea4fcef3f&_ss=r",
+            "title_big": "選べる2柄　ナバホ＆星空 ネックウォーマー",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_E7TdNp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/23_a0ffceab-2571-45cc-8dc6-fa981c849d27.png",
+            "image_link": "https://karakubuy.com/products/krk-qms7784?_pos=1&_sid=9971dda62&_ss=r",
+            "title_big": "唐草模様 ウエスタンバックルレザーベルト",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_4iNkL8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/24_fb4485b7-1b7a-4f87-90a8-174997ae6180.png",
+            "image_link": "https://karakubuy.com/products/krk-xyj-lssbr712?_pos=1&_sid=2c34f5862&_ss=r",
+            "title_big": "ターコイズ＆チベットシルバーコンビブレスレット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        }
+      },
+      "block_order": [
+        "image_g9kjpk",
+        "image_hmMnU3",
+        "image_E7TdNp",
+        "image_4iNkL8"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#633e35"
+      }
+    },
+    "c3f52148-b5ef-4a0b-8e00-34c7cff5bf62": {
+      "type": "background-image",
+      "settings": {
+        "background_color_overlay": "#ebd5bb",
+        "background_color": ""
+      }
+    }
+  },
+  "order": [
+    "4de5ffdf-527f-4fd5-998a-14b64e9ecf78",
+    "image_AW3Bpe",
+    "adjusting_spacing_Vm3HJk",
+    "image_jump_KdxyYM",
+    "main",
+    "single_image_7ezC7f",
+    "image_jump_custom_tfkNx6",
+    "ec0b544a-f4b7-4186-a6ca-71d9442af367",
+    "single_image_RrYVBr",
+    "image_jump_custom_FWYDbf",
+    "image_block_UYzU6B",
+    "single_image_WgGFXR",
+    "image_jump_custom_Xzewwy",
+    "image_block_M9BdCL",
+    "single_image_gTcATK",
+    "image_jump_custom_qnRRfn",
+    "image_block_e9FQUV",
+    "single_image_dY6drm",
+    "image_jump_custom_87NyzQ",
+    "image_block_Etbn3d",
+    "single_image_UXFkgA",
+    "image_jump_custom_9cKRD6",
+    "image_block_kTfEYw",
+    "c3f52148-b5ef-4a0b-8e00-34c7cff5bf62"
+  ]
+}

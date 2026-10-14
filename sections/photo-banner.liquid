@@ -1,0 +1,82 @@
+{% style %}
+  @media (min-width: 767px) {
+    .data-photo-banner .data-mobile-image {
+      display: none;
+    }
+    .data-photo-banner .data-image {
+      height: 4em;
+    }
+  }
+  @media (max-width: 767px) {
+    .data-photo-banner .data-image {
+      display: none;
+    }
+    .data-photo-banner .data-mobile-image {
+      height: 4.3em;
+    }
+  }
+{% endstyle %}
+<div class="data-photo-banner">
+  <div class="photo-banner-box">
+    {% if section.settings.banner_link != blank %}
+      <a href="{{ section.settings.banner_link }}">
+    {% endif %}
+
+    <div
+      class="data-image"
+      data-sizes="auto"
+      data-parent-fit="cover"
+      style="background:{{ section.settings.photo_banner_col }}  url({{ section.settings.image | image_url: width: 1500, height: 1500 }}) no-repeat center / contain; "
+    ></div>
+    <div
+      class="data-mobile-image"
+      data-sizes="auto"
+      data-parent-fit="cover"
+      style="background:{{ section.settings.photo_banner_col }}  url({{ section.settings.mobile_image | image_url: width: 1024, height: 1024 }}) no-repeat center / 100%; "
+    ></div>
+    {% if section.settings.banner_link != blank %}
+      </a>
+    {% endif %}
+  </div>
+</div>
+{% schema %}
+{
+  "name": "Photo Banner",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image",
+      "info": "1500px * 86px recommended"
+    },
+    {
+      "type": "image_picker",
+      "id": "mobile_image",
+      "label": "Mobile image",
+      "info": "800px * 141px recommended"
+    },
+    {
+      "type": "url",
+      "id": "banner_link",
+      "label": "Banner link"
+    },
+    {
+      "type": "color",
+      "id": "photo_banner_col",
+      "label": "Banner color",
+      "default": "#FFFFFF"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Photo Banner"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+
+{% javascript %}
+{% endjavascript %}

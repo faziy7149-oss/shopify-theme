@@ -1,0 +1,249 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1635736314e4e3d1c3": {
+      "type": "rich-text",
+      "blocks": {
+        "1635736314e4e3d1c3-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "注目製品"
+          }
+        },
+        "1635736314e4e3d1c3-1": {
+          "type": "heading",
+          "settings": {
+            "title": "ミリタリーはいつもトレンドの中心にある",
+            "use_h1": false
+          }
+        },
+        "1635736314e4e3d1c3-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>DESIGN BY KARAKUBUY | 大人の強い味方！トレンドのミリタリー攻略法を解説</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1635736314e4e3d1c3-0",
+        "1635736314e4e3d1c3-1",
+        "1635736314e4e3d1c3-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "1635738036ae71c27f": {
+      "type": "slideshow",
+      "blocks": {
+        "1635738036ae71c27f-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner_PC_01_f0ee3a86-8489-4a5f-b0fc-a9076733539f.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        },
+        "1635738036ae71c27f-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/photo-1541513982013-5dc4f56697f9_29d3df43-641e-48ad-ba89-b7e51348f360.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1635738036ae71c27f-1",
+        "1635738036ae71c27f-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 1000,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 2,
+        "accessibility_info": ""
+      }
+    },
+    "163573663356216c07": {
+      "type": "rich-text",
+      "blocks": {
+        "163573663356216c07-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "INTRODUCTION"
+          }
+        },
+        "163573663356216c07-1": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "use_h1": false
+          }
+        },
+        "163573663356216c07-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>毎年浮上するキーワード「ミリタリー」ですが、今年は本気 。戦中や戦前にその原型が作られながらも、今なお多くのブランドのデザインソースとされている永遠の定番、ミリタリーウェア。<br/>ミリタリーファッションを攻略するなら。無骨なミリタリーアイテムを日常着に。そんな男らしいスタイルに憧れる方は多いはず。とはいえども、チョイスや着こなしを間違えれば、単なる“ミリオタ”になるだけ…なんて悲劇もありえます。おしゃれに着こなすには、やはり外さない選択肢を知っておくのが得策。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "163573663356216c07-0",
+        "163573663356216c07-1",
+        "163573663356216c07-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 36,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "16357368049a586ae1": {
+      "type": "slideshow",
+      "blocks": {
+        "16357368049a586ae1-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg",
+            "mobile_image": "shopify://shop_images/Mc8kW4x9Q3aRR3RkP5Im_IMG_4417.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "おすすめの着回し術",
+            "heading_max_width": 15,
+            "title_size": 50,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "<p>MILITARY STYLE</p>",
+            "enlarge_text": true,
+            "button_label_1": "Shop this",
+            "button_url_1": "",
+            "button_label_2": "Shop all",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16357368049a586ae1-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 200,
+        "height_mobile": 120,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": false,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "1635736938ed084760": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "あなたにおすすめの商品",
+        "collection": "military-also",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "1635736314e4e3d1c3",
+    "1635738036ae71c27f",
+    "163573663356216c07",
+    "main",
+    "16357368049a586ae1",
+    "1635736938ed084760"
+  ]
+}

@@ -1,0 +1,927 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "slideshow_anppW4": {
+      "type": "slideshow",
+      "blocks": {
+        "image_CNTQji": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/346__1920x780_b3e68a15-686c-4594-8d63-28074c699d1c.jpg",
+            "mobile_image": "shopify://shop_images/346__1080x1440_463f1037-873d-4794-8206-c3855299febe.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": false,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_CNTQji"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 700,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "scrolling_banner_image_iwa9TV": {
+      "type": "scrolling-banner-image",
+      "blocks": {
+        "text_8qLtym": {
+          "type": "text",
+          "settings": {
+            "text": "KARAKU PLUS LOOK BOOK FW25.",
+            "color": "#e8d09d",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_8qLtym"
+      ],
+      "name": "Scrolling banner image",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 23,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "hotspots_9QmUzC": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_JCz8xH": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 60,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 51,
+            "hotspot_y_mobile": 48,
+            "heading": "",
+            "text": "",
+            "icon": "",
+            "icon_width": 32,
+            "btn_url": "shopify://products/krk-lrj-twydazsg725",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_JCz8xH"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1104x766-1_5c4b483d-73d8-4abb-84ea-f6148f0f5eec.jpg",
+        "mobile_image": "shopify://shop_images/600x900-1_d50a9c94-82a6-4c70-a4f2-b7c92fbbc21d.jpg",
+        "hotspot_color": "#e8d09d",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_G6prkR": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_ThwGxd": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 60,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 43,
+            "hotspot_y_mobile": 48,
+            "heading": "",
+            "text": "",
+            "icon": "",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-lsx-ckrs0720?_pos=1&_sid=b1458598e&_ss=r&variant=47451451883739",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_ThwGxd"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1104x766-2_b8a73897-463d-4951-b0fa-593c2064420c.jpg",
+        "mobile_image": "shopify://shop_images/600x900-2_2d2d308e-53ef-441f-80b4-7523a7a8fae3.jpg",
+        "hotspot_color": "#e8d09d",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_yAJkad": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_rzHtEX": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 60,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 33,
+            "hotspot_y_mobile": 53,
+            "heading": "",
+            "text": "",
+            "icon": "",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-lrj-hfgt0604?_pos=1&_sid=d888e90d7&_ss=r&variant=47344615162075",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_rzHtEX"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1104x766-3_a45e4794-f813-4b5f-bc96-f5e0f3f6c566.jpg",
+        "mobile_image": "shopify://shop_images/600x900-3_8f256f80-fc86-416f-80d9-82d88b5bb7a6.jpg",
+        "hotspot_color": "#e8d09d",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_cdNGiz": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_XY7QVd": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 60,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 59,
+            "hotspot_y_mobile": 52,
+            "heading": "",
+            "text": "",
+            "icon": "",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-zyd-mzkhf0720?_pos=1&_sid=b5f39a57d&_ss=r&variant=47469226361051",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_XY7QVd"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1104x766-4_bda9092a-ca14-4093-9abf-265bead765c3.jpg",
+        "mobile_image": "shopify://shop_images/600x900-4_e99dba34-1c22-4c78-bdff-236da13574c2.jpg",
+        "hotspot_color": "#e8d09d",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_3Kk6j9": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_3aeENd": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 60,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 36,
+            "hotspot_y_mobile": 48,
+            "heading": "",
+            "text": "",
+            "icon": "",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-gsh-ydamjk0613?_pos=1&_sid=31087e541&_ss=r&variant=47491477536987",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_3aeENd"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1104x766-5_5fb3d0cf-75ae-42f6-b19e-2fa741dabb8b.jpg",
+        "mobile_image": "shopify://shop_images/600x900-5_87fb624d-24c2-41ca-bf78-adc3383cce1d.jpg",
+        "hotspot_color": "#e8d09d",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_Peyxjc": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_dgW6wr": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 60,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 64,
+            "hotspot_y_mobile": 48,
+            "heading": "",
+            "text": "",
+            "icon": "",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-lsx-wfrt0725?_pos=1&_sid=54633441a&_ss=r&variant=47377408491739",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_dgW6wr"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1104x766-6_bc877e1a-8a45-416a-9132-4ee7e3905d45.jpg",
+        "mobile_image": "shopify://shop_images/600x900-6_0d703d15-55ac-4723-be64-d3ba9c9a8fde.jpg",
+        "hotspot_color": "#e8d09d",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_JyUyYw": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_FaXLKa": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 60,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 34,
+            "hotspot_y_mobile": 48,
+            "heading": "",
+            "text": "",
+            "icon": "",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-lrj-bglwy0422?_pos=1&_sid=b12e79438&_ss=r&variant=47497310666971",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_FaXLKa"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1104x766-7_a4519f5f-7f27-4077-b040-06d4c4c40288.jpg",
+        "mobile_image": "shopify://shop_images/600x900-7_6a39d784-ebee-456d-ab34-9e83871a90ee.jpg",
+        "hotspot_color": "#e8d09d",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_YYEHd4": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_jRahBP": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 60,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 31,
+            "hotspot_y_mobile": 55,
+            "heading": "",
+            "text": "",
+            "icon": "",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-gsh-dnmkew0710?_pos=1&_sid=7cce27743&_ss=r&variant=47490548367579",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_jRahBP"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1104x766-8_4cc835f2-a7ea-49b8-b9e9-e16d70783c67.jpg",
+        "mobile_image": "shopify://shop_images/600x900-8_39878e79-bbf8-4d94-8b83-436dc987c628.jpg",
+        "hotspot_color": "#e8d09d",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_7Q6WVW": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_U3a3hE": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 60,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 72,
+            "hotspot_y_mobile": 60,
+            "heading": "",
+            "text": "",
+            "icon": "",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-lsx-hbsk0516?_pos=1&_sid=dbb1b3c85&_ss=r&variant=47477702263003",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_U3a3hE"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1104x766-9_2aeb62e3-4a48-43d5-bbf7-c1519a2b16f7.jpg",
+        "mobile_image": "shopify://shop_images/600x900-9_148bedea-dbfe-4fc1-ab56-4f5bf49f9c96.jpg",
+        "hotspot_color": "#e8d09d",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_BrcnYp": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_4cmCG6": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 60,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 67,
+            "hotspot_y_mobile": 59,
+            "heading": "",
+            "text": "",
+            "icon": "",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-lsx-jhblqi?_pos=1&_sid=1d676a09f&_ss=r&variant=47440630415579",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_4cmCG6"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1104x766-10_d679706b-e471-4c0f-83c8-0d73bf8e6ba7.jpg",
+        "mobile_image": "shopify://shop_images/600x900-10_b1bf6b08-0615-4907-8a86-b18ffdb28d74.jpg",
+        "hotspot_color": "#e8d09d",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_KUTqD4": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_AJEQaH": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 60,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 67,
+            "hotspot_y_mobile": 57,
+            "heading": "",
+            "text": "",
+            "icon": "",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-zyd-stjk0808?_pos=1&_sid=1c230a669&_ss=r&variant=47494592659675",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_AJEQaH"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1104x766-11_a0a1c073-4300-427d-ab25-5d77a62f9951.jpg",
+        "mobile_image": "shopify://shop_images/600x900-11_47b9ab7b-bc0e-4617-9811-9dc0ad9fce76.jpg",
+        "hotspot_color": "#e8d09d",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_h9iiPP": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_YJBpNP": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 60,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 35,
+            "hotspot_y_mobile": 53,
+            "heading": "",
+            "text": "",
+            "icon": "",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-lsx-jlwljk0430?_pos=1&_sid=2c57de00e&_ss=r&variant=47290698793179",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_YJBpNP"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1104x766-12_5bb13ae1-8229-4bba-83ee-a596c9114789.jpg",
+        "mobile_image": "shopify://shop_images/600x900-12.jpg",
+        "hotspot_color": "#e8d09d",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_7t4fRi": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_nPD4Q4": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 60,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 40,
+            "hotspot_y_mobile": 48,
+            "heading": "",
+            "text": "",
+            "icon": "",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-lrj-dzncxc0425?_pos=1&_sid=a871d80d0&_ss=r&variant=47300899340507",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_nPD4Q4"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1104x766-13_71855770-57e2-42c0-b3c7-feff9db8a0dd.jpg",
+        "mobile_image": "shopify://shop_images/600x900-13_61383b8e-81da-46fe-a135-eedd01b29cf1.jpg",
+        "hotspot_color": "#e8d09d",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_NmWxQc": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_RtJJti": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 60,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 64,
+            "hotspot_y_mobile": 60,
+            "heading": "",
+            "text": "",
+            "icon": "",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-zyd-tqist0704?_pos=1&_sid=f87cf9973&_ss=r&variant=47304375828699",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_RtJJti"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1104x766-14_197b310b-6a5c-424a-af7e-5ca949a7db55.jpg",
+        "mobile_image": "shopify://shop_images/600x900-14_09e5f6c6-f5a2-4455-b919-0752d55ca341.jpg",
+        "hotspot_color": "#e8d09d",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_G7kYwB": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_tmh7hN": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 60,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 62,
+            "hotspot_y_mobile": 48,
+            "heading": "",
+            "text": "",
+            "icon": "",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-lrj-jhjk0612?_pos=1&_sid=3747a3c01&_ss=r&variant=47481301336283",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_tmh7hN"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1104x766-15_4ee4ef9d-4d89-4ada-b6ec-a03a412b8b46.jpg",
+        "mobile_image": "shopify://shop_images/600x900-15_a1617465-6be1-4a8a-96db-0f2aea91b594.jpg",
+        "hotspot_color": "#e8d09d",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_QjTCHW": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_QDpQaQ": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 60,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 34,
+            "hotspot_y_mobile": 58,
+            "heading": "",
+            "text": "",
+            "icon": "",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-lsx-jhplxw0704?_pos=1&_sid=53f135ca6&_ss=r&variant=47498606739675",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_QDpQaQ"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1104x766-16_709de99b-c7c1-4238-a578-75d86aaa6900.jpg",
+        "mobile_image": "shopify://shop_images/600x900-16_04ee0d4b-b90c-4687-9dd2-cf78b87acf1c.jpg",
+        "hotspot_color": "#e8d09d",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "hotspots_wJ8HQt": {
+      "type": "hotspots",
+      "blocks": {
+        "hotspot_ekcRgX": {
+          "type": "hotspot",
+          "settings": {
+            "hotspot_x": 60,
+            "hotspot_y": 54,
+            "hotspot_x_mobile": 69,
+            "hotspot_y_mobile": 57,
+            "heading": "",
+            "text": "",
+            "icon": "",
+            "icon_width": 32,
+            "btn_url": "https://karakubuy.com/products/krk-gsh-xkptwy0430?_pos=1&_sid=7ef2c4be2&_ss=r&variant=47390405394651",
+            "btn_text": "MORE"
+          }
+        }
+      },
+      "block_order": [
+        "hotspot_ekcRgX"
+      ],
+      "name": "Hotspots",
+      "settings": {
+        "image": "shopify://shop_images/1104x766-17_e1539587-8e65-41f1-aa8d-d3b362c4be11.jpg",
+        "mobile_image": "shopify://shop_images/600x900-17_831fb193-5bdf-478e-9bf2-fbdef64bba74.jpg",
+        "hotspot_color": "#e8d09d",
+        "button_content": "plus",
+        "outer_circle": "pulse",
+        "full_width": true,
+        "text_alignment": "top left",
+        "overlay_style": "shadow",
+        "subheading": "",
+        "title": "",
+        "use_h1": false,
+        "heading_max_width": 10,
+        "text": "",
+        "button_1_label": "",
+        "button_1_link": "",
+        "button_1_style": "secondary",
+        "button_2_label": "",
+        "button_2_link": "",
+        "button_2_style": "primary"
+      }
+    },
+    "background_image_8H7GgG": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-07-30_10-40-42_5425be4e-1cee-4c4d-960d-40588ae8b9e1.jpg",
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#f5f5f5",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "slideshow_anppW4",
+    "scrolling_banner_image_iwa9TV",
+    "hotspots_9QmUzC",
+    "hotspots_G6prkR",
+    "hotspots_yAJkad",
+    "hotspots_cdNGiz",
+    "hotspots_3Kk6j9",
+    "hotspots_Peyxjc",
+    "hotspots_JyUyYw",
+    "hotspots_YYEHd4",
+    "hotspots_7Q6WVW",
+    "hotspots_BrcnYp",
+    "hotspots_KUTqD4",
+    "hotspots_h9iiPP",
+    "hotspots_7t4fRi",
+    "hotspots_NmWxQc",
+    "hotspots_G7kYwB",
+    "hotspots_QjTCHW",
+    "hotspots_wJ8HQt",
+    "background_image_8H7GgG",
+    "main"
+  ]
+}

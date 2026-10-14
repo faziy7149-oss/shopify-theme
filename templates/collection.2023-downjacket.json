@@ -1,0 +1,593 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "326e060d-48fc-4858-9fa4-d25001782c74": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17129336078555__326e060d-48fc-4858-9fa4-d25001782c74-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PC_36cedb59-ea3e-44bc-941f-36309a5a371f.jpg",
+            "mobile_image": "shopify://shop_images/M_90e61417-5643-462f-ae14-144cd66eeb2c.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17129336078555__326e060d-48fc-4858-9fa4-d25001782c74-image-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "ae5ebc69-1e46-432e-8b18-e1e04f018669": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "template--17129336078555__ae5ebc69-1e46-432e-8b18-e1e04f018669-image-3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/24f316ff22c6e89697f5a15160d9a797_f66bffb2-29d8-4697-9c40-ee410907de5d.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--17129336078555__ae5ebc69-1e46-432e-8b18-e1e04f018669-image-3"
+      ],
+      "settings": {}
+    },
+    "c8d7ddcf-de94-4eb2-91c0-6de61ef3b18c": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/2_2-1_bb9287e7-2d2b-497d-9d2e-b1e6d518b854.png",
+        "mobile_image": "shopify://shop_images/8_c86a0e2e-7396-460a-ac2f-7dbca54b799a.png",
+        "img_rul": ""
+      }
+    },
+    "e73ff688-aa58-43dc-995f-2423824668cc": {
+      "type": "image-slider",
+      "blocks": {
+        "template--17129336078555__e73ff688-aa58-43dc-995f-2423824668cc-imageSlider-1": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TS2207229-1.jpg"
+          }
+        },
+        "template--17129336078555__e73ff688-aa58-43dc-995f-2423824668cc-imageSlider-2": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TS2207229-4.jpg"
+          }
+        },
+        "template--17129336078555__e73ff688-aa58-43dc-995f-2423824668cc-imageSlider-3": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TS2207229-2.jpg"
+          }
+        },
+        "template--17129336078555__e73ff688-aa58-43dc-995f-2423824668cc-imageSlider-4": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TS2207229-1.jpg"
+          }
+        },
+        "template--17129336078555__e73ff688-aa58-43dc-995f-2423824668cc-mainDiagram-1": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/EmptyName.jpg",
+            "main_img2": "shopify://shop_images/1028-7.jpg"
+          }
+        },
+        "template--17129336078555__e73ff688-aa58-43dc-995f-2423824668cc-imageInfo-1": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "袖取り外し可能な2wayタイプをセレクト！ダウンベストとマウンテンダウンジャケットを簡単にスイッチ！二つのスタイルが楽しめるアイテムなので着回し抜群！",
+            "price_discount": 25193,
+            "original_price": 33590,
+            "but_tex": "CHECK IT",
+            "btn_url": "https://karakubuy.com/products/krk-md-ts2207229?_pos=1&_sid=58504256c&_ss=r&variant=43527663386843"
+          }
+        }
+      },
+      "block_order": [
+        "template--17129336078555__e73ff688-aa58-43dc-995f-2423824668cc-imageSlider-1",
+        "template--17129336078555__e73ff688-aa58-43dc-995f-2423824668cc-imageSlider-2",
+        "template--17129336078555__e73ff688-aa58-43dc-995f-2423824668cc-imageSlider-3",
+        "template--17129336078555__e73ff688-aa58-43dc-995f-2423824668cc-imageSlider-4",
+        "template--17129336078555__e73ff688-aa58-43dc-995f-2423824668cc-mainDiagram-1",
+        "template--17129336078555__e73ff688-aa58-43dc-995f-2423824668cc-imageInfo-1"
+      ],
+      "settings": {
+        "data_title": "【袖取り外し可能】ベスト・ダウンジャケット",
+        "data_tit_col": "#000000",
+        "info_text_col": "#bf0000",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "12cfe347-1168-4e2b-b08f-e4fe2c49a301": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/2_9b8c1d06-8c80-462e-aafa-fc19d2aea2a4.png",
+        "mobile_image": "shopify://shop_images/4_709b4fc4-26a5-4334-9159-ea24fe449c48.png",
+        "img_rul": ""
+      }
+    },
+    "962fde87-61fe-4296-8950-32fbb73a4db4": {
+      "type": "image-slider",
+      "blocks": {
+        "template--17129336078555__962fde87-61fe-4296-8950-32fbb73a4db4-imageSlider-1": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/18_720x_6e70539c-d4dc-4072-a501-14b8864caa4a.jpg"
+          }
+        },
+        "template--17129336078555__962fde87-61fe-4296-8950-32fbb73a4db4-imageSlider-2": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TS2307272-1.jpg"
+          }
+        },
+        "template--17129336078555__962fde87-61fe-4296-8950-32fbb73a4db4-imageSlider-3": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TS2307272-3.jpg"
+          }
+        },
+        "template--17129336078555__962fde87-61fe-4296-8950-32fbb73a4db4-imageSlider-4": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TS2307272-2.jpg"
+          }
+        },
+        "template--17129336078555__962fde87-61fe-4296-8950-32fbb73a4db4-mainDiagram-1": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/3_372444a7-a3ea-4383-b1e0-6e946279d17d.jpg",
+            "main_img2": "shopify://shop_images/EmptyName_3.jpg"
+          }
+        },
+        "template--17129336078555__962fde87-61fe-4296-8950-32fbb73a4db4-imageInfo-1": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "防水性のあるダウンなら雨の日でも安心な一枚を！撥水加工はもちろん、水滴をよく弾く工夫を施したダウンは、水滴がコロコロと転がり落ちるほど高い防水性を発揮。",
+            "price_discount": 33980,
+            "original_price": 33980,
+            "but_tex": "CHECK IT",
+            "btn_url": "https://karakubuy.com/products/krk-md-ts2307272?_pos=1&_sid=d374508d7&_ss=r&variant=44420854677723"
+          }
+        }
+      },
+      "block_order": [
+        "template--17129336078555__962fde87-61fe-4296-8950-32fbb73a4db4-imageSlider-1",
+        "template--17129336078555__962fde87-61fe-4296-8950-32fbb73a4db4-imageSlider-2",
+        "template--17129336078555__962fde87-61fe-4296-8950-32fbb73a4db4-imageSlider-3",
+        "template--17129336078555__962fde87-61fe-4296-8950-32fbb73a4db4-imageSlider-4",
+        "template--17129336078555__962fde87-61fe-4296-8950-32fbb73a4db4-mainDiagram-1",
+        "template--17129336078555__962fde87-61fe-4296-8950-32fbb73a4db4-imageInfo-1"
+      ],
+      "settings": {
+        "data_title": "撥水機能付きダックダウンジャケット",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "536cf515-fafc-4b85-b9d3-973755d23cb7": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/3_36afad57-a028-4da7-9349-7d82bac9b701.png",
+        "mobile_image": "shopify://shop_images/6_8c83c188-5d41-4ce8-8edc-d04da9da575e.png",
+        "img_rul": ""
+      }
+    },
+    "bdcbc2be-8d55-4941-83d8-5365f2b5d81d": {
+      "type": "image-slider",
+      "blocks": {
+        "template--17129336078555__bdcbc2be-8d55-4941-83d8-5365f2b5d81d-imageSlider-1": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TS2207217-1.jpg"
+          }
+        },
+        "template--17129336078555__bdcbc2be-8d55-4941-83d8-5365f2b5d81d-imageSlider-2": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TS2207217-2.jpg"
+          }
+        },
+        "template--17129336078555__bdcbc2be-8d55-4941-83d8-5365f2b5d81d-imageSlider-3": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TS2207217-4.jpg"
+          }
+        },
+        "template--17129336078555__bdcbc2be-8d55-4941-83d8-5365f2b5d81d-imageSlider-4": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TS2207217-3.jpg"
+          }
+        },
+        "template--17129336078555__bdcbc2be-8d55-4941-83d8-5365f2b5d81d-mainDiagram-1": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/EmptyName_5.jpg",
+            "main_img2": "shopify://shop_images/4_0d6ce864-6cc0-4193-80f9-f71890b2e032.jpg"
+          }
+        },
+        "template--17129336078555__bdcbc2be-8d55-4941-83d8-5365f2b5d81d-imageInfo-1": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "折り畳めてコンパクトになるパッカブルタイプをセレクト！コンパクトに収納することができる、シンプルながらも機能面が充実した本アイテムをおススメ！",
+            "price_discount": 15980,
+            "original_price": 19980,
+            "but_tex": "CHECK IT",
+            "btn_url": "https://karakubuy.com/products/krk-md-ts2207217?_pos=1&_sid=c5c1ac7d4&_ss=r&variant=43480870715611"
+          }
+        }
+      },
+      "block_order": [
+        "template--17129336078555__bdcbc2be-8d55-4941-83d8-5365f2b5d81d-imageSlider-1",
+        "template--17129336078555__bdcbc2be-8d55-4941-83d8-5365f2b5d81d-imageSlider-2",
+        "template--17129336078555__bdcbc2be-8d55-4941-83d8-5365f2b5d81d-imageSlider-3",
+        "template--17129336078555__bdcbc2be-8d55-4941-83d8-5365f2b5d81d-imageSlider-4",
+        "template--17129336078555__bdcbc2be-8d55-4941-83d8-5365f2b5d81d-mainDiagram-1",
+        "template--17129336078555__bdcbc2be-8d55-4941-83d8-5365f2b5d81d-imageInfo-1"
+      ],
+      "settings": {
+        "data_title": "ライトダウンフーディー　厚手",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "35361a71-dd46-421d-a8e7-2fa9b98ab34f": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/3_1c6c1ac3-fc2a-4c6f-b0eb-f3fd3afba2f7.png",
+        "mobile_image": "shopify://shop_images/12_0288d96e-ca32-46c5-9b21-41f2ce7bdc77.png",
+        "img_rul": ""
+      }
+    },
+    "32150a76-74bd-4459-937e-93398234be9b": {
+      "type": "image-slider",
+      "blocks": {
+        "template--17129336078555__32150a76-74bd-4459-937e-93398234be9b-imageSlider-1": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TS2307294-1.jpg"
+          }
+        },
+        "template--17129336078555__32150a76-74bd-4459-937e-93398234be9b-imageSlider-2": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TS2307294-2.jpg"
+          }
+        },
+        "template--17129336078555__32150a76-74bd-4459-937e-93398234be9b-imageSlider-3": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TS2307294-4.jpg"
+          }
+        },
+        "template--17129336078555__32150a76-74bd-4459-937e-93398234be9b-imageSlider-4": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TS2307294-1.jpg"
+          }
+        },
+        "template--17129336078555__32150a76-74bd-4459-937e-93398234be9b-mainDiagram-1": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/EmptyName_4.jpg",
+            "main_img2": "shopify://shop_images/2_46c9a302-bbbe-43d7-a994-8a08b23a880f.jpg"
+          }
+        },
+        "template--17129336078555__32150a76-74bd-4459-937e-93398234be9b-imageInfo-1": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "季節感ならコーデュロイ！表地には優しい手触りでしっとりした上質な太畝コーデュロイを使用したダウンジャケットを見逃さないでください！",
+            "price_discount": 33282,
+            "original_price": 36980,
+            "but_tex": "CHECK IT",
+            "btn_url": "https://karakubuy.com/products/krk-md-ts2307294?_pos=1&_sid=a7a0d4fff&_ss=r&variant=44546630451419"
+          }
+        }
+      },
+      "block_order": [
+        "template--17129336078555__32150a76-74bd-4459-937e-93398234be9b-imageSlider-1",
+        "template--17129336078555__32150a76-74bd-4459-937e-93398234be9b-imageSlider-2",
+        "template--17129336078555__32150a76-74bd-4459-937e-93398234be9b-imageSlider-3",
+        "template--17129336078555__32150a76-74bd-4459-937e-93398234be9b-imageSlider-4",
+        "template--17129336078555__32150a76-74bd-4459-937e-93398234be9b-mainDiagram-1",
+        "template--17129336078555__32150a76-74bd-4459-937e-93398234be9b-imageInfo-1"
+      ],
+      "settings": {
+        "data_title": "太畝コーデュロイスタンドカラーダウンジャケット",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "0ace6e46-e93b-479b-9519-910a68efb3a2": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/2_18966ae5-95c2-4863-b6fc-c94d8f761afb.png",
+        "mobile_image": "shopify://shop_images/2_5.png",
+        "img_rul": ""
+      }
+    },
+    "d283c17f-0774-4bee-a8d7-79c9fc44071f": {
+      "type": "image-slider",
+      "blocks": {
+        "template--17129336078555__d283c17f-0774-4bee-a8d7-79c9fc44071f-imageSlider-1": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TS2207012-5.jpg"
+          }
+        },
+        "template--17129336078555__d283c17f-0774-4bee-a8d7-79c9fc44071f-imageSlider-2": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TS2207012-4.jpg"
+          }
+        },
+        "template--17129336078555__d283c17f-0774-4bee-a8d7-79c9fc44071f-imageSlider-3": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TS2207012-5.jpg"
+          }
+        },
+        "template--17129336078555__d283c17f-0774-4bee-a8d7-79c9fc44071f-imageSlider-4": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TS2207012-3.jpg"
+          }
+        },
+        "template--17129336078555__d283c17f-0774-4bee-a8d7-79c9fc44071f-mainDiagram-1": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/6_b4144752-36a4-4938-a715-1811c7f538e5.jpg",
+            "main_img2": "shopify://shop_images/EmptyName_1_191ef413-570e-48c1-800e-93db9dd9ffe0.jpg"
+          }
+        },
+        "template--17129336078555__d283c17f-0774-4bee-a8d7-79c9fc44071f-imageInfo-1": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "すっきりと着られるミニマルな１枚をセレクト！着膨れを防ぐならキルトステッチを隠したダウンを選ぶのが正解。表面はマットな質感で肌触りも非常によい。",
+            "price_discount": 25590,
+            "original_price": 29980,
+            "but_tex": "CHECK IT",
+            "btn_url": "https://karakubuy.com/products/krk-md-ts2207012?_pos=1&_sid=9b8597856&_ss=r&variant=43676863135963"
+          }
+        }
+      },
+      "block_order": [
+        "template--17129336078555__d283c17f-0774-4bee-a8d7-79c9fc44071f-imageSlider-1",
+        "template--17129336078555__d283c17f-0774-4bee-a8d7-79c9fc44071f-imageSlider-2",
+        "template--17129336078555__d283c17f-0774-4bee-a8d7-79c9fc44071f-imageSlider-3",
+        "template--17129336078555__d283c17f-0774-4bee-a8d7-79c9fc44071f-imageSlider-4",
+        "template--17129336078555__d283c17f-0774-4bee-a8d7-79c9fc44071f-mainDiagram-1",
+        "template--17129336078555__d283c17f-0774-4bee-a8d7-79c9fc44071f-imageInfo-1"
+      ],
+      "settings": {
+        "data_title": "アウトドア・フード付きダックダウンジャケット",
+        "data_tit_col": "#000000",
+        "info_text_col": "#6d7175",
+        "price_col": "#6d7175",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "c9472e24-2c30-4792-97ec-e04976f2fbab": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/2_2_6391f9e2-739e-4590-8c1b-21a29bcb643b.png",
+        "mobile_image": "shopify://shop_images/10_d0332e29-ad94-4afa-9c15-39eb925cdae2.png",
+        "img_rul": ""
+      }
+    },
+    "fb5275d1-a721-418b-a023-795eb099b833": {
+      "type": "image-slider",
+      "blocks": {
+        "template--17129336078555__fb5275d1-a721-418b-a023-795eb099b833-imageSlider-1": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TS2307234-4.jpg"
+          }
+        },
+        "template--17129336078555__fb5275d1-a721-418b-a023-795eb099b833-imageSlider-2": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TS2307234-3.jpg"
+          }
+        },
+        "template--17129336078555__fb5275d1-a721-418b-a023-795eb099b833-imageSlider-3": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TS2307234-2.jpg"
+          }
+        },
+        "template--17129336078555__fb5275d1-a721-418b-a023-795eb099b833-imageSlider-4": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KRK-MD-TS2307234-4.jpg"
+          }
+        },
+        "template--17129336078555__fb5275d1-a721-418b-a023-795eb099b833-mainDiagram-1": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/EmptyName_2.jpg",
+            "main_img2": "shopify://shop_images/1_6342372e-f087-4e67-89ab-30ccc3ae88bf.jpg"
+          }
+        },
+        "template--17129336078555__fb5275d1-a721-418b-a023-795eb099b833-imageInfo-1": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "スッキリ感が魅力のダウンジャケットなら？スペイジャケット特有のクラシカルなディテールは残しながらも、シルエットは現代のトレンドに合わせた。",
+            "price_discount": 30582,
+            "original_price": 33980,
+            "but_tex": "CHECK IT",
+            "btn_url": "https://karakubuy.com/products/krk-md-ts2307234?_pos=1&_sid=2dfdb94f3&_ss=r&variant=44421068718299"
+          }
+        }
+      },
+      "block_order": [
+        "template--17129336078555__fb5275d1-a721-418b-a023-795eb099b833-imageSlider-1",
+        "template--17129336078555__fb5275d1-a721-418b-a023-795eb099b833-imageSlider-2",
+        "template--17129336078555__fb5275d1-a721-418b-a023-795eb099b833-imageSlider-3",
+        "template--17129336078555__fb5275d1-a721-418b-a023-795eb099b833-imageSlider-4",
+        "template--17129336078555__fb5275d1-a721-418b-a023-795eb099b833-mainDiagram-1",
+        "template--17129336078555__fb5275d1-a721-418b-a023-795eb099b833-imageInfo-1"
+      ],
+      "settings": {
+        "data_title": "襟コーデュロイ　ダウンスペイジャケット",
+        "data_tit_col": "#100f0f",
+        "info_text_col": "#ffffff",
+        "price_col": "#ffffff",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#000000",
+        "but_col": "#ffffff",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "7def9be5-eab2-42e0-b1e7-0e31d724b877": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2023-12-19_14-57-02.jpg"
+      }
+    },
+    "tag_link_XgAL6f": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    }
+  },
+  "order": [
+    "326e060d-48fc-4858-9fa4-d25001782c74",
+    "ae5ebc69-1e46-432e-8b18-e1e04f018669",
+    "c8d7ddcf-de94-4eb2-91c0-6de61ef3b18c",
+    "e73ff688-aa58-43dc-995f-2423824668cc",
+    "12cfe347-1168-4e2b-b08f-e4fe2c49a301",
+    "962fde87-61fe-4296-8950-32fbb73a4db4",
+    "536cf515-fafc-4b85-b9d3-973755d23cb7",
+    "bdcbc2be-8d55-4941-83d8-5365f2b5d81d",
+    "35361a71-dd46-421d-a8e7-2fa9b98ab34f",
+    "32150a76-74bd-4459-937e-93398234be9b",
+    "0ace6e46-e93b-479b-9519-910a68efb3a2",
+    "d283c17f-0774-4bee-a8d7-79c9fc44071f",
+    "c9472e24-2c30-4792-97ec-e04976f2fbab",
+    "fb5275d1-a721-418b-a023-795eb099b833",
+    "main",
+    "7def9be5-eab2-42e0-b1e7-0e31d724b877",
+    "tag_link_XgAL6f"
+  ]
+}

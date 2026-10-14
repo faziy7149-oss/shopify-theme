@@ -1,0 +1,786 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "slideshow_MBDJNB": {
+      "type": "slideshow",
+      "blocks": {
+        "image_QVbM4V": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PC-1920x780_be78fb22-5827-4866-b952-1cd0a2b245e8.jpg",
+            "mobile_image": "shopify://shop_images/MB-1080x1440.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": false,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_QVbM4V"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 480,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "divider_PKQXAa": {
+      "type": "divider",
+      "settings": {}
+    },
+    "adjusting_spacing_B3DEfm": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -1,
+        "margin_top2": -2
+      }
+    },
+    "rich_text_nDTexy": {
+      "type": "rich-text",
+      "blocks": {
+        "text_kQycTt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>「アップデート」をキーワードに、<br/>ワードローブに新たな定番として加えたいボトムスをご紹介します。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_kQycTt"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "adjusting_spacing_jnrkem": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -3,
+        "margin_top2": -3
+      }
+    },
+    "url_text_fdcjwm": {
+      "type": "url-text",
+      "settings": {
+        "url_text": "https://karakubuy.com/collections/%E6%96%B0%E7%9D%80-%E3%83%9C%E3%83%88%E3%83%A0%E3%82%B9",
+        "text_url": "新着一覧",
+        "btn_color": "#dfa249",
+        "btn_color_hover": "#dfa249",
+        "btn_text_color": "#ffffff",
+        "btn_text_color_hover": "#ffffff",
+        "url_font_weight": "normal",
+        "url_font_size_pc": 25,
+        "url_font_size_moble": 16,
+        "img_postion_size_pc": 55,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "image_PyrK9X": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/PC-1.png",
+        "mobile_image": "shopify://shop_images/MB-1.png",
+        "img_rul": ""
+      }
+    },
+    "image_slider_4bmzMa": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_RXL6Nx": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/1_1e42c8cf-7006-4ec4-b5a0-b5023ac82a7f.jpg"
+          }
+        },
+        "image_slider_qKwAfC": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/3_ee8967d3-b014-40a9-9d6d-07626375600f.jpg"
+          }
+        },
+        "image_slider_GAXrWe": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/2_97f01cb3-0703-4c2e-845e-f8ecbcf125b3.jpg"
+          }
+        },
+        "image_slider_qcYQga": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/4_a341c3fd-c74c-4ce5-ab5f-dde585b3dc69.jpg"
+          }
+        },
+        "main_diagram_wXPEKL": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/1_94334ff5-21e3-4f20-acde-014b5af8146d.jpg",
+            "main_img2": "shopify://shop_images/2_baee7644-e26e-4fef-8a56-1fa7745bd9a7.jpg"
+          }
+        },
+        "image_info_h9FWfn": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ストレートシルエットを採用することで、脚のラインを拾いすぎず、体型を選ばずに着用できる。ワイドシルエットではないため、カジュアルすぎず、きれいめなスタイルにも合わせやすい。",
+            "price_discount": 10980,
+            "original_price": 10980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-a037-ck093?_pos=1&_sid=a1f15332f&_ss=r&variant=46408017084635"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_RXL6Nx",
+        "image_slider_qKwAfC",
+        "image_slider_GAXrWe",
+        "image_slider_qcYQga",
+        "main_diagram_wXPEKL",
+        "image_info_h9FWfn"
+      ],
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#ffffff",
+        "price_col": "#fc2c18",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#f6ed52",
+        "but_col": "#fc2c18",
+        "but_font_col2": "#fc2c18",
+        "but_col2": "#f6ed52"
+      }
+    },
+    "image_reVPTp": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/PC-2_96693ef5-353f-4f56-9ce5-42ab77e6293c.png",
+        "mobile_image": "shopify://shop_images/MB-2.png",
+        "img_rul": ""
+      }
+    },
+    "image_slider_TMLh6J": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_w484hz": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/5_44c61bba-f3db-40f0-aefc-692e61089c91.jpg"
+          }
+        },
+        "image_slider_Lhhd3V": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/7_9cbb44a6-0cf2-445a-be43-1360d2cc5977.jpg"
+          }
+        },
+        "image_slider_JyRgyV": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/6_cd478838-21ae-45a8-a5c5-ddf1d297a0df.jpg"
+          }
+        },
+        "image_slider_6wVbUA": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/8_76bda906-ead6-438b-be0d-496d4f54da5d.jpg"
+          }
+        },
+        "main_diagram_mTRg3B": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/3_f71932da-01a1-4ed7-8b15-71c3f4be1d92.jpg",
+            "main_img2": "shopify://shop_images/4_ae6e0798-89bc-4ccc-9464-2b87bad7291f.jpg"
+          }
+        },
+        "image_info_wLDjr8": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "大きなポケットがサイドに配置されて、スマートフォンや財布などの収納に便利、視覚的なポイントとなり、シンプルなデザインに個性を加える。",
+            "price_discount": 10980,
+            "original_price": 10980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-020-k104?_pos=1&_sid=42ff11119&_ss=r&variant=46402091909339"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_w484hz",
+        "image_slider_Lhhd3V",
+        "image_slider_JyRgyV",
+        "image_slider_6wVbUA",
+        "main_diagram_mTRg3B",
+        "image_info_wLDjr8"
+      ],
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#ffffff",
+        "price_col": "#fc2c18",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#f6ed52",
+        "but_col": "#fc2c18",
+        "but_font_col2": "#fc2c18",
+        "but_col2": "#f6ed52"
+      }
+    },
+    "image_xideNf": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/PC-3.png",
+        "mobile_image": "shopify://shop_images/MB-3.png",
+        "img_rul": ""
+      }
+    },
+    "image_slider_KDCTdz": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_6NXnP4": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/9_34f0bbe1-8b30-459d-8180-2df3172b4458.jpg"
+          }
+        },
+        "image_slider_BTtqTi": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/11_2ec5dbba-1eb7-42f8-a30b-90e30895583b.jpg"
+          }
+        },
+        "image_slider_GcHnaH": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/10_ddbf5466-f3e0-4683-9383-efa12d6a0d91.jpg"
+          }
+        },
+        "image_slider_bEzGWg": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/12_58dd6655-92aa-4fb9-befd-2096908e5d2c.jpg"
+          }
+        },
+        "main_diagram_pnWhHU": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/5_a4ff82db-9408-4f9f-9e8d-c440633ab69b.jpg",
+            "main_img2": "shopify://shop_images/6_ee7c758c-e2b6-4e5d-bda0-11235767df0a.jpg"
+          }
+        },
+        "image_info_CfNEVh": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "スエード調の素材は、上品さと高級感を演出。 一般的なスウェットパンツとは異なり、洗練された印象を与える。ウエスト部分はゴム仕様で、着脱が容易で快適な履き心地を実現。左腿に英字がミニ刺繡されて、控えめながら上品で洗練された印象を与え。刺繡はプリントより高級感があり、耐久性にも優れている。",
+            "price_discount": 10980,
+            "original_price": 10980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-md-th2407353?variant=46395213152475"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_6NXnP4",
+        "image_slider_BTtqTi",
+        "image_slider_GcHnaH",
+        "image_slider_bEzGWg",
+        "main_diagram_pnWhHU",
+        "image_info_CfNEVh"
+      ],
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#ffffff",
+        "price_col": "#fc2c18",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#f6ed52",
+        "but_col": "#fc2c18",
+        "but_font_col2": "#fc2c18",
+        "but_col2": "#f6ed52"
+      }
+    },
+    "image_Xiphch": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/PC-4.png",
+        "mobile_image": "shopify://shop_images/MB-4.png",
+        "img_rul": ""
+      }
+    },
+    "image_slider_C7pAir": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_mCAyjH": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/13_d3af8dde-690f-49e7-9299-9cd7a08b9428.jpg"
+          }
+        },
+        "image_slider_acCxME": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/14_3d7a67c4-5402-45af-a84c-efd5a8976d2e.jpg"
+          }
+        },
+        "image_slider_a4RUkt": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/15_4509772b-0373-444a-ad3f-007085e7c019.jpg"
+          }
+        },
+        "image_slider_m8XkHE": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/16_338d6fae-74e1-4953-9020-ebc60471a51f.jpg"
+          }
+        },
+        "main_diagram_3gD8UM": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/7_0e8047e1-cb7b-4c45-9eec-1a007634dc1d.jpg",
+            "main_img2": "shopify://shop_images/8_8d93f49e-7cf1-479b-9552-2bc95e7223d1.jpg"
+          }
+        },
+        "image_info_meDddK": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": " 本アイテムは軍用パンツのディティールを取り入れながら、武骨さを軽減し、カジュアルに履けるのが人気のポイント。",
+            "price_discount": 12980,
+            "original_price": 12980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-020-k3016?_pos=1&_sid=f0bbe2441&_ss=r&variant=46381258080475"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_mCAyjH",
+        "image_slider_acCxME",
+        "image_slider_a4RUkt",
+        "image_slider_m8XkHE",
+        "main_diagram_3gD8UM",
+        "image_info_meDddK"
+      ],
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#ffffff",
+        "price_col": "#fc2c18",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#f6ed52",
+        "but_col": "#fc2c18",
+        "but_font_col2": "#fc2c18",
+        "but_col2": "#f6ed52"
+      }
+    },
+    "image_kGAWpT": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/PC-5.png",
+        "mobile_image": "shopify://shop_images/MB-5.png",
+        "img_rul": ""
+      }
+    },
+    "image_slider_MgP6EE": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_Xc4KNm": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/17_a59db397-40bc-4d40-99cc-b2947810b8b7.jpg"
+          }
+        },
+        "image_slider_3LGXGL": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/19_69001ef2-9cb4-4597-8741-b6562ac014ca.jpg"
+          }
+        },
+        "image_slider_xWpXcD": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/20_404d2049-0c8f-40d4-8058-45ca2c41a47f.jpg"
+          }
+        },
+        "image_slider_8RtBqQ": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/18_20d85087-1849-459b-a1f8-4786af4bb115.jpg"
+          }
+        },
+        "main_diagram_QPWbjD": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/10_48b12f78-ef19-4097-9ea7-ea81471c2c9f.jpg",
+            "main_img2": "shopify://shop_images/9_1c16e7c4-8519-4b93-9363-566c98fd5b84.jpg"
+          }
+        },
+        "image_info_DQEYHh": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ヴィンテージ感あふれるウォッシュド加工を施したカーゴイージーパンツ。カジュアルでリラックスした着心地と、ディテールにこだわったデザインが魅力です。",
+            "price_discount": 11980,
+            "original_price": 11980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-a037-ck077?_pos=1&_sid=e0e3b2024&_ss=r&variant=46382493434075"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_Xc4KNm",
+        "image_slider_3LGXGL",
+        "image_slider_xWpXcD",
+        "image_slider_8RtBqQ",
+        "main_diagram_QPWbjD",
+        "image_info_DQEYHh"
+      ],
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#ffffff",
+        "price_col": "#fc2c18",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#f6ed52",
+        "but_col": "#fc2c18",
+        "but_font_col2": "#fc2c18",
+        "but_col2": "#f6ed52"
+      }
+    },
+    "image_JTPewb": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/PC-6.png",
+        "mobile_image": "shopify://shop_images/MB-6.png",
+        "img_rul": ""
+      }
+    },
+    "image_slider_Hrbx9R": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_ycYrhp": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/24_85712488-7ff7-4647-b263-04fbf78bfec2.jpg"
+          }
+        },
+        "image_slider_67JCjJ": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/21_2f235651-4aa9-4545-ad44-1d9d44baba7b.jpg"
+          }
+        },
+        "image_slider_cj9xPF": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/23_f76c11ff-0f03-4de6-aeab-2f146b06d991.jpg"
+          }
+        },
+        "image_slider_yzMaPg": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/22_25ffdb09-7bc0-430f-a2d3-a38a917cef39.jpg"
+          }
+        },
+        "main_diagram_JeM3fF": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/11_697fb82f-77c1-4dc8-8b81-16954cb18d57.jpg",
+            "main_img2": "shopify://shop_images/12_fcd602ea-ee92-47ab-be86-f39cfb5ee844.jpg"
+          }
+        },
+        "image_info_QwLHXX": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ヴィンテージ感とタフなディテールを兼ね備えた、実用的かつスタイリッシュなワークパンツ。独自のウォッシュド加工により、自然な風合いと深みのある色合いを実現。穿き込むほどに味わいが増し、個性を引き立てます。",
+            "price_discount": 12980,
+            "original_price": 12980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-a019-449?_pos=1&_sid=305013f90&_ss=r&variant=46375371866331"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_ycYrhp",
+        "image_slider_67JCjJ",
+        "image_slider_cj9xPF",
+        "image_slider_yzMaPg",
+        "main_diagram_JeM3fF",
+        "image_info_QwLHXX"
+      ],
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#ffffff",
+        "price_col": "#fc2c18",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#f6ed52",
+        "but_col": "#fc2c18",
+        "but_font_col2": "#fc2c18",
+        "but_col2": "#f6ed52"
+      }
+    },
+    "image_xpdP7Q": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/PC-7.png",
+        "mobile_image": "shopify://shop_images/MB-7.png",
+        "img_rul": ""
+      }
+    },
+    "image_slider_Uw8F3h": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_EJJ9EP": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/25_1d0a45e3-4224-47f9-98c7-7cefe27c9a87.jpg"
+          }
+        },
+        "image_slider_rFWWGQ": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/26_77f12e95-e18e-451a-b7f9-a1b98b914bc8.jpg"
+          }
+        },
+        "image_slider_kYpe3m": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/28_6b75e613-00aa-4212-9321-342fb6443879.jpg"
+          }
+        },
+        "image_slider_q8aYBN": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/27_6d98faf0-84c1-4a00-bd8f-69d1afb868fb.jpg"
+          }
+        },
+        "main_diagram_343BmF": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/13_a7322f9a-147c-4e3a-9938-7230047e5b2a.jpg",
+            "main_img2": "shopify://shop_images/14_3.jpg"
+          }
+        },
+        "image_info_ihHRiC": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "定番のスウェットパンツをベースにしたデザインで、ゆったりとしたシルエットで、リラックスした着心地を重視している。",
+            "price_discount": 10980,
+            "original_price": 10980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-27-p976?_pos=1&_sid=736675345&_ss=r&variant=46370927444187"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_EJJ9EP",
+        "image_slider_rFWWGQ",
+        "image_slider_kYpe3m",
+        "image_slider_q8aYBN",
+        "main_diagram_343BmF",
+        "image_info_ihHRiC"
+      ],
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#ffffff",
+        "price_col": "#fc2c18",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#f6ed52",
+        "but_col": "#fc2c18",
+        "but_font_col2": "#fc2c18",
+        "but_col2": "#f6ed52"
+      }
+    },
+    "image_ccPUf3": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/PC-8.png",
+        "mobile_image": "shopify://shop_images/MB-8.png",
+        "img_rul": ""
+      }
+    },
+    "image_slider_iGDCRA": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_zTiqLM": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/29_5684b454-cf7f-4907-b1b0-93c7424eb051.jpg"
+          }
+        },
+        "image_slider_HfWh9w": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/30_6551db16-481d-4e10-9803-ff6a07fd8122.jpg"
+          }
+        },
+        "image_slider_8Yzxdf": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/32_72a93302-397a-4cd4-839c-c306afd22a7c.jpg"
+          }
+        },
+        "image_slider_PbVtRH": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/31_8e7cfcfb-31db-4e6e-b5ab-409121e6d45d.jpg"
+          }
+        },
+        "main_diagram_GYqXwE": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/16_1_85805e03-77a5-40bf-bdde-1aca1d23d9b2.jpg",
+            "main_img2": "shopify://shop_images/14_3.jpg"
+          }
+        },
+        "image_info_A3xkGV": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ウエスト部分はゴムとドローコードで調整できる仕様で、着脱が容易で、快適な着用感を実現している。ワイド感とリラックス感のあるシルエットで、斜めに配置されたフラップポケットが都会的で品のある表情も感じさせる。",
+            "price_discount": 11980,
+            "original_price": 11980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-27-p972?_pos=1&_sid=a86ca93dc&_ss=r&variant=46370944319707"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_zTiqLM",
+        "image_slider_HfWh9w",
+        "image_slider_8Yzxdf",
+        "image_slider_PbVtRH",
+        "main_diagram_GYqXwE",
+        "image_info_A3xkGV"
+      ],
+      "settings": {
+        "data_title": "",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#ffffff",
+        "price_col": "#fc2c18",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#f6ed52",
+        "but_col": "#fc2c18",
+        "but_font_col2": "#fc2c18",
+        "but_col2": "#f6ed52"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "small",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 50,
+        "grid": 5,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": false,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "background_image_TCkHMe": {
+      "type": "background-image",
+      "settings": {
+        "background_color_overlay": "#d6d3a8",
+        "background_color": ""
+      }
+    },
+    "featured_collection_MhTzNh": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ボトムス一覧",
+        "collection": "新着-ボトムス",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "slideshow_MBDJNB",
+    "divider_PKQXAa",
+    "adjusting_spacing_B3DEfm",
+    "rich_text_nDTexy",
+    "adjusting_spacing_jnrkem",
+    "url_text_fdcjwm",
+    "image_PyrK9X",
+    "image_slider_4bmzMa",
+    "image_reVPTp",
+    "image_slider_TMLh6J",
+    "image_xideNf",
+    "image_slider_KDCTdz",
+    "image_Xiphch",
+    "image_slider_C7pAir",
+    "image_kGAWpT",
+    "image_slider_MgP6EE",
+    "image_JTPewb",
+    "image_slider_Hrbx9R",
+    "image_xpdP7Q",
+    "image_slider_Uw8F3h",
+    "image_ccPUf3",
+    "image_slider_iGDCRA",
+    "main",
+    "background_image_TCkHMe",
+    "featured_collection_MhTzNh"
+  ]
+}

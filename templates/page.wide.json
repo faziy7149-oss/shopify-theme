@@ -1,0 +1,308 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "full_width": true
+      }
+    },
+    "2ada0c25-769b-4330-af38-bca1d010309b": {
+      "type": "slideshow",
+      "blocks": {
+        "template--15421978280155__2ada0c25-769b-4330-af38-bca1d010309b-1683883381bd61d022-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/627.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        },
+        "template--15421978280155__2ada0c25-769b-4330-af38-bca1d010309b-1683883381bd61d022-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "slide_link": "",
+            "subheading": "Subheading",
+            "title": "Tell your story",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "<p>Pair text with an image to tell a story</p>",
+            "enlarge_text": true,
+            "button_label_1": "Shop this",
+            "button_url_1": "",
+            "button_label_2": "Shop all",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--15421978280155__2ada0c25-769b-4330-af38-bca1d010309b-1683883381bd61d022-0",
+        "template--15421978280155__2ada0c25-769b-4330-af38-bca1d010309b-1683883381bd61d022-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "cd7528fa-603d-4941-8ca3-93f1d9dccd88": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15421978280155__cd7528fa-603d-4941-8ca3-93f1d9dccd88-1682220305164b8d1b-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "Subheading"
+          }
+        },
+        "template--15421978280155__cd7528fa-603d-4941-8ca3-93f1d9dccd88-1682220305164b8d1b-1": {
+          "type": "heading",
+          "settings": {
+            "title": "KaraKuのアフィリエイトプログラムに参加しませんか？",
+            "use_h1": false
+          }
+        },
+        "template--15421978280155__cd7528fa-603d-4941-8ca3-93f1d9dccd88-1682220305164b8d1b-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>KaraKuでは、WEBサイトを運営されている方、SNSアカウントをお持ちで積極的に発信されているインフルエンサーの方を募集しています。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15421978280155__cd7528fa-603d-4941-8ca3-93f1d9dccd88-1682220305164b8d1b-0",
+        "template--15421978280155__cd7528fa-603d-4941-8ca3-93f1d9dccd88-1682220305164b8d1b-1",
+        "template--15421978280155__cd7528fa-603d-4941-8ca3-93f1d9dccd88-1682220305164b8d1b-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "5681c516-6aca-4d79-b793-f23c45d28ca2": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_tq8dx7": {
+          "type": "heading",
+          "settings": {
+            "title": "コラボ特典",
+            "use_h1": false
+          }
+        },
+        "text_FM6jgC": {
+          "type": "text",
+          "settings": {
+            "text": "<p>無料で商品をプレゼント購入金額10万以上で、売上高10％のリベートがもらう</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_zQtAkP": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read more",
+            "button_link": "https://join.collabs.shopify.com/community/apply/P3sP0m6PJbk",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_tq8dx7",
+        "text_FM6jgC",
+        "button_zQtAkP"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/image_processing20230413-1-vvhfp6.jpg",
+        "image_width": 700,
+        "image_link": "https://join.collabs.shopify.com/community/apply/P3sP0m6PJbk",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "84c65f19-34fd-439a-a1d5-d268f4886a6e": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_mV9BrD": {
+          "type": "heading",
+          "settings": {
+            "title": "KaraKuBuyについて",
+            "use_h1": false
+          }
+        },
+        "text_C9mbQF": {
+          "type": "text",
+          "settings": {
+            "text": "<p>SINCE 2015</p><p>私たちは復刻で過去に敬意を表し </p><p>革新で未来を創造します</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_jxpMgM": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read more",
+            "button_link": "https://karakubuy.com/pages/karakubuy",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_mV9BrD",
+        "text_C9mbQF",
+        "button_jxpMgM"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/image_processing20230413-1-gxv2ti.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "73b8c10c-2ad6-4848-a4bb-ca8b298e0fc3": {
+      "type": "rich-text",
+      "blocks": {
+        "template--15421978280155__73b8c10c-2ad6-4848-a4bb-ca8b298e0fc3-1682220305164b8d1b-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "登録方法"
+          }
+        },
+        "template--15421978280155__73b8c10c-2ad6-4848-a4bb-ca8b298e0fc3-1682220305164b8d1b-1": {
+          "type": "heading",
+          "settings": {
+            "title": "登録方法",
+            "use_h1": false
+          }
+        },
+        "template--15421978280155__73b8c10c-2ad6-4848-a4bb-ca8b298e0fc3-1682220305164b8d1b-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Email:  businesscorp@karaku.com</p><p><strong>・メールタイトル「アフィリエイト」で下記をお知らせください。</strong></p><p>①お名前　②お電話番号　③運営されているWEBサイトのURL　または　SNSアカウント</p><p>・内容確認後、担当者より招待メールを発行させて頂きます。※アカウント数に制限がある為、応募多数の場合は先着順となります。予めご了承下さいませ。</p><p>・ご登録頂いた方は、専用のリンクを作成出来ます。WEBサイトやSNSにリンクを追加して宣伝して下さい。</p><p>・リンク経由のご注文について10%～20％までの報酬が支払われる仕組みとなっております。</p><h6><strong>お問い合わせ</strong></h6><p>実際の商品をご着用頂いての投稿やアフィリエイトプログラムに関するご質問・お問い合わせもメールにて承っております。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--15421978280155__73b8c10c-2ad6-4848-a4bb-ca8b298e0fc3-1682220305164b8d1b-0",
+        "template--15421978280155__73b8c10c-2ad6-4848-a4bb-ca8b298e0fc3-1682220305164b8d1b-1",
+        "template--15421978280155__73b8c10c-2ad6-4848-a4bb-ca8b298e0fc3-1682220305164b8d1b-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "168222279563c8bb25": {
+      "type": "apps",
+      "blocks": {
+        "f89f8a49-0741-46f4-b5b5-b4604db45415": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-card-carousel-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "maxWidth": 1100,
+            "borderRadius": 8,
+            "itemsPerView": 4,
+            "mobileItemsPerView": 1,
+            "maxNumberOfCharacters": 100,
+            "imageRatio": "0.72",
+            "reviewerNameColor": "#000000",
+            "textColor": "#000000",
+            "itemBackgroundColor": "#ffffff",
+            "starsColor": "",
+            "starsBackgroundColor": "#ffffff",
+            "arrows_backgroundColor": "#ffffff",
+            "arrows_iconColor": "#9a9a9a",
+            "shadow": "offset-dark",
+            "border_active": false,
+            "border_width": 2,
+            "border_color": "#000000",
+            "productIds": ""
+          }
+        }
+      },
+      "block_order": [
+        "f89f8a49-0741-46f4-b5b5-b4604db45415"
+      ],
+      "settings": {
+        "full_width": true,
+        "show_space": true
+      }
+    },
+    "967d2af5-1f1c-4b4d-8bc0-0541f1e01dbd": {
+      "type": "background-video",
+      "disabled": true,
+      "settings": {
+        "video_external": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_description": "",
+        "placeholder_image": "shopify://shop_images/maxresdefault.webp",
+        "text_alignment": "center center",
+        "height_desktop": 740,
+        "height_mobile": 500,
+        "full_width": true,
+        "overlay_style": "full"
+      }
+    },
+    "427936bc-01cf-430d-86f5-6d12b8f32114": {
+      "type": "video",
+      "settings": {
+        "video_external": "https://youtu.be/eytl-oxG43w?si=TIpIr0H3HklwjhS8",
+        "video_description": "",
+        "placeholder_image": "shopify://shop_images/maxresdefault.webp",
+        "text_alignment": "center center",
+        "full_width": true,
+        "overlay_style": "no_background"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "2ada0c25-769b-4330-af38-bca1d010309b",
+    "cd7528fa-603d-4941-8ca3-93f1d9dccd88",
+    "5681c516-6aca-4d79-b793-f23c45d28ca2",
+    "84c65f19-34fd-439a-a1d5-d268f4886a6e",
+    "73b8c10c-2ad6-4848-a4bb-ca8b298e0fc3",
+    "168222279563c8bb25",
+    "967d2af5-1f1c-4b4d-8bc0-0541f1e01dbd",
+    "427936bc-01cf-430d-86f5-6d12b8f32114"
+  ]
+}

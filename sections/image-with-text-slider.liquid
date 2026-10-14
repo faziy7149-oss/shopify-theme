@@ -1,0 +1,262 @@
+<style>
+  #section-id-{{ section.id }}.fully-padded-row--medium{
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+  @media (min-width: 768px) {
+    #section-id-{{ section.id }} .imageWith-slider-wrap{
+      display: flex;
+      justify-content: space-around;
+    }
+    #section-id-{{ section.id }} .slider-item {
+      flex-grow: 1;
+      align-content: center;
+    }
+    #section-id-{{ section.id }} .imageWith-slider-left-img{
+      max-width: 700px;
+    }
+    #section-id-{{ section.id }} .imageWith-slider-right {
+      max-width: 600px;
+    }
+  }
+  @media (max-width: 767px) {
+    #section-id-{{ section.id }} .imageWith-slider-right {
+      margin-top: 20px;
+    }
+  }
+
+
+</style>
+<div
+  id="section-id-{{ section.id }}"
+  class="{% if section.settings.color_scheme != 'default' %}use-color-scheme use-color-scheme--{{ section.settings.color_scheme }} fully-padded-row--medium{% else %}fully-spaced-row--medium{% endif %}"
+>
+  <div class="container">
+    <div class="swiper">
+      <div class="swiper-wrapper">
+        {% for block in section.blocks %}
+          <div class="imageWith-slider-wrap swiper-slide">
+            {% comment %} 左侧图片区域 {% endcomment %}
+            <div class="imageWith-slider-left slider-item">
+              <div class="imageWith-slider-left-img">
+                {% render 'image' with block.settings.slider_img, sizes: '(min-width: 768px) 740px, 100vw', custom_aspect_ratio: section.settings.crop_ratio, loading: 'lazy', class: 'imageWith-slider-left-img__img' %}
+              </div>
+            </div>
+  
+            {% comment %} 右侧文字区域 {% endcomment %}
+            <div class="imageWith-slider-right slider-item">
+              <div class="feature-text-paired">
+                {% if block.settings.use_h1 %}
+                  <h1 class="majortitle in-content" {{ block.shopify_attributes }}>
+                    {{ block.settings.title | escape }}
+                  </h1>
+                {% else %}
+                  <h2 class="majortitle in-content h1" {{ block.shopify_attributes }}>
+                    {{ block.settings.title | escape }}
+                  </h2>
+                {% endif %}
+                <div
+                  class="rte lightly-spaced-row {% if block.settings.enlarge_text %}large-text{% endif %}"
+                  {{ block.shopify_attributes }}
+                >
+                  {{ block.settings.text }}
+                </div>
+  
+                <div class="lightly-spaced-row button-row" {{ block.shopify_attributes }}>
+                  <a
+                    class="{% if block.settings.button_style != 'link' %}btn btn--{{ block.settings.button_style }}{% else %}small-feature-link{% endif %} button-row__btn"
+                    href="{{ block.settings.button_link }}"
+                  >
+                    {{- block.settings.button_label | escape -}}
+                  </a>
+                  {%- assign skip_block_count = 0 -%}
+                  {%- for next_block in section.blocks offset: forloop.index -%}
+                    {%- if next_block.type == 'button' -%}
+                      {%- assign skip_block_count = skip_block_count | plus: 1 -%}
+                      <a
+                        class="{% if next_block.settings.button_style != 'link' %}btn btn--{{ next_block.settings.button_style }}{% else %}small-feature-link{% endif %} button-row__btn"
+                        href="{{ next_block.settings.button_link }}"
+                        {{ block.shopify_attributes }}
+                      >
+                        {{- next_block.settings.button_label | escape -}}
+                      </a>
+                    {%- else -%}
+                      {%- break -%}
+                    {%- endif -%}
+                  {%- endfor -%}
+                </div>
+              </div>
+            </div>
+          </div>
+        {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Image with text slider",
+  "settings": [
+    {
+      "type": "select",
+      "id": "color_scheme",
+      "label": "Color scheme",
+      "default": "default",
+      "options": [
+        {
+          "value": "default",
+          "label": "Default"
+        },
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "crop_ratio",
+      "label": "Image aspect ratio",
+      "options": [
+        {
+          "value": "",
+          "label": "Natural (no crop)"
+        },
+        {
+          "value": "0.67",
+          "label": "Portrait (2:3)"
+        },
+        {
+          "value": "1.0",
+          "label": "Square (1:1)"
+        },
+        {
+          "value": "1.33",
+          "label": "Landscape (4:3)"
+        },
+        {
+          "value": "1.78",
+          "label": "Wide (16:9)"
+        }
+      ],
+      "default": "1.78"
+    },
+    {
+      "type": "checkbox",
+      "id": "enable_arrows",
+      "label": "Turn on automatic rotation",
+      "default": false
+    }
+  ],
+  "blocks": [
+    {
+      "type": "TextSlider",
+      "name": "TextSlider",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "slider_img",
+          "label": "Image"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Heading",
+          "default": "Image with text"
+        },
+        {
+          "type": "checkbox",
+          "id": "use_h1",
+          "label": "Set as primary page heading",
+          "info": "Use <h1> tag. One per page recommended. [Read more](https://cleancanvas.co.uk/support/symmetry/section-h1-setting)",
+          "default": false
+        },
+        {
+          "type": "richtext",
+          "id": "text",
+          "label": "Text",
+          "default": "<p>Pair text with an image to give customers insight into your brand. Tell a story, explain a product detail, or describe a new promotion.</p>"
+        },
+        {
+          "type": "checkbox",
+          "id": "enlarge_text",
+          "label": "Enlarge text",
+          "default": false
+        },
+        {
+          "type": "text",
+          "id": "button_label",
+          "label": "Button",
+          "default": "Button text"
+        },
+        {
+          "type": "url",
+          "id": "button_link",
+          "label": "Button link"
+        },
+        {
+          "type": "select",
+          "id": "button_style",
+          "label": "Button style",
+          "default": "primary",
+          "options": [
+            {
+              "label": "Primary",
+              "value": "primary"
+            },
+            {
+              "label": "Secondary",
+              "value": "secondary"
+            },
+            {
+              "label": "Link",
+              "value": "link"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image with text slider",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "TextSlider"
+        },
+        {
+          "type": "TextSlider"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+
+<script>        
+  var mySwiper33 = new Swiper ('#section-id-{{ section.id }} .swiper', {
+    // loop: true, // 循环模式选项
+    slidesPerView: 1,
+    {% if section.settings.enable_arrows %}
+    // 自动播放
+    autoplay: {
+      delay: 6000, //4秒切换一次
+      pauseOnMouseEnter: true,
+    },
+    {% endif %}
+
+    // 响应式布局
+    breakpoints: {
+      768: {
+        //当屏幕宽度大于等于320
+        slidesPerView: 1,
+      }
+    }
+  })  
+  </script>

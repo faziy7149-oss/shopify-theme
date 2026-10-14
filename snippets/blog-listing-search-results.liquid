@@ -1,0 +1,89 @@
+{%- liquid
+  comment
+    Search Section Rendering on /search often drops custom query params (bl_blog).
+    Do NOT filter by blog handle in Liquid — emit data-article-blog-handle on each
+    card and let blog-listing.js filter to the page's source blog.
+  endcomment
+  assign results_query = search_query | default: ''
+  assign frame_active_year = active_year | default: ''
+-%}
+
+<section
+  class="blog-listing blog-listing--search-results"
+  id="blog-listing-{{ section.id }}"
+  data-section-id="{{ section.id }}"
+  data-search-query="{{ results_query | escape }}"
+  data-filter-blog-handle=""
+  data-active-year="{{ frame_active_year | escape }}"
+  data-posts-per-page="{{ posts_per_page }}"
+  data-current-page="{{ paginate.current_page }}"
+  data-total-pages="{{ paginate.pages }}"
+>
+  <div class="blog-listing__inner">
+    <div
+      class="
+        blog-listing__grid
+        blog-listing__grid--cols-desktop-{{ section.settings.desktop_columns }}
+        blog-listing__grid--cols-mobile-{{ section.settings.mobile_columns }}
+        blog-listing__grid--gap-{{ section.settings.gap }}
+      "
+      data-blog-listing-grid
+    >
+      {%- assign has_search_results = false -%}
+      {%- for item in search.results -%}
+        {%- liquid
+          assign item_ok = false
+          assign item_blog_handle = ''
+          if item.object_type == 'article'
+            assign item_ok = true
+            if item.blog != blank
+              assign item_blog_handle = item.blog.handle
+            endif
+          endif
+          if item_ok and frame_active_year != blank
+            unless item.tags contains frame_active_year
+              assign item_ok = false
+            endunless
+          endif
+        -%}
+        {%- if item_ok -%}
+          {%- assign has_search_results = true -%}
+          <article
+            class="blog-listing__card"
+            data-article-card
+            data-article-blog-handle="{{ item_blog_handle | escape }}"
+            data-title="{{ item.title | escape }}"
+            data-tags="{{ item.tags | join: ',' | escape }}"
+            data-year="{{ item.published_at | date: '%Y' }}"
+            data-published-at="{{ item.published_at | date: '%s' }}"
+          >
+            {%- render 'article-card',
+              article: item,
+              read_more_text: section.settings.read_more_text
+            -%}
+          </article>
+        {%- endif -%}
+      {%- endfor -%}
+      {%- unless has_search_results -%}
+        <div class="blog-listing__empty" data-empty-search>
+          No articles found for "{{ results_query | escape }}".
+        </div>
+      {%- endunless -%}
+    </div>
+
+    <footer class="blog-listing__footer">
+      {%- if paginate.next -%}
+        <button
+          type="button"
+          class="blog-listing__load-more"
+          data-load-more
+          data-next-page="{{ paginate.current_page | plus: 1 }}"
+        >
+          <span class="blog-listing__load-more-label">
+            {{ section.settings.load_more_text | escape }}
+          </span>
+        </button>
+      {%- endif -%}
+    </footer>
+  </div>
+</section>

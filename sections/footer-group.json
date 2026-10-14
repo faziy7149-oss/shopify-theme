@@ -1,0 +1,125 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "type": "footer",
+  "name": "Footer Group",
+  "sections": {
+    "cross-page-promos": {
+      "type": "cross-page-promos",
+      "blocks": {
+        "1478526632862": {
+          "type": "icon",
+          "settings": {
+            "icon": "star",
+            "text": "高品質保証",
+            "link_url": "shopify://pages/karakubuy"
+          }
+        },
+        "1478526647261": {
+          "type": "icon",
+          "settings": {
+            "icon": "chat_bubble",
+            "text": "オンラインストアガイド",
+            "link_url": "https://minipia.myshopify.com/pages/karakushopingguide"
+          }
+        },
+        "1478527611164": {
+          "type": "icon",
+          "disabled": true,
+          "settings": {
+            "icon": "gift",
+            "text": "安心の返金/返品交換",
+            "link_url": "shopify://policies/refund-policy"
+          }
+        },
+        "icon_WCThnV": {
+          "type": "icon",
+          "settings": {
+            "icon": "gift",
+            "text": "安心の返金/返品交換",
+            "link_url": "shopify://policies/refund-policy"
+          }
+        }
+      },
+      "block_order": [
+        "1478526632862",
+        "1478526647261",
+        "1478527611164",
+        "icon_WCThnV"
+      ],
+      "custom_css": [
+        "@media (max-width: 767.98px) {.flexible-layout .column {width: 33.33% !important; } .flexible-layout {flex-wrap: nowrap; flex-direction: row; } .flexible-layout .column, .fixed-layout .column {margin-bottom: 0; }}"
+      ],
+      "settings": {
+        "cross_page_promo_bg": "#000000",
+        "cross_page_promo_color": "#ffffff",
+        "show_on_home_page": true
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "menu_YDkLyj": {
+          "type": "menu",
+          "settings": {
+            "title": "オンラインストア情報",
+            "menu": "company-info-1"
+          }
+        },
+        "1601374650582": {
+          "type": "menu",
+          "settings": {
+            "title": "ヘルプ＆サポート",
+            "menu": "link-list-5"
+          }
+        },
+        "1601374680247": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "title": "KARAKUについて",
+            "text": "<p><a href=\"https://karaku.co.kr/\" target=\"_blank\" title=\"https://karaku.co.kr/\">KARAKU KR<br/></a><a href=\"https://shopkaraku.com/\" target=\"_blank\" title=\"https://shopkaraku.com/\">KARAKU EN</a></p><p><a href=\"https://shopkaraku.com/\" target=\"_blank\" title=\"https://shopkaraku.com/\"><br/><br/></a></p>",
+            "image_width": 150,
+            "show_social_icons": false,
+            "soc_icons_large": false,
+            "enable_follow_on_shop": false
+          }
+        },
+        "1601374580731": {
+          "type": "newsletter",
+          "settings": {
+            "title": "メールマガジン",
+            "text": "<p>ご登録いただいた方に、最新スタイルや限定キャンペーンなど、さまざまな情報をお届けします。</p>",
+            "button_style": "primary",
+            "show_social_icons": true,
+            "soc_icons_large": true
+          }
+        }
+      },
+      "block_order": [
+        "menu_YDkLyj",
+        "1601374650582",
+        "1601374680247",
+        "1601374580731"
+      ],
+      "settings": {
+        "lower_menu": "",
+        "show_powered_by": true,
+        "show_payment_icons": true,
+        "enable_country_selector": false,
+        "enable_language_selector": false
+      }
+    }
+  },
+  "order": [
+    "cross-page-promos",
+    "footer"
+  ]
+}

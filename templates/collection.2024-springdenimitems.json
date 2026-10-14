@@ -1,0 +1,300 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "326e060d-48fc-4858-9fa4-d25001782c74": {
+      "type": "slideshow",
+      "blocks": {
+        "template--17129336078555__326e060d-48fc-4858-9fa4-d25001782c74-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1920_6ecdfeba-7b87-48c0-8f4c-9d7b7a073f7e.jpg",
+            "mobile_image": "shopify://shop_images/20240415-181243.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--17129336078555__326e060d-48fc-4858-9fa4-d25001782c74-image-2"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 720,
+        "height_mobile": 580,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_HGUF4f": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/07c010576b2c80d009774ccb20238702.png",
+        "mobile_image": "shopify://shop_images/700.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_wpfbpi": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -1
+      }
+    },
+    "ae5ebc69-1e46-432e-8b18-e1e04f018669": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_DCrABc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/03___p1_01_9f51d7bf-7794-4d6e-aa2b-94121d25f986.png",
+            "image-id": "",
+            "image_link": "https://karakubuy.com/products/krk-jk139?_pos=1&_sid=51213373f&_ss=r&variant=44266130473179"
+          }
+        }
+      },
+      "block_order": [
+        "image_DCrABc"
+      ],
+      "settings": {}
+    },
+    "featured_collection_iHzzE9": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "DENIM JACKET",
+        "collection": "denim-jacket",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "adjusting_spacing_Vk7HEU": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 2,
+        "margin_top2": 1
+      }
+    },
+    "image_jump_custom_8WmwT6": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_Kwa8yD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/03___p1_02_9e2de21c-3637-42ea-adb9-f6f5fce81c40.jpg",
+            "image-id": "",
+            "image_link": "https://karakubuy.com/products/md-ts2101023?_pos=4&_sid=99a2b2768&_ss=r&variant=40084292796594"
+          }
+        }
+      },
+      "block_order": [
+        "image_Kwa8yD"
+      ],
+      "settings": {}
+    },
+    "featured_collection_tn9qni": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "DENIM OVERALL",
+        "collection": "denim-overalls",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "adjusting_spacing_WiMNm7": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 2,
+        "margin_top2": 1
+      }
+    },
+    "image_jump_custom_jnDK7h": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_FLDKHY": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/03___p1_03_66e7a1a3-1b95-4866-8f0e-77c79b8b65f1.jpg",
+            "image-id": "",
+            "image_link": "https://karakubuy.com/products/md-1802038?_pos=2&_sid=60995a3b2&_ss=r"
+          }
+        }
+      },
+      "block_order": [
+        "image_FLDKHY"
+      ],
+      "settings": {}
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "background_image_84RdtJ": {
+      "type": "background-image",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-03-15_15-30-06.jpg"
+      }
+    },
+    "featured_collection_GCcRTR": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "DENIM PANTS",
+        "collection": "spring-denim-pants",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "adjusting_spacing_cwWwyE": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 2,
+        "margin_top2": 1
+      }
+    },
+    "image_jump_custom_eKiQgQ": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_rJqDBQ": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/03___p1_04.png",
+            "image-id": "",
+            "image_link": "https://karakubuy.com/products/krk-lg-ae5353c?_pos=1&_sid=ebcb09403&_ss=r&variant=45171150356699"
+          }
+        }
+      },
+      "block_order": [
+        "image_rJqDBQ"
+      ],
+      "settings": {}
+    },
+    "featured_collection_TeHYcV": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "DENIM SHIRT",
+        "collection": "denim-shirt",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "tag_link_Njiejg": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    }
+  },
+  "order": [
+    "326e060d-48fc-4858-9fa4-d25001782c74",
+    "image_HGUF4f",
+    "adjusting_spacing_wpfbpi",
+    "ae5ebc69-1e46-432e-8b18-e1e04f018669",
+    "featured_collection_iHzzE9",
+    "adjusting_spacing_Vk7HEU",
+    "image_jump_custom_8WmwT6",
+    "featured_collection_tn9qni",
+    "adjusting_spacing_WiMNm7",
+    "image_jump_custom_jnDK7h",
+    "main",
+    "background_image_84RdtJ",
+    "featured_collection_GCcRTR",
+    "adjusting_spacing_cwWwyE",
+    "image_jump_custom_eKiQgQ",
+    "featured_collection_TeHYcV",
+    "tag_link_Njiejg"
+  ]
+}

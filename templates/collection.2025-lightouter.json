@@ -1,0 +1,426 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "slideshow_8qNtct": {
+      "type": "slideshow",
+      "blocks": {
+        "image_ikCAr7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/444__1920x780_1c7d8ff3-1cd7-40bb-afcc-8473bdff236f.jpg",
+            "mobile_image": "shopify://shop_images/444__1080x1440_7c1309e2-0c2d-40bc-840c-6d1101bf083b.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_ikCAr7"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_9wa8e7": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_673135e6-a291-4ba7-abb0-8dfa8e70d53e.png",
+        "mobile_image": "shopify://shop_images/720_3dc1a052-46ac-4ae0-bb5c-b71f57c06bf2.png",
+        "img_rul": ""
+      }
+    },
+    "image_hN86gj": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/pc-1_b0f15669-5b79-4d5c-a909-6f71895fc849.png",
+        "mobile_image": "shopify://shop_images/mb-1_f9e1b162-8808-49cc-b01e-04432409feff.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_txcMpb": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -2,
+        "margin_top2": -3
+      }
+    },
+    "slide_block_group_cRWPQL": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_dLmpxc": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-1_5247399d-a4b5-41f1-a13a-4ef5bd64c138.jpg",
+            "slide_title": "【予約】ウォッシュ加工　ステッチストライプ柄デニムワークシャツ",
+            "slide_price": 13980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-lsx-st250915?_pos=1&_sid=b0657f344&_ss=r&variant=47630549254363",
+            "slide_intro": "コットンデニム素材を使用し、厚すぎず薄すぎない適度なハリがあり、年間を通じて着用可能。"
+          }
+        },
+        "slide_block_jDBzRR": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-2_e0142a30-170e-4b0f-ae98-9a3327438c83.jpg",
+            "slide_title": "【予約】再構築　ギンガムチェック柄切替フリンジ加工デニムシャツ",
+            "slide_price": 13980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-lrj-simegt?_pos=1&_sid=fd29068c2&_ss=r&variant=47609605718235",
+            "slide_intro": "胸ポケットやボタンなどワークシャツらしいディテールはそのままに、再構築による切替デザインが独自の表情を演出します。1枚で存在感のあるコーディネートが完成し、レイヤードスタイルにも最適です。"
+          }
+        },
+        "slide_block_7Bd8mw": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-3_449a82ea-a913-49af-9ebe-f417bab8f53c.jpg",
+            "slide_title": "【予約】マルチストライプジャガードデニムワークシャツ",
+            "slide_price": 12980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-lsx-zpgngl?_pos=1&_sid=aa8cdbfc0&_ss=r&variant=47515811938523",
+            "slide_intro": "胸左右に配置されたポケットが、ワークシャツらしい実用性を強調。ポケットのストライプ柄がシャツ全体の柄と揃って、細部までのこだわりが感じられます。ウッド調またはアンティーク風のボタンが使用されて、全体のヴィンテージ感を引き立てています。"
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_dLmpxc",
+        "slide_block_jDBzRR",
+        "slide_block_7Bd8mw"
+      ],
+      "settings": {
+        "slide_btn_color": "#ffffff",
+        "slide_text_color": "#752d22",
+        "slide_btn_hover_color": "#402c21",
+        "slide_text_hover_color": "#ffffff",
+        "slide_font_color": "#ffffff",
+        "price_new_color": "#c20000"
+      }
+    },
+    "image_FMJwnD": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/pc-2_a7a76497-67ef-412f-9006-2f5c2750f963.png",
+        "mobile_image": "shopify://shop_images/mb-2_4e16c661-11c2-49f3-8888-9088d2a3a84e.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_cQp8Gi": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -2,
+        "margin_top2": -3
+      }
+    },
+    "slide_block_group_faEqXD": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_k8EmA8": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-4_e4e4c317-c444-44aa-a8a5-a74baa7c42fd.jpg",
+            "slide_title": "配色切替　MA-1 撥水加工フライトジャケット",
+            "slide_price": 14980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-fxjk0401?_pos=1&_sid=34faffb77&_ss=r&variant=47588751802587",
+            "slide_intro": "MA-1をベースに軽やかに仕上げたライトフライトジャケット。メインファブリックには撥水素材を採用し、デイリーからライトアクティビティまで幅広く対応。"
+          }
+        },
+        "slide_block_hr6Qzd": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-5_d86704f5-c0f9-4bd3-abf7-e09745d48aa1.jpg",
+            "slide_title": "MA-1袖ポケット　薄手 パイピング加工フライトジャケット",
+            "slide_price": 13980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-gljk0425?_pos=1&_sid=ea7873b43&_ss=r&variant=47575571267803",
+            "slide_intro": "一般的なジャケットに見られる襟付きデザインを排除し、Vネックにすることで軽さと動きやすさを強調し、首元がすっきりと開いているため、アクセサリーや襟付きシャツとの相性も良い。"
+          }
+        },
+        "slide_block_TkWRYb": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-6_2b10eb89-39a7-4785-b044-ec294eaca900.jpg",
+            "slide_title": "異素材配色切替　「KARAKU」刺繍入りトレーニングジャケット",
+            "slide_price": 13980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-lsx-ylpjk0706?_pos=1&_sid=beae2f0e2&_ss=r&variant=47485055795419",
+            "slide_intro": "異素材を組み合わせた配色切替デザインが目を引くトレーニングジャケット。トレンド感のあるスポーツテイストを大胆な切り替えで表現しつつ、配色の妙で幅広い着こなしに対応します。程よいシルエットとどこか懐かしいレトロ感が、まさに今の気分にフィット。"
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_k8EmA8",
+        "slide_block_hr6Qzd",
+        "slide_block_TkWRYb"
+      ],
+      "settings": {
+        "slide_btn_color": "#ffffff",
+        "slide_text_color": "#752d22",
+        "slide_btn_hover_color": "#402c21",
+        "slide_text_hover_color": "#ffffff",
+        "slide_font_color": "#ffffff",
+        "price_new_color": "#c20000"
+      }
+    },
+    "image_eQTmUr": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/pc-3_9c4f7544-84c4-417d-9f1d-7e142a2383cf.png",
+        "mobile_image": "shopify://shop_images/mb-3_7f796571-7863-45da-96ee-9498281f8c5b.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_rRbeDa": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -2,
+        "margin_top2": -3
+      }
+    },
+    "slide_block_group_9EfaYx": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_67Lk8i": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-7_fb5cc171-6c87-4706-8351-34d5cee6dc9f.jpg",
+            "slide_title": "ストライプシャツ＆カーディガン仕様　フェイクレイヤードジャケット",
+            "slide_price": 10980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-061-urwt34?_pos=1&_sid=c54ecc42e&_ss=r&variant=47515766620379",
+            "slide_intro": "ストライプシャツとカーディガンをレイヤードしたかのようなデザインを採用した、フェイクレイヤードジャケット。重ね着の洒落感を一枚で表現でき、コーディネートに奥行きを与えてくれるアイテムです。"
+          }
+        },
+        "slide_block_itqGeb": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-8_75b78f68-8228-4d15-b83f-4d1a4486181b.jpg",
+            "slide_title": "フェイクレイヤード仕様　チェック柄シャツ＆ウール混ニットカーディガン",
+            "slide_price": 12980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-28-jk240?_pos=1&_sid=80ef7e319&_ss=r&variant=47638318645467",
+            "slide_intro": "チェック柄シャツにウール混紡のニットカーディガンを羽織ったように見える、フェイクレイヤード仕様のアイテム。実際には一枚仕立てながら、重ね着ならではの奥行きあるスタイリングを楽しめるのが魅力です。"
+          }
+        },
+        "slide_block_4Nedtq": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-9_85e72367-cacb-4eb4-bd21-3d0f0c5088c0.jpg",
+            "slide_title": "【予約】「ナバホ＆サンダーバード」柄ジャカード織りニットVネックカーディガン",
+            "slide_price": 14980,
+            "slide_price_new": 9000,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-zyd-tkbkji0731?_pos=1&_sid=3b9e31bb4&_ss=r&variant=47638378086619",
+            "slide_intro": "フロントにはシンメトリーに配置されたナバホ柄、バックには力強いサンダーバード柄をジャカードで織り込んだVネックカーディガン。伝統的なモチーフを現代的にアレンジすることで、個性的でありながらもコーディネートに取り入れやすいデザインに仕上げました。"
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_67Lk8i",
+        "slide_block_itqGeb",
+        "slide_block_4Nedtq"
+      ],
+      "settings": {
+        "slide_btn_color": "#ffffff",
+        "slide_text_color": "#752d22",
+        "slide_btn_hover_color": "#402c21",
+        "slide_text_hover_color": "#ffffff",
+        "slide_font_color": "#ffffff",
+        "price_new_color": "#c20000"
+      }
+    },
+    "image_DAd6fK": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/pc-4_16cbe3cf-7903-441b-854d-e8ac8b15534d.png",
+        "mobile_image": "shopify://shop_images/mb-4_752b5c12-cad3-4f3f-b7ca-cfe5e24a80f5.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_TfVTHf": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -2,
+        "margin_top2": -3
+      }
+    },
+    "slide_block_group_rNbmiH": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_RzNdPP": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-10_5951f70e-b9bd-4734-9373-5ff3cfd05b32.jpg",
+            "slide_title": "【予約】Business&Casual　チェック柄ウール混ツイードコート",
+            "slide_price": 18980,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-ct250931?_pos=1&_sid=0f361adc3&_ss=r&variant=47638262677723",
+            "slide_intro": "フロントに並んだボタンはクラシックなデザインで、視覚的なバランスが良い。腰から太ももまでを覆うロング丈で、防寒性に優れています。腰部分に配置されたポケットは、実用性とデザインの両立。スリムすぎず、ややゆとりのあるストレートなデザイン。クラシックなコートスタイルで、幅広い体型に適応します。"
+          }
+        },
+        "slide_block_hbRybx": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-11_2a034720-9665-462f-9f1e-97279ee18ef8.jpg",
+            "slide_title": "Teflon「防風・防水・防汚」高機能バルマカーンコート",
+            "slide_price": 19980,
+            "slide_price_new": 16980,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/krk-md-ts2307606?_pos=1&_sid=8d3e9adc8&_ss=r",
+            "slide_intro": "ゆとりのあるシルエットで長めの着丈ながら着用感は軽く、見た目にもハリ感を抑えているため、ほど良くドレープを楽しめるアウターです。"
+          }
+        },
+        "slide_block_bn7kGk": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-12_c2d5db51-366a-433e-b4cb-3568f994a84f.jpg",
+            "slide_title": "バルマカーンコート",
+            "slide_price": 20058,
+            "slide_price_new": 0,
+            "slide_btn": "CHECK",
+            "slide_url": "https://karakubuy.com/products/madenkrk-md-tlw2107116?_pos=1&_sid=1ec1c1974&_ss=r",
+            "slide_intro": "フロントに、ボタンを閉じたときにすっきりとする比翼仕立て。大き目で存在感のある襟もオシャレなポイントです。ゆとりのあるサイジングなので、インナーに厚手のニットも窮屈感なく着用できます。"
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_RzNdPP",
+        "slide_block_hbRybx",
+        "slide_block_bn7kGk"
+      ],
+      "settings": {
+        "slide_btn_color": "#ffffff",
+        "slide_text_color": "#752d22",
+        "slide_btn_hover_color": "#402c21",
+        "slide_text_hover_color": "#ffffff",
+        "slide_font_color": "#ffffff",
+        "price_new_color": "#c20000"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "background_image_TCkHMe": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-08-30_16-46-49_190dbc76-56df-4a06-b6e2-6bb8a6d9146c.jpg",
+        "bg_size": "auto",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "fixed",
+        "background_color_overlay": "",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "featured_collection_pdWzrX": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "2025-lightouter",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "slideshow_8qNtct",
+    "image_9wa8e7",
+    "image_hN86gj",
+    "adjusting_spacing_txcMpb",
+    "slide_block_group_cRWPQL",
+    "image_FMJwnD",
+    "adjusting_spacing_cQp8Gi",
+    "slide_block_group_faEqXD",
+    "image_eQTmUr",
+    "adjusting_spacing_rRbeDa",
+    "slide_block_group_9EfaYx",
+    "image_DAd6fK",
+    "adjusting_spacing_TfVTHf",
+    "slide_block_group_rNbmiH",
+    "main",
+    "background_image_TCkHMe",
+    "featured_collection_pdWzrX"
+  ]
+}

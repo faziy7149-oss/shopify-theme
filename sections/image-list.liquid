@@ -1,0 +1,208 @@
+{%- liquid
+  assign block_count = section.blocks.size
+  case block_count
+    when 1
+      assign flex_width = '100%'
+      assign size_cols_desktop = 1
+    when 2
+      assign flex_width = 'calc(100%/3)'
+      assign size_cols_desktop = 3
+    when 3
+      assign flex_width = 'calc(100%/4)'
+      assign size_cols_desktop = 4
+    when 4
+      assign flex_width = 'calc(100%/5)'
+      assign size_cols_desktop = 5
+    when 5
+      assign flex_width = 'calc(100%/6)'
+      assign size_cols_desktop = 6
+    when 6
+      assign flex_width = 'calc(100%/4)'
+      assign size_cols_desktop = 4
+    when 7
+      assign flex_width = 'calc(100%/6)'
+      assign size_cols_desktop = 6
+    when 8
+      assign flex_width = 'calc(100%/5)'
+      assign size_cols_desktop = 5
+    when 9
+      assign flex_width = 'calc(100%/6)'
+      assign size_cols_desktop = 6
+    else
+      assign flex_width = 'calc(100%/6)'
+      assign size_cols_desktop = 6
+  endcase
+
+  assign mobile_cols = block_count | plus: 1 | divided_by: 2
+  if block_count == 0
+    assign mobile_cols = 1
+  endif
+
+  assign img_animation = section.settings.img_animation
+-%}
+
+<style>
+  .{{ section.id }} .image-list-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 0.5rem 1.5rem;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .{{ section.id }} .data-narrow-container {
+    max-width: 1200px;
+    margin-top: 20px;
+  }
+  .{{ section.id }} .image-list-content .image-list-item {
+    flex-grow: 1;
+    width: var(--flex-width, {{ flex_width }});
+  }
+  .{{ section.id }} .image-list-item a {
+    display: block;
+  }
+  .{{ section.id }} .image-list-content .image-list-image {
+    width: 100%;
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.58s cubic-bezier(0.215, 0.610, 0.355, 1);
+  }
+  .{{ section.id }} .image-list-item .placeholder-image {
+    width: 100%;
+  }
+  .{{ section.id }}[data-animation="whirling"] .image-list-item:hover .image-list-image {
+    transform: rotateY(180deg);
+  }
+  .{{ section.id }}[data-animation="shake"] .image-list-item:hover .image-list-image {
+    animation: categorylist_image .45s steps(1) forwards;
+  }
+  @keyframes categorylist_image {
+    0% { transform: rotate(-5deg); }
+    25% { transform: rotate(4.5deg); }
+    50% { transform: rotate(-4deg); }
+    75% { transform: rotate(3deg); }
+    100% { transform: rotate(0deg); }
+  }
+  @media (prefers-reduced-motion: reduce) {
+    .{{ section.id }} .image-list-content .image-list-image {
+      transition: none;
+    }
+    .{{ section.id }}[data-animation] .image-list-item:hover .image-list-image {
+      transform: none;
+      animation: none;
+    }
+  }
+  @media (max-width: 767px) {
+    .{{ section.id }} .image-list-content {
+      display: grid;
+      grid-template-columns: repeat({{ mobile_cols }}, 1fr);
+      gap: 0.5rem;
+    }
+    .{{ section.id }} .image-list-content .image-list-item {
+      width: auto;
+      flex-grow: unset;
+    }
+  }
+</style>
+
+<div class="{{ section.id }}"{% if img_animation != 'none' %} data-animation="{{ img_animation }}"{% endif %}>
+  <div class="container data-narrow-container">
+    <div class="image-list-wrap">
+      <ul class="image-list-content" style="--flex-width: {{ flex_width }}">
+        {% for block in section.blocks %}
+          <li class="image-list-item" {{ block.shopify_attributes }}>
+            {% if block.settings.image_list_link != blank %}
+              <a
+                href="{{ block.settings.image_list_link }}"
+                {% if block.settings.image_list_block.alt != blank %}
+                  aria-label="{{ block.settings.image_list_block.alt | escape }}"
+                {% endif %}
+              >
+            {% endif %}
+              {% if block.settings.image_list_block == blank %}
+                <div class="placeholder-image">{{ 'collection-1' | placeholder_svg_tag: 'placeholder-svg' }}</div>
+              {% else %}
+                {% render 'image' with block.settings.image_list_block, loading: 'lazy', class: 'image-list-image', size_cols_desktop: size_cols_desktop, size_cols_mobile: mobile_cols %}
+              {% endif %}
+            {% if block.settings.image_list_link != blank %}
+              </a>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Image List",
+  "settings": [
+    {
+        "type": "select",
+        "id": "img_animation",
+        "label": "动画效果",
+        "default": "none",
+        "options": [
+          {
+            "value": "none",
+            "label": "无"
+          },
+          {
+            "value": "whirling",
+            "label": "翻转"
+          },
+          {
+            "value": "shake",
+            "label": "摇晃"
+          }
+        ]
+      }
+    ],
+  "blocks": [
+    {
+      "type": "imagelist",
+      "name": "ImageList",
+      "limit": 10,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image_list_block",
+          "label": "Image"
+        },
+        {
+          "type": "url",
+          "id": "image_list_link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image List",
+      "blocks": [
+         {
+           "type": "imagelist"
+         },
+         {
+           "type": "imagelist"
+         },
+         {
+           "type": "imagelist"
+         },
+         {
+           "type": "imagelist"
+         },
+         {
+           "type": "imagelist"
+         },
+         {
+           "type": "imagelist"
+         }
+      ]
+    }
+  ]
+}
+{% endschema %}

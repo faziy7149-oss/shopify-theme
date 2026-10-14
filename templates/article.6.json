@@ -1,0 +1,659 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "48b83a8e-af96-4a14-a5d0-612c31334713": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "image": "shopify://shop_images/1_58dbd6da-d41f-4055-8ea7-73517e2d7285.jpg",
+        "mobile_image": "shopify://shop_images/e53a14dc1b4f1ac3409447046585cb20.jpg",
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background"
+      }
+    },
+    "75086b5b-adba-4b20-9a16-0f3c6cd111a2": {
+      "type": "rich-text",
+      "blocks": {
+        "f66184b8-bd7d-4201-a1c7-13e028cc7022": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "KaraKu 6th anniversary"
+          }
+        },
+        "template--15421975888091__75086b5b-adba-4b20-9a16-0f3c6cd111a2-1682580732dd59d3ae-1": {
+          "type": "heading",
+          "settings": {
+            "title": "KARAKU 6周年記念キャンペーンのお知らせ",
+            "use_h1": false
+          }
+        },
+        "template--15421975888091__75086b5b-adba-4b20-9a16-0f3c6cd111a2-1682580732dd59d3ae-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>おかげさまで、KARAKU今年6周年を迎えることができました。<br/><br/>これまで支えてくださったすべてのお客様に、心より感謝申し上げます。</p><p>日頃のご愛顧に感謝を込めて、5月1日（金）より6周年記念キャンペーンを開催いたします。<br/><br/>最大60％OFFのセールやポイントアップ、インスタライブ配信、4つのコラボレーション企画、パズルプレゼント企画など、特別な企画をご用意しております。</p><p>これからも皆さまに寄り添い、より一層ご満足いただけるブランドを目指してまいります。<br/><br/>今後とも変わらぬご愛顧を賜りますようお願い申し上げます。<br/><br/>6周年の特別なひとときを、ぜひお楽しみください。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "f66184b8-bd7d-4201-a1c7-13e028cc7022",
+        "template--15421975888091__75086b5b-adba-4b20-9a16-0f3c6cd111a2-1682580732dd59d3ae-1",
+        "template--15421975888091__75086b5b-adba-4b20-9a16-0f3c6cd111a2-1682580732dd59d3ae-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "3a090d46-bb16-4261-9f35-4af0aaaabb5e": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_w3NhYe": {
+          "type": "heading",
+          "settings": {
+            "title": "対象品が最大60％OFF！",
+            "use_h1": false
+          }
+        },
+        "text_iMck3m": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>karaku 6周年記念企画第1弾</h4><p>対象品が最大<strong>60％OFF</strong>キャンペーン<br/></p><p>Tシャツから、トレンドのアロハシャツまで、幅広い人気アイテムがお得に手に入ります。</p><p>お得なチャンスをお見逃しなく！</p><p>キャンペーン期間：5/1(金)～5/17(日)</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_afFC8c": {
+          "type": "button",
+          "settings": {
+            "button_label": "対象アイテム一覧",
+            "button_link": "https://karakubuy.com/collections/6th-anniversary",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_w3NhYe",
+        "text_iMck3m",
+        "button_afFC8c"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/6__1200.jpg",
+        "image_width": 700,
+        "image_link": "https://karakubuy.com/collections/6th-anniversary",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "featured_collection_fQYdBC": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "KARAKU 6周年感謝祭「SALE」対象商品一覧",
+        "collection": "6th-anniversary",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "image_with_text_FTF37P": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_4E6VUg": {
+          "type": "heading",
+          "settings": {
+            "title": "5周年記念インスタライブ配信",
+            "use_h1": false
+          }
+        },
+        "text_gCtB8T": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>karaku 5周年記念企画第2弾</h4><p>このたび、KARAKUはオープン<strong>5周年</strong>を記念し、インスタでの初のライブ配信の実施が決定したことをお知らせいたします。</p><p><strong>【配信日時】</strong><br/>2025年5月1日（木） 20:30～22:00<br/><br/><strong>【配信アカウント】<br/></strong>・KARAKU公式Instagram（<a href=\"https://www.instagram.com/karaku_official/\" target=\"_blank\">@karaku_official</a>）<br/>・KARAKU原宿 Instagram（<a href=\"https://www.instagram.com/karaku_harajuku/\" target=\"_blank\">@karaku_harajuku</a>）<br/><br/></p>",
+            "enlarge_text": false
+          }
+        },
+        "button_8hVaaj": {
+          "type": "button",
+          "settings": {
+            "button_label": "公式アカウントへ",
+            "button_link": "https://www.instagram.com/karaku__official",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_4E6VUg",
+        "text_gCtB8T",
+        "button_8hVaaj"
+      ],
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/20250417-172258_7a2dc0b7-8866-4360-b758-9d3a46063bf2.jpg",
+        "image_width": 700,
+        "image_link": "https://karakubuy.com/pages/karaku-live",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "174556914803d407b0": {
+      "type": "apps",
+      "settings": {
+        "full_width": false,
+        "show_space": true
+      }
+    },
+    "image_with_text_FGL4gQ": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_KfRAz7": {
+          "type": "heading",
+          "settings": {
+            "title": "6周年記念パズルをプレゼント",
+            "use_h1": false
+          }
+        },
+        "text_89hF6g": {
+          "type": "text",
+          "settings": {
+            "text": "<h5>karaku 6周年記念企画第2弾</h5><p>KARAKUオンラインショップでは、日頃よりご愛顧いただいております皆様へ感謝の気持ちを込めて、2点以上ご購入で、オリジナルパズルをプレゼント！</p><p>長年ご愛顧いただいているお客様へ、心ばかりではございますが、お贈りさせていただきます。</p><p>5/1(金)スタート<br/>※無くなり次第終了</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_KfRAz7",
+        "text_89hF6g"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/20260408-175044.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_with_text_jC99e9": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_DJ6eia": {
+          "type": "heading",
+          "settings": {
+            "title": "インスタライブ配信",
+            "use_h1": false
+          }
+        },
+        "text_eWhQeY": {
+          "type": "text",
+          "settings": {
+            "text": "<h5><strong>karaku 6周年記念企画第3弾<br/></strong></h5><p>このたび、KARAKUはオープン6周年を記念し、インスタライブ配信の実施が決定したことをお知らせいたします。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_QfNkER": {
+          "type": "button",
+          "settings": {
+            "button_label": "詳しくはこちらへ",
+            "button_link": "https://karakubuy.com/pages/karaku-inslive",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_DJ6eia",
+        "text_eWhQeY",
+        "button_QfNkER"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/20260420-175206_852c09e5-adcf-4794-8939-67248445fb9c.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "rich_text_Y7tDfx": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_JQgddV": {
+          "type": "heading",
+          "settings": {
+            "title": "karaku 6周年記念企画第4弾",
+            "use_h1": false
+          }
+        },
+        "text_hRBxBD": {
+          "type": "text",
+          "settings": {
+            "text": "<p>過去と現在、そしてアートが交差する特別なラインナップ。<br/><br/>KARAKUがこれまで大切にしてきた「物語を纏う」というコンセプトのもと、4名のアーティストと共に、それぞれ異なる世界観を一つのコレクションとして再構築。</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_JQgddV",
+        "text_hRBxBD"
+      ],
+      "name": "Rich text",
+      "settings": {
+        "height": "small",
+        "text_alignment": "left",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "slideshow_atnDRd": {
+      "type": "slideshow",
+      "blocks": {
+        "image_ytrJMc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/210__1920_6b745250-3ddc-4002-a6b6-bbef15c7cd08.jpg",
+            "mobile_image": "shopify://shop_images/210__1080x1440_933da6a0-d793-4794-b809-3ab7f4d94320.jpg",
+            "slide_link": "shopify://collections/2026-6th-anniversary-collaboration",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 17,
+            "title_size": 56,
+            "title_size_mobile": 38,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "https://karakubuy.com/collections/2026-6th-anniversary-collaboration",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_ytrJMc"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "106c5c2a-c679-4663-bcb0-c664efc90e57": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_jaJtmH": {
+          "type": "heading",
+          "settings": {
+            "title": "KARAKU × 365Cat.Art",
+            "use_h1": false
+          }
+        },
+        "text_qFcmf3": {
+          "type": "text",
+          "settings": {
+            "text": "<p>KaraKuとイラストレーター「365CAT.ART」さん共同プロデュースする猫プリントアイテム。猫が鯨に乗り、海を泳ぐ幻想的な世界をプリント。独自の魅力と快適な着心地を提供します。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_7dzYGN": {
+          "type": "button",
+          "settings": {
+            "button_label": "コラボ特集へ",
+            "button_link": "https://karakubuy.com/collections/karaku-365cat-art",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_jaJtmH",
+        "text_qFcmf3",
+        "button_7dzYGN"
+      ],
+      "custom_css": [
+        ".lightly-spaced-row-above {margin-top: 40px;}"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/093_365banner_1200_1.jpg",
+        "image_width": 700,
+        "image_link": "shopify://collections/karaku-365cat-art",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "featured_collection_JXK8nk": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "KARAKU × 365Cat.Art コラボアイテム一覧",
+        "collection": "karaku-365cat-art",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "image_with_text_pVfR8P": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_hPKJxa": {
+          "type": "heading",
+          "settings": {
+            "title": "KARAKU × 彩蘭弥",
+            "use_h1": false
+          }
+        },
+        "text_iWNRrk": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Karakuと日本画家「彩蘭弥」さんが共同プロデュース、“生命の躍動”をテーマにしたアートコレクション。色彩豊かな魚モチーフをシャツとTシャツに落とし込み、アートとファッションが完璧に融合。<br/><br/></p>",
+            "enlarge_text": false
+          }
+        },
+        "button_7fT98Q": {
+          "type": "button",
+          "settings": {
+            "button_label": "コラボ特集へ",
+            "button_link": "https://karakubuy.com/collections/karaku-alaya",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_hPKJxa",
+        "text_iWNRrk",
+        "button_7fT98Q"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/094_banner_1200.jpg",
+        "image_width": 700,
+        "image_link": "https://karakubuy.com/collections/karaku-alaya",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "featured_collection_i6rkwC": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "KARAKU × 彩蘭弥 コラボアイテム一覧",
+        "collection": "karaku-alaya",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "image_with_text_xjcj7x": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_VaR9Wy": {
+          "type": "heading",
+          "settings": {
+            "title": "KARAKU × 甲馬",
+            "use_h1": false
+          }
+        },
+        "text_E7WLAd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>KaraKuと現代浮世絵アーティスト「甲馬」さん共同プロデュース。猫又や妖怪たちの迫力ある世界をTシャツ・シャツに。和モダンと幻想アートが融合した唯一無二のデザイン。<br/><br/></p>",
+            "enlarge_text": false
+          }
+        },
+        "button_YbKmLt": {
+          "type": "button",
+          "settings": {
+            "button_label": "コラボ特集へ",
+            "button_link": "https://karakubuy.com/collections/karaku-koma",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_VaR9Wy",
+        "text_E7WLAd",
+        "button_YbKmLt"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/095_banner_1200_93b2ef92-5eda-400e-a777-4d3cf19b24d2.jpg",
+        "image_width": 700,
+        "image_link": "https://karakubuy.com/collections/karaku-koma",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "featured_collection_p4GBiw": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "KARAKU × 甲馬 コラボアイテム一覧",
+        "collection": "karaku-koma",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "image_with_text_imqQLV": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_fEHrRe": {
+          "type": "heading",
+          "settings": {
+            "title": "KARAKU × 田中ラオウ",
+            "use_h1": false
+          }
+        },
+        "text_gWzdaK": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Karakuと画家「田中ラオウ」さんが生み出す、 野性と美を融合させたアートコレクション。猛獣たちの躍動を纏う、個性と力強さを引き出します。<br/><br/></p>",
+            "enlarge_text": false
+          }
+        },
+        "button_eewBkM": {
+          "type": "button",
+          "settings": {
+            "button_label": "コラボ特集へ",
+            "button_link": "https://karakubuy.com/collections/karaku-raoutanaka",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fEHrRe",
+        "text_gWzdaK",
+        "button_eewBkM"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/096__banner_1200_aae18112-07bc-4bd9-84aa-9aacf53a4f72.jpg",
+        "image_width": 700,
+        "image_link": "https://karakubuy.com/collections/karaku-raoutanaka",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "featured_collection_trXhwx": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "KARAKU × 田中ラオウ コラボアイテム一覧",
+        "collection": "karaku-raoutanaka",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "image_with_text_HHmYzM": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Qhmtem": {
+          "type": "heading",
+          "settings": {
+            "title": "ポイント10倍アップ ！",
+            "use_h1": false
+          }
+        },
+        "text_maF3NM": {
+          "type": "text",
+          "settings": {
+            "text": "<h4>karaku 6周年記念企画第5弾</h4><p>会員限定・全商品ポイント<strong>10倍</strong>アップ ！</p><p>期間中、通常のポイント付与が通常の10倍にアップ！お買い物がさらにお得になります。</p><p>キャンペーン期間：5/1(金)～5/17(日)</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_kfTeVp": {
+          "type": "button",
+          "settings": {
+            "button_label": "会員登録はこちら",
+            "button_link": "https://www.karakubuy.com/account/login",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Qhmtem",
+        "text_maF3NM",
+        "button_kfTeVp"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/6__1200_6eff928d-19db-4687-98d0-fa7ef84bb42f.jpg",
+        "image_width": 700,
+        "image_link": "https://www.karakubuy.com/account/login",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "settings": {
+        "show_date": true,
+        "show_author": true,
+        "show_article_tags": true,
+        "show_sharing_icons": true,
+        "show_twitter": true,
+        "show_facebook": true,
+        "show_pinterest": true,
+        "show_featured_image": true,
+        "full_width_image": true,
+        "featured_image_height": "large",
+        "enable_title_overlay": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "video_BBCebP": {
+      "type": "video",
+      "blocks": {
+        "heading_4aDRGw": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 32,
+            "use_h1": false
+          }
+        },
+        "text_bn7ELH": {
+          "type": "text",
+          "settings": {
+            "text": "",
+            "enlarge_text": true
+          }
+        },
+        "play_button_Bj74a7": {
+          "type": "play-button",
+          "settings": {}
+        }
+      },
+      "block_order": [
+        "heading_4aDRGw",
+        "text_bn7ELH",
+        "play_button_Bj74a7"
+      ],
+      "name": "Video",
+      "settings": {
+        "video_shopify": "shopify://files/videos/6周年视频_横版.mp4",
+        "video_external": "",
+        "video_description": "",
+        "placeholder_image": "shopify://shop_images/4ca42d55c1b95321b12693abcc2c3f6f.png",
+        "text_alignment": "center center",
+        "full_width": true,
+        "overlay_style": "shadow"
+      }
+    }
+  },
+  "order": [
+    "48b83a8e-af96-4a14-a5d0-612c31334713",
+    "75086b5b-adba-4b20-9a16-0f3c6cd111a2",
+    "3a090d46-bb16-4261-9f35-4af0aaaabb5e",
+    "featured_collection_fQYdBC",
+    "image_with_text_FTF37P",
+    "174556914803d407b0",
+    "image_with_text_FGL4gQ",
+    "image_with_text_jC99e9",
+    "rich_text_Y7tDfx",
+    "slideshow_atnDRd",
+    "106c5c2a-c679-4663-bcb0-c664efc90e57",
+    "featured_collection_JXK8nk",
+    "image_with_text_pVfR8P",
+    "featured_collection_i6rkwC",
+    "image_with_text_xjcj7x",
+    "featured_collection_p4GBiw",
+    "image_with_text_imqQLV",
+    "featured_collection_trXhwx",
+    "image_with_text_HHmYzM",
+    "main",
+    "video_BBCebP"
+  ]
+}

@@ -1,0 +1,297 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "heading": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_rHdKQh": {
+          "type": "heading",
+          "settings": {
+            "title": "CUSTOMER SUPPORT",
+            "heading_max_width": 13,
+            "title_size": 54,
+            "title_size_mobile": 32,
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "heading_rHdKQh"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Karaku_-_3.jpg",
+        "mobile_image": "shopify://shop_images/Karaku_-_2.jpg",
+        "height": "fixed",
+        "height_desktop": 400,
+        "height_mobile": 300,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "main": {
+      "type": "faq-header",
+      "settings": {
+        "title": "何をお探しですか？",
+        "use_h1": false,
+        "text": "",
+        "show_search": true,
+        "show_index": false,
+        "index_heading": "何をお探しですか？"
+      }
+    },
+    "faq-content-1": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question_tBDkNh": {
+          "type": "question",
+          "settings": {
+            "title": "送料はいくらですか？ ",
+            "answer": "<p><br/>佐川急便送料（全国一律）：通常配送 690円（税込）</p><p><br/>※沖縄、及び一部離島は適応外となります。沖縄/北海道/鹿児島は1,500円（税込）</p><p><br/>配送業者：佐川急便<br/>お支払い確認後5営業日以内に発送いたします。</p><p><br/>一注文毎に送料が発生します。別注文の商品をまとめて発送は承っておりませんので予めご了承ください。</p><p>※最短3－7日で到着（土日祝日除外）</p>"
+          }
+        },
+        "question_qN6JXP": {
+          "type": "question",
+          "settings": {
+            "title": "どのような支払い方法が使えますか？   ",
+            "answer": "<p>クレジットカードVISA/MasterCard/AMERIXAN EXPRESS/JCB/Discover /UnionPay/ApplePay がご利用いただけます。<br/><br/>PayPalにご登録されているクレジットカードの締め日や契約内容により異なります。ご利用されるカード会社またはPayPal株式会社までご確認ください。<br/><br/>代金引換(Japan Only)お支払方法：現金のみのお取り扱いとなります。※お客様のご希望による配送業者のご指定はお受けする事が出来ません。<br/>※20,000円を超える場合、クレジットカードまたはPaypalでお支払い頂く決済方法となります。 <br/><br/>※Shipping to USA, South Korea, HongKong and other countries are not supported by Cash on Delivery.</p>"
+          }
+        },
+        "question_icMdrQ": {
+          "type": "question",
+          "settings": {
+            "title": "ポイントの残高を確認するにはどうすればよいですか？",
+            "answer": "<p>ポイントの残高を確認するには、まずアカウントをログインしてくだい。<br/>ログインが完了しましたら、「お楽しみ積立つポイント」より保有ポイントの残高がご確認いただけます。</p>"
+          }
+        },
+        "question_zwxYcM": {
+          "type": "question",
+          "settings": {
+            "title": "クーポンコードの使用方法を教えてください。  ",
+            "answer": "<p>クーポン対象商品をショッピングカートに入れ、ご購入手続きに進み「STEP2 配送方法の選択」に進んでいただきます。「STEP3 お支払い」に進んでいただきます。その際、<strong>「クーポンコードまたはギフトカード」欄にクーポンコードを入力「→」または適用ボンタンをクリックしてください。</strong>クーポン適用価格に変更になっていることをご確認の上、注文を完了してください。<br/><br/>また、同じ注文にて、クーポン対象外の商品も一緒にご注文いただけますが、クーポンが適用になるのは、対象商品のみとなります。尚、クーポンをご利用にて購入されました場合、KARAKUポイントの付与は、割引後の相応ポイントになります。</p>"
+          }
+        },
+        "question_MUQP6d": {
+          "type": "question",
+          "settings": {
+            "title": "クーポンとポイントは一緒に使えますか？",
+            "answer": "<p>申し訳ございませんが、当サイトでは併用はできません。以下は併用不可の例です。<br/>______________________________<br/>1.【ポイント】x【クーポン】<br/>2.【クーポン】x【クーポン】<br/>______________________________</p>"
+          }
+        },
+        "question_xghyQj": {
+          "type": "question",
+          "settings": {
+            "title": "クレジットカードをウェブサイトで使用するのは安全ですか？",
+            "answer": "<p><br/>ご心配なく：私たちのウェブサイトで注文することは安全です。当社は、サイトサーバと交換された顧客データを転送および受信する際に、業界標準の暗号化技術を使用しております。あなたのクレジットカードの詳細は明らかにされません。 チェックアウト時に、オンラインストアでクレジットカードと個人情報を入力すると、安全なソケットレイヤー技術（SSL）を使用して情報を安全に渡しています。ご安心で弊社のサイトでお好きな商品をお選びください</p>"
+          }
+        },
+        "question_VAjQYn": {
+          "type": "question",
+          "settings": {
+            "title": "自分の体格にフィットするサイズの選び方はありますか？",
+            "answer": "<p>商品によってサイズ感がそれぞれ異なりますのでご了承ください。また、普段着ている洋服の寸法を測り、気になる商品のサイズチャートをご参考の上、ジャストサイズをご購入いただけましたら幸いです。</p>"
+          }
+        },
+        "question_ybni6i": {
+          "type": "question",
+          "settings": {
+            "title": "商品の在庫状況はどのように確認できますか？",
+            "answer": "<p>在庫があり、購入可能な商品であれば、ご希望のサイズを簡単にお選びいただけます。サイズを選択すると、「カートに入れる」ボタンが表示されます。ただし、現在お取り扱いのないサイズはグレーアウトされます。</p>"
+          }
+        },
+        "question_MMQfHK": {
+          "type": "question",
+          "settings": {
+            "title": "予約商品とは何ですか?",
+            "answer": "<p>KARAKU公式オンラインショップでしか注文できない数量限定アイテムや、先行受注会の商品、特別コラボレーションアイテム等を、予約商品として販売しております。<br/>商品入荷のタイミングで確実に購入できるシステムです。<br/> <br/>※お支払方法は「クレジット」または「代金引換」がご注文時に選択できます。<br/>※ご予約商品は、お届け時期・商品仕様・価格等が変更になる場合や入荷が中止になる場合がございます。<br/>※商品の画像はサンプルのため、実際の製品とは、仕様や加工等が若干異なる場合がございます。<br/>※アイテムサイズにつきましてはあくまでも「目安」としてご検討ください。<br/>※一部の予約商品については、店舗では販売している場合もございます。<br/>※弊社の予約注文は「確実に購入できるシステム」でございます。販売開始より、お届けが遅れる場合がございます。</p>"
+          }
+        },
+        "question_XTJGzg": {
+          "type": "question",
+          "settings": {
+            "title": "注文を間違ってしまった場合、どうずればよいですか？",
+            "answer": "<p>一般販売は注文後より24時間以内であれば原則キャンセルが可能です。 注文キャンセルを行う際は、contact@karakubuy.comまでご連絡ください。 ただし、キャンセル可能時間内でも出荷準備に入るとキャンセルを承れない場合がございます。</p>"
+          }
+        },
+        "question_GXVYTt": {
+          "type": "question",
+          "settings": {
+            "title": "注文が通常よりも処理に時間がかかっている理由は何ですか？",
+            "answer": "<p>お支払い完了後、通常、弊社の倉庫では注文の処理に2〜5日かかります。<br/>ただし、ご注文の特定の商品には標準よりも長い処理時間がかかる場合があり、そのため全体の出荷に遅れが生じることがございます。<br/></p>"
+          }
+        },
+        "question_7jRiNE": {
+          "type": "question",
+          "settings": {
+            "title": "注文を追跡する方法を教えてください。",
+            "answer": "<p>Online Tracking:<br/>https://www.karakubuy.com/apps/17TRACK</p>"
+          }
+        },
+        "question-2": {
+          "type": "question",
+          "settings": {
+            "title": "届いた商品のイメージやサイズが違う場合、返品はできますか？",
+            "answer": "<p>商品のお届けより必ず7日以内にご連絡願います。<br/>ご連絡の無い返品・交換はお受けできませんのでご了承ください。返品・交換をお受けした場合、お届け日より10日以内にご返送ください。（10日以上経過し、ご返送が無い場合はお受けできませんのでご了承くださいませ。）<br/>サイズが合わない、イメージと違う等はお客様都合の返品または交換となります。</p><p><br/><strong>【交換・返品をお受付出来ないケース】</strong><br/>・お届けから7日間以上経過した商品<br/>・タグ、下札、箱等が紛失している商品<br/>・すでにご使用・洗濯等された商品<br/>・お客さまによる破損・汚れ・におい等のある商品<br/>・お届け時の付属品等が紛失している商品<br/>・裾上げサービスをさせていただいている商品<br/><br/><strong>【交換について】</strong><br/>メールでご連絡・ご相談ください。<a href=\"https://www.karakubuy.com/pages/%E3%81%8A%E5%95%8F%E3%81%84%E5%90%88%E3%82%8F%E3%81%9B\">（contact@karakubuy.com）</a><br/>交換可能なものは、基本的に同一商品のサイズ・色の交換となっております。<br/>（メールでご連絡の場合は、件名に『交換』とご記入ください。）<br/>返送時の送料は、お客様ご負担となります。弊社に製品が届き次第、交換する製品を発送させて頂きます。お客様都合の交換の場合は、送料着払いにて送らせて頂く場合がございます。返送時の事故等で商品が戻らない、または商品状態が悪化した場合は、返品をお受けできないことがございます。<br/><br/><strong>【返品について】</strong><br/>メールで、返品したい 商品・理由 をご連絡ください。（メールでご連絡の場合は、件名に『返品』とご記入ください。）<br/>返送時の送料は、お客様ご負担となります。返送時の事故等で商品が戻らない、または商品状態が悪化した場合は、返品をお受けできないことがございます。</p>"
+          }
+        },
+        "question_aQpMRy": {
+          "type": "question",
+          "settings": {
+            "title": "返送先住所は海外の住所ですか？",
+            "answer": "<p>返品交換などが必要な場合、商品の返送先は海外ではなく、埼玉県となりますので、具体的な住所については、返品または交換リクエストを頂いてから、ご案内させていただきます。</p>"
+          }
+        },
+        "question-1": {
+          "type": "question",
+          "settings": {
+            "title": "返品したい商品を発送した後は何をすべきですか？",
+            "answer": "<p>手続きを進めるには、ご返送されたお荷物の送り状番号が必要です。そのため、ご返品後に送り状番号をご教示ください。また、伝票番号のご連絡がない状態でお荷物が紛失した場合、その責任はお客様にてご負担いただく形となります。<br/><br/></p>"
+          }
+        },
+        "content_XMJE4x": {
+          "type": "content",
+          "settings": {
+            "content": "<h2><strong>サイトの利用方法</strong></h2>"
+          }
+        },
+        "button_U4cPHC": {
+          "type": "button",
+          "settings": {
+            "title": "オンラインストアガイド",
+            "link": "shopify://pages/karakushopingguide"
+          }
+        }
+      },
+      "block_order": [
+        "question_tBDkNh",
+        "question_qN6JXP",
+        "question_icMdrQ",
+        "question_zwxYcM",
+        "question_MUQP6d",
+        "question_xghyQj",
+        "question_VAjQYn",
+        "question_ybni6i",
+        "question_MMQfHK",
+        "question_XTJGzg",
+        "question_GXVYTt",
+        "question_7jRiNE",
+        "question-2",
+        "question_aQpMRy",
+        "question-1",
+        "content_XMJE4x",
+        "button_U4cPHC"
+      ],
+      "settings": {
+        "title": "よくあるご質問（FAQ）"
+      }
+    },
+    "contact": {
+      "type": "rich-text",
+      "blocks": {
+        "icon": {
+          "type": "icon",
+          "settings": {
+            "icon": "chat_bubble"
+          }
+        },
+        "heading": {
+          "type": "heading",
+          "settings": {
+            "title": "お問い合わせ",
+            "use_h1": true
+          }
+        },
+        "text": {
+          "type": "text",
+          "settings": {
+            "text": "<p>メールでのお問い合わせ<br/>contact@karakubuy.com</p>",
+            "enlarge_text": false
+          }
+        },
+        "button": {
+          "type": "button",
+          "settings": {
+            "button_label": "お問い合わせフォーム",
+            "button_link": "https://minipia.myshopify.com/pages/contact-us-1",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "icon",
+        "heading",
+        "text",
+        "button"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "1"
+      }
+    },
+    "custom_content_NmTeBE": {
+      "type": "custom-content",
+      "blocks": {
+        "image_BBWA8h": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/20220922192809.png",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/account/login",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_zjAUBE": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "button_label": "新規会員登録で",
+            "button_link": "https://www.karakubuy.com/account/login",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_BBWA8h",
+        "text_zjAUBE"
+      ],
+      "disabled": true,
+      "settings": {
+        "alignment": "middle"
+      }
+    }
+  },
+  "order": [
+    "heading",
+    "main",
+    "faq-content-1",
+    "contact",
+    "custom_content_NmTeBE"
+  ]
+}

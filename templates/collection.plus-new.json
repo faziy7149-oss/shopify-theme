@@ -1,0 +1,352 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "74ebb89b-5bf9-4d57-8098-9229cf3a1d69": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16966393626843__74ebb89b-5bf9-4d57-8098-9229cf3a1d69-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Blue_Japan.jpg",
+            "slide_link": "",
+            "subheading": "「KARAKU  INDIGO」",
+            "title": "\"人生の織りに藍色の静寂を見つける\"",
+            "heading_max_width": 18,
+            "title_size": 40,
+            "title_size_mobile": 20,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16966393626843__74ebb89b-5bf9-4d57-8098-9229cf3a1d69-image-1"
+      ],
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 740,
+        "height_mobile": 400,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "44f711aa-974e-4293-9611-acd945c5b922": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16966393626843__44f711aa-974e-4293-9611-acd945c5b922-heading-1": {
+          "type": "heading",
+          "settings": {
+            "title": "Hand Dyeing Indigo",
+            "use_h1": true
+          }
+        },
+        "template--16966393626843__44f711aa-974e-4293-9611-acd945c5b922-text-1": {
+          "type": "text",
+          "settings": {
+            "text": "<p>古くから世界中で活用されていた伝統的な染色技法、「藍染め」。江戸時代には人々の暮らしに広く根ざし、日本を訪れた外国人から「ジャパン・ブルー」と呼ばれるほどに、その凛とした青は長い間日本の景色を彩ってきました。</p>",
+            "enlarge_text": false
+          }
+        },
+        "820d0af3-6f60-419d-8ff7-4bcfaa6d8c9c": {
+          "type": "text",
+          "settings": {
+            "text": "<p>日本でおこなわれている多くの藍染めは、「タデアイ」という一年草を乾燥して熟成させ、さらにその葉に水を加えて発酵させた「すくも」という原料を使って、丁寧に染め上げられていきます。かつては藍染め専門の職人「紺屋（こうや／こんや）」や、原料となるすくもを作る「藍師」が繁盛するほどでしたが、化学染料やインディゴの普及で、手早く大量の染色が可能になると、次第に衰退していきました。現在、古くからの手法で原料作りや染めをおこなっている職人は、国内でもわずか。そんな現代に、この美しい日本の色を守る人たちがいます。</p><p>昔から伝わる技法で染められたTシャツや、普段使いしやすいジャケットなどさまざまなアイテムが揃い、<br/>KARAKUで日本の伝統が受け継ぐ藍の魅力を感じられる機会となります。</p>",
+            "enlarge_text": false
+          }
+        },
+        "2e665bf4-f589-41f1-8bbb-8542c0f25d65": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "image": "shopify://shop_images/output.lin_1_480x480_08610d8d-c833-40c1-8fe0-3a1a63e42cfa.webp",
+            "image_width": 330,
+            "url": ""
+          }
+        }
+      },
+      "block_order": [
+        "template--16966393626843__44f711aa-974e-4293-9611-acd945c5b922-heading-1",
+        "template--16966393626843__44f711aa-974e-4293-9611-acd945c5b922-text-1",
+        "820d0af3-6f60-419d-8ff7-4bcfaa6d8c9c",
+        "2e665bf4-f589-41f1-8bbb-8542c0f25d65"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "fa9dfc57-29d9-429a-ad78-f1c3b0e73d03": {
+      "type": "collection-list",
+      "blocks": {
+        "a1cfda4d-2e5f-4eef-844f-e0f5bb378673": {
+          "type": "collection",
+          "settings": {
+            "collection": "染物-tshirt",
+            "image": "shopify://shop_images/456-2.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "9da0261c-e6c2-4a9a-bbfc-119356e53e8e": {
+          "type": "collection",
+          "settings": {
+            "collection": "染物-vest",
+            "image": "shopify://shop_images/456-4.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "687282e0-14a4-4d42-8dcb-0babe002b96a": {
+          "type": "collection",
+          "settings": {
+            "collection": "染物-半纏",
+            "image": "shopify://shop_images/456-1.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "6185350f-3346-4610-8759-0a714c2e8490": {
+          "type": "collection",
+          "settings": {
+            "collection": "染物-pants",
+            "image": "shopify://shop_images/456-5_e1cdd008-2838-470e-a112-b6a2f5a2e918.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "5d64918e-94c1-465a-9ced-5263aad7e1e8": {
+          "type": "collection",
+          "settings": {
+            "collection": "染物-coat",
+            "image": "shopify://shop_images/456-3.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "46c17ef8-c406-43ca-a082-841559c0eccc": {
+          "type": "collection",
+          "settings": {
+            "collection": "染物-accessories",
+            "image": "shopify://shop_images/456-6.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "a1cfda4d-2e5f-4eef-844f-e0f5bb378673",
+        "9da0261c-e6c2-4a9a-bbfc-119356e53e8e",
+        "687282e0-14a4-4d42-8dcb-0babe002b96a",
+        "6185350f-3346-4610-8759-0a714c2e8490",
+        "5d64918e-94c1-465a-9ced-5263aad7e1e8",
+        "46c17ef8-c406-43ca-a082-841559c0eccc"
+      ],
+      "settings": {
+        "title": "SHOP BY CATEGORY",
+        "enable_carousel": false,
+        "grid": 3,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "dfa03eb9-1655-48dd-8bcb-a93319a25d91": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "RANKING",
+        "collection": "染物-best-seller",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "2839da26-c06f-4f02-9413-70c1b10c25a1": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "NEW ARRIVAL",
+        "collection": "染物-new-arrivals",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "c0162a26-d0c9-4aa0-8d03-4c3e2ba50d27": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ACCESSORY",
+        "collection": "染物-accessories",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 4,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "8dc28eb8-514e-4fbb-a15d-07d7bfdf4f01": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16966393626843__8dc28eb8-514e-4fbb-a15d-07d7bfdf4f01-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/457-PC.jpg",
+            "mobile_image": "shopify://shop_images/457-M_5cf727c8-6821-4a97-a4a9-28108967afff.jpg",
+            "slide_link": "shopify://collections/japan-blue",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        },
+        "b3a61170-251d-4b9d-a7c0-138e54ff55f8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/457-PC_7b7d6364-80ce-4d82-9f14-964168d7b75e.jpg",
+            "mobile_image": "shopify://shop_images/457-M_d35637fc-4fc5-4928-80b8-788b1b85eee7.jpg",
+            "slide_link": "shopify://collections/japan-blue",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16966393626843__8dc28eb8-514e-4fbb-a15d-07d7bfdf4f01-image-1",
+        "b3a61170-251d-4b9d-a7c0-138e54ff55f8"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 640,
+        "height_mobile": 580,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 3,
+        "accessibility_info": ""
+      }
+    },
+    "336bc365-c883-47d3-8797-e7665017e1c0": {
+      "type": "background-video",
+      "settings": {
+        "video_external": "https://www.youtube.com/watch?v=CnxPZSi4JaQ",
+        "video_description": "",
+        "placeholder_image": "shopify://shop_images/maxresdefault_46b5b71c-e0f0-4ffd-8f0b-d4d45accb801.webp",
+        "text_alignment": "center center",
+        "height_desktop": 720,
+        "height_mobile": 200,
+        "full_width": true,
+        "overlay_style": "full"
+      }
+    }
+  },
+  "order": [
+    "74ebb89b-5bf9-4d57-8098-9229cf3a1d69",
+    "main",
+    "44f711aa-974e-4293-9611-acd945c5b922",
+    "fa9dfc57-29d9-429a-ad78-f1c3b0e73d03",
+    "dfa03eb9-1655-48dd-8bcb-a93319a25d91",
+    "2839da26-c06f-4f02-9413-70c1b10c25a1",
+    "c0162a26-d0c9-4aa0-8d03-4c3e2ba50d27",
+    "8dc28eb8-514e-4fbb-a15d-07d7bfdf4f01",
+    "336bc365-c883-47d3-8797-e7665017e1c0"
+  ]
+}

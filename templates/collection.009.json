@@ -1,0 +1,218 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1636523147018cf230": {
+      "type": "rich-text",
+      "blocks": {
+        "6c945abf-e110-4965-8a21-d6a8757dc962": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "\"Let’s Go Picnic\""
+          }
+        },
+        "1636523147018cf230-1": {
+          "type": "heading",
+          "settings": {
+            "title": "野遊びの準備は、今のうちから。キャンプの世界へ、ようこそ。",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "6c945abf-e110-4965-8a21-d6a8757dc962",
+        "1636523147018cf230-1"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "1636523643a6212f23": {
+      "type": "slideshow",
+      "blocks": {
+        "1636523643a6212f23-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20211110140101.png",
+            "slide_link": "",
+            "subheading": "DESIGN BY KARAKUBUY",
+            "title": "\"Let’s Go Picnic\"",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        },
+        "1636523643a6212f23-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/O1CN01LNCKWQ28h6a9O4Hav__2212513317963.jpg",
+            "slide_link": "",
+            "subheading": "DESIGN BY KARAKUBUY",
+            "title": "\"Let’s Go Picnic\"",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        },
+        "30101946-e845-491b-88fe-7feedb145371": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/O1CN010ABjSe28h6a1g00iC__2212513317963.jpg",
+            "slide_link": "",
+            "subheading": "DESIGN BY KARAKUBUY",
+            "title": "\"Let’s Go Picnic\"",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1636523643a6212f23-0",
+        "1636523643a6212f23-1",
+        "30101946-e845-491b-88fe-7feedb145371"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "1636525623a9bb60a7": {
+      "type": "rich-text",
+      "blocks": {
+        "1636525623a9bb60a7-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "INTORDUCTION"
+          }
+        },
+        "1636525623a9bb60a7-1": {
+          "type": "heading",
+          "settings": {
+            "title": "2022 Spring＆Summer Outdoor Style",
+            "use_h1": false
+          }
+        },
+        "1636525623a9bb60a7-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>青く澄んだ空の下、れんげ畑に寝ころんで。遠くに聞こえる鳥のさえずりと、野原を楽しそうにかけまわる動物たち。<br/>窮屈な日常を忘れて、思いっきり深呼吸をしよう。心地よい春のそよ風に吹かれながら。<br/>窮屈な日常を忘れて、ピクニックに出かけよう。</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1636525623a9bb60a7-0",
+        "1636525623a9bb60a7-1",
+        "1636525623a9bb60a7-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 36,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "1636523147018cf230",
+    "1636523643a6212f23",
+    "1636525623a9bb60a7",
+    "main",
+    "1635765484031572a6"
+  ]
+}

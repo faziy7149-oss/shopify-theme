@@ -1,0 +1,477 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_n3xqj7": {
+      "type": "slideshow",
+      "blocks": {
+        "image_3pE7Ec": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/8_1a7b8766-9874-421d-abcb-3d1b7d8f98a8.png",
+            "mobile_image": "shopify://shop_images/11_e93ac3b6-c2f4-47b5-ba6e-98fde33d4108.png",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_3pE7Ec"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 800,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_aP3Rh8": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_5c812f28-d015-42f5-9f3e-3518ed3bf6b3.png",
+        "mobile_image": "shopify://shop_images/720_210b16c2-bfb9-439b-945f-f8260981f3fa.png",
+        "img_rul": ""
+      }
+    },
+    "url_text_Qzej98": {
+      "type": "url-text",
+      "settings": {
+        "style_image": "shopify://shop_images/20241217-181904.png",
+        "url_text": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C",
+        "text_url": "ALL ITEMS",
+        "btn_color": "#faf0b8",
+        "btn_color_hover": "#3ea36a",
+        "btn_text_color": "#c20000",
+        "btn_text_color_hover": "#faf0ba",
+        "url_font_weight": "normal",
+        "url_font_size_pc": 23,
+        "url_font_size_moble": 18,
+        "img_postion_size_pc": 100,
+        "img_postion_size_moble": 84,
+        "img_postion_left_pc": 53,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 59,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 5,
+        "img_postion_rotation_moble": 7
+      }
+    },
+    "adjusting_spacing_nwft4w": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -4
+      }
+    },
+    "scrolling_banner_image_MwkVkP": {
+      "type": "scrolling-banner-image",
+      "blocks": {
+        "text_48cPM7": {
+          "type": "text",
+          "settings": {
+            "text": "Christmas Collection",
+            "color": "#faf0b8",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "icon_fHrKtD": {
+          "type": "icon",
+          "settings": {
+            "icon": "gift",
+            "icon_width": 50,
+            "color": "#faf0b8"
+          }
+        },
+        "text_kgBWCP": {
+          "type": "text",
+          "settings": {
+            "text": "2024",
+            "color": "#faf0b8",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_48cPM7",
+        "icon_fHrKtD",
+        "text_kgBWCP"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 27.5,
+        "direction": "right",
+        "font": "base",
+        "space": 50
+      }
+    },
+    "image_jump_custom_aD8ixB": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_JnxxdP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/81593decc8929e8ca1d0402313248b48_acda8a4b-6705-4fec-a6d3-bc6ed50c9d9c.png",
+            "image-id": "",
+            "image_link": "##"
+          }
+        },
+        "image_FrJ8FT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pc_79a4ca45-91e5-4384-bc90-7c5bcc920859.png",
+            "image-id": "",
+            "image_link": "##"
+          }
+        }
+      },
+      "block_order": [
+        "image_JnxxdP",
+        "image_FrJ8FT"
+      ],
+      "settings": {}
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "background_image_WHyYDH": {
+      "type": "background-image",
+      "settings": {
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#9a2c2b",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "card_link_wPemrr": {
+      "type": "card-link",
+      "blocks": {
+        "card_PadbN8": {
+          "type": "Card",
+          "settings": {
+            "image": "shopify://shop_images/1-1_5451bebc-a978-4b36-8ede-be067c02c886.png",
+            "card_product_text1": "JACKET |ジャケット",
+            "product_link1": "https://karakubuy.com/products/krk-zyd-jsqbmf903?_pos=1&_sid=8b3854721&_ss=r&variant=46075600142555",
+            "card_product_text2": "HOODIES | パーカー",
+            "product_link2": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C/products/krk-sd-hk6102",
+            "card_product_text3": "SHIRTS | シャツ",
+            "product_link3": "https://karakubuy.com/products/krk-b407-cs93322?_pos=6&_sid=48eb31ba4&_ss=r",
+            "card_product_text4": "PANTS | パンツ",
+            "product_link4": "https://karakubuy.com/collections/%E3%83%87%E3%83%8B%E3%83%A0%E3%83%91%E3%83%B3%E3%83%84/products/krk-md-ts2107021"
+          }
+        },
+        "portrait_qAkgy4": {
+          "type": "Portrait",
+          "settings": {
+            "portrait_image": "shopify://shop_images/1_a9cdff83-0a91-434d-90b3-6d1830df488c.png"
+          }
+        },
+        "portrait_mnFkUi": {
+          "type": "Portrait",
+          "settings": {
+            "portrait_image": "shopify://shop_images/2_b82a0897-b883-4f28-9fb3-f67526a58828.png"
+          }
+        },
+        "card_FNPeFM": {
+          "type": "Card",
+          "settings": {
+            "image": "shopify://shop_images/1-2_ead4c56b-9ad8-4f3c-912a-ced16c29fd7e.png",
+            "card_product_text1": "SWEATER | セーター",
+            "product_link1": "https://karakubuy.com/products/krk-zyd-mlthwy0819?_pos=1&_sid=9f7a3b7e5&_ss=r&variant=45997995720923",
+            "card_product_text2": "SHIRTS |シャツ",
+            "product_link2": "https://karakubuy.com/products/krk-md-tsw2201006?_pos=1&_sid=017331603&_ss=r",
+            "card_product_text3": "BAG | バッグ",
+            "product_link3": "https://karakubuy.com/collections/%E3%83%90%E3%83%83%E3%82%B0/products/s1901293",
+            "card_product_text4": "PANTS | パンツ",
+            "product_link4": "https://karakubuy.com/collections/%E3%82%B9%E3%83%A9%E3%83%83%E3%82%AF%E3%82%B9/products/krk-sz093001"
+          }
+        },
+        "card_FhrHBr": {
+          "type": "Card",
+          "settings": {
+            "image": "shopify://shop_images/1-3_0b4dcacf-8bb1-4fae-85da-c969e1e61eb4.png",
+            "card_product_text1": "JACKET | ジャケット",
+            "product_link1": "https://karakubuy.com/collections/jacket/products/krk-ljp-nzpjfxjk826",
+            "card_product_text2": "VEST | キルティングベスト",
+            "product_link2": "https://karakubuy.com/products/krk-nxb407-mj92425?_pos=2&_sid=a9a96dace&_ss=r",
+            "card_product_text3": "PANTS | パンツ",
+            "product_link3": "https://karakubuy.com/products/krk-k174?_pos=12&_sid=2ca830c6b&_ss=r",
+            "card_product_text4": "ACCESSORIES | キーホルダー",
+            "product_link4": "https://karakubuy.com/collections/%E3%82%A2%E3%82%AF%E3%82%BB%E3%82%B5%E3%83%AA%E3%83%BC-%E5%B0%8F%E7%89%A9/products/krk-orjnkey1012"
+          }
+        },
+        "portrait_6tzEVB": {
+          "type": "Portrait",
+          "settings": {
+            "portrait_image": "shopify://shop_images/3_0682cb05-67c2-411e-b9e1-acc126c2f41a.png"
+          }
+        },
+        "portrait_eyQizc": {
+          "type": "Portrait",
+          "settings": {
+            "portrait_image": "shopify://shop_images/4_c7f9e616-ec3c-47cf-b9d0-69bc6f192724.png"
+          }
+        },
+        "card_9NRgpq": {
+          "type": "Card",
+          "settings": {
+            "image": "shopify://shop_images/1-4_e2e29da1-3c22-4d8f-ae37-8ec2c5fd8b9f.png",
+            "card_product_text1": "JACKET | ジャケット",
+            "product_link1": "https://karakubuy.com/collections/jacket/products/KRK-NX392-JK138",
+            "card_product_text2": "SHIRTS | シャツ",
+            "product_link2": "https://karakubuy.com/products/krk-gm-8009?_pos=2&_sid=fb7ee3419&_ss=r",
+            "card_product_text3": "SWEATSHIRTS | スウェット",
+            "product_link3": "https://karakubuy.com/collections/sweatshirt-hoodie-1/products/krk-md-tls2107002",
+            "card_product_text4": "",
+            "product_link4": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_PadbN8",
+        "portrait_qAkgy4",
+        "portrait_mnFkUi",
+        "card_FNPeFM",
+        "card_FhrHBr",
+        "portrait_6tzEVB",
+        "portrait_eyQizc",
+        "card_9NRgpq"
+      ],
+      "settings": {}
+    },
+    "adjusting_spacing_eyGy4K": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -10,
+        "margin_top2": -2
+      }
+    },
+    "image_jump_custom_tNrrnP": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_fhzKxh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/6_4e6560a3-d14f-493e-a0cc-dfbf40bc9eec.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        },
+        "image_A9bTap": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/pc-2.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_fhzKxh",
+        "image_A9bTap"
+      ],
+      "settings": {}
+    },
+    "card_link_r8wNWR": {
+      "type": "card-link",
+      "blocks": {
+        "card_XLiPNk": {
+          "type": "Card",
+          "settings": {
+            "image": "shopify://shop_images/2-1_7404d10c-5d02-420a-af6d-765fd52aade4.png",
+            "card_product_text1": "JACKET |ジャケット",
+            "product_link1": "https://karakubuy.com/products/krk-zm-087-d1",
+            "card_product_text2": "VEST | ベスト",
+            "product_link2": "https://karakubuy.com/products/krk-zyd-lrdxrmj029",
+            "card_product_text3": "PANTS | パンツ",
+            "product_link3": "https://karakubuy.com/products/md-s2007034",
+            "card_product_text4": "",
+            "product_link4": "https://karakubuy.com/collections/%E3%83%87%E3%83%8B%E3%83%A0%E3%83%91%E3%83%B3%E3%83%84/products/krk-md-ts2107021"
+          }
+        },
+        "portrait_cfGkqp": {
+          "type": "Portrait",
+          "settings": {
+            "portrait_image": "shopify://shop_images/5_3e7464f9-54a5-42a5-acf1-96b9e32345b5.png"
+          }
+        },
+        "portrait_W3AQQ3": {
+          "type": "Portrait",
+          "settings": {
+            "portrait_image": "shopify://shop_images/6_db0e7935-b0f7-41a0-b4a5-0c17c41b6b90.png"
+          }
+        },
+        "card_GPQMmL": {
+          "type": "Card",
+          "settings": {
+            "image": "shopify://shop_images/2-2_4d2fc656-c10d-4de1-be72-f956064401d1.png",
+            "card_product_text1": "JACKET | ジャケット",
+            "product_link1": "https://karakubuy.com/products/krk-zyd-dxrksjk1011",
+            "card_product_text2": "PANTS | パンツ",
+            "product_link2": "https://karakubuy.com/products/md-s2007034",
+            "card_product_text3": "BOOTS | ブーツ",
+            "product_link3": "https://karakubuy.com/collections/%E3%83%96%E3%83%BC%E3%83%84/products/krk-md-md2401201",
+            "card_product_text4": "",
+            "product_link4": ""
+          }
+        },
+        "card_Fy9XL6": {
+          "type": "Card",
+          "settings": {
+            "image": "shopify://shop_images/2-3_e972fdf8-14e2-46ca-8dc8-3f3bafcd2302.png",
+            "card_product_text1": "SWEATER |ニットセーター",
+            "product_link1": "https://karakubuy.com/products/krk-md-tw2007103",
+            "card_product_text2": "PANTS | パンツ",
+            "product_link2": "https://karakubuy.com/collections/%E3%83%91%E3%83%B3%E3%83%84/products/krk-s2007047",
+            "card_product_text3": "SNEAKER |スニーカー",
+            "product_link3": "https://karaku.co.kr/products/krk-md2301008",
+            "card_product_text4": "CAP | 帽子",
+            "product_link4": "https://karakubuy.com/collections/%E5%B8%BD%E5%AD%90/products/krk-md-ts2401917"
+          }
+        },
+        "portrait_aw6y9T": {
+          "type": "Portrait",
+          "settings": {
+            "portrait_image": "shopify://shop_images/7_c71a4427-9eb2-46ac-9cc8-f9c02f7236f2.png"
+          }
+        },
+        "portrait_NLKpLa": {
+          "type": "Portrait",
+          "settings": {
+            "portrait_image": "shopify://shop_images/8_3c440dc6-b20e-45f3-821d-ed2457b29fe5.png"
+          }
+        },
+        "card_gz7G6X": {
+          "type": "Card",
+          "settings": {
+            "image": "shopify://shop_images/2-4_05e0128a-49ca-474a-b11d-44e136ca8bdb.png",
+            "card_product_text1": "JACKET | ジャケット",
+            "product_link1": "https://karakubuy.com/products/KRK-B429-MY07259",
+            "card_product_text2": "PANTS | パンツ",
+            "product_link2": "https://karakubuy.com/products/krk-k174?_pos=12&_sid=2ca830c6b&_ss=r",
+            "card_product_text3": "",
+            "product_link3": "",
+            "card_product_text4": "",
+            "product_link4": ""
+          }
+        }
+      },
+      "block_order": [
+        "card_XLiPNk",
+        "portrait_cfGkqp",
+        "portrait_W3AQQ3",
+        "card_GPQMmL",
+        "card_Fy9XL6",
+        "portrait_aw6y9T",
+        "portrait_NLKpLa",
+        "card_gz7G6X"
+      ],
+      "settings": {}
+    },
+    "canvas_snow_y7iz8T": {
+      "type": "canvas-snow",
+      "settings": {
+        "snow_density": 150,
+        "snow_speed": 1.5,
+        "enable_mobile": true
+      }
+    },
+    "adjusting_spacing_3NyFYL": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -14,
+        "margin_top2": 0
+      }
+    }
+  },
+  "order": [
+    "slideshow_n3xqj7",
+    "image_aP3Rh8",
+    "url_text_Qzej98",
+    "adjusting_spacing_nwft4w",
+    "scrolling_banner_image_MwkVkP",
+    "image_jump_custom_aD8ixB",
+    "main",
+    "background_image_WHyYDH",
+    "card_link_wPemrr",
+    "adjusting_spacing_eyGy4K",
+    "image_jump_custom_tNrrnP",
+    "card_link_r8wNWR",
+    "canvas_snow_y7iz8T",
+    "adjusting_spacing_3NyFYL"
+  ]
+}

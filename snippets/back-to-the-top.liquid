@@ -1,0 +1,109 @@
+{% comment %}
+  滚动超过该像素后显示「返回顶部」按钮
+{% endcomment %}
+{% assign vertical_offset_for_trigger = 1200 %}
+
+<a
+  href="#MainContent"
+  class="back-to-top"
+  title="Back to the top"
+  aria-label="Back to the top"
+>
+  {% render 'svg-backTop' %}
+</a>
+
+<style>
+  .back-to-top {
+    position: fixed;
+    right: 22px;
+    /* 固定距底，为右下角其它悬浮控件（如聊天）预留空间 */
+    bottom: 160px;
+    width: 48px;
+    height: 48px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: #2c2c2c;
+    background-color: rgba(239, 239, 239, 0.47);
+    border: 2px solid transparent;
+    border-radius: 50%;
+    display: none;
+    z-index: 20;
+    overflow: hidden;
+  }
+  .back-to-top .icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 24px;
+    height: 24px;
+    transform: translate(-50%, -50%);
+    display: block;
+  }
+  .back-to-top:hover {
+    text-decoration: none;
+    color: #555;
+  }
+  @media screen and (max-width: 767px) {
+    .back-to-top {
+      right: 19px;
+      bottom: 80px;
+    }
+  }
+</style>
+
+<script>
+  (function () {
+    var offset = {{ vertical_offset_for_trigger }};
+    var duration = 500;
+    var btn = null;
+    var ticking = false;
+    var visible = false;
+
+    function getBtn() {
+      if (!btn) btn = document.querySelector('.back-to-top');
+      return btn;
+    }
+
+    function setVisible(show) {
+      var el = getBtn();
+      if (!el || show === visible) return;
+      visible = show;
+      el.style.display = show ? 'block' : 'none';
+    }
+
+    function onScroll() {
+      if (ticking) return;
+      ticking = true;
+      requestAnimationFrame(function () {
+        setVisible(window.pageYOffset > offset);
+        ticking = false;
+      });
+    }
+
+    function onClick(e) {
+      e.preventDefault();
+      try {
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+      } catch (err) {
+        window.scrollTo(0, 0);
+      }
+    }
+
+    function init() {
+      var el = getBtn();
+      if (!el || el.dataset.backToTopInit === 'true') return;
+      el.dataset.backToTopInit = 'true';
+      el.addEventListener('click', onClick);
+      window.addEventListener('scroll', onScroll, { passive: true });
+      onScroll();
+    }
+
+    if (document.readyState === 'loading') {
+      document.addEventListener('DOMContentLoaded', init);
+    } else {
+      init();
+    }
+  })();
+</script>

@@ -1,0 +1,636 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "164438736662ca6c53": {
+      "type": "rich-text",
+      "blocks": {
+        "1644387366b5fe4bef-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "注目製品"
+          }
+        },
+        "1644387366b5fe4bef-1": {
+          "type": "heading",
+          "settings": {
+            "title": "ミリタリーはいつもトレンドの中心にある",
+            "use_h1": false
+          }
+        },
+        "1644387366b5fe4bef-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Karakuミリタリー系</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "1644387366b5fe4bef-0",
+        "1644387366b5fe4bef-1",
+        "1644387366b5fe4bef-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "16443873701eca1389": {
+      "type": "slideshow",
+      "blocks": {
+        "1644387370a98ff894-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_54b11b8a-5b3b-4bad-aba1-d09c1e0be86d.png",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        },
+        "1644387370a98ff894-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_96f13f78-e31b-499d-b86c-fc41c533af08.png",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        },
+        "4bd3c5d7-e187-4ed7-ac9f-19981bc9c8f0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_ff9eea26-7718-4df2-96da-2c8e8d7798ee.png",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        },
+        "b50580ad-28fd-4fda-9346-5db5e4fd6ae2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_ab610050-e173-46b7-adb1-20aea4f3d779.png",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1644387370a98ff894-0",
+        "1644387370a98ff894-1",
+        "4bd3c5d7-e187-4ed7-ac9f-19981bc9c8f0",
+        "b50580ad-28fd-4fda-9346-5db5e4fd6ae2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 4,
+        "accessibility_info": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 36,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "16443980027a72787d": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ミリタリー系―人気TOP5",
+        "collection": "ミリタリー系-人気top5",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": false,
+        "full_width": false
+      }
+    },
+    "164438973610146452": {
+      "type": "rich-text",
+      "blocks": {
+        "16443897365941d86b-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "INTRODUCTION"
+          }
+        },
+        "16443897365941d86b-1": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "use_h1": false
+          }
+        },
+        "16443897365941d86b-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>毎年浮上するキーワード「ミリタリー」ですが、今年は本気 。戦中や戦前にその原型が作られながらも、今なお多くのブランドのデザインソースとされている永遠の定番、ミリタリーウェア。<br/>ミリタリーファッションを攻略するなら。無骨なミリタリーアイテムを日常着に。そんな男らしいスタイルに憧れる方は多いはず。とはいえども、チョイスや着こなしを間違えれば、単なる“ミリオタ”になるだけ…なんて悲劇もありえます。おしゃれに着こなすには、やはり外さない選択肢を知っておくのが得策。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "16443897365941d86b-0",
+        "16443897365941d86b-1",
+        "16443897365941d86b-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "16443977662df72737": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ミリタリー系―新着",
+        "collection": "ミリタリー系-新着",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": false,
+        "full_width": false
+      }
+    },
+    "1644398022def47a1a": {
+      "type": "slideshow",
+      "blocks": {
+        "16443980224bd52b99-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_9ced95c5-63f2-4fa9-b566-d8a4192bea41.png",
+            "slide_link": "shopify://collections/ミリタリー系-トップス",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16443980224bd52b99-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "164439898972cf940e": {
+      "type": "rich-text",
+      "blocks": {
+        "164439898982c53e66-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ミリタリースタイルに関しては、アウターウェアが注目を集めることがよくあります。しかし、下着でさえかなりの数の傑作があります！</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "164439898982c53e66-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "1644401453eccf6fae": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "トップス",
+        "collection": "ミリタリー系-トップス",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "164439288307f70062": {
+      "type": "slideshow",
+      "blocks": {
+        "1644392883ad9cabdb-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_09c2336c-ecdf-429b-a998-bef39b83b02d.png",
+            "slide_link": "shopify://collections/ミリタリー系-ジャケット",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1644392883ad9cabdb-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "16443907458e8771c5": {
+      "type": "rich-text",
+      "blocks": {
+        "16443907459682ee7d-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ミリタリージャケットと言われるモデルは数多く存在し、代表的なモデルでは「MA-1」「M-43」「M-65」などが存在する。</p><p>ミリタリージャケットとは、military＝「軍人の」「軍隊の」という意味があるように、戦時中に軍服として生産されたジャケットのことを指す。また、現在では戦時中に生まれたと言われる軍服を参考にしたデザインや、エポーレット、Dリングなど軍服独自のディテールが施されたジャケットもミリタリージャケットと言われることも。</p><p></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "16443907459682ee7d-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "1644390488566e5457": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ジャケット",
+        "collection": "ミリタリー系-ジャケット",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "1644394290d5389a6e": {
+      "type": "slideshow",
+      "blocks": {
+        "164439429017431775-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_6bf5289a-9ac3-4c1b-82a9-1b047e341fb0.png",
+            "slide_link": "shopify://collections/ミリタリー系-防寒アイテム",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "164439429017431775-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "16443954383d1d4f18": {
+      "type": "rich-text",
+      "blocks": {
+        "1644395438a5b1f694-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>毎年11月から3月にかけて、日本のほとんどの地域の気温は10℃を下回ります。快適な暖かさとモダンで洗練されたデザインを兼ね備えた“街でもアウトでも着映える“防寒アイテムをピックアップ。ミリタリースタイルの定番のN-3B、M51フィッシュテールコート、N-1デッキジャケットは、日本の冬の着こなしにぴったりです。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1644395438a5b1f694-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "1644396421c9673b62": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "防寒アイテム",
+        "collection": "ミリタリー系-防寒アイテム",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "16443964319803140e": {
+      "type": "slideshow",
+      "blocks": {
+        "16443964313eaad99b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/5_6f1a711f-e52d-4392-86df-c1ae33ddf893.png",
+            "slide_link": "shopify://collections/ミリタリー系-パンツ",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16443964313eaad99b-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "164439655688e773c6": {
+      "type": "rich-text",
+      "blocks": {
+        "16443965568fa67f2a-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>軍パンの種類は大きくわけて【ファティーグパンツ・カーゴパンツ・スラックス・チノパン】の4種類<br/>アメカジブランドやミリタリーブランドに限らず、今年は多くのブランドが軍パンをリリースしている模様。街を歩けば、それっぽいパンツを穿いている姿をよく見かけることもあり、どうやらブーム再燃の兆しあり。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "16443965568fa67f2a-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "16443965604571e222": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "パンツ",
+        "collection": "ミリタリー系-パンツ",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "16443967304fff1b7e": {
+      "type": "slideshow",
+      "blocks": {
+        "1644396730350d7d18-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_30ab03e6-0027-417e-824f-bb0fd933ea70.png",
+            "slide_link": "shopify://collections/ミリタリー系-小物",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1644396730350d7d18-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "full",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "1644396804aa640c11": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "アクセサリー",
+        "collection": "ミリタリー系-小物",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "164438736662ca6c53",
+    "16443873701eca1389",
+    "main",
+    "16443980027a72787d",
+    "164438973610146452",
+    "16443977662df72737",
+    "1644398022def47a1a",
+    "164439898972cf940e",
+    "1644401453eccf6fae",
+    "164439288307f70062",
+    "16443907458e8771c5",
+    "1644390488566e5457",
+    "1644394290d5389a6e",
+    "16443954383d1d4f18",
+    "1644396421c9673b62",
+    "16443964319803140e",
+    "164439655688e773c6",
+    "16443965604571e222",
+    "16443967304fff1b7e",
+    "1644396804aa640c11"
+  ]
+}

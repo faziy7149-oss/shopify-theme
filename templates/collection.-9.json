@@ -1,0 +1,241 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "5ec347d3-ff0e-4d59-97a1-a1786aae3982": {
+      "type": "collection-list",
+      "blocks": {
+        "4749cc3a-1e98-48f1-a2e6-a842d173a53c": {
+          "type": "collection",
+          "settings": {
+            "collection": "hawaiian-shirts",
+            "image": "shopify://shop_images/538__-8.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "558d2ef6-f5b9-42a1-be24-74323010f001": {
+          "type": "collection",
+          "settings": {
+            "collection": "ukiyo-e",
+            "image": "shopify://shop_images/538__-6.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "626a1959-88c2-4c29-af10-54108fb4f211": {
+          "type": "collection",
+          "settings": {
+            "collection": "americancasual",
+            "image": "shopify://shop_images/538__-1.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "9870a9e6-e573-4df2-a5e9-fb6b5c589d62": {
+          "type": "collection",
+          "settings": {
+            "collection": "basic",
+            "image": "shopify://shop_images/538__-10.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "1326c72d-a1ae-4d74-a654-c7ead99a56f2": {
+          "type": "collection",
+          "settings": {
+            "collection": "denim-collection",
+            "image": "shopify://shop_images/538__-4.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "d1cc5b57-0582-413e-995c-2f4e4e8dafbc": {
+          "type": "collection",
+          "settings": {
+            "collection": "tailoredjacket",
+            "image": "shopify://shop_images/538__-7.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "9795d775-ca4d-4236-a09a-159cf3e58305": {
+          "type": "collection",
+          "settings": {
+            "collection": "turquoise-1",
+            "image": "shopify://shop_images/20251110-161450.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "26a7903d-00af-4ebc-bcab-7612ac99f600": {
+          "type": "collection",
+          "settings": {
+            "collection": "flight-jacket-1",
+            "image": "shopify://shop_images/538__-3.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "baafee5f-7b8f-43ea-b87f-549f748b91e0": {
+          "type": "collection",
+          "settings": {
+            "collection": "染物",
+            "image": "shopify://shop_images/538__-2.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "2394b244-7c9a-41c8-80b9-404ee026c488": {
+          "type": "collection",
+          "settings": {
+            "collection": "motorcycle-fashion",
+            "image": "shopify://shop_images/538__-9.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "4749cc3a-1e98-48f1-a2e6-a842d173a53c",
+        "558d2ef6-f5b9-42a1-be24-74323010f001",
+        "626a1959-88c2-4c29-af10-54108fb4f211",
+        "9870a9e6-e573-4df2-a5e9-fb6b5c589d62",
+        "1326c72d-a1ae-4d74-a654-c7ead99a56f2",
+        "d1cc5b57-0582-413e-995c-2f4e4e8dafbc",
+        "9795d775-ca4d-4236-a09a-159cf3e58305",
+        "26a7903d-00af-4ebc-bcab-7612ac99f600",
+        "baafee5f-7b8f-43ea-b87f-549f748b91e0",
+        "2394b244-7c9a-41c8-80b9-404ee026c488"
+      ],
+      "settings": {
+        "title": "スタイルから探す",
+        "enable_carousel": false,
+        "grid": 5,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "fa9dfc57-29d9-429a-ad78-f1c3b0e73d03": {
+      "type": "collection-list",
+      "blocks": {
+        "a1cfda4d-2e5f-4eef-844f-e0f5bb378673": {
+          "type": "collection",
+          "settings": {
+            "collection": "casual",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "9da0261c-e6c2-4a9a-bbfc-119356e53e8e": {
+          "type": "collection",
+          "settings": {
+            "collection": "business",
+            "image": "shopify://shop_images/480x558-3.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "687282e0-14a4-4d42-8dcb-0babe002b96a": {
+          "type": "collection",
+          "settings": {
+            "collection": "outdoor-sports",
+            "image": "shopify://shop_images/480x558-1.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "6185350f-3346-4610-8759-0a714c2e8490": {
+          "type": "collection",
+          "settings": {
+            "collection": "navy",
+            "image": "shopify://shop_images/480x558-2.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "a1cfda4d-2e5f-4eef-844f-e0f5bb378673",
+        "9da0261c-e6c2-4a9a-bbfc-119356e53e8e",
+        "687282e0-14a4-4d42-8dcb-0babe002b96a",
+        "6185350f-3346-4610-8759-0a714c2e8490"
+      ],
+      "settings": {
+        "title": "シーンから探す",
+        "enable_carousel": false,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "shortest",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "5ec347d3-ff0e-4d59-97a1-a1786aae3982",
+    "fa9dfc57-29d9-429a-ad78-f1c3b0e73d03"
+  ]
+}

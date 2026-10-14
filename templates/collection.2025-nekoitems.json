@@ -1,0 +1,651 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "slideshow_KjpXMy": {
+      "type": "slideshow",
+      "blocks": {
+        "image_Bkt8C7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20250415-101527.jpg",
+            "mobile_image": "shopify://shop_images/20250415-101541.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_Bkt8C7"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "scrolling_banner_image_QiRTrN": {
+      "type": "scrolling-banner-image",
+      "blocks": {
+        "text_4Hn4jt": {
+          "type": "text",
+          "settings": {
+            "text": "Karaku Cat Collection",
+            "color": "#d63828",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "image_qiynyc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/copy-copy_b0f4ddda-71fb-494d-ba98-5e5214511542.png",
+            "image_width": 55,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_4Hn4jt",
+        "image_qiynyc"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 19,
+        "direction": "left",
+        "font": "heading",
+        "space": 30
+      }
+    },
+    "single_image_qTMKcf": {
+      "type": "single-image",
+      "settings": {
+        "image_block_image": "shopify://shop_images/1920_64a6f6ff-fc0c-457a-a08e-0fe4900a059e.png",
+        "image_block_image_m": "shopify://shop_images/720_4e352cd0-e3b2-46b4-a833-7503a2a771cd.png",
+        "image_link": ""
+      }
+    },
+    "scrolling_banner_image_KVNJtP": {
+      "type": "scrolling-banner-image",
+      "blocks": {
+        "text_6f7E4d": {
+          "type": "text",
+          "settings": {
+            "text": "Karaku Cat Collection",
+            "color": "#d63828",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        },
+        "image_Q3bmP8": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/copy-copy_b0f4ddda-71fb-494d-ba98-5e5214511542.png",
+            "image_width": 55,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_6f7E4d",
+        "image_Q3bmP8"
+      ],
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 19,
+        "direction": "right",
+        "font": "heading",
+        "space": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [
+          "shirts",
+          "スウェット",
+          "ジャケット-アウター",
+          "アクセサリー",
+          "short-sleeve-t-shirts",
+          "short-sleeve-shirts",
+          "カーゴパンツ",
+          "coat",
+          "デニムパンツ"
+        ],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "url_text_FG4TJw": {
+      "type": "url-text",
+      "settings": {
+        "style_image": "shopify://shop_images/16_-removebg-preview.png",
+        "url_text": "https://karakubuy.com/collections/nekoshirt",
+        "text_url": "NEKO SHIRTS",
+        "btn_color": "#f9c93e",
+        "btn_color_hover": "#d4362e",
+        "btn_text_color": "#fffeee",
+        "btn_text_color_hover": "#fffeee",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 25,
+        "url_font_size_moble": 12,
+        "img_postion_size_pc": 78,
+        "img_postion_size_moble": 59,
+        "img_postion_left_pc": 54,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 59,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 2,
+        "img_postion_rotation_moble": 2
+      }
+    },
+    "adjusting_spacing_PjLeTW": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -4,
+        "margin_top2": -6
+      }
+    },
+    "slide_block_group_VPHkwE": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_dyNpHG": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-9.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-10_23d6e90e-40da-4d8c-9c32-7a6243e8ab34.jpg",
+            "slide_title": "「猫たちのフラダンスパーティー」浮世絵風プリントアロハシャツ",
+            "slide_price": 12980,
+            "slide_price_new": 7200,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/collections/%E5%85%88%E8%A1%8C%E4%BA%88%E7%B4%84%E5%95%86%E5%93%81/products/krk-zyd-yzsmyc0310",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_eWVD8T": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-11.jpg",
+            "slide_title": "「江戸の遊び猫づくし」木版風プリントコットンオープンカラーシャツ",
+            "slide_price": 10980,
+            "slide_price_new": 0,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/collections/%E5%85%88%E8%A1%8C%E4%BA%88%E7%B4%84%E5%95%86%E5%93%81/products/krk-gsh-mmggqc0225",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_UDqr4e": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-7_60341d53-0ab4-44dd-ab36-6a67c95c012b.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-8_0c1e8044-84c0-45c3-b1ad-1d508e87c31b.jpg",
+            "slide_title": "明治時代「猫・リボン・菊」浮世絵風テンセルアロハシャツ",
+            "slide_price": 13980,
+            "slide_price_new": 0,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/collections/%E5%85%88%E8%A1%8C%E4%BA%88%E7%B4%84%E5%95%86%E5%93%81/products/krk-gsh-rqxtcs0217",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_dyNpHG",
+        "slide_block_eWVD8T",
+        "slide_block_UDqr4e"
+      ],
+      "settings": {
+        "slide_btn_color": "#d83a21",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#faca2f",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_Wff9p4": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_j6Wm4D": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-13.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-14.jpg",
+            "slide_title": "民間伝承「化け猫」浮世絵風オープンカラーシャツ",
+            "slide_price": 12590,
+            "slide_price_new": 0,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lsx-ygm0324?_pos=1&_sid=64bd69055&_ss=r",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_wKaEwc": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-17.jpg",
+            "slide_title": "歌川国芳「猫の百面相」浮世絵風プリントオープンカラーシャツ",
+            "slide_price": 12590,
+            "slide_price_new": 10090,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lsx-dwytscs0219?_pos=10&_sid=c8f80e784&_ss=r",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_KWXULr": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-15.jpg",
+            "slide_title": "「夜闇に潜む猫」ピーチスキンオープンカラーシャツ",
+            "slide_price": 8590,
+            "slide_price_new": 0,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lsx-dlm0324?_pos=5&_sid=d3e09ad97&_ss=r",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_j6Wm4D",
+        "slide_block_wKaEwc",
+        "slide_block_KWXULr"
+      ],
+      "settings": {
+        "slide_btn_color": "#d83a21",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#faca2f",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_RMHVyP": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_cEACjB": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-5_8959cc6d-2bcf-47a0-9ebc-6b6e8a9570b2.jpg",
+            "slide_title": "「ネコ寿司図鑑」手書き風オープンカラーシャツ",
+            "slide_price": 10980,
+            "slide_price_new": 7150,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/collections/%E5%85%88%E8%A1%8C%E4%BA%88%E7%B4%84%E5%95%86%E5%93%81/products/krk-zyd-mswy0327",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_cNxwdG": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/20250414-162831.jpg",
+            "slide_title": "「百虎と百猫の喧嘩」浮世絵総柄アロハシャツ",
+            "slide_price": 10980,
+            "slide_price_new": 0,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/collections/karaku-cat/products/krk-zyd-hwc0402",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_xqydQ4": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-3_08ee4a9a-7081-4830-89b0-a99a77a450d3.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-4_4327b883-51c7-47f2-a753-21efb3824b75.jpg",
+            "slide_title": "「ネコ図鑑」総柄プリントアロハシャツ",
+            "slide_price": 12990,
+            "slide_price_new": 7140,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-ae5275c?_pos=2&_sid=c1da80933&_ss=r",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_cEACjB",
+        "slide_block_cNxwdG",
+        "slide_block_xqydQ4"
+      ],
+      "settings": {
+        "slide_btn_color": "#d83a21",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#faca2f",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "background_image_U8NMPV": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-09-18_17-42-11_811577bf-9a4f-419b-a9b6-ff92fbe7fe85.jpg",
+        "background_color_overlay": "#e2c968",
+        "background_color": ""
+      }
+    },
+    "url_text_rHbLxV": {
+      "type": "url-text",
+      "settings": {
+        "style_image": "shopify://shop_images/16_-removebg-preview.png",
+        "url_text": "https://karakubuy.com/collections/karaku-nekot-shirt",
+        "text_url": "NEKO T-SHIRTS",
+        "btn_color": "#f9c93e",
+        "btn_color_hover": "#d4362e",
+        "btn_text_color": "#fffeee",
+        "btn_text_color_hover": "#fffeee",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 25,
+        "url_font_size_moble": 12,
+        "img_postion_size_pc": 78,
+        "img_postion_size_moble": 59,
+        "img_postion_left_pc": 55,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 59,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 2,
+        "img_postion_rotation_moble": 2
+      }
+    },
+    "adjusting_spacing_VU6m4Q": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -4,
+        "margin_top2": -6
+      }
+    },
+    "slide_block_group_cth9n7": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_YJwhNi": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-1_cbb6b53f-c523-4313-a004-15eb83d9277f.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-2_1b82ef4b-323a-4a43-83e4-4cda16074439.jpg",
+            "slide_title": "「KaraKuｘ365CAT.ART」擬人化・相撲猫コットンTee",
+            "slide_price": 8990,
+            "slide_price_new": 6300,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-zyd-lm0325?_pos=1&_sid=6c58dd108&_ss=r",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_Endthq": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-9_1c70ffd9-5bea-4134-8aa9-fc319b15fece.jpg",
+            "slide_title": "KARAKUロゴ刺繡・「化け猫の武者」浮世絵風コットンTee",
+            "slide_price": 7990,
+            "slide_price_new": 0,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/collections/karaku-cat/products/krk-rym-bhmmt403",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_b4QW98": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-7_04af8396-ee05-4ad1-8195-ba3fb3da1dff.jpg",
+            "slide_title": "『神奈川沖浪裏と波乗り猫』浮世絵風コットンTee",
+            "slide_price": 12190,
+            "slide_price_new": 6100,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/collections/karaku-cat/products/krk-mcltx23320",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_YJwhNi",
+        "slide_block_Endthq",
+        "slide_block_b4QW98"
+      ],
+      "settings": {
+        "slide_btn_color": "#d83a21",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#faca2f",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_piXabF": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_apeTbe": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-5_458b4578-1e2b-4d20-919d-4e0b4dd8d357.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-2_1b82ef4b-323a-4a43-83e4-4cda16074439.jpg",
+            "slide_title": "「KaraKuｘ365CAT.ART」ポケットから覗く猫 浮世絵柄コットンTee",
+            "slide_price": 8990,
+            "slide_price_new": 6300,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/collections/karaku-cat/products/krk-365cat-zyclmqlt426",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_qzkf4Q": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-4_bb10e29a-9d02-4346-ab20-62b704061d21.jpg",
+            "slide_title": "「ガイコツで遊ぶいたずらな猫」刺繡入り　コットン半袖Tee",
+            "slide_price": 8890,
+            "slide_price_new": 5334,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/collections/%E3%83%8D%E3%82%B3t%E3%82%B7%E3%83%A3%E3%83%84/products/krk-gsh-klkmmxt325",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_DrXerG": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-1_696a64ee-bd52-4733-9215-d3b79bc2e756.jpg",
+            "slide_title": "都市限定・ソウル「ロッテワールドタワーに横たわる猫」コットンTee",
+            "slide_price": 8980,
+            "slide_price_new": 4040,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/collections/karaku-cat/products/krk-gsh-mmseltt103",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_apeTbe",
+        "slide_block_qzkf4Q",
+        "slide_block_DrXerG"
+      ],
+      "settings": {
+        "slide_btn_color": "#d83a21",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#faca2f",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "url_text_PXNQj4": {
+      "type": "url-text",
+      "settings": {
+        "style_image": "shopify://shop_images/16_-removebg-preview.png",
+        "url_text": "https://karakubuy.com/collections/karaku-neko-accessories",
+        "text_url": "NEKO ACCESSORIES",
+        "btn_color": "#f9c93e",
+        "btn_color_hover": "#d4362e",
+        "btn_text_color": "#fffeee",
+        "btn_text_color_hover": "#fffeee",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 25,
+        "url_font_size_moble": 12,
+        "img_postion_size_pc": 78,
+        "img_postion_size_moble": 79,
+        "img_postion_left_pc": 57,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 55,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 2,
+        "img_postion_rotation_moble": 2
+      }
+    },
+    "adjusting_spacing_maL86T": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": -4,
+        "margin_top2": -6
+      }
+    },
+    "slide_block_group_KwfbpX": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_qPbFmr": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/20250414-165033.jpg",
+            "slide_title": "幸せ招き猫シリーズ　裏カギリング付きファスナー小銭入れ",
+            "slide_price": 6990,
+            "slide_price_new": 4190,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-alm-mmmnb103?_pos=69&_sid=78fe6ae39&_ss=r",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_xztPJp": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-5_062fb649-081a-4449-8715-202f19b93f84.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-2_1b82ef4b-323a-4a43-83e4-4cda16074439.jpg",
+            "slide_title": "「竹かごの中で丸まって寝る猫」アンティーク風シルバーネックレス",
+            "slide_price": 7980,
+            "slide_price_new": 0,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-wqj20004?_pos=1&_sid=551514b78&_ss=r",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_X9dE7B": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-8_0ff39885-e60b-4904-ab60-54bf68600555.jpg",
+            "slide_title": "Karakuロゴ入り「神奈川沖浪裏と波乗り猫」金属製ブックマーカー",
+            "slide_price": 3990,
+            "slide_price_new": 0,
+            "slide_btn": "MORE",
+            "slide_url": "https://karakubuy.com/products/krk-cllmsq1204?_pos=1&_sid=6814b3f1c&_ss=r",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_qPbFmr",
+        "slide_block_xztPJp",
+        "slide_block_X9dE7B"
+      ],
+      "settings": {
+        "slide_btn_color": "#d83a21",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#faca2f",
+        "slide_text_hover_color": "#f7f1e7",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "featured_collection_cUbYMD": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "KARAKUオリジナルCATS COLLECTION",
+        "collection": "karaku-cat",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "slideshow_KjpXMy",
+    "scrolling_banner_image_QiRTrN",
+    "single_image_qTMKcf",
+    "scrolling_banner_image_KVNJtP",
+    "main",
+    "url_text_FG4TJw",
+    "adjusting_spacing_PjLeTW",
+    "slide_block_group_VPHkwE",
+    "slide_block_group_Wff9p4",
+    "slide_block_group_RMHVyP",
+    "background_image_U8NMPV",
+    "url_text_rHbLxV",
+    "adjusting_spacing_VU6m4Q",
+    "slide_block_group_cth9n7",
+    "slide_block_group_piXabF",
+    "url_text_PXNQj4",
+    "adjusting_spacing_maL86T",
+    "slide_block_group_KwfbpX",
+    "featured_collection_cUbYMD"
+  ]
+}

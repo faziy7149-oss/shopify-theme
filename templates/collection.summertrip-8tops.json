@@ -1,0 +1,483 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1646285624136a050a": {
+      "type": "slideshow",
+      "blocks": {
+        "164628562423dcc9e2-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/732_2_56becd01-f64b-48e9-9b9e-e1d39bfc044d.jpg",
+            "mobile_image": "shopify://shop_images/732_b633020c-ed86-48c5-8d38-606b2414a812.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "164628562423dcc9e2-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "1646285704cfcfc61a": {
+      "type": "rich-text",
+      "blocks": {
+        "16462857042c463b74-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "2023 summer vacation"
+          }
+        },
+        "16462857042c463b74-1": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "use_h1": false
+          }
+        },
+        "16462857042c463b74-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>夏の旅行に着ていく服装は、もう決めましたか？<br/>暑い季節の旅行は、汗をかいてもサラッとしていて、<br/>できるだけ涼しく過ごせるコーデでお出かけしたいですよね。<br/>室内は冷房が効いている場合が多いので、冷房対策も必要です。<br/>今回は、KARAKUの人気トップス8選をお届け♪</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "16462857042c463b74-0",
+        "16462857042c463b74-1",
+        "16462857042c463b74-2"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "feff6b2c-dbb6-402a-9ed4-3500a8b4be43": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_CLqEKD": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "-01-"
+          }
+        },
+        "text_8BMXEt": {
+          "type": "text",
+          "settings": {
+            "text": "<p>快適で通気性、サクサク感、トレンディなレトロスタイルを作りやすく、デイリーユースからアウトドアスタイルまで幅広くご使用頂けます。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_dcgmyy": {
+          "type": "button",
+          "settings": {
+            "button_label": "View more",
+            "button_link": "shopify://products/krk-fxtww2201280",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_CLqEKD",
+        "text_8BMXEt",
+        "button_dcgmyy"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2023-07-20_11-46-04.jpg",
+        "image_2": "shopify://shop_images/753-2.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "f075ac92-c7f9-42f4-8b50-4b0ec68ff864": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_Ui8eR9": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "-02-"
+          }
+        },
+        "text_RkiKjj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>伝統的な開襟デザインはそのままにビッグシルエットでゆったりした快適さをプラス、清涼感のある綿麻の生地で肌触りが良く着心地抜群です。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_tRxt4t": {
+          "type": "button",
+          "settings": {
+            "button_label": "View more",
+            "button_link": "https://www.karakubuy.com/products/krk-gllc5121003",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Ui8eR9",
+        "text_RkiKjj",
+        "button_tRxt4t"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2023-07-20_11-58-48.jpg",
+        "image_2": "shopify://shop_images/753-5.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "676eb01d-b933-4b19-912f-c9ba7f1083eb": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_F8mMYi": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "-03-"
+          }
+        },
+        "text_M6gBXg": {
+          "type": "text",
+          "settings": {
+            "text": "<p>コットン100%を使用し、軽量で柔らかさと丈夫さを併せ持った質感がポイント、着ていてとても気持ちが良い。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_GhDjH6": {
+          "type": "button",
+          "settings": {
+            "button_label": "View more",
+            "button_link": "https://www.karakubuy.com/products/krk-mcltx23320",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_F8mMYi",
+        "text_M6gBXg",
+        "button_GhDjH6"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/753-6.jpg",
+        "image_2": "shopify://shop_images/Snipaste_2023-07-21_17-13-33.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "168cac23-b11b-46ed-8760-11bbdb90317d": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_AKaehY": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "-04-"
+          }
+        },
+        "text_pmYrHY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>スラブコットンをメインに使用、太い節のような部分が交差し、肌に触れる生地の面積が少なく、汗をかいても肌にまとわりつきにくい、さらさらとした生地感を楽しんでいただき、光に透かすと、絣のようなナチュラルな模様が浮かび上がり、着心地だけでなく、目にも涼しい風合い。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_YiqMyK": {
+          "type": "button",
+          "settings": {
+            "button_label": "View more",
+            "button_link": "shopify://products/krk-md-ts2301245",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_AKaehY",
+        "text_pmYrHY",
+        "button_YiqMyK"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/753-1.jpg",
+        "image_2": "shopify://shop_images/Snipaste_2023-07-20_18-12-11.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "1594689b-64a2-4f81-9485-b495296c50ed": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_PTgLyb": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "-05-"
+          }
+        },
+        "text_NP6Rhd": {
+          "type": "text",
+          "settings": {
+            "text": "<p>330ｇヘビーウェイト素材は耐久性が優れて、躍動感を感じます。発色が良く、仕立て縫製が非常にきれいで、デニムやカーゴパンツにスタジャンと合わせると、大人のカジュアル風を作り出す。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_QKeNff": {
+          "type": "button",
+          "settings": {
+            "button_label": "View more",
+            "button_link": "shopify://products/krk-md-tsw2201044",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_PTgLyb",
+        "text_NP6Rhd",
+        "button_QKeNff"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2023-07-21_17-18-21.jpg",
+        "image_2": "shopify://shop_images/753-7.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "e0267b8f-6a13-4e3d-affd-cd789ac8b920": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_9xLMjj": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "-06-"
+          }
+        },
+        "text_RVeGC6": {
+          "type": "text",
+          "settings": {
+            "text": "<p>コットン100％素材は300ｇのヘビーウェイトを誇り、耐久性に優れるのでガシガシ着られる。ゆったり感へのこだわりは抜群の着心地を生むだけでなく、クオリティの高さにも繋がっています。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_BXxYyj": {
+          "type": "button",
+          "settings": {
+            "button_label": "View more",
+            "button_link": "shopify://products/krk-md-tww2201244",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_9xLMjj",
+        "text_RVeGC6",
+        "button_BXxYyj"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/753-3.jpg",
+        "image_2": "shopify://shop_images/Snipaste_2023-07-21_17-20-36.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "6a82f721-605f-42f4-bc8f-8469aa8f9e7f": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_VK3DQi": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "-07-"
+          }
+        },
+        "text_9hUFLn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>肌触りの良さが着心地抜群のビスコース繊維を採用しています。ドレープ感のあるシルエットに、薄手生地を合わせることで昨シーズンも好評だったドライタッチの肌触りと清涼感溢れる着心地は今年も健在。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_6aMKFY": {
+          "type": "button",
+          "settings": {
+            "button_label": "View more",
+            "button_link": "shopify://products/krk-md-tww2201248-1",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_VK3DQi",
+        "text_9hUFLn",
+        "button_6aMKFY"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2023-07-21_17-21-44.jpg",
+        "image_2": "shopify://shop_images/753-4_2.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "a9012566-6f1c-4034-8fb1-cc4d52ef9407": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_Dnw3yU": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "-08-"
+          }
+        },
+        "text_6gppAa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ドレープ感と程よい光沢のある生地は、テンセル素材を100％採用。しっとりと冷涼感を伴った滑らかな肌触りは抜群、テロンとした落ち感でドレープの様な感じにする。汗ばむ時期でも快適な着心地をキープします。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_jiJfAw": {
+          "type": "button",
+          "settings": {
+            "button_label": "View more",
+            "button_link": "shopify://products/krk-myzcm23420",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Dnw3yU",
+        "text_6gppAa",
+        "button_jiJfAw"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2023-07-25_18-07-04.jpg",
+        "image_2": "shopify://shop_images/753-8.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 30,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "108cb36f-c28e-4e21-b432-d208b1f343ee": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    }
+  },
+  "order": [
+    "1646285624136a050a",
+    "1646285704cfcfc61a",
+    "feff6b2c-dbb6-402a-9ed4-3500a8b4be43",
+    "f075ac92-c7f9-42f4-8b50-4b0ec68ff864",
+    "676eb01d-b933-4b19-912f-c9ba7f1083eb",
+    "168cac23-b11b-46ed-8760-11bbdb90317d",
+    "1594689b-64a2-4f81-9485-b495296c50ed",
+    "e0267b8f-6a13-4e3d-affd-cd789ac8b920",
+    "6a82f721-605f-42f4-bc8f-8469aa8f9e7f",
+    "a9012566-6f1c-4034-8fb1-cc4d52ef9407",
+    "main",
+    "108cb36f-c28e-4e21-b432-d208b1f343ee"
+  ]
+}

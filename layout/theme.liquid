@@ -1,0 +1,653 @@
+{%- liquid
+  assign rtl_langs = 'ar,arc,dv,fa,ha,he,khw,ks,ku,ps,ur,yi' | split: ','
+  assign current_lang = localization.language.iso_code | split: '-' | first
+  if rtl_langs contains current_lang
+    assign lang_dir = 'rtl'
+  else
+    assign lang_dir = 'ltr'
+  endif
+-%}
+<!doctype html>
+<html class="no-js" lang="{{ request.locale.iso_code }}" dir="{{ lang_dir }}">
+<head>
+  {% comment %} 图片加载之前的占位图 {% endcomment %}
+      <style>
+        :root {
+          --placeholder-logo: url('{{ "icon-logo.svg" | asset_url }}');
+        }
+      </style>
+
+
+  {% comment %} END图片加载之前的占位图 {% endcomment %}
+
+  <!-- Google Tag Manager -->
+  <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+  new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+  j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+  'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+  })(window,document,'script','dataLayer','GTM-WK7RRLSP');</script>
+  <!-- End Google Tag Manager -->
+
+  
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-354021651"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'AW-354021651');
+  </script>
+  <!-- Google tag (gtag.js) -->
+
+  {%- render 'doc-head-core' -%}
+  {%- render 'doc-head-social' -%}
+
+  {% comment %} jquery本地引入 {% endcomment %}
+  {{ 'jquery-3.5.1.min.js' | asset_url | script_tag }}
+  {% comment %} END jquery本地引入 {% endcomment %}
+
+  {% comment %} owl轮播图本地引入 {% endcomment %}
+  {{ 'owl.carousel.min.css' | asset_url | stylesheet_tag }}
+  {{ 'owl.theme.default.min.css' | asset_url | stylesheet_tag }}
+  {{ 'owl.carousel.min.js' | asset_url | script_tag }}
+  {% comment %} END owl轮播图本地引入 {% endcomment %}
+
+
+  {% comment %} Swiper 本地引入 {% endcomment %}
+  {{ 'swiper-bundle.min.css' |  asset_url |  stylesheet_tag }}
+  {{ 'swiper-bundle.min.js' |  asset_url |  script_tag }}
+  {% comment %} END Swiper 本地引入 {% endcomment %}
+
+  {% comment %} 滑块 {% endcomment %}
+  {{ 'slider-pro.min.css' | asset_url | stylesheet_tag }}
+  {{ 'jquery.sliderPro.min.js' | asset_url | script_tag }}
+  {% comment %} END 滑块 {% endcomment %}
+
+  {% comment %} GSAP 本地引入 {% endcomment %}
+  {{ 'gsap.min.js' | asset_url | script_tag }}
+  {{ 'ScrollTrigger.min.js' | asset_url | script_tag }}
+  {% comment %} END GSAP 本地引入 {% endcomment %}
+
+  {% comment %} blog-listing.css .js 本地引入 {% endcomment %}
+  {{ 'blog-listing.css' | asset_url | stylesheet_tag }}
+  {{ 'blog-listing.js' | asset_url | script_tag }}
+  {% comment %} END blog-listing.css .js 本地引入 {% endcomment %}
+
+  {%- liquid
+    assign base_font = settings.type_base_font
+    assign base_font_bold = base_font | font_modify: 'weight', 'bolder'
+    assign base_font_medium = base_font | font_modify: 'weight', '500'
+    assign base_font_italic = base_font | font_modify: 'style', 'italic'
+    assign base_font_bold_italic = base_font_bold | font_modify: 'style', 'italic'
+    assign heading_font = settings.type_heading_font
+    assign logo_font = settings.type_logo_font
+    assign nav_font = settings.type_nav_font
+    assign nav_font_600 = nav_font | font_modify: 'weight', '600'
+  -%}
+
+  <style>
+    {{- base_font | font_face: font_display: 'fallback' -}}
+    {{- base_font_bold | font_face: font_display: 'fallback' -}}
+    {{- base_font_medium | font_face: font_display: 'fallback' -}}
+    {{- base_font_italic | font_face: font_display: 'fallback' -}}
+    {{- base_font_bold_italic | font_face: font_display: 'fallback' -}}
+    {{- heading_font | font_face: font_display: 'fallback' -}}
+    {{- logo_font | font_face: font_display: 'fallback' -}}
+    {{- nav_font | font_face: font_display: 'fallback' -}}
+    {{- nav_font_600 | font_face: font_display: 'fallback' -}}
+
+    {%- render 'doc-head-styles' -%}
+  </style>
+
+  {{ 'main.css' | asset_url | stylesheet_tag: preload: true }}
+
+  {%- if settings.swatch_source == 'theme' and settings.swatch_value_list != blank -%}
+    <link rel="stylesheet" href="{{ 'swatches.css' | asset_url }}" media="print" onload="this.media='all'">
+  {%- endif -%}
+
+  {%- unless base_font.system? -%}
+    <link rel="preload" as="font" href="{{ base_font | font_url }}" type="font/woff2" crossorigin>
+  {%- endunless -%}
+
+  {%- unless heading_font.system? -%}
+    <link rel="preload" as="font" href="{{ heading_font | font_url }}" type="font/woff2" crossorigin>
+  {%- endunless -%}
+
+  <script>
+    document.documentElement.className = document.documentElement.className.replace('no-js', 'js');
+
+    window.theme = {
+      info: {
+        name: 'Symmetry',
+        version: '8.3.2'
+      },
+      device: {
+        hasTouch: window.matchMedia('(any-pointer: coarse)').matches,
+        hasHover: window.matchMedia('(hover: hover)').matches
+      },
+      mediaQueries: {
+        md: '(min-width: 768px)',
+        productMediaCarouselBreak: '(min-width: 1041px)'
+      },
+      routes: {
+        base: '{{ shop.url }}',
+        cart: '{{ routes.cart_url }}',
+        cartAdd: '{{ routes.cart_add_url }}.js',
+        cartUpdate: '{{ routes.cart_update_url }}.js',
+        predictiveSearch: '{{ routes.predictive_search_url }}'
+      },
+      strings: {
+        cartTermsConfirmation: {{ 'cart.terms.confirmation' | t | json }},
+        cartItemsQuantityError: {{ 'cart.items.quantity_error' | t: quantity: '[QUANTITY]' | json }},
+        generalSearchViewAll: {{ 'general.search.view_all' | t | json }},
+        noStock: {{ 'products.variant.no_stock' | t | json }},
+        noVariant: {{ 'products.variant.non_existent' | t | json }},
+        productsProductChooseA: {{ 'products.product.choose_a' | t | json }},
+        generalSearchPages: {{ 'general.search.pages' | t | json }},
+        generalSearchNoResultsWithoutTerms: {{ 'general.search.no_results_without_terms' | t | json }},
+        shippingCalculator: {
+          singleRate: {{ 'cart.shipping_calculator.single_rate' | t | json }},
+          multipleRates: {{ 'cart.shipping_calculator.multiple_rates' | t | json }},
+          noRates: {{ 'cart.shipping_calculator.no_rates' | t | json }}
+        },
+        regularPrice: {{ 'products.product.price.regular_price' | t | json }},
+        salePrice: {{ 'products.product.price.sale_price' | t | json }}
+      },
+      settings: {
+        moneyWithCurrencyFormat: {{ shop.money_with_currency_format | json }},
+        cartType: {{ settings.cart_type | json }},
+        afterAddToCart: {{ settings.after_add_to_cart | json }},
+        quickbuyStyle: {{ settings.quickbuy_style | json }},
+        externalLinksNewTab: {{ settings.external_links_new_tab | json }},
+        internalLinksSmoothScroll: {{ settings.internal_links_smooth_scroll | json }}
+      }
+    }
+
+    theme.inlineNavigationCheck = function() {
+      var pageHeader = document.querySelector('.pageheader'),
+          inlineNavContainer = pageHeader.querySelector('.logo-area__left__inner'),
+          inlineNav = inlineNavContainer.querySelector('.navigation--left');
+      if (inlineNav && getComputedStyle(inlineNav).display != 'none') {
+        var inlineMenuCentered = document.querySelector('.pageheader--layout-inline-menu-center'),
+            logoContainer = document.querySelector('.logo-area__middle__inner');
+        if(inlineMenuCentered) {
+          var rightWidth = document.querySelector('.logo-area__right__inner').clientWidth,
+              middleWidth = logoContainer.clientWidth,
+              logoArea = document.querySelector('.logo-area'),
+              computedLogoAreaStyle = getComputedStyle(logoArea),
+              logoAreaInnerWidth = logoArea.clientWidth - Math.ceil(parseFloat(computedLogoAreaStyle.paddingLeft)) - Math.ceil(parseFloat(computedLogoAreaStyle.paddingRight)),
+              availableNavWidth = logoAreaInnerWidth - Math.max(rightWidth, middleWidth) * 2 - 40;
+          inlineNavContainer.style.maxWidth = availableNavWidth + 'px';
+        }
+
+        var firstInlineNavLink = inlineNav.querySelector('.navigation__item:first-child'),
+            lastInlineNavLink = inlineNav.querySelector('.navigation__item:last-child');
+        if (lastInlineNavLink) {
+          var inlineNavWidth = null;
+          if(document.querySelector('html[dir=rtl]')) {
+            inlineNavWidth = firstInlineNavLink.offsetLeft - lastInlineNavLink.offsetLeft + firstInlineNavLink.offsetWidth;
+          } else {
+            inlineNavWidth = lastInlineNavLink.offsetLeft - firstInlineNavLink.offsetLeft + lastInlineNavLink.offsetWidth;
+          }
+          if (inlineNavContainer.offsetWidth >= inlineNavWidth) {
+            pageHeader.classList.add('pageheader--layout-inline-permitted');
+            var tallLogo = logoContainer.clientHeight > lastInlineNavLink.clientHeight + 20;
+            if (tallLogo) {
+              inlineNav.classList.add('navigation--tight-underline');
+            } else {
+              inlineNav.classList.remove('navigation--tight-underline');
+            }
+          } else {
+            pageHeader.classList.remove('pageheader--layout-inline-permitted');
+          }
+        }
+      }
+    };
+
+    theme.setInitialHeaderHeightProperty = () => {
+      const section = document.querySelector('.section-header');
+      if (section) {
+        document.documentElement.style.setProperty('--theme-header-height', Math.ceil(section.clientHeight) + 'px');
+      }
+    };
+  </script>
+
+  <script src="{{ 'main.js' | asset_url }}" defer></script>
+
+  {%- if request.design_mode -%}
+    <script src="{{ 'theme-editor.js' | asset_url }}" defer data-contact="{{ shop.email | escape }}"></script>
+  {%- endif -%}
+
+  {% if settings.animations_enabled_desktop %}
+    <script src="{{ 'animate-on-scroll.js' | asset_url }}" defer></script>
+    {{ 'animate-on-scroll.css' | asset_url | stylesheet_tag: preload: true }}
+  {% endif %}
+
+  {{ content_for_header }}
+
+  {%- if settings.custom_html_head -%}
+    <!-- CC Custom Head Start -->
+    {{- settings.custom_html_head -}}
+    <!-- CC Custom Head End -->
+  {%- endif -%}
+
+  <!-- Google Ads Remarketing Tag By FeedArmy Version 2.17 START -->
+    <!-- FeedArmy tutorial found at https://feedarmy.com/kb/adding-google-adwords-remarketing-tag-to-shopify/ -->
+
+    <!-- CODE SETTINGS START -->
+    <!-- CODE SETTINGS START -->
+
+    <!-- Please add your Google Ads Audience Source Tag ID -->
+    {% assign fa_google_ads_audience_tag_id = 354021651 %}
+
+    <!--
+      Please add your alpha2 code, you can find it here: https://help.shopify.com/en/api/custom-storefronts/storefront-api/reference/enum/countrycode
+    -->
+    {% assign fa_product_id_alpha2_code = 'JP' %}
+
+    <!-- set your product id values are default, product_id, parent_id, sku -->
+    {% assign fa_product_id = 'product_id' %}
+
+    <!-- CODE SETTINGS END -->
+    <!-- CODE SETTINGS END -->
+
+    <!-- ==================================== -->
+    <!-- DO NOT EDIT ANYTHING BELOW THIS LINE -->
+    {% if fa_google_coding -%}
+      {%- assign fa_google_coding = true %}
+    {%- else -%}
+      {% assign fa_google_coding = false %}
+    {%- endif -%}
+    {% if fa_google_coding == false %}
+      <script async src="https://www.googletagmanager.com/gtag/js?id=AW-{{ fa_google_ads_audience_tag_id }}"></script>
+    {%- endif -%}
+    {%- assign fa_current_variant = product.selected_or_first_available_variant -%}
+    {%- if cart.currency.iso_code == 'GBP'
+      or cart.currency.iso_code == 'USD'
+      or cart.currency.iso_code == 'CAD'
+      or cart.currency.iso_code == 'AUD'
+      or cart.currency.iso_code == 'BWP'
+      or cart.currency.iso_code == 'BND'
+      or cart.currency.iso_code == 'DOP'
+      or cart.currency.iso_code == 'GTQ'
+      or cart.currency.iso_code == 'HKD'
+      or cart.currency.iso_code == 'INR'
+      or cart.currency.iso_code == 'ILS'
+      or cart.currency.iso_code == 'YEN'
+      or cart.currency.iso_code == 'KES'
+      or cart.currency.iso_code == 'KOR'
+      or cart.currency.iso_code == 'LBP'
+      or cart.currency.iso_code == 'MYR'
+      or cart.currency.iso_code == 'MXN'
+      or cart.currency.iso_code == 'NPR'
+      or cart.currency.iso_code == 'NZD'
+      or cart.currency.iso_code == 'NIO'
+      or cart.currency.iso_code == 'NGN'
+      or cart.currency.iso_code == 'PKR'
+      or cart.currency.iso_code == 'CNY'
+      or cart.currency.iso_code == 'PHP'
+      or cart.currency.iso_code == 'SGD'
+      or cart.currency.iso_code == 'LKR'
+      or cart.currency.iso_code == 'CHF'
+      or cart.currency.iso_code == 'TWD'
+      or cart.currency.iso_code == 'TSH'
+      or cart.currency.iso_code == 'THB'
+      or cart.currency.iso_code == 'UGX'
+      or cart.currency.iso_code == 'KWD'
+    -%}
+      {% if template contains 'product' %}
+        {%- assign fa_product_price = fa_current_variant.price | money_without_currency | remove: ',' -%}
+      {% elsif template contains 'cart' %}
+        {%- assign fa_product_price = cart.total_price | money_without_currency | remove: ',' -%}
+      {% endif %}
+    {%- else -%}
+      {% if template contains 'product' %}
+        {%- assign fa_product_price = fa_current_variant.price
+          | money_without_currency
+          | remove: '.'
+          | replace: ',', '.'
+        -%}
+      {% elsif template contains 'cart' %}
+        {%- assign fa_product_price = cart.total_price | money_without_currency | remove: '.' | replace: ',', '.' -%}
+      {% endif %}
+    {%- endif -%}
+
+    {%- if fa_product_id == 'default' -%}
+      {%- capture fa_product_id_value -%}shopify_{{ fa_product_id_alpha2_code }}_{{ product.id }}_{{ fa_current_variant.id }}{%- endcapture -%}
+    {%- elsif fa_product_id == 'product_id' -%}
+      {%- capture fa_product_id_value -%}{{ fa_current_variant.id }}{%- endcapture -%}
+    {%- elsif fa_product_id == 'parent_id' -%}
+      {%- capture fa_product_id_value -%}{{product.id }}{%- endcapture -%}
+    {%- elsif fa_product_id == 'sku' -%}
+      {%- capture fa_product_id_value -%}{{ fa_current_variant.sku }}{%- endcapture -%}
+    {%- endif -%}
+
+    <!--
+      <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+        gtag('config', 'AW-{{ fa_google_ads_audience_tag_id }}');
+      </script>
+    -->
+
+    {% if template contains 'collection' %}
+      {% assign fa_event = 'view_item_list' %}
+    {% elsif template contains 'product' %}
+      {% assign fa_event = 'view_item' %}
+    {% elsif template contains 'search' %}
+      {% assign fa_event = 'view_search_results' %}
+    {% elsif template contains 'cart' %}
+      {% assign fa_event = 'add_to_cart' %}
+    {% elsif template contains 'index' %}
+      {% assign fa_event = 'home' %}
+    {% else %}
+      {% assign fa_event = 'other' %}
+    {% endif %}
+
+    <script>
+       gtag('event', '{{ fa_event }}', {
+         'send_to': 'AW-{{ fa_google_ads_audience_tag_id }}',
+       	  {% if template contains 'product' or template contains 'cart' %}'value': {{ fa_product_price }},{% endif %}
+      {% if template contains 'product' %}
+         'items': [{
+      		'id': '{{fa_product_id_value}}',
+           'google_business_vertical': 'retail'
+         }]
+      {% elsif template contains 'cart' %}
+      'items': [
+      {% for item in cart.items %}
+      {
+      	{% if fa_product_id == 'default' %}
+      		'id': 'shopify_{{ fa_product_id_alpha2_code }}_{{ item.product_id }}_{{ item.variant_id }}',
+      	{% elsif fa_product_id == 'product_id' %}
+      		'id': '{{ item.variant_id }}',
+      	{% elsif fa_product_id == 'parent_id' %}
+      		'id': '{{ item.product_id }}',
+      	{% elsif fa_product_id == 'sku' %}
+      		'id': '{{ item.sku }}',
+      	{% endif %}
+           'google_business_vertical': 'retail'
+         },
+      {% endfor %}
+      ]
+      {% endif %}
+       });
+    </script>
+
+<script async src="https://s.yimg.jp/images/listing/tool/cv/ytag.js"></script>
+<script>
+window.yjDataLayer = window.yjDataLayer || [];
+function ytag() { yjDataLayer.push(arguments); }
+</script>
+
+<script async>
+ytag({
+  "type":"yjad_conversion",
+  "config":{
+    "yahoo_ydn_conv_io": "_pXXCuVXO8tB5gcs6Aplcg..",
+    "yahoo_ydn_conv_label": "UEM85ENYBEAJKR8BVE1127467",
+    "yahoo_ydn_conv_transaction_id": "",
+    "yahoo_ydn_conv_value": "<?php echo $userRevenueValue ?>"
+  }
+});
+</script>
+<script>
+window.addEventListener('load',function()
+{   
+    document.querySelectorAll('[id="AddToCart-product-template"]').forEach(function(e)
+    {
+        e.addEventListener('click',function()
+        {
+            gtag('event', 'conversion', {
+               'send_to': 'AW-354021651/graBCLKdqKsYEJPi56gB'
+            });
+        })
+    })
+})
+</script>
+
+<!-- Taboola Pixel Code -->
+<script type='text/javascript'>
+  window._tfa = window._tfa || [];
+  window._tfa.push({notify: 'event', name: 'page_view', id: 1694945});
+  !function (t, f, a, x) {
+         if (!document.getElementById(x)) {
+            t.async = 1;t.src = a;t.id=x;f.parentNode.insertBefore(t, f);
+         }
+  }(document.createElement('script'),
+  document.getElementsByTagName('script')[0],
+  '//cdn.taboola.com/libtrc/unip/1694945/tfa.js',
+  'tb_tfa_script');
+</script>
+<!-- End of Taboola Pixel Code -->
+
+<!-- <script type="text/javascript">
+
+if (navigator.language)
+
+var language = navigator.language;
+
+else
+
+var language = navigator.browserLanguage;
+
+if(language.indexOf('zh-CN') > -1)location.href = 'error';
+
+</script> -->
+
+    <!-- bing 添加代码 -->
+    <script>
+      (function(w,d,t,r,u)
+      {
+        var f,n,i;
+        w[u]=w[u]||[],f=function()
+        {
+          var o={ti:"137009695", enableAutoSpaTracking: true};
+          o.q=w[u],w[u]=new UET(o),w[u].push("pageLoad")
+        },
+        n=d.createElement(t),n.src=r,n.async=1,n.onload=n.onreadystatechange=function()
+        {
+          var s=this.readyState;
+          s&&s!=="loaded"&&s!=="complete"||(f(),n.onload=n.onreadystatechange=null)
+        },
+        i=d.getElementsByTagName(t)[0],i.parentNode.insertBefore(n,i)
+      })
+      (window,document,"script","//bat.bing.com/bat.js","uetq");
+    </script>
+
+    {% if customer %}
+      <script>
+        window.customerEmail = "{{ customer.email }}"; 
+        window.customerPhone = "{{ customer.phone }}"; 
+        window.uetq=window.uetq||[];
+        window.uetq.push('set', { 'pid': {
+          'em': customerEmail,
+          'ph': customerPhone
+        }});
+      </script>
+    {% endif %}
+
+    <!-- <script>
+    window.uetq = window.uetq || [];
+    window.uetq.push("event", "purchase", {"revenue_value":Replace_with_Variable_Revenue_Function(),"currency":"USD"});
+    </script>
+    <script>
+      function uet_report_conversion() {
+        window.uetq = window.uetq || [];
+        window.uetq.push("event", "purchase", {"revenue_value":Replace_with_Variable_Revenue_Function(),"currency":"USD"});
+      }
+    </script> -->
+    <!-- END bing 添加代码 -->
+
+    <!-- SmartNews Ads Pixel Code --> 
+    <script type="text/javascript">
+    !function(){if(window.SmartnewsAds=window.SmartnewsAds||{},!window.SmartnewsAds.p){var e=window.SmartnewsAds.p=function(){e.callMethod?e.callMethod.apply(e,arguments):e.queue.push(arguments)};e.push=e,e.version="1.0.1",e.queue=[];var n=document.createElement("script");n.async=!0,n.src="https://cdn.smartnews-ads.com/i/pixel.js";var s=document.getElementsByTagName("script")[0];s.parentNode.insertBefore(n,s)}}();
+    SmartnewsAds.p("a222896f4726b549a7917c82", "PageView");
+    </script>
+    <noscript>
+    <img height="1" width="1" style="display:none;" alt="" src="https://i.smartnews-ads.com/p?id=a222896f4726b549a7917c82&e=PageView" />
+    </noscript>
+    <!-- END  SmartNews Ads Pixel Code --> 
+</head>
+
+<body class="template-{{ template | split: '.' | first | handle }}
+    {%- if template.suffix %} template-suffix-{{ template.suffix }}{% endif -%}
+    {%- if settings.swatch_source == 'native' %} swatch-source-native swatch-method-swatches swatch-style-{{ settings.swatch_style }}
+    {%- elsif settings.swatch_source == 'theme' %} swatch-source-theme swatch-method-{{ settings.swatch_method }} swatch-style-{{ settings.swatch_style }}{% endif -%}
+    {%- if settings.animations_enabled_desktop %} cc-animate-enabled{% endif -%}
+    ">
+  <!-- Google Tag Manager (noscript) -->
+  <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-WK7RRLSP"
+  height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+  <!-- End Google Tag Manager (noscript) -->
+
+  <a class="skip-link visually-hidden" href="#content" data-cs-role="skip">{{ 'accessibility.skip_to_content' | t }}</a>
+
+  {%- sections 'header-group' -%}
+
+  <main id="content" role="main">
+    <div class="container cf">
+
+      {{ content_for_layout }}
+
+    </div>
+  </main>
+
+  {%- if request.path != '/challenge' -%}
+    <div id="pagefooter">
+      {%- sections 'footer-group' -%}
+    </div>
+
+    {%- sections 'overlay-group' -%}
+  {%- endif -%}
+
+
+  <a href="#" class="page-shade" aria-label="{{ 'general.navigation.close' | t }}"></a>
+  <div class="overlay fixed top-0 right-0 bottom-0 left-0 js-overlay"></div>
+
+  {%- if settings.after_add_to_cart == 'notification' -%}
+    <script src="{{ 'added-notification.js' | asset_url }}" defer></script>
+    <template id="AddedNotification">
+      <added-notification class="added-notification added-notification--hidden">
+        <div class="added-notification__message-area">
+          <div class="added-notification__message-title"></div>
+          <div class="added-notification__message-text underline-child">{{ 'products.product.added_to_cart_with_link_html' | t: cart_url: routes.cart_url }}</div>
+        </div>
+        <div class="added-notification__button-area">
+          <button type="button" class="added-notification__close" aria-label="{{ 'general.icon_labels.close' | t | escape }}">
+            {%- render 'icon-close' -%}
+          </button>
+        </div>
+      </added-notification>
+    </template>
+  {%- endif -%}
+  {% comment %} 返回顶部 {% endcomment %}
+  {% render 'back-to-the-top' %}
+  {% comment %} END 返回顶部 {% endcomment %}
+
+    <script async src="https://s.yimg.jp/images/listing/tool/cv/ytag.js"></script>
+    <script>
+    window.yjDataLayer = window.yjDataLayer || [];
+    function ytag() { yjDataLayer.push(arguments); }
+    ytag({
+      "type":"yss_retargeting",
+      "config": {
+        "yahoo_ss_retargeting_id": "1001331515",
+        "yahoo_sstag_custom_params": {
+        }
+      }
+    });
+    </script>
+      
+    <script>
+    window.yjDataLayer = window.yjDataLayer || [];
+    function ytag() { yjDataLayer.push(arguments); }
+    ytag({
+      "type":"yjad_retargeting",
+      "config":{
+        "yahoo_retargeting_id": "B57H6G8BGR",
+        "yahoo_retargeting_label": "",
+        "yahoo_retargeting_page_type": "",
+        "yahoo_retargeting_items":[
+          {item_id: '', category_id: '', price: '', quantity: ''}
+        ]
+      }
+    });
+    </script>
+    
+    {% comment %} 修改在线聊天插件z-idnex {% endcomment %}
+     <script>
+      $(function(){
+        setTimeout(function(){
+           $('#shopify-chat .needsclick').css('z-index','9');
+        },3000)
+      })
+    </script>
+    {% comment %} END修改在线聊天插件z-idnex {% endcomment %}
+
+    {% comment %} 图片加载之前的占位图 {% endcomment %}
+      <script>
+      (function () {
+
+        function initGlobalImages(scope) {
+          const images = (scope || document).querySelectorAll(
+            '.placeholder-wrapper img.global-image:not([data-init])'
+          );
+
+          images.forEach(img => {
+            img.dataset.init = 'true'; // 防止重复绑定
+
+            const wrapper = img.closest('.placeholder-wrapper');
+            if (!wrapper) return;
+
+            function markLoaded() {
+              requestAnimationFrame(() => {
+                img.classList.add('is-loaded');
+                wrapper.classList.add('is-loaded');
+              });
+            }
+
+            if (img.complete && img.naturalWidth > 0) {
+              markLoaded();
+            } else {
+              img.addEventListener('load', markLoaded, { once: true });
+              img.addEventListener('error', markLoaded, { once: true });
+            }
+          });
+        }
+
+        document.addEventListener('DOMContentLoaded', () => {
+          initGlobalImages();
+        });
+
+        document.addEventListener('shopify:section:load', e => {
+          initGlobalImages(e.target);
+        });
+
+        // ⭐⭐ 新增：监听 AJAX 注入的内容
+        const observer = new MutationObserver(mutations => {
+          mutations.forEach(mutation => {
+            if (mutation.addedNodes.length) {
+              mutation.addedNodes.forEach(node => {
+                if (node.nodeType === 1) {
+                  initGlobalImages(node);
+                }
+              });
+            }
+          });
+        });
+
+        observer.observe(document.body, {
+          childList: true,
+          subtree: true
+        });
+
+      })();
+      </script>
+
+
+    {% comment %}  END图片加载之前的占位图 {% endcomment %}
+</body>
+</html>

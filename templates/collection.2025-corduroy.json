@@ -1,0 +1,565 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "slideshow_adk4LY": {
+      "type": "slideshow",
+      "blocks": {
+        "image_NtPBXp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/561__1920x960_cde2860b-dfab-4b53-94d7-ac84bedf6e04.jpg",
+            "mobile_image": "shopify://shop_images/561__1080x1440_5cc8483a-5dd5-4b5b-bcce-1fa2b489bcd6.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_NtPBXp"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_with_text_xB7PEY": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_YB6Jr4": {
+          "type": "heading",
+          "settings": {
+            "title": "畝（うね）について",
+            "use_h1": false
+          }
+        },
+        "text_xgcnPz": {
+          "type": "text",
+          "settings": {
+            "text": "<p>畝の太さでキャラクターが変わります。 太畝はラフで存在感のある雰囲気に。 細畝は上品でスマートな印象に。 同じ素材でも、畝の幅だけでグッと見え方が変わるのが特徴です。<br/></p>",
+            "enlarge_text": false
+          }
+        },
+        "button_rYnpEV": {
+          "type": "button",
+          "settings": {
+            "button_label": "",
+            "button_link": "",
+            "button_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "heading_YB6Jr4",
+        "text_xgcnPz",
+        "button_rYnpEV"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/fe33f86cb9b91aa8c53d359bbbd35386.png",
+        "image_2": "shopify://shop_images/2_8b3204e8-f586-45a2-a26d-9476bde0104a.png",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "right",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "image_pmkzTz": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_b3d2ac7c-6985-49b7-ace9-0face18534fb.png",
+        "mobile_image": "shopify://shop_images/720_01954c3c-c249-46a6-a734-55a93a03313d.png",
+        "img_rul": ""
+      }
+    },
+    "image_jump_custom_W3NVMY": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_3piy4J": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_d42bdd05-91d5-4489-9ca0-936c7e7ed242.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_3piy4J"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "slide_block_group_kgjECi": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_RKJNYJ": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-1_96ceecb6-fcdf-44b3-befb-6bc97fa5c30f.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-2_d2e7d266-e730-4e47-9e43-5d5c73d284ec.jpg",
+            "slide_title": "ヘビーウェイト裏ボアフリースコーデュロイジャケット",
+            "slide_price": 22980,
+            "slide_price_new": 20690,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-md-tw2107122?_pos=1&_sid=f5204541c&_ss=r&variant=42078207574235",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_cBCaQe": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-4_100358fa-6d06-4313-9b71-8d3166c0a4b2.jpg",
+            "slide_title": "アメカジレトロコーデュロイコート",
+            "slide_price": 22980,
+            "slide_price_new": 20690,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-md-s1907220?_pos=2&_sid=2c569ea8d&_ss=r&variant=40969106358450",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_gKerye": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-5_8e157057-40ac-45df-a01c-e6b494d39fdc.jpg",
+            "slide_title": "コーデュロイ　藍染ビンテージフレンチワークジャケット",
+            "slide_price": 18980,
+            "slide_price_new": 14240,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-zm-087-d1?_pos=2&_sid=16686ee33&_ss=r&variant=42294593880283",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_RKJNYJ",
+        "slide_block_cBCaQe",
+        "slide_block_gKerye"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#5c4a3c",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#f2ebdb",
+        "slide_text_hover_color": "#5c4a3c",
+        "slide_font_color": "#000000",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_nrz7YT": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_9P6Vdn": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-7_c4d513d8-2a45-492f-93a9-66f75c5b38bb.jpg",
+            "slide_title": "肘スエードパッチ　ウォッシュドコーデュロイテーラードジャケット",
+            "slide_price": 23980,
+            "slide_price_new": 14390,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-zyd-dxrksjk1011?_pos=1&_sid=e560347ad&_ss=r&variant=46123583865051",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_bhd4Td": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-10_e50a5ed5-d86a-4fe8-b50c-22a2f381a3f9.jpg",
+            "slide_title": "コーデュロイ＆裏ボアライクジャケット",
+            "slide_price": 15278,
+            "slide_price_new": 13760,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-fyn-dyq83866-1?_pos=2&_sid=ceea1955d&_ss=r&variant=44366703263963",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_34VDpD": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-11_9ab2ee4d-b751-407c-b3ea-cbf2f08e8584.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-12_94b439bb-30ce-4dcb-a9b2-89c8ee7ea275.jpg",
+            "slide_title": "【予約】裏ミニチェック柄　コーデュロイレンチワークジャケット",
+            "slide_price": 15980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-jk1006?_pos=1&_sid=310e1f327&_ss=r&variant=47850617602267",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_9P6Vdn",
+        "slide_block_bhd4Td",
+        "slide_block_34VDpD"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#5c4a3c",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#f2ebdb",
+        "slide_text_hover_color": "#5c4a3c",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "image_jump_custom_QQjRgm": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_GAkQXX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_ed78f1bd-5f44-4333-be88-267900b0da80.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_GAkQXX"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "slide_block_group_gkHnif": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_9gCWfC": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-14_d2741a16-94fc-4aac-9193-676325e6c84c.jpg",
+            "slide_title": "ウォッシュド加工　レザータグ付きコーデュロイデニムワークシャツ",
+            "slide_price": 13980,
+            "slide_price_new": 11190,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lsx-ccnkyz0806?_pos=1&_sid=20ab22b9a&_ss=r&variant=47414543515867",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_F68pU9": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-15_6fe58024-7ff2-4643-a5dc-1ebe46bab469.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-16_d3c22bbc-d547-43f8-89c8-1cb4eb7a0b59.jpg",
+            "slide_title": "オーダーメイド異素材パッチ　ターコイズ風ボタンコーデュロイシャツ",
+            "slide_price": 14980,
+            "slide_price_new": 11990,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-zyd-tqkrs0710?_pos=2&_sid=350aa0793&_ss=r&variant=47364945346779",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_EcntKM": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-17_d8a2b43a-fca6-4478-a618-0f8d933e809c.jpg",
+            "slide_title": "裏タータンチェック柄　裾赤ヒモ付き細畝コーデュロイシャツ",
+            "slide_price": 14980,
+            "slide_price_new": 11990,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-lsx-gwlbc0610?_pos=1&_sid=42b9deeac&_ss=r&variant=47386605551835",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_9gCWfC",
+        "slide_block_F68pU9",
+        "slide_block_EcntKM"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#5c4a3c",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#f2ebdb",
+        "slide_text_hover_color": "#5c4a3c",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_W6VjmQ": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_EtfgQ4": {
+          "type": "slide_block",
+          "settings": {
+            "slide_tag_img": "shopify://shop_images/1336x1604-19_d5f44eeb-4c07-46cc-a4b3-99d2a26d6064.jpg",
+            "slide_title": "コットンコーデュロイワークシャツ　全4色",
+            "slide_price": 12990,
+            "slide_price_new": 10390,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-md-tw2107005?_pos=1&_sid=ac805846d&_ss=r&variant=43742833311963",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_j3RUqq": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-21_145d81fe-5062-40a7-a447-457cef118bf1.jpg",
+            "slide_title": "エルボーパッチ　コーデュロイワークシャツ",
+            "slide_price": 12290,
+            "slide_price_new": 7380,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gm-8009?_pos=1&_sid=967e2d44a&_ss=r&variant=43800573051099",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_VBFnTX": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-23_fc063bbe-7c8c-439d-974f-eab717533327.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-24.jpg",
+            "slide_title": "細畝コーデュロイ　「ゴルフスイングの首が落ちた骸骨」刺繍入り長袖シャツ",
+            "slide_price": 11980,
+            "slide_price_new": 7800,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gsh-klcdxrsg908?_pos=1&_sid=2145455df&_ss=r&variant=47572384121051",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_EtfgQ4",
+        "slide_block_j3RUqq",
+        "slide_block_VBFnTX"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#5c4a3c",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#f2ebdb",
+        "slide_text_hover_color": "#5c4a3c",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_mtFnTf": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_zJrTB4": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-26.jpg",
+            "slide_title": "ウォッシュド加工　ワンポイント刺繍入りコーデュロイ長袖シャツ",
+            "slide_price": 12980,
+            "slide_price_new": 11690,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-28-cs917?_pos=1&_sid=f142d2135&_ss=r&variant=47451365769435",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_iFNEeY": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-28_dd67addf-5d8a-4c4b-9441-910f25e18232.jpg",
+            "slide_title": "2色展開　マルチストライプ細畝コーデュロイワークシャツ",
+            "slide_price": 11980,
+            "slide_price_new": 10790,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-cs-ok5312?_pos=1&_sid=11091abfd&_ss=r&variant=47609591595227",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_kW3zXw": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-30_f541c41a-7dc1-4e70-bb06-704c8e664e01.jpg",
+            "slide_title": "五色展開　親子コーデュロイシャツジャケット",
+            "slide_price": 13980,
+            "slide_price_new": 7000,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-gs1254?_pos=1&_sid=30d42d804&_ss=r&variant=44456768045275",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_zJrTB4",
+        "slide_block_iFNEeY",
+        "slide_block_kW3zXw"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#5c4a3c",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#f2ebdb",
+        "slide_text_hover_color": "#5c4a3c",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "image_jump_custom_6AYBJU": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_dwTyH3": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_7ea051b8-6807-40fd-bbd7-4744df98f3a8.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_dwTyH3"
+      ],
+      "name": "Image jump",
+      "settings": {}
+    },
+    "slide_block_group_Gbtt3i": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_kFBTMc": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-32_86e0cfd9-ad10-40e3-8202-74612447666b.jpg",
+            "slide_title": "ヴィンテージ・コーデュロイワイドパンツ",
+            "slide_price": 13190,
+            "slide_price_new": 11880,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-md-ts2107034?_pos=1&_sid=a04a92e66&_ss=r&variant=43643870019803",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_X7xJpr": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-34.jpg",
+            "slide_title": "コーデュロイワイドパンツ",
+            "slide_price": 12000,
+            "slide_price_new": 7800,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-s2007047?_pos=5&_sid=7d0ce6b98&_ss=r&variant=40859730641074",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_mpBxap": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-35_82b2784e-b649-42e5-8b32-e3249e634455.jpg",
+            "slide_img2": "shopify://shop_images/1336x1604-36_0e86a55e-0d39-4d1f-81f7-4273909cb7f5.jpg",
+            "slide_title": "3色展開　ピンループ付きコーデュロイスラックスパンツ",
+            "slide_price": 11980,
+            "slide_price_new": 0,
+            "slide_btn": "VIEW MORE",
+            "slide_url": "https://karakubuy.com/products/krk-018-kz1791?_pos=1&_sid=d5450b7cc&_ss=r&variant=47702973776091",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_kFBTMc",
+        "slide_block_X7xJpr",
+        "slide_block_mpBxap"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#5c4a3c",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#f2ebdb",
+        "slide_text_hover_color": "#5c4a3c",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "background_image_FMGrdx": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "bg_size": "cover",
+        "bg_repeat": "no-repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#cdc1a9",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_adk4LY",
+    "image_with_text_xB7PEY",
+    "image_pmkzTz",
+    "image_jump_custom_W3NVMY",
+    "slide_block_group_kgjECi",
+    "slide_block_group_nrz7YT",
+    "image_jump_custom_QQjRgm",
+    "slide_block_group_gkHnif",
+    "slide_block_group_W6VjmQ",
+    "slide_block_group_mtFnTf",
+    "image_jump_custom_6AYBJU",
+    "slide_block_group_Gbtt3i",
+    "background_image_FMGrdx"
+  ]
+}

@@ -1,0 +1,181 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "settings": {
+        "show_date": true,
+        "show_author": true,
+        "show_article_tags": true,
+        "show_sharing_icons": true,
+        "show_twitter": true,
+        "show_facebook": true,
+        "show_pinterest": true,
+        "show_featured_image": false,
+        "full_width_image": true,
+        "featured_image_height": "huge",
+        "enable_title_overlay": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "blog_recommend_products_CemYGP": {
+      "type": "blog-recommend-products",
+      "disabled": true,
+      "name": "Blog recommend products",
+      "settings": {
+        "title": "掲載されたアイテム",
+        "collection": "{{ article.metafields.custom.recommended_products.value }}",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "slideshow_hBiajF": {
+      "type": "slideshow",
+      "blocks": {
+        "image_bxTNzT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/VS-0093__1920_cd471cf3-62da-4d4f-942b-fc7cef017a9c.jpg",
+            "mobile_image": "shopify://shop_images/VS-0093__1080_55ac6c69-e1c3-4fa1-83ff-9f2cd34a87f5.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_bxTNzT"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "background_image_VWxDhe": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#2654A4",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_k7hhMT": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_397e9d81-140b-4c22-a6f2-186f356f2a1f.png",
+        "mobile_image": "shopify://shop_images/720_1dd45006-0575-4c18-83e1-cf407c33b0df.png",
+        "img_rul": ""
+      }
+    },
+    "image_list_iBJ4mE": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_gGr4GG": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/400-1.png",
+            "image_list_link": ""
+          }
+        },
+        "imagelist_98NhiR": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/400-2.png",
+            "image_list_link": ""
+          }
+        },
+        "imagelist_GDxbeR": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/400-3.png",
+            "image_list_link": ""
+          }
+        },
+        "imagelist_6nRRah": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/400-4.png",
+            "image_list_link": ""
+          }
+        },
+        "imagelist_in7ncy": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/400-5.png",
+            "image_list_link": ""
+          }
+        },
+        "imagelist_3drJne": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/400-6.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_gGr4GG",
+        "imagelist_98NhiR",
+        "imagelist_GDxbeR",
+        "imagelist_6nRRah",
+        "imagelist_in7ncy",
+        "imagelist_3drJne"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "none"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "blog_recommend_products_CemYGP",
+    "slideshow_hBiajF",
+    "background_image_VWxDhe",
+    "image_k7hhMT",
+    "image_list_iBJ4mE"
+  ]
+}

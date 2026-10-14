@@ -1,0 +1,65 @@
+{%- comment -%}
+  渲染单张 Slider Carousel slide。
+
+  参数:
+  - block {Block}
+  - start_stamp {String}
+  - end_stamp {String}
+  - loading {String} - eager | lazy
+  - fetchpriority {String} - high | blank
+  - show_visible_now_attr {Boolean} - pool 用，输出 data-visible-now
+  - is_visible_now {Boolean} - 仅 show_visible_now_attr 时使用
+{%- endcomment -%}
+
+{%- liquid
+  assign img_sizes = '(min-width: 768px) 55vw, 100vw'
+  assign img_widths = '640, 960, 1280, 1600, 1920'
+  assign img_loading = loading | default: 'lazy'
+  assign img_fetchpriority = fetchpriority | default: nil
+-%}
+<div
+  class="swiper-slide"
+  data-slide-id="{{ block.id }}"
+  data-schedule-start="{{ start_stamp }}"
+  data-schedule-end="{{ end_stamp }}"
+  {% if show_visible_now_attr %}data-visible-now="{% if is_visible_now %}true{% else %}false{% endif %}"{% endif %}
+  {{ block.shopify_attributes }}
+>
+  {%- if block.settings.advertising_url != blank -%}
+    <a class="slider-carousel__link" href="{{ block.settings.advertising_url }}">
+  {%- else -%}
+    <div class="slider-carousel__link">
+  {%- endif -%}
+    <div class="slider-carousel__media">
+      <div class="placeholder-wrapper">
+        {%- if block.settings.advertising_mobile_image -%}
+          <picture>
+            {%- render 'image' with block.settings.advertising_mobile_image,
+              loading: img_loading,
+              sizes: img_sizes,
+              widths: img_widths,
+              as_mobile_source: true
+            -%}
+            {%- render 'image' with block.settings.advertising_pc_image,
+              loading: img_loading,
+              sizes: img_sizes,
+              widths: img_widths,
+              fetchpriority: img_fetchpriority
+            -%}
+          </picture>
+        {%- else -%}
+          {%- render 'image' with block.settings.advertising_pc_image,
+            loading: img_loading,
+            sizes: img_sizes,
+            widths: img_widths,
+            fetchpriority: img_fetchpriority
+          -%}
+        {%- endif -%}
+      </div>
+    </div>
+  {%- if block.settings.advertising_url != blank -%}
+    </a>
+  {%- else -%}
+    </div>
+  {%- endif -%}
+</div>

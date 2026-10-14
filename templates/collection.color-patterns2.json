@@ -1,0 +1,859 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1650354738aa4de6fc": {
+      "type": "slideshow",
+      "blocks": {
+        "1650354738a81715c6-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner.png.lin.png",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1650354738a81715c6-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "165053447469e87bef": {
+      "type": "rich-text",
+      "blocks": {
+        "1650534474a49cb371-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "2022     SPRING & SUMMER STYLE"
+          }
+        },
+        "1650534474a49cb371-1": {
+          "type": "heading",
+          "settings": {
+            "title": "～Karaku 最旬スタイル〜",
+            "use_h1": false
+          }
+        },
+        "1650534474a49cb371-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>旬な’色柄’の着こなし</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1650534474a49cb371-0",
+        "1650534474a49cb371-1",
+        "1650534474a49cb371-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_dHakUY": {
+      "type": "custom-content",
+      "blocks": {
+        "text_qNEKB4": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "＃Look1    鮮やかなイエローのセットアップで太陽の下へ",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "image_TmTxgU": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/1_098708c0-ff3f-4227-97ba-f6cbcf207f9a.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        }
+      },
+      "block_order": [
+        "text_qNEKB4",
+        "image_TmTxgU"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_W4UWUL": {
+      "type": "custom-content",
+      "blocks": {
+        "image_9JXpQG": {
+          "type": "image",
+          "settings": {
+            "width": "two-thirds",
+            "image": "shopify://shop_images/1_35dec152-2c64-4139-b7a2-70c6e2cc9bd2.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_grkwTb": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "left",
+            "subheading": "",
+            "title": "",
+            "text": "<p></p><p><a href=\"https://www.karakubuy.com/collections/%E6%97%AC%E3%81%AA-%E8%89%B2%E6%9F%84-%E3%81%AE%E7%9D%80%E3%81%93%E3%81%AA%E3%81%97/products/krk-md-tw2007207\" title=\"https://www.karakubuy.com/collections/%E6%97%AC%E3%81%AA-%E8%89%B2%E6%9F%84-%E3%81%AE%E7%9D%80%E3%81%93%E3%81%AA%E3%81%97/products/krk-md-tw2007207\"><em>Pants ¥9,190 inc.tax KRK-MD-TWS220129..........................................Buy</em></a></p>",
+            "button_label": "Buy",
+            "button_link": "shopify://products/krk-md-th2401171",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_9JXpQG",
+        "text_grkwTb"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "1650525531ec692ca6": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_PhChUJ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Shirt ¥81,97 inc.tax KRK-MD-TW200720　"
+          }
+        },
+        "heading_a9zVcN": {
+          "type": "heading",
+          "settings": {
+            "title": "オープンカラー　ストライプシャツジャケット",
+            "use_h1": false
+          }
+        },
+        "text_hzhPpL": {
+          "type": "text",
+          "settings": {
+            "text": "<p>あざやかなカラーリングとデイリーウエアにすんなり溶けこむストライプ柄の組み合わせで、陽気なコーディネートを作ってくれる、オープンカラーシャツです。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_NXAYqg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy",
+            "button_link": "https://www.karakubuy.com/products/krk-md-tw2007207?_pos=1&_sid=3d44310dd&_ss=r&variant=42595745530075",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_PhChUJ",
+        "heading_a9zVcN",
+        "text_hzhPpL",
+        "button_NXAYqg"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/18304787330_173618938.jpg",
+        "image_2": "shopify://shop_images/18304805111_173618938.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_9pQhDP": {
+      "type": "custom-content",
+      "blocks": {
+        "text_jfGzdh": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "＃Look2                                                   旬のグリーンはベーシックカラーに効かせて",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "image_VNrUcL": {
+          "type": "image",
+          "settings": {
+            "width": "two-thirds",
+            "image": "shopify://shop_images/1_757c98c8-0d86-4133-ac6b-ad84d80cff81.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "text_jfGzdh",
+        "image_VNrUcL"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_6fq9ja": {
+      "type": "custom-content",
+      "blocks": {
+        "image_tTcgDt": {
+          "type": "image",
+          "settings": {
+            "width": "two-thirds",
+            "image": "shopify://shop_images/4_720x_1aa26674-b6da-41df-9dc0-f644679201bf.webp",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_9U7LUq": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "left",
+            "subheading": "",
+            "title": "",
+            "text": "<p>Shirt ¥10,584 inc.tax MD-W2007134</p>",
+            "button_label": "Buy",
+            "button_link": "https://www.karakubuy.com/collections/ranking/products/%E3%83%9C%E3%82%A6%E3%83%AA%E3%83%B3%E3%82%B0-%E3%82%AD%E3%83%A5%E3%83%BC%E3%83%90%E3%83%B3-%E3%82%AB%E3%83%A9%E3%83%BC-%E3%82%B7%E3%83%A3%E3%83%84",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_tTcgDt",
+        "text_9U7LUq"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "16505263143e8aedba": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_zMQ7rt": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Pants ¥13,596 inc.tax KRK-TS2107081"
+          }
+        },
+        "heading_rdpkG4": {
+          "type": "heading",
+          "settings": {
+            "title": "アメカジスUSプリントワークパンツ",
+            "use_h1": false
+          }
+        },
+        "text_Dq3pdG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>アメカジスUSプリントワークパンツが登場。<br/> 本アイテムは右フロントと左後ろヒップにあるレタープリントがワンポイントで、特別なオリーブグリーン色と合わせて、ミニマライズされたクリーンな表情が印象的。コットン生地を使用し、耐久性も抜群で履き続ける事で味が出てきて自分だけの1本に仕上がり。ゆったりとしたシルエットだが、ダラダラし過ぎない、程よいルーズ感。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_U7iL8x": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy",
+            "button_link": "https://www.karakubuy.com/products/krk-ts2107081?_pos=1&_sid=a3cb9b89d&_ss=r&variant=42163292668123",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_zMQ7rt",
+        "heading_rdpkG4",
+        "text_Dq3pdG",
+        "button_U7iL8x"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/KRK-TS2107081-8_720x_12a29330-550e-4f3c-93e7-808338f10f11.webp",
+        "image_2": "shopify://shop_images/KRK-TS2107081-8_720x_1.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_Cwweyn": {
+      "type": "custom-content",
+      "blocks": {
+        "text_aHK7yn": {
+          "type": "text",
+          "settings": {
+            "width": "two-thirds",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "＃Look3　　春夏にぴったりで爽やかなホワイトが清潔な印象を与える",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "image_QE4Aa3": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/5_fc660f06-4fcb-4d78-9e77-147d5f035182.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "text_aHK7yn",
+        "image_QE4Aa3"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_6J6HB7": {
+      "type": "custom-content",
+      "blocks": {
+        "image_cmEgaw": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/3_e4c9e7b2-df9b-476e-b568-5d326416c1d4.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_xRa6qr": {
+          "type": "text",
+          "settings": {
+            "width": "two-thirds",
+            "text_alignment": "left",
+            "subheading": "",
+            "title": "",
+            "text": "<p>Pants ¥11,014 inc.tax KRK-MD-TLS2201827</p>",
+            "button_label": "Buy",
+            "button_link": "https://www.karakubuy.com/collections/ranking/products/krk-md-tls2201827",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_cmEgaw",
+        "text_xRa6qr"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "1650528239aff53d4c": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_8JCFX8": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Shirt ¥99,25 inc.tax KRK-GLCL1149"
+          }
+        },
+        "heading_8cPbVa": {
+          "type": "heading",
+          "settings": {
+            "title": "神奈川沖波裏　和モダン半袖シャツ",
+            "use_h1": false
+          }
+        },
+        "text_yB6FpE": {
+          "type": "text",
+          "settings": {
+            "text": "<p>浮世絵の神奈川沖波裏プリントをベースとデザインソースにして、現代アート的なスマートな雰囲気をあわせ持つそんなシャツに仕上がっています。スタイルは伝統的ながらモダンで、強いエネルギー、躍動感を感じます。仕立て縫製が非常にきれい、伸びがあるポリエステル生地をメイン使用し、形状記憶性が高く、耐摩耗性に優れている、シワができにくくお手入れも簡単。男女兼用ユニセックスで使える、シンプルな格好で、着心地抜群なので清涼感をプラスしてくれる暑い季節に最適なアイテムです。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_U3ch3T": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy",
+            "button_link": "https://www.karakubuy.com/collections/ranking/products/krk-glcl1149",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_8JCFX8",
+        "heading_8cPbVa",
+        "text_yB6FpE",
+        "button_U3ch3T"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/KRK-GLCL1149-1_720x_534f8d24-e737-40c6-84e8-848cf5c4d728.webp",
+        "image_2": "shopify://shop_images/KRK-GLCL1149-3_720x_7882a4c8-15b8-4254-ae36-54a0caa1ac46.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_EGfRcf": {
+      "type": "custom-content",
+      "blocks": {
+        "text_DxDXrE": {
+          "type": "text",
+          "settings": {
+            "width": "two-thirds",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "＃Look4　　春夏にフレッシュな赤レンガ色で仕上がったピーチスキンシャツ",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "image_zWhXDb": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/6_b063dc0e-6b46-4a49-b00a-d2e552ea39d9.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "text_DxDXrE",
+        "image_zWhXDb"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "16505301209d8f4906": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_miCqRd": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Shirt ¥78,84 inc.tax MD-W2001199"
+          }
+        },
+        "heading_qxTnmR": {
+          "type": "heading",
+          "settings": {
+            "title": "ピーチスキンシャツ",
+            "use_h1": false
+          }
+        },
+        "text_8F94GT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>本アイテムはワイドシルエットにドロップショルダーを加え、ゆったりとしたトレンドの着こなしが出来るキューバカラーシャツです。シンプルでありがながら襟の形状、ポケットの配置などデザイン性の高い、着古したような味わい深い風合いもポイントとなっております。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_EFd6Q6": {
+          "type": "button",
+          "settings": {
+            "button_label": "Buy",
+            "button_link": "https://www.karakubuy.com/collections/ranking/products/%E3%83%94%E3%83%BC%E3%83%81%E3%82%B9%E3%82%AD%E3%83%B3%E3%82%B7%E3%83%A3%E3%83%84",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_miCqRd",
+        "heading_qxTnmR",
+        "text_8F94GT",
+        "button_EFd6Q6"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/8abbc53894f5e12cd635f77bf4006635_720x_2627d450-3276-431a-9e64-c4845d6ec6c1.webp",
+        "image_2": "shopify://shop_images/4_720x_f2b565a1-bd82-412f-988d-6ded06b89733.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_WeNNnr": {
+      "type": "custom-content",
+      "blocks": {
+        "text_4hmFjd": {
+          "type": "text",
+          "settings": {
+            "width": "two-thirds",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "＃Look5　　　上品で知的な印象を与えてくれるブルー",
+            "text": "",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "image_rbj9wQ": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/5_282456fc-cc2e-4ea0-8614-804f24a554e7.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        }
+      },
+      "block_order": [
+        "text_4hmFjd",
+        "image_rbj9wQ"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_JMCU8H": {
+      "type": "custom-content",
+      "blocks": {
+        "image_BWwGTX": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/5_19664758-522f-44cb-99b5-e45ad22b4a8f.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "text_fYyqbN": {
+          "type": "text",
+          "settings": {
+            "width": "two-thirds",
+            "text_alignment": "left",
+            "subheading": "",
+            "title": "",
+            "text": "<p>Shirt ¥10,314 inc.tax KRK-MD-TWW2201231</p>",
+            "button_label": "Buy",
+            "button_link": "https://www.karakubuy.com/collections/ranking/products/krk-md-tww2201231",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_BWwGTX",
+        "text_fYyqbN"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1635220294067ab8a1": {
+      "type": "collection-list",
+      "blocks": {
+        "22a68d2d-1230-4f98-96b2-5b4029b9dc36": {
+          "type": "collection",
+          "settings": {
+            "collection": "アクセサリー-小物",
+            "image": "shopify://shop_images/QQ_20211029184022.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "ba2cf3cc-2a86-4841-9a15-fa4bbb764def": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "セールから探す",
+            "image": "shopify://shop_images/QQ_20211029184109.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "22a68d2d-1230-4f98-96b2-5b4029b9dc36",
+        "ba2cf3cc-2a86-4841-9a15-fa4bbb764def"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 2,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "1648722075b07e0bcc": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "video_external": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_description": "",
+        "text_alignment": "center center",
+        "full_width": false,
+        "overlay_style": "full"
+      }
+    },
+    "1649416496d48e07ac": {
+      "type": "collection-list",
+      "blocks": {
+        "86d8cae9-cd76-4853-9a35-cc75e2a69085": {
+          "type": "collection",
+          "settings": {
+            "collection": "人気商品",
+            "image": "shopify://shop_images/6179f0b1b19b03c3d07cba04cd18767f.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "9152f5d4-8e11-462a-972d-926fb28aaf2d": {
+          "type": "collection",
+          "settings": {
+            "collection": "japan-blue-日本の国土を象徴する海と空の青",
+            "image": "shopify://shop_images/PC_a2b9630c-cd59-4b6d-b415-ed30dde4d102.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "86d8cae9-cd76-4853-9a35-cc75e2a69085",
+        "9152f5d4-8e11-462a-972d-926fb28aaf2d"
+      ],
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 2,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "shortest",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    }
+  },
+  "order": [
+    "1650354738aa4de6fc",
+    "165053447469e87bef",
+    "custom_content_dHakUY",
+    "custom_content_W4UWUL",
+    "1650525531ec692ca6",
+    "custom_content_9pQhDP",
+    "custom_content_6fq9ja",
+    "16505263143e8aedba",
+    "custom_content_Cwweyn",
+    "custom_content_6J6HB7",
+    "1650528239aff53d4c",
+    "custom_content_EGfRcf",
+    "16505301209d8f4906",
+    "custom_content_WeNNnr",
+    "custom_content_JMCU8H",
+    "main",
+    "1635220294067ab8a1",
+    "1635765484031572a6",
+    "1648722075b07e0bcc",
+    "1649416496d48e07ac"
+  ]
+}

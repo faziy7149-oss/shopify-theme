@@ -1,0 +1,907 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1657793860482973db": {
+      "type": "rich-text",
+      "blocks": {
+        "1657793860490ad2e7-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "今年の7月にトレンドの色やサイズを掛け合わせた拘りのアイテムでコーディネートしたスタイルをご紹介します。是非お楽しみ下さい"
+          }
+        },
+        "1657793860490ad2e7-1": {
+          "type": "heading",
+          "settings": {
+            "title": "2022　7月　おすすめコーディネート",
+            "use_h1": false
+          }
+        },
+        "1657793860490ad2e7-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>7月の「Karaku的 1週間コーディネート」は色やバランス、小物使いにも注目。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1657793860490ad2e7-0",
+        "1657793860490ad2e7-1",
+        "1657793860490ad2e7-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "165053447469e87bef": {
+      "type": "rich-text",
+      "blocks": {
+        "1650534474a49cb371-1": {
+          "type": "heading",
+          "settings": {
+            "title": "01（mon）",
+            "use_h1": false
+          }
+        },
+        "1650534474a49cb371-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>one WEEK Style of July</strong></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1650534474a49cb371-1",
+        "1650534474a49cb371-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_DLNJ6h": {
+      "type": "custom-content",
+      "blocks": {
+        "image_KcLiry": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/MD-W2001199-1.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_R6XMRV": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/MD-W2001199-2.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_8MrCBg": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/MD-W2001199-3.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_KcLiry",
+        "image_R6XMRV",
+        "image_8MrCBg"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "1657620737b2e956ad": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ITEMS",
+        "collection": "02-tue",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "1657620809c9bc4ff1": {
+      "type": "rich-text",
+      "blocks": {
+        "165762080930a88b3b-1": {
+          "type": "heading",
+          "settings": {
+            "title": "02（tue）",
+            "use_h1": false
+          }
+        },
+        "165762080930a88b3b-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>one WEEK Style of July</strong></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "165762080930a88b3b-1",
+        "165762080930a88b3b-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_FYWiEj": {
+      "type": "custom-content",
+      "blocks": {
+        "image_qEma7H": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/KRK-MD-TWW2201237-1.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_XcV7JE": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/KRK-MD-TWW2201237-4.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_qEma7H",
+        "image_XcV7JE"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "16576202463e18e7f6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ITEMS",
+        "collection": "07-sun",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 3,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "165762182392e35607": {
+      "type": "rich-text",
+      "blocks": {
+        "1657621823fe844618-1": {
+          "type": "heading",
+          "settings": {
+            "title": "03（wed）",
+            "use_h1": false
+          }
+        },
+        "1657621823fe844618-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>one WEEK Style of July</strong></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1657621823fe844618-1",
+        "1657621823fe844618-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_4zPk3K": {
+      "type": "custom-content",
+      "blocks": {
+        "image_EmXHjz": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/KRK-MD-TWW2201244-1_128c0515-079c-4e00-a9b4-4d4bc54dceb8.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_dPJ8xa": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/KRK-MD-TWW2201244-2.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_mredpG": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/KRK-MD-TWW2201244-4.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_EmXHjz",
+        "image_dPJ8xa",
+        "image_mredpG"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "16576221921d39d899": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ITEMS",
+        "collection": "03-wed",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "1657622070c6a16d99": {
+      "type": "rich-text",
+      "blocks": {
+        "1657622070629c2298-1": {
+          "type": "heading",
+          "settings": {
+            "title": "04（thu）",
+            "use_h1": false
+          }
+        },
+        "1657622070629c2298-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>one WEEK Style of July</strong></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1657622070629c2298-1",
+        "1657622070629c2298-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_Wke8yG": {
+      "type": "custom-content",
+      "blocks": {
+        "image_jtCcpy": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/KRK-GLJY6131037-1_9f85fbe7-7117-4e81-8609-003b8205a9a5.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_BPfME9": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/KRK-GLJY6131037-4.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_jtCcpy",
+        "image_BPfME9"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "16576223087ee1e7ba": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Featured collection",
+        "collection": "04-thu",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "1657792398bef68a81": {
+      "type": "rich-text",
+      "blocks": {
+        "165779239841611ee2-1": {
+          "type": "heading",
+          "settings": {
+            "title": "05（fri）",
+            "use_h1": false
+          }
+        },
+        "165779239841611ee2-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>one WEEK Style of July</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "165779239841611ee2-1",
+        "165779239841611ee2-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_Pj6AQJ": {
+      "type": "custom-content",
+      "blocks": {
+        "image_iBiXMd": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/KRK-MD-TWW2201231-1_e9127d82-5c52-49ac-9976-d7438e82c2be.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "image_KfqhHq": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/KRK-MD-TWW2201231-2.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_EMtPDF": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/KRK-MD-TWW2201231-3.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_iBiXMd",
+        "image_KfqhHq",
+        "image_EMtPDF"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "1657792627eb04d0d6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ITEMS",
+        "collection": "05-fri",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "16577926546b5187cb": {
+      "type": "rich-text",
+      "blocks": {
+        "165779265418068c23-1": {
+          "type": "heading",
+          "settings": {
+            "title": "06（sat）",
+            "use_h1": false
+          }
+        },
+        "165779265418068c23-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>one WEEK Style of July</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "165779265418068c23-1",
+        "165779265418068c23-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_mC7UN9": {
+      "type": "custom-content",
+      "blocks": {
+        "image_r8W4rd": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/MD-S1901210-1.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_xCDtdn": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/MD-S1901210-4.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_r8W4rd",
+        "image_xCDtdn"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "1657792835c2db29be": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ITEMS",
+        "collection": "06-sat",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "16577932433c002c4e": {
+      "type": "rich-text",
+      "blocks": {
+        "16577932439bd54cf3-1": {
+          "type": "heading",
+          "settings": {
+            "title": "07（sun）",
+            "use_h1": false
+          }
+        },
+        "16577932439bd54cf3-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>one WEEK Style of July</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "16577932439bd54cf3-1",
+        "16577932439bd54cf3-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_tLya3a": {
+      "type": "custom-content",
+      "blocks": {
+        "image_WRP6Y3": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/KRK-MD-TW2007207_-1_c01db262-9d89-4344-9a30-1c8a1acfff60.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_JWjjqE": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/KRK-MD-TW2007207_-2_4718f899-9c28-4b55-95d2-429802567821.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_ezyiUQ": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/KRK-MD-TW2007207_-3_08726517-e1ff-4803-b2c2-39e57360a2f2.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_WRP6Y3",
+        "image_JWjjqE",
+        "image_ezyiUQ"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "16577932652283f52f": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "ITEMS",
+        "collection": "01-mon",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1635220294067ab8a1": {
+      "type": "collection-list",
+      "blocks": {
+        "22a68d2d-1230-4f98-96b2-5b4029b9dc36": {
+          "type": "collection",
+          "settings": {
+            "collection": "アクセサリー-小物",
+            "image": "shopify://shop_images/QQ_20211029184022.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "ba2cf3cc-2a86-4841-9a15-fa4bbb764def": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "セールから探す",
+            "image": "shopify://shop_images/QQ_20211029184109.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "22a68d2d-1230-4f98-96b2-5b4029b9dc36",
+        "ba2cf3cc-2a86-4841-9a15-fa4bbb764def"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 2,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    }
+  },
+  "order": [
+    "1657793860482973db",
+    "165053447469e87bef",
+    "custom_content_DLNJ6h",
+    "1657620737b2e956ad",
+    "1657620809c9bc4ff1",
+    "custom_content_FYWiEj",
+    "16576202463e18e7f6",
+    "165762182392e35607",
+    "custom_content_4zPk3K",
+    "16576221921d39d899",
+    "1657622070c6a16d99",
+    "custom_content_Wke8yG",
+    "16576223087ee1e7ba",
+    "1657792398bef68a81",
+    "custom_content_Pj6AQJ",
+    "1657792627eb04d0d6",
+    "16577926546b5187cb",
+    "custom_content_mC7UN9",
+    "1657792835c2db29be",
+    "16577932433c002c4e",
+    "custom_content_tLya3a",
+    "16577932652283f52f",
+    "main",
+    "1635220294067ab8a1"
+  ]
+}

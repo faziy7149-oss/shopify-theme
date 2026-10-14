@@ -1,0 +1,447 @@
+<style>
+.container .favourite-title {
+  text-align: center;
+}
+.container .favourite-title > h2 {
+  margin-bottom: 0;
+}
+.container .favourite-title span {
+  font-weight: bold;
+}
+.tab-content .favourite-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+.tab-content .favourite-list .favourite-item {
+  margin-bottom: 6rem;
+  /* width: calc(95% / 5); */
+}
+.favourite-item .text-area {
+  display: flex;
+  margin: 9px 0 0 6px;
+  /* gap: 1rem; */
+}
+.favourite-item .text-area .favourite-img > img {
+  border-radius: 50%;
+}
+.favourite-item .text-area .favourite-text {
+  padding: 3px 0 0 10px;
+  color: #100f0f;
+}
+.favourite-item .text-area .favourite-text .shop-name > span {
+  font-size: 12px;
+  padding: 1px 3px;
+  border: 1px solid #000;
+  border-radius: 2px;
+}
+.favourite-item .text-area .favourite-text .staff-name {
+  margin-right: 5px;
+  font-size: 13px;
+  font-weight: bold;
+  color: #100f0f;
+}
+.favourite-item .text-area .favourite-text p {
+  margin-bottom: 2px;
+}
+.favourite-item .text-area .favourite-text .staure {
+  color: #666;
+  font-size: 11px;
+  font-family:'Helvetica','Helvetica Neue','Arial','Lucida Grande',sans-serif;
+}
+.container .filters-wrap {
+  margin-top: 2em;
+  text-align: center;
+}
+.container .filters-wrap .filters {
+  display: inline-block;
+  margin: 0 0 20px;
+  padding: 0 0 0 4em;
+  text-align: left;
+  position: relative;
+}
+.container .filters-wrap .filters > span {
+  padding: 8px 0 0;
+  font-weight: bold;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+.container .filters-wrap .filters .text-area {
+  font-size: 12px;
+  font-weight: bold;
+}
+.container .filters-wrap .filters .filter span {
+  font-size: 14px;
+  display: inline-block;
+  margin: 0 8px 8px 0;
+  padding: 4px 8px;
+  background-color: #f2f2f2;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+  border-radius: 5px;
+  cursor: pointer;
+  opacity: 0.3;
+}
+.container .filters-wrap .filters .filter .active {
+  opacity: 1;
+}
+.data-show {
+  display: none;
+}
+
+.section-id-{{ section.id }} .img-box {
+  position: relative;
+  padding-bottom: 125%;
+  width: 100%;
+  height: 100%;
+}
+.section-id-{{ section.id }} .favourite-img {
+  position: relative;
+  padding-bottom: 100%;
+  width: 100%;
+  /* height: 100%; */
+}
+.section-id-{{ section.id }} .style-list-image, .section-id-{{ section.id }} .favourite-image {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.section-id-{{ section.id }} .favouiter-wrap {
+  width: 60px;
+  height: 60px;
+}
+.section-id-{{ section.id }} .container .tab-content .favourite-list {
+  /* gap: 1rem; */
+}
+@media (max-width: 767px) {
+  .container .tab-content {
+    margin-top: 2rem;
+  }
+  .tab-content .favourite-list .favourite-item {
+    margin: 0;
+    /* width: calc(95% / 2); */
+    flex-grow: 1;
+    margin-bottom: 5rem;
+  }
+  .container .tab-content .favourite-list {
+    margin: 0;
+    gap: 0.5rem;
+  }
+  .favourite-item .text-area .favourite-text {
+    padding: 3px 0 0 5px;
+  }
+  .section-id-{{ section.id }} .favouiter-wrap {
+    width: 45px;
+    height: 45px;
+  }
+}
+</style>
+
+<div class="section-id-{{ section.id }}">
+<div class="container">
+  {% comment %} 标题 {% endcomment %}
+  <div class="favourite-title">
+    <h2>{{ section.settings.title }}</h2>
+    <span>{{ section.settings.title2 }}</span>
+  </div>
+  {% comment %} 过滤器 {% endcomment %}
+  <div class="filters-wrap">
+    <ul class="filters">
+      <span>身長</span>
+      <li class="filter">
+        <span class="active">ALL</span>
+        {% for block in section.blocks %}
+          {% if block.type == "height_filter" %}
+            {% assign maxh = block.settings.max_height | default: 300 %}
+            <span 
+              data-minh="{{ block.settings.min_height }}" 
+              data-maxh="{{ maxh }}"
+            >
+              {{ block.settings.label }}
+            </span>
+          {% endif %}
+        {% endfor %}
+      </li>
+    </ul>
+  </div>
+  {% comment %} 内容区域 {% endcomment %}
+  <div class="tab-content">
+    {% comment %} 总列表 {% endcomment %}
+    <div class="favourite-list swiper">
+      <div class="swiper-wrapper">
+      {% for block in section.blocks %}
+        {% if block.type == "stylelist" %}
+
+        {% comment %} 红人信息 {% endcomment %}
+        <div class="favourite-item swiper-slide data-show">
+          {% comment %} 红人主图 {% endcomment %}
+           {% if block.settings.favourite_link %}
+            <a href="{{  block.settings.favourite_link }}" class="favourite-link">
+           {% endif %}
+          
+            <div class="img-box">
+              {%- if block.settings.master_img == blank -%}
+                <div class="placeholder-image">
+                  {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                </div>
+              {%- else -%}
+              {% render 'image' with block.settings.master_img, sizes: '1980px', loading: 'lazy' class: 'style-list-image' %}
+              {%- endif -%}
+            </div>
+
+            {% comment %} 红人信息 小图 {% endcomment %}
+            <div class="text-area">
+              {% comment %} 红人头像  {% endcomment %}
+              <div class="favouiter-wrap">
+
+        
+              <div class="favourite-img">
+                {%- if block.settings.celebrity_img == blank -%}
+                  <div class="placeholder-image" style="border-radius: 50%;">
+                    {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                  </div>
+                {%- else -%}
+                {% render 'image' with block.settings.celebrity_img, sizes: '1980px', loading: 'lazy' class: 'favourite-image' %}
+                {%- endif -%}
+              </div>
+              </div>
+              {% comment %} 红人信息 {% endcomment %}
+              <div class="favourite-text">
+                <p class="shop-name">
+                  {%- if block.settings.shop_name != blank -%}
+                    <span>{{ block.settings.shop_name }}</span>
+                  {%- endif -%}
+                </p>
+                <p>
+                  <span class="staff-name">{{ block.settings.staff_name }}</span>
+                  <span class="staure" data-height="{{block.settings.stature |  slice: 0, 3 }}">
+                    {{- block.settings.stature -}}
+                  </span>
+                </p>
+              </div>
+            </div>
+            {% if block.settings.favourite_link %}
+              </a>
+            {% endif %}
+
+        </div>
+        {% endif %}
+      {% endfor %}
+      </div>
+    </div>
+  </div>
+</div>
+</div>
+{% schema %}
+{
+  "name": "celebrity list",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Heading",
+      "default": "STYLING"
+    },
+    {
+      "type": "text",
+      "id": "title2",
+      "label": "Subheading",
+      "default": "スタッフ スタイリング"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "stylelist",
+      "name": "celebrity info",
+      "limit": 10,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "master_img",
+          "label": "Image",
+          "info": "图片比例: 4:5"
+        },
+        {
+          "type": "image_picker",
+          "id": "celebrity_img",
+          "label": "celebrity image",
+          "info": "图片比例: 1:1"
+        },
+        {
+          "type": "url",
+          "id": "favourite_link",
+          "label": "红人详情页"
+        },
+        {
+          "type": "text",
+          "id": "shop_name",
+          "label": "店铺名称",
+          "default": "Karaku"
+        },
+        {
+          "type": "text",
+          "id": "staff_name",
+          "label": "红人名字",
+          "default": "WUYANZU"
+        },
+        {
+          "type": "text",
+          "id": "stature",
+          "label": "红人身高",
+          "info": "188cm"
+        }
+      ]
+    },
+    {
+      "type": "height_filter",
+      "name": "Height Filter",
+      "limit": 8,
+      "settings": [
+        {
+          "type": "text",
+          "id": "label",
+          "label": "Filter Label",
+          "default": "151~160cm"
+        },
+        {
+          "type": "number",
+          "id": "min_height",
+          "label": "Minimum Height",
+          "default": 151
+        },
+        {
+          "type": "number",
+          "id": "max_height",
+          "label": "Maximum Height",
+          "default": 160,
+          "info": "输入0表示无上限"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "celebrity list",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "stylelist",
+          "settings": {}
+        },
+        {
+          "type": "stylelist",
+          "settings": {}
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}
+{% comment %} 优化后的JavaScript {% endcomment %}
+<script>
+(function($) {
+  const heightFilter = {
+    init() {
+      this.cacheElements();
+      this.bindEvents();
+      this.applyInitialFilter();
+    },
+
+
+    cacheElements() {
+      this.$filters = $('.filters-wrap .filter span');
+      this.$items = $('.favourite-item');
+    },
+
+    bindEvents() {
+      // 使用事件委托处理动态内容
+      $('.filters-wrap').on('click', '.filter span', (e) => {
+        this.handleFilterClick(e.currentTarget);
+      });
+    },
+
+    handleFilterClick(target) {
+      const $target = $(target);
+      this.$filters.removeClass('active');
+      $target.addClass('active');
+      
+      const min = parseInt(target.dataset.minh, 10) || null;
+      const max = parseInt(target.dataset.maxh, 10) || null;
+      
+      this.applyFilter(min, max);
+      this.updateSwiper(); // 新增Swiper更新
+    },
+
+    applyInitialFilter() {
+      this.applyFilter(null, null);
+    },
+
+    applyFilter(min, max) {
+      requestAnimationFrame(() => {
+        this.$items.each((i, item) => {
+          const $item = $(item);
+          const height = parseInt($item.find('.staure').data('height'), 10);
+          const shouldShow = this.shouldShowItem(height, min, max);
+          
+          $item.toggleClass('data-show', !shouldShow)
+               .css('transition', 'opacity 0.3s ease');
+        });
+      });
+    },
+    shouldShowItem(height, min, max) {
+      if (min === null || max === null) return true;
+      return height >= min && (max === 0 ? true : height <= max);
+    },
+
+    // 新增Swiper更新方法
+    updateSwiper() {
+      requestAnimationFrame(() => {
+        if (window.styleSwiper) {
+          window.styleSwiper.updateSlides();
+          window.styleSwiper.update();
+          window.styleSwiper.slideTo(0);
+        }
+      });
+    }
+  };
+
+
+// 初始化Swiper（带自动更新配置）
+const initSwiper = () => {
+    window.styleSwiper = new Swiper('.tab-content .swiper', {
+      slidesPerView: 5,
+      spaceBetween: 5,
+      loop: false,
+      observer: true,
+      observeParents: true,
+      watchOverflow: true, // 新增溢出观察
+      breakpoints: {
+        320: { slidesPerView: 2 },
+        768: { slidesPerView: 2 },
+        1280: { slidesPerView: 5 }
+      }
+    });
+  };
+
+  $(document)
+    .ready(() => {
+      heightFilter.init();
+      initSwiper();
+    })
+    .on('shopify:section:load', () => {
+      initSwiper();
+      heightFilter.init();
+    });
+
+  $(document).on('shopify:section:unload', () => {
+    if (window.styleSwiper) {
+      window.styleSwiper.destroy(true, true);
+      window.styleSwiper = null;
+    }
+  });
+})(jQuery);
+</script>
+
+

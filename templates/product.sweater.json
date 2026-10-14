@@ -1,0 +1,282 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-product",
+      "blocks": {
+        "title": {
+          "type": "title",
+          "settings": {}
+        },
+        "cc4df171-a23d-4628-bd35-cfa52ac306be": {
+          "type": "sku",
+          "settings": {}
+        },
+        "price": {
+          "type": "price",
+          "settings": {
+            "show_tax_and_shipping": false,
+            "enable_product_reviews_by_price": true
+          }
+        },
+        "loox-rating": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "divider": {
+          "type": "divider",
+          "settings": {
+            "show_in_quickbuy": false
+          }
+        },
+        "cd3403e6-54cc-4abd-ab22-5f590f42692f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20230420-173426.jpg",
+            "image_width": 700,
+            "url": "",
+            "open_in_new_tab": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "variant_picker_H89888": {
+          "type": "variant-picker",
+          "settings": {
+            "show_single": false,
+            "selector_style": "listed",
+            "enable_size_chart": false,
+            "size_chart_variant": "Size",
+            "size_chart_page": ""
+          }
+        },
+        "buy_buttons_fD79xz": {
+          "type": "buy-buttons",
+          "settings": {
+            "show_quantity_selector": true,
+            "enable_payment_button": true,
+            "show_backorder_text": true,
+            "show_pickup_availability": true,
+            "show_gift_card_recipient": false
+          }
+        },
+        "description": {
+          "type": "description",
+          "settings": {
+            "show_in_tab": false,
+            "open_tab": false,
+            "icon": "",
+            "show_in_quickbuy": false
+          }
+        },
+        "473c525d-79c9-4591-8647-7b98222e872d": {
+          "type": "accordion",
+          "settings": {
+            "title": "配送・送料に",
+            "icon": "",
+            "content": "",
+            "page": "配送-送料に",
+            "custom_liquid": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "a9c8818a-2b70-46f2-ac43-1d511d519567": {
+          "type": "accordion",
+          "settings": {
+            "title": "返品・交換について",
+            "icon": "",
+            "content": "<p>商品のお届けより必ず7日以内にご連絡願います。<br/>ご連絡の無い返品・交換はお受けできませんのでご了承ください。返品・交換をお受けした場合、お届け日より10日以内にご返送ください。（10日以上経過し、ご返送が無い場合はお受けできませんのでご了承くださいませ。）<br/>サイズが合わない、イメージと違う等はお客様都合の返品または交換となります。<a href=\"/pages/交換-返品について\" target=\"_blank\" title=\"返品・交換について\"><strong>詳細</strong></a><br/><br/></p>",
+            "page": "",
+            "custom_liquid": "",
+            "open": false,
+            "show_in_quickbuy": false
+          }
+        },
+        "de838a5c-6624-4742-803b-3221451014d0": {
+          "type": "sharing",
+          "settings": {
+            "show_twitter": true,
+            "show_facebook": true,
+            "show_pinterest": true
+          }
+        }
+      },
+      "block_order": [
+        "title",
+        "cc4df171-a23d-4628-bd35-cfa52ac306be",
+        "price",
+        "loox-rating",
+        "divider",
+        "cd3403e6-54cc-4abd-ab22-5f590f42692f",
+        "variant_picker_H89888",
+        "buy_buttons_fD79xz",
+        "description",
+        "473c525d-79c9-4591-8647-7b98222e872d",
+        "a9c8818a-2b70-46f2-ac43-1d511d519567",
+        "de838a5c-6624-4742-803b-3221451014d0"
+      ],
+      "settings": {
+        "show_breadcrumbs": true,
+        "select_first_variant": true,
+        "show_location_underneath": false,
+        "inventory_transfers_enable": false,
+        "enable_sticky_columns": false,
+        "enable_sticky_atc": false,
+        "sticky_atc_position": "end",
+        "sticky_atc_mobile": true,
+        "sticky_atc_behavior": "add_to_cart",
+        "sticky_atc_button_style": "secondary",
+        "gallery_size": "medium",
+        "gallery_layout": "carousel-under",
+        "enable_zoom": true,
+        "show_alt_text": false,
+        "alt_text_icon": "",
+        "enable_video_autoplay": false,
+        "enable_video_looping": false,
+        "enable_media_grouping": false,
+        "media_grouping_option": "Color,Colour,Couleur,Farbe"
+      }
+    },
+    "1635239608a98e4f95": {
+      "type": "apps",
+      "blocks": {
+        "b5531166-5d36-4709-8b13-8fc35594da7d": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-rating/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "disabled": true,
+          "settings": {
+            "contentSize": 16,
+            "pattern": "",
+            "hideText": false,
+            "alignment": "",
+            "layout": "",
+            "textColor": "",
+            "starColor": "",
+            "showAllReviews": false,
+            "looxOpenFloatingWidget": false,
+            "emptyRatingWidget": false
+          }
+        },
+        "a590a1cc-3b56-4f93-8f7d-e889212bc7a4": {
+          "type": "shopify://apps/loox-reviews/blocks/loox-dynamic-section/5c3b337f-fd14-4df5-b1d6-80ec13e6e28e",
+          "settings": {
+            "only_photos": false,
+            "aggregated": false,
+            "limit": 20,
+            "hide_thumbnails": false,
+            "maxwidth": 1080,
+            "is_sample": true
+          }
+        }
+      },
+      "block_order": [
+        "b5531166-5d36-4709-8b13-8fc35594da7d",
+        "a590a1cc-3b56-4f93-8f7d-e889212bc7a4"
+      ],
+      "settings": {
+        "full_width": false,
+        "show_space": true
+      }
+    },
+    "16352209356783fc5a": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "今週人気商品",
+        "collection": "人気商品",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": false,
+        "full_width": false
+      }
+    },
+    "16352209593f3e395e": {
+      "type": "image-with-text-overlay",
+      "disabled": true,
+      "settings": {
+        "height": "fixed",
+        "height_desktop": 480,
+        "height_mobile": 500,
+        "image_link": "",
+        "full_width": true,
+        "text_alignment": "center center",
+        "mobile_overlay_under": false,
+        "overlay_style": "full"
+      }
+    },
+    "loox-product-reviews-app-section": {
+      "type": "apps",
+      "settings": {
+        "full_width": false,
+        "show_space": true
+      }
+    },
+    "16354141519f0242ab": {
+      "type": "contact-form",
+      "blocks": {
+        "16354141519f0242ab-0": {
+          "type": "name_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "16354141519f0242ab-1": {
+          "type": "email_input",
+          "settings": {
+            "half_width": true
+          }
+        },
+        "16354141519f0242ab-2": {
+          "type": "message_input",
+          "settings": {
+            "half_width": false
+          }
+        }
+      },
+      "block_order": [
+        "16354141519f0242ab-0",
+        "16354141519f0242ab-1",
+        "16354141519f0242ab-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "contact_title": "Contact us",
+        "contact_text": "",
+        "color_scheme": "default"
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {}
+    }
+  },
+  "order": [
+    "main",
+    "related-products",
+    "1635239608a98e4f95",
+    "16352209356783fc5a",
+    "16352209593f3e395e",
+    "loox-product-reviews-app-section",
+    "16354141519f0242ab"
+  ]
+}

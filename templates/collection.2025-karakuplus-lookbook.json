@@ -1,0 +1,447 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "slideshow_anppW4": {
+      "type": "slideshow",
+      "blocks": {
+        "image_CNTQji": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/400__1920x780_c6199f6e-537c-43ec-a45a-16793ec98928.jpg",
+            "mobile_image": "shopify://shop_images/400__1080x1440_505f4dea-5241-42b7-8b2e-eb0832ac60a2.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": false,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_CNTQji"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 700,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "scrolling_banner_image_iwa9TV": {
+      "type": "scrolling-banner-image",
+      "blocks": {
+        "text_8qLtym": {
+          "type": "text",
+          "settings": {
+            "text": "KARAKU PLUS LOOK BOOK AUTUMN25.",
+            "color": "#e8d09d",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_8qLtym"
+      ],
+      "name": "Scrolling banner image",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 23,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "background_image_8H7GgG": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-08-30_18-14-09_72f2fefd-f697-4e5e-a6c9-5a3c3b26b0a6.jpg",
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#f5f5f5",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "scrolling_image_7U6DnD": {
+      "type": "scrolling-image",
+      "blocks": {
+        "image_JUXxNW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Snipaste_2025-09-19_11-03-01.png",
+            "image_width": 450,
+            "link": ""
+          }
+        },
+        "image_gReRmE": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Snipaste_2025-09-19_17-03-53.png",
+            "image_width": 450,
+            "link": ""
+          }
+        },
+        "image_A7ifcw": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Snipaste_2025-09-19_17-03-41.png",
+            "image_width": 450,
+            "link": ""
+          }
+        },
+        "image_WXNkYc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Snipaste_2025-09-19_17-09-27.png",
+            "image_width": 450,
+            "link": ""
+          }
+        },
+        "image_F9PBUC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Snipaste_2025-09-19_17-10-38.png",
+            "image_width": 450,
+            "link": ""
+          }
+        },
+        "image_WgX8xP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Snipaste_2025-09-19_17-12-50.png",
+            "image_width": 450,
+            "link": ""
+          }
+        },
+        "image_VCHLkt": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Snipaste_2025-09-19_17-14-12.png",
+            "image_width": 450,
+            "link": ""
+          }
+        },
+        "image_Uc7k6f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Snipaste_2025-09-19_17-15-16.png",
+            "image_width": 450,
+            "link": ""
+          }
+        },
+        "image_jw6aeB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Snipaste_2025-09-19_17-16-05.png",
+            "image_width": 450,
+            "link": ""
+          }
+        },
+        "image_BKgkah": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Snipaste_2025-09-19_17-19-33.png",
+            "image_width": 450,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_JUXxNW",
+        "image_gReRmE",
+        "image_A7ifcw",
+        "image_WXNkYc",
+        "image_F9PBUC",
+        "image_WgX8xP",
+        "image_VCHLkt",
+        "image_Uc7k6f",
+        "image_jw6aeB",
+        "image_BKgkah"
+      ],
+      "name": "Scrolling image",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 16,
+        "vertical_padding": 0,
+        "speed": 0.5,
+        "direction": "left",
+        "font": "heading",
+        "space": 40,
+        "color_bg": "",
+        "show_filter": false
+      }
+    },
+    "image_AbpN3G": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/20250919-175040.png",
+        "mobile_image": "shopify://shop_images/20250919-175032.png",
+        "img_rul": ""
+      }
+    },
+    "image_hUBifg": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-1_bdded51d-77b3-4ede-9e2d-a5824c952063.jpg",
+        "mobile_image": "shopify://shop_images/1080-1_f6bc0913-a13f-4530-a8d2-529f032fd52c.jpg",
+        "img_rul": "shopify://products/krk-lsx-lxnz0411"
+      }
+    },
+    "adjusting_spacing_6aKDbH": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": 4,
+        "margin_top2": 2
+      }
+    },
+    "image_bHpXgw": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-2_d6127a77-bf47-447c-af75-3e155f871add.jpg",
+        "mobile_image": "shopify://shop_images/1080-2_6c2e3421-26d5-47e7-8758-07fadd2d3d21.jpg",
+        "img_rul": "shopify://products/krk-lrj-xzjk0725"
+      }
+    },
+    "adjusting_spacing_xKFi3a": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": 4,
+        "margin_top2": 2
+      }
+    },
+    "image_j4KizY": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-3_a33276b3-46a8-4af0-9e50-2dd64ff12c2e.jpg",
+        "mobile_image": "shopify://shop_images/1080-3_aac90e22-4b0b-4b7f-b55a-950b335ee37d.jpg",
+        "img_rul": "shopify://products/krk-zyd-uilyoj"
+      }
+    },
+    "adjusting_spacing_xdQjrU": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": 4,
+        "margin_top2": 2
+      }
+    },
+    "image_TDhmMG": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-4.jpg",
+        "mobile_image": "shopify://shop_images/1080-4_9122b896-f97a-4381-8a03-072613d81223.jpg",
+        "img_rul": "shopify://products/krk-lrj-yopivu0729"
+      }
+    },
+    "adjusting_spacing_8QfaaB": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": 4,
+        "margin_top2": 2
+      }
+    },
+    "image_VNtmgN": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-5_74e3676e-5faa-4025-8ed4-7ac8d525f63c.jpg",
+        "mobile_image": "shopify://shop_images/1080-5_a882ea1f-ca62-49cb-a960-c23ccb1cd498.jpg",
+        "img_rul": "shopify://products/krk-zyd-stjk0808"
+      }
+    },
+    "adjusting_spacing_jdPigm": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": 4,
+        "margin_top2": 2
+      }
+    },
+    "image_xN67g9": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-6_cb23ed40-613a-46e6-8a91-efd7b757a0ae.jpg",
+        "mobile_image": "shopify://shop_images/1080-6_432019e7-077e-49a6-9084-a11db7ea7911.jpg",
+        "img_rul": "shopify://products/krk-lsx-yghthcx0529"
+      }
+    },
+    "adjusting_spacing_3tanWA": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": 4,
+        "margin_top2": 2
+      }
+    },
+    "image_epCjPJ": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-7_66d7f676-a69f-49ff-b6d7-db37834ce589.jpg",
+        "mobile_image": "shopify://shop_images/1080-7.jpg",
+        "img_rul": "shopify://products/krk-lsx-zpgngl"
+      }
+    },
+    "adjusting_spacing_XkJ9eR": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": 4,
+        "margin_top2": 2
+      }
+    },
+    "image_V8Qpnw": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-8_905e62fc-e217-4c71-beb1-ba70585d61c8.jpg",
+        "mobile_image": "shopify://shop_images/1080-8_de86f9d2-ff1d-431d-8cec-d42783bfbed7.jpg",
+        "img_rul": "shopify://products/krk-lrj-mtctsw0810"
+      }
+    },
+    "adjusting_spacing_eEhPBd": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": 4,
+        "margin_top2": 2
+      }
+    },
+    "image_jeK7pN": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-9_4590139f-261c-424e-b087-03a07748471f.jpg",
+        "mobile_image": "shopify://shop_images/1080-9_242d3da6-9bf5-44cd-a217-5f0ff5773d9d.jpg",
+        "img_rul": "shopify://products/krk-zyd-hszsc0503"
+      }
+    },
+    "adjusting_spacing_WRcEPH": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": 4,
+        "margin_top2": 2
+      }
+    },
+    "image_QrQiGP": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920-10_ba867446-2b2d-45ad-86f4-0205117053d8.jpg",
+        "mobile_image": "shopify://shop_images/1080-10_84357ba2-cd7a-4cc1-a850-aec933955d01.jpg",
+        "img_rul": "shopify://products/krk-lsx-xnepsjk0110"
+      }
+    }
+  },
+  "order": [
+    "slideshow_anppW4",
+    "scrolling_banner_image_iwa9TV",
+    "background_image_8H7GgG",
+    "main",
+    "scrolling_image_7U6DnD",
+    "image_AbpN3G",
+    "image_hUBifg",
+    "adjusting_spacing_6aKDbH",
+    "image_bHpXgw",
+    "adjusting_spacing_xKFi3a",
+    "image_j4KizY",
+    "adjusting_spacing_xdQjrU",
+    "image_TDhmMG",
+    "adjusting_spacing_8QfaaB",
+    "image_VNtmgN",
+    "adjusting_spacing_jdPigm",
+    "image_xN67g9",
+    "adjusting_spacing_3tanWA",
+    "image_epCjPJ",
+    "adjusting_spacing_XkJ9eR",
+    "image_V8Qpnw",
+    "adjusting_spacing_eEhPBd",
+    "image_jeK7pN",
+    "adjusting_spacing_WRcEPH",
+    "image_QrQiGP"
+  ]
+}

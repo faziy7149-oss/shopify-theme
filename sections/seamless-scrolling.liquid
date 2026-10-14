@@ -1,0 +1,702 @@
+<style>
+  .section-id-{{ section.id }} {
+    width: 100%;
+    overflow: hidden;
+    background-color: #000000;
+
+  }
+  .section-id-{{ section.id }} .seamless-img-item {
+    display: flex;
+    width: 30000px;
+  }
+  .section-id-{{ section.id }} .limelight-wrap {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    margin: auto;
+    max-width: 2000px;
+    height: 100%;
+    overflow: hidden;
+  }
+  .section-id-{{ section.id }} .seamless-scrolling-img-wrap {
+    width: 100%;
+    max-width: 2000px;
+    margin:0 auto;
+    overflow: hidden;
+  }
+  .section-id-{{ section.id }} .seamless-scrolling-wrap::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, .25);
+    z-index: 2;
+  }
+  .section-id-{{ section.id }} .limelight-wrap .limelight-item1 > img {
+    width: 380px;
+    height: 380px;
+  }
+  .section-id-{{ section.id }} .limelight-wrap .limelight-item2 > img {
+    width: 680px;
+    height: 680px;
+  }
+  .section-id-{{ section.id }} .limelight-wrap .limelight-item3 > img {
+    width: 380px;
+    height: 380px;
+  }
+  .section-id-{{ section.id }} .limelight-wrap .limelight-item4 > img {
+    width: 850px;
+    height: 850px;
+  }
+  .section-id-{{ section.id }} .limelight-wrap .limelight-item1 {
+    position: absolute;
+    top: -160px;
+    left: -2380px;
+    right: 0;
+    margin: auto;
+    opacity: 0.05;
+    z-index: 15;
+    mix-blend-mode: overlay;
+    -webkit-animation: main_light_1 28s cubic-bezier(.645,.045,.355,1) infinite;
+    animation: main_light_1 28s cubic-bezier(.645,.045,.355,1) infinite;
+  }
+  .section-id-{{ section.id }} .limelight-wrap .limelight-item2 {
+    position: absolute;
+    top: 0;
+    right: -2380px;
+    left: 0;
+    bottom: 0;
+    margin: auto;
+    /* mix-blend-mode: overlay; */
+    z-index: 15;
+    opacity: .09;
+    -webkit-animation: main_light_2 22s cubic-bezier(.645,.045,.355,1) .6s infinite;
+    animation: main_light_2 22s cubic-bezier(.645,.045,.355,1) .6s infinite;
+  }
+  .section-id-{{ section.id }} .limelight-wrap .limelight-item3 {
+    position: absolute;
+    bottom: -160px;
+    left: 0;
+    right: -2380px;
+    margin: auto;
+    opacity: 0.03;
+    z-index: 2;
+    mix-blend-mode: overlay;
+    -webkit-animation: main_light_3 28s cubic-bezier(.645,.045,.355,1) infinite;
+    animation: main_light_3 28s cubic-bezier(.645,.045,.355,1) infinite;
+  }
+  .section-id-{{ section.id }} .limelight-wrap .limelight-item4 {
+    position: absolute;
+    top: 0;
+    right: 0;
+    left: -2380px;
+    bottom: -1720px;
+    margin: auto;
+    opacity: .07;
+    mix-blend-mode: overlay;
+    z-index: 2;
+    -webkit-animation: main_light_4 18s cubic-bezier(.645,.045,.355,1) 1485ms infinite;
+    animation: main_light_4 18s cubic-bezier(.645,.045,.355,1) 1485ms infinite;
+  }
+  
+  .section-id-{{ section.id }} .seamless-scrolling-wrap {
+    position: relative;
+    width: 100%;
+    margin: 0 auto;
+    mask-image: linear-gradient(90deg, transparent, #fff 5%, #fff 95%, transparent);
+    -webkit-mask-image: linear-gradient(90deg, transparent, #fff 5%, #fff 95%, transparent);
+  }
+  .section-id-{{ section.id }} .seamless-img-item .seamless-img-left {
+    animation: PictureMoving var(--t) linear infinite;
+  }
+  .section-id-{{ section.id }} .seamless-img-item .seamless-img-left:nth-child(2) {
+    animation: PictureMoving2 var(--t) linear infinite;
+    animation-delay: calc(var(--t) / -2);
+  }
+  .section-id-{{ section.id }} .seamless-img-item .seamless-img-right {
+    animation: PictureMovingRight var(--t) linear infinite;
+  }
+  .section-id-{{ section.id }} .seamless-img-item .seamless-img-right:nth-child(2) {
+    animation: PictureMovingRight2 var(--t) linear infinite;
+    animation-delay: calc(var(--t) / -2);
+  }
+
+  
+  {% for block in section.blocks %}
+    .section-id-{{ section.id }} .seamless-scrolling-wrap .seamless-advertising-tags {
+      width: 120px;
+      position: absolute;
+      top: {{ block.settings.top_location }}%;
+      left: {{ block.settings.left_location }}%;
+    }
+    .section-id-{{ section.id }} .seamless-scrolling-wrap .seamlessImageShake-rotation {
+      animation: top_main_gender 4s linear infinite;
+    }
+    
+    @media (max-width: 767px) {
+      .section-id-{{ section.id }} .seamless-scrolling-wrap .seamless-advertising-tags {
+        width: 95px;
+        position: absolute;
+        top: {{ block.settings.top_location2 }}%;
+        left: {{ block.settings.left_location2 }}%;
+      }
+    }
+  {% endfor %}
+
+  @media (min-width: 768px) {
+    .section-id-{{ section.id }} .seamless-scrolling-img-wrap .seamless-center-m {
+      display: none;
+    }
+    .section-id-{{ section.id }} .seamless-scrolling-wrap .seamless-center-img {
+      width: 1920px;
+      height: 780px;
+      position: absolute;
+      bottom: 0;
+    }
+    @keyframes main_light_1 {
+      0% {
+      transform: translate(0);
+      }
+      25% {
+          transform: translate(2000px, 380px);
+      }
+
+      50% {
+          transform: translate(0);
+      }
+      75% {
+          transform: translate(2000px, 380px);
+      }
+      100% {
+          transform: translate(0);
+      }
+    }
+    @keyframes main_light_2 {
+      0% {
+          transform: translate(0);
+      }
+      25% {
+          transform: translate(-2380px,100px);
+      }
+
+      50% {
+          transform: translate(0);
+      }
+      75% {
+          transform: translate(-2380px,200px);
+      }
+      100% {
+          transform: translate(0);
+      }
+    }
+    @keyframes main_light_3 {
+      0% {
+          transform: translate(0);
+      }
+      25% {
+          transform: translate(-2000px, -380px);
+      }
+      50% {
+          transform: translate(0);
+      }
+
+      75% {
+          transform: translate(-2000px, -380px);
+      }
+      100% {
+          transform: translate(0);
+      }
+    }
+    @keyframes main_light_4 {
+      0% {
+          transform: translate(0);
+      }
+      30% {
+          transform: translate(2380px, -1700px);
+      }
+      50% {
+          transform: translate(0);
+      }
+
+      70% {
+          transform: translate(2380px, -1700px);
+      }
+      100% {
+          transform: translate(0);
+      }
+    }
+  }
+  @media (max-width: 767px) {
+    .section-id-{{ section.id }} .seamless-img-item {
+      width: 650%;
+    }
+    .section-id-{{ section.id }} .seamless-scrolling-wrap {
+      mask-image: linear-gradient(90deg, transparent, #fff 1%, #fff 99%, transparent);
+      -webkit-mask-image: linear-gradient(90deg, transparent, #fff 1%, #fff 99%, transparent);
+    }
+    .section-id-{{ section.id }} .seamless-scrolling-img-wrap .seamless-center-pc {
+      display: none;
+    }
+    .section-id-{{ section.id }} .seamless-scrolling-wrap .seamless-center-img {
+      width: 100%;
+      position: absolute;
+      bottom: 0;
+    }
+    .section-id-{{ section.id }} .seamless-scrolling-img-wrap .seamless-center-m {
+      
+    }
+
+    .section-id-{{ section.id }} .limelight-wrap .limelight-item1 {
+      top: -173.3333333333vw;
+      left: -173.3333333333vw;
+      z-index: 2;
+    }
+    .section-id-{{ section.id }} .limelight-wrap .limelight-item2 {
+      top: -19.6666666667vw;
+      right: -160vw;
+      z-index: 2;
+      opacity: 0.05;
+    }
+    .section-id-{{ section.id }} .limelight-wrap .limelight-item3 {
+      bottom: -173.3333333333vw;
+      right: -173.3333333333vw;
+      z-index: 2;
+    }
+    .section-id-{{ section.id }} .limelight-wrap .limelight-item4 {
+      top: 0;
+      left: -166.6666666667vw;
+      right: 0;
+      bottom: -66.6666666667vw;
+      margin: auto;
+      z-index: 2;
+      opacity: .11;
+    }
+    .section-id-{{ section.id }} .limelight-wrap .limelight-item1 > img {
+      width: 86.6666666667vw;
+      height: 86.6666666667vw;
+    }
+    .section-id-{{ section.id }} .limelight-wrap .limelight-item2 > img {
+      width: 73.3333333333vw;
+      height: 73.3333333333vw;
+    }
+    .section-id-{{ section.id }} .limelight-wrap .limelight-item3 > img {
+      width: 86.6666666667vw;
+      height: 86.6666666667vw;
+    }
+    .section-id-{{ section.id }} .limelight-wrap .limelight-item4 > img {
+      width: 85.3333333333vw;
+      height: 85.3333333333vw;
+    }
+    @keyframes main_light_1 {
+      0% {
+          transform: translate(0);
+      }
+      25% {
+          transform: translate(240vw, 360vw);
+      }
+      26% {
+          transform: translateY(360vw);
+      }
+
+      50% {
+          transform: translate(240vw);
+      }
+      51% {
+          transform: translate(0);
+      }
+      75% {
+          transform: translate(240vw, 360vw);
+      }
+      76% {
+          transform: translateY(360vw);
+      }
+      99% {
+          transform: translate(240vw);
+      }
+      100% {
+          transform: translate(0);
+      }
+    }
+    @keyframes main_light_2 {
+      0% {
+          transform: translate(0);
+      }
+      25% {
+          transform: translate(-220vw);
+      }
+
+      50% {
+          transform: translate(0);
+      }
+      75% {
+          transform: translate(-220vw);
+      }
+      100% {
+          transform: translate(0);
+      }
+    }
+    @keyframes main_light_3 {
+      0% {
+          transform: translate(0);
+      }
+      25% {
+          transform: translate(-213.3333333333vw, -360vw);
+      }
+
+      26% {
+          transform: translateY(-360vw);
+      }
+      50% {
+          transform: translate(-213.3333333333vw);
+      }
+      51% {
+          transform: translate(0);
+      }
+      75% {
+          transform: translate(-213.3333333333vw, -360vw);
+      }
+      76% {
+          transform: translateY(-360vw);
+      }
+      99% {
+          transform: translate(-213.3333333333vw);
+      }
+      100% {
+          transform: translate(0);
+      }
+    }
+    @keyframes main_light_4 {
+      0% {
+          transform: translate(0);
+      }
+      25% {
+          transform: translate(233.3333333333vw);
+      }
+      50% {
+          transform: translate(0);
+      }
+
+      75% {
+          transform: translate(233.3333333333vw);
+      }
+      100% {
+          transform: translate(0);
+      }
+    }
+  }
+
+  @keyframes PictureMoving {
+    from {
+      transform: translate(100%);
+    }
+    to {
+      transform: translate(-100%);
+    }
+  }
+  @keyframes PictureMoving2 {
+    from {
+      transform: translate(0);
+    }
+    to {
+      transform: translate(-200%);
+    }
+  }
+  @keyframes PictureMovingRight {
+    from {
+      transform: translate(-100%);
+    }
+    to {
+      transform: translate(100%);
+    }
+  }
+  @keyframes PictureMovingRight2 {
+    from {
+      transform: translate(-200%);
+    }
+    to {
+      transform: translate(0);
+    }
+  }
+  @keyframes top_main_gender {
+    0% {
+      transform: rotate(0);
+    }
+    100% {
+      transform: rotate(1turn);
+    }
+  }
+
+  
+</style>
+<div class="section-id-{{ section.id }}">
+  <div class="container cf full-page-width container--no-max" style="padding: 0;">
+    {% comment %} 无缝滚动效果 {% endcomment %}
+     <div class="seamless-scrolling-wrap">
+      {% comment %} 光斑照耀效果 {% endcomment %} 
+       {% if section.settings.light_img %}   
+        <div class="limelight-wrap">
+          <div class="limelight-item1"> 
+            {%- render 'image' with section.settings.light_img,
+            sizes: '2800px',
+            class: 'swiper-lazy',
+            loading: 'lazy'
+          -%}
+          </div>
+          <div class="limelight-item2">
+            {%- render 'image' with section.settings.light_img,
+            sizes: '2800px',
+            class: 'swiper-lazy',
+            loading: 'lazy'
+          -%}
+          </div>
+          <div class="limelight-item3">
+            {%- render 'image' with section.settings.light_img,
+            sizes: '2800px',
+            class: 'swiper-lazy',
+            loading: 'lazy'
+          -%}
+          </div>
+          <div class="limelight-item4">
+            {%- render 'image' with section.settings.light_img,
+            sizes: '2800px',
+            class: 'swiper-lazy',
+            loading: 'lazy'
+          -%}
+          </div>
+        </div>
+       {% endif %}
+      {% comment %} 图片区域 {% endcomment %}
+       <div class="seamless-scrolling-img-wrap">
+        {% for block in section.blocks %}
+          {% case block.type %}
+            {% when 'imageLeft' %}
+              {% comment %} 向左移动图片 {% endcomment %}
+              <div class="seamless-img-item" style="--t: 30s">
+                <div class="image-block seamless-img-left">
+                  {%- render 'image' with block.settings.seamless_scrolling_image,
+                  sizes: '2800px',
+                  class: 'swiper-lazy',
+                  loading: 'lazy'
+                -%}
+                </div>
+                <div class="image-block seamless-img-left">
+                  {%- render 'image' with block.settings.seamless_scrolling_image2,
+                  sizes: '2800px',
+                  class: 'swiper-lazy',
+                  loading: 'lazy'
+                -%}
+                </div>
+    
+              </div>
+            {% when 'imageRight' %}
+              {% comment %} 向右移动图片 {% endcomment %}
+              <div class="seamless-img-item" style="--t: 30s">
+                <div class="image-block  seamless-img-right">
+                  {%- render 'image' with block.settings.seamless_scrolling_image_right,
+                  sizes: '2800px',
+                  class: 'swiper-lazy',
+                  loading: 'lazy'
+                -%}
+                </div>
+                <div class="image-block  seamless-img-right">
+                  {%- render 'image' with block.settings.seamless_scrolling_image_right2,
+                  sizes: '2800px',
+                  class: 'swiper-lazy',
+                  loading: 'lazy'
+                -%}
+                </div>
+
+              </div>
+
+            {% when 'centerImage' %}
+              {% comment %} 中心图片 {% endcomment %}
+              <div class="seamless-center-img">
+                {% comment %} pc端 {% endcomment %}
+                <div class="seamless-center-pc">
+                  {%- render 'image' with block.settings.seamless_scrolling_image_center,
+                  sizes: '2800px',
+                  class: 'swiper-lazy',
+                  loading: 'lazy'
+                -%}
+                </div>
+                <div class="seamless-center-m">
+                  {%- render 'image' with block.settings.seamless_scrolling_image_center2,
+                  sizes: '2800px',
+                  class: 'swiper-lazy',
+                  loading: 'lazy'
+                -%}
+                </div>
+
+              </div>
+            {% when 'AdvertisingTags' %}
+              {% comment %} 小标签  {% endcomment %}
+               <div class="seamless-advertising-tags {% if block.settings.img_animation != 'none' %} seamlessImageShake-{{ block.settings.img_animation }}{% endif %}">
+                <div class="seamless-advertising-tags-item">
+                  {%- render 'image' with block.settings.seamless_scrolling_tag,
+                  sizes: '2800px',
+                  class: 'swiper-lazy',
+                  loading: 'lazy'
+                -%}
+                </div>
+               </div>
+          {% endcase %}
+
+
+        {% endfor %}
+       </div>
+     </div>
+  </div>
+</div>
+
+
+{% schema %}
+{
+  "name": "Seamless scrolling",
+  "settings": [
+      {
+        "type": "image_picker",
+        "id": "light_img",
+        "label": "光斑图"
+      }
+    ],
+  "blocks": [
+    {
+      "type": "imageLeft",
+      "name": "Scroll image left",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "seamless_scrolling_image",
+          "label": "广告图片"
+        },
+        {
+          "type": "image_picker",
+          "id": "seamless_scrolling_image2",
+          "label": "广告图片"
+        }
+      ]
+    },
+    {
+      "type": "imageRight",
+      "name": "Scroll image right",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "seamless_scrolling_image_right",
+          "label": "广告图片"
+        },
+        {
+          "type": "image_picker",
+          "id": "seamless_scrolling_image_right2",
+          "label": "广告图片"
+        }
+      ]
+    },
+    {
+      "type": "centerImage",
+      "name": "Center Image",
+      "limit": 1,
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "seamless_scrolling_image_center",
+          "label": "中心广告图(PC端)"
+        },
+        {
+          "type": "image_picker",
+          "id": "seamless_scrolling_image_center2",
+          "label": "中心广告图(移动端)"
+        }
+      ]
+    },
+    {
+      "type": "AdvertisingTags",
+      "limit": 1,
+      "name": "Advertising Tags",
+      "settings": [
+        {
+        "type": "image_picker",
+        "id": "seamless_scrolling_tag",
+        "label": "小标签"
+        },
+        {
+            "type": "range",
+            "id": "top_location",
+            "min": 1,
+            "max": 60,
+            "step": 1,
+            "unit": "%",
+            "label": "pc端上间距",
+            "default": 9
+          },
+          {
+            "type": "range",
+            "id": "left_location",
+            "min": 1,
+            "max": 80,
+            "step": 1,
+            "unit": "%",
+            "label": "pc端左间距",
+            "default": 11
+          },
+          {
+            "type": "range",
+            "id": "top_location2",
+            "min": 1,
+            "max": 60,
+            "step": 1,
+            "unit": "%",
+            "label": "移动端上间距",
+            "default": 9
+          },
+          {
+            "type": "range",
+            "id": "left_location2",
+            "min": 1,
+            "max": 80,
+            "step": 1,
+            "unit": "%",
+            "label": "移动端左间距",
+            "default": 11
+          },
+          {
+        "type": "select",
+        "id": "img_animation",
+        "label": "动画效果",
+        "default": "none",
+        "options": [
+          {
+            "value": "none",
+            "label": "无"
+          },
+          {
+            "value": "rotation",
+            "label": "旋转"
+          }
+        ]
+      }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Seamless Scrolling",
+      "settings": {},
+      "blocks": [
+        {
+          "type": "imageLeft"
+        },
+        {
+          "type": "imageRight"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

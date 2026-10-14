@@ -1,0 +1,314 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "photo_banner_RpRYKV": {
+      "type": "photo-banner",
+      "disabled": true,
+      "name": "Photo Banner",
+      "settings": {
+        "image": "shopify://shop_images/1500_523a3ac4-d1ec-4f5b-b0be-d1bed6744227.png",
+        "mobile_image": "shopify://shop_images/800_910a4226-1638-4825-b192-d102d644fc6c.png",
+        "banner_link": "https://karakubuy.com/collections/summer-sale-2025",
+        "photo_banner_col": "#f85400"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "slideshow_QjiTMJ": {
+      "type": "slideshow",
+      "blocks": {
+        "image_wGkUmC": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/150__1920.jpg",
+            "mobile_image": "shopify://shop_images/150.png",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_wGkUmC"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_qmMU4t": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_453b0d70-b143-4793-84b4-507db99324c2.png",
+        "mobile_image": "shopify://shop_images/720_38a3e39c-8703-49e8-b9fc-42b330ee6dcb.png",
+        "img_rul": ""
+      }
+    },
+    "image_list_yzHHdN": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_WGCRG9": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/400x200-1_ae787ea7-09d2-4b2e-b7a3-8978bf55d04a.png",
+            "image_list_link": "#data-01"
+          }
+        },
+        "imagelist_WKeqaJ": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/400x200-2_3fcc237b-67e5-49b3-a6d8-5595b7235f66.png",
+            "image_list_link": "#data-02"
+          }
+        },
+        "imagelist_HTJRQX": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/400x200-3_71b73ed0-ab2e-4b52-a099-691401670540.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_WGCRG9",
+        "imagelist_WKeqaJ",
+        "imagelist_HTJRQX"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "shake"
+      }
+    },
+    "image_and_text_links_bKcYig": {
+      "type": "image-and-text-links",
+      "name": "Image and Text Links",
+      "settings": {
+        "image": "shopify://shop_images/new_a14bfb28-6abd-4994-9ebc-99421f1d13c5.png",
+        "coll_grid_image_shape": "shortest",
+        "image_position": "column-reverse",
+        "styling_all_text": "STYLING ALL",
+        "styling_all_link": "https://karakubuy.com/collections/outfit-01",
+        "max_width_screen": 1060,
+        "title_color": "#333",
+        "discounted_price": "#c20000",
+        "original_price": "#333"
+      }
+    },
+    "scrolling_banner_zppRFe": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_tg3KeH": {
+          "type": "text",
+          "settings": {
+            "text": "Outfits for Hanami Moments",
+            "color": "#e48b93",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_tg3KeH"
+      ],
+      "name": "Scrolling banner",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 35,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "image_and_text_links_zmAQYE": {
+      "type": "image-and-text-links",
+      "name": "Image and Text Links",
+      "settings": {
+        "image": "shopify://shop_images/1400x1200-2.png",
+        "coll_grid_image_shape": "shortest",
+        "image_position": "column-reverse",
+        "styling_all_text": "STYLING ALL",
+        "styling_all_link": "https://karakubuy.com/collections/outfit-02",
+        "max_width_screen": 1060,
+        "title_color": "#333",
+        "discounted_price": "#c20000",
+        "original_price": "#333"
+      }
+    },
+    "scrolling_banner_QiARtN": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_gDdywQ": {
+          "type": "text",
+          "settings": {
+            "text": "Outfits for Hanami Moments",
+            "color": "#e48b93",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_gDdywQ"
+      ],
+      "name": "Scrolling banner",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 35,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "image_and_text_links_wVqKxj": {
+      "type": "image-and-text-links",
+      "name": "Image and Text Links",
+      "settings": {
+        "image": "shopify://shop_images/1400x1200-3.png",
+        "coll_grid_image_shape": "shortest",
+        "image_position": "column-reverse",
+        "styling_all_text": "STYLING ALL",
+        "styling_all_link": "https://karakubuy.com/collections/outfit-03",
+        "max_width_screen": 1060,
+        "title_color": "#333",
+        "discounted_price": "#c20000",
+        "original_price": "#333"
+      }
+    },
+    "background_image_DeatxW": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-07-30_10-40-42_1ac68c34-4f57-4056-89fc-70cea581b0bd.jpg",
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#f5f5f5",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "scrolling_banner_QgRxFg": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "text_HRnbC9": {
+          "type": "text",
+          "settings": {
+            "text": "Outfits for Hanami Moments",
+            "color": "#e48b93",
+            "link": "",
+            "use_h1": false,
+            "stencil_all_text": false,
+            "stencil_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "text_HRnbC9"
+      ],
+      "name": "Scrolling banner",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 35,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    }
+  },
+  "order": [
+    "photo_banner_RpRYKV",
+    "main",
+    "slideshow_QjiTMJ",
+    "image_qmMU4t",
+    "image_list_yzHHdN",
+    "image_and_text_links_bKcYig",
+    "scrolling_banner_zppRFe",
+    "image_and_text_links_zmAQYE",
+    "scrolling_banner_QiARtN",
+    "image_and_text_links_wVqKxj",
+    "background_image_DeatxW",
+    "scrolling_banner_QgRxFg"
+  ]
+}

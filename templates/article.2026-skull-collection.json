@@ -1,0 +1,909 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "main": {
+      "type": "main-article",
+      "disabled": true,
+      "settings": {
+        "show_date": true,
+        "show_author": true,
+        "show_article_tags": true,
+        "show_sharing_icons": true,
+        "show_twitter": true,
+        "show_facebook": true,
+        "show_pinterest": true,
+        "show_featured_image": false,
+        "full_width_image": true,
+        "featured_image_height": "huge",
+        "enable_title_overlay": false,
+        "overlay_style": "shadow"
+      }
+    },
+    "slideshow_cqrhkp": {
+      "type": "slideshow",
+      "blocks": {
+        "image_b4BABL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/389__1920.jpg",
+            "mobile_image": "shopify://shop_images/389__1080_014b75cd-4a02-4606-ba7c-cf4389eab540.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_b4BABL"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "scrolling_banner_cggkcF": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "image_n7UicT": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20260710-161738.png",
+            "image_width": 360,
+            "link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_n7UicT"
+      ],
+      "name": "Scrolling banner",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 35,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "image_EcAznQ": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_d87eed27-d2af-4334-9156-bf83dbf48e98.png",
+        "mobile_image": "shopify://shop_images/720_83690bc2-81b2-40cc-bbb8-20640b9cbc04.png",
+        "img_rul": ""
+      }
+    },
+    "background_image_pcA6aF": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#e0d7ce",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "image_list_ghGwdF": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_egWRp9": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/1_223fa246-c8a5-479a-b6c5-ad667ed00bb5.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_egWRp9"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "none"
+      }
+    },
+    "image_slider_RNMHWE": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_MVjW3p": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-1_04f9b475-fd6f-41d9-bf42-0b57c978c518.jpg"
+          }
+        },
+        "image_slider_Fhqaif": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-2_08205a02-802b-4a3c-94b7-6d239c57d636.jpg"
+          }
+        },
+        "image_slider_VjzWMi": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-3_45b47c06-e99a-4fde-8914-a4d6fbbbcbed.jpg"
+          }
+        },
+        "image_slider_xEJk8P": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-4_737112fc-c2de-4c34-b45c-48ed4eb3caa6.jpg"
+          }
+        },
+        "main_diagram_PNU4CB": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-1_13d411e2-370c-4ad2-a00a-dde4770451fc.jpg",
+            "main_img2": "shopify://shop_images/600x720-2_fa2f5627-0ffc-4d78-972f-df39a9816882.jpg"
+          }
+        },
+        "image_info_yjFBgK": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "鬼才・河鍋暁斎の骸骨画から着想を得た、KARAKUならではのユーモアとリゾートムードを融合させたアロハシャツ。グレーからブラックへと移り変わる骸骨モチーフを背景に、胸元にはアロハスタイルに身を包んだ骸骨たちをデザイン。ギターを奏で、サーフィンを楽しみ、陽気に踊る――まるで夏休みを満喫しているかのような賑やかなシーンを描き出しています。",
+            "price_discount": 12590,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-zyd-sh260629"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_MVjW3p",
+        "image_slider_Fhqaif",
+        "image_slider_VjzWMi",
+        "image_slider_xEJk8P",
+        "main_diagram_PNU4CB",
+        "image_info_yjFBgK"
+      ],
+      "name": "1",
+      "settings": {
+        "data_title": "レッドアゲート調ボタン付き　「骸骨たちのサマーホリデー」総柄アロハシャツ",
+        "data_tit_col": "#353535",
+        "info_text_col": "#6d7175",
+        "price_col": "#D31632",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#F7F1E7",
+        "but_col": "#D31632",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_93Y8YN": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_AqcJER": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-5_69619177-93c2-46e8-926c-9c1882eaca5e.jpg"
+          }
+        },
+        "image_slider_kiCVwV": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-6_7ea2ad4a-62a1-40e9-9a4b-746697312f39.jpg"
+          }
+        },
+        "image_slider_bkNwVK": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-7_3270f0ec-9b01-40db-9d4f-02671b36d201.jpg"
+          }
+        },
+        "image_slider_ahDiKU": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-8_99b03d38-6e9c-46bc-9cbb-a405e737a967.jpg"
+          }
+        },
+        "main_diagram_kMpj9j": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-3_5c2df79b-af5d-401a-a6d4-57d55a80236f.jpg",
+            "main_img2": "shopify://shop_images/600x720-4_0edd90da-60ba-4e1d-b4b3-c86d0b40c178.jpg"
+          }
+        },
+        "image_info_gm4RBr": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "鬼才・河鍋暁斎の骸骨画から着想を得て、KARAKUならではの遊び心で再構築したグラフィックTシャツ。プリントには、ラウハラ衣装をまとい、サーフィンや演奏、ダンスなど思い思いに夏を満喫する骸骨たちをデザイン。どこかユーモラスで陽気な表情が、怪奇さの中にも軽快なリゾートムードを演出します。",
+            "price_discount": 7990,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-zyd-ht260673"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_AqcJER",
+        "image_slider_kiCVwV",
+        "image_slider_bkNwVK",
+        "image_slider_ahDiKU",
+        "main_diagram_kMpj9j",
+        "image_info_gm4RBr"
+      ],
+      "name": "2",
+      "settings": {
+        "data_title": "「骸骨たちのサマーホリデー」プリント入りコットンTEE",
+        "data_tit_col": "#353535",
+        "info_text_col": "#6d7175",
+        "price_col": "#D31632",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#F7F1E7",
+        "but_col": "#D31632",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_KpWjtX": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_bNn94W": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-9_1cb44eb3-2198-44ac-9365-9f83655de950.jpg"
+          }
+        },
+        "image_slider_ghwAgR": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-10_665d1b40-651f-4f09-afb0-8996181b7adc.jpg"
+          }
+        },
+        "image_slider_FrQGKa": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-11_a89a932e-bb09-4db8-b8d3-1d9200418432.jpg"
+          }
+        },
+        "image_slider_rmpj3W": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-12_9d6a099a-6dfc-414a-a964-dc034c406273.jpg"
+          }
+        },
+        "main_diagram_Fq6HrM": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-5_1f96f25e-70dd-42e7-8f8b-1453faedacf9.jpg",
+            "main_img2": "shopify://shop_images/600x720-6_a8e9bdbf-1182-4322-8f70-cccf3d131061.jpg"
+          }
+        },
+        "image_info_nznNya": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "バックから見た一つ骸骨を画面いっぱいに大きく描く。その後ろには、相撲を取る骸骨たち。尺八、箏、三味線、胡弓をする骸骨たちや、踊ったり、お酒を飲んだり、楽器を奏でたり、宴会をする骸骨たちなど、正確に骨格を描写している一方、その動きは躍動感があってどことなくユーモラス。表情も豊かに感じられ、にぎやかな笑い声が聞こえてきそうである。",
+            "price_discount": 7554,
+            "original_price": 12590,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-zyd-jbsgsgmy322"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_bNn94W",
+        "image_slider_ghwAgR",
+        "image_slider_FrQGKa",
+        "image_slider_rmpj3W",
+        "main_diagram_Fq6HrM",
+        "image_info_nznNya"
+      ],
+      "name": "3",
+      "settings": {
+        "data_title": "河鍋暁斎「生を謳歌している骸骨」浮世絵風アロハシャツ",
+        "data_tit_col": "#353535",
+        "info_text_col": "#6d7175",
+        "price_col": "#D31632",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#F7F1E7",
+        "but_col": "#D31632",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_iDYAq8": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_yApDAt": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-13_0d3a4c05-3948-4ac6-95fd-8d50502b6cf3.jpg"
+          }
+        },
+        "image_slider_K4aHNQ": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-14_6fe579d0-de9f-4343-8a74-ea5dd9352a1c.jpg"
+          }
+        },
+        "image_slider_GnYkpr": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-15_9316459b-9915-4617-8c57-e4f541354895.jpg"
+          }
+        },
+        "image_slider_9gM7W9": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-16_f9224680-3939-4c85-8ec1-cc574bbd2e90.jpg"
+          }
+        },
+        "main_diagram_LdPMQY": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-7_0fc1ed96-8347-435b-b20e-8f5ab644a57a.jpg",
+            "main_img2": "shopify://shop_images/600x720-8_c79b449d-ebfa-4c38-982a-2bfab179fd6a.jpg"
+          }
+        },
+        "image_info_na9N6h": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "炎の中で踊る骸骨たちを大胆に描いた、インパクト抜群のアートコットンTシャツ。裾部分には、燃え上がる炎の中でさまざまな姿勢を見せるスカルたちを配置し、燃焼しながら光を放つような幻想的なビジュアルを表現しました",
+            "price_discount": 8990,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-lsx-ht260534"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_yApDAt",
+        "image_slider_K4aHNQ",
+        "image_slider_GnYkpr",
+        "image_slider_9gM7W9",
+        "main_diagram_LdPMQY",
+        "image_info_na9N6h"
+      ],
+      "name": "4",
+      "settings": {
+        "data_title": "赤ヒモ付き　「炎骸舞図」プリント＆刺繍入りコットンTシャツ",
+        "data_tit_col": "#353535",
+        "info_text_col": "#6d7175",
+        "price_col": "#D31632",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#F7F1E7",
+        "but_col": "#D31632",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_Qfjdny": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_cmjxcr": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-17_7c6d8a31-2663-4122-80ab-5798af36c939.jpg"
+          }
+        },
+        "image_slider_fpayNp": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-18_c556678b-95fd-4fd2-ad36-cc15c0e25215.jpg"
+          }
+        },
+        "image_slider_pCHW8x": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-19_f5670d30-d941-4773-b70b-d3db08353cea.jpg"
+          }
+        },
+        "image_slider_DgbpLA": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-20_87d741c2-ee1f-40b6-a1f8-e16920aa929b.jpg"
+          }
+        },
+        "main_diagram_BHCpzn": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-9_bc507513-1fd3-418b-8ab3-574d06215537.jpg",
+            "main_img2": "shopify://shop_images/600x720-10_1cca1aea-bbca-4f02-99df-c39e3f9c8831.jpg"
+          }
+        },
+        "image_info_bBLjj8": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "左胸のポケットに、あえて骸骨の絵柄を部分的に使用しています。右裾部分に、妖艶で物憂げな表情を浮かべる地獄太夫が美しく配置されています。彼女が身に纏う地獄極楽が描かれた絢爛豪華な着物の赤が、黒地のシャツに対して強烈なアクセントとして機能しています。太夫の頭上や右袖には、三味線を弾いたり踊ったりする暁斎ならではのユーモラスな骸骨たちがダイナミックに描かれています。",
+            "price_discount": 10980,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-zyd-sh260613"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_cmjxcr",
+        "image_slider_fpayNp",
+        "image_slider_pCHW8x",
+        "image_slider_DgbpLA",
+        "main_diagram_BHCpzn",
+        "image_info_bBLjj8"
+      ],
+      "name": "5",
+      "settings": {
+        "data_title": "河鍋暁斎「地獄太夫図」浮世絵プリントアロハシャツ",
+        "data_tit_col": "#353535",
+        "info_text_col": "#6d7175",
+        "price_col": "#D31632",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#F7F1E7",
+        "but_col": "#D31632",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_CqXxMy": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_MPBGp8": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-21_d6a52e5b-e47b-478d-b059-e6cfad1b9dd7.jpg"
+          }
+        },
+        "image_slider_iT4FN6": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-22_745bf12e-e8f1-4a66-a999-63be44c3f8db.jpg"
+          }
+        },
+        "image_slider_FMGpPH": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-23_968f0d99-3a3e-4d0d-b719-bf9c529c3449.jpg"
+          }
+        },
+        "image_slider_7UQNTm": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-24_95f84b70-f232-497e-9eda-65391b0c2a2a.jpg"
+          }
+        },
+        "main_diagram_hmUFTC": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-11_e12d1f16-6d06-4ed5-80d7-f2dde70f693d.jpg",
+            "main_img2": "shopify://shop_images/600x720-12_08df1ade-74d9-4dc0-a75d-f8a18b4c60d5.jpg"
+          }
+        },
+        "image_info_fUyhrg": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "グラフィックの輪郭がきれいに四角く切り取られているのではなく、古い絵巻物や破れた古書からそのまま抜き出したような、ラフで擦れたエッジになっており、これがヴィンテージライクなこなれかんを生んでいます。",
+            "price_discount": 7990,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-gsh-ht260229"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_MPBGp8",
+        "image_slider_iT4FN6",
+        "image_slider_FMGpPH",
+        "image_slider_7UQNTm",
+        "main_diagram_hmUFTC",
+        "image_info_fUyhrg"
+      ],
+      "name": "6",
+      "settings": {
+        "data_title": "河鍋暁斎「暁斎百鬼画談・骸骨の軍団」浮世絵プリントコットンTee",
+        "data_tit_col": "#353535",
+        "info_text_col": "#6d7175",
+        "price_col": "#D31632",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#F7F1E7",
+        "but_col": "#D31632",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_list_GaTbHB": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_cbwqPD": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/2_204a8cb3-9c59-4ba8-b02c-04c5cfddfd0a.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_cbwqPD"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "none"
+      }
+    },
+    "image_slider_PatB4T": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_Ac6ahA": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-25_c8e5f03d-dbec-427b-aa18-2165f5791b8b.jpg"
+          }
+        },
+        "image_slider_EDPLKb": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-26_32b9fdda-d52d-4a1a-bb7e-83eb1fbb7250.jpg"
+          }
+        },
+        "image_slider_9gDhkP": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-27_1b990ac6-1185-451f-8552-d5b1f3f81600.jpg"
+          }
+        },
+        "image_slider_6DdwdW": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-28_7414eaa6-765f-4962-acd1-303bde6b5b4f.jpg"
+          }
+        },
+        "main_diagram_HXqG3x": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-13_5887644b-f109-49e6-b380-a555263b6993.jpg",
+            "main_img2": "shopify://shop_images/600x720-14_ce63c564-a0dc-4343-8f8e-317f0393d88a.jpg"
+          }
+        },
+        "image_info_VxHXaU": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "左胸元には「ゴルフスイングの首が落ちた骸骨」の刺繡デザインが施されている。骸骨はゴルフクラブを握り、スイングをしている様子が描かれ、スイングのフォームや動きは、ゴルフの特徴を捉えている。骸骨の首が体から離れた状態で描かれて、ダークでユーモラスな要素が加わっている。",
+            "price_discount": 6590,
+            "original_price": 11980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-gsh-gefdxsg626"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_Ac6ahA",
+        "image_slider_EDPLKb",
+        "image_slider_9gDhkP",
+        "image_slider_6DdwdW",
+        "main_diagram_HXqG3x",
+        "image_info_VxHXaU"
+      ],
+      "name": "7",
+      "settings": {
+        "data_title": "赤ヒモ付き「ゴルフスイングの首が落ちた骸骨」刺繍オックスフォードシャツ",
+        "data_tit_col": "#353535",
+        "info_text_col": "#6d7175",
+        "price_col": "#D31632",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#F7F1E7",
+        "but_col": "#D31632",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_zEYwme": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_aTbqBx": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-29_15347f87-0316-46c5-9078-7941821ed412.jpg"
+          }
+        },
+        "image_slider_ft93dE": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-30_f6b5ceed-f4f1-40ad-a7f8-4aa580fd8934.jpg"
+          }
+        },
+        "image_slider_nnB98J": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-31_4dcc35da-7fe6-4aef-8023-c827db2509bd.jpg"
+          }
+        },
+        "image_slider_BDE8Cn": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-32_7dcab13f-0dd2-498c-afa9-a0ad59b7bf4a.jpg"
+          }
+        },
+        "main_diagram_mRVYhW": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-15_523420ec-aca3-4885-99ac-8261baa618d4.jpg",
+            "main_img2": "shopify://shop_images/600x720-16_bc106de8-ce4a-41bf-9128-3a23a87dbb19.jpg"
+          }
+        },
+        "image_info_7aD3b4": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "左胸元には「ゴルフスイングの首が落ちた骸骨」の刺繡デザインが施されている。骸骨はゴルフクラブを握り、スイングをしている様子が描かれ、スイングのフォームや動きは、ゴルフの特徴を捉えている。骸骨の首が体から離れた状態で描かれて、ダークでユーモラスな要素が加わっている。",
+            "price_discount": 7690,
+            "original_price": 10980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-gsh-klmnxcts419"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_aTbqBx",
+        "image_slider_ft93dE",
+        "image_slider_nnB98J",
+        "image_slider_BDE8Cn",
+        "main_diagram_mRVYhW",
+        "image_info_7aD3b4"
+      ],
+      "name": "8",
+      "settings": {
+        "data_title": "赤ヒモ付き　「ゴルフスイングの首が落ちた骸骨」刺繍入りオックスフォード長袖シャツ",
+        "data_tit_col": "#353535",
+        "info_text_col": "#6d7175",
+        "price_col": "#D31632",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#F7F1E7",
+        "but_col": "#D31632",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_QVfYFX": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_8MbDcx": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-33_18b90d46-65fa-405f-be0f-96aa06fa9139.jpg"
+          }
+        },
+        "image_slider_4KdreN": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-34_2286a26a-9c8e-43e7-9b8e-8a43c1ac1baa.jpg"
+          }
+        },
+        "image_slider_gM9n3H": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-35_3d5ab027-7fa2-4823-8851-b1bac416bdd8.jpg"
+          }
+        },
+        "image_slider_FhUBec": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-36_8812bb2c-fb9b-4963-a3d5-0c6bcd3a7487.jpg"
+          }
+        },
+        "main_diagram_kLkEXb": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-17_5290ea5e-d183-42ee-be99-598ed39cf96c.jpg",
+            "main_img2": "shopify://shop_images/600x720-18_86509706-e5e8-4d06-9800-cdd2b3a541ba.jpg"
+          }
+        },
+        "image_info_LTtUCP": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "左胸元には「ゴルフスイングの首が落ちた骸骨」の刺繡デザインが施されている。骸骨はゴルフクラブを握り、スイングをしている様子が描かれ、スイングのフォームや動きは、ゴルフの特徴を捉えた。骸骨の首が体から離れた状態で描かれ、ダークでユーモラスな要素が加わる",
+            "price_discount": 7980,
+            "original_price": 9980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-gsh-kldtpl410"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_8MbDcx",
+        "image_slider_4KdreN",
+        "image_slider_gM9n3H",
+        "image_slider_FhUBec",
+        "main_diagram_kLkEXb",
+        "image_info_LTtUCP"
+      ],
+      "name": "9",
+      "settings": {
+        "data_title": "「ゴルフスイングの首が落ちた骸骨」刺繍入りポロシャツ",
+        "data_tit_col": "#353535",
+        "info_text_col": "#6d7175",
+        "price_col": "#D31632",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#F7F1E7",
+        "but_col": "#D31632",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_VGJNUy": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_wCNQJr": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-37_c1574ee4-9764-47fe-b8bd-71036688600b.jpg"
+          }
+        },
+        "image_slider_caYWyW": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-38_f5702506-10b1-4525-9a44-847f86b294dc.jpg"
+          }
+        },
+        "image_slider_wqECyE": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-39_0d95c2fb-188d-4c18-af28-febb497dab3c.jpg"
+          }
+        },
+        "image_slider_VatVRT": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-40_bc03703a-4b1a-43ea-8e90-1123507a7c44.jpg"
+          }
+        },
+        "main_diagram_E9hyDM": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-20_b32a8855-7c33-4c48-a117-f1cc9760b531.jpg",
+            "main_img2": "shopify://shop_images/600x720-19_1417eb28-164d-4ee7-95ce-6debf62b0bcf.jpg"
+          }
+        },
+        "image_info_4zPyGi": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "左胸元には「ガイコツで遊ぶいたずらな猫」の刺繡デザインが施されている。ガイコツの中で猫が遊び心を持っている様子を表現し、猫のしっぽがクルンと巻いていたり、ジャンプしていたりするなど、活発なイメージが描かれている。刺繡は細かく丁寧に施されており、立体感や繊細さが感じられる。",
+            "price_discount": 5334,
+            "original_price": 8890,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-gsh-klkmmxt325"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_wCNQJr",
+        "image_slider_caYWyW",
+        "image_slider_wqECyE",
+        "image_slider_VatVRT",
+        "main_diagram_E9hyDM",
+        "image_info_4zPyGi"
+      ],
+      "name": "10",
+      "settings": {
+        "data_title": "「ガイコツで遊ぶいたずらな猫」刺繡入り　コットン半袖Tee",
+        "data_tit_col": "#353535",
+        "info_text_col": "#6d7175",
+        "price_col": "#D31632",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#F7F1E7",
+        "but_col": "#D31632",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    },
+    "image_slider_eV9jdG": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_9PDBJH": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-41_80c9abc6-13c6-4b04-a941-b113b45fd8aa.jpg"
+          }
+        },
+        "image_slider_xtpngg": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-42_8b8f94dc-b38f-4594-841e-6d514cf3fc58.jpg"
+          }
+        },
+        "image_slider_Em9CcE": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-43_a0bf1860-fb6f-404a-ab2d-5540450d7aa5.jpg"
+          }
+        },
+        "image_slider_KjCVit": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-44_be034744-a5df-475c-a992-0e1ef764da80.jpg"
+          }
+        },
+        "main_diagram_jW7JpN": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-21_0af0c55f-1b6d-4689-8424-2739dbd262f2.jpg",
+            "main_img2": "shopify://shop_images/600x720-22_e6dc6a38-ab96-470b-b66a-e7493cf7e626.jpg"
+          }
+        },
+        "image_info_LgVEAb": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "骸骨が自分の頭をダンクシュートする姿勢が描かれて、ガイコツの身体は柔軟に伸び、大胆なジャンプをしている。ポーズは力強く、ダイナミックな印象を与え。表情は、骸骨ならではのユーモラスさや奇妙さを表現。",
+            "price_discount": 6290,
+            "original_price": 8990,
+            "but_tex": "VIEW MORE",
+            "btn_url": "shopify://products/krk-ly-klklt428"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_9PDBJH",
+        "image_slider_xtpngg",
+        "image_slider_Em9CcE",
+        "image_slider_KjCVit",
+        "main_diagram_jW7JpN",
+        "image_info_LgVEAb"
+      ],
+      "name": "11",
+      "settings": {
+        "data_title": "「ダンクシュートを決める骸骨」プリント　コットン半袖Tee",
+        "data_tit_col": "#353535",
+        "info_text_col": "#6d7175",
+        "price_col": "#D31632",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#F7F1E7",
+        "but_col": "#D31632",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#000000"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_cqrhkp",
+    "scrolling_banner_cggkcF",
+    "image_EcAznQ",
+    "background_image_pcA6aF",
+    "image_list_ghGwdF",
+    "image_slider_RNMHWE",
+    "image_slider_93Y8YN",
+    "image_slider_KpWjtX",
+    "image_slider_iDYAq8",
+    "image_slider_Qfjdny",
+    "image_slider_CqXxMy",
+    "image_list_GaTbHB",
+    "image_slider_PatB4T",
+    "image_slider_zEYwme",
+    "image_slider_QVfYFX",
+    "image_slider_VGJNUy",
+    "image_slider_eV9jdG"
+  ]
+}

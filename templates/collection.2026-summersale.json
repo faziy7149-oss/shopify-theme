@@ -1,0 +1,853 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "slideshow_FMPArP": {
+      "type": "slideshow",
+      "blocks": {
+        "image_WEWqYg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/367__1920.jpg",
+            "mobile_image": "shopify://shop_images/367__1080.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_WEWqYg"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "scrolling_banner_7jWr6V": {
+      "type": "scrolling-banner",
+      "blocks": {
+        "image_94zMA4": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_560257b9-1903-4150-96ad-2f34bef3905b.png",
+            "image_width": 245,
+            "link": "https://karakubuy.com/collections/summer-sale-2026"
+          }
+        }
+      },
+      "block_order": [
+        "image_94zMA4"
+      ],
+      "name": "Scrolling banner",
+      "settings": {
+        "full_width": true,
+        "color_scheme": "default",
+        "text_size": 50,
+        "vertical_padding": 20,
+        "speed": 37,
+        "direction": "left",
+        "font": "heading",
+        "space": 50
+      }
+    },
+    "image_b9A6Xe": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_03b3f486-fca6-4e23-8de0-2ba287028f53.png",
+        "mobile_image": "shopify://shop_images/720_9c6d417d-bb29-41ba-baf4-48c0f1af01d5.png",
+        "img_rul": ""
+      }
+    },
+    "image_list_Nj4qcB": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_UFUknE": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/1_b0d5bb89-3cc1-4fe3-aabc-f6b3c38e376d.png",
+            "image_list_link": "#data-1"
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_UFUknE"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "none"
+      }
+    },
+    "image_list_L4aXLi": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_3BdA83": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/2_de2f6054-25bc-4a95-bc11-e39f70c907fd.png",
+            "image_list_link": "#data-2"
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_3BdA83"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "none"
+      }
+    },
+    "image_list_U7VUXj": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_rmgyBJ": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/3_218429af-86bc-40dc-b2b5-ec23ff6442b3.png",
+            "image_list_link": "#data-3"
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_rmgyBJ"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "none"
+      }
+    },
+    "image_list_WJVia3": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_mVEikt": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/4_eb37326e-40c7-474a-ae97-2f99f2ff77c8.png",
+            "image_list_link": "#data-4"
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_mVEikt"
+      ],
+      "name": "Image List",
+      "settings": {
+        "img_animation": "none"
+      }
+    },
+    "image_jump_custom_tJV3CN": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_9h39fi": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_5a892cb5-f2dc-4239-9597-f3c9dbab3f58.png",
+            "image-id": "data-1",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_9h39fi"
+      ],
+      "name": "01",
+      "settings": {}
+    },
+    "url_text_hDhUCz": {
+      "type": "url-text",
+      "name": "URL Text",
+      "settings": {
+        "url_text": "https://karakubuy.com/collections/26summersale-70-45",
+        "text_url": "70%OFF~45%OFF",
+        "btn_color": "#fdd900",
+        "btn_color_hover": "#fc5b29",
+        "btn_text_color": "#37b3b5",
+        "btn_text_color_hover": "#f7f1e7",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 25,
+        "url_font_size_moble": 12,
+        "img_postion_size_pc": 55,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "slide_block_group_e6KAQM": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_4zGbqe": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-1_99930155-0de9-4ddf-b0b3-0f86e010b836.jpg",
+            "slide_title": "コブラバックルベルト",
+            "slide_price": 10600,
+            "slide_price_new": 3200,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/md-s2001059-1",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_bWpYDi": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-2_cc60bd5b-9845-44e1-a322-d0a7f72cdfd8.jpg",
+            "slide_title": "ピーチスキンシャツ　新色追加！",
+            "slide_price": 15190,
+            "slide_price_new": 6900,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/md-w2001199",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_LqhzqN": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-3_4506bdf5-f5b2-4861-8db0-9ad2bce40c90.jpg",
+            "slide_title": "赤ヒモ付き「ゴルフスイングの首が落ちた骸骨」刺繍オックスフォードシャツ",
+            "slide_price": 11980,
+            "slide_price_new": 6590,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-gsh-gefdxsg626",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_4zGbqe",
+        "slide_block_bWpYDi",
+        "slide_block_LqhzqN"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#fc5b29",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#fdd900",
+        "slide_text_hover_color": "#37b3b5",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_WLnT7n": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_8ymnWC": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-4_35719fc4-c1a6-4697-b506-c740590e31a7.jpg",
+            "slide_title": "「ネコ図鑑」総柄プリントアロハシャツ",
+            "slide_price": 12990,
+            "slide_price_new": 6500,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-23519",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_bnmzKb": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-5_a776c59d-7de2-4f84-8fcb-76ea9c4f8af9.jpg",
+            "slide_title": "「ネコ図鑑」総柄プリントアロハシャツ",
+            "slide_price": 12990,
+            "slide_price_new": 6500,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-ae5275c",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_6bEfkt": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-6_47f456f9-208a-44ca-aab7-12de8835d7a1.jpg",
+            "slide_title": "裏和柄・招き猫 デニムボールキャップ",
+            "slide_price": 8980,
+            "slide_price_new": 3600,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-zyd-zcmbybqm123",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_8ymnWC",
+        "slide_block_bnmzKb",
+        "slide_block_6bEfkt"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#fc5b29",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#fdd900",
+        "slide_text_hover_color": "#37b3b5",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "image_jump_custom_iHeL8p": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_e6cBjq": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/2_2491eeb1-13bb-421c-84ad-b877ad2b910f.png",
+            "image-id": "data-2",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_e6cBjq"
+      ],
+      "name": "02",
+      "settings": {}
+    },
+    "url_text_YYDrEh": {
+      "type": "url-text",
+      "name": "URL Text",
+      "settings": {
+        "url_text": "https://karakubuy.com/collections/26summersale-40-30",
+        "text_url": "40%OFF~30%OFF",
+        "btn_color": "#fdd900",
+        "btn_color_hover": "#fc5b29",
+        "btn_text_color": "#37b3b5",
+        "btn_text_color_hover": "#f7f1e7",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 25,
+        "url_font_size_moble": 18,
+        "img_postion_size_pc": 55,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "slide_block_group_V9TEj4": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_xEQVDe": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-7_26233656-0416-4aa5-9d88-45f92b3845fb.jpg",
+            "slide_title": "改良型 60‘s キャンバスニュースペーパーバッグ",
+            "slide_price": 10980,
+            "slide_price_new": 6590,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-md-tw2207657",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_Fgqn8V": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-8_8a6ec649-ccbe-4a46-b27e-2e140435fbb2.jpg",
+            "slide_title": "明治時代の猫 総柄 浮世絵風アロハシャツ　",
+            "slide_price": 12590,
+            "slide_price_new": 8810,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-fgmmmy23531",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_E7WAKm": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-9_60c0d6f5-e784-4ae6-bc9e-760eb83a2cf0.jpg",
+            "slide_title": "ヘビーウェイト　無地クルーネック海軍Tシャツ",
+            "slide_price": 9920,
+            "slide_price_new": 6990,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-dh-2239921",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_xEQVDe",
+        "slide_block_Fgqn8V",
+        "slide_block_E7WAKm"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#fc5b29",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#fdd900",
+        "slide_text_hover_color": "#37b3b5",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_phfVJX": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_6cWLwT": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-10_62251252-c27c-4426-9d6e-10a090d06d54.jpg",
+            "slide_title": "ヘビーウェイト　パイナップルパイルニットTee",
+            "slide_price": 9990,
+            "slide_price_new": 6990,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-md-tww2201820",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_KtREHd": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-11_62a9f6c4-d811-4a26-80c0-3d4be99d6922.jpg",
+            "slide_title": "「ダンクシュートを決める骸骨」プリント　コットン半袖Tee",
+            "slide_price": 8990,
+            "slide_price_new": 6290,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-ly-klklt428",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_YPBjEM": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-12_82c621be-8545-4b19-a687-3536eaba7aff.jpg",
+            "slide_title": "「猫の空想宇宙」前後アシンメトリープリントオープンカラーシャツ",
+            "slide_price": 10980,
+            "slide_price_new": 7690,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-lsx-fmymmysg409",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_6cWLwT",
+        "slide_block_KtREHd",
+        "slide_block_YPBjEM"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#fc5b29",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#fdd900",
+        "slide_text_hover_color": "#37b3b5",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "image_jump_custom_3UHHaW": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_wmepJp": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_d5d4fada-0be9-4b6e-984f-386afd9b4621.png",
+            "image-id": "data-3",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_wmepJp"
+      ],
+      "name": "03",
+      "settings": {}
+    },
+    "url_text_6kPXzP": {
+      "type": "url-text",
+      "name": "URL Text",
+      "settings": {
+        "url_text": "https://karakubuy.com/collections/26summersale-25-20",
+        "text_url": "25%OFF~20%OFF",
+        "btn_color": "#fdd900",
+        "btn_color_hover": "#fc5b29",
+        "btn_text_color": "#37b3b5",
+        "btn_text_color_hover": "#f7f1e7",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 25,
+        "url_font_size_moble": 18,
+        "img_postion_size_pc": 55,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "slide_block_group_Jnbqyg": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_badDMP": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-13_a74a250d-f285-4a3d-92f4-3f9d2284b04d.jpg",
+            "slide_title": "無地3色コットンキューバカラーシャツ",
+            "slide_price": 9980,
+            "slide_price_new": 7500,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-b409-2-rc64",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_VB7UTh": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-14_99a54ade-e4f7-43b9-b61e-a1981165a234.jpg",
+            "slide_title": "「和猫百態」総柄　浮世絵風プリント入りアロハシャツ",
+            "slide_price": 12590,
+            "slide_price_new": 9440,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-lsx-sh260147",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_Mkk77r": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-15_8b6a59a8-b3d7-4ad2-90db-716bd9d91008.jpg",
+            "slide_title": "「熱帯植物に隠れたピンクのジャガー」手描きアート柄アロハシャツ",
+            "slide_price": 12590,
+            "slide_price_new": 9440,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-lsx-sh260441",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_badDMP",
+        "slide_block_VB7UTh",
+        "slide_block_Mkk77r"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#fc5b29",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#fdd900",
+        "slide_text_hover_color": "#37b3b5",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_azGeHC": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_i38i8y": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-16_59a063cc-efc6-4010-9e7b-7924c31f882f.jpg",
+            "slide_title": "HAWAII ALOHA　「夏の万華鏡」総柄アロハシャツ",
+            "slide_price": 8190,
+            "slide_price_new": 6550,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-ae519c",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_fd6qJq": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-17_e73cb489-a0cc-4f45-bca7-747e950ca861.jpg",
+            "slide_title": "ボヘミアン民族調総柄アロハシャツ",
+            "slide_price": 8190,
+            "slide_price_new": 6550,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-ae504c",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_rkPXtV": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-18_db76f130-b34b-403a-9de6-79fdeec0647e.jpg",
+            "slide_title": "和柄『神奈川沖浪裏と波乗り猫』浮世絵風アロハシャツ",
+            "slide_price": 12980,
+            "slide_price_new": 10390,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-clmc23213",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_i38i8y",
+        "slide_block_fd6qJq",
+        "slide_block_rkPXtV"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#fc5b29",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#fdd900",
+        "slide_text_hover_color": "#37b3b5",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "image_jump_custom_rbVCPk": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "image_cXbRFF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/4_fa629f22-aad5-47d8-b05c-a4f53ee0939d.png",
+            "image-id": "data-4",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_cXbRFF"
+      ],
+      "name": "04",
+      "settings": {}
+    },
+    "url_text_XTLxPY": {
+      "type": "url-text",
+      "name": "URL Text",
+      "settings": {
+        "url_text": "https://karakubuy.com/collections/26summersale-15-10",
+        "text_url": "15%OFF~10%OFF",
+        "btn_color": "#fdd900",
+        "btn_color_hover": "#fc5b29",
+        "btn_text_color": "#37b3b5",
+        "btn_text_color_hover": "#f7f1e7",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 25,
+        "url_font_size_moble": 18,
+        "img_postion_size_pc": 55,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "slide_block_group_XfWTL8": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_8Mpgq6": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-19_97703da3-bf0c-4191-816e-d8bdc8fd5207.jpg",
+            "slide_title": "「STAY TRUE」刺繍ワッペン　レトロストライプ柄スタンドカラーシャツ",
+            "slide_price": 8990,
+            "slide_price_new": 7660,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-zyd-sh260332",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_rBdgpP": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-20_b9c3870f-83d4-4699-9655-1d7ec4144f57.jpg",
+            "slide_title": "斜めジップポケット付き　メタルフックボタン入りデニム半袖シャツ",
+            "slide_price": 12980,
+            "slide_price_new": 11680,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-gsh-260254",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_6XWqiw": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-21_92c49660-95f0-4ba5-ab7a-8735405710b8.jpg",
+            "slide_title": "「モンステラ＆茶トラ 」総柄　キューバカラーアロハシャツ",
+            "slide_price": 8190,
+            "slide_price_new": 7370,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-gsh-sh260154",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_8Mpgq6",
+        "slide_block_rBdgpP",
+        "slide_block_6XWqiw"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#fc5b29",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#fdd900",
+        "slide_text_hover_color": "#37b3b5",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "slide_block_group_EWt8qN": {
+      "type": "slide-block-group",
+      "blocks": {
+        "slide_block_iJmNAr": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-22_04fce9bf-8301-4fdc-8d55-84c1f22d3764.jpg",
+            "slide_title": "レトロゆったりカジュアルイージーパンツ",
+            "slide_price": 11340,
+            "slide_price_new": 10200,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/tw2101153",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_pAQ9Qz": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-23_5cad6a1d-76b9-42c8-a7db-a0807b4d8d19.jpg",
+            "slide_title": "「サマープール」総柄プリント入りアロハシャツ",
+            "slide_price": 10980,
+            "slide_price_new": 9890,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-gsh-sh260136",
+            "slide_intro": ""
+          }
+        },
+        "slide_block_jgtrRF": {
+          "type": "slide_block",
+          "settings": {
+            "slide_img": "shopify://shop_images/1336x1604-24_1243a200-77cc-4780-b361-ca2ac1276424.jpg",
+            "slide_title": "「サマースイミングプールの俯瞰」ストライプアロハシャツ",
+            "slide_price": 10980,
+            "slide_price_new": 9890,
+            "slide_btn": "MORE",
+            "slide_url": "shopify://products/krk-gsh-sh260469",
+            "slide_intro": ""
+          }
+        }
+      },
+      "block_order": [
+        "slide_block_iJmNAr",
+        "slide_block_pAQ9Qz",
+        "slide_block_jgtrRF"
+      ],
+      "name": "Slide block group",
+      "settings": {
+        "slide_btn_color": "#fc5b29",
+        "slide_text_color": "#f7f1e7",
+        "slide_btn_hover_color": "#fdd900",
+        "slide_text_hover_color": "#37b3b5",
+        "slide_font_color": "#100f0f",
+        "price_new_color": "#c20000"
+      }
+    },
+    "background_image_aceMxc": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "image": "shopify://shop_images/gemini-art-rmgvb9s06.webp",
+        "bg_size": "cover",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "fixed",
+        "background_color_overlay": "#f5f5f5",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "slideshow_FMPArP",
+    "scrolling_banner_7jWr6V",
+    "image_b9A6Xe",
+    "image_list_Nj4qcB",
+    "image_list_L4aXLi",
+    "image_list_U7VUXj",
+    "image_list_WJVia3",
+    "image_jump_custom_tJV3CN",
+    "url_text_hDhUCz",
+    "slide_block_group_e6KAQM",
+    "slide_block_group_WLnT7n",
+    "image_jump_custom_iHeL8p",
+    "url_text_YYDrEh",
+    "slide_block_group_V9TEj4",
+    "slide_block_group_phfVJX",
+    "image_jump_custom_3UHHaW",
+    "url_text_6kPXzP",
+    "slide_block_group_Jnbqyg",
+    "slide_block_group_azGeHC",
+    "image_jump_custom_rbVCPk",
+    "url_text_XTLxPY",
+    "slide_block_group_XfWTL8",
+    "slide_block_group_EWt8qN",
+    "background_image_aceMxc",
+    "main"
+  ]
+}

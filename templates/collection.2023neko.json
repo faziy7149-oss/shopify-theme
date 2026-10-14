@@ -1,0 +1,510 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "9f2748ab-56d7-4661-9959-3d47107e0156": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16743325237467__9f2748ab-56d7-4661-9959-3d47107e0156-1684141627669a4a8b-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20230517-111032.jpg",
+            "mobile_image": "shopify://shop_images/20230517-111033.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "　",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        },
+        "template--16743325237467__9f2748ab-56d7-4661-9959-3d47107e0156-1684141627669a4a8b-1": {
+          "type": "image",
+          "disabled": true,
+          "settings": {
+            "slide_link": "",
+            "subheading": "Subheading",
+            "title": "Tell your story",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "<p>Pair text with an image to tell a story</p>",
+            "enlarge_text": true,
+            "button_label_1": "Shop this",
+            "button_url_1": "",
+            "button_label_2": "Shop all",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16743325237467__9f2748ab-56d7-4661-9959-3d47107e0156-1684141627669a4a8b-0",
+        "template--16743325237467__9f2748ab-56d7-4661-9959-3d47107e0156-1684141627669a4a8b-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "69a072e4-5468-4e93-be20-55eddf7f5586": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16743325237467__69a072e4-5468-4e93-be20-55eddf7f5586-16843160891c140710-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Meow~Meow~Meow~"
+          }
+        },
+        "template--16743325237467__69a072e4-5468-4e93-be20-55eddf7f5586-16843160891c140710-1": {
+          "type": "heading",
+          "settings": {
+            "title": "",
+            "use_h1": false
+          }
+        },
+        "template--16743325237467__69a072e4-5468-4e93-be20-55eddf7f5586-16843160891c140710-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ストレスを抱えることの多い現代社会で生きる我々にとって、もふもふは小さなオアシスなのです。もふもふなお友達ー猫ちゃんは癒しの解毒剤です。</p><p>ฅ^•ﻌ•^ฅ</p><p>猫好きにはたまらない!かわいいネコちゃんトップス大集合だにゃ。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16743325237467__69a072e4-5468-4e93-be20-55eddf7f5586-16843160891c140710-0",
+        "template--16743325237467__69a072e4-5468-4e93-be20-55eddf7f5586-16843160891c140710-1",
+        "template--16743325237467__69a072e4-5468-4e93-be20-55eddf7f5586-16843160891c140710-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_8G3cqN": {
+      "type": "custom-content",
+      "blocks": {
+        "text_8CJRjK": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "-01-",
+            "title": "「信州諏訪湖と猫の夢」浮世絵風Tee",
+            "text": "<p>巨大な猫が描かれており、猫の大きさと不気味な存在感で、人々を圧倒する。浮世絵のような背景は、猫の存在をより神秘的で美しく見せる。</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "image_TrV7dY": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/635_3.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "text_8CJRjK",
+        "image_TrV7dY"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_tnJkeR": {
+      "type": "custom-content",
+      "blocks": {
+        "text_YPBaBF": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "-02-",
+            "title": "和柄『神奈川沖浪裏と波乗り猫』浮世絵風アロハシャツ",
+            "text": "<p>浮世絵をベースとデザインにして、北斎が長年に渡って描いてきた名作「神奈川沖浪裏」の海に二匹の猫が進んで海に飛び込んだ、両手を上げて喜んでいる、波と一体になった姿は、前に進む勇気と出世を意味する。</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "image_67jfMM": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/635_6.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://minipia.myshopify.com/products/krk-clmc23213",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "text_YPBaBF",
+        "image_67jfMM"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_zBLgeq": {
+      "type": "custom-content",
+      "blocks": {
+        "text_cqEfeY": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "-03-",
+            "title": "江戸時代「招き猫」総柄アロハシャツ",
+            "text": "<p>縁起物なので描かれている招き猫は目立つと楽しみポイント、インパクトはあるのが、色数をおさえているため派手すぎない印象。</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "image_DKBAjY": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/635_4.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://minipia.myshopify.com/products/krk-myzcm23420",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "text_cqEfeY",
+        "image_DKBAjY"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_a9V7TM": {
+      "type": "custom-content",
+      "blocks": {
+        "text_rjFdc7": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "-04-",
+            "title": "「Hug Me・ギュッとハグ」コットンTシャツ",
+            "text": "<p>そんな2匹は、なんとも幸せそうな表情を浮かべています。見るだけで心の疲れも体の疲れも浄化されそうですね。</p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "image_TQcWK6": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/635_5.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "text_rjFdc7",
+        "image_TQcWK6"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1652174971ed44938d": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "fa9dfc57-29d9-429a-ad78-f1c3b0e73d03": {
+      "type": "collection-list",
+      "blocks": {
+        "a1cfda4d-2e5f-4eef-844f-e0f5bb378673": {
+          "type": "collection",
+          "settings": {
+            "collection": "casual",
+            "image": "shopify://shop_images/c748b6fbc74a48b24d75e66f4ba7160b.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "9da0261c-e6c2-4a9a-bbfc-119356e53e8e": {
+          "type": "collection",
+          "settings": {
+            "collection": "business",
+            "image": "shopify://shop_images/09b45cc61e451a48cc831f5c6eb891a0.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "687282e0-14a4-4d42-8dcb-0babe002b96a": {
+          "type": "collection",
+          "settings": {
+            "collection": "outdoor-sports",
+            "image": "shopify://shop_images/e0b1bc00e2371c92c676cd7a426a4d4d.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "6185350f-3346-4610-8759-0a714c2e8490": {
+          "type": "collection",
+          "settings": {
+            "collection": "navy",
+            "image": "shopify://shop_images/85e3b13ed818a2cb62f8b53434edd859.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "a1cfda4d-2e5f-4eef-844f-e0f5bb378673",
+        "9da0261c-e6c2-4a9a-bbfc-119356e53e8e",
+        "687282e0-14a4-4d42-8dcb-0babe002b96a",
+        "6185350f-3346-4610-8759-0a714c2e8490"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "gallery_XkKYBQ": {
+      "type": "gallery",
+      "blocks": {
+        "media_QqcyD4": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20230516-103404_8131b6de-c5d6-46b6-b370-4844a19f9326.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_9Rgt6C": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20230516-103351_e8fed098-8146-4452-871b-b5cfd23110c8.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_QqcyD4",
+        "media_9Rgt6C"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "no_background",
+        "button_style": "primary"
+      }
+    },
+    "1649757612ea7476eb": {
+      "type": "text-editor",
+      "settings": {
+        "data_wrapper_1250": false,
+        "text1": "<p>{{ collection.metafields.commodity.productintroduction | metafield_tag }}</p>"
+      }
+    },
+    "ac3f6eda-5daf-4a83-9259-76019dd0c875": {
+      "type": "photo-banner",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/900.jpg",
+        "mobile_image": "shopify://shop_images/100.jpg",
+        "banner_link": "shopify://pages/新規会員限定-ポイント取得ページ",
+        "photo_banner_col": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "9f2748ab-56d7-4661-9959-3d47107e0156",
+    "69a072e4-5468-4e93-be20-55eddf7f5586",
+    "custom_content_8G3cqN",
+    "custom_content_tnJkeR",
+    "custom_content_zBLgeq",
+    "custom_content_a9V7TM",
+    "main",
+    "1652174971ed44938d",
+    "1635765484031572a6",
+    "fa9dfc57-29d9-429a-ad78-f1c3b0e73d03",
+    "gallery_XkKYBQ",
+    "1649757612ea7476eb",
+    "ac3f6eda-5daf-4a83-9259-76019dd0c875"
+  ]
+}

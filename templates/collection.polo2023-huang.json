@@ -1,0 +1,408 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "16570081522c5796df": {
+      "type": "slideshow",
+      "blocks": {
+        "a224042d-71f4-4d0a-8c9d-b11e9e529a67": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/Pc_161ae9f5-9085-4e78-9885-d61b26969477.jpg",
+            "mobile_image": "shopify://shop_images/mobile.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "a224042d-71f4-4d0a-8c9d-b11e9e529a67"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "d3872f96-6c63-4d16-a72b-390fb8c97e86": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16728037851355__d3872f96-6c63-4d16-a72b-390fb8c97e86-1681973118a3de9cc2-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "2023 Spring & summer polo collection"
+          }
+        },
+        "template--16728037851355__d3872f96-6c63-4d16-a72b-390fb8c97e86-1681973118a3de9cc2-1": {
+          "type": "heading",
+          "settings": {
+            "title": "カジュアルからビジネスまで、心地良い質感の本格派ポロ",
+            "use_h1": false
+          }
+        },
+        "template--16728037851355__d3872f96-6c63-4d16-a72b-390fb8c97e86-1681973118a3de9cc2-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>オフィスカジュアル化が進む現代、Tシャツはカジュアルすぎるし、何を着ていっていいか分からないという方にこそ、是非一度試して頂きたい!</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16728037851355__d3872f96-6c63-4d16-a72b-390fb8c97e86-1681973118a3de9cc2-0",
+        "template--16728037851355__d3872f96-6c63-4d16-a72b-390fb8c97e86-1681973118a3de9cc2-1",
+        "template--16728037851355__d3872f96-6c63-4d16-a72b-390fb8c97e86-1681973118a3de9cc2-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_YNEj6K": {
+      "type": "custom-content",
+      "blocks": {
+        "image_VV6EnF": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/4_6b5ba700-fcf1-4084-a626-c13a130d9e4d.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "Casual Day",
+            "text": "<p>夏のムード、楽しく快適に装うアイディア</p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "text_L7tXd9": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "-STYLING ALL-",
+            "text": "<p>POLOSHIRT | <a href=\"https://www.karakubuy.com/products/krk-md-tw2301289?_pos=1&_sid=28fcfd152&_ss=r&variant=44012231262427\" target=\"_blank\">リネンライクニットポロ ¥8,390</a></p><p>PANTS | <a href=\"https://www.karakubuy.com/products/637263536876?_pos=1&_sid=8da4a8445&_ss=r&variant=40021108850866\" target=\"_blank\" title=\"https://www.karakubuy.com/products/637263536876?_pos=1&_sid=8da4a8445&_ss=r&variant=40021108850866\">アーミーカーゴショーツ ¥8,281</a></p><p>SHOES |<a href=\"https://www.karakubuy.com/products/krk-md-md2007003?_pos=1&_sid=3a0cd3c84&_ss=r&variant=41294200668338\" target=\"_blank\" title=\"https://www.karakubuy.com/products/krk-md-md2007003?_pos=1&_sid=3a0cd3c84&_ss=r&variant=41294200668338\">ジャーマンスニーカー ¥15,950</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_VV6EnF",
+        "text_L7tXd9"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_LCfVeb": {
+      "type": "custom-content",
+      "blocks": {
+        "text_hTeGxh": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "-STYLING ALL-",
+            "text": "<p>POLOSHIRT | <a href=\"https://www.karakubuy.com/products/krk-md-tw2301289?_pos=1&_sid=072e4e442&_ss=r&variant=44012231262427\" target=\"_blank\" title=\"https://www.karakubuy.com/products/krk-md-tw2301289?_pos=1&_sid=072e4e442&_ss=r&variant=44012231262427\">リネンライクニットポロ ¥8,390</a></p><p>PANTS | <a href=\"https://www.karakubuy.com/products/tw2101153?_pos=1&_sid=8b46ced23&_ss=r&variant=40902243287218\" target=\"_blank\" title=\"https://www.karakubuy.com/products/tw2101153?_pos=1&_sid=8b46ced23&_ss=r&variant=40902243287218\">カジュアルイージーパンツ ¥11,340</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "image_nxMLmq": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/5_4b745026-81b5-49bc-bdba-4603fc12ca14.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "Business Day",
+            "text": "<p>ラクでオトナが正解</p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "text_hTeGxh",
+        "image_nxMLmq"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_VBnhAM": {
+      "type": "custom-content",
+      "blocks": {
+        "image_zej6XB": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/3_2b1afbbe-4586-4047-a4a0-75922d0d9d73.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "Casual Day",
+            "text": "<p>気分をスイッチ！</p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "text_hUxWXW": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "-STYLING ALL-",
+            "text": "<p>POLOSHIRT | <a href=\"https://www.karakubuy.com/products/krk-md-tw2101106?_pos=1&_sid=22b1eb5b0&_ss=r&variant=42958580547803\" target=\"_blank\" title=\"https://www.karakubuy.com/products/krk-md-tw2101106?_pos=1&_sid=22b1eb5b0&_ss=r&variant=42958580547803\">無地　ピケポロ ¥9,277</a></p><p>PANTS | <a href=\"https://www.karakubuy.com/products/krk-rf-3633?_pos=1&_sid=4fcf0f30f&_ss=r\" target=\"_blank\" title=\"https://www.karakubuy.com/products/krk-rf-3633?_pos=1&_sid=4fcf0f30f&_ss=r\">デニムショーツ ¥10,980</a></p><p>SHOES |<a href=\"https://www.karakubuy.com/products/md-2001005?_pos=1&_sid=97881b89b&_ss=r\" target=\"_blank\" title=\"https://www.karakubuy.com/products/md-2001005?_pos=1&_sid=97881b89b&_ss=r\">ジャーマンスニーカー ¥12,190</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "image_zej6XB",
+        "text_hUxWXW"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_JL6Kqi": {
+      "type": "custom-content",
+      "blocks": {
+        "text_A9UGWp": {
+          "type": "text",
+          "settings": {
+            "width": "half",
+            "text_alignment": "center",
+            "subheading": "",
+            "title": "-STYLING ALL-",
+            "text": "<p>POLOSHIRT | <a href=\"https://www.karakubuy.com/products/krk-md-tls2201809?_pos=1&_sid=57c1a48c0&_ss=r&variant=42676936081627\" target=\"_blank\" title=\"https://www.karakubuy.com/products/krk-md-tls2201809?_pos=1&_sid=57c1a48c0&_ss=r&variant=42676936081627\">無地半袖　ニットポロ ¥8,629</a></p><p>SHOES | <a href=\"https://karakubuy.com/products/krk-md-d2301002?_pos=1&_sid=716432d76&_ss=r&variant=43970434859227\" target=\"_blank\" title=\"https://karakubuy.com/products/krk-md-d2301002?_pos=1&_sid=716432d76&_ss=r&variant=43970434859227\">レトロスニーカー ¥15,990</a></p>",
+            "button_label": "",
+            "button_link": "",
+            "button_style": "primary"
+          }
+        },
+        "image_qFkkYa": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/1_c9bc2923-f84a-4d49-93de-72b58b5a962c.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "Business Day",
+            "text": "<p>「きちんと感」を把握</p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "text_A9UGWp",
+        "image_qFkkYa"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "1635220294067ab8a1": {
+      "type": "collection-list",
+      "blocks": {
+        "22a68d2d-1230-4f98-96b2-5b4029b9dc36": {
+          "type": "collection",
+          "settings": {
+            "collection": "アクセサリー-小物",
+            "image": "shopify://shop_images/QQ_20211029184022.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "ba2cf3cc-2a86-4841-9a15-fa4bbb764def": {
+          "type": "collection",
+          "settings": {
+            "collection": "セールから探す",
+            "image": "shopify://shop_images/QQ_20211029184109.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "22a68d2d-1230-4f98-96b2-5b4029b9dc36",
+        "ba2cf3cc-2a86-4841-9a15-fa4bbb764def"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 2,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "16572479498caa6a56": {
+      "type": "rich-text",
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "1656039800c2c4d5b9": {
+      "type": "gallery",
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 870,
+        "mobile_image_height": 180,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": true,
+        "color_scheme": "default",
+        "enable_carousel": false,
+        "overlay_style": "full",
+        "button_style": "primary"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "POLO COLLECTION",
+        "collection": "polo-230401",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16570081522c5796df",
+    "d3872f96-6c63-4d16-a72b-390fb8c97e86",
+    "custom_content_YNEj6K",
+    "custom_content_LCfVeb",
+    "custom_content_VBnhAM",
+    "custom_content_JL6Kqi",
+    "1635220294067ab8a1",
+    "16572479498caa6a56",
+    "1656039800c2c4d5b9",
+    "1635765484031572a6"
+  ]
+}

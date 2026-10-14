@@ -1,0 +1,881 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1650791533bfdc47b9": {
+      "type": "slideshow",
+      "blocks": {
+        "1650791533abd9a060-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/banner.png.lin_0bafb947-53c9-4d1d-9707-ccdddc4d3e9f.png",
+            "mobile_image": "shopify://shop_images/2_jpg.png",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "1650791533abd9a060-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "16507883422a262129": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_KUxP8e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>「KARAKU  WOMEN」は、<br/>既成概念にとらわれない自由な感性を持った女性に、<br/>カジュアルながらも洗練されたヴィンテージ感のあるアイテムを提供するシリーズ商品です。<br/><br/>皆様に感謝の気持ちを込めて、<br/>今の時代に求められる新しい旅のスタイルとして、<br/>頑張っていきたいと思います。</p><p></p><p>KARAKU</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "text_KUxP8e"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/20220424-171114.png",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "gallery_A3WmtG": {
+      "type": "gallery",
+      "blocks": {
+        "media_hm4Yeb": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/3_306ba335-3c78-44e7-8e12-b0f9ccd174c8.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/collections/karaku-female/products/krq-ys2202218",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_QPMjpa": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/3_04e3d64c-29de-4690-bd54-6f2ea6bc27cb.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/collections/karaku-female/products/krq-yw2202006",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_AqwWtB": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/10_8fc62392-ad76-42c0-ab20-3188135606d7.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/collections/karaku-female/products/krq-ys2202003",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_dfVUFc": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/8_05c65ad5-d3b2-41af-b880-7eb059485d1b.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/collections/karaku-female/products/krq-md2201002",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_hm4Yeb",
+        "media_QPMjpa",
+        "media_AqwWtB",
+        "media_dfVUFc"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "no_background",
+        "button_style": "primary"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1651030641805d6e6e": {
+      "type": "collection-list",
+      "blocks": {
+        "86f264d3-3652-49ec-a72d-c0d726c4e57e": {
+          "type": "collection",
+          "settings": {
+            "collection": "トップス",
+            "image": "shopify://shop_images/3b5e5bcd202346a36e3b37df61c0962e_9ee886db-9c32-41d4-ae9b-af6aab223004.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "0146dc11-5288-4432-aabe-2753908f1467": {
+          "type": "collection",
+          "settings": {
+            "collection": "karaku-women-ボトムス",
+            "image": "shopify://shop_images/622a5dcb4dd714320d80fbd62f6ebcf3_039380e1-4343-444e-86ee-185116a29352.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "1a65d003-6c42-48c8-bb25-cd116fa40d4c": {
+          "type": "collection",
+          "settings": {
+            "collection": "karaku-women-ワンピース",
+            "image": "shopify://shop_images/f7ecbafe160028327117070d2ae28c1a_7c76478c-9523-4f1f-b465-2793fb8336dc.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "f30578ba-9375-4ed9-8558-fddb616791dc": {
+          "type": "collection",
+          "settings": {
+            "collection": "karaku-women-シューズ",
+            "image": "shopify://shop_images/8c8cc44a8ed61de4c4fae398df757c07_8bef5b43-9b49-4dae-876b-b015da29bb28.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "47c5c317-1ada-4821-b922-8c7c6cf36dc2": {
+          "type": "collection",
+          "settings": {
+            "collection": "karaku-women-アクセサリー-小物",
+            "image": "shopify://shop_images/92eb8a612cea9885af03c5f919c583d8_a6499fa8-44fd-4272-9574-a94cb6ad6a1e.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "86f264d3-3652-49ec-a72d-c0d726c4e57e",
+        "0146dc11-5288-4432-aabe-2753908f1467",
+        "1a65d003-6c42-48c8-bb25-cd116fa40d4c",
+        "f30578ba-9375-4ed9-8558-fddb616791dc",
+        "47c5c317-1ada-4821-b922-8c7c6cf36dc2"
+      ],
+      "settings": {
+        "title": "カテゴリーから探す",
+        "enable_carousel": true,
+        "grid": 5,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "landscape-32",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": false,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "custom_content_h38mRi": {
+      "type": "custom-content",
+      "blocks": {
+        "image_E6JQKj": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/23_3f9782fe-2026-4123-96af-361df36dbac1.png",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/karaku-female/products/krk-410qk44",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "image_JbHahR": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/20_dc4fc819-7015-420e-bbab-514d44be3996.png",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/products/krq-zy-503zz24?_pos=11&_sid=bf58bdc14&_ss=r",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "image_qGCdCi": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/18_6dcb6ec7-6499-4f89-9776-b7f25ab2eb60.png",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/karaku-female/products/krk-zy-503zs25",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_V8DWWD": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/15_7704c67d-8704-426b-8446-580b9704df20.png",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/products/krq-zy-503zz28?_pos=23&_sid=bf58bdc14&_ss=r",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_E6JQKj",
+        "image_JbHahR",
+        "image_qGCdCi",
+        "image_V8DWWD"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_6Gf7gt": {
+      "type": "custom-content",
+      "blocks": {
+        "image_rqLjQH": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/5_30b918b2-926f-4836-8e27-6786780bad2a.png",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/karaku-female/products/krk-zy-308yw34",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_xUKfcm": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/14_f10a3bfe-fcfc-4751-ac2a-b8e79fd47f37.png",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/karaku-female/products/krq-zy-504cl02",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "image_78ptJq": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/3_d32ad58e-f676-4c76-a106-c6bd332d6db5.png",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/karaku-female/products/krq-zy-404fq15",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "image_GXfLNA": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/6_d0f6840d-3e25-4681-98d9-82e8c360d0e2.png",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/karaku-female/products/krk-zy-x257",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_rqLjQH",
+        "image_xUKfcm",
+        "image_78ptJq",
+        "image_GXfLNA"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_YJPzHY": {
+      "type": "custom-content",
+      "blocks": {
+        "image_qRpabz": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/17_d93a5507-bf05-4100-b5a6-d5162f7d56f1.png",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/karaku-female/products/krq-zy-504kl53",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_tLwUMc": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/22_05e61fbd-22f9-429d-afc0-b33403817e69.png",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/karaku-female/products/krk-zy-305cp56",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_33aCyM": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/1_2ed5ea42-effb-4991-ad27-e9a818cee33d.png",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/karaku-female/products/krq-lyb330-ht175",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_J6FTi6": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/16_e5afef04-2f4c-4684-9a20-a7c7544213b7.png",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/karaku-female/products/krq-nxab-rj03",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_qRpabz",
+        "image_tLwUMc",
+        "image_33aCyM",
+        "image_J6FTi6"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_XzGTnm": {
+      "type": "custom-content",
+      "blocks": {
+        "image_KjhahB": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/12_b7f56176-aef4-4dc8-959a-bef4c6efb9e3.png",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://minipia.myshopify.com/products/krq-ob-371",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_WqGy7C": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/20220425135007.png",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/karaku-female/products/krq-ob-523",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_iMKYT6": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/11_e4cf7137-7533-4894-82c8-e883800a2fa9.png",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/karaku-female/products/krq-ob-524",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_E6nGMm": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/9_7df7258a-ca52-48d3-8846-dda5733accd3.png",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/karaku-female/products/krq-nxab-rc15",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_KjhahB",
+        "image_WqGy7C",
+        "image_iMKYT6",
+        "image_E6nGMm"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "custom_content_kBdrC4": {
+      "type": "custom-content",
+      "blocks": {
+        "image_YVPEdP": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/7_1cf7aea3-9e3f-422f-a11a-1d9e854574a6.png",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/karaku-female/products/krk-zy-311zk05",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "shadow"
+          }
+        },
+        "image_3fgpiV": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/4_2e689e7e-6a7e-492b-b822-82d1c7d2aed6.png",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/karaku-female/products/krq-lyb330-hc14",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_VnWCHk": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/8_5c690714-b94a-4e86-9386-c20df1f765e7.png",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/karaku-female/products/krq-zy-504cq03",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        },
+        "image_wetzWc": {
+          "type": "image",
+          "settings": {
+            "width": "half",
+            "image": "shopify://shop_images/2_135e6905-504e-44aa-bda8-bcab6a9632fe.png",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "https://www.karakubuy.com/collections/karaku-female/products/krq-zy-504kl53",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_YVPEdP",
+        "image_3fgpiV",
+        "image_VnWCHk",
+        "image_wetzWc"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "1635220294067ab8a1": {
+      "type": "collection-list",
+      "blocks": {
+        "22a68d2d-1230-4f98-96b2-5b4029b9dc36": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "アクセサリー-小物",
+            "image": "shopify://shop_images/QQ_20211029184022.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "ba2cf3cc-2a86-4841-9a15-fa4bbb764def": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "セールから探す",
+            "image": "shopify://shop_images/QQ_20211029184109.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "22a68d2d-1230-4f98-96b2-5b4029b9dc36",
+        "ba2cf3cc-2a86-4841-9a15-fa4bbb764def"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 2,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "165085357113887f8a": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "kqアクセサリー",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "1648722075b07e0bcc": {
+      "type": "video",
+      "disabled": true,
+      "settings": {
+        "video_external": "https://www.youtube.com/watch?v=_9VUPq3SxOc",
+        "video_description": "",
+        "text_alignment": "center center",
+        "full_width": false,
+        "overlay_style": "full"
+      }
+    },
+    "1649416496d48e07ac": {
+      "type": "collection-list",
+      "blocks": {
+        "86d8cae9-cd76-4853-9a35-cc75e2a69085": {
+          "type": "collection",
+          "disabled": true,
+          "settings": {
+            "collection": "人気商品",
+            "image": "shopify://shop_images/6179f0b1b19b03c3d07cba04cd18767f.png",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "9152f5d4-8e11-462a-972d-926fb28aaf2d": {
+          "type": "collection",
+          "settings": {
+            "collection": "japan-blue-日本の国土を象徴する海と空の青",
+            "image": "shopify://shop_images/PC_a2b9630c-cd59-4b6d-b415-ed30dde4d102.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "86d8cae9-cd76-4853-9a35-cc75e2a69085",
+        "9152f5d4-8e11-462a-972d-926fb28aaf2d"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 2,
+        "color_scheme": "default",
+        "full_width": true,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    }
+  },
+  "order": [
+    "1650791533bfdc47b9",
+    "16507883422a262129",
+    "gallery_A3WmtG",
+    "main",
+    "1651030641805d6e6e",
+    "custom_content_h38mRi",
+    "custom_content_6Gf7gt",
+    "custom_content_YJPzHY",
+    "custom_content_XzGTnm",
+    "custom_content_kBdrC4",
+    "1635220294067ab8a1",
+    "1635765484031572a6",
+    "165085357113887f8a",
+    "1648722075b07e0bcc",
+    "1649416496d48e07ac"
+  ]
+}

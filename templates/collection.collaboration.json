@@ -1,0 +1,641 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "rich_text_433CPC": {
+      "type": "rich-text",
+      "blocks": {
+        "heading_8Ri3Qg": {
+          "type": "heading",
+          "settings": {
+            "title": "COLLABORATION",
+            "use_h1": true
+          }
+        },
+        "text_cXjM4m": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>Use this text to share information about your store with your customers. Describe products, share announcements, or welcome customers to your store.</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "heading_8Ri3Qg",
+        "text_cXjM4m"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "featured_collection_4bdEWx": {
+      "type": "featured-collection",
+      "disabled": true,
+      "name": "Featured collection",
+      "settings": {
+        "title": "KARAKU×石黒亜矢子",
+        "collection": "karaku-石黒亜矢子",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "image_with_text_nx4CiG": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_HxgQyQ": {
+          "type": "heading",
+          "settings": {
+            "title": "KARAKU×田中ラオウ",
+            "use_h1": false
+          }
+        },
+        "text_wAJfRn": {
+          "type": "text",
+          "settings": {
+            "text": "<p>― 鼓舞と調和の抽象表現 ―コンセプトは「鼓舞」。 鑑賞者の心を奮い立たせるエネルギーを描く。滲みと筆致のバランスによる“調和”を重視し、 想像力そのものを刺激するビジュアルへ。<br/><br/></p>",
+            "enlarge_text": false
+          }
+        },
+        "button_t4nd46": {
+          "type": "button",
+          "settings": {
+            "button_label": "view more",
+            "button_link": "https://karakubuy.com/collections/karaku-raoutanaka",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_HxgQyQ",
+        "text_wAJfRn",
+        "button_t4nd46"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/096__banner_1200_e38821b1-189f-4116-9332-dae30ff3e554.jpg",
+        "image_width": 700,
+        "image_link": "https://karakubuy.com/collections/karaku-raoutanaka",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "featured_collection_eU8kXf": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "KARAKU×田中ラオウ",
+        "collection": "karaku-raoutanaka",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "image_with_text_slider_LerwwL": {
+      "type": "image-with-text-slider",
+      "blocks": {
+        "text_slider_zPHydq": {
+          "type": "TextSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/093_365_banner_1200_881721b7-de48-41ba-a62e-16f0dc41e5ee.jpg",
+            "title": "KaraKuｘ365CAT.ART",
+            "use_h1": true,
+            "text": "<p><strong>猫😻ねこイラストレーター 365CAT.ART</strong>吾輩は猫絵描きであるNO CAT NO LIFE❤️<br/><br/>限定発売のかわいいTシャツ、アートとファッションが完璧に融合し、独自の魅力と快適な着心地を提供します。</p>",
+            "enlarge_text": false,
+            "button_label": "View More",
+            "button_link": "https://karakubuy.com/collections/karaku-365cat-art",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "text_slider_zPHydq"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "1",
+        "crop_ratio": "1.0",
+        "enable_arrows": true
+      }
+    },
+    "featured_collection_r9BcLE": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "KARAKU×365CAT.ART",
+        "collection": "karaku-365cat-art",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "image_with_text_wmVrxg": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_Em8dre": {
+          "type": "heading",
+          "settings": {
+            "title": "川又聡",
+            "use_h1": false
+          }
+        },
+        "text_KDJkGJ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>川又聡氏は、動物を主なモチーフとし、緻密な筆致と野性味を併せ持つ作品を描く日本画家。個展やグループ展を中心に精力的に作品を発表し続けており、その表現は“完成された美”の中にあえて余白を残す独特のアート観に特徴があります。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_jeBDNw": {
+          "type": "button",
+          "settings": {
+            "button_label": "VIEW MORE",
+            "button_link": "https://karakubuy.com/collections/karaku-satoshikawamata",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_Em8dre",
+        "text_KDJkGJ",
+        "button_jeBDNw"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/259__banner_1200.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "featured_collection_EdY3tG": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "Karaku×川又聡",
+        "collection": "karaku-satoshikawamata",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "image_with_text_kXxUcK": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_kDM4hF": {
+          "type": "heading",
+          "settings": {
+            "title": "石黒亜矢子",
+            "use_h1": false
+          }
+        },
+        "text_miKPJU": {
+          "type": "text",
+          "settings": {
+            "text": "<p>石黒亜矢子（Ishiguro Ayako）は、日本のイラストレーターであり、妖怪や幻想的な動物、神秘的なテーマを描くことで知られています。彼女の作風は独特で、伝統的な日本の妖怪文化と現代的なアート感覚を融合させています。主な作品には、書籍の挿絵や絵本、展覧会用の作品などがあります。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_cHneXC": {
+          "type": "button",
+          "settings": {
+            "button_label": "View More",
+            "button_link": "https://karakubuy.com/collections/karaku-ishiguroayako",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_kDM4hF",
+        "text_miKPJU",
+        "button_cHneXC"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/3_53dbc012-dc8c-46a2-82e4-0272192bb858.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "1"
+      }
+    },
+    "featured_collection_LJTtFr": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "KARAKU×石黒亜矢子",
+        "collection": "karaku-ishiguroayako",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "image_with_text_CNMw64": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_dGEXgb": {
+          "type": "heading",
+          "settings": {
+            "title": "KARAKU×甲馬",
+            "use_h1": false
+          }
+        },
+        "text_pgxEFj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>― 現代浮世絵・その“次の瞬間” ―古典浮世絵に描かれた「猫の怪」の“その後”を描く試み。暗闇から覗く眼差し、息遣いまで感じる存在感を、デジタル技法で現代へ接続。<br/><br/></p>",
+            "enlarge_text": false
+          }
+        },
+        "button_YgpCcR": {
+          "type": "button",
+          "settings": {
+            "button_label": "view more",
+            "button_link": "https://karakubuy.com/collections/karaku-koma",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_dGEXgb",
+        "text_pgxEFj",
+        "button_YgpCcR"
+      ],
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/095__banner_1200_f34e4332-8a0a-4cdf-836f-66bfecceeabd.jpg",
+        "image_width": 700,
+        "image_link": "https://karakubuy.com/collections/karaku-koma",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "featured_collection_kqzt8k": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "KARAKU×甲馬",
+        "collection": "karaku-koma",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "image_with_text_yWmhTX": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_fFR8cV": {
+          "type": "heading",
+          "settings": {
+            "title": "KARAKU×彩蘭弥",
+            "use_h1": false
+          }
+        },
+        "text_emKgfM": {
+          "type": "text",
+          "settings": {
+            "text": "<p>― 生命力と躍動の日本画 ―那須与一「扇の的」に着想を得て、 生命の力強さと前向きなエネルギーを描いた作品群。和紙・岩絵具・箔の質感を現代プリントへと変換。<br/></p>",
+            "enlarge_text": false
+          }
+        },
+        "button_XM3EGw": {
+          "type": "button",
+          "settings": {
+            "button_label": "view more",
+            "button_link": "https://karakubuy.com/collections/karaku-alaya",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_fFR8cV",
+        "text_emKgfM",
+        "button_XM3EGw"
+      ],
+      "disabled": true,
+      "name": "Image with text",
+      "settings": {
+        "image": "shopify://shop_images/094_alaya_banner_1200_357e8c51-10f1-4cb0-8636-106fc7b28a4a.jpg",
+        "image_width": 700,
+        "image_link": "https://karakubuy.com/collections/karaku-alaya",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "featured_collection_LX6GB7": {
+      "type": "featured-collection",
+      "disabled": true,
+      "name": "Featured collection",
+      "settings": {
+        "title": "KARAKU×彩蘭弥",
+        "collection": "karaku-alaya",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "image_with_text_slider_GbMBVn": {
+      "type": "image-with-text-slider",
+      "blocks": {
+        "text_slider_JzTyKp": {
+          "type": "TextSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/KARAKU_5_minatoyayoshiki_T_4_16_T.jpg",
+            "title": "KARAKUｘMinatoyayoshiki",
+            "use_h1": true,
+            "text": "<p>江戸の浮世絵に宿る“粋”と、現代の“遊び心”が交差する。うに丼、猫かぶり茶碗、猫かぶりお椀、猫かぶり熊ねこ、猫かぶり湯香みが、Tシャツになって現代に蘇る！</p>",
+            "enlarge_text": false,
+            "button_label": "View More",
+            "button_link": "https://karakubuy.com/collections/karaku%EF%BD%98minatoyayoshiki",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "text_slider_JzTyKp"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "1",
+        "crop_ratio": "1.0",
+        "enable_arrows": true
+      }
+    },
+    "featured_collection_qFNEBM": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "KARAKUｘMinatoyayoshiki",
+        "collection": "karakuｘminatoyayoshiki",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "image_with_text_slider_yUpemA": {
+      "type": "image-with-text-slider",
+      "blocks": {
+        "text_slider_Bqj3Nw": {
+          "type": "TextSlider",
+          "disabled": true,
+          "settings": {
+            "slider_img": "shopify://shop_images/Special_Collaboration_1.jpg",
+            "title": "KARAKUｘ鹿間麻衣",
+            "use_h1": true,
+            "text": "<p>日本画家•鹿間麻衣氏とのコラボレーションアイテムが登場！静けさの中に物語を感じさせる、優しいタッチの一枚の絵。菊の花々の間から、ふんわりと顔を覗かせる猫たち。</p>",
+            "enlarge_text": false,
+            "button_label": "View More",
+            "button_link": "https://karakubuy.com/collections/karaku-%E9%B9%BF%E9%96%93%E9%BA%BB%E8%A1%A3",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "text_slider_Bqj3Nw"
+      ],
+      "settings": {
+        "color_scheme": "1",
+        "crop_ratio": "1.0",
+        "enable_arrows": true
+      }
+    },
+    "image_with_text_slider_dLgqJV": {
+      "type": "image-with-text-slider",
+      "blocks": {
+        "text_slider_MTc34R": {
+          "type": "TextSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/SHOP_kota_nakatsubo_3.jpg",
+            "title": "KaraKuｘ中坪宏太",
+            "use_h1": false,
+            "text": "<p>UKIYO-E painter / Digital Artist</p><p>Karaku浮世絵シリーズの衣服とKota Nakatsuboの手描き浮世絵龍の要素が融合し、日本文化の精髄を深く表現しています。精緻な手描き工芸と鮮やかな色彩が、各アイテムに独自の特色を与えています。</p>",
+            "enlarge_text": false,
+            "button_label": "View More",
+            "button_link": "https://karakubuy.com/collections/karakuxkotanakatsubo",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "text_slider_MTc34R"
+      ],
+      "settings": {
+        "color_scheme": "1",
+        "crop_ratio": "1.0",
+        "enable_arrows": false
+      }
+    },
+    "featured_collection_acjdNw": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "KaraKuｘ中坪宏太",
+        "collection": "karakuxkotanakatsubo",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [
+          "shirts",
+          "スウェット",
+          "ジャケット-アウター",
+          "アクセサリー",
+          "short-sleeve-t-shirts",
+          "short-sleeve-shirts",
+          "カーゴパンツ",
+          "coat",
+          "デニムパンツ"
+        ],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "tag_link_xQzLVX": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    },
+    "text_editor_qVBiHq": {
+      "type": "text-editor",
+      "settings": {
+        "data_wrapper_1250": false,
+        "text1": "<p>{{ collection.metafields.commodity.productintroduction | metafield_tag }}</p>"
+      }
+    },
+    "shop_the_look_drKGgk": {
+      "type": "shop-the-look",
+      "blocks": {
+        "subheading_f8BCpi": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "Tell your story"
+          }
+        },
+        "heading_YQLyQ6": {
+          "type": "heading",
+          "settings": {
+            "title": "Shop the look",
+            "heading_max_width": 10,
+            "title_size": 56,
+            "title_size_mobile": 26,
+            "use_h1": false
+          }
+        },
+        "text_iwAaUQ": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Promote your products with this section</p>",
+            "enlarge_text": true
+          }
+        }
+      },
+      "block_order": [
+        "subheading_f8BCpi",
+        "heading_YQLyQ6",
+        "text_iwAaUQ"
+      ],
+      "disabled": true,
+      "settings": {
+        "video_external": "",
+        "video_description": "",
+        "height": "fixed",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "product_list": [],
+        "products_alignment": "bottom right",
+        "product_card_layout": "landscape",
+        "show_swatches": true,
+        "full_width": true,
+        "text_alignment": "top left",
+        "mobile_overlay_over": false,
+        "overlay_style": "shadow"
+      }
+    }
+  },
+  "order": [
+    "rich_text_433CPC",
+    "featured_collection_4bdEWx",
+    "image_with_text_nx4CiG",
+    "featured_collection_eU8kXf",
+    "image_with_text_slider_LerwwL",
+    "featured_collection_r9BcLE",
+    "image_with_text_wmVrxg",
+    "featured_collection_EdY3tG",
+    "image_with_text_kXxUcK",
+    "featured_collection_LJTtFr",
+    "image_with_text_CNMw64",
+    "featured_collection_kqzt8k",
+    "image_with_text_yWmhTX",
+    "featured_collection_LX6GB7",
+    "image_with_text_slider_GbMBVn",
+    "featured_collection_qFNEBM",
+    "image_with_text_slider_yUpemA",
+    "image_with_text_slider_dLgqJV",
+    "featured_collection_acjdNw",
+    "main",
+    "tag_link_xQzLVX",
+    "text_editor_qVBiHq",
+    "shop_the_look_drKGgk"
+  ]
+}

@@ -1,0 +1,233 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "6deecddc-4846-48c0-bee0-53cfab0095a6": {
+      "type": "photo-banner",
+      "settings": {
+        "image": "shopify://shop_images/20231206-091640.jpg",
+        "mobile_image": "shopify://shop_images/20231206-091647.jpg",
+        "banner_link": "",
+        "photo_banner_col": "#c92124"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": false,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "enable_sticky_filter": true,
+        "image_position": "center center"
+      }
+    },
+    "e9316b37-28ec-4a9f-a0f5-47746849fcd0": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "福袋中身一覧",
+        "collection": "karaku-fukubukuro07",
+        "show_vendor": false,
+        "enable_carousel": false,
+        "grid": 5,
+        "rows": 4,
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "1652174971ed44938d": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    },
+    "d81e4cfa-bca6-4af4-a466-238d0c62248d": {
+      "type": "collection-list",
+      "blocks": {
+        "6fcdded1-882c-483b-a7cd-1e44edb7ac36": {
+          "type": "collection",
+          "settings": {
+            "collection": "2023-blackfriday-sale",
+            "image": "shopify://shop_images/20231110-100442_540x_14d4035f-e494-4ac4-9981-e15dec2d49f6.webp"
+          }
+        },
+        "3233e550-7b2e-4788-8432-836b4c4d1e8e": {
+          "type": "collection",
+          "settings": {
+            "collection": "2023-on-off-items",
+            "image": "shopify://shop_images/55.webp"
+          }
+        },
+        "857a675b-fc7a-4bde-9fcb-0bf4fce462cf": {
+          "type": "collection",
+          "settings": {
+            "collection": "autumn-sweatshirt",
+            "image": "shopify://shop_images/2_540x_c0c6e0fa-c9e1-424e-a2dd-130562f82eb6.webp"
+          }
+        },
+        "36e80eac-6889-4fd7-85e4-3d6fd1f829a9": {
+          "type": "collection",
+          "settings": {
+            "collection": "must-have-items-for-early-autumn",
+            "image": "shopify://shop_images/12_540x_ee49f765-18d5-4673-b823-f103390f8a8e.webp"
+          }
+        }
+      },
+      "block_order": [
+        "6fcdded1-882c-483b-a7cd-1e44edb7ac36",
+        "3233e550-7b2e-4788-8432-836b4c4d1e8e",
+        "857a675b-fc7a-4bde-9fcb-0bf4fce462cf",
+        "36e80eac-6889-4fd7-85e4-3d6fd1f829a9"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "最新の特集",
+        "enable_carousel": true,
+        "grid": 4,
+        "full_width": false
+      }
+    },
+    "fa9dfc57-29d9-429a-ad78-f1c3b0e73d03": {
+      "type": "collection-list",
+      "blocks": {
+        "a1cfda4d-2e5f-4eef-844f-e0f5bb378673": {
+          "type": "collection",
+          "settings": {
+            "collection": "casual"
+          }
+        },
+        "9da0261c-e6c2-4a9a-bbfc-119356e53e8e": {
+          "type": "collection",
+          "settings": {
+            "collection": "business",
+            "image": "shopify://shop_images/09b45cc61e451a48cc831f5c6eb891a0.jpg"
+          }
+        },
+        "687282e0-14a4-4d42-8dcb-0babe002b96a": {
+          "type": "collection",
+          "settings": {
+            "collection": "outdoor-sports",
+            "image": "shopify://shop_images/e0b1bc00e2371c92c676cd7a426a4d4d.jpg"
+          }
+        },
+        "6185350f-3346-4610-8759-0a714c2e8490": {
+          "type": "collection",
+          "settings": {
+            "collection": "navy",
+            "image": "shopify://shop_images/85e3b13ed818a2cb62f8b53434edd859.jpg"
+          }
+        }
+      },
+      "block_order": [
+        "a1cfda4d-2e5f-4eef-844f-e0f5bb378673",
+        "9da0261c-e6c2-4a9a-bbfc-119356e53e8e",
+        "687282e0-14a4-4d42-8dcb-0babe002b96a",
+        "6185350f-3346-4610-8759-0a714c2e8490"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "シーンから探す",
+        "enable_carousel": false,
+        "grid": 4,
+        "full_width": false
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "show_view_all": true,
+        "full_width": false
+      }
+    },
+    "af970221-4185-4216-b6ef-9091f211fc82": {
+      "type": "banner-background",
+      "blocks": {
+        "template--15421977362651__af970221-4185-4216-b6ef-9091f211fc82-bannerImg-1": {
+          "type": "bannerImg",
+          "settings": {
+            "banner_img": "shopify://shop_images/20231127223625.jpg",
+            "banner_url": "shopify://collections/週替わりでお買い得アイテム",
+            "banner_text": "最大50％OFF‼　Weekly Sale開催中！",
+            "banner_btn": "詳しくはこちら"
+          }
+        },
+        "template--15421977362651__af970221-4185-4216-b6ef-9091f211fc82-bannerImg-2": {
+          "type": "bannerImg",
+          "settings": {
+            "banner_img": "shopify://shop_images/20231127223617.jpg",
+            "banner_url": "shopify://collections/all-products",
+            "banner_text": "まとめ買いがお得！期間中何度でも使えるクーポン！",
+            "banner_btn": "詳しくはこちら"
+          }
+        }
+      },
+      "block_order": [
+        "template--15421977362651__af970221-4185-4216-b6ef-9091f211fc82-bannerImg-1",
+        "template--15421977362651__af970221-4185-4216-b6ef-9091f211fc82-bannerImg-2"
+      ],
+      "disabled": true,
+      "settings": {
+        "banner_bg": "#ffffff",
+        "text_color": "#000000",
+        "btn_color": "#de5511",
+        "btn_font_col": "#ffffff",
+        "banner_tit_col": "#000000",
+        "banner_title": "最新キャンペーン情報"
+      }
+    },
+    "1649757612ea7476eb": {
+      "type": "text-editor",
+      "settings": {
+        "text1": "<p>{{ collection.metafields.commodity.productintroduction | metafield_tag }}</p>"
+      }
+    }
+  },
+  "order": [
+    "6deecddc-4846-48c0-bee0-53cfab0095a6",
+    "main",
+    "e9316b37-28ec-4a9f-a0f5-47746849fcd0",
+    "1652174971ed44938d",
+    "d81e4cfa-bca6-4af4-a466-238d0c62248d",
+    "fa9dfc57-29d9-429a-ad78-f1c3b0e73d03",
+    "1635765484031572a6",
+    "af970221-4185-4216-b6ef-9091f211fc82",
+    "1649757612ea7476eb"
+  ]
+}

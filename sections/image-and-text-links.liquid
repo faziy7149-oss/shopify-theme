@@ -1,0 +1,309 @@
+<style>
+  .section-id-{{ section.id }} .data-width {
+    max-width: {{ section.settings.max_width_screen }}px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+  .section-id-{{ section.id }} .image-and-links-wrap {
+    display: flex;
+    width: 100%;
+    gap: 2rem;
+    flex-direction: {{ section.settings.image_position }};
+    justify-content: space-evenly;
+  }
+  .section-id-{{ section.id }} .image-and-links-wrap .image-text-img {
+    /* width: 45%; */
+    flex: 1 1 auto;
+  }
+  .section-id-{{ section.id }} .image-and-links-wrap .text-link-box {
+    /* width: 25%; */
+    flex: 0.2 1 auto;
+  }
+  .section-id-{{ section.id }} .text-link-list li {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1rem 0;
+    border-bottom: 1px dashed #333;
+  }
+  .section-id-{{ section.id }} .image-and-links-wrap .text-row span:first-child {
+    color: {{ section.settings.title_color }};
+    display: inline-block;
+    width: 10rem;
+  }
+  .section-id-{{ section.id }} .image-and-links-wrap .btn_stylingall {
+    text-align: center;
+    margin-top: 2rem;
+  }
+  .section-id-{{ section.id }} .image-and-links-wrap .discounted-price {
+    color: {{ section.settings.discounted_price }};
+    display: inline-block;
+    margin-right: 4px;
+    width: 4rem;
+  }
+  .section-id-{{ section.id }} .image-and-links-wrap .original-price {
+    color: {{ section.settings.original_price }};
+    opacity: 0.6;
+    text-decoration: line-through;
+  }
+  .section-id-{{ section.id }} .image-and-links-wrap .text-row {
+    line-height: 1;
+  }
+  .section-id-{{ section.id }} .image-and-links-wrap .text-buy {
+    font-size: 14px;
+    font-weight: 500;
+    padding: 4px 12px;
+    border: #333 1px solid;
+    line-height: 1;
+    cursor: pointer;
+    vertical-align: baseline;
+    transition: all 0.2s ease-in-out;
+  }
+  .section-id-{{ section.id }} .image-and-links-wrap .text-buy:hover {
+    background: #333;
+    color: #fff;
+  }
+  @media (max-width: 767px) {
+    .section-id-{{ section.id }} .image-and-links-wrap {
+      flex-direction: column-reverse;
+    }
+    .section-id-{{ section.id }} .image-and-links-wrap .text-link-box {
+      margin: 0 auto;
+      width: 85%;
+    }
+    .section-id-{{ section.id }} .image-and-links-wrap .text-row span:first-child {
+      width: 5rem;
+    }
+  }
+</style>
+<div class="section-id-{{ section.id }}">
+  <div class="container data-width">
+    {% comment %} 外层容器 {% endcomment %}
+    <div class="image-and-links-wrap">
+      {% comment %} 图片比例 {% endcomment %}
+      {%- liquid
+        if section.blocks.size > 0
+          if section.settings.coll_grid_image_shape == 'portrait-23'
+            assign chosen_aspect_ratio = 0.67
+          elsif section.settings.coll_grid_image_shape == 'portrait-45'
+            assign chosen_aspect_ratio = 0.8
+          elsif section.settings.coll_grid_image_shape == 'square'
+            assign chosen_aspect_ratio = 1.0
+          elsif section.settings.coll_grid_image_shape == 'landscape-54'
+            assign chosen_aspect_ratio = 1.25
+          elsif section.settings.coll_grid_image_shape == 'landscape-32'
+            assign chosen_aspect_ratio = 1.50
+          elsif section.settings.coll_grid_image_shape == 'tallest'
+            assign chosen_aspect_ratio = 1.78
+          endif
+        endif
+      -%}
+      {% comment %} 文本编辑层 {% endcomment %}
+      <div class="text-link-box">
+        <ul class="text-link-list">
+          {% for block in section.blocks %}
+            <li>
+              <div class="text-row">
+                <span>{{ block.settings.list_text }}</span>
+                <span class="discounted-price">{{ block.settings.discounted_price }}</span>
+                <span class="original-price">{{ block.settings.original_price }}</span>
+              </div>
+              {% comment %} 购买按钮 {% endcomment %}
+              {% if block.settings.link != blank %}
+                <a href="{{ block.settings.link }}" class="text-link">
+              {% endif %}
+              <div class="text-buy">{{ block.settings.text }}</div>
+              {% if block.settings.link != blank %}
+                </a>
+              {% endif %}
+            </li>
+          {% endfor %}
+        </ul>
+
+        {% comment %} 查看全部按钮 {% endcomment %}
+        <div class="btn_stylingall">
+          {% if section.settings.styling_all_link != blank %}
+            <a href="{{ section.settings.styling_all_link }}">
+          {% endif %}
+          
+          {% if section.settings.styling_all_text != blank %}
+            <div class="btn btn_stylingall_text">{{ section.settings.styling_all_text }}</div>
+          {% endif %}
+
+          {% if section.settings.styling_all_link != blank %}
+            </a>
+          {% endif %}
+        </div>
+      </div>
+
+      {% comment %} 图片层 {% endcomment %}
+      <div class="image-text-img">
+        {% render 'image' with section.settings.image,
+          sizes: '3000px',
+          loading: 'lazy',
+          custom_aspect_ratio: chosen_aspect_ratio,
+          class: 'image-item'
+        %}
+      </div>
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "Image and Text Links",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "Image"
+    },
+    {
+      "type": "select",
+      "id": "coll_grid_image_shape",
+      "label": "Image shape",
+      "options": [
+        {
+          "value": "shortest",
+          "label": "Automatic (shortest image)"
+        },
+        {
+          "value": "tallest",
+          "label": "Landscape (16:9)"
+        },
+        {
+          "value": "landscape-32",
+          "label": "Landscape (3:2)"
+        },
+        {
+          "value": "landscape-54",
+          "label": "Landscape (5:4)"
+        },
+        {
+          "value": "square",
+          "label": "Square (1:1)"
+        },
+        {
+          "value": "portrait-45",
+          "label": "Portrait (4:5)"
+        },
+        {
+          "value": "portrait-23",
+          "label": "Portrait (2:3)"
+        }
+      ],
+      "default": "square"
+    },
+    {
+      "type": "select",
+      "id": "image_position",
+      "label": "Image position",
+      "options": [
+        {
+          "value": "row",
+          "label": "Right"
+        },
+        {
+          "value": "row-reverse",
+          "label": "Left"
+        },
+        {
+          "value": "column-reverse",
+          "label": "Top"
+        },
+        {
+          "value": "column",
+          "label": "Bottom"
+        }
+      ],
+      "default": "row"
+    },
+    {
+      "type": "text",
+      "id": "styling_all_text",
+      "label": "Button Text",
+      "default": "STYLING ALL"
+    },
+    {
+      "type": "text",
+      "id": "styling_all_link",
+      "label": "Link"
+    },
+    {
+      "type": "range",
+      "id": "max_width_screen",
+      "label": "Module width",
+      "min": 600,
+      "max": 2200,
+      "step": 20,
+      "unit": "px",
+      "default": 1200
+    },
+    {
+      "type": "color",
+      "id": "title_color",
+      "label": "Title Color",
+      "default": "#333"
+    },
+    {
+      "type": "color",
+      "id": "discounted_price",
+      "label": "Discounted Price Color",
+      "default": "#c20000"
+    },
+    {
+      "type": "color",
+      "id": "original_price",
+      "label": "Original Price Color",
+      "default": "#333"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "text-link",
+      "name": "Text Link",
+      "settings": [
+        {
+          "type": "text",
+          "id": "list_text",
+          "label": "List Text",
+          "default": "SHIRT"
+        },
+        {
+          "type": "text",
+          "id": "discounted_price",
+          "label": "Discounted Price",
+          "default": "$9,999"
+        },
+        {
+          "type": "text",
+          "id": "original_price",
+          "label": "Original Price",
+          "default": "$10,000"
+        },
+        {
+          "type": "text",
+          "id": "text",
+          "label": "Button Text",
+          "default": "BUY"
+        },
+        {
+          "type": "text",
+          "id": "link",
+          "label": "Link"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Image and Text Links",
+      "blocks": [
+        {
+          "type": "text-link"
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

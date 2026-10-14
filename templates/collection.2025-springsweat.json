@@ -1,0 +1,669 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "4de5ffdf-527f-4fd5-998a-14b64e9ecf78": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16894097031387__4de5ffdf-527f-4fd5-998a-14b64e9ecf78-image-2": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20250312-154422.jpg",
+            "mobile_image": "shopify://shop_images/20250312-154427.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16894097031387__4de5ffdf-527f-4fd5-998a-14b64e9ecf78-image-2"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_list_rQ8KLw": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_UyEirN": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/720_4bb510dd-af0d-4c41-98fe-1ed663870394.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_UyEirN"
+      ],
+      "settings": {
+        "img_animation": "none"
+      }
+    },
+    "image_list_m4LCwc": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_wf9f8A": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/1_8b160adb-3911-4f90-aea6-007210bac02c.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_wf9f8A"
+      ],
+      "settings": {
+        "img_animation": "shake"
+      }
+    },
+    "image_block_jk4Cim": {
+      "type": "image-block",
+      "blocks": {
+        "image_g7Pgzc": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-1.png",
+            "image_link": "https://karakubuy.com/products/krk-md-ts2207028-1?_pos=3&_sid=8cd7666f5&_ss=r&variant=44344029184219",
+            "title_big": "微起毛　袖配色切り替えニットスウェット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_C76yVL": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-2.png",
+            "image_link": "https://karakubuy.com/products/krk-wy269030?_pos=2&_sid=56fae7bf0&_ss=r&variant=42128191357147",
+            "title_big": "オーダーメイドリブ　クルーネックスウェット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_YC3zfz": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-3.png",
+            "image_link": "https://karakubuy.com/products/dh090703?_pos=3&_sid=a09c7cee4&_ss=r&variant=40903245824178",
+            "title_big": "アメカジヘビーウェイト海軍クルーネックスウェット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_qmVc93": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-4.png",
+            "image_link": "https://karakubuy.com/products/krk-md-tw2107050?_pos=4&_sid=51bfe158d&_ss=r&variant=43424118210779",
+            "title_big": "袖先サムホール　ポーラーフリーススウェット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        }
+      },
+      "block_order": [
+        "image_g7Pgzc",
+        "image_C76yVL",
+        "image_YC3zfz",
+        "image_qmVc93"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#3d1308"
+      }
+    },
+    "adjusting_spacing_jyzFNr": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -4
+      }
+    },
+    "url_text_aDmwHH": {
+      "type": "url-text",
+      "settings": {
+        "url_text": "shopify://collections/クルーネックスウェット",
+        "text_url": "CHECK MORE",
+        "btn_color": "#cf9761",
+        "btn_color_hover": "#3d1308",
+        "btn_text_color": "#fffeee",
+        "btn_text_color_hover": "#fffeee",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 20,
+        "url_font_size_moble": 12,
+        "img_postion_size_pc": 55,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "image_list_yQc4Mh": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_Kp9Ndt": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/2_294361b3-0356-4c10-90f4-37acba61b89f.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_Kp9Ndt"
+      ],
+      "settings": {
+        "img_animation": "shake"
+      }
+    },
+    "image_block_MqwfCn": {
+      "type": "image-block",
+      "blocks": {
+        "image_Dg3i9V": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-5.png",
+            "image_link": "https://karakubuy.com/products/md-1807108?_pos=2&_sid=957322df6&_ss=r&variant=44689517969627",
+            "title_big": "米軍 40’s U.S.NAVY デッキパーカー",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_MTEV98": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-6.png",
+            "image_link": "https://karakubuy.com/products/krk-tww2201218?_pos=3&_sid=13d06a0e4&_ss=r&variant=42693764415707",
+            "title_big": "U.S.ARMY 　M-43山岳部隊パーカー",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_KLm9nh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-7.png",
+            "image_link": "https://karakubuy.com/products/krk-md-ts2107096?_pos=2&_sid=753be1b74&_ss=r&variant=43742902419675",
+            "title_big": "ポーラテックフリースハーフジップパーカー",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_wxWJge": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-8.png",
+            "image_link": "https://karakubuy.com/products/krk-md-w2001178?_pos=1&_sid=7547e2681&_ss=r&variant=42244485873883",
+            "title_big": "レタープリント　プルオーバー万能パーカー",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        }
+      },
+      "block_order": [
+        "image_Dg3i9V",
+        "image_MTEV98",
+        "image_KLm9nh",
+        "image_wxWJge"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#3d1308"
+      }
+    },
+    "adjusting_spacing_H7Fptw": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -4
+      }
+    },
+    "url_text_g7Wix7": {
+      "type": "url-text",
+      "settings": {
+        "url_text": "shopify://collections/パーカー-フーディー",
+        "text_url": "CHECK MORE",
+        "btn_color": "#cf9761",
+        "btn_color_hover": "#3d1308",
+        "btn_text_color": "#fffeee",
+        "btn_text_color_hover": "#fffeee",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 20,
+        "url_font_size_moble": 12,
+        "img_postion_size_pc": 55,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "image_list_c6QAfB": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_TWALCX": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/3_787c2e2a-e3ba-4b5d-ac30-73cc40bbff43.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_TWALCX"
+      ],
+      "settings": {
+        "img_animation": "shake"
+      }
+    },
+    "image_block_Awm3JF": {
+      "type": "image-block",
+      "blocks": {
+        "image_ke49fk": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-9.png",
+            "image_link": "https://karakubuy.com/products/krk-zyd-nwhglwy809?_pos=1&_sid=c4cb38725&_ss=r&variant=45996704989403",
+            "title_big": "ナバホ柄コンビ　ハーフジップポーラーフリースプルオーバースウェット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_nefezh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-10.png",
+            "image_link": "https://karakubuy.com/products/krk-ok1511?_pos=1&_sid=8ca2e545f&_ss=r&variant=43725153763547",
+            "title_big": "520Gヘビーウェイト　裏起毛ラグランスリーブスウェット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_W9Vkex": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-11.png",
+            "image_link": "https://karakubuy.com/products/krk-zyd-mzmsw928?_pos=2&_sid=fd95cc457&_ss=r&variant=44283104624859",
+            "title_big": "「善知安方忠義伝柄」浮世絵風プリントラグランスリーブスウェット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_zmUf4c": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-12.png",
+            "image_link": "https://karakubuy.com/products/krk-gsh-pslpjwy1111?_pos=1&_sid=8464f530d&_ss=r&variant=46245703549147",
+            "title_big": "ペイズリー柄異素材コンビ　ウエスタンハーフジップフリースプルオーバー",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        }
+      },
+      "block_order": [
+        "image_ke49fk",
+        "image_nefezh",
+        "image_W9Vkex",
+        "image_zmUf4c"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#3d1308"
+      }
+    },
+    "adjusting_spacing_UYbYGP": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -4
+      }
+    },
+    "url_text_WaPPk9": {
+      "type": "url-text",
+      "settings": {
+        "url_text": "shopify://collections/デザインスウェット",
+        "text_url": "CHECK MORE",
+        "btn_color": "#cf9761",
+        "btn_color_hover": "#3d1308",
+        "btn_text_color": "#fffeee",
+        "btn_text_color_hover": "#fffeee",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 20,
+        "url_font_size_moble": 12,
+        "img_postion_size_pc": 55,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "image_list_nQhjHN": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_HnKKzr": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/4_125af5f4-39b7-4103-b0c4-0597994103ad.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_HnKKzr"
+      ],
+      "settings": {
+        "img_animation": "shake"
+      }
+    },
+    "image_block_mecCMN": {
+      "type": "image-block",
+      "blocks": {
+        "image_FVkFyH": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-13.png",
+            "image_link": "https://karakubuy.com/products/krk-q2323?_pos=1&_sid=8cece09c8&_ss=r&variant=44278906126555",
+            "title_big": "袖ライン入り ハーフジップヘビーウェイトスウェット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_BNz6xg": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-14.png",
+            "image_link": "https://karakubuy.com/products/krk-cf-2307?_pos=1&_sid=e8b3afe50&_ss=r&variant=46071742464219",
+            "title_big": "ミニ刺繡　裏パイルコットンハーフジップパーカー",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_HNHXNP": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-15.png",
+            "image_link": "https://karakubuy.com/products/krk-mo-6618?_pos=1&_sid=b21ce78c4&_ss=r&variant=44277593669851",
+            "title_big": "配色切替 ハーフジップ裏起毛ハイネックスウェット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_YmmKjF": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-16.png",
+            "image_link": "https://karakubuy.com/products/krk-106-wy301?_pos=1&_sid=6f9b160b9&_ss=r&variant=46062762819803",
+            "title_big": "裾ドローコード付き　フリースハーフジップスウェット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        }
+      },
+      "block_order": [
+        "image_FVkFyH",
+        "image_BNz6xg",
+        "image_HNHXNP",
+        "image_YmmKjF"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#3d1308"
+      }
+    },
+    "adjusting_spacing_nBXVpF": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -4
+      }
+    },
+    "url_text_MDBMpz": {
+      "type": "url-text",
+      "settings": {
+        "url_text": "shopify://collections/ハーフジップスウェット",
+        "text_url": "CHECK MORE",
+        "btn_color": "#cf9761",
+        "btn_color_hover": "#3d1308",
+        "btn_text_color": "#fffeee",
+        "btn_text_color_hover": "#fffeee",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 20,
+        "url_font_size_moble": 12,
+        "img_postion_size_pc": 55,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "image_list_ttFG88": {
+      "type": "image-list",
+      "blocks": {
+        "imagelist_TEYtDV": {
+          "type": "imagelist",
+          "settings": {
+            "image_list_block": "shopify://shop_images/5_ff3f15bc-f6d8-429d-ba07-408eeae3be00.png",
+            "image_list_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "imagelist_TEYtDV"
+      ],
+      "settings": {
+        "img_animation": "shake"
+      }
+    },
+    "image_block_jkFeLp": {
+      "type": "image-block",
+      "blocks": {
+        "image_wd7fMW": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-17.png",
+            "image_link": "https://karakubuy.com/products/krk-gw23036?_pos=1&_sid=20f61c97f&_ss=r&variant=44434174509275",
+            "title_big": "無地5色　ドラロンハイネックスウェット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_4Tt6qh": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-18.png",
+            "image_link": "https://karakubuy.com/products/krk-cf-052?_pos=1&_sid=84388f7b0&_ss=r&variant=43692852969691",
+            "title_big": "280gヘビーウェイト　エルボーパッチ微起毛タートルネックスウェット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_9U4mQ6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-19.png",
+            "image_link": "https://karakubuy.com/products/krk-zyd-nwhpjbdl1129?_pos=1&_sid=9e1c93915&_ss=r&variant=46304001851611",
+            "title_big": "ナバホ柄コンビ　ドローストリング付きポーラーフリースプルオーバー",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        },
+        "image_4ndRPD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/440x469-20.png",
+            "image_link": "https://karakubuy.com/products/krk-27-wy562?_pos=1&_sid=ebf1dff96&_ss=r&variant=46341377163483",
+            "title_big": "無地3色　ハーフタートルネックフリースラグランスウェット",
+            "title_small": "",
+            "more_b": "View More"
+          }
+        }
+      },
+      "block_order": [
+        "image_wd7fMW",
+        "image_4Tt6qh",
+        "image_9U4mQ6",
+        "image_4ndRPD"
+      ],
+      "settings": {
+        "hide_dashed_line": true,
+        "info_color": "#3d1308"
+      }
+    },
+    "adjusting_spacing_QiXPMP": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -4
+      }
+    },
+    "url_text_NDqJXA": {
+      "type": "url-text",
+      "settings": {
+        "url_text": "shopify://collections/タートルネックスウェット",
+        "text_url": "CHECK MORE",
+        "btn_color": "#cf9761",
+        "btn_color_hover": "#3d1308",
+        "btn_text_color": "#fffeee",
+        "btn_text_color_hover": "#fffeee",
+        "url_font_weight": "bolder",
+        "url_font_size_pc": 20,
+        "url_font_size_moble": 12,
+        "img_postion_size_pc": 55,
+        "img_postion_size_moble": 55,
+        "img_postion_left_pc": 46,
+        "img_postion_top_pc": 0,
+        "img_postion_left_moble": 18,
+        "img_postion_top_moble": 0,
+        "img_postion_rotation_pc": 0,
+        "img_postion_rotation_moble": 0
+      }
+    },
+    "featured_collection_LGrrPY": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "スウェット/パーカー",
+        "collection": "sweatshirt-hoodie-1",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "c3f52148-b5ef-4a0b-8e00-34c7cff5bf62": {
+      "type": "background-image",
+      "settings": {
+        "background_color_overlay": "#e8d6c0",
+        "background_color": ""
+      }
+    }
+  },
+  "order": [
+    "4de5ffdf-527f-4fd5-998a-14b64e9ecf78",
+    "image_list_rQ8KLw",
+    "image_list_m4LCwc",
+    "image_block_jk4Cim",
+    "adjusting_spacing_jyzFNr",
+    "url_text_aDmwHH",
+    "image_list_yQc4Mh",
+    "image_block_MqwfCn",
+    "adjusting_spacing_H7Fptw",
+    "url_text_g7Wix7",
+    "image_list_c6QAfB",
+    "image_block_Awm3JF",
+    "adjusting_spacing_UYbYGP",
+    "url_text_WaPPk9",
+    "image_list_nQhjHN",
+    "image_block_mecCMN",
+    "adjusting_spacing_nBXVpF",
+    "url_text_MDBMpz",
+    "image_list_ttFG88",
+    "image_block_jkFeLp",
+    "adjusting_spacing_QiXPMP",
+    "url_text_NDqJXA",
+    "featured_collection_LGrrPY",
+    "main",
+    "c3f52148-b5ef-4a0b-8e00-34c7cff5bf62"
+  ]
+}

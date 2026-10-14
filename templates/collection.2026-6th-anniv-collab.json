@@ -1,0 +1,629 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": "{{ collection.metafields.custom.shirt.value }}",
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "slideshow_ULbEVi": {
+      "type": "slideshow",
+      "blocks": {
+        "image_mirga7": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/210__1920_0289a473-e1f1-4b2f-a918-a8326a7c010d.jpg",
+            "mobile_image": "shopify://shop_images/210__1080x1440_933da6a0-d793-4794-b809-3ab7f4d94320.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 84,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "image_mirga7"
+      ],
+      "name": "Slideshow",
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "shadow",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "image_jka3mR": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_ca3c0d49-84d7-455c-9aff-26486c13f354.png",
+        "mobile_image": "shopify://shop_images/720_743da6e8-31ff-486c-9e09-99afe3f52193.png",
+        "img_rul": ""
+      }
+    },
+    "image_9rAYHK": {
+      "type": "image",
+      "name": "365CAT.ART",
+      "settings": {
+        "pc_image": "shopify://shop_images/1_6ecc7080-0cf7-4352-a7e9-b92273949cc5.png",
+        "mobile_image": "shopify://shop_images/mb-1_a1e1a75b-d0c9-4a96-b5bc-46b968cd97ba.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_rHrUqB": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -5
+      }
+    },
+    "beams_special_grid_DJRniE": {
+      "type": "beams-special-grid",
+      "blocks": {
+        "product_item_WePWBL": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-lrj-sh260113",
+            "btn_text": "DETAIL +",
+            "btn_text2": "カートに入れる",
+            "custom_image_1": "shopify://shop_images/20260424-101030.jpg",
+            "release_text": "2026.4.30 Release",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_img_1": "shopify://shop_images/1-1_b19c38bb-ffaf-4145-bfea-e2e18cc84fe7.png",
+            "sticker_1_x": 85,
+            "sticker_1_y": 7,
+            "sticker_width": 28,
+            "sticker_1_animation": "animate-shake"
+          }
+        },
+        "product_item_VNt37q": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-zyd-sh260144",
+            "btn_text": "DETAIL +",
+            "btn_text2": "カートに入れる",
+            "custom_image_1": "shopify://shop_images/750x960-2-1_d81cce49-17bf-4af0-93d9-33640ab04977.jpg",
+            "custom_image_2": "shopify://shop_images/750x960-2_851145e8-7838-450c-9ba7-d80f03764cc9.jpg",
+            "release_text": "2026.4.30 Release",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_1_x": 10,
+            "sticker_1_y": 20,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-shake"
+          }
+        },
+        "product_item_Hiyhhx": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-zj-ht260138",
+            "btn_text": "DETAIL +",
+            "btn_text2": "カートに入れる",
+            "custom_image_1": "shopify://shop_images/750x960-3_aec74703-d964-4b61-aea3-015ccfb4955a.jpg",
+            "release_text": "2026.4.30 Release",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_img_1": "shopify://shop_images/3-1_f2404b04-2648-46d8-b348-1e313f596096.png",
+            "sticker_1_x": 70,
+            "sticker_1_y": 12,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-shake"
+          }
+        },
+        "product_item_F3TeEH": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-gsh-ht260132",
+            "btn_text": "DETAIL +",
+            "btn_text2": "カートに入れる",
+            "custom_image_1": "shopify://shop_images/750x960-4_838b63df-3a40-425d-85a9-f85828c84a99.gif",
+            "release_text": "2026.4.30 Release",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_1_x": 70,
+            "sticker_1_y": 12,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-shake"
+          }
+        }
+      },
+      "block_order": [
+        "product_item_WePWBL",
+        "product_item_VNt37q",
+        "product_item_Hiyhhx",
+        "product_item_F3TeEH"
+      ],
+      "name": "365CAT.ART",
+      "settings": {
+        "max_block_width": 1480,
+        "scrolling_label_bg": "#ffffff",
+        "scrolling_label_txt": "#ec4111"
+      }
+    },
+    "image_MNDhJd": {
+      "type": "image",
+      "name": "彩蘭弥",
+      "settings": {
+        "pc_image": "shopify://shop_images/20260430-100334.png",
+        "mobile_image": "shopify://shop_images/20260430-100345.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_fWX9Ec": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -5
+      }
+    },
+    "beams_special_grid_rNEbAP": {
+      "type": "beams-special-grid",
+      "blocks": {
+        "product_item_LegP4U": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-zj-ayt260154",
+            "btn_text": "DETAIL +",
+            "btn_text2": "カートに入れる",
+            "custom_image_1": "shopify://shop_images/750x960-1_acbec98c-c95f-47f6-b81e-a8fb7db91745.jpg",
+            "custom_image_2": "shopify://shop_images/20260422-180632.jpg",
+            "release_text": "2026.4.30Release",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_img_1": "shopify://shop_images/01_ad617c9f-2630-42a9-bca6-12f20aff1c45.png",
+            "sticker_1_x": 59,
+            "sticker_1_y": 5,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-shake"
+          }
+        },
+        "product_item_yzry66": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-zyd-aysh260141",
+            "btn_text": "DETAIL +",
+            "btn_text2": "カートに入れる",
+            "custom_image_1": "shopify://shop_images/750x960-2_0865b0ae-ee39-4b26-9aa7-7ea68836428a.jpg",
+            "custom_image_2": "shopify://shop_images/750x960-2-1_3c1c0e50-d446-4244-8886-be2aef5540a0.jpg",
+            "release_text": "2026.4.30Release",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_1_x": 80,
+            "sticker_1_y": 56,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-flip"
+          }
+        },
+        "product_item_T3TNMb": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-lsx-ayshs260135",
+            "btn_text": "DETAIL +",
+            "btn_text2": "カートに入れる",
+            "custom_image_1": "shopify://shop_images/750x960-3_2aab9e44-5c54-4034-9554-1cc2f23cd410.gif",
+            "release_text": "2026.4.30Release",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_1_x": 70,
+            "sticker_1_y": 12,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-shake"
+          }
+        },
+        "product_item_xM9CWr": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-lsx-aysh260136",
+            "btn_text": "DETAIL +",
+            "btn_text2": "カートに入れる",
+            "custom_image_1": "shopify://shop_images/750x960-4_43365698-58a5-452e-87df-a309681ad6e2.jpg",
+            "release_text": "2026.4.30Release",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_1_x": 70,
+            "sticker_1_y": 12,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-shake"
+          }
+        }
+      },
+      "block_order": [
+        "product_item_LegP4U",
+        "product_item_yzry66",
+        "product_item_T3TNMb",
+        "product_item_xM9CWr"
+      ],
+      "name": "彩蘭弥",
+      "settings": {
+        "max_block_width": 1480,
+        "scrolling_label_bg": "#ffffff",
+        "scrolling_label_txt": "#ec4111"
+      }
+    },
+    "image_BhcktX": {
+      "type": "image",
+      "name": "田中",
+      "settings": {
+        "pc_image": "shopify://shop_images/3_1aca18ae-99a0-4e41-bba5-2c6d70b420ba.png",
+        "mobile_image": "shopify://shop_images/mb-3_326f9dee-340f-4856-8ef7-1271c10dd642.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_ezcihH": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -4
+      }
+    },
+    "beams_special_grid_CwEamm": {
+      "type": "beams-special-grid",
+      "blocks": {
+        "product_item_4hTBzw": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-gsh-sh251283",
+            "btn_text": "DETAIL +",
+            "btn_text2": "カートに入れる",
+            "custom_image_1": "shopify://shop_images/750x960-1-1_17161fe0-215b-4a73-a661-ff459a983546.jpg",
+            "custom_image_2": "shopify://shop_images/750x960-1_107e4239-58e2-4855-a9ea-d1b0cebc3193.jpg",
+            "release_text": "2026.4.30Release",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_1_x": 59,
+            "sticker_1_y": 5,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-shake"
+          }
+        },
+        "product_item_TFEqq3": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-zyd-sh251292",
+            "btn_text": "DETAIL +",
+            "btn_text2": "カートに入れる",
+            "custom_image_1": "shopify://shop_images/750x960-2_9a634591-6065-4c6d-af48-b7acbac78791.jpg",
+            "release_text": "2026.4.30Release",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_1_x": 80,
+            "sticker_1_y": 56,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-flip"
+          }
+        },
+        "product_item_njyrEC": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-zyd-sh251293",
+            "btn_text": "DETAIL +",
+            "btn_text2": "カートに入れる",
+            "custom_image_1": "shopify://shop_images/750x960-3_afa54e51-4784-44da-a45b-fc8c1a60df10.jpg",
+            "release_text": "2026.4.30Release",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_1_x": 70,
+            "sticker_1_y": 12,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-shake"
+          }
+        },
+        "product_item_LW4zEX": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-lsx-sh251279",
+            "btn_text": "DETAIL +",
+            "btn_text2": "カートに入れる",
+            "custom_image_1": "shopify://shop_images/750x960-4_cbe6f8fa-ed17-4673-a198-aaee4083c391.gif",
+            "release_text": "2026.4.30Release",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_1_x": 70,
+            "sticker_1_y": 12,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-shake"
+          }
+        },
+        "product_item_VzfmgX": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-gsh-hsd251277",
+            "btn_text": "DETAIL +",
+            "btn_text2": "カートに入れる",
+            "custom_image_1": "shopify://shop_images/750x960-5.jpg",
+            "release_text": "2026.4.30Release",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_img_1": "shopify://shop_images/5_9c016fd7-4878-415f-9dea-8981cc4f2b3d.png",
+            "sticker_1_x": 4,
+            "sticker_1_y": 67,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-shake"
+          }
+        },
+        "product_item_9hy6VA": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-zj-ht251283",
+            "btn_text": "DETAIL +",
+            "btn_text2": "カートに入れる",
+            "custom_image_1": "shopify://shop_images/750x960-6.jpg",
+            "release_text": "2026.4.30Release",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_img_1": "shopify://shop_images/6_3688e3fd-4ad8-4684-bdd0-73ef3a86ba87.png",
+            "sticker_1_x": 67,
+            "sticker_1_y": 4,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-flip"
+          }
+        },
+        "product_item_M73nyw": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-zj-hs251282",
+            "btn_text": "DETAIL +",
+            "btn_text2": "カートに入れる",
+            "custom_image_1": "shopify://shop_images/750x960-7.gif",
+            "release_text": "2026.4.30Release",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_1_x": 67,
+            "sticker_1_y": 4,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-flip"
+          }
+        }
+      },
+      "block_order": [
+        "product_item_4hTBzw",
+        "product_item_TFEqq3",
+        "product_item_njyrEC",
+        "product_item_LW4zEX",
+        "product_item_VzfmgX",
+        "product_item_9hy6VA",
+        "product_item_M73nyw"
+      ],
+      "name": "田中",
+      "settings": {
+        "max_block_width": 1480,
+        "scrolling_label_bg": "#ffffff",
+        "scrolling_label_txt": "#ec4111"
+      }
+    },
+    "image_9QzQ4X": {
+      "type": "image",
+      "name": "甲馬",
+      "settings": {
+        "pc_image": "shopify://shop_images/4_6675265f-e478-42a3-9779-e3aed3e080e1.png",
+        "mobile_image": "shopify://shop_images/mb-4_2480c6e5-e8ac-483c-b267-c3ff5fb98135.png",
+        "img_rul": ""
+      }
+    },
+    "adjusting_spacing_PxkK47": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -4
+      }
+    },
+    "beams_special_grid_EJUyN6": {
+      "type": "beams-special-grid",
+      "blocks": {
+        "product_item_DgLJPK": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-gsh-kms260148",
+            "btn_text": "DETAIL +",
+            "btn_text2": "カートに入れる",
+            "custom_image_1": "shopify://shop_images/750x960-1-1.jpg",
+            "custom_image_2": "shopify://shop_images/750x960-1_7f415589-1f52-4153-aba2-d96a191f008a.jpg",
+            "release_text": "2026.4.30Release",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_img_1": "shopify://shop_images/1_0d1fe6a0-5790-44d1-b0df-c8b90b505143.png",
+            "sticker_1_x": 0,
+            "sticker_1_y": 5,
+            "sticker_width": 25,
+            "sticker_1_animation": "animate-shake"
+          }
+        },
+        "product_item_am67bk": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-zj-kmt260152",
+            "btn_text": "DETAIL +",
+            "btn_text2": "カートに入れる",
+            "custom_image_1": "shopify://shop_images/750x960-2_f9f9aa75-2d43-4a1f-8de5-50c35900390c.jpg",
+            "release_text": "2026.4.30Release",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_img_1": "shopify://shop_images/2_616cc328-6347-4adf-8087-76fc30ebd751.png",
+            "sticker_1_x": 80,
+            "sticker_1_y": 56,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-flip"
+          }
+        },
+        "product_item_JqF6BM": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-zyd-sh260142",
+            "btn_text": "DETAIL +",
+            "btn_text2": "カートに入れる",
+            "custom_image_1": "shopify://shop_images/750x960-3.gif",
+            "release_text": "2026.4.30Release",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_1_x": 70,
+            "sticker_1_y": 12,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-shake"
+          }
+        },
+        "product_item_7TrDfQ": {
+          "type": "product_item",
+          "settings": {
+            "product": "krk-zyd-kmht260144",
+            "btn_text": "DETAIL +",
+            "btn_text2": "カートに入れる",
+            "custom_image_1": "shopify://shop_images/750x960-4.jpg",
+            "custom_image_2": "shopify://shop_images/750x960-4-1.jpg",
+            "release_text": "2026.4.30Release",
+            "custom_description": "",
+            "disable_checkout": false,
+            "scroll_direction": "left-to-right",
+            "sticker_1_x": 70,
+            "sticker_1_y": 12,
+            "sticker_width": 30,
+            "sticker_1_animation": "animate-shake"
+          }
+        }
+      },
+      "block_order": [
+        "product_item_DgLJPK",
+        "product_item_am67bk",
+        "product_item_JqF6BM",
+        "product_item_7TrDfQ"
+      ],
+      "name": "甲馬",
+      "settings": {
+        "max_block_width": 1480,
+        "scrolling_label_bg": "#ffffff",
+        "scrolling_label_txt": "#ec4111"
+      }
+    },
+    "background_image_6wqV4X": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "image": "shopify://shop_images/20260423-165900.png",
+        "bg_size": "contain",
+        "bg_repeat": "repeat",
+        "bg_position": "center",
+        "bg_attachment": "scroll",
+        "background_color_overlay": "#f5f5f5",
+        "background_color": "",
+        "show_overlay": false,
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "featured_collection_7jw9h8": {
+      "type": "featured-collection",
+      "disabled": true,
+      "name": "Featured collection",
+      "settings": {
+        "title": "",
+        "collection": "2026-6th-anniversary-collaboration",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "slideshow_ULbEVi",
+    "image_jka3mR",
+    "image_9rAYHK",
+    "adjusting_spacing_rHrUqB",
+    "beams_special_grid_DJRniE",
+    "image_MNDhJd",
+    "adjusting_spacing_fWX9Ec",
+    "beams_special_grid_rNEbAP",
+    "image_BhcktX",
+    "adjusting_spacing_ezcihH",
+    "beams_special_grid_CwEamm",
+    "image_9QzQ4X",
+    "adjusting_spacing_PxkK47",
+    "beams_special_grid_EJUyN6",
+    "background_image_6wqV4X",
+    "featured_collection_7jw9h8"
+  ]
+}

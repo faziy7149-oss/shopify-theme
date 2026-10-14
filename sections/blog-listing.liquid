@@ -1,0 +1,607 @@
+{%- liquid
+  comment
+    source_blog: articles, tags, pagination + Search filter (same blog per page).
+    url_blog: browser URL base on blog templates (keeps /blogs/karakublogs vs karaku-features).
+    Search Ajax passes bl_blog from JS (data-blog-handle = source_blog.handle).
+  endcomment
+  if request.page_type == 'blog' and blog != blank
+    assign url_blog = blog
+  else
+    assign url_blog = blank
+  endif
+
+  assign blog_handle_setting = section.settings.blog_handle | strip
+  assign bl_blog_handle = ''
+  assign query_parts = '' | split: ','
+
+  comment
+    Parse bl_blog from query_string.
+    Using a direct split is more robust than per-part iteration, especially
+    under /search section-rendering where query parsing can be inconsistent.
+  endcomment
+  if request.query_string contains 'bl_blog='
+    assign bl_blog_handle = request.query_string | split: 'bl_blog=' | last | split: '&' | first | strip | url_decode
+  endif
+
+  if request.query_string != blank
+    assign query_parts = request.query_string | split: '&'
+  endif
+
+  comment
+    Listing + Search source: bl_blog (Ajax) → editor Blog → blog_handle → page blog.
+  endcomment
+  assign source_blog = blank
+  if bl_blog_handle != blank
+    assign source_blog = blogs[bl_blog_handle]
+  endif
+  if source_blog == blank and section.settings.blog != blank
+    assign source_blog = section.settings.blog
+  endif
+  if source_blog == blank and blog_handle_setting != blank
+    assign source_blog = blogs[blog_handle_setting]
+  endif
+  if source_blog == blank and url_blog != blank
+    assign source_blog = url_blog
+  endif
+
+  comment
+    On /tagged/ URLs, always use the page `blog` object so Shopify's
+    current_tags actually filters articles. Section Rendering of a
+    cross-blog Tag fetches /blogs/{source}/tagged/{tag}?sections=...
+  endcomment
+  if request.page_type == 'blog' and blog != blank
+    if request.path contains '/tagged/'
+      assign source_blog = blog
+      if url_blog == blank
+        assign url_blog = blog
+      endif
+    elsif source_blog == blank or source_blog.handle == blog.handle
+      assign source_blog = blog
+      assign url_blog = blog
+    endif
+  endif
+
+  if url_blog == blank and source_blog != blank
+    assign url_blog = source_blog
+  endif
+
+  assign filter_blog_handle = ''
+  if bl_blog_handle != blank
+    assign filter_blog_handle = bl_blog_handle
+  elsif source_blog != blank
+    assign filter_blog_handle = source_blog.handle
+  elsif blog_handle_setting != blank
+    assign filter_blog_handle = blog_handle_setting
+  endif
+
+  assign use_native_tags = false
+  if source_blog != blank and url_blog != blank and source_blog.handle == url_blog.handle
+    assign use_native_tags = true
+  endif
+
+  comment
+    Year = 4-digit article tags (e.g. 2025). Category tags stay in Tag row.
+    Server filter uses Shopify /tagged/ (and tag+year via tagged/a+b).
+  endcomment
+  assign active_tag = ''
+  assign active_year = ''
+
+  if current_tags and current_tags.size > 0
+    for tagged_name in current_tags
+      assign year_num = tagged_name | plus: 0
+      if tagged_name.size == 4 and year_num > 1999 and year_num < 2101
+        assign active_year = tagged_name
+      elsif active_tag == blank
+        assign active_tag = tagged_name
+      endif
+    endfor
+  endif
+
+  if active_tag == blank and request.query_string contains 'tag='
+    assign tag_query_raw = request.query_string | split: 'tag=' | last | split: '&' | first
+    assign active_tag = tag_query_raw | replace: '+', ' ' | url_decode
+  endif
+
+  if active_year == blank and request.query_string contains 'year='
+    assign year_query_raw = request.query_string | split: 'year=' | last | split: '&' | first
+    assign active_year = year_query_raw | strip
+  endif
+
+  assign posts_per_page = section.settings.posts_per_page | default: 8 | plus: 0
+  if posts_per_page < 1
+    assign posts_per_page = 8
+  endif
+  comment
+    Section Rendering often keeps custom params in query_string; prefer them
+    so Tag/Search Ajax match the blog page editor setting.
+  endcomment
+  if request.query_string != blank
+    for part in query_parts
+      if part contains 'bl_per_page='
+        assign bl_per_page_raw = part | split: 'bl_per_page=' | last | split: '&' | first | strip
+        if bl_per_page_raw != blank
+          assign bl_per_page_num = bl_per_page_raw | plus: 0
+          if bl_per_page_num > 0
+            assign posts_per_page = bl_per_page_num
+          endif
+        endif
+      endif
+    endfor
+  endif
+
+  comment
+    Year chips from blog.all_tags (4-digit only). No full-article scan.
+  endcomment
+  assign available_years_str = ''
+  if source_blog != blank
+    for tag in source_blog.all_tags
+      assign year_num = tag | plus: 0
+      if tag.size == 4 and year_num > 1999 and year_num < 2101
+        assign year_token = '|' | append: tag | append: '|'
+        unless available_years_str contains year_token
+          assign available_years_str = available_years_str | append: year_token
+        endunless
+      endif
+    endfor
+  endif
+
+  assign is_search_mode = false
+  assign search_query = ''
+
+  if request.page_type == 'search'
+    if search.terms != blank
+      assign search_query = search.terms
+    elsif request.query_string contains 'q='
+      assign search_query = request.query_string | split: 'q=' | last | split: '&' | first | replace: '+', ' '
+    endif
+
+    if search_query != blank
+      assign is_search_mode = true
+    endif
+  endif
+
+  comment
+    Search HTML is filtered client-side by blog handle (JS).
+    /search Section Rendering drops custom params like bl_blog, so Liquid
+    cannot reliably filter by page blog — still render search results.
+  endcomment
+  assign can_render_search = false
+  if is_search_mode
+    assign can_render_search = true
+  endif
+-%}
+
+{% style %}
+  #shopify-section-{{ section.id }} .blog-listing {
+    --bl-bg: {{ section.settings.background_color }};
+    --bl-text: {{ section.settings.text_color }};
+    --bl-heading: {{ section.settings.heading_color }};
+    --bl-muted: {{ section.settings.muted_color }};
+    --bl-input-bg: {{ section.settings.search_bg_color }};
+    --bl-input-text: {{ section.settings.search_text_color }};
+    --bl-input-border: {{ section.settings.search_border_color }};
+    --bl-placeholder: {{ section.settings.search_placeholder_color }};
+    --bl-accent: {{ section.settings.accent_color }};
+    --bl-accent-text: {{ section.settings.accent_text_color }};
+    --bl-chip-bg: {{ section.settings.chip_bg_color }};
+    --bl-chip-text: {{ section.settings.chip_text_color }};
+    --bl-chip-hover-bg: {{ section.settings.chip_hover_bg_color }};
+    --bl-chip-hover-text: {{ section.settings.chip_hover_text_color }};
+    --bl-chip-active-bg: {{ section.settings.chip_active_bg_color }};
+    --bl-chip-active-text: {{ section.settings.chip_active_text_color }};
+    --bl-card-bg: {{ section.settings.card_bg_color }};
+    --bl-btn-bg: {{ section.settings.button_bg_color }};
+    --bl-btn-text: {{ section.settings.button_text_color }};
+    --bl-btn-hover-bg: {{ section.settings.button_hover_bg_color }};
+    --bl-btn-hover-text: {{ section.settings.button_hover_text_color }};
+    --bl-padding: {{ section.settings.section_padding }}px;
+    --bl-title-size: {{ section.settings.title_size }}px;
+    --bl-max-width: {{ section.settings.max_width }}px;
+    --bl-image-aspect: {{ section.settings.image_aspect_ratio }};
+  }
+{% endstyle %}
+
+{%- if can_render_search -%}
+{%- paginate search.results by posts_per_page -%}
+{%- render 'blog-listing-search-results',
+  section: section,
+  paginate: paginate,
+  filter_blog_handle: filter_blog_handle,
+  search_query: search_query,
+  posts_per_page: posts_per_page,
+  active_year: active_year
+-%}
+{%- endpaginate -%}
+{%- elsif source_blog != blank -%}
+{%- if is_search_mode -%}
+{%- paginate search.results by posts_per_page -%}
+{%- render 'blog-listing-frame',
+  section: section,
+  paginate: paginate,
+  source_blog: source_blog,
+  url_blog: url_blog,
+  use_native_tags: use_native_tags,
+  active_tag: active_tag,
+  active_year: active_year,
+  available_years_str: available_years_str,
+  posts_per_page: posts_per_page,
+  is_search_mode: true,
+  search_query: search_query,
+  filter_blog_handle: filter_blog_handle
+-%}
+{%- endpaginate -%}
+{%- else -%}
+{%- paginate source_blog.articles by posts_per_page -%}
+{%- render 'blog-listing-frame',
+  section: section,
+  paginate: paginate,
+  source_blog: source_blog,
+  url_blog: url_blog,
+  use_native_tags: use_native_tags,
+  active_tag: active_tag,
+  active_year: active_year,
+  available_years_str: available_years_str,
+  posts_per_page: posts_per_page,
+  is_search_mode: false,
+  search_query: ''
+-%}
+{%- endpaginate -%}
+{%- endif -%}
+{%- else -%}
+<section class="blog-listing" id="blog-listing-{{ section.id }}">
+  <div class="blog-listing__inner">
+    {%- if section.settings.heading != blank -%}
+      <header class="blog-listing__header">
+        <h2 class="blog-listing__title">{{ section.settings.heading | escape }}</h2>
+      </header>
+    {%- endif -%}
+    <div class="blog-listing__grid" data-blog-listing-grid>
+      <div class="blog-listing__empty">
+        Please select a blog in the section settings.
+      </div>
+    </div>
+    <footer class="blog-listing__footer"></footer>
+  </div>
+</section>
+{%- endif -%}
+
+{% schema %}
+{
+  "name": "Blog listing",
+  "tag": "section",
+  "class": "section-blog-listing",
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Blog"
+    },
+    {
+      "type": "blog",
+      "id": "blog",
+      "label": "Blog (article source)",
+      "info": "Article source for list, Tag, Year, and Search on this page (e.g. all or karaku-features). Search filters in the browser because /search Section Rendering drops custom query params."
+    },
+    {
+      "type": "text",
+      "id": "blog_handle",
+      "label": "Blog handle (fallback)",
+      "default": "all",
+      "info": "Fallback when Blog picker is empty. Written to data-blog-handle for per-page Search filtering."
+    },
+    {
+      "type": "select",
+      "id": "posts_per_page",
+      "label": "Posts per page",
+      "options": [
+        {
+          "value": "4",
+          "label": "4"
+        },
+        {
+          "value": "6",
+          "label": "6"
+        },
+        {
+          "value": "8",
+          "label": "8"
+        },
+        {
+          "value": "12",
+          "label": "12"
+        },
+        {
+          "value": "16",
+          "label": "16"
+        },
+        {
+          "value": "20",
+          "label": "20"
+        },
+        {
+          "value": "24",
+          "label": "24"
+        }
+      ],
+      "default": "8"
+    },
+    {
+      "type": "range",
+      "id": "desktop_columns",
+      "label": "Desktop columns",
+      "min": 2,
+      "max": 4,
+      "step": 1,
+      "default": 3
+    },
+    {
+      "type": "select",
+      "id": "mobile_columns",
+      "label": "Mobile columns",
+      "options": [
+        {
+          "value": "1",
+          "label": "1"
+        },
+        {
+          "value": "2",
+          "label": "2"
+        }
+      ],
+      "default": "1"
+    },
+    {
+      "type": "range",
+      "id": "gap",
+      "label": "Grid gap (px)",
+      "min": 8,
+      "max": 40,
+      "step": 4,
+      "default": 20
+    },
+    {
+      "type": "checkbox",
+      "id": "show_search",
+      "label": "Show search",
+      "default": true
+    },
+    {
+      "type": "checkbox",
+      "id": "show_tag_filter",
+      "label": "Show tag filter",
+      "default": true
+    },
+    {
+      "type": "textarea",
+      "id": "tag_display_order",
+      "label": "Tag display order",
+      "info": "Comma-separated tag names in the order you want (e.g. Sale, News, Event). Must match article tags exactly. Tags not listed still appear after these. Year tags (2025, etc.) stay in the Year row.",
+      "placeholder": "Sale, News, Event"
+    },
+    {
+      "type": "checkbox",
+      "id": "show_year_filter",
+      "label": "Show year filter",
+      "default": true,
+      "info": "Uses 4-digit tags on articles (e.g. 2025). Those tags appear in the Year row only, not in Tag."
+    },
+    {
+      "type": "text",
+      "id": "search_placeholder",
+      "label": "Search placeholder",
+      "default": "Search articles..."
+    },
+    {
+      "type": "text",
+      "id": "read_more_text",
+      "label": "Read more text",
+      "default": "Read more"
+    },
+    {
+      "type": "text",
+      "id": "load_more_text",
+      "label": "Load more text",
+      "default": "Load more"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "title_size",
+      "label": "Title size",
+      "min": 20,
+      "max": 80,
+      "step": 2,
+      "unit": "px",
+      "default": 48
+    },
+    {
+      "type": "range",
+      "id": "max_width",
+      "label": "Maximum width",
+      "min": 1000,
+      "max": 2000,
+      "step": 100,
+      "unit": "px",
+      "default": 1400
+    },
+    {
+      "type": "select",
+      "id": "image_aspect_ratio",
+      "label": "Image aspect ratio",
+      "default": "56.25%",
+      "options": [
+        {
+          "value": "100%",
+          "label": "1:1 Square"
+        },
+        {
+          "value": "75%",
+          "label": "4:3 Landscape"
+        },
+        {
+          "value": "56.25%",
+          "label": "16:9 Widescreen"
+        },
+        {
+          "value": "130%",
+          "label": "4:5 Portrait"
+        }
+      ]
+    },
+    {
+      "type": "range",
+      "id": "section_padding",
+      "label": "Section padding",
+      "min": 20,
+      "max": 100,
+      "step": 5,
+      "unit": "px",
+      "default": 60
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#111111"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#e8e8e8"
+    },
+    {
+      "type": "color",
+      "id": "heading_color",
+      "label": "Heading",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "muted_color",
+      "label": "Muted text (labels / date / excerpt)",
+      "default": "#9a9a9a"
+    },
+    {
+      "type": "color",
+      "id": "search_bg_color",
+      "label": "Search / select background",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "color",
+      "id": "search_text_color",
+      "label": "Search / select text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "search_border_color",
+      "label": "Search / select border",
+      "default": "#333333"
+    },
+    {
+      "type": "color",
+      "id": "search_placeholder_color",
+      "label": "Search placeholder",
+      "default": "#777777"
+    },
+    {
+      "type": "color",
+      "id": "accent_color",
+      "label": "Accent (search focus / links)",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "accent_text_color",
+      "label": "Accent text",
+      "default": "#111111"
+    },
+    {
+      "type": "header",
+      "content": "Tag / Year chips"
+    },
+    {
+      "type": "color",
+      "id": "chip_bg_color",
+      "label": "Chip background",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "color",
+      "id": "chip_text_color",
+      "label": "Chip text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "chip_hover_bg_color",
+      "label": "Chip hover background",
+      "default": "#333333"
+    },
+    {
+      "type": "color",
+      "id": "chip_hover_text_color",
+      "label": "Chip hover text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "chip_active_bg_color",
+      "label": "Chip selected background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "chip_active_text_color",
+      "label": "Chip selected text",
+      "default": "#111111"
+    },
+    {
+      "type": "color",
+      "id": "card_bg_color",
+      "label": "Card background",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "color",
+      "id": "button_bg_color",
+      "label": "Button background",
+      "default": "#1a1a1a"
+    },
+    {
+      "type": "color",
+      "id": "button_text_color",
+      "label": "Button text",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_bg_color",
+      "label": "Button hover background",
+      "default": "#ffffff"
+    },
+    {
+      "type": "color",
+      "id": "button_hover_text_color",
+      "label": "Button hover text",
+      "default": "#111111"
+    }
+  ],
+  "presets": [
+    {
+      "name": "Blog listing",
+      "category": "Blog"
+    }
+  ]
+}
+{% endschema %}

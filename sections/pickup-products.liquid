@@ -1,0 +1,757 @@
+<!-- /sections/pickup-products.liquid -->
+
+{%- liquid
+  case section.settings.image_aspect_ratio
+    when 'natural'
+      assign pickup_aspect_ratio = blank
+    when 'portrait_23'
+      assign pickup_aspect_ratio = 0.67
+    when 'portrait_45'
+      assign pickup_aspect_ratio = 0.8
+    when 'landscape_43'
+      assign pickup_aspect_ratio = 1.333
+    when 'landscape_169'
+      assign pickup_aspect_ratio = 1.777
+    else
+      assign pickup_aspect_ratio = 1.0
+  endcase
+
+  assign pickup_object_fit = section.settings.image_object_fit | default: 'cover'
+-%}
+
+<div class="pickup-products-section section-{{ section.id }} collection-slider-row for-collections" style="--pickup-gap: {{ section.settings.image_gap }}px; --pickup-section-padding-top: {{ section.settings.padding_top }}px; --pickup-section-padding-bottom: {{ section.settings.padding_bottom }}px;">
+  <div class="pickup-container container">
+    {%- if section.settings.title != blank -%}
+      <div class="pickup-section-header hometitle">
+        <h2 class="pickup-section-title has-paging__title h4">{{ section.settings.title | escape }}</h2>
+      </div>
+    {%- endif -%}
+
+    <div class="pickup-blocks-grid">
+      {%- for block in section.blocks -%}
+        {%- liquid
+          assign image_count = 0
+          for i in (1..6)
+            assign img_key = 'image_' | append: i
+            if block.settings[img_key] != blank
+              assign image_count = image_count | plus: 1
+            endif
+          endfor
+
+          assign is_placeholder_mode = false
+          if image_count == 0
+            assign is_placeholder_mode = true
+          endif
+
+          assign effective_image_count = image_count
+          if is_placeholder_mode
+            assign effective_image_count = 6
+          endif
+
+          assign enable_mobile_swiper = false
+          if effective_image_count > 3
+            assign enable_mobile_swiper = true
+          endif
+        -%}
+
+        <div class="pickup-block" {{ block.shopify_attributes }}>
+          <div class="pickup-block-info">
+            {%- if block.settings.sub_title != blank -%}
+              <p class="pickup-block-sub-title">{{ block.settings.sub_title }}</p>
+            {%- endif -%}
+            {%- if block.settings.title != blank -%}
+              <h3 class="pickup-block-title">{{ block.settings.title }}</h3>
+            {%- endif -%}
+          </div>
+
+          <div
+            class="pickup-images-wrapper{% if enable_mobile_swiper %} pickup-images-wrapper--swiper{% endif %}"
+            data-pickup-swiper="{{ enable_mobile_swiper }}"
+            data-block-id="{{ block.id }}"
+          >
+            <div class="pickup-images-inner{% if enable_mobile_swiper %} swiper-wrapper{% endif %}">
+              {%- for i in (1..6) -%}
+                {%- liquid
+                  assign img_key = 'image_' | append: i
+                  assign price_key = 'price_' | append: i
+                  assign link_key = 'link_' | append: i
+
+                  assign product_img = block.settings[img_key]
+                  assign product_price = block.settings[price_key]
+                  assign product_link = block.settings[link_key]
+                -%}
+
+                {%- if is_placeholder_mode or product_img != blank -%}
+                  <div class="pickup-product-item{% if i > 3 %} pickup-product-item--mobile-only{% endif %}{% if enable_mobile_swiper %} swiper-slide{% endif %}">
+                    {%- if product_link != blank -%}
+                      <a href="{{ product_link }}" class="pickup-product-link">
+                    {%- else -%}
+                      <div class="pickup-product-link">
+                    {%- endif -%}
+                      <div class="pickup-image-box pickup-image-box--{{ pickup_object_fit }}{% if pickup_aspect_ratio == blank %} pickup-image-box--natural{% endif %}">
+                        {%- if is_placeholder_mode -%}
+                          {%- if pickup_aspect_ratio != blank -%}
+                            <div class="img-ar img-ar--{{ pickup_object_fit }}" style="--aspect-ratio: {{ pickup_aspect_ratio | plus: 0 }}">
+                              <div class="pickup-placeholder-viewport" aria-hidden="true">
+                                {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                              </div>
+                            </div>
+                          {%- else -%}
+                            <div class="pickup-placeholder-viewport" aria-hidden="true">
+                              {{ 'image' | placeholder_svg_tag: 'placeholder-svg' }}
+                            </div>
+                          {%- endif -%}
+                        {%- else -%}
+                          {%- if pickup_aspect_ratio != blank -%}
+                            {%- render 'image',
+                              image: product_img,
+                              sizes: '(min-width: 768px) 16vw, 30vw',
+                              custom_aspect_ratio: pickup_aspect_ratio,
+                              custom_crop: pickup_object_fit,
+                              class: 'pickup-product-image'
+                            -%}
+                          {%- else -%}
+                            {%- render 'image',
+                              image: product_img,
+                              sizes: '(min-width: 768px) 16vw, 30vw',
+                              class: 'pickup-product-image pickup-product-image--natural'
+                            -%}
+                          {%- endif -%}
+                        {%- endif -%}
+                      </div>
+                      {%- if product_price != blank -%}
+                        <div class="pickup-product-price">
+                          <span class="theme-money">{{ product_price | times: 100 | money }}</span>
+                        </div>
+                      {%- endif -%}
+                    {%- if product_link != blank -%}
+                      </a>
+                    {%- else -%}
+                      </div>
+                    {%- endif -%}
+                  </div>
+                {%- endif -%}
+              {%- endfor -%}
+            </div>
+          </div>
+
+          {%- if block.settings.btn_link != blank -%}
+            <div class="pickup-btn-wrapper">
+              <a href="{{ block.settings.btn_link }}" class="pickup-btn-desktop">詳細を見る</a>
+              <a href="{{ block.settings.btn_link }}" class="small-feature-link">浏览更多</a>
+            </div>
+          {%- endif -%}
+        </div>
+      {%- endfor -%}
+    </div>
+  </div>
+</div>
+
+<style>
+  .pickup-products-section {
+    padding: var(--pickup-section-padding-top, 50px) 0 var(--pickup-section-padding-bottom, 50px);
+    width: 100%;
+    box-sizing: border-box;
+    overflow: hidden;
+  }
+
+  {% comment %} .pickup-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+  } {% endcomment %}
+
+  .pickup-section-header {
+    text-align: center;
+    {% comment %} margin-bottom: 40px; {% endcomment %}
+  }
+
+  .pickup-section-title {
+    {% comment %} font-size: 28px;
+    font-weight: bold; {% endcomment %}
+    letter-spacing: 0.05em;
+    margin: 0;
+  }
+
+  .pickup-blocks-grid {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -20px;
+  }
+
+  .pickup-block {
+    width: 50%;
+    padding: 0 20px;
+    box-sizing: border-box;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+  }
+
+  .pickup-block-info {
+    margin-bottom: 20px;
+  }
+
+  .pickup-block-sub-title {
+    font-size: 12px;
+    color: #333;
+    margin: 0 0 5px 0;
+    line-height: 1.5;
+  }
+
+  .pickup-block-title {
+    font-size: 18px;
+    font-weight: bold;
+    color: #000;
+    margin: 0;
+    line-height: 1.4;
+  }
+
+  .pickup-images-wrapper {
+    width: 100%;
+  }
+
+  .pickup-images-inner {
+    display: flex;
+    gap: var(--pickup-gap, 12px);
+  }
+
+  .pickup-product-item {
+    flex: 0 0 calc((100% - (var(--pickup-gap, 12px) * 2)) / 3);
+    min-width: 0;
+  }
+
+  .pickup-product-link {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+
+  .pickup-image-box {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    background-color: #f7f7f7;
+  }
+
+  .pickup-placeholder-viewport {
+    width: 100%;
+    height: 100%;
+    aspect-ratio: 1 / 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f7f7f7;
+  }
+
+  .pickup-placeholder-viewport svg {
+    width: 100%;
+    height: 100%;
+    display: block;
+  }
+
+  .img-ar .pickup-placeholder-viewport {
+    position: absolute;
+    inset: 0;
+  }
+
+  .pickup-image-box .img-ar {
+    width: 100%;
+  }
+
+  .pickup-image-box--natural {
+    aspect-ratio: auto;
+  }
+
+  .pickup-image-box--natural .pickup-product-image--natural,
+  .pickup-image-box--natural .global-image {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  .pickup-image-box--cover .global-image,
+  .pickup-image-box--contain .global-image {
+    transition: transform 0.3s ease;
+  }
+
+  {% comment %} .pickup-product-link:hover .pickup-image-box--cover .global-image,
+  .pickup-product-link:hover .pickup-image-box--contain .global-image,
+  .pickup-product-link:hover .pickup-image-box--natural .global-image {
+    transform: scale(1.03);
+  } {% endcomment %}
+
+  .pickup-product-price {
+    margin-top: 8px;
+    font-size: 13px;
+    color: #333;
+    line-height: 1.4;
+  }
+
+  .pickup-btn-wrapper {
+    margin-top: 25px;
+    text-align: center;
+  }
+
+  .pickup-btn-desktop {
+    display: inline-block;
+    min-width: 240px;
+    padding: 12px 30px;
+    border: 1px solid #ccc;
+    background: #fff;
+    color: #333;
+    text-align: center;
+    text-decoration: none;
+    font-size: 14px;
+    transition: all 0.3s ease;
+  }
+
+  .pickup-btn-desktop:hover {
+    background: #000;
+    color: #fff;
+    border-color: #000;
+  }
+
+  .pickup-link-mobile {
+    display: none;
+  }
+
+  @media screen and (max-width: 767px) {
+    .pickup-blocks-grid {
+      margin: 0;
+    }
+
+    .pickup-block {
+      width: 100%;
+      padding: 0;
+      margin-bottom: 45px;
+    }
+
+    .pickup-block:last-child {
+      margin-bottom: 0;
+    }
+
+    .pickup-product-item--mobile-only {
+      display: block;
+    }
+
+    .pickup-images-wrapper:not(.pickup-images-wrapper--swiper) {
+      overflow-x: auto;
+      overflow-y: hidden;
+      scrollbar-width: none;
+      -webkit-overflow-scrolling: touch;
+      touch-action: pan-x pan-y;
+      overscroll-behavior-x: contain;
+    }
+
+    .pickup-images-wrapper:not(.pickup-images-wrapper--swiper)::-webkit-scrollbar {
+      display: none;
+    }
+
+    .pickup-images-wrapper:not(.pickup-images-wrapper--swiper) .pickup-images-inner {
+      min-width: 100%;
+    }
+
+    .pickup-images-wrapper--swiper {
+      overflow: hidden;
+      touch-action: pan-y pinch-zoom;
+    }
+
+    .pickup-images-wrapper--swiper .pickup-images-inner {
+      gap: 0;
+    }
+
+    .pickup-images-wrapper--swiper .pickup-product-item {
+      flex: none;
+      width: auto;
+    }
+
+    .pickup-btn-wrapper {
+      margin-top: 20px;
+      text-align: center;
+    }
+
+    .pickup-btn-desktop {
+      display: none;
+    }
+  }
+
+  @media screen and (min-width: 768px) {
+    .pickup-product-item--mobile-only {
+      display: none;
+    }
+    .pickup-btn-wrapper .small-feature-link {
+      display: none;
+    }
+  }
+</style>
+
+<script>
+  (function () {
+    var sectionRoot = document.querySelector('.section-{{ section.id }}');
+    if (!sectionRoot || typeof Swiper === 'undefined') return;
+
+    var MOBILE_BREAKPOINT = 768;
+    var swiperMap = new WeakMap();
+
+    function getGap() {
+      var gapValue = getComputedStyle(sectionRoot).getPropertyValue('--pickup-gap').trim();
+      var parsed = parseFloat(gapValue);
+      return Number.isFinite(parsed) ? parsed : 12;
+    }
+
+    function destroySwipers() {
+      sectionRoot.querySelectorAll('.pickup-images-wrapper--swiper.swiper-initialized').forEach(function (container) {
+        if (container.swiper) {
+          container.swiper.destroy(true, true);
+        }
+        container.classList.remove('swiper');
+        swiperMap.delete(container);
+      });
+    }
+
+    function initSwipers() {
+      if (window.innerWidth >= MOBILE_BREAKPOINT) {
+        destroySwipers();
+        return;
+      }
+
+      sectionRoot.querySelectorAll('.pickup-images-wrapper--swiper').forEach(function (container) {
+        if (container.swiper) return;
+
+        container.classList.add('swiper');
+
+        var swiper = new Swiper(container, {
+          direction: 'horizontal',
+          slidesPerView: 3.3,
+          spaceBetween: getGap(),
+          freeMode: true,
+          watchOverflow: true,
+          nested: false,
+          touchStartPreventDefault: false,
+          touchMoveStopPropagation: false,
+          touchReleaseOnEdges: true,
+          threshold: 8,
+          touchAngle: 45
+        });
+
+        swiperMap.set(container, swiper);
+      });
+    }
+
+    var resizeTimer;
+    function handleResize() {
+      clearTimeout(resizeTimer);
+      resizeTimer = setTimeout(initSwipers, 200);
+    }
+
+    initSwipers();
+    window.addEventListener('resize', handleResize);
+    document.addEventListener('shopify:section:load', function (event) {
+      if (event.target && event.target.contains(sectionRoot)) {
+        initSwipers();
+      }
+    });
+    document.addEventListener('shopify:section:unload', function (event) {
+      if (event.target && event.target.contains(sectionRoot)) {
+        destroySwipers();
+      }
+    });
+  })();
+</script>
+
+{% schema %}
+{
+  "name": "特色产品展示 (Pickup)",
+  "settings": [
+    {
+      "type": "text",
+      "id": "title",
+      "label": "Section 顶部大标题",
+      "default": "PICK UP"
+    },
+    {
+      "type": "header",
+      "content": "图片展示"
+    },
+    {
+      "type": "select",
+      "id": "image_aspect_ratio",
+      "label": "图片比例",
+      "default": "square",
+      "options": [
+        {
+          "value": "natural",
+          "label": "原图比例"
+        },
+        {
+          "value": "square",
+          "label": "1:1 正方形"
+        },
+        {
+          "value": "portrait_45",
+          "label": "4:5 竖图"
+        },
+        {
+          "value": "portrait_23",
+          "label": "2:3 竖图"
+        },
+        {
+          "value": "landscape_43",
+          "label": "4:3 横图"
+        },
+        {
+          "value": "landscape_169",
+          "label": "16:9 宽屏"
+        }
+      ]
+    },
+    {
+      "type": "select",
+      "id": "image_object_fit",
+      "label": "图片裁切方式",
+      "default": "cover",
+      "options": [
+        {
+          "value": "cover",
+          "label": "Cover 裁切填充"
+        },
+        {
+          "value": "contain",
+          "label": "Contain 完整显示"
+        }
+      ],
+      "info": "仅在固定比例时生效"
+    },
+    {
+      "type": "range",
+      "id": "image_gap",
+      "label": "图片间距",
+      "min": 4,
+      "max": 24,
+      "step": 2,
+      "unit": "px",
+      "default": 12
+    },
+    {
+      "type": "header",
+      "content": "Section 间距"
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "label": "上内边距",
+      "min": 0,
+      "max": 120,
+      "step": 5,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "label": "下内边距",
+      "min": 0,
+      "max": 120,
+      "step": 5,
+      "unit": "px",
+      "default": 50
+    },
+    {
+      "type": "text",
+      "id": "btn_text_desktop",
+      "label": "PC端按钮文案",
+      "default": "詳細を見る"
+    }
+  ],
+  "blocks": [
+    {
+      "type": "product_block",
+      "name": "商品 Block",
+      "limit": 8,
+      "settings": [
+        {
+          "type": "text",
+          "id": "sub_title",
+          "label": "副标题 (小字)",
+          "default": "今すぐ使えて秋まで着回せる！"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "主标题 (大字)",
+          "default": "買って大正解！セールで狙うべき即戦力アイテム"
+        },
+        {
+          "type": "header",
+          "content": "商品 1 配置"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_1",
+          "label": "商品图片 1"
+        },
+        {
+          "type": "number",
+          "id": "price_1",
+          "label": "自定义价格 1 (输入整数，如 16940)"
+        },
+        {
+          "type": "url",
+          "id": "link_1",
+          "label": "商品链接 1 (图片和价格公用)"
+        },
+        {
+          "type": "header",
+          "content": "商品 2 配置"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_2",
+          "label": "商品图片 2"
+        },
+        {
+          "type": "number",
+          "id": "price_2",
+          "label": "自定义价格 2"
+        },
+        {
+          "type": "url",
+          "id": "link_2",
+          "label": "商品链接 2"
+        },
+        {
+          "type": "header",
+          "content": "商品 3 配置"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_3",
+          "label": "商品图片 3"
+        },
+        {
+          "type": "number",
+          "id": "price_3",
+          "label": "自定义价格 3"
+        },
+        {
+          "type": "url",
+          "id": "link_3",
+          "label": "商品链接 3"
+        },
+        {
+          "type": "header",
+          "content": "商品 4 配置 (PC隐藏，移动端超过3张开启轮播)"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_4",
+          "label": "商品图片 4"
+        },
+        {
+          "type": "number",
+          "id": "price_4",
+          "label": "自定义价格 4"
+        },
+        {
+          "type": "url",
+          "id": "link_4",
+          "label": "商品链接 4"
+        },
+        {
+          "type": "header",
+          "content": "商品 5 配置"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_5",
+          "label": "商品图片 5"
+        },
+        {
+          "type": "number",
+          "id": "price_5",
+          "label": "自定义价格 5"
+        },
+        {
+          "type": "url",
+          "id": "link_5",
+          "label": "商品链接 5"
+        },
+        {
+          "type": "header",
+          "content": "商品 6 配置"
+        },
+        {
+          "type": "image_picker",
+          "id": "image_6",
+          "label": "商品图片 6"
+        },
+        {
+          "type": "number",
+          "id": "price_6",
+          "label": "自定义价格 6"
+        },
+        {
+          "type": "url",
+          "id": "link_6",
+          "label": "商品链接 6"
+        },
+        {
+          "type": "header",
+          "content": "了解更多配置"
+        },
+        {
+          "type": "url",
+          "id": "btn_link",
+          "label": "了解更多链接"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "特色产品展示 (Pickup)",
+      "blocks": [
+        {
+          "type": "product_block",
+          "settings": {
+            "sub_title": "今すぐ使えて秋まで着回せる！",
+            "title": "買って大正解！セールで狙うべき即戦力アイテム",
+            "price_1": 16940,
+            "price_2": 9625,
+            "price_3": 13640,
+            "price_4": 5280,
+            "price_5": 11550,
+            "price_6": 5390,
+            "link_1": "/collections/all",
+            "link_2": "/collections/all",
+            "link_3": "/collections/all",
+            "link_4": "/collections/all",
+            "link_5": "/collections/all",
+            "link_6": "/collections/all"
+          }
+        },
+        {
+          "type": "product_block",
+          "settings": {
+            "sub_title": "今すぐ使えて秋まで着回せる！",
+            "title": "即戦力になる！セールで狙うべき名品リスト",
+            "price_1": 5280,
+            "price_2": 11550,
+            "price_3": 5390,
+            "price_4": 12100,
+            "price_5": 18700,
+            "price_6": 5800,
+            "link_1": "/collections/all",
+            "link_2": "/collections/all",
+            "link_3": "/collections/all",
+            "link_4": "/collections/all",
+            "link_5": "/collections/all",
+            "link_6": "/collections/all"
+          }
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

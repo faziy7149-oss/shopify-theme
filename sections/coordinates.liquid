@@ -1,0 +1,598 @@
+{% comment %}
+  Coordinates lookbook — 参考 45R Coordinates
+  - 一行两列，最多 8 个 block
+  - 点击图片打开弹窗：左主图 / 右标题 + 产品列表（首图、标题、价格）
+  - 关闭：X 按钮 + 点击遮罩区域
+{% endcomment %}
+
+{% style %}
+  .section-id-{{ section.id }} {
+    --coord-gap: {{ section.settings.grid_gap }}px;
+    --coord-bg: {{ section.settings.background_color }};
+    --coord-modal-bg: {{ section.settings.modal_background }};
+    --coord-text: {{ section.settings.text_color }};
+    --coord-muted: {{ section.settings.muted_color }};
+    --coord-overlay: {{ section.settings.overlay_opacity | divided_by: 100.0 }};
+  }
+
+  .section-id-{{ section.id }} .coordinates {
+    background-color: var(--coord-bg);
+    color: var(--coord-text);
+    padding-top: {{ section.settings.padding_top }}px;
+    padding-bottom: {{ section.settings.padding_bottom }}px;
+  }
+
+  .section-id-{{ section.id }} .coordinates__heading {
+    text-align: center;
+    margin: 0 0 2rem;
+    font-size: clamp(1.25rem, 2vw, 1.75rem);
+    font-weight: 500;
+    letter-spacing: 0.04em;
+  }
+
+  .section-id-{{ section.id }} .coordinates__grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: var(--coord-gap);
+    max-width: {{ section.settings.max_width }}px;
+    margin: 0 auto;
+    padding: 0 {{ section.settings.side_padding }}px;
+  }
+
+  /* 仅 1 张图时居中，宽度与双列中单格一致 */
+  .section-id-{{ section.id }} .coordinates__grid--single > modal-opener {
+    grid-column: 1 / -1;
+    width: calc(50% - var(--coord-gap) / 2);
+    justify-self: center;
+  }
+
+  .section-id-{{ section.id }} .coordinates__item {
+    display: block;
+    width: 100%;
+    padding: 0;
+    border: 0;
+    background: transparent;
+    cursor: pointer;
+    text-align: center;
+  }
+
+  .section-id-{{ section.id }} .coordinates__item:focus-visible {
+    outline: 2px solid currentColor;
+    outline-offset: 4px;
+  }
+
+  .section-id-{{ section.id }} .coordinates__image-wrap {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+
+  .section-id-{{ section.id }} .coordinates__image-wrap img,
+  .section-id-{{ section.id }} .coordinates__image-wrap .placeholder-svg {
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    transition: opacity 0.3s ease;
+  }
+
+  .section-id-{{ section.id }} .coordinates__item:hover .coordinates__image-wrap img {
+    opacity: 0.88;
+  }
+
+  /* Modal — 复用主题 modal-dialog，扩展双栏布局 */
+  .section-id-{{ section.id }} .coordinates-modal.modal {
+    --modal-overlay-opacity: var(--coord-overlay);
+    z-index: 8000;
+    padding: 1.5rem;
+  }
+
+  .section-id-{{ section.id }} .coordinates-modal .modal__window {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* 覆盖主题默认 max-width: 800px，PC 弹窗约占总宽 2/3～3/4 */
+    width: min(1280px, 72vw);
+    max-width: min(1280px, 72vw);
+    min-width: 0;
+    height: auto;
+    max-height: 90vh;
+    margin: 0;
+    background: transparent;
+    border-radius: 0;
+    box-shadow: none;
+    overflow: visible;
+  }
+
+  .section-id-{{ section.id }} .coordinates-modal__panel {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1.15fr);
+    width: 100%;
+    height: min(78vh, 820px);
+    max-height: calc(90vh - 72px);
+    background: var(--coord-modal-bg);
+    color: var(--coord-text);
+    overflow: hidden;
+  }
+
+  .section-id-{{ section.id }} .coordinates-modal__media {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 0;
+    padding: 2rem;
+    overflow: hidden;
+    background: var(--coord-modal-bg);
+  }
+
+  .section-id-{{ section.id }} .coordinates-modal__media img,
+  .section-id-{{ section.id }} .coordinates-modal__media .placeholder-svg {
+    display: block;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+    object-fit: contain;
+  }
+
+  .section-id-{{ section.id }} .coordinates-modal__body {
+    display: flex;
+    flex-direction: column;
+    min-height: 0;
+    height: 100%;
+    overflow: hidden;
+    padding: 2rem 1.75rem 1.75rem;
+    border-left: 1px solid color-mix(in srgb, var(--coord-text) 12%, transparent);
+  }
+
+  .section-id-{{ section.id }} .coordinates-modal__title {
+    flex-shrink: 0;
+    margin: 0 0 0.85rem;
+    padding-bottom: 0.85rem;
+    border-bottom: 1px solid color-mix(in srgb, var(--coord-text) 18%, transparent);
+    font-size: 0.9375rem;
+    font-weight: 500;
+    letter-spacing: 0.06em;
+  }
+
+  .section-id-{{ section.id }} .coordinates-modal__products {
+    flex: 1 1 auto;
+    min-height: 0;
+    overflow-x: hidden;
+    overflow-y: auto;
+    -webkit-overflow-scrolling: touch;
+    overscroll-behavior: contain;
+    padding-right: 0.35rem;
+    scrollbar-gutter: stable;
+  }
+
+  .section-id-{{ section.id }} .coordinates-modal__products::-webkit-scrollbar {
+    width: 6px;
+  }
+
+  .section-id-{{ section.id }} .coordinates-modal__products::-webkit-scrollbar-track {
+    background: color-mix(in srgb, var(--coord-text) 6%, transparent);
+  }
+
+  .section-id-{{ section.id }} .coordinates-modal__products::-webkit-scrollbar-thumb {
+    background: color-mix(in srgb, var(--coord-text) 28%, transparent);
+    border-radius: 999px;
+  }
+
+  .section-id-{{ section.id }} .coordinates-modal__product {
+    display: grid;
+    grid-template-columns: 56px minmax(0, 1fr) auto;
+    gap: 0.85rem;
+    align-items: center;
+    padding: 0.75rem 0;
+    text-decoration: none;
+    color: inherit;
+    border-bottom: 1px solid color-mix(in srgb, var(--coord-text) 8%, transparent);
+  }
+
+  .section-id-{{ section.id }} .coordinates-modal__product:last-child {
+    border-bottom: 0;
+  }
+
+  .section-id-{{ section.id }} .coordinates-modal__product:hover .coordinates-modal__product-title {
+    text-decoration: underline;
+  }
+
+  .section-id-{{ section.id }} .coordinates-modal__thumb {
+    width: 56px;
+    height: 56px;
+    overflow: hidden;
+    background: color-mix(in srgb, var(--coord-text) 4%, transparent);
+  }
+
+  .section-id-{{ section.id }} .coordinates-modal__thumb img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+
+  .section-id-{{ section.id }} .coordinates-modal__product-title {
+    margin: 0;
+    font-size: 0.8125rem;
+    line-height: 1.45;
+    color: var(--coord-text);
+  }
+
+  .section-id-{{ section.id }} .coordinates-modal__product-price {
+    margin: 0;
+    font-size: 0.8125rem;
+    white-space: nowrap;
+    color: var(--coord-muted);
+  }
+
+  .section-id-{{ section.id }} .coordinates-modal__empty {
+    margin: 1rem 0 0;
+    font-size: 0.8125rem;
+    color: var(--coord-muted);
+  }
+
+  /* 关闭按钮：弹窗下方居中圆形 X（参考 45R） */
+  .section-id-{{ section.id }} .coordinates-modal__close {
+    position: static;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    margin-top: 1.25rem;
+    padding: 0;
+    border: 0;
+    border-radius: 50%;
+    background: #fff;
+    color: #222;
+    cursor: pointer;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.18);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+  }
+
+  .section-id-{{ section.id }} .coordinates-modal__close:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 14px rgba(0, 0, 0, 0.22);
+  }
+
+  .section-id-{{ section.id }} .coordinates-modal__close .icon {
+    width: 14px;
+    height: 14px;
+  }
+
+  @media (max-width: 767.98px) {
+    /* 移动端同样一行两列 */
+    .section-id-{{ section.id }} .coordinates__grid {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+      gap: calc(var(--coord-gap) * 0.6);
+      padding: 0 {{ section.settings.side_padding_mobile }}px;
+    }
+
+    .section-id-{{ section.id }} .coordinates-modal.modal {
+      padding: 0.75rem;
+      align-items: flex-end;
+    }
+
+    .section-id-{{ section.id }} .coordinates-modal .modal__window {
+      width: 100%;
+      max-height: 92vh;
+    }
+
+    .section-id-{{ section.id }} .coordinates-modal__panel {
+      grid-template-columns: 1fr;
+      height: auto;
+      max-height: calc(92vh - 72px);
+    }
+
+    .section-id-{{ section.id }} .coordinates-modal__media {
+      padding: 1rem 1rem 0;
+      max-height: 36vh;
+    }
+
+    .section-id-{{ section.id }} .coordinates-modal__media img {
+      max-height: 34vh;
+    }
+
+    .section-id-{{ section.id }} .coordinates-modal__body {
+      border-left: 0;
+      border-top: 1px solid color-mix(in srgb, var(--coord-text) 12%, transparent);
+      padding: 1.25rem 1rem 1rem;
+      /* 限制右侧高度，保证产品列表可滚动 */
+      max-height: calc(92vh - 72px - 36vh);
+    }
+
+    .section-id-{{ section.id }} .coordinates-modal__products {
+      max-height: none;
+    }
+
+    .section-id-{{ section.id }} .coordinates-modal__close {
+      margin-top: 0.85rem;
+    }
+    .section-id-{{ section.id }} .coordinates__grid--single > modal-opener {
+      width: calc(90% - var(--coord-gap) / 2);
+    }
+  }
+{% endstyle %}
+
+<div class="section-id-{{ section.id }}">
+  <section class="coordinates" aria-label="{{ section.settings.heading | default: 'Coordinates' | escape }}">
+    {%- if section.settings.heading != blank -%}
+      <h2 class="coordinates__heading">{{ section.settings.heading | escape }}</h2>
+    {%- endif -%}
+
+    <div class="coordinates__grid{% if section.blocks.size == 1 %} coordinates__grid--single{% endif %}">
+      {%- for block in section.blocks -%}
+        {%- liquid
+          assign modal_id = 'coordinates-modal-' | append: section.id | append: '-' | append: block.id
+          assign item_title = block.settings.title | default: 'Selected Item'
+          if block.settings.image.alt != blank
+            assign image_alt = block.settings.image.alt
+          else
+            assign image_alt = item_title
+          endif
+        -%}
+        <modal-opener data-modal="{{ modal_id }}" {{ block.shopify_attributes }}>
+          <button
+            type="button"
+            class="coordinates__item"
+            aria-haspopup="dialog"
+            aria-label="{{ item_title | escape }}"
+          >
+            <span class="coordinates__image-wrap">
+              {%- if block.settings.image != blank -%}
+                {{ block.settings.image | image_url: width: 1200 | image_tag: loading: 'lazy', widths: '400, 600, 800, 1000, 1200', sizes: '(min-width: 768px) 40vw, 90vw', alt: image_alt }}
+              {%- else -%}
+                {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
+              {%- endif -%}
+            </span>
+          </button>
+        </modal-opener>
+      {%- else -%}
+        {%- for i in (1..2) -%}
+          <div class="coordinates__item" aria-hidden="true">
+            <span class="coordinates__image-wrap">
+              {{ 'product-' | append: i | placeholder_svg_tag: 'placeholder-svg' }}
+            </span>
+          </div>
+        {%- endfor -%}
+      {%- endfor -%}
+    </div>
+  </section>
+
+  {%- comment -%} 每个 block 对应一个弹窗，复用主题 modal-dialog（点击遮罩 / Escape / .js-close-modal 关闭） {%- endcomment -%}
+  {%- for block in section.blocks -%}
+    {%- liquid
+      assign modal_id = 'coordinates-modal-' | append: section.id | append: '-' | append: block.id
+      assign item_title = block.settings.title | default: 'Selected Item'
+      if block.settings.image.alt != blank
+        assign image_alt = block.settings.image.alt
+      else
+        assign image_alt = item_title
+      endif
+    -%}
+    <modal-dialog
+      class="modal coordinates-modal invisible fixed top-0 left-0 w-full h-full flex items-center justify-center"
+      id="{{ modal_id }}"
+      role="dialog"
+      aria-label="{{ item_title | escape }}"
+      aria-modal="true"
+      tabindex="-1"
+    >
+      <div class="modal__window relative has-motion">
+        <div class="coordinates-modal__panel">
+          <div class="coordinates-modal__media">
+            {%- if block.settings.image != blank -%}
+              {{ block.settings.image | image_url: width: 1400 | image_tag: loading: 'lazy', widths: '600, 800, 1000, 1200, 1400', sizes: '(min-width: 768px) 38vw, 90vw', alt: image_alt }}
+            {%- else -%}
+              {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
+            {%- endif -%}
+          </div>
+
+          <div class="coordinates-modal__body">
+            <h3 class="coordinates-modal__title">{{ item_title | escape }}</h3>
+
+            <div class="coordinates-modal__products">
+              {%- if block.settings.product_list != blank -%}
+                {%- for product in block.settings.product_list -%}
+                  {%- liquid
+                    if product.featured_media.alt != blank
+                      assign product_alt = product.featured_media.alt
+                    else
+                      assign product_alt = product.title
+                    endif
+                  -%}
+                  <a class="coordinates-modal__product" href="{{ product.url }}">
+                    <span class="coordinates-modal__thumb">
+                      {%- if product.featured_media -%}
+                        {{ product.featured_media.preview_image | image_url: width: 160 | image_tag: loading: 'lazy', widths: '80, 120, 160', sizes: '56px', alt: product_alt }}
+                      {%- else -%}
+                        {{ 'product-1' | placeholder_svg_tag: 'placeholder-svg' }}
+                      {%- endif -%}
+                    </span>
+                    <p class="coordinates-modal__product-title">{{ product.title | escape }}</p>
+                    <p class="coordinates-modal__product-price">
+                      {%- if product.price_varies -%}
+                        {{ product.price_min | money }}
+                      {%- else -%}
+                        {{ product.price | money }}
+                      {%- endif -%}
+                    </p>
+                  </a>
+                {%- endfor -%}
+              {%- else -%}
+                <p class="coordinates-modal__empty">{{ section.settings.empty_products_text | escape }}</p>
+              {%- endif -%}
+            </div>
+          </div>
+        </div>
+
+        <button type="button" class="coordinates-modal__close js-close-modal" aria-label="{{ 'accessibility.close' | t }}">
+          {% render 'icon-close' %}
+          <span class="visually-hidden">{{ 'accessibility.close' | t }}</span>
+        </button>
+      </div>
+    </modal-dialog>
+  {%- endfor -%}
+</div>
+
+{% schema %}
+{
+  "name": "Coordinates",
+  "tag": "section",
+  "class": "section-coordinates",
+  "max_blocks": 8,
+  "settings": [
+    {
+      "type": "text",
+      "id": "heading",
+      "label": "Heading",
+      "default": "Coordinates"
+    },
+    {
+      "type": "text",
+      "id": "empty_products_text",
+      "label": "Empty products message",
+      "default": "商品が選択されていません"
+    },
+    {
+      "type": "header",
+      "content": "Layout"
+    },
+    {
+      "type": "range",
+      "id": "max_width",
+      "min": 800,
+      "max": 1600,
+      "step": 20,
+      "unit": "px",
+      "label": "Grid max width",
+      "default": 1100
+    },
+    {
+      "type": "range",
+      "id": "grid_gap",
+      "min": 8,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "label": "Grid gap",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "side_padding",
+      "min": 0,
+      "max": 80,
+      "step": 4,
+      "unit": "px",
+      "label": "Side padding (desktop)",
+      "default": 24
+    },
+    {
+      "type": "range",
+      "id": "side_padding_mobile",
+      "min": 0,
+      "max": 48,
+      "step": 4,
+      "unit": "px",
+      "label": "Side padding (mobile)",
+      "default": 16
+    },
+    {
+      "type": "range",
+      "id": "padding_top",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding top",
+      "default": 40
+    },
+    {
+      "type": "range",
+      "id": "padding_bottom",
+      "min": 0,
+      "max": 120,
+      "step": 4,
+      "unit": "px",
+      "label": "Padding bottom",
+      "default": 40
+    },
+    {
+      "type": "header",
+      "content": "Colors"
+    },
+    {
+      "type": "color",
+      "id": "background_color",
+      "label": "Background",
+      "default": "#f5f3ef"
+    },
+    {
+      "type": "color",
+      "id": "modal_background",
+      "label": "Modal background",
+      "default": "#f7f5f1"
+    },
+    {
+      "type": "color",
+      "id": "text_color",
+      "label": "Text",
+      "default": "#222222"
+    },
+    {
+      "type": "color",
+      "id": "muted_color",
+      "label": "Muted text / price",
+      "default": "#555555"
+    },
+    {
+      "type": "range",
+      "id": "overlay_opacity",
+      "min": 20,
+      "max": 90,
+      "step": 5,
+      "unit": "%",
+      "label": "Modal overlay opacity",
+      "default": 55
+    }
+  ],
+  "blocks": [
+    {
+      "type": "coordinate",
+      "name": "Coordinate",
+      "settings": [
+        {
+          "type": "image_picker",
+          "id": "image",
+          "label": "Main image",
+          "info": "网格展示图，同时作为弹窗左侧主图"
+        },
+        {
+          "type": "text",
+          "id": "title",
+          "label": "Modal title",
+          "default": "Selected Item"
+        },
+        {
+          "type": "product_list",
+          "id": "product_list",
+          "label": "Products",
+          "limit": 12,
+          "info": "弹窗右侧展示：首图、标题、价格"
+        }
+      ]
+    }
+  ],
+  "presets": [
+    {
+      "name": "Coordinates",
+      "blocks": [
+        { "type": "coordinate" },
+        { "type": "coordinate" }
+      ]
+    }
+  ]
+}
+{% endschema %}

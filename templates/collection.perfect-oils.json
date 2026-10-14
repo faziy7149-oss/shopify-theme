@@ -1,0 +1,381 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "bc1655a7-9c75-44ef-b763-cd08bf987828": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16689652105435__bc1655a7-9c75-44ef-b763-cd08bf987828-1675846368dfff6eab-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20230207-162729.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16689652105435__bc1655a7-9c75-44ef-b763-cd08bf987828-1675846368dfff6eab-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 280,
+        "height_mobile": 460,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "42cff2d6-78e5-4d5b-b9a3-dbbfdc48107b": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16689652105435__42cff2d6-78e5-4d5b-b9a3-dbbfdc48107b-16759115071cfd902a-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ゴッホはオランダのポスト印象派の画家で、有名な画家として数え切れないほどの力強い作品を人々にもたらしました。</p><p>ゴッホは晩年の2年間で、「ひまわり」「星月夜」「カラスのいる麦畑」など、多くの最高傑作を生み出しました。ゴッホの作品は、色の持つ力と象徴性を利用して、独自の画風を人々に見せている。</p><p>ゴッホの飼いならされない精神と運命にあらがう勇気は、人生の大きな光と熱を象徴し、ゴッホの魂の偉大さと気高さを表している。</p><p>自然や自我への畏敬の念は、ロマン派の芸術観の全容であり、カラクの創業時のコンセプトとも重なります。ゴッホの作品にインスパイアされるデザインは、油絵に取り込まれたアイテムの外観にとどまらず、心の深い芸術の主観や情熱的な感情を表現することにも気を配っているのです。</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16689652105435__42cff2d6-78e5-4d5b-b9a3-dbbfdc48107b-16759115071cfd902a-2"
+      ],
+      "settings": {
+        "height": "large",
+        "text_alignment": "left",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "68526946-bc89-499e-9fb0-896880882119": {
+      "type": "rich-text",
+      "settings": {
+        "height": "large",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "7f18347c-e349-4396-9443-3f68446bfcd7": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_GCL6nG": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>こちらは、絵画『Six Sunflowers』を施し、落ボディーに描かれた麗しいひまわりを引き立てる、夜空ようなブルーが効いた。</li><li>独特なタッチや質感がハイクオリティーに表現され、シルクのような艶のあると相まって高級感を醸し出します。</li></ul>",
+            "enlarge_text": false
+          }
+        },
+        "button_wktLmB": {
+          "type": "button",
+          "settings": {
+            "button_label": "もっと見る",
+            "button_link": "https://www.karakubuy.com/collections/%E5%85%88%E8%A1%8C%E4%BA%88%E7%B4%84%E5%95%86%E5%93%81/products/krk-xrk-23111451",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "text_GCL6nG",
+        "button_wktLmB"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/20230207-162725.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "647d8a2b-6793-454a-9a33-689d9f5563cc": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_zLRWPU": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>こちらは、ゴッホは人生の最後の数週間でオーヴェールの周りの小麦畑の印象的な絵画を制作し、「乱流の空の下で小麦畑の広大なストレッチ」はゴッホ自身にとっても意義を持っていました。</li><li>雷雲の小麦畑の細長い形式は珍しく、水平面からなるシンプルな構成と同様風景や威嚇空の壮大さを強調している。鳥や人間の存在しないことによって絵画の荒涼とした感触が高められています。</li></ul>",
+            "enlarge_text": false
+          }
+        },
+        "button_TiCHCH": {
+          "type": "button",
+          "settings": {
+            "button_label": "もっと見る",
+            "button_link": "https://www.karakubuy.com/collections/%E5%85%88%E8%A1%8C%E4%BA%88%E7%B4%84%E5%95%86%E5%93%81/products/krk-tkc-23111503",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "text_zLRWPU",
+        "button_TiCHCH"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/20230207-162721.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "e3ab025f-0a37-474c-b25e-41301a4ecb45": {
+      "type": "image-with-text",
+      "blocks": {
+        "text_m6cUt7": {
+          "type": "text",
+          "settings": {
+            "text": "<ul><li>『星月夜』の総柄プリントをあしらって、巧みな色彩と構図による表現が魅力。うねるようにそびえ立つ糸杉も印象深く、目に焼きつく存在。</li><li>まるで生きているかのように描かれた夜景は、そのインパクトの大きさから見る者をぐっと惹きつけるでしょう。</li></ul>",
+            "enlarge_text": false
+          }
+        },
+        "button_XEPg6y": {
+          "type": "button",
+          "settings": {
+            "button_label": "もっと見る",
+            "button_link": "https://www.karakubuy.com/collections/perfectoils/products/krk-glfg7041031",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "text_m6cUt7",
+        "button_XEPg6y"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/20230207-162715.jpg",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 46,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "tag_link_GwEz4c": {
+      "type": "tag-link",
+      "name": "tagLink",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "disabled": true,
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "fa9dfc57-29d9-429a-ad78-f1c3b0e73d03": {
+      "type": "collection-list",
+      "blocks": {
+        "a1cfda4d-2e5f-4eef-844f-e0f5bb378673": {
+          "type": "collection",
+          "settings": {
+            "collection": "casual",
+            "image": "shopify://shop_images/c748b6fbc74a48b24d75e66f4ba7160b.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "9da0261c-e6c2-4a9a-bbfc-119356e53e8e": {
+          "type": "collection",
+          "settings": {
+            "collection": "business",
+            "image": "shopify://shop_images/09b45cc61e451a48cc831f5c6eb891a0.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "687282e0-14a4-4d42-8dcb-0babe002b96a": {
+          "type": "collection",
+          "settings": {
+            "collection": "outdoor-sports",
+            "image": "shopify://shop_images/e0b1bc00e2371c92c676cd7a426a4d4d.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        },
+        "6185350f-3346-4610-8759-0a714c2e8490": {
+          "type": "collection",
+          "settings": {
+            "collection": "navy",
+            "image": "shopify://shop_images/85e3b13ed818a2cb62f8b53434edd859.jpg",
+            "subheading": "",
+            "button_label": ""
+          }
+        }
+      },
+      "block_order": [
+        "a1cfda4d-2e5f-4eef-844f-e0f5bb378673",
+        "9da0261c-e6c2-4a9a-bbfc-119356e53e8e",
+        "687282e0-14a4-4d42-8dcb-0babe002b96a",
+        "6185350f-3346-4610-8759-0a714c2e8490"
+      ],
+      "disabled": true,
+      "settings": {
+        "title": "",
+        "enable_carousel": false,
+        "grid": 4,
+        "color_scheme": "default",
+        "full_width": false,
+        "coll_grid_image_shape": "square",
+        "coll_grid_image_position": "center center",
+        "coll_thumb_mob_per_row": "2",
+        "coll_grid_show_count": true,
+        "coll_text_position": "below",
+        "coll_text_position_under_mobile": false,
+        "coll_thumb_text_align_x": "center",
+        "coll_thumb_text_align_y": "center",
+        "coll_button_style": "primary"
+      }
+    },
+    "gallery_YxV9U8": {
+      "type": "gallery",
+      "blocks": {
+        "media_fKrBmr": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20230116-185938.jpg",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://minipia.myshopify.com/collections/%E9%80%B1%E6%9B%BF%E3%82%8F%E3%82%8A%E3%81%A7%E3%81%8A%E8%B2%B7%E3%81%84%E5%BE%97%E3%82%A2%E3%82%A4%E3%83%86%E3%83%A0",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_8xfnif": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20230206-155517.jpg",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://minipia.myshopify.com/collections/%E4%BA%BA%E6%B0%97%E5%95%86%E5%93%81",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_fKrBmr",
+        "media_8xfnif"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 460,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "no_background",
+        "overlay_padding": "standard",
+        "button_style": "primary"
+      }
+    }
+  },
+  "order": [
+    "bc1655a7-9c75-44ef-b763-cd08bf987828",
+    "42cff2d6-78e5-4d5b-b9a3-dbbfdc48107b",
+    "68526946-bc89-499e-9fb0-896880882119",
+    "7f18347c-e349-4396-9443-3f68446bfcd7",
+    "647d8a2b-6793-454a-9a33-689d9f5563cc",
+    "e3ab025f-0a37-474c-b25e-41301a4ecb45",
+    "main",
+    "tag_link_GwEz4c",
+    "1635765484031572a6",
+    "fa9dfc57-29d9-429a-ad78-f1c3b0e73d03",
+    "gallery_YxV9U8"
+  ]
+}

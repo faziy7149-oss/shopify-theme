@@ -1,0 +1,68 @@
+<div class="image-jump-box">
+  {%- for block in section.blocks -%}
+    <div id="{{ block.settings.image-id }}" style="padding-top: 10em; margin-top: -10em;"></div>
+    {% if block.settings.image_link != blank %}
+      <a class="image-anchor-a" href="{{ block.settings.image_link }}">
+    {% endif %}
+
+      {% render 'image' with block.settings.image, sizes: '3000px', loading: 'lazy', class:"image-anchor-img" %}
+    {% if block.settings.image_link != blank %}
+      </a>
+    {% endif %}
+
+  {% endfor %}
+</div>
+{% schema %}
+ {
+   "name": "Image jump",
+   "settings": [
+
+
+   ],
+   "blocks":[
+     {
+     "type": "image",
+     "name": "Image",
+     "settings": [
+       {
+         "type": "image_picker",
+         "id": "image",
+         "label": "Image"
+       },
+       {
+         "type": "text",
+         "id": "image-id",
+         "label": "Image Id",
+         "info": "data-xxxx"
+       },
+       {
+           "type": "url",
+           "id": "image_link",
+           "label": "Image link"
+
+       }
+     ]
+     }
+   ],
+   "presets":[
+        {
+         "name":"Image jump",
+         "blocks": [
+       {
+         "type": "image"
+       },
+       {
+         "type": "image"
+       },
+       {
+         "type": "image"
+       }
+     ]
+        }
+]
+ }
+{% endschema %}
+
+{% stylesheet %}
+{% endstylesheet %}
+

@@ -1,0 +1,966 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": true,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [
+          "shirts",
+          "スウェット",
+          "ジャケット-アウター",
+          "アクセサリー",
+          "short-sleeve-t-shirts",
+          "short-sleeve-shirts",
+          "カーゴパンツ",
+          "coat",
+          "デニムパンツ"
+        ],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "dynamic_picture_ExRFr6": {
+      "type": "dynamic-picture",
+      "blocks": {
+        "image_KTe9aE": {
+          "type": "image",
+          "settings": {
+            "image_hover": "shopify://shop_images/44_c8b87393-e5cb-429e-ad97-8207a0509de3.png",
+            "top_location": 32,
+            "left_location": 21,
+            "top_location2": 27,
+            "left_location2": 14,
+            "pc_img_width": 13,
+            "m_img_width": 22
+          }
+        },
+        "image2_JimVf9": {
+          "type": "image2",
+          "settings": {
+            "image_hover_2": "shopify://shop_images/46.png",
+            "bottom_location": 27,
+            "right_location": 1,
+            "right_location2": 20,
+            "bottom_location2": 27,
+            "pc_img_width2": 8,
+            "m_img_width2": 23
+          }
+        }
+      },
+      "block_order": [
+        "image_KTe9aE",
+        "image2_JimVf9"
+      ],
+      "name": "动态图片",
+      "settings": {
+        "image": "shopify://shop_images/034__1920x780_aaac3a46-3abf-4c93-9575-5ed1dc344b6b.jpg",
+        "image2": "shopify://shop_images/034__1080x1440_b47c2017-82af-463c-a14a-cea42bce03f3.jpg",
+        "img_animation": "shake"
+      }
+    },
+    "product_gallery_zRJj3f": {
+      "type": "product-gallery",
+      "blocks": {
+        "image_collection_YgGnJw": {
+          "type": "image-collection",
+          "settings": {
+            "image_collection": "shopify://shop_images/500x550-10_9c3f4379-b1e4-4d90-b9d3-9a34f0d73bd0.png"
+          }
+        },
+        "image_collection_GN6zDh": {
+          "type": "image-collection",
+          "settings": {
+            "image_collection": "shopify://shop_images/500x550-8_1c09fb8a-9755-4461-80f3-b0796358b6e1.png"
+          }
+        },
+        "image_collection_xbFef4": {
+          "type": "image-collection",
+          "settings": {
+            "image_collection": "shopify://shop_images/500x550-5_15839116-b4a0-4d89-a6ed-83ba670987c8.png"
+          }
+        },
+        "image_collection_ePTD3x": {
+          "type": "image-collection",
+          "settings": {
+            "image_collection": "shopify://shop_images/500x550-4_f4ee8a9e-fdfa-4798-bb77-fcbd9f9083f9.png"
+          }
+        },
+        "image_collection_aANn7H": {
+          "type": "image-collection",
+          "settings": {
+            "image_collection": "shopify://shop_images/500x550-6_5f550f44-95ef-4519-b598-af5356535cb2.png"
+          }
+        },
+        "image_collection_jgnGFW": {
+          "type": "image-collection",
+          "settings": {
+            "image_collection": "shopify://shop_images/500x550-9_acd07e85-a25d-4c7c-88bd-56c202eb126e.png"
+          }
+        },
+        "image_collection_yQ3KF3": {
+          "type": "image-collection",
+          "settings": {
+            "image_collection": "shopify://shop_images/500x550-2_80ed7612-ae26-4615-8064-e1940306a4f9.png"
+          }
+        },
+        "image_collection_QVHdr6": {
+          "type": "image-collection",
+          "settings": {
+            "image_collection": "shopify://shop_images/500x550-7_3afe068b-919b-48f4-885c-650ec3029a90.png"
+          }
+        },
+        "image_collection_4yFEaG": {
+          "type": "image-collection",
+          "settings": {
+            "image_collection": "shopify://shop_images/500x550-1_bd957f2a-02d4-4686-937b-2fe264252413.png"
+          }
+        },
+        "image_collection_7nPXYT": {
+          "type": "image-collection",
+          "settings": {
+            "image_collection": "shopify://shop_images/500x550-3_f0c1fdf7-f933-45ce-a72d-dc6c830bdf5d.png"
+          }
+        },
+        "image_collection_xaaLf3": {
+          "type": "image-collection",
+          "settings": {
+            "image_collection": "shopify://shop_images/500x550-11_46fd6b95-8087-4282-98e4-dffd9f5cc4f4.png"
+          }
+        }
+      },
+      "block_order": [
+        "image_collection_YgGnJw",
+        "image_collection_GN6zDh",
+        "image_collection_xbFef4",
+        "image_collection_ePTD3x",
+        "image_collection_aANn7H",
+        "image_collection_jgnGFW",
+        "image_collection_yQ3KF3",
+        "image_collection_QVHdr6",
+        "image_collection_4yFEaG",
+        "image_collection_7nPXYT",
+        "image_collection_xaaLf3"
+      ],
+      "name": "Product Gallery",
+      "settings": {
+        "bg_image": "shopify://shop_images/1_ba4eb4ed-6904-41c4-9521-f8601185be98.png"
+      }
+    },
+    "image_TG9RGb": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_a2091f9e-32bf-4043-a62d-699c62a13e9b.png",
+        "mobile_image": "shopify://shop_images/720_d6aaa128-98d7-4a2b-9fef-f4c65268f328.png",
+        "img_rul": ""
+      }
+    },
+    "image_slider_7BDnyD": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_C9FC8V": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-1.jpg"
+          }
+        },
+        "image_slider_A9zXKY": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-2.jpg"
+          }
+        },
+        "image_slider_Lthybm": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-3.jpg"
+          }
+        },
+        "image_slider_rVzVEC": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-4.jpg"
+          }
+        },
+        "main_diagram_xmDpBN": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-1_3e276b39-943e-4a6f-b191-282e5cf2d893.jpg",
+            "main_img2": "shopify://shop_images/600x720-2_e71f4481-0a64-4ba1-b910-34cc02acb7e3.jpg"
+          }
+        },
+        "image_info_Y4JDii": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "白く燃え上がるような縞模様をまとった白虎たちが、それぞれ前の虎のしっぽを噛みながら、力強く連なる――。石黒亜矢子氏による独創的な「しっぽを噛む白虎」の世界観を、シャツ全面に総柄プリントで表現しました。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C/products/krk-zyd-lmtg0311"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_C9FC8V",
+        "image_slider_A9zXKY",
+        "image_slider_Lthybm",
+        "image_slider_rVzVEC",
+        "main_diagram_xmDpBN",
+        "image_info_Y4JDii"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "「しっぽを噛む白虎」総柄プリントテンセルアロハシャツ",
+        "data_tit_col": "#932c30",
+        "info_text_col": "#232323",
+        "price_col": "#932c30",
+        "og_price_col": "#637381",
+        "but_font_col": "#ffffff",
+        "but_col": "#bd7b47",
+        "but_font_col2": "#bd7b47",
+        "but_col2": "#ffffff"
+      }
+    },
+    "image_slider_xPy4dM": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_yHyYyh": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-7.jpg"
+          }
+        },
+        "image_slider_AEG7GX": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-6.jpg"
+          }
+        },
+        "image_slider_yBtwXm": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-5.jpg"
+          }
+        },
+        "image_slider_NfNHHh": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-8.jpg"
+          }
+        },
+        "main_diagram_fkNQLA": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-3_24da7a71-ce32-4387-bf00-5ff339446a4d.jpg",
+            "main_img2": "shopify://shop_images/600x720-4_a6203d96-7242-4378-a259-3dca759d5e92.jpg"
+          }
+        },
+        "image_info_79TiXB": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "シャツ全体に描かれた虎たちの存在感を決定づけるのは、何といっても鮮烈なグリーンの瞳。深い森を思わせるような神秘的な緑色が、見る者を惹きつけて離しません。ただ鋭いだけではなく、どこか知性とユーモアを宿した眼差しが、シャツ全体に独特の躍動感を生み出しています。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C/products/krk-zyd-lmhw0310"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_yHyYyh",
+        "image_slider_AEG7GX",
+        "image_slider_yBtwXm",
+        "image_slider_NfNHHh",
+        "main_diagram_fkNQLA",
+        "image_info_79TiXB"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "「しっぽを噛む茶虎」総柄プリントテンセルアロハシャツ",
+        "data_tit_col": "#932c30",
+        "info_text_col": "#232323",
+        "price_col": "#932c30",
+        "og_price_col": "#637381",
+        "but_font_col": "#ffffff",
+        "but_col": "#bd7b47",
+        "but_font_col2": "#bd7b47",
+        "but_col2": "#ffffff"
+      }
+    },
+    "image_slider_ajYEqY": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_nXHQCW": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-9.jpg"
+          }
+        },
+        "image_slider_MUDQVF": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-10.jpg"
+          }
+        },
+        "image_slider_gMcbd6": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-11.jpg"
+          }
+        },
+        "image_slider_FkNTY9": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-12.jpg"
+          }
+        },
+        "main_diagram_YwFEN9": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-5_7729d829-08fa-49ce-a4b7-9644a8f86b4c.jpg",
+            "main_img2": "shopify://shop_images/600x720-6_73a40501-d00e-4ab8-aeb8-8d4c59ec3e72.jpg"
+          }
+        },
+        "image_info_NDV9mD": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "軽やかでとろみのあるテンセル素材に、襟部分だけを綿麻生地で切り替えることで、表情にアクセントを加え、さらに肌当たりの爽やかさもプラス。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C/products/krk-zyd-lmhwc0219"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_nXHQCW",
+        "image_slider_MUDQVF",
+        "image_slider_gMcbd6",
+        "image_slider_FkNTY9",
+        "main_diagram_YwFEN9",
+        "image_info_NDV9mD"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "「しっぽを噛む虎列」綿麻襟切替テンセルアロハシャツ",
+        "data_tit_col": "#932c30",
+        "info_text_col": "#232323",
+        "price_col": "#932c30",
+        "og_price_col": "#637381",
+        "but_font_col": "#ffffff",
+        "but_col": "#bd7b47",
+        "but_font_col2": "#bd7b47",
+        "but_col2": "#ffffff"
+      }
+    },
+    "image_slider_wYrwhn": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_VBKQtY": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-17.jpg"
+          }
+        },
+        "image_slider_KdGxmP": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-18.jpg"
+          }
+        },
+        "image_slider_hjNpnf": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-19.jpg"
+          }
+        },
+        "image_slider_bHLhFm": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-16.jpg"
+          }
+        },
+        "main_diagram_RYAqKK": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-10_2f8139d8-cff6-4bec-adaa-48b9c1d24753.jpg",
+            "main_img2": "shopify://shop_images/600x720-9_0573e461-2083-4f83-bc7f-5cb243ac71fd.jpg"
+          }
+        },
+        "image_info_zKUw3h": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "落ち感のある生地にオープンカラーを合わせ、リラックス感たっぷりに仕上げました。遊び心と大人の抜け感を絶妙なバランスで楽しめる、KARAKUならではのオリジナルシャツです。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C/products/krk-gsh-lmcs0308"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_VBKQtY",
+        "image_slider_KdGxmP",
+        "image_slider_hjNpnf",
+        "image_slider_bHLhFm",
+        "main_diagram_RYAqKK",
+        "image_info_zKUw3h"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "「三虎列」バーティカルプリントアロハシャツ",
+        "data_tit_col": "#932c30",
+        "info_text_col": "#232323",
+        "price_col": "#932c30",
+        "og_price_col": "#637381",
+        "but_font_col": "#ffffff",
+        "but_col": "#bd7b47",
+        "but_font_col2": "#bd7b47",
+        "but_col2": "#ffffff"
+      }
+    },
+    "image_slider_yj6dJM": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_qJMaPp": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-13.jpg"
+          }
+        },
+        "image_slider_NGFVUD": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-14.jpg"
+          }
+        },
+        "image_slider_XBHEgQ": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-15.jpg"
+          }
+        },
+        "image_slider_kYqdch": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-16.jpg"
+          }
+        },
+        "main_diagram_GEPBjQ": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-7_548d7724-5fb4-4d04-af6d-a062be9f30f0.jpg",
+            "main_img2": "shopify://shop_images/600x720-8_ac48e3d3-9ecc-45b3-9f13-5baf44f00d79.jpg"
+          }
+        },
+        "image_info_tq8Mgh": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "ウエスト部分はゴムやドローコード調節可能で、快適な着用感を実現。また、腰回りや太もも部分はゆとりがあり、動きやすさを追求している。",
+            "price_discount": 12980,
+            "original_price": 12980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C/products/krk-gsh-lmdk0308"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_qJMaPp",
+        "image_slider_NGFVUD",
+        "image_slider_XBHEgQ",
+        "image_slider_kYqdch",
+        "main_diagram_GEPBjQ",
+        "image_info_tq8Mgh"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "「三虎列」バーティカルプリントショーツ",
+        "data_tit_col": "#932c30",
+        "info_text_col": "#232323",
+        "price_col": "#932c30",
+        "og_price_col": "#637381",
+        "but_font_col": "#ffffff",
+        "but_col": "#bd7b47",
+        "but_font_col2": "#bd7b47",
+        "but_col2": "#ffffff"
+      }
+    },
+    "image_slider_HRyNUb": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_GyQXJg": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-25.jpg"
+          }
+        },
+        "image_slider_9rc8WX": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-26.jpg"
+          }
+        },
+        "image_slider_nxCbGH": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-27.jpg"
+          }
+        },
+        "image_slider_LnXLJM": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-28.jpg"
+          }
+        },
+        "main_diagram_fe8NmH": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-13_a788eb64-6dc4-48af-b4db-ddcefaa2da36.jpg",
+            "main_img2": "shopify://shop_images/600x720-14_2659fc17-91d8-4c0f-bd40-f75ec0930d36.jpg"
+          }
+        },
+        "image_info_UrAhhC": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "柄には横たわり寝転ぶ姿、伸びをする姿、毛づくろいする姿、ネズミを狙う姿、魚をかじる姿など、日常的な猫の所作がモチーフとして描かれている。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C/products/krk-zyd-qsmmcs0217"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_GyQXJg",
+        "image_slider_9rc8WX",
+        "image_slider_nxCbGH",
+        "image_slider_LnXLJM",
+        "main_diagram_fe8NmH",
+        "image_info_UrAhhC"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "「猫百態」総柄浮世絵風テンセルアロハシャツ",
+        "data_tit_col": "#932c30",
+        "info_text_col": "#232323",
+        "price_col": "#932c30",
+        "og_price_col": "#637381",
+        "but_font_col": "#ffffff",
+        "but_col": "#bd7b47",
+        "but_font_col2": "#bd7b47",
+        "but_col2": "#ffffff"
+      }
+    },
+    "image_slider_GUACMB": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_6az8HR": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-21.jpg"
+          }
+        },
+        "image_slider_fxPNCy": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-22.jpg"
+          }
+        },
+        "image_slider_aMtgzc": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-23.jpg"
+          }
+        },
+        "image_slider_eYhQ3m": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-24.jpg"
+          }
+        },
+        "main_diagram_dDrDXX": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-11_5c3467b6-aa78-4cde-a286-a83a08d3bcd5.jpg",
+            "main_img2": "shopify://shop_images/600x720-12_8c35665f-2c10-4159-8ec5-442e7e289baa.jpg"
+          }
+        },
+        "image_info_JxiUCD": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "各猫のポーズは多彩だが、全体として左右対称的に配置され、和柄のようにリズミカルに繰り返す構図になっている。コーラルレッドベースカラーは、柔らかく親しみやすさがありつつも個性的。和の雰囲気を保ちつつ、ポップな印象も。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C/products/krk-gsh-mmyxcs0217"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_6az8HR",
+        "image_slider_fxPNCy",
+        "image_slider_aMtgzc",
+        "image_slider_eYhQ3m",
+        "main_diagram_dDrDXX",
+        "image_info_JxiUCD"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "「猫百態Ⅱ」総柄浮世絵風テンセルアロハシャツ",
+        "data_tit_col": "#932c30",
+        "info_text_col": "#232323",
+        "price_col": "#932c30",
+        "og_price_col": "#637381",
+        "but_font_col": "#ffffff",
+        "but_col": "#bd7b47",
+        "but_font_col2": "#bd7b47",
+        "but_col2": "#ffffff"
+      }
+    },
+    "image_slider_MPENFR": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_49WBdc": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-29.jpg"
+          }
+        },
+        "image_slider_PnxVz3": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-30.jpg"
+          }
+        },
+        "image_slider_Tw6EKG": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-31.jpg"
+          }
+        },
+        "image_slider_nJ4CRR": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-32.jpg"
+          }
+        },
+        "main_diagram_VDptE3": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-16_fd180882-9633-468f-b3d4-a9f154a626f9.jpg",
+            "main_img2": "shopify://shop_images/600x720-15_3a39ca64-f7a5-4506-9168-5bca08e36432.jpg"
+          }
+        },
+        "image_info_7cNmeE": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "虎の毛並みは、細かいステッチでリアルに描かれて、各虎の目が異なる色や表情をして、立体感とキャラクター性が強調されている。Tシャツ全体は無地の白でシンプルですが、袖の刺繍が大胆なアクセントとなって、シンプルさと華やかさのバランスが、洗練された印象を与える。",
+            "price_discount": 7990,
+            "original_price": 7990,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C/products/krk-gsh-lmdt0309"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_49WBdc",
+        "image_slider_PnxVz3",
+        "image_slider_Tw6EKG",
+        "image_slider_nJ4CRR",
+        "main_diagram_VDptE3",
+        "image_info_7cNmeE"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "「しっぽを噛む茶虎」総柄プリントテンセル アロハシャツ",
+        "data_tit_col": "#932c30",
+        "info_text_col": "#232323",
+        "price_col": "#932c30",
+        "og_price_col": "#637381",
+        "but_font_col": "#ffffff",
+        "but_col": "#bd7b47",
+        "but_font_col2": "#bd7b47",
+        "but_col2": "#ffffff"
+      }
+    },
+    "image_slider_XbkNzk": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_G9VRhq": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-33.jpg"
+          }
+        },
+        "image_slider_YTRzCr": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-34.jpg"
+          }
+        },
+        "image_slider_dHW33c": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-35.jpg"
+          }
+        },
+        "image_slider_PW6YDE": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-36.jpg"
+          }
+        },
+        "main_diagram_jy64a9": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-18.jpg",
+            "main_img2": "shopify://shop_images/600x720-17.jpg"
+          }
+        },
+        "image_info_GMakbN": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "猫は一匹ずつ表情もポーズも異なり、「貪欲さ」「執念深さ」「狡猾さ」「喜び」など、魚を巡る強い感情がデフォルメされた形で表現されている。一部の猫は目をギラつかせていたり、魚を咥えていたり、よだれを垂らしていたりと、擬人化的な描写が目立つ。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C/products/krk-gsh-mmmycs0217"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_G9VRhq",
+        "image_slider_YTRzCr",
+        "image_slider_dHW33c",
+        "image_slider_PW6YDE",
+        "main_diagram_jy64a9",
+        "image_info_GMakbN"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "「魚に貪欲な猫たち」浮世絵風アロハシャツ",
+        "data_tit_col": "#932c30",
+        "info_text_col": "#232323",
+        "price_col": "#932c30",
+        "og_price_col": "#637381",
+        "but_font_col": "#ffffff",
+        "but_col": "#bd7b47",
+        "but_font_col2": "#bd7b47",
+        "but_col2": "#ffffff"
+      }
+    },
+    "image_slider_PXYMYe": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_7Y7kGA": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-37.jpg"
+          }
+        },
+        "image_slider_gdaxqz": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-38.jpg"
+          }
+        },
+        "image_slider_geGCmy": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-39.jpg"
+          }
+        },
+        "image_slider_z6mtiV": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-40.jpg"
+          }
+        },
+        "main_diagram_PHe6jg": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-20_bfa45168-8d3c-4650-bd77-2854fa85d9a2.jpg",
+            "main_img2": "shopify://shop_images/600x720-19_d6d9326d-d1a4-4188-b5a0-2d715affebde.jpg"
+          }
+        },
+        "image_info_Pr44pA": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "輪郭線が極めて鋭角的かつ繊細＝浮世絵師の「線のリズム」を踏襲。背景に描かれた緑色の波紋や水流は、浮世絵の「流水紋様」を意識したもの。波紋は柔らかい曲線で構成され、シャツのベースカラーと調和し、のどかで涼しげな印象を作り出している。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C/products/krk-zyd-bbtyc0226"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_7Y7kGA",
+        "image_slider_gdaxqz",
+        "image_slider_geGCmy",
+        "image_slider_z6mtiV",
+        "main_diagram_PHe6jg",
+        "image_info_Pr44pA"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "「百頭魚」総柄浮世絵風テンセルアロハシャツ",
+        "data_tit_col": "#932c30",
+        "info_text_col": "#232323",
+        "price_col": "#932c30",
+        "og_price_col": "#637381",
+        "but_font_col": "#ffffff",
+        "but_col": "#bd7b47",
+        "but_font_col2": "#bd7b47",
+        "but_col2": "#ffffff"
+      }
+    },
+    "image_slider_dyiDke": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_iRRUhg": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-41.jpg"
+          }
+        },
+        "image_slider_UpAGYd": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-42.jpg"
+          }
+        },
+        "image_slider_jhDQQV": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-43.jpg"
+          }
+        },
+        "image_slider_NFLAwi": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370-44.jpg"
+          }
+        },
+        "main_diagram_ACzCNa": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-21_a0d1281f-faae-4efb-89ac-5b17b28dc148.jpg",
+            "main_img2": "shopify://shop_images/600x720-22_c9322258-0904-495d-b857-b1cb33c52af5.jpg"
+          }
+        },
+        "image_info_JGz8TW": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "百種類の動物の顔を集めて1つの魚の体を構成して、それぞれの顔が個性的に表現され、“生命の混沌と調和”を象徴している。輪郭線が極めて鋭角的かつ繊細＝浮世絵師の「線のリズム」を踏襲。背景をベタ塗りせず、「空白」をデザインの一部として活かす「間」の美学。色は「ぼかし塗り」ではなく、版画的に面ごとに分割して塗る古典技法をイメージ。",
+            "price_discount": 13980,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/collections/%E6%96%B0%E4%BD%9C/products/krk-rym-dwtby0314"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_iRRUhg",
+        "image_slider_UpAGYd",
+        "image_slider_jhDQQV",
+        "image_slider_NFLAwi",
+        "main_diagram_ACzCNa",
+        "image_info_JGz8TW"
+      ],
+      "name": "Image slider",
+      "settings": {
+        "data_title": "「百頭魚」浮世絵風テンセルアロハシャツ",
+        "data_tit_col": "#932c30",
+        "info_text_col": "#232323",
+        "price_col": "#932c30",
+        "og_price_col": "#637381",
+        "but_font_col": "#ffffff",
+        "but_col": "#bd7b47",
+        "but_font_col2": "#bd7b47",
+        "but_col2": "#ffffff"
+      }
+    },
+    "background_image_eXH484": {
+      "type": "background-image",
+      "name": "Background image",
+      "settings": {
+        "image": "shopify://shop_images/20250428-102816.jpg",
+        "background_color_overlay": "",
+        "background_color": ""
+      }
+    },
+    "featured_collection_yEH7RQ": {
+      "type": "featured-collection",
+      "name": "Featured collection",
+      "settings": {
+        "title": "KARAKU×石黒亜矢子",
+        "collection": "karaku-ishiguroayako",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "dynamic_picture_ExRFr6",
+    "product_gallery_zRJj3f",
+    "image_TG9RGb",
+    "image_slider_7BDnyD",
+    "image_slider_xPy4dM",
+    "image_slider_ajYEqY",
+    "image_slider_wYrwhn",
+    "image_slider_yj6dJM",
+    "image_slider_HRyNUb",
+    "image_slider_GUACMB",
+    "image_slider_MPENFR",
+    "image_slider_XbkNzk",
+    "image_slider_PXYMYe",
+    "image_slider_dyiDke",
+    "background_image_eXH484",
+    "featured_collection_yEH7RQ"
+  ]
+}

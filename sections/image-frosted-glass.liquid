@@ -1,0 +1,213 @@
+{% comment %}
+交互式毛玻璃图片模块
+- 支持图片选择、毛玻璃强度、清晰区域尺寸、毛玻璃层透明度参数配置
+- 鼠标/触摸跟随清晰圆形区域
+- 兼容移动端
+{% endcomment %}
+
+<div class="frosted-glass-section" data-section-id="{{ section.id }}">
+  <div class="frosted-glass-image-wrapper">
+    {% render 'image' with section.settings.image, class: 'frosted-glass-base-image', alt: section.settings.alt, loading: 'lazy' %}
+    <div class="frosted-glass-blur-layer"
+         style="--blur-strength: {{ section.settings.blur_strength | default: 8 }}; --blur-opacity: {{ section.settings.blur_opacity | default: 0.3 }}; --clear-diameter: {{ section.settings.clear_diameter | default: 160 }}px; --blur-bg-color: {{ section.settings.blur_bg_color }};">
+      <!-- backdrop-filter 方案下不再需要叠加模糊图片 -->
+    </div>
+  </div>
+</div>
+
+{% schema %}
+{
+  "name": "交互式毛玻璃图片",
+  "settings": [
+    {
+      "type": "image_picker",
+      "id": "image",
+      "label": "图片"
+    },
+    {
+      "type": "text",
+      "id": "alt",
+      "label": "图片描述",
+      "default": "毛玻璃图片"
+    },
+    {
+      "type": "range",
+      "id": "blur_strength",
+      "label": "毛玻璃强度（模糊 px）",
+      "min": 2,
+      "max": 40,
+      "step": 1,
+      "default": 12
+    },
+    {
+      "type": "range",
+      "id": "clear_diameter",
+      "label": "清晰区域直径（px）",
+      "min": 60,
+      "max": 320,
+      "step": 10,
+      "default": 160
+    },
+    {
+      "type": "range",
+      "id": "blur_opacity",
+      "label": "毛玻璃层透明度",
+      "min": 0.1,
+      "max": 0.8,
+      "step": 0.1,
+      "default": 0.3
+    },
+    {
+      "type": "color",
+      "id": "blur_bg_color",
+      "label": "毛玻璃层颜色",
+      "default": "#ffffff"
+    }
+  ],
+  "presets": [
+    {
+      "name": "交互式毛玻璃图片"
+    }
+  ]
+}
+{% endschema %}
+
+{% stylesheet %}
+.frosted-glass-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.frosted-glass-image-wrapper {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+}
+.frosted-glass-base-image {
+  display: block;
+  width: auto;
+  height: auto;
+  max-width: 100%;
+  max-height: 80vh;
+}
+.frosted-glass-blur-layer {
+  position: absolute;
+  inset: 0;
+  width: 100%;
+  height: 100%;
+  z-index: 2;
+  pointer-events: none;
+  /* background 由 JS 动态设置为 rgba */
+  backdrop-filter: blur(calc(var(--blur-strength, 8) * 1px));
+  -webkit-backdrop-filter: blur(calc(var(--blur-strength, 8) * 1px));
+}
+@media (max-width: 700px) {
+  .frosted-glass-image-wrapper {
+    width: 100vw;
+    max-width: 100vw;
+  }
+  .frosted-glass-base-image {
+    width: 100vw;
+    max-width: 100vw;
+    height: auto;
+  }
+}
+{% endstylesheet %}
+
+{% javascript %}
+(function() {
+  function setupFrostedGlass(section) {
+    var wrapper = section.querySelector('.frosted-glass-image-wrapper');
+    if (!wrapper) return;
+    var blurLayer = wrapper.querySelector('.frosted-glass-blur-layer');
+    var blurImage = wrapper.querySelector('.frosted-glass-blur-image');
+    var diameter = parseInt(getComputedStyle(blurLayer).getPropertyValue('--clear-diameter')) || 160;
+
+    function setMask(x, y, show) {
+      if (!show) {
+        blurLayer.style.webkitMaskImage = 'none';
+        blurLayer.style.maskImage = 'none';
+        return;
+      }
+      var rect = wrapper.getBoundingClientRect();
+      var px = x - rect.left;
+      var py = y - rect.top;
+      var size = diameter;
+      var fade = Math.round(size * 0.15);
+      var maskImage = `radial-gradient(circle ${size/2}px at ${px}px ${py}px, transparent ${size/2-fade}px, black ${size/2}px)`;
+      blurLayer.style.webkitMaskImage = maskImage;
+      blurLayer.style.maskImage = maskImage;
+    }
+
+    function onMove(e) {
+      let x, y;
+      if (e.touches && e.touches.length) {
+        x = e.touches[0].clientX;
+        y = e.touches[0].clientY;
+      } else {
+        x = e.clientX;
+        y = e.clientY;
+      }
+      requestAnimationFrame(() => setMask(x, y, true));
+    }
+    function onEnter(e) {
+      wrapper.style.cursor = 'none';
+      onMove(e);
+    }
+    function onLeave() {
+      wrapper.style.cursor = '';
+      setMask(0, 0, false);
+    }
+
+    wrapper.addEventListener('mouseenter', onEnter);
+    wrapper.addEventListener('mousemove', onMove);
+    wrapper.addEventListener('mouseleave', onLeave);
+    wrapper.addEventListener('touchstart', onEnter, {passive: true});
+    wrapper.addEventListener('touchmove', function(e) {
+      onMove(e);
+      e.preventDefault();
+    }, {passive: false});
+    wrapper.addEventListener('touchend', onLeave, {passive: true});
+    wrapper.addEventListener('touchcancel', onLeave, {passive: true});
+
+    setMask(0, 0, false);
+
+    var img = new window.Image();
+    img.onload = function() {
+      var ratio = img.naturalWidth / img.naturalHeight;
+      if (ratio > 0 && isFinite(ratio)) {
+        wrapper.style.aspectRatio = ratio;
+      }
+    };
+    img.src = wrapper.style.backgroundImage.replace(/^url\(["']?|["']?\)$/g, '').replace(/^url\(["']?/, '').replace(/["']?\)$/, '');
+
+    // 在 setupFrostedGlass 函数内增加动态设置 background 的逻辑
+    if (blurLayer) {
+      var hex = getComputedStyle(blurLayer).getPropertyValue('--blur-bg-color').trim();
+      var opacity = parseFloat(getComputedStyle(blurLayer).getPropertyValue('--blur-opacity'));
+      function hexToRgb(hex) {
+        hex = hex.replace('#', '');
+        if (hex.length === 3) hex = hex.split('').map(x => x + x).join('');
+        var bigint = parseInt(hex, 16);
+        var r = (bigint >> 16) & 255;
+        var g = (bigint >> 8) & 255;
+        var b = bigint & 255;
+        return [r, g, b];
+      }
+      var rgb = hexToRgb(hex);
+      blurLayer.style.background = `rgba(${rgb[0]},${rgb[1]},${rgb[2]},${isNaN(opacity) ? 0.3 : opacity})`;
+    }
+  }
+  function initAll() {
+    document.querySelectorAll('.frosted-glass-section').forEach(setupFrostedGlass);
+  }
+  document.addEventListener('DOMContentLoaded', initAll);
+  document.addEventListener('shopify:section:load', function(e) {
+    setupFrostedGlass(e.target);
+  });
+  document.addEventListener('shopify:section:select', function(e) {
+    setupFrostedGlass(e.target);
+  });
+})();
+{% endjavascript %}

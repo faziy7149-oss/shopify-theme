@@ -1,0 +1,256 @@
+<link rel="stylesheet" href="{{ 'size-guide.css' | asset_url }}" {%- render 'lazy-stylesheet-attrs' %}>
+<script src="{{ 'size-guide.js' | asset_url }}" defer></script>
+<script src="{{ 'tabs.js' | asset_url }}" defer></script>
+
+{%- capture size_guide_footer -%}
+  {%- if section.settings.show_footer -%}
+    <div class="size-guide__footer rte mt-8 py-3 px-6 small-text" style="background: {{ section.settings.footer_bg_color }};
+                            color: {{ section.settings.footer_text_color }};
+                            --link-color: {{ section.settings.footer_text_color.rgb }}">
+      {{- section.settings.footer_text -}}
+    </div>
+  {%- endif -%}
+{%- endcapture -%}
+
+{%- capture size_guide_modal_start -%}
+  <modal-dialog class="modal modal--for-size-guide invisible fixed top-0 left-0 w-full h-full flex items-center justify-center"
+    {%- if section.settings.associate_with_product %}
+      {%- if section.settings.product != blank %} id="size-chart-{{ section.settings.product.id }}"
+      {%- else %} id="size-chart-{{ product.id }}"
+      {%- endif -%}
+    {%- endif %}
+    role="dialog"
+    aria-label="{{ section.settings.heading | escape }}"
+    aria-modal="true"
+    {%- # Prevents trapFocus when in editor -%}
+    {%- unless request.design_mode %} tabindex="-1"{% endunless %}>
+    <div class="modal__window relative bg-theme-bg text-theme-text text-start overflow-hidden has-motion">
+      <button type="button" class="modal__close-btn absolute js-close-modal">
+        {% render 'icon-close' %}
+        <span class="visually-hidden">{{ 'accessibility.close' | t }}</span>
+      </button>
+      <h2 class="h3 modal__edge-title">{{ section.settings.heading | escape }}</h2>
+      <div class="modal__content modal__content--no-bottom flex-auto h-full rte">
+        <div class="rte">{{ section.settings.under_heading }}</div>
+{%- endcapture -%}
+
+{%- capture size_guide_modal_end -%}
+      </div>
+      {{ size_guide_footer }}
+    </div>
+  </modal-dialog>
+{%- endcapture -%}
+
+<size-guide class="size-guide block{% if section.settings.enable_row_highlight %} size-guide--row-highlight{% endif %}" data-section-id="{{ section.id }}" data-dynamic-product-content="{{ section.id }}">
+  {%- if section.settings.visibility == 'popup' -%}
+    {{- size_guide_modal_start -}}
+  {%- else -%}
+    <template data-modal-template><size-guide class="size-guide block{% if section.settings.enable_row_highlight %} size-guide--row-highlight{% endif %}">{{ size_guide_modal_start }}{{ size_guide_modal_end }}</size-guide></template>
+    <div class="container focus:outline-none focus-visible:outline-none"
+        {%- if section.settings.associate_with_product %}
+          {%- if section.settings.product != blank %} id="size-chart-{{ section.settings.product.id }}"
+          {%- else %} id="size-chart-{{ product.id }}"
+          {%- endif -%}
+        {%- endif %}
+        tabindex="-1">
+      <div class="{% unless section.settings.full_width %}reading-width{% endunless %}">
+        <h2 class="h3">{{ section.settings.heading | escape }}</h2>
+        <div class="rte">{{ section.settings.under_heading }}</div>
+  {%- endif -%}
+
+  {%- capture block_html -%}{% content_for 'blocks' %}{%- endcapture -%}
+  {%- liquid
+    assign tab_count = block_html | split: 'class="tablist__tab"' | size | minus: 1
+  -%}
+  {%- if tab_count < 2 -%}
+    <div class="size-guide__content mt-6 mb-8">
+      {{- block_html | replace: 'role="tabpanel" tabindex="0" hidden aria-labelledby', 'data-aria-labelledby' -}}
+    </div>
+  {%- else -%}
+    <tabbed-content class="size-guide__content block mt-4 mb-8">
+      <div class="tablist mb-6">
+        <div class="tablist__scroller flex" role="tablist">
+
+          {%- liquid
+            assign split_block_html = block_html | split: '<template data-tab-button>'
+            for html in split_block_html offset: 1
+              assign button_html = html | split: '</template>' | first
+              echo button_html
+            endfor
+          -%}
+        </div>
+      </div>
+      {{- block_html -}}
+    </tabbed-content>
+  {%- endif -%}
+
+  {%- if section.settings.visibility == 'popup' -%}
+    {{- size_guide_modal_end -}}
+  {%- else -%}
+        {{ size_guide_footer }}
+      </div>
+    </div>
+  {%- endif -%}
+</size-guide>
+
+{% schema %}
+{
+  "name": "Size guide",
+  "class": "section-size-guide cc-variant-dependent-section",
+  "disabled_on": {
+    "groups": [
+      "aside"
+    ]
+  },
+  "settings": [
+    {
+      "id": "associate_with_product",
+      "type": "checkbox",
+      "label": "Associate with a product",
+      "info": "The current page's product, by default. Will ensure the 'Size guide' link by a variant option displays this content.",
+      "default": true
+    },
+    {
+      "id": "product",
+      "type": "product",
+      "label": "Custom product",
+      "info": "Use this for 'Featured product' sections."
+    },
+    {
+      "id": "visibility",
+      "type": "select",
+      "label": "Show",
+      "default": "page",
+      "options": [
+        {
+          "value": "page",
+          "label": "In page"
+        },
+        {
+          "value": "popup",
+          "label": "As popup"
+        }
+      ]
+    },
+    {
+      "visible_if": "{{ section.settings.visibility == 'page' }}",
+      "id": "full_width",
+      "type": "checkbox",
+      "label": "Full page width",
+      "default": false
+    },
+    {
+      "id": "heading",
+      "type": "text",
+      "label": "Heading",
+      "default": "Size guide"
+    },
+    {
+      "id": "under_heading",
+      "type": "richtext",
+      "label": "Text under heading"
+    },
+    {
+      "type": "header",
+      "content": "Tabs"
+    },
+    {
+      "type": "paragraph",
+      "content": "Add tabs to this section containing your size charts. If there is only one available tab, the content will display without the tab switcher."
+    },
+    {
+      "type": "paragraph",
+      "content": "A tab with an empty title will not show. Use text metafields on products, connected to each tab's title, to configure tabs to only appear on specific products."
+    },
+    {
+      "type": "header",
+      "content": "Tables"
+    },
+    {
+      "id": "enable_row_highlight",
+      "type": "checkbox",
+      "label": "Show alternating row highlight",
+      "default": true
+    },
+    {
+      "type": "header",
+      "content": "Size guide footer"
+    },
+    {
+      "id": "show_footer",
+      "type": "checkbox",
+      "label": "Show Size guide footer",
+      "default": true
+    },
+    {
+      "id": "footer_text",
+      "type": "inline_richtext",
+      "label": "Text",
+      "default": "Not sure? Feel free to <a href=\"#\">contact</a> our friendly team for help."
+    },
+    {
+      "id": "footer_bg_color",
+      "type": "color",
+      "label": "Background color",
+      "default": "#000000"
+    },
+    {
+      "id": "footer_text_color",
+      "type": "color",
+      "label": "Text color",
+      "default": "#ffffff"
+    }
+  ],
+  "blocks": [{ "type": "size-guide-tab" }],
+  "presets": [
+    {
+      "name": "Size guide",
+      "category": "Products",
+      "blocks": [
+        {
+          "type": "size-guide-tab",
+          "blocks": [
+            {
+              "type": "size-guide-table",
+              "blocks": [
+                {
+                  "type": "size-guide-table-row",
+                  "settings": {
+                    "is_table_header": true,
+                    "title": "",
+                    "column_1": "Length"
+                  }
+                },
+                {
+                  "type": "size-guide-table-row",
+                  "settings": {
+                    "is_table_header": false,
+                    "title": "S",
+                    "column_1": "10cm"
+                  }
+                },
+                {
+                  "type": "size-guide-table-row",
+                  "settings": {
+                    "is_table_header": false,
+                    "title": "M",
+                    "column_1": "20cm"
+                  }
+                },
+                {
+                  "type": "size-guide-table-row",
+                  "settings": {
+                    "is_table_header": false,
+                    "title": "L",
+                    "column_1": "30cm"
+                  }
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
+{% endschema %}

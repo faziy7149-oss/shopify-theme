@@ -1,0 +1,855 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "16587422754fe8ce83": {
+      "type": "slideshow",
+      "blocks": {
+        "16587422757927860f-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/20220725-175345.jpg",
+            "mobile_image": "shopify://shop_images/20220725-175357.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "16587422757927860f-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "1657793860482973db": {
+      "type": "rich-text",
+      "blocks": {
+        "1657793860490ad2e7-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "2022.07.21"
+          }
+        },
+        "1657793860490ad2e7-1": {
+          "type": "heading",
+          "settings": {
+            "title": "【2022 Autumn Collection 】",
+            "use_h1": false
+          }
+        },
+        "1657793860490ad2e7-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>2022年7月より、<br/>Karaku秋冬の新作アイテム・定番アイテムが登場<br/>気分が上がるデザインがポイントの秋新作をご紹介♪</p>",
+            "enlarge_text": false
+          }
+        },
+        "bc009c4c-06c3-431d-9cd1-c88f3a8d2592": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "気分が上がるポジティブカラーがポイントの秋新作を早くもご紹介♪コーディネートで不安やモヤモヤの気持ちを消しましょう！"
+          }
+        },
+        "8c97c5a0-9a32-4770-b4f8-51da915b8310": {
+          "type": "heading",
+          "settings": {
+            "title": "あなたが一番心に響くカラートーンを一つ選んで。",
+            "use_h1": false
+          }
+        }
+      },
+      "block_order": [
+        "1657793860490ad2e7-0",
+        "1657793860490ad2e7-1",
+        "1657793860490ad2e7-2",
+        "bc009c4c-06c3-431d-9cd1-c88f3a8d2592",
+        "8c97c5a0-9a32-4770-b4f8-51da915b8310"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "165053447469e87bef": {
+      "type": "rich-text",
+      "blocks": {
+        "1650534474a49cb371-1": {
+          "type": "heading",
+          "settings": {
+            "title": "01",
+            "use_h1": false
+          }
+        },
+        "1650534474a49cb371-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ブルー×カーキイエローを選んだ人は······</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1650534474a49cb371-1",
+        "1650534474a49cb371-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_9nhw8H": {
+      "type": "custom-content",
+      "blocks": {
+        "image_xBbfHL": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/1_8e90fb0a-a886-44a0-a20f-6e6963497f6a.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_xBbfHL"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "165822301816c9285a": {
+      "type": "image-with-text",
+      "disabled": true,
+      "settings": {
+        "image": "shopify://shop_images/1_720x_e284071a-e058-4406-96aa-bc7e6d6b91d9.webp",
+        "image_2": "shopify://shop_images/20220706-174740_720x_46e5a80d-fbaa-410b-9768-369bb17c4aea.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "165848316870051c20": {
+      "type": "rich-text",
+      "blocks": {
+        "1658483168b55548ba-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "仕事や人間関係のストレスから生まれた不安が疲労につながり、疲労がさらなる不安感を呼ぶ。そんな悪しきスパイラルから脱け出すための対策は、生活習慣を見直すことです。そんなあなたは心と身体の健康のためには理想的な睡眠時間を取ると同時に、睡眠の質を高めることが重要。身につけたいカラーはブルーとカーキイエローのコンビネーション。"
+          }
+        },
+        "1658483168b55548ba-1": {
+          "type": "heading",
+          "settings": {
+            "title": "【おすすめコーデ】",
+            "use_h1": false
+          }
+        },
+        "1658483168b55548ba-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>涼しげなブルーを多用して心のクールダウンを狙ってみましょう。<br/>秋気分を盛り上げる、「温かみ」をイメージさせるカーキイエローで人との距離を縮もう。<br/><br/>ITEMS<br/><a href=\"https://www.karakubuy.com/products/krk-nxb525-22c236?_pos=2&_sid=46b938568&_ss=r&variant=42936746672347\" title=\"https://www.karakubuy.com/products/krk-nxb525-22c236?_pos=2&_sid=46b938568&_ss=r&variant=42936746672347\">blue：KRK-NXB525-22C236/フェイクレイヤード　Cityboyチェック柄シャツ/13,165.............BUY</a></p><p><br/><a href=\"https://www.karakubuy.com/products/krk-md-tss2201065?_pos=1&_sid=a2599b7f4&_ss=r&variant=43029415788763\" title=\"https://www.karakubuy.com/products/krk-md-tss2201065?_pos=1&_sid=a2599b7f4&_ss=r&variant=43029415788763\">khaki*yellow：KRK-MD-TSS2201065/ストレッチ ヴィンテージオーバーオール/16,890.............BUY</a><br/></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1658483168b55548ba-0",
+        "1658483168b55548ba-1",
+        "1658483168b55548ba-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "gallery_YXG3eg": {
+      "type": "gallery",
+      "blocks": {
+        "media_DpgAXV": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/1_720x_e284071a-e058-4406-96aa-bc7e6d6b91d9.webp",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/products/krk-nxb525-22c236?_pos=2&_sid=f4a85fed8&_ss=r&variant=42936746672347",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_aHTHUh": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/20220706-174740_720x_13e1a4cb-520b-4cd7-b9b7-668ca130c9dc.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/products/krk-md-tss2201065?_pos=1&_sid=a2599b7f4&_ss=r&variant=43029415788763",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_DpgAXV",
+        "media_aHTHUh"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 540,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "no_background",
+        "button_style": "primary"
+      }
+    },
+    "1657620809c9bc4ff1": {
+      "type": "rich-text",
+      "blocks": {
+        "165762080930a88b3b-1": {
+          "type": "heading",
+          "settings": {
+            "title": "02",
+            "use_h1": false
+          }
+        },
+        "165762080930a88b3b-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>イエロー×ブラックを選んだ人は······</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "165762080930a88b3b-1",
+        "165762080930a88b3b-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_wtm7Gj": {
+      "type": "custom-content",
+      "blocks": {
+        "image_bfjMrb": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/2_9dd31cc7-ab82-496d-91b4-5f47da144e3a.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "<p>Pair text with an image to tell a story</p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_bfjMrb"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "1658740980954a058a": {
+      "type": "rich-text",
+      "blocks": {
+        "165874098071ae2c2e-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "もしかしたら、自己評価が低いがゆえに、慢性的な不安や落ち込みを抱える人が昨今増えているといわれています。もしやあなたも、ご自身を過小評価していないでしょうか？謙遜せず、相手の言葉を「ありがとう」と素直に受け取りましょう。自信を育てることが重要。身につけたいカラーはグレーとイエローのコンビネーション。日々の緊張感を緩め、ポジティブなあり方へと導いてくれます。"
+          }
+        },
+        "165874098071ae2c2e-1": {
+          "type": "heading",
+          "settings": {
+            "title": "【おすすめコーデ】",
+            "use_h1": false
+          }
+        },
+        "165874098071ae2c2e-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>男らしさ満点の人気アイテム\"フライトジャケット\"、耐久性・防風性の抜群の生地を使用、中間気候に着やすいように中綿を抜いたライトMA-1の仕様になっています。<br/>定評のあるパラシュートパンツを機能性と実用性を更にアップさせた一点。どちらも男らしさが満点で自信を育てるアイテムにはちょうど良い！<br/><br/><br/>ITEMS<br/>yellow：<a href=\"/products/krk-vip-ak181117\" title=\"（Civil Air Patrol）MA-1フライトジャケット\">KRK-VIP-AK181117/（Civil Air Patrol）MA-1フライトジャケット/17,171.............BUY</a><br/><br/><br/><a href=\"https://www.karakubuy.com/products/krk-vip-vz122007?_pos=1&_sid=68561e102&_ss=r&variant=42917532303579\" title=\"https://www.karakubuy.com/products/krk-vip-vz122007?_pos=1&_sid=68561e102&_ss=r&variant=42917532303579\">black：KRK-VIP-VZ122007/取り外し可能グログランテープ　パラシュートパンツ/16,945.............BUY</a><br/><br/></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "165874098071ae2c2e-0",
+        "165874098071ae2c2e-1",
+        "165874098071ae2c2e-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "gallery_TpebWg": {
+      "type": "gallery",
+      "blocks": {
+        "media_8EBRfL": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/7376d19b161f2a93a4051e47289d0505_720x_bceb5c78-37e3-421f-a82c-5f7ed8094c77.webp",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://www.karakubuy.com/products/krk-vip-ak181117?_pos=1&_sid=13cc774c8&_ss=r&variant=40967586152626",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_Kwkz3m": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/1_720x_0ecda272-5286-43c7-a9eb-1c9ce90c5162.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_8EBRfL",
+        "media_Kwkz3m"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 640,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "no_background",
+        "button_style": "primary"
+      }
+    },
+    "165762182392e35607": {
+      "type": "rich-text",
+      "blocks": {
+        "1657621823fe844618-1": {
+          "type": "heading",
+          "settings": {
+            "title": "03",
+            "use_h1": false
+          }
+        },
+        "1657621823fe844618-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ベージュ×グリーンを選んだ人は······</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1657621823fe844618-1",
+        "1657621823fe844618-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_kEchEw": {
+      "type": "custom-content",
+      "blocks": {
+        "image_EzUrDk": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/3_e20f2a49-24f7-4ee4-b7de-87b18a0e3366.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_EzUrDk"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "165874135655f083e8": {
+      "type": "rich-text",
+      "blocks": {
+        "165874135664ec988a-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "もしかしたら、なにかと不穏な出来事が多い昨今。もともとポジティブで楽観的なほうだけれど、暗いニュースや先行き不透明なムードに影響されて、なんだか不安……。そのために有効なのが、ジョギングや軽い運動などのリラックス法。身につけたいカラーは、心をニュートラルな状態へと導いてくれるベージュとグリーンの組み合わせ。"
+          }
+        },
+        "165874135664ec988a-1": {
+          "type": "heading",
+          "settings": {
+            "title": "【おすすめコーデ】",
+            "use_h1": false
+          }
+        },
+        "165874135664ec988a-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ワークシャツの中に珍しいベージュ色の一点です。優しい印象を与えながら上品なHerringbone Twill素材は綺麗に整列してテクスチャーで表現して、全体的な質感をアップされました。<br/>アメリカインディアンの代表的なNavajo Homeトーテムのエレメントは目立つと楽しみポイントとなります。<br/>クラシカルな雰囲気が特徴のシーパイングリーンはイージーケア性が備えている素材と立体的なシルエットを演出したプリーツデザインです。<br/><br/>ITEMS<br/>ベージュ：<a href=\"/products/tlw2107009\" title=\"【再入荷】レトロアメリカインディアントーテムステッチポケット長袖シャツ\">TLW2107009/【再入荷】レトロアメリカインディアントーテムステッチポケット長袖シャツ/11,880.............BUY</a><br/><br/><br/>グリーン：<a href=\"/products/krk-md-tls2201852\" title=\"リネンライク　プリーツカジュアルパンツ\">KRK-MD-TLS2201852/リネンライク　プリーツカジュアルパンツ/11,690.............BUY</a></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "165874135664ec988a-0",
+        "165874135664ec988a-1",
+        "165874135664ec988a-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "gallery_RD3e88": {
+      "type": "gallery",
+      "blocks": {
+        "media_BchBNz": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/02_720x_1b1b1530-9ce3-4845-a6c3-67adf3390334.webp",
+            "enlarge_media": true,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://minipia.myshopify.com/products/tlw2107009",
+            "text_alignment": "bottom left"
+          }
+        },
+        "media_gHzUEW": {
+          "type": "media",
+          "settings": {
+            "image": "shopify://shop_images/1_720x_126cad3a-5093-4513-b34b-d40b5474bfb8.webp",
+            "enlarge_media": false,
+            "subheading": "",
+            "title": "",
+            "button_label": "",
+            "link": "https://minipia.myshopify.com/products/krk-md-tls2201852",
+            "text_alignment": "bottom left"
+          }
+        }
+      },
+      "block_order": [
+        "media_BchBNz",
+        "media_gHzUEW"
+      ],
+      "settings": {
+        "grid_desktop": 2,
+        "grid_mobile": "1",
+        "height": "fixed",
+        "desktop_image_height": 640,
+        "mobile_image_height": 400,
+        "title_size": 30,
+        "title_size_mobile": 22,
+        "enable_margin": true,
+        "enable_row_spacing": true,
+        "full_width": false,
+        "color_scheme": "default",
+        "enable_carousel": true,
+        "overlay_style": "no_background",
+        "button_style": "primary"
+      }
+    },
+    "1657622070c6a16d99": {
+      "type": "rich-text",
+      "blocks": {
+        "1657622070629c2298-1": {
+          "type": "heading",
+          "settings": {
+            "title": "04",
+            "use_h1": false
+          }
+        },
+        "1657622070629c2298-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ブラック×グリーンを選んだ人は······</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1657622070629c2298-1",
+        "1657622070629c2298-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_r36BnV": {
+      "type": "custom-content",
+      "blocks": {
+        "image_YDGNjk": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/20220725-175404.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "<p>Pair text with an image to tell a story</p>",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_YDGNjk"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "1658224553b1e8ee61": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_jKPYYi": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "もしかしたら、不安を感じるときは、その背後に必ず「あなたが失いたくないもの」「失ったら少なからず困るもの」が隠れています。そんああなたは、与えられた環境のなかで、より自分らしく生きるにはどう行動すればよいかを見つめ直し、実践していきましょう。"
+          }
+        },
+        "heading_ATjM7U": {
+          "type": "heading",
+          "settings": {
+            "title": "【おすすめコーデ】",
+            "use_h1": false
+          }
+        },
+        "text_xaNE4j": {
+          "type": "text",
+          "settings": {
+            "text": "<p>身につけたいカラーは、ブラックとグリーン。日常の小さな物事に価値を見出す視点と、感謝の気持ちを呼び覚ましてくれます。</p><p></p><p></p><p>ITEMS<br/>ブラック：<a href=\"https://www.karakubuy.com/products/krk-md-tww2201844?_pos=1&_sid=01dbe0f71&_ss=r\" title=\"https://www.karakubuy.com/products/krk-md-tww2201844?_pos=1&_sid=01dbe0f71&_ss=r\">KRK-MD-TWW2201844/キャンプ　フィッシング　バッククロスアウトドアベスト/11,190.............BUY</a></p><p><br/>グリーン：<a href=\"https://www.karakubuy.com/products/krk-md-ma2204030?_pos=2&_sid=d341b745e&_ss=r&variant=42917468471515\" title=\"https://www.karakubuy.com/products/krk-md-ma2204030?_pos=2&_sid=d341b745e&_ss=r&variant=42917468471515\">KRK-MD-MA2204030/麻雀刺繍入り　スケートボードシューズ/14,980.............BUY</a></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_jKPYYi",
+        "heading_ATjM7U",
+        "text_xaNE4j"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/2_720x_1170c69b-048b-436e-936f-55edd045188f.webp",
+        "image_2": "shopify://shop_images/1_720x_ba6ba0b6-1920-487a-822e-6357647dddc6.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_PNXF8M": {
+      "type": "custom-content",
+      "blocks": {
+        "image_WFKkBY": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/20220725-175412.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_WFKkBY"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "1658224744186605d3": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_yLJVH8": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "もしかしたらあなたは、こだわりが強いタイプなのかもしれません。そもそも不安をはじめとするネガティブな感情は、意識すればするほどエネルギーが増幅します。特におすすめなのが、単純作業に取り組むこと。"
+          }
+        },
+        "heading_9WdLyU": {
+          "type": "heading",
+          "settings": {
+            "title": "【おすすめコーデ】",
+            "use_h1": false
+          }
+        },
+        "text_4mXU6e": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ラッキーカラーはブラウンとホワイト。何かに緻密に取り組むことの心地よさを味わわせてくれる組み合わせです。<br/></p><p>ITEMS<br/>ホワイト:<a href=\"/products/krk-nxde-dw019\" title=\"コーデュロイ切替　 シティボーイ配色シャツ\">KRK-NXDE-DW019/コーデュロイ切替　 シティボーイ配色シャツ/11,390.............BUY</a></p><p><br/>カーキ：<a href=\"https://www.karakubuy.com/products/krk-md-tlw2201815?_pos=1&_sid=e2f644f95&_ss=r&variant=43062142271707\" title=\"https://www.karakubuy.com/products/krk-md-tlw2201815?_pos=1&_sid=e2f644f95&_ss=r&variant=43062142271707\">KRK-MD-TLW2201815/裾テーパード　　コーデュロイカジュアルパンツ/10,989.............BUY</a><br/><br/></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_yLJVH8",
+        "heading_9WdLyU",
+        "text_4mXU6e"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1_720x_3f8b2161-7598-4b90-a32e-3e45f5bcec0a.webp",
+        "image_2": "shopify://shop_images/1_720x_89e5c627-4d4f-4d0e-be3c-7189ad20089b.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "custom_content_HF3xTP": {
+      "type": "custom-content",
+      "blocks": {
+        "image_LEdmKg": {
+          "type": "image",
+          "settings": {
+            "width": "three-quarters",
+            "image": "shopify://shop_images/6_c167e799-3b18-42ae-aaeb-d831c0b604ed.jpg",
+            "height": "adapt",
+            "height_desktop": 600,
+            "height_mobile": 500,
+            "subheading": "",
+            "title": "",
+            "text": "",
+            "enlarge_text": false,
+            "button_label": "",
+            "button_style": "primary",
+            "image_link": "",
+            "text_alignment": "center center",
+            "mobile_overlay_under": false,
+            "overlay_style": "no_background"
+          }
+        }
+      },
+      "block_order": [
+        "image_LEdmKg"
+      ],
+      "settings": {
+        "alignment": "middle"
+      }
+    },
+    "1658742103b8270d21": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_VRPfE9": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "もしかしたら、気配り上手な一方で、周囲の人の意見に振り回されやすかったり、なんとなく同調圧力に弱かったりとかで困っている。そんなあなたは、他人の意見や行動に惑わされないためには、常日頃から、自分の考えを明確にしておくこと。"
+          }
+        },
+        "heading_74zzMq": {
+          "type": "heading",
+          "settings": {
+            "title": "【おすすめコーデ】",
+            "use_h1": false
+          }
+        },
+        "text_qGqbAH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ファッションには自己肯定感を高めるレッドとモチベーションを高めるレッドを取り入れると吉。<br/><br/>ITEMS<br/>レッド：<a href=\"/products/krk-xh-1931\" title=\"スカルボタン　ユーズド感本革バイカージャケット\">KRK-XH-1931/スカルボタン　ユーズド感本革バイカージャケット/35,980.............BUY</a><br/><br/><br/>ブラウン：<a href=\"/products/ショルダーバッグ-バイク-ビジネスオンオフ兼用\" title=\"多機能キャンバスオートバイバッグサイドポーチ\">MC-16960ND/多機能キャンバスオートバイバッグサイドポーチ/12,420.............BUY</a><br/></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "subheading_VRPfE9",
+        "heading_74zzMq",
+        "text_qGqbAH"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1_720x_8164b855-dad0-4978-bf6f-799f3610c2d2.webp",
+        "image_2": "shopify://shop_images/O1CN01oicJEQ1XaZ6ul72xQ__447402940.jpg_400x400_360x_01cc4bcc-1497-42cc-af9e-a6ebfa8fbfe1.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    }
+  },
+  "order": [
+    "16587422754fe8ce83",
+    "1657793860482973db",
+    "165053447469e87bef",
+    "custom_content_9nhw8H",
+    "165822301816c9285a",
+    "165848316870051c20",
+    "gallery_YXG3eg",
+    "1657620809c9bc4ff1",
+    "custom_content_wtm7Gj",
+    "1658740980954a058a",
+    "gallery_TpebWg",
+    "165762182392e35607",
+    "custom_content_kEchEw",
+    "165874135655f083e8",
+    "gallery_RD3e88",
+    "1657622070c6a16d99",
+    "custom_content_r36BnV",
+    "1658224553b1e8ee61",
+    "custom_content_PNXF8M",
+    "1658224744186605d3",
+    "custom_content_HF3xTP",
+    "1658742103b8270d21",
+    "main"
+  ]
+}

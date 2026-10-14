@@ -1,0 +1,716 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "1636523643a6212f23": {
+      "type": "slideshow",
+      "blocks": {
+        "fe41b353-711f-4d9b-8788-51166b4c667f": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/L1002699.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "fe41b353-711f-4d9b-8788-51166b4c667f"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "1636523147018cf230": {
+      "type": "rich-text",
+      "blocks": {
+        "1636523147018cf230-1": {
+          "type": "heading",
+          "settings": {
+            "title": "2022   Spring＆Summer　Outdoor  Style",
+            "use_h1": false
+          }
+        },
+        "6c945abf-e110-4965-8a21-d6a8757dc962": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "［ HAPPY  OUTSIDE    KARAKU］"
+          }
+        }
+      },
+      "block_order": [
+        "1636523147018cf230-1",
+        "6c945abf-e110-4965-8a21-d6a8757dc962"
+      ],
+      "settings": {
+        "height": "small",
+        "text_alignment": "center",
+        "full_width": true,
+        "color_scheme": "default"
+      }
+    },
+    "16365285724d6af437": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_7PyVbY": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "［ HAPPY  OUTSIDE    KARAKU］"
+          }
+        },
+        "heading_NipQKW": {
+          "type": "heading",
+          "settings": {
+            "title": "ダブルファスナーデザイン 配色切替 ジャケット",
+            "use_h1": false
+          }
+        },
+        "text_xeVyVj": {
+          "type": "text",
+          "settings": {
+            "text": "<p>スタイリングの主役となるカラーコントラスト、アーバンスポーツ、アーバンカジュアルなテイストを兼ね備えたジャケットをリリース</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_mmgfkV": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read more",
+            "button_link": "https://www.karakubuy.com/collections/%E3%82%A2%E3%82%A6%E3%83%88%E3%83%89%E3%82%A2-1/products/krk-md-tw2101168",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_7PyVbY",
+        "heading_NipQKW",
+        "text_xeVyVj",
+        "button_mmgfkV"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/O1CN01vge2Qv1tND5uLjgir__2260675889-0-cib_720x_e79cc354-aec6-44d9-8161-6d0f8afa5648.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "163652915545c8e46b": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_47tm3J": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "［ HAPPY  OUTSIDE    KARAKU］"
+          }
+        },
+        "heading_3G7aHR": {
+          "type": "heading",
+          "settings": {
+            "title": "U.S.ARMY 　M-43山岳部隊パーカー",
+            "use_h1": false
+          }
+        },
+        "text_HbWtTR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>超希少な1940年代のU.S.ARMY M-43山岳部隊フィールドパーカーをモチーフにしたカジュアル感と質感をさりげなく演出した。カジュアルのスポーティー感とミリタリーの男らしさを完璧に合わせた秀逸なパーカーです。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_RyCaHV": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read more",
+            "button_link": "shopify://products/krk-tww2201218",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_47tm3J",
+        "heading_3G7aHR",
+        "text_HbWtTR",
+        "button_RyCaHV"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/2_720x_70e4aa11-e884-49d0-b0ec-42540aa41a8c.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "16389502065c2e73e1": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_nQ8dCF": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "［ HAPPY  OUTSIDE    KARAKU］"
+          }
+        },
+        "heading_3geYi9": {
+          "type": "heading",
+          "settings": {
+            "title": "ミリタリーコンビバイカー 撥水加工マウンテンリュックサック",
+            "use_h1": false
+          }
+        },
+        "text_UMGqF8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>バイクツーリングはもちろん、アウトドアにも、旅行用としても最適な、とても使い勝手がよく、ハーレーダビッドソン乗りで箱を積みたくない派の硬派なバイカーにも人気のバッグです。本物の良さ、オリジナルのこだわりを是非お楽しみください。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_BJ84Hp": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read more",
+            "button_link": "shopify://products/krk-mc-9508",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_nQ8dCF",
+        "heading_3geYi9",
+        "text_UMGqF8",
+        "button_BJ84Hp"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/KRK-MC-9508-1_720x_98dcbcfb-04ff-48c7-972c-41f49e4cf37a.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "16365260640c2b44e0": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_yT3Vf8": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "［ HAPPY  OUTSIDE    KARAKU］"
+          }
+        },
+        "heading_gGhzA6": {
+          "type": "heading",
+          "settings": {
+            "title": "「P-44」 改良型ミリタリーショートパンツ",
+            "use_h1": false
+          }
+        },
+        "text_JVK4JR": {
+          "type": "text",
+          "settings": {
+            "text": "<p>USMC P44 ミリタリーパンツをベースに改良したショーツです。サイドに大きなポケットがデザインされたデザイン性、実用性ともに兼ね備えた、シンプルながらも存在感のある1着となっています。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_3AwWB4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read more",
+            "button_link": "shopify://products/krk-md-tw2301204",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_yT3Vf8",
+        "heading_gGhzA6",
+        "text_JVK4JR",
+        "button_3AwWB4"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/2_720x_eba5f290-d526-4ac3-9759-eb2ff1b34378.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "16365285818fea161e": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_hAHRLX": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "［ HAPPY  OUTSIDE    KARAKU］"
+          }
+        },
+        "heading_8UrBPa": {
+          "type": "heading",
+          "settings": {
+            "title": "アウトドアポケットシャツ",
+            "use_h1": false
+          }
+        },
+        "text_gaqJYT": {
+          "type": "text",
+          "settings": {
+            "text": "<p>ビッグシルエットの半袖シャツです。<br/>胸元に同布で縦ポケットを施しクライミングロープを取り付けた、<br/>立体感のある大きめのマチ付きポケットがポイントです。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_JBKME4": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read more",
+            "button_link": "https://minipia.myshopify.com/products/md-tw2101172",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_hAHRLX",
+        "heading_8UrBPa",
+        "text_gaqJYT",
+        "button_JBKME4"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/9_720x_51edddbc-c163-42bf-8090-dd4abe134af5.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "1636527685cc5be062": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_XydaeD": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "［ HAPPY  OUTSIDE    KARAKU］"
+          }
+        },
+        "heading_3dgzBe": {
+          "type": "heading",
+          "settings": {
+            "title": "脇下メッシュ切替　ハイスタンド半袖フーディ",
+            "use_h1": false
+          }
+        },
+        "text_wNxKPH": {
+          "type": "text",
+          "settings": {
+            "text": "<p>脇下には通気性が良いメッシュ仕様に切替、スポーツやアウトドアのシーンでの体温調節がしやすく様々なシーンで大活躍してくれそうな一点です。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_aMzqQd": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read more",
+            "button_link": "https://minipia.myshopify.com/products/%E8%84%87%E4%B8%8B%E3%83%A1%E3%83%83%E3%82%B7%E3%83%A5%E5%88%87%E6%9B%BF-%E3%83%8F%E3%82%A4%E3%82%B9%E3%82%BF%E3%83%B3%E3%83%89%E5%8D%8A%E8%A2%96%E3%83%95%E3%83%BC%E3%83%87%E3%82%A3",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_XydaeD",
+        "heading_3dgzBe",
+        "text_wNxKPH",
+        "button_aMzqQd"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/6_720x_e2b45df0-fc6f-481a-a528-7e27da9bcd66.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "163894965738fe8ec7": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_QpUz7Q": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "［ HAPPY  OUTSIDE    KARAKU］"
+          }
+        },
+        "heading_twifra": {
+          "type": "heading",
+          "settings": {
+            "title": "リバーシブル仕様　機能バケットハット【ハット＆ウォレット両用】",
+            "use_h1": false
+          }
+        },
+        "text_AT39CG": {
+          "type": "text",
+          "settings": {
+            "text": "<p>リバーシブル仕様のハット＆ウォレット両用のバケットハット.</p><p>カーキ色×ブラック色の気分に合わせて使えるリバーシブル仕様になっています。更に、調整できる紐が付いていて、引き締めることで簡単なウォレットの形になる機能性満載のバケットハット。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_VqpbFY": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read more",
+            "button_link": "shopify://products/krk-md-tw2107095",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_QpUz7Q",
+        "heading_twifra",
+        "text_AT39CG",
+        "button_VqpbFY"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/KRK-MD-TW2107095-5_720x_99266d34-06f3-4db0-9262-63f5ca5fb049.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "16365276807cd04299": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_nx8wFG": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "［ HAPPY  OUTSIDE    KARAKU］"
+          }
+        },
+        "heading_z6r9HC": {
+          "type": "heading",
+          "settings": {
+            "title": "フード付きアウトドアシャツ　半袖",
+            "use_h1": false
+          }
+        },
+        "text_UrATUb": {
+          "type": "text",
+          "settings": {
+            "text": "<p>とても頑丈で軽量なので、夏のアウトドアやキャンプにぴったり！<br/>コットン生地を使用したアウトドアミリタリービッグシャツ！</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_Fk3Nmh": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read more",
+            "button_link": "https://minipia.myshopify.com/products/dh-080401",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_nx8wFG",
+        "heading_z6r9HC",
+        "text_UrATUb",
+        "button_Fk3Nmh"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/b012a18733783a47e1830b04825c00f0_720x_fa4c0404-f45c-4462-8473-b93457231fe3.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "1636526070a71ff4bf": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_Vg7Q3R": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "［ HAPPY  OUTSIDE    KARAKU］"
+          }
+        },
+        "heading_6apiMU": {
+          "type": "heading",
+          "settings": {
+            "title": "UrbanOutdoor 機能性カラビナ付きＴシャツ",
+            "use_h1": false
+          }
+        },
+        "text_eFzLC8": {
+          "type": "text",
+          "settings": {
+            "text": "<p>装備をしっかりそろえ、キャンプに行って大自然に抱かれるのが人間回帰への近道。けれど、野遊びは、何も遠く離れた山や森、海に行かないとできないものではありません。ベランダや公園でも自然を楽しむ体験、それが「Urban Outdoor」です。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_DUyzER": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read more",
+            "button_link": "https://minipia.myshopify.com/products/krk-md-tlw2201806",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Vg7Q3R",
+        "heading_6apiMU",
+        "text_eFzLC8",
+        "button_DUyzER"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/6_720x_581e989e-c091-46b4-9892-31d31d95a1fc.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "16389499882aacbdec": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_mN6U8D": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "［ HAPPY  OUTSIDE    KARAKU］"
+          }
+        },
+        "heading_DNYqRG": {
+          "type": "heading",
+          "settings": {
+            "title": "ワッフルショーツ",
+            "use_h1": false
+          }
+        },
+        "text_K998EY": {
+          "type": "text",
+          "settings": {
+            "text": "<p>毛羽立ちの少ないMVS糸を用いたドライな風合いが特徴、ゆったりとしたシルエットで、程よいルーズ感のあるショートパンツ。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_NqXRKd": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read more",
+            "button_link": "https://minipia.myshopify.com/collections/happy-outside-karaku?oseid=v6NQDvUds1zPNuC66Xd51uvx",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_mN6U8D",
+        "heading_DNYqRG",
+        "text_K998EY",
+        "button_NqXRKd"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/4_720x_90750849-fc67-4eb1-b763-ef6378a06f5d.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "163652651042781ff0": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_EraqDQ": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "［ HAPPY  OUTSIDE    KARAKU］"
+          }
+        },
+        "heading_fJ3WxL": {
+          "type": "heading",
+          "settings": {
+            "title": "M-43 サービスシューズ",
+            "use_h1": false
+          }
+        },
+        "text_g8YEDx": {
+          "type": "text",
+          "settings": {
+            "text": "<p>スティーブ・マックイーン主演の映画『大脱走』の作中でもマックイーンが履いているブーツとしてもお馴染みのアイテムです。</p><p>KARAKUBUYのU.S.ARMYサービスシューズ M-43「TYPE III」です。この「TYPE III」と呼ばれるブーツは厚手の牛革を裏使いにして作られています。革を裏使いして紙やすりで革面を均一にして、防水効果として固形のパラフィンを溶かして浸透させています。当時と全く同じ製法が採用されています。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_6zqRqg": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read more",
+            "button_link": "https://minipia.myshopify.com/products/md-md2007031",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_EraqDQ",
+        "heading_fJ3WxL",
+        "text_g8YEDx",
+        "button_6zqRqg"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/2_720x_d427514f-25bc-454c-b908-78986490a928.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "1636529044973c70d1": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_b6i3fE": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "［ HAPPY  OUTSIDE    KARAKU］"
+          }
+        },
+        "heading_ebBaVm": {
+          "type": "heading",
+          "settings": {
+            "title": "M-43 サービスシューズ",
+            "use_h1": false
+          }
+        },
+        "text_HMH3Ud": {
+          "type": "text",
+          "settings": {
+            "text": "<p>スティーブ・マックイーン主演の映画『大脱走』の作中でもマックイーンが履いているブーツとしてもお馴染みのアイテムです。</p><p>KARAKUBUYのU.S.ARMYサービスシューズ M-43「TYPE III」です。この「TYPE III」と呼ばれるブーツは厚手の牛革を裏使いにして作られています。革を裏使いして紙やすりで革面を均一にして、防水効果として固形のパラフィンを溶かして浸透させています。当時と全く同じ製法が採用されています。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_TpccdT": {
+          "type": "button",
+          "settings": {
+            "button_label": "Read more",
+            "button_link": "https://minipia.myshopify.com/products/md-tw2101147",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_b6i3fE",
+        "heading_ebBaVm",
+        "text_HMH3Ud",
+        "button_TpccdT"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/1_720x_4e11dd02-dbfb-4aab-bd28-5c609d64cad1.webp",
+        "image_width": 700,
+        "image_link": "",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 36,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": true,
+        "collapse_filters_method": "over-12",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1635765484031572a6": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "アクセサリー・小物",
+        "collection": "アクセサリー-小物",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 5,
+        "rows": 2,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    }
+  },
+  "order": [
+    "1636523643a6212f23",
+    "1636523147018cf230",
+    "16365285724d6af437",
+    "163652915545c8e46b",
+    "16389502065c2e73e1",
+    "16365260640c2b44e0",
+    "16365285818fea161e",
+    "1636527685cc5be062",
+    "163894965738fe8ec7",
+    "16365276807cd04299",
+    "1636526070a71ff4bf",
+    "16389499882aacbdec",
+    "163652651042781ff0",
+    "1636529044973c70d1",
+    "main",
+    "1635765484031572a6"
+  ]
+}

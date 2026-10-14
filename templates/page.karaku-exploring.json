@@ -1,0 +1,175 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "show_page_title": true,
+        "full_width": false
+      }
+    },
+    "16449092107b5f94e0": {
+      "type": "slideshow",
+      "blocks": {
+        "5a3b5f22-1c25-4472-82bd-eb144155398b": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/PC_8e03999b-a8ae-436d-9848-fe4862c199be.jpg",
+            "slide_link": "https://www.karakubuy.com/account",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "5a3b5f22-1c25-4472-82bd-eb144155398b"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "collapsible_tabs_b4fAqG": {
+      "type": "collapsible-tabs",
+      "blocks": {
+        "question_x7TPBk": {
+          "type": "question",
+          "settings": {
+            "title": "Reward Program",
+            "answer": "<p>1人1人のお客様とのより深い結びつきを育み独自のサービスを通して交流を重ねながら好奇心をカタチに変えることを目指すクラブです。わくわくする心を大切にするメンバーとしてあなたのご入会を心より歓迎します。</p><p><a href=\"https://www.karakubuy.com/account/login\" title=\"ログイン\">🏆<strong>【会員限定】每月7、17、27日のお買い物でポイント3倍アップ</strong></a></p><p><strong>100ポイント=1円でご利用可能！</strong>貯まったポイントは100ポイント=1円として次回のお買い物からご利用いただけます。</p><p>※但し、店内の他の割引・サービスとの併用不可</p>"
+          }
+        },
+        "button_jfRmaB": {
+          "type": "button",
+          "settings": {
+            "title": "すべて表示",
+            "link": "https://www.karakubuy.com/pages/karaku-%E4%BC%9A%E5%93%A1%E3%82%B5%E3%83%BC%E3%83%93%E3%82%B9"
+          }
+        },
+        "question_Bz3WDA": {
+          "type": "question",
+          "settings": {
+            "title": "Referral Program",
+            "answer": "<p><strong>お友達紹介特典【10%OFFクーポン】<br/><br/></strong>特典満載！あなたのお友達をご紹介下さい！</p><p>あなたが注文完了後に、注文完了のページに<strong>【お友達にギフトを贈りましょう】</strong>という画像が出てきます。<br/>その上のリンクを経由して、あなたもお友達も次回ご注文時にご注文金額から<strong>10%</strong>OFF。</p>"
+          }
+        },
+        "button_7maYLY": {
+          "type": "button",
+          "settings": {
+            "title": "すべて表示",
+            "link": "https://www.karakubuy.com/pages/%E3%81%8A%E5%8F%8B%E9%81%94%E7%B4%B9%E4%BB%8B%E7%89%B9%E5%85%B8-10-off%E3%82%AF%E3%83%BC%E3%83%9D%E3%83%B3"
+          }
+        },
+        "question_Lr8jiY": {
+          "type": "question",
+          "settings": {
+            "title": "Affiliate Program",
+            "answer": "<p>araKuのアフィリエイトプログラムに参加しませんか？</p><p>KaraKuでは、WEBサイトを運営されている方、SNSアカウントをお持ちで積極的に発信されているインフルエンサーの方を募集しています。</p><p>登録方法</p><p>contact@karakubuy.com</p><p>・メールタイトル「アフィリエイト」で下記をお知らせください。</p><p>①お名前　②お電話番号　③運営されているWEBサイトのURL　または　SNSアカウント</p><p>・内容確認後、担当者より招待メールを発行させて頂きます。※アカウント数に制限がある為、応募多数の場合は先着順となります。予めご了承下さいませ。</p><p>・ご登録頂いた方は、専用のリンクを作成出来ます。WEBサイトやSNSにリンクを追加して宣伝して下さい。</p><p>・リンク経由のご注文について10%～20％までの報酬が支払われる仕組みとなっております。</p><p>お問い合わせ</p><p>実際の商品をご着用頂いての投稿やアフィリエイトプログラムに関するご質問・お問い合わせもメールにて承っております。</p>"
+          }
+        },
+        "button_FizYcY": {
+          "type": "button",
+          "settings": {
+            "title": "すべて表示",
+            "link": "https://www.karakubuy.com/pages/karakus-affiliate-program"
+          }
+        }
+      },
+      "block_order": [
+        "question_x7TPBk",
+        "button_jfRmaB",
+        "question_Bz3WDA",
+        "button_7maYLY",
+        "question_Lr8jiY",
+        "button_FizYcY"
+      ],
+      "settings": {
+        "title": "Karaku Memership"
+      }
+    },
+    "164499689387bfc385": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_ztVC3M": {
+          "type": "heading",
+          "settings": {
+            "title": "デザイン/品質/手頃な価格",
+            "use_h1": false
+          }
+        },
+        "text_7yndQa": {
+          "type": "text",
+          "settings": {
+            "text": "<p>Karakuはいつまでも時代遅れにならない服を開発、<br/>高品質かつ手頃な価格で皆様に提供されることを目指しています。</p>",
+            "enlarge_text": false
+          }
+        },
+        "button_7PAAMm": {
+          "type": "button",
+          "settings": {
+            "button_label": "About US",
+            "button_link": "https://www.karakubuy.com/pages/karakubuy%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+            "button_style": "primary"
+          }
+        }
+      },
+      "block_order": [
+        "heading_ztVC3M",
+        "text_7yndQa",
+        "button_7PAAMm"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/banner-2_1.jpg",
+        "image_2": "shopify://shop_images/banner-0.jpg",
+        "image_width": 700,
+        "image_link": "https://www.karakubuy.com/pages/karakubuy%E3%81%AB%E3%81%A4%E3%81%84%E3%81%A6",
+        "image_position": "left",
+        "text_alignment": "left",
+        "color_scheme": "default"
+      }
+    },
+    "164569833648e5e6d1": {
+      "type": "newsletter",
+      "settings": {
+        "title": "Subscribe to our newsletter",
+        "subheading": "<p>Promotions, new products and sales. Directly to your inbox.</p>",
+        "color_scheme": "default"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "16449092107b5f94e0",
+    "collapsible_tabs_b4fAqG",
+    "164499689387bfc385",
+    "164569833648e5e6d1"
+  ]
+}

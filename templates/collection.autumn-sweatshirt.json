@@ -1,0 +1,293 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "31de3822-29c4-49a0-b3c7-cef4d0e1b8d7": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16829272064219__31de3822-29c4-49a0-b3c7-cef4d0e1b8d7-image-1": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_381baaf4-212a-4697-bbe3-8f41a87c9bb0.jpg",
+            "mobile_image": "shopify://shop_images/2_f1a522af-7356-45fc-865c-c9e512ea5e6a.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": false,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16829272064219__31de3822-29c4-49a0-b3c7-cef4d0e1b8d7-image-1"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "110de094-22d4-4bd3-9130-2d4092961ca6": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16829272064219__110de094-22d4-4bd3-9130-2d4092961ca6-subheading-1": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "AUTUMN SWAETSHIRT"
+          }
+        },
+        "c8b3cb8a-7b7e-46bc-81a6-735acf1c7874": {
+          "type": "text",
+          "settings": {
+            "text": "<p>秋の本命トップスと言えば「スウェット」です。しかしスウェットはラフな印象が強く、大人になるにつれて着こなすのが難しいアイテム。そこで今回、スウェットを上品に着こなすコーデを紹介します！</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16829272064219__110de094-22d4-4bd3-9130-2d4092961ca6-subheading-1",
+        "c8b3cb8a-7b7e-46bc-81a6-735acf1c7874"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "0b201fca-3738-4cd5-8a2a-e6b1cafdcb73": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "31ae94d4-0e89-4112-9617-0257ce5f2d67": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/3_662a68d1-181b-4a55-a02d-7521b31dc778.png",
+            "image-id": "",
+            "image_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "31ae94d4-0e89-4112-9617-0257ce5f2d67"
+      ],
+      "settings": {}
+    },
+    "8c8a393f-3a87-468e-855a-6ca2f04152fe": {
+      "type": "card-link",
+      "blocks": {
+        "79a17234-3b8b-492b-b1ac-a705be2c2d4f": {
+          "type": "Portrait",
+          "settings": {
+            "portrait_image": "shopify://shop_images/1_3_db3380c8-10e5-434e-87fb-e19e44294808.png"
+          }
+        },
+        "17be344a-5823-4cb2-843f-46758540a049": {
+          "type": "Card",
+          "settings": {
+            "image": "shopify://shop_images/1_3.png",
+            "card_product_text1": "",
+            "product_link1": "",
+            "card_product_text2": "- SWEATSHIRT -",
+            "product_link2": "https://www.karakubuy.com/products/krk-ok-3503?_pos=1&_sid=28c50da5c&_ss=r&variant=44242608128219",
+            "card_product_text3": "- PANTS -",
+            "product_link3": "https://www.karakubuy.com/products/krk-sx1876?_pos=1&_sid=3bd507caa&_ss=r&variant=44216279138523",
+            "card_product_text4": "- SNEAKER -",
+            "product_link4": "https://www.karakubuy.com/products/krk-md-ma2304044?_pos=1&_sid=3382a9e4a&_ss=r&variant=44208983310555"
+          }
+        },
+        "929a164a-26a7-4ae8-a35a-ed14934d9407": {
+          "type": "Card",
+          "settings": {
+            "image": "shopify://shop_images/1_a80f8f74-bd92-4c04-a6c9-f7bdb3e0e12d.png",
+            "card_product_text1": "- HOODIE -",
+            "product_link1": "https://www.karakubuy.com/products/dh090802",
+            "card_product_text2": "- HENRY TSHIRT -",
+            "product_link2": "https://www.karakubuy.com/products/krk-cf-057?_pos=2&_sid=ae480366f&_ss=r&variant=43857200218331",
+            "card_product_text3": "- CHINO PANTS -",
+            "product_link3": "https://www.karakubuy.com/products/krk-yj-s01chino?_pos=1&_sid=c29f1e4e7&_ss=r&variant=42645628453083",
+            "card_product_text4": "- SNEAKER -",
+            "product_link4": "https://www.karakubuy.com/products/krk-md-md2007003?_pos=1&_sid=4955e150c&_ss=r&variant=41294200668338"
+          }
+        },
+        "f342b14f-7190-42fc-9f5f-588f256802a0": {
+          "type": "Portrait",
+          "settings": {
+            "portrait_image": "shopify://shop_images/1_f0f9bc53-8537-4c4d-a13f-93d11cccfcc8.png"
+          }
+        },
+        "3ac7ab2b-3965-4e59-84d0-e6ec93d7ed4f": {
+          "type": "Portrait",
+          "settings": {
+            "portrait_image": "shopify://shop_images/1_d1fcb688-43e1-419e-be30-2aa94c2a6526.png"
+          }
+        },
+        "d03ae5dc-7ea3-4963-8fbe-86eed778d3ae": {
+          "type": "Card",
+          "settings": {
+            "image": "shopify://shop_images/1_4b9b2c91-9256-4e96-9454-2ce1e42afb02.png",
+            "card_product_text1": "- SWEATSHIRT -",
+            "product_link1": "https://www.karakubuy.com/products/krk-md-tw2107050?_pos=3&_sid=2ba5e756e&_ss=r&variant=43424118210779",
+            "card_product_text2": "- SHIRT -",
+            "product_link2": "https://www.karakubuy.com/products/krk-ae5291c?_pos=1&_sid=39bb3cd1b&_ss=r&variant=44235598233819",
+            "card_product_text3": "- PANTS -",
+            "product_link3": "https://www.karakubuy.com/products/krk-mhy-0138?_pos=1&_sid=aaa06d385&_ss=r&variant=44008135655643",
+            "card_product_text4": "- SNEAKER -",
+            "product_link4": "https://www.karakubuy.com/products/md-2001005?_pos=2&_sid=445ea7e9c&_ss=r"
+          }
+        },
+        "8d1c0135-f18e-4126-8f95-7f58a275f7e0": {
+          "type": "Portrait",
+          "settings": {
+            "portrait_image": "shopify://shop_images/1_2_1.png"
+          }
+        },
+        "a6dc4aed-79c2-4f47-8ee5-8e1bf7d5d783": {
+          "type": "Card",
+          "settings": {
+            "image": "shopify://shop_images/1_2_8e0023f6-0c59-4d9e-b761-4b781c484007.png",
+            "card_product_text1": "- SWEATSHIRT -",
+            "product_link1": "https://www.karakubuy.com/products/krk-gl-1104?_pos=1&_sid=0c162e0ed&_ss=r&variant=44215399153883",
+            "card_product_text2": "- WORK PANTS -",
+            "product_link2": "https://www.karakubuy.com/products/nk-tw52?_pos=1&_sid=82171c78b&_ss=r",
+            "card_product_text3": "- SNEAKER -",
+            "product_link3": "https://www.karakubuy.com/products/krk-md-ma2204014?_pos=1&_sid=3116e3d93&_ss=r&variant=42800282960091",
+            "card_product_text4": "",
+            "product_link4": ""
+          }
+        }
+      },
+      "block_order": [
+        "79a17234-3b8b-492b-b1ac-a705be2c2d4f",
+        "17be344a-5823-4cb2-843f-46758540a049",
+        "929a164a-26a7-4ae8-a35a-ed14934d9407",
+        "f342b14f-7190-42fc-9f5f-588f256802a0",
+        "3ac7ab2b-3965-4e59-84d0-e6ec93d7ed4f",
+        "d03ae5dc-7ea3-4963-8fbe-86eed778d3ae",
+        "8d1c0135-f18e-4126-8f95-7f58a275f7e0",
+        "a6dc4aed-79c2-4f47-8ee5-8e1bf7d5d783"
+      ],
+      "settings": {}
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "1649757612ea7476eb": {
+      "type": "text-editor",
+      "settings": {
+        "data_wrapper_1250": false,
+        "text1": "<p>{{ collection.metafields.commodity.productintroduction | metafield_tag }}</p>"
+      }
+    },
+    "aaa428fa-f49f-4d97-bb6f-8aa91d805138": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/v2-7b2c352f51fb0ae33ea41f7032a471a2_720w.png"
+      }
+    },
+    "bc18b3ba-2fbb-40e3-ac5d-ff66e2226ee7": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Autumn-sweatshirt",
+        "collection": "autumn-sweatshirt",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "c8e8e8f8-1480-4110-aa32-20de0e9c1833": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    }
+  },
+  "order": [
+    "31de3822-29c4-49a0-b3c7-cef4d0e1b8d7",
+    "110de094-22d4-4bd3-9130-2d4092961ca6",
+    "0b201fca-3738-4cd5-8a2a-e6b1cafdcb73",
+    "8c8a393f-3a87-468e-855a-6ca2f04152fe",
+    "main",
+    "1649757612ea7476eb",
+    "aaa428fa-f49f-4d97-bb6f-8aa91d805138",
+    "bc18b3ba-2fbb-40e3-ac5d-ff66e2226ee7",
+    "c8e8e8f8-1480-4110-aa32-20de0e9c1833"
+  ]
+}

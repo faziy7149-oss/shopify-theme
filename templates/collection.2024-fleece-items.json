@@ -1,0 +1,451 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+ {
+  "sections": {
+    "dynamic_picture_BMchFH": {
+      "type": "dynamic-picture",
+      "blocks": {
+        "image_x7Aaik": {
+          "type": "image",
+          "settings": {
+            "image_hover": "shopify://shop_images/1_b98cd842-2a98-4366-b29c-12fa43f6eecf.png",
+            "top_location": 8,
+            "left_location": 60,
+            "top_location2": 15,
+            "left_location2": 44,
+            "pc_img_width": 40,
+            "m_img_width": 69
+          }
+        },
+        "image2_NiNjmK": {
+          "type": "image2",
+          "settings": {
+            "image_hover_2": "shopify://shop_images/2-1920.png",
+            "bottom_location": 1,
+            "right_location": 65,
+            "right_location2": 60,
+            "bottom_location2": 5,
+            "pc_img_width2": 31,
+            "m_img_width2": 60
+          }
+        }
+      },
+      "block_order": [
+        "image_x7Aaik",
+        "image2_NiNjmK"
+      ],
+      "settings": {
+        "image": "shopify://shop_images/540____1920-1.jpg",
+        "image2": "shopify://shop_images/540____1080-1.jpg",
+        "img_animation": "updown"
+      }
+    },
+    "image_bExT8y": {
+      "type": "image",
+      "settings": {
+        "pc_image": "shopify://shop_images/1920_1bba3bcc-e14c-433c-936d-13211c908d42.png",
+        "mobile_image": "shopify://shop_images/720_1130457d-b5b5-490d-99a1-54700ed2e602.png",
+        "img_rul": ""
+      }
+    },
+    "divider_cJJgRF": {
+      "type": "divider",
+      "settings": {}
+    },
+    "adjusting_spacing_tE9qWx": {
+      "type": "adjusting-spacing",
+      "settings": {
+        "margin_top": 0,
+        "margin_top2": -3
+      }
+    },
+    "image_slider_JUtQY3": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_NJT6rD": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-1_71a68361-ea08-4282-8218-5c39b827c81a.jpg"
+          }
+        },
+        "image_slider_mnct9t": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-2_fe1054ca-e4d7-4dd0-8711-b0d2223e0d5a.jpg"
+          }
+        },
+        "image_slider_DerPK3": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-4_a64bc672-0430-4bf7-a8e0-1b34a7ff12ea.jpg"
+          }
+        },
+        "image_slider_FiTGpm": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-3_2c3247ec-16e6-421a-a68a-4f37257ce3ae.jpg"
+          }
+        },
+        "main_diagram_rAmygJ": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-1_e298c792-cba5-4a91-a525-f1f7be98091d.jpg",
+            "main_img2": "shopify://shop_images/600x720-2_1cf3fac9-230f-40ee-ad11-0899e1f57bfb.jpg"
+          }
+        },
+        "image_info_jAPWEC": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "伝統的な模様とモダンなデザインが融合し、クラシックでありながらも現代的なスタイルを実現。軽やか着心地を提供するポーラーフリース素材を使用しており、素肌に直接着ても快適です。",
+            "price_discount": 8388,
+            "original_price": 13980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-zyd-nwhglwy809?_pos=1&_sid=be0668e74&_ss=r&variant=45996704989403"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_NJT6rD",
+        "image_slider_mnct9t",
+        "image_slider_DerPK3",
+        "image_slider_FiTGpm",
+        "main_diagram_rAmygJ",
+        "image_info_jAPWEC"
+      ],
+      "settings": {
+        "data_title": "ナバホ柄コンビ　ハーフジップポーラーフリースプルオーバースウェット",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#100f0f",
+        "price_col": "#f96e00",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#c7d0d8",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#f27714"
+      }
+    },
+    "image_slider_wCBReq": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_aGnWMY": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-5.jpg"
+          }
+        },
+        "image_slider_KpxmBt": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-6.jpg"
+          }
+        },
+        "image_slider_EYYmYW": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-7.jpg"
+          }
+        },
+        "image_slider_i8twkd": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-8.jpg"
+          }
+        },
+        "main_diagram_wwamdg": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-3.jpg",
+            "main_img2": "shopify://shop_images/600x720-4.jpg"
+          }
+        },
+        "image_info_yHGfJi": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "両面フリース仕様なので保温性も高く通気性・吸水性・耐久性に優れているので、長いシーズンで使用できるのも嬉しいポイント。しっかりと度詰めされたポリエステルを使用しているため型崩れがしづらいのも特徴です。",
+            "price_discount": 8590,
+            "original_price": 13390,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-md-ts2107096?_pos=2&_sid=f2c5ee139&_ss=r&variant=43742902419675"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_aGnWMY",
+        "image_slider_KpxmBt",
+        "image_slider_EYYmYW",
+        "image_slider_i8twkd",
+        "main_diagram_wwamdg",
+        "image_info_yHGfJi"
+      ],
+      "settings": {
+        "data_title": "ポーラテックフリースハーフジップパーカー",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#100f0f",
+        "price_col": "#f96e00",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#c7d0d8",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#f27714"
+      }
+    },
+    "image_slider_MBiqDQ": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_eBKdqU": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-16.jpg"
+          }
+        },
+        "image_slider_CprzC9": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-9.jpg"
+          }
+        },
+        "image_slider_Fjh9Dy": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-14.jpg"
+          }
+        },
+        "image_slider_bqJR8Y": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-13.jpg"
+          }
+        },
+        "main_diagram_hyr3c7": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-7.jpg",
+            "main_img2": "shopify://shop_images/600x720-8.jpg"
+          }
+        },
+        "image_info_NNaJch": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "軽量でありながら、保温性、通気性に優れているポーラーフリース素材を使用し、滑らかな触り心地で、ストレスなく着用していただけます。",
+            "price_discount": 7990,
+            "original_price": 10980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-md-tw2107050?_pos=4&_sid=9bb4e1bb1&_ss=r&variant=43424118210779"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_eBKdqU",
+        "image_slider_CprzC9",
+        "image_slider_Fjh9Dy",
+        "image_slider_bqJR8Y",
+        "main_diagram_hyr3c7",
+        "image_info_NNaJch"
+      ],
+      "settings": {
+        "data_title": "袖先サムホール　ポーラーフリーススウェット",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#100f0f",
+        "price_col": "#f96e00",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#c7d0d8",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#f27714"
+      }
+    },
+    "image_slider_hGTgfx": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_4RnCBd": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-17.jpg"
+          }
+        },
+        "image_slider_EJ4Kzr": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-20.jpg"
+          }
+        },
+        "image_slider_fBBGGE": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-19.jpg"
+          }
+        },
+        "image_slider_VtTz7U": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-18.jpg"
+          }
+        },
+        "main_diagram_PT6iNK": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-9.jpg",
+            "main_img2": "shopify://shop_images/600x720-10.jpg"
+          }
+        },
+        "image_info_wKCmrT": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "裾部分は絞りが施されている。足首周りを程よく引き締め、スタイリッシュな印象を与え。リブ編みが使用、しっかりとしたフィット感を提供。裏地にフリース素材を使用し。柔らかく暖かい素材であり、寒い季節に快適さを提供。また、通気性もあり、汗を吸収しやすい特徴があり。",
+            "price_discount": 12980,
+            "original_price": 0,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-md-tw2307300?_pos=1&_sid=8845a0e52&_ss=r&variant=44485173510363"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_4RnCBd",
+        "image_slider_EJ4Kzr",
+        "image_slider_fBBGGE",
+        "image_slider_VtTz7U",
+        "main_diagram_PT6iNK",
+        "image_info_wKCmrT"
+      ],
+      "settings": {
+        "data_title": "裾絞り　裏フリースイージーパンツ",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#100f0f",
+        "price_col": "#f96e00",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#c7d0d8",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#f27714"
+      }
+    },
+    "image_slider_RRQdzd": {
+      "type": "image-slider",
+      "blocks": {
+        "image_slider_4GqQ4T": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-25.jpg"
+          }
+        },
+        "image_slider_DXdzqz": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-27.jpg"
+          }
+        },
+        "image_slider_FTDpj4": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-21.jpg"
+          }
+        },
+        "image_slider_nUYcCE": {
+          "type": "imageSlider",
+          "settings": {
+            "slider_img": "shopify://shop_images/370x370-28.jpg"
+          }
+        },
+        "main_diagram_CgrLPB": {
+          "type": "mainDiagram",
+          "settings": {
+            "main_img": "shopify://shop_images/600x720-13.jpg",
+            "main_img2": "shopify://shop_images/600x720-14.jpg"
+          }
+        },
+        "image_info_863BRf": {
+          "type": "imageInfo",
+          "settings": {
+            "info_text": "首元をしっかり覆うミッドカラーデザインで風の入り込みを防いでくれて、暖かくマフラー要らずの秋冬にうれしいデザインです。襟、裾周りと袖口はリブ編みで立ち上がり、動かしやすく、スポーティな雰囲気をプラス。身幅にややゆとりを持たせ、程よく肩のラインをドロップさせたトレンド感のあるボックスシルエット。",
+            "price_discount": 9980,
+            "original_price": 12980,
+            "but_tex": "VIEW MORE",
+            "btn_url": "https://karakubuy.com/products/krk-md-tw2307287?_pos=1&_sid=3a533f56d&_ss=r&variant=44356269899995"
+          }
+        }
+      },
+      "block_order": [
+        "image_slider_4GqQ4T",
+        "image_slider_DXdzqz",
+        "image_slider_FTDpj4",
+        "image_slider_nUYcCE",
+        "main_diagram_CgrLPB",
+        "image_info_863BRf"
+      ],
+      "settings": {
+        "data_title": "ドローコード付き　ポーラーフリースミッドカラー無地スウェット",
+        "data_tit_col": "#ffffff",
+        "info_text_col": "#100f0f",
+        "price_col": "#f96e00",
+        "og_price_col": "#6d7175",
+        "but_font_col": "#ffffff",
+        "but_col": "#c7d0d8",
+        "but_font_col2": "#ffffff",
+        "but_col2": "#f27714"
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "none",
+        "show_filter_counts": false,
+        "filter_two_columns": false,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "background_image_KzJTUT": {
+      "type": "background-image",
+      "settings": {
+        "image": "shopify://shop_images/Snipaste_2024-11-29_17-14-33.jpg"
+      }
+    }
+  },
+  "order": [
+    "dynamic_picture_BMchFH",
+    "image_bExT8y",
+    "divider_cJJgRF",
+    "adjusting_spacing_tE9qWx",
+    "image_slider_JUtQY3",
+    "image_slider_wCBReq",
+    "image_slider_MBiqDQ",
+    "image_slider_hGTgfx",
+    "image_slider_RRQdzd",
+    "main",
+    "background_image_KzJTUT"
+  ]
+}

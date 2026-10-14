@@ -1,0 +1,103 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "main": {
+      "type": "main-blog",
+      "disabled": true,
+      "settings": {
+        "show_page_title": true,
+        "layout": "list",
+        "crop_ratio": "1.78",
+        "show_author": true,
+        "show_date": true,
+        "show_excerpts": true,
+        "show_article_tags": true,
+        "show_rss_icon": true,
+        "show_twitter": true,
+        "show_facebook": true
+      }
+    },
+    "blog_listing_wTifhc": {
+      "type": "blog-listing",
+      "name": "Blog listing",
+      "settings": {
+        "heading": "FEATURES",
+        "blog": "karaku-features",
+        "blog_handle": "karaku-features",
+        "posts_per_page": "8",
+        "desktop_columns": 4,
+        "mobile_columns": "1",
+        "gap": 20,
+        "show_search": true,
+        "show_tag_filter": true,
+        "tag_display_order": "",
+        "show_year_filter": true,
+        "search_placeholder": "Search keywords...",
+        "read_more_text": "Read more",
+        "load_more_text": "Load more",
+        "title_size": 48,
+        "max_width": 1400,
+        "image_aspect_ratio": "130%",
+        "section_padding": 60,
+        "background_color": "#ffffff",
+        "text_color": "#333029",
+        "heading_color": "#333029",
+        "muted_color": "#000000",
+        "search_bg_color": "#ffffff",
+        "search_text_color": "#333029",
+        "search_border_color": "#333333",
+        "search_placeholder_color": "#777777",
+        "accent_color": "#000000",
+        "accent_text_color": "#111111",
+        "chip_bg_color": "#ffffff",
+        "chip_text_color": "#333029",
+        "chip_hover_bg_color": "#333333",
+        "chip_hover_text_color": "#ffffff",
+        "chip_active_bg_color": "#ffffff",
+        "chip_active_text_color": "#ee4213",
+        "card_bg_color": "#ffffff",
+        "button_bg_color": "#353535",
+        "button_text_color": "#ffffff",
+        "button_hover_bg_color": "#000000",
+        "button_hover_text_color": "#ffffff"
+      }
+    },
+    "adjusting_spacing_VbiHMy": {
+      "type": "adjusting-spacing",
+      "name": "Adjusting the spacing",
+      "settings": {
+        "margin_top": -4,
+        "margin_top2": -6
+      }
+    },
+    "divider_VEpXVd": {
+      "type": "divider",
+      "name": "Divider",
+      "settings": {}
+    },
+    "image_3pgk98": {
+      "type": "image",
+      "name": "Image",
+      "settings": {
+        "pc_image": "shopify://shop_images/VS-0113__banner.jpg",
+        "mobile_image": "shopify://shop_images/1080_d974fd88-b918-46fc-9f41-f49813a8d330.jpg",
+        "img_rul": "https://karakubuy.com/collections"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "blog_listing_wTifhc",
+    "adjusting_spacing_VbiHMy",
+    "divider_VEpXVd",
+    "image_3pgk98"
+  ]
+}

@@ -1,0 +1,412 @@
+/*
+ * ------------------------------------------------------------
+ * IMPORTANT: The contents of this file are auto-generated.
+ *
+ * This file may be updated by the Shopify admin theme editor
+ * or related systems. Please exercise caution as any changes
+ * made to this file may be overwritten.
+ * ------------------------------------------------------------
+ */
+{
+  "sections": {
+    "32bed3ce-9d13-4cdd-bee1-cfe0dc68c0c9": {
+      "type": "slideshow",
+      "blocks": {
+        "template--16756949844187__32bed3ce-9d13-4cdd-bee1-cfe0dc68c0c9-1686650790f5fb06c6-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/1_b5caf7b3-9d3c-44b4-8f16-4fe0d5cf4b84.jpg",
+            "slide_link": "",
+            "subheading": "",
+            "title": "",
+            "heading_max_width": 15,
+            "title_size": 46,
+            "title_size_mobile": 46,
+            "use_h1": false,
+            "text": "",
+            "enlarge_text": true,
+            "button_label_1": "",
+            "button_url_1": "",
+            "button_label_2": "",
+            "button_url_2": "",
+            "text_alignment": "center center"
+          }
+        }
+      },
+      "block_order": [
+        "template--16756949844187__32bed3ce-9d13-4cdd-bee1-cfe0dc68c0c9-1686650790f5fb06c6-0"
+      ],
+      "settings": {
+        "height": "adapt",
+        "height_desktop": 600,
+        "height_mobile": 500,
+        "full_width": true,
+        "mobile_overlay_under": false,
+        "overlay_style": "no_background",
+        "transition": "fade",
+        "navigation": "arrows",
+        "autoplay": true,
+        "autoplay_speed": 7,
+        "accessibility_info": ""
+      }
+    },
+    "main": {
+      "type": "main-collection",
+      "disabled": true,
+      "settings": {
+        "show_title": true,
+        "show_image_behind_heading": false,
+        "heading_image_height": "medium",
+        "overlay_style": "shadow",
+        "coll_desc_pos": "above",
+        "coll_num_per_page_int": 48,
+        "grid": 4,
+        "show_vendor": false,
+        "show_total": false,
+        "enable_filtering": true,
+        "collapse_tag_sidebar_by_default": false,
+        "collapse_filters_method": "all",
+        "show_filter_counts": false,
+        "filter_two_columns": true,
+        "button_grid_filter_name": "Size,Taille,Größe",
+        "auto_apply_hide_unavailable": false,
+        "enable_sticky_filter": true,
+        "show_sort": true,
+        "sort_show_featured": false,
+        "sort_show_best": true,
+        "sort_show_alpha": true,
+        "sort_show_price": true,
+        "sort_show_date": true,
+        "related_collections": [],
+        "related_collections_style": "buttons",
+        "rel_coll_gall_aspect_ratio": "1",
+        "image_position": "center center",
+        "rel_coll_gall_enable_margin": true,
+        "rel_coll_gall_full_width": false,
+        "rel_coll_gall_overlay_style": "shadow",
+        "rel_coll_gall_text_alignment": "center center",
+        "rel_coll_grid_mobile": "2"
+      }
+    },
+    "3eb3162b-6ec6-41be-b2f0-3921d9c10090": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16756949844187__3eb3162b-6ec6-41be-b2f0-3921d9c10090-16866523360a5d974e-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "2023 summer collection"
+          }
+        },
+        "template--16756949844187__3eb3162b-6ec6-41be-b2f0-3921d9c10090-16866523360a5d974e-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p><strong>KARAKUがこの夏推していきたいシリーズを一挙ご紹介。</strong></p><p><strong>今の時期から先まで着まわせる万能アイテムが盛りだくさん。</strong></p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16756949844187__3eb3162b-6ec6-41be-b2f0-3921d9c10090-16866523360a5d974e-0",
+        "template--16756949844187__3eb3162b-6ec6-41be-b2f0-3921d9c10090-16866523360a5d974e-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "c250f3dc-dfea-42d9-b20e-a44ccfa749a4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16756949844187__c250f3dc-dfea-42d9-b20e-a44ccfa749a4-16868234456b5d36c7-0": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "-01-"
+          }
+        },
+        "template--16756949844187__c250f3dc-dfea-42d9-b20e-a44ccfa749a4-16868234456b5d36c7-1": {
+          "type": "heading",
+          "settings": {
+            "title": "ALOHA SHIRT COLLECTION",
+            "use_h1": false
+          }
+        },
+        "template--16756949844187__c250f3dc-dfea-42d9-b20e-a44ccfa749a4-16868234456b5d36c7-2": {
+          "type": "text",
+          "settings": {
+            "text": "<p>まずはKaraku大人気のアロハシャツコレクションです！華やかでカラフルな色彩で染め上げた夏に過ごしましょう！</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16756949844187__c250f3dc-dfea-42d9-b20e-a44ccfa749a4-16868234456b5d36c7-0",
+        "template--16756949844187__c250f3dc-dfea-42d9-b20e-a44ccfa749a4-16868234456b5d36c7-1",
+        "template--16756949844187__c250f3dc-dfea-42d9-b20e-a44ccfa749a4-16868234456b5d36c7-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "21066f51-0710-4df6-acd4-7a4817b83022": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "template--16756949844187__21066f51-0710-4df6-acd4-7a4817b83022-1686652310487739c5-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/667-1.jpg",
+            "image-id": "",
+            "image_link": "shopify://collections/hawaiian-shirts"
+          }
+        }
+      },
+      "block_order": [
+        "template--16756949844187__21066f51-0710-4df6-acd4-7a4817b83022-1686652310487739c5-0"
+      ],
+      "settings": {}
+    },
+    "4eabd1b6-c14c-42dd-8635-d76db13491d4": {
+      "type": "rich-text",
+      "blocks": {
+        "template--16756949844187__4eabd1b6-c14c-42dd-8635-d76db13491d4-16867400572dea5e00-0": {
+          "type": "subheading",
+          "disabled": true,
+          "settings": {
+            "subheading": "-01-"
+          }
+        },
+        "template--16756949844187__4eabd1b6-c14c-42dd-8635-d76db13491d4-16867400572dea5e00-1": {
+          "type": "heading",
+          "disabled": true,
+          "settings": {
+            "title": "Aloha collection",
+            "use_h1": false
+          }
+        },
+        "template--16756949844187__4eabd1b6-c14c-42dd-8635-d76db13491d4-16867400572dea5e00-2": {
+          "type": "text",
+          "disabled": true,
+          "settings": {
+            "text": "<p>華やかでカラフルな色彩で染め上げたアロハシャツ</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "template--16756949844187__4eabd1b6-c14c-42dd-8635-d76db13491d4-16867400572dea5e00-0",
+        "template--16756949844187__4eabd1b6-c14c-42dd-8635-d76db13491d4-16867400572dea5e00-1",
+        "template--16756949844187__4eabd1b6-c14c-42dd-8635-d76db13491d4-16867400572dea5e00-2"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "509ef1b6-caca-4412-bbda-19a23dbd6a98": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Aloha Collection",
+        "collection": "hawaiian-shirts",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 4,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "eaded4a1-97b5-4e7e-9422-9b2fb6b62609": {
+      "type": "rich-text",
+      "blocks": {
+        "1d84bd40-17d4-443d-ad12-375b61538832": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "-02-"
+          }
+        },
+        "ac7d4846-7b81-45fe-97f8-42e7389cb5b5": {
+          "type": "heading",
+          "settings": {
+            "title": "INDIGO COLLECTION",
+            "use_h1": false
+          }
+        },
+        "c17f867c-31d6-44b3-949f-0334ad896113": {
+          "type": "text",
+          "settings": {
+            "text": "<p>夏コーデになんだか新鮮味を加えたくなる時、爽やかなインディゴブルーは役に立つ！</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "1d84bd40-17d4-443d-ad12-375b61538832",
+        "ac7d4846-7b81-45fe-97f8-42e7389cb5b5",
+        "c17f867c-31d6-44b3-949f-0334ad896113"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "4d48ce39-1b75-44e3-a25b-b0c01dafb533": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "template--16756949844187__4d48ce39-1b75-44e3-a25b-b0c01dafb533-1686652310487739c5-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/667-3.jpg",
+            "image-id": "",
+            "image_link": "shopify://collections/手作り-ジャパン-ブルー-1"
+          }
+        }
+      },
+      "block_order": [
+        "template--16756949844187__4d48ce39-1b75-44e3-a25b-b0c01dafb533-1686652310487739c5-0"
+      ],
+      "settings": {}
+    },
+    "a49717c2-4df2-4e5b-ba20-4eeffd287164": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Indigo Collection",
+        "collection": "手作り-ジャパン-ブルー-1",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "c050ce95-5334-41e9-9b6e-fdad1cb6dc53": {
+      "type": "rich-text",
+      "blocks": {
+        "eb684751-e79a-42f2-8519-ef9f7f9805b7": {
+          "type": "subheading",
+          "settings": {
+            "subheading": "-03-"
+          }
+        },
+        "b112769e-de56-4a63-8084-59337b407a3a": {
+          "type": "heading",
+          "settings": {
+            "title": "HEAVYWEIGHT   COLLECTION",
+            "use_h1": false
+          }
+        },
+        "27becb7f-0b0f-4f47-a517-f43308e02218": {
+          "type": "text",
+          "settings": {
+            "text": "<p>真夏は「生地の厚さで汗をより吸う生地吸湿キャパがある厚手になるほど涼しい」が正解！</p>",
+            "enlarge_text": false
+          }
+        }
+      },
+      "block_order": [
+        "eb684751-e79a-42f2-8519-ef9f7f9805b7",
+        "b112769e-de56-4a63-8084-59337b407a3a",
+        "27becb7f-0b0f-4f47-a517-f43308e02218"
+      ],
+      "settings": {
+        "height": "medium",
+        "text_alignment": "center",
+        "full_width": false,
+        "color_scheme": "default"
+      }
+    },
+    "61be8f12-b096-4857-b23c-37015a18e2ce": {
+      "type": "image-jump-custom",
+      "blocks": {
+        "template--16756949844187__61be8f12-b096-4857-b23c-37015a18e2ce-1686739094bf482d71-0": {
+          "type": "image",
+          "settings": {
+            "image": "shopify://shop_images/667-2_c4f336fe-7b1f-42f0-846e-86fc714463ea.jpg",
+            "image-id": "",
+            "image_link": "shopify://collections/heavyweight-tee"
+          }
+        }
+      },
+      "block_order": [
+        "template--16756949844187__61be8f12-b096-4857-b23c-37015a18e2ce-1686739094bf482d71-0"
+      ],
+      "settings": {}
+    },
+    "cc1d41dd-4bba-41f4-98bf-8be2ad14e32c": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "Heavyweight Tee Collection",
+        "collection": "heavyweight-tee",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "2ed9f4ef-dfd9-43d6-af0f-999b9f6f95d1": {
+      "type": "featured-collection",
+      "settings": {
+        "title": "2023-Summer-Collection",
+        "collection": "2023summer-collection",
+        "show_vendor": false,
+        "enable_carousel": true,
+        "grid": 4,
+        "rows": 1,
+        "color_scheme": "default",
+        "show_view_all": true,
+        "full_width": true
+      }
+    },
+    "72637263-2a42-4d29-883d-ed38e06ec456": {
+      "type": "tag-link",
+      "settings": {
+        "tag_name1": "{{ collection.metafields.my_fields.tag_name1.value }}",
+        "tag_link1": "{{ collection.metafields.my_fields.tag_links1.value }}",
+        "tag_name2": "{{ collection.metafields.my_fields.tag_name2.value }}",
+        "tag_link2": "{{ collection.metafields.my_fields.tag_links2.value }}",
+        "tag_name3": "{{ collection.metafields.my_fields.tag_name3.value }}",
+        "tag_link3": "{{ collection.metafields.my_fields.tag_links3.value }}",
+        "tag_name4": "{{ collection.metafields.my_fields.tag_name4.value }}",
+        "tag_link4": "{{ collection.metafields.my_fields.tag_links4.value }}",
+        "tag_name5": "{{ collection.metafields.my_fields.tag_name5.value }}",
+        "tag_link5": "{{ collection.metafields.my_fields.tag_links5.value }}",
+        "tag_name6": "{{ collection.metafields.my_fields.tag_name6.value }}",
+        "tag_link6": "{{ collection.metafields.my_fields.tag_links6.value }}",
+        "tag_name7": "{{ collection.metafields.my_fields.tag_name7.value }}",
+        "tag_link7": "{{ collection.metafields.my_fields.tag_links7.value }}",
+        "tag_name8": "{{ collection.metafields.my_fields.tag_name8.value }}",
+        "tag_link8": "{{ collection.metafields.my_fields.tag_links8.value }}"
+      }
+    }
+  },
+  "order": [
+    "32bed3ce-9d13-4cdd-bee1-cfe0dc68c0c9",
+    "main",
+    "3eb3162b-6ec6-41be-b2f0-3921d9c10090",
+    "c250f3dc-dfea-42d9-b20e-a44ccfa749a4",
+    "21066f51-0710-4df6-acd4-7a4817b83022",
+    "4eabd1b6-c14c-42dd-8635-d76db13491d4",
+    "509ef1b6-caca-4412-bbda-19a23dbd6a98",
+    "eaded4a1-97b5-4e7e-9422-9b2fb6b62609",
+    "4d48ce39-1b75-44e3-a25b-b0c01dafb533",
+    "a49717c2-4df2-4e5b-ba20-4eeffd287164",
+    "c050ce95-5334-41e9-9b6e-fdad1cb6dc53",
+    "61be8f12-b096-4857-b23c-37015a18e2ce",
+    "cc1d41dd-4bba-41f4-98bf-8be2ad14e32c",
+    "2ed9f4ef-dfd9-43d6-af0f-999b9f6f95d1",
+    "72637263-2a42-4d29-883d-ed38e06ec456"
+  ]
+}
